@@ -1,0 +1,2074 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Prose//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
+%PersProse;
+]>
+<TEI.2>
+<teiHeader type="text" status="new">
+<fileDesc>
+<titleStmt>
+<title>Defence of Poesie</title>
+<author>Sir Philip Sidney</author>
+&responsibility;
+</titleStmt>
+&Perseus.publish;
+<sourceDesc>
+<bibl>
+<title>The Defence of Poesie</title>
+<author>Sir Philip Sidney</author>
+<publisher>William Ponsonby</publisher>
+<pubPlace>London</pubPlace>
+<date>1595</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<refsDecl>
+  <state unit="paragraph" n="chunk"/>
+</refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="la">Latin</language>
+<language id="greek">Greek&gt;</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change><date>12-Apr-01</date>
+<respStmt><name>Anne Mahoney</name><resp>ed.</resp></respStmt>
+<item>
+$Log: defense.xml,v $
+Revision 1.1  2009-12-09 18:48:07  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.2  2004/04/22 14:30:09  cwulfman
+Fixed log entry in item element
+
+Revision 1.1  2004/04/22 13:36:45  cwulfman
+Making xml version primary; archiving sgml version
+
+Revision 1.3  2003/07/01 22:17:57  yorkc
+Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+
+Revision 1.2  2001/04/12 22:12:37  amahoney
+fix spacing around punctuation
+
+Revision 1.1  2001/04/12 21:33:11  amahoney
+new file, just for fun
+
+</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text>
+<body>
+<div1 type="paragraph" n="1">
+<p>When the right vertuous <name rend="italic">E. W.</name> and I were
+at the Emperours Court togither, wee gaue our selues to learne
+horsemanship of <name rend="italic">Ion Pietro Pugliano, </name> one
+that with great commendation had the place of an Esquire in his
+stable: and hee according to the fertilnes of the Italian wit, did not
+onely affoord vs the demonstration of his practise, but sought to
+enrich our mindes with the contemplations therein, which he thought
+most precious. But with none I remember mine eares were at any time
+more loaden, then when (either angred with slow paiment, or mooued
+with our learnerlike admiration) hee exercised his speech in the
+praise of his facultie. He said souldiers were the noblest estate of
+mankind, and horsemen the noblest of souldiers. He said they were the
+maisters of warre, and ornaments of peace, speedie goers, and strong
+abiders, triumphers both in Camps and Courts:  nay to so vnbleeued a
+point he proceeded, as that no earthly thing bred such wonder to a
+Prince, as to be a good horseman.  Skill of gouernment was but a
+<foreign lang="la">Pedanteria, </foreign> in comparison, then would he
+adde certaine praises by telling what a peerlesse beast the horse was,
+the onely seruiceable Courtier without flattery, the beast of most
+bewtie, faithfulnesse, courage, and such more, that if I had not bene
+a peece of a <name rend="italic">Logician</name> before I came to him,
+I thinke he would haue perswaded me to haue wished my selfe a horse.
+But thus much at least, with his no few words he draue into me, that
+selfeloue is better then any guilding, to make that seem gorgious
+wherin our selues be parties. 
+</p></div1>
+
+<div1 type="paragraph" n="2">
+<p>Wherin if <name rend="italic">Pulianos</name> strong affection and weake arguments
+will not satisfie you, I wil giue you a nearer example
+of my selfe, who I know not by what mischance in
+these my not old yeares and idlest times, hauing slipt
+into the title of a Poet, am prouoked to say somthing
+vnto you in the defence of that my vnelected vocation, which if I handle with more good will, then
+good reasons beare with me, since the scholler is to
+be pardoned that followeth the steps of his maister. 
+And yet I must say, that as I haue more iust cause to
+make a pittifull defence of poore <name rend="italic">Poetrie</name>, which
+from almost the highest estimation of learning, is
+falne to be the laughing stocke of children, so haue
+I need to bring some more auaileable proofes, since
+the former is by no man bard of his deserued credit, 
+the silly later, hath had euen the names of <name rend="italic">Philosophers, </name> vsed to the defacing of it, with great daunger
+of ciuill warre among the Muses. 
+</p></div1>
+<div1 type="paragraph" n="3">
+<p>And first truly to
+all them that professing learning enuey against Poetrie, may iustly be obiected, that they go very neare
+to vngratefulnesse, to seeke to deface that which in
+the noblest nations and languages that are knowne, 
+hath bene the first light giuer to ignorance, and first
+nurse whose milke litle by litle enabled them to feed
+afterwards of tougher knowledges. And will you
+play the Hedge-hogge, that being receiued into the
+den, draue out his host?  Or rather the Vipers, that
+with their birth kill their parents?  Let learned <name rend="italic">Greece</name>
+in any of his manifold Sciences, be able to shew me
+one booke before <name rend="italic">Mus&aelig;us</name>, <name rend="italic">Homer</name>, &amp; <name rend="italic">Hesiod</name>, all three
+nothing else but Poets. Nay let any Historie bee
+brought, that can say any writers were there before
+them, if they were not men of the same skill, as <name rend="italic">Orpheus</name>, <name rend="italic">Linus</name>, 
+and some other are named, who hauing
+bene the first of that country that made pennes deliuerers of their knowledge to the postertie, 
+nay iustly challenge to bee called their Fathers in learning. 
+For not onely in time they had this prioritie, (although in it selfe antiquitie be venerable) but went
+before them, as causes to draw with their charming
+sweetnesse the wild vntamed wits to an admiration
+of knowledge. So as <name rend="italic">Amphion</name>, was said to mooue
+stones with his Poetry, to build <name rend="italic">Thebes</name>, and <name rend="italic">Orpheus</name>
+to be listned to by beasts, indeed stonie and beastly
+people. 
+</p></div1>
+<div1 type="paragraph" n="4">
+<p>So among the <name rend="italic"> Romans</name>, were <name rend="italic">Liuius Andronicus</name>, 
+and <name rend="italic">Ennius</name>, so in the Italian language, the first
+that made it aspire to be a treasure-house of Science, 
+were the Poets <name rend="italic">Dante</name>, <name rend="italic">Bocace</name>, and <name rend="italic">Petrach. </name>  So in our
+English, were <name rend="italic">Gower</name>, and <name rend="italic">Chawcer</name>, after whom, 
+encoraged &amp; delighted with their excellent foregoing, 
+others haue folowed to bewtify our mother toong, 
+aswel in the same kind as other arts. 
+</p></div1>
+<div1 type="paragraph" n="5">
+<p>This did so notably shew it self, thatt the <name rend="italic">Philosophers</name> 
+of <name rend="italic">Greece</name> durst not a
+long time apear to ye world, but vnder ye mask of poets. So <name rend="italic">Thales</name>, 
+<name rend="italic">Empedocles</name>, and <name rend="italic">Parmenides</name>, sang their naturall 
+Philosophie in verses. So did <name rend="italic">Pithagoras</name> and
+<name rend="italic">Phocillides</name>, their morall Councels.  So did <name rend="italic">Tirteus</name> in
+warre matters, and <name rend="italic">Solon</name> in matters of pollicie, or rather 
+they being Poets, did exercise their delightfull
+vaine in those points of highest knowledge, which
+before them laie hidden to the world.  For, that wise
+<name rend="italic">Solon</name> was directly a Poet, it is manifest, hauing writ-
+ten in verse the notable Fable of the <name rend="italic">Atlantick</name> Iland, 
+which was continued by <name rend="italic">Plato</name>.  And truely euen <name rend="italic">Plato</name> 
+who so euer well considereth, shall finde that in
+the body of his worke though the inside &amp; strength
+were Philosophie, the skin as it were and beautie, 
+depended most of Poetrie. For all stands vpon Dialogues, wherein hee faines many honest Burgesses
+of <name rend="italic">Athens</name> speak of such matters, that if they had bene
+set on the Racke, they would neuer haue confessed
+them:  besides his Poeticall describing the circumstances of their meetings, as the well ordering of a
+banquet, the delicacie of a walke, with enterlacing
+meere Tales, as <title>Gyges Ring</title> and others, which, who
+knowes not to bee flowers of Poetrie, did neuer
+walke into <name rend="italic">Appollos</name> Garden. 
+</p></div1>
+<div1 type="paragraph" n="6">
+<p>And euen <name rend="italic">Historiographers</name>, although their lippes sound of things done, 
+and veritie be written in their forehead, haue bene
+glad to borrow both fashion and perchance weight
+of the Poets. So <name rend="italic">Herodotus</name> entituled his Historie, by
+the name of the nine Muses, and both he and all the
+rest that followed him, either stale, or vsurped of
+Poetrie, their passionate describing of passions, the
+many particularities of battels which no man could
+affirme, or if that be denied me, long Orations put
+in the mouthes of great Kings and Captains, which
+it is certaine they neuer pronounced. So that truly
+neither <name rend="italic">Philosopher</name>, nor <name rend="italic">Historiographer</name>, could at the
+first haue entered into the gates of populer iudgements, if they had not taken a great pasport 
+of Poetrie, which in all nations at this day where learning
+flourisheth not, is plaine to be seene:  in all which, 
+they haue some feeling of Poetry. 
+</p></div1>
+<div1 type="paragraph" n="7">
+<p>In <name rend="italic">Turkey</name>, besides
+their lawgiuing Diuines, they haue no other writers but Poets. In our neighbour Countrey <name rend="italic">Ireland</name>, 
+where truly learning goes verie bare, yet are their
+Poets held in a deuout reuerence. Euen among the
+most barbarous and simple <name rend="italic">Indians</name>, where no writing is, yet haue they their Poets who make &amp; sing
+songs which they call <name rend="italic">Arentos</name>, both of their Auncestors deeds, and praises of their Gods. A sufficient
+probability, that if euer learning come among them, 
+it must be by hauing their hard dull wittes softened
+and sharpened with the sweete delights of Poetrie, 
+for vntill they finde a pleasure in the exercise of the
+minde, great promises of much knowledge, wil little persuade them that know not the 
+frutes of knowledge. In <name rend="italic">Wales</name>, the true remnant of the auncient
+<name rend="italic">Brittons</name>, as there are good authorities to shew, the
+long time they had Poets which they called <name rend="italic">Bardes: </name>
+so thorow all the conquests of <name rend="italic">Romans</name>, <name rend="italic">Saxons</name>, <name rend="italic">Danes</name>, 
+and <name rend="italic">Normans</name>, some of whom, did seeke to ruine all
+memory of learning from among them, yet do their
+Poets euen to this day last:  so as it is not more notable in the soone beginning, then in long continuing.  
+</p></div1>
+<div1 type="paragraph" n="8">
+<p>But since the Authors of most of our Sciences, 
+were the <name rend="italic">Romanes</name>, and before them the <name rend="italic">Greekes</name>, let vs
+a litle stand vpon their authorities, but euen so farre
+as to see what names they haue giuen vnto this now
+scorned skill.  Among the <name rend="italic">Romanes</name> a Poet was called
+<foreign lang="la">Vates</foreign>, which is as much as a diuiner, foreseer, or
+Prophet, as by his conioyned words <foreign lang="la">Vaticinium</foreign>, 
+and <foreign lang="la">Vaticinari</foreign>, is manifest, so heauenly a title did
+that excellent people bestowe vppon this hart-rauishing knowledge, and so farre were they 
+carried into the admiration thereof, that they thought
+in the chanceable hitting vppon any of such verses, great foretokens of their following fortunes, 
+were placed. Whereupon grew the world of <foreign lang="la">Sortes Vergilianae</foreign>, 
+when by suddaine opening <name rend="italic">Virgils</name>
+booke, they lighted vppon some verse of his, as it
+is reported by many, whereof the Histories of the
+<name rend="italic">Emperours</name> liues are full. As of <name rend="italic">Albinus</name> the Gouernour 
+of our Iland, who in his childhood met
+with this verse <foreign lang="la">Arma amens capio, nec sat rationis in armis: </foreign> and in his age performed it, although
+it were a verie vaine and godlesse superstition, as
+also it was, to thinke spirits were commaunded by
+such verses, whereupon this word <name rend="italic">Charmes</name> deriued 
+of <foreign lang="la">Carmina, </foreign> commeth:  so yet serueth it to shew
+the great reuerence those wittes were held in, and
+altogither not without ground, since both by the
+Oracles of <name rend="italic">Delphos</name> and <name rend="italic">Sybillas</name> prophesies, were
+wholly deliuered in verses, for that same exquisite
+obseruing of number and measure in the words, 
+and that high flying libertie of conceit propper to
+the Poet, did seeme to haue some diuine force in it. 
+</p></div1>
+<div1 type="paragraph" n="9">
+<p>And may not I presume a little farther, to shewe the
+reasonablenesse of this word <foreign lang="la">Vatis, </foreign> and say that the
+holy <name rend="italic">Dauids</name> Psalms are a diuine <name rend="italic">Poeme?</name> If I do, I shal
+not do it without the testimony of great learned men
+both auncient and moderne.  But euen the name of
+Psalmes wil speak for me, which being interpreted, 
+is nothing but Songs:  then that it is fully written in
+meeter as all learned <name rend="italic">Hebritians</name> agree, although the
+rules be not yet fully found. Lastly and principally, 
+his handling his prophecie, which is meerly Poeticall. For what else is the awaking his musical 
+Instruments, the often and free chaunging of persons, his
+notable <foreign>Prosopopeias</foreign>, when he maketh you as it were
+see God comming in his maiestie, his telling of the
+beasts ioyfulnesse, and hils leaping, but a heauenly
+poesie, wherin almost he sheweth himselfe a passionate louer of that vnspeakable and euerlasting bewtie, 
+to be seene by the eyes of the mind, onely cleared
+by faith? But truly now hauing named him, I feare I
+seeme to prophane that holy name, applying it to
+<name rend="italic">Poetry</name>, which is among vs throwne downe to so 
+ridiculous an estimation. But they that with quiet
+iudgements wil looke a litle deeper into it, shal find
+the end &amp; working of it such, as being rightly applied, deserueth not to be scourged out of the Church
+of God. 
+</p></div1>
+<div1 type="paragraph" n="10">
+<p>But now let vs see how the Greekes haue
+named it, and how they deemed of it. The Greekes
+named him <foreign lang="greek">poih/thn</foreign> which name, hath as the most excellent, gone through other languages, it commeth
+of this word <foreign lang="greek">poiei=n</foreign> which is to make:  wherin I know
+not whether by luck or wisedome, we Englishmen
+haue met with the Greekes in calling him Maker. 
+Which name, how high and incomparable a title it
+is, I had rather were knowne by marking the scope
+of other sciences, then by any partial allegation. There
+is no Art deliuered vnto mankind that hath not the
+workes of nature for his principall obiect, without
+which they could not consist, and on which they so
+depend, as they become Actors &amp; Plaiers, as it were
+of what nature will haue set forth. So doth the <name rend="italic">Astronomer</name> looke vpon the starres, and by that he seeth
+set downe what order nature hath taken therein.  So
+doth the <name rend="italic">Geometritian</name> &amp; <name rend="italic">Arithmititian, </name>in their diuers
+sorts of quantities. So doth the <name rend="italic">Musitians</name> in times tel
+you, which by nature agree, which not.  The natural <name rend="italic">Philosopher</name> thereon hath his name, and 
+the morall <name rend="italic">Philosopher</name> standeth vppon the naturall vertues, 
+vices, or passions of man:  and follow nature saith he
+therein, and thou shalt not erre. The <name rend="italic">Lawier</name> saith, 
+what men haue determined. The <name rend="italic">Historian</name>, what
+men haue done. The <name rend="italic">Gramarian</name>, speaketh onely of
+the rules of speech, and the <name rend="italic">Rhetoritian</name> and <name rend="italic">Logitian</name>, considering 
+what in nature wil soonest prooue, 
+and perswade thereon, giue artificiall rules, which
+still are compassed within the circle of a question, according to the proposed matter. The <name rend="italic">Phisitian</name> wayeth 
+the nature of mans bodie, &amp; the nature of things
+helpfull, or hurtfull vnto it. And the <name rend="italic">Metaphisicke</name>
+though it be in the second &amp; abstract Notions, and
+therefore be counted supernaturall, yet doth hee indeed build vpon the depth of nature. 
+</p></div1>
+<div1 type="paragraph" n="11">
+<p>Only the <name rend="italic">Poet</name>
+disdeining to be tied to any such subiection, lifted vp
+with the vigor of his own inuention, doth grow in
+effect into an other nature:  in making things either
+better then nature bringeth foorth, or quite a new, 
+formes such as neuer were in nature:  as the <name rend="italic">Heroes</name>, 
+<name rend="italic">Demigods</name>, <name rend="italic"> Cyclops</name>, <name rend="italic"> Chymeras</name>, <name rend="italic"> Furies</name>, and such like; so
+as he goeth hand in hand with nature, not enclosed
+within the narrow warrant of her gifts, but freely
+raunging within the Zodiack of his owne wit.  Nature neuer set foorth the earth in so rich Tapistry as
+diuerse Poets haue done, neither with so pleasaunt
+riuers, fruitfull trees, sweete smelling flowers, nor
+whatsoeuer els may make the too much loued earth
+more louely:  her world is brasen, the Poets only deliuer a golden.  
+</p></div1>
+<div1 type="paragraph" n="12">
+<p>But let those things alone and goe to
+man, for whom as the other things are, so it seemeth
+in him her vttermost comming is imploied:  &amp; know
+whether she haue brought foorth so true a louer as
+<name rend="italic">Theagenes</name>, so constant a friend as <name rend="italic">Pylades</name>, so valiant a
+man as <name rend="italic">Orlando</name>, so right a Prince as <name rend="italic">Xenophons Cyrus</name>, 
+so excellent a man euery way as <name rend="italic">Virgils Aeneas</name>.  Neither let this be iestingly conceiued, bicause the works
+of the one be essenciall, the other in imitation or fiction:  for euerie vnderstanding, knoweth the skill
+of ech Artificer standeth in that <name rend="italic"> Idea</name>, or fore conceit
+of the worke, and not in the worke it selfe.  And that
+the Poet hath that <name rend="italic">Idea</name>, is manifest, by deliuering
+them foorth in such excellencie as he had imagined
+them:  which deliuering foorth, also is not wholly
+imaginatiue, as we are wont to say by them  that build
+Castles in the aire:  but so farre substancially it worketh, not onely to make a <name rend="italic">Cyrus</name>, which had bene but
+a particular excellency as nature might haue done, 
+but to bestow a <name rend="italic">Cyrus</name> vpon the world to make 
+many <name rend="italic">Cyrusses</name>, if they will learne aright, why and how
+that maker made him. Neither let it be deemed too
+sawcy a comparison, to ballance the highest point of
+mans wit, with the efficacie of nature:  but rather
+giue right honor to the heauenly maker of that maker, who hauing made man to his owne likenes, set
+him beyond and ouer all the workes of that second
+nature, which in nothing he sheweth so much as in
+Poetry ; when with the force of a diuine breath, he
+bringeth things foorth surpassing her doings:  with
+no small arguments to the incredulous of that first
+accursed fall of <name rend="italic">Adam</name>, since our erected wit maketh
+vs know what perfection  is, and yet our infected will
+keepeth vs from reaching vnto it.  
+</p></div1>
+<div1 type="paragraph" n="13">
+<p>But these arguments
+will by few be vnderstood, and by fewer graunted: 
+thus much I hope wil be giuen me, that the Greeks
+with some probability of reason, gaue him the name
+aboue all names of learning. Now let vs goe to a
+more ordinarie opening of him, that the truth may
+be the more palpable:  and so I hope though we get
+not so vnmatched a praise as the <name rend="italic">Etimologie</name> of his
+names will graunt, yet his verie description which
+no man will denie, shall not iustly be barred from
+a principall commendation. <name rend="italic">Poesie</name> therefore, is an
+Art of <name rend="italic">Imitation: </name> for so <name rend="italic">Aristotle</name> termeth it in the
+word <foreign lang="greek">mi/mhsis, </foreign> that is to say, a representing, counterfeiting, or figuring forth to speake Metaphorically. A
+speaking  <name rend="italic">Picture, </name>with this end to teach and delight. 
+</p></div1>
+<div1 type="paragraph" n="14">
+<p>Of this haue bene three generall kindes, the chiefe
+both in antiquitie and excellencie, were they that
+did imitate the vnconceiueable excellencies of God. 
+Such were <name rend="italic">Dauid</name> in his Psalmes, <name rend="italic">Salomon</name> in his song
+of songs, in his <name rend="italic">Ecclesiastes</name> and <name rend="italic">Prouerbes. Moses</name>
+and <name rend="italic">Debora</name>, in their Hymnes, and the wryter of
+<name rend="italic">Iobe: </name>  Which beside other, the learned <name rend="italic">Emanuell, </name>
+<name rend="italic">Tremelius</name>, and <name rend="italic">F.  Iunius</name>, doo entitle the Poeticall
+part of the scripture:  against these none will speake
+that hath the holie Ghost in due holie reuerence.  In
+this kinde, though in a full wrong diuinitie, were
+<name rend="italic">Orpheus</name>, <name rend="italic"> Amphion</name>, <name rend="italic"> Homer</name> in his himnes, 
+and manie other both <name rend="italic">Greeke</name> and <name rend="italic">Romanes</name>. And 
+this <name rend="italic">Poesie</name> must be vsed by whosoeuer will follow <name rend="italic">S.  Paules</name>
+counsaile, in singing Psalmes when they are mery, 
+and I knowe is vsed with the frute of comfort by
+some, when in sorrowfull panges of their death
+bringing sinnes, they finde the consolation of the
+neuer leauing goodnes. 
+</p></div1>
+<div1 type="paragraph" n="15">
+<p>The second kinde, is of
+them that deale with matters Philosophicall, either
+morall as <name rend="italic">Tirteus</name>, <name rend="italic">Phocilides</name>, <name rend="italic">Cato</name>; 
+or naturall, as <name rend="italic">Lucretius, </name> and <name rend="italic">Virgils Georgikes</name>; or Astronomicall 
+as <name rend="italic">Manilius</name> and <name rend="italic">Pontanus</name>; or Historicall as  <name rend="italic">Lucan: </name> which
+who mislike the fault, is in their iudgement quite
+out of tast, &amp; not in the sweet food of sweetly vttered knowledge.  But bicause this second sort is wrapped 
+within the folde of the proposed subiect, and
+takes not the free course of his own inuention, whether they properly bee Poets or no, let <name rend="italic">Gramarians</name>
+dispute; and goe to the third indeed right Poets, of
+whom chiefly this question ariseth:  betwixt whom
+and these second, is such a kinde of difference, as
+betwixt the meaner sort of Painters, who counterfeyt onely such faces as are set before them, and
+the more excelent, who hauing no law but wit, bestow that in colours vpon you, which is fittest for
+the eye to see, and the constant, though lamenting
+looke of <name rend="italic">Lucretia</name>, when shee punished in her
+selfe anothers faulte:  wherein hee painteth not
+<name rend="italic">Lucretia</name> whom he neuer saw, but painteth the outward bewty of such a vertue. For these third be they
+which most properly do imitate to teach &amp; delight: 
+and to imitate, borrow nothing of what is, hath bin, 
+or shall be, but range onely reined with learned discretion, into the diuine consideration of what may
+be and should be. These be they that as the first and
+most noble sort, may iustly be termed <foreign lang="la">Vates: </foreign>  so these
+are waited on in the excellentest languages and best
+vnderstandings, with the fore described name of Poets.  For these indeed do meerly make to imitate, and
+imitate both to delight &amp; teach, and delight to moue
+men to take that goodnesse in hand, which without
+delight they would flie as from a stranger; and teach
+to make them know that goodnesse wherunto they
+are moued: which being the noblest scope to which
+euer any learning was directed, yet want there not
+idle tongues to barke at them. 
+</p></div1>
+<div1 type="paragraph" n="16">
+<p>These be subdiuided
+into sundry more speciall denominations. The most
+notable be the <name rend="italic">Heroick</name>, <name rend="italic"> Lyrick</name>, 
+<name rend="italic"> Tragick</name>, <name rend="italic"> Comick</name>, <name rend="italic"> Satyrick</name>, <name rend="italic"> Iambick</name>, 
+<name rend="italic"> Elegiack</name>, <name rend="italic"> Pastorall</name>, and certaine others: 
+some of these being tearmed according to the matter they deale with, some by the sort of verse they liked 
+best to write in, for indeed the greatest part of
+Poets, haue apparelled their poeticall inuentions, in
+that numbrous kind of writing which is called <name rend="italic">vers. </name>
+Indeed but apparelled verse:  being but an ornament
+and no cause to <name rend="italic">Poetrie</name>, since there haue bene many
+most excellent <name rend="italic">Poets</name> that neuer versefied, and now
+swarme many versefiers that need neuer answere to
+the name of <name rend="italic">Poets</name>. For <name rend="italic">Xenophon</name> who did imitate so
+excellently as to giue vs <foreign lang="la">effigiem iusti imperii</foreign>, the
+pourtraiture of a iust Empyre vnder the name of <name rend="italic">Cyrus</name>, 
+as <name rend="italic">Cicero</name> saith of him, made therein an absolute
+heroicall Poeme. So did <name rend="italic">Heliodorus</name>, in his sugred inuention 
+of that picture of loue in <name rend="italic">Theagenes</name> &amp; <name rend="italic">Chariclea</name>, and 
+yet both these wrote in prose, which I
+speake to shew, that it is not ryming and versing that
+maketh a Poet, (no more then a long gown maketh
+an Aduocate, who though he pleaded in Armour, 
+should be an Aduocat and no souldier) but it is that
+faining notable images of vertues, vices, or what els, 
+with that delightfull teaching, which must be the
+right describing note to know a Poet by. Although
+indeed the Senate of Poets hath chosen verse as their
+fittest raiment:  meaning as in matter, they passed  all
+in all, so in maner, to go beyond them:  not speaking
+table talke fashion, or like men in a dreame, words
+as they chanceably fall from the mouth, but peasing
+each sillable of eache word by iust proportion, according to the dignitie of the subiect. 
+</p></div1>
+<div1 type="paragraph" n="17">
+<p>Now therfore
+it shal not be amisse, first to way this latter sort of poetrie by his workes, and then by his parts, and if in
+neither of these Anatomies hee be condemnable, I
+hope we shall obteine a more fauourable sentence. 
+This purifying of wit, this enriching of memorie, 
+enabling of iudgement, and enlarging of conceit, 
+which commonly we cal learning, vnder what name
+so euer it come forth, or to what immediate end soeuer it be directed, the finall end is, to lead and draw
+vs to as high a perfection, as our degenerate soules
+made worse by their clay-lodgings, can be capable
+of. This according to the inclination of man, bred
+many formed impressions. For some that thought 
+this felicity principally to be gotten by knowledge, 
+and no knowledge to be so high or heauenly, as acquaintance with the stars; gaue themselues 
+to <name rend="italic">Astronomie: </name> others perswading themselues to be <name rend="italic">Demygods</name>, 
+if they knew the causes of things, became naturall
+and supernaturall <name rend="italic">Philosophers. </name>  Some an admirable
+delight drew to <name rend="italic">Musicke</name>; and some the certaintie of
+demonstration to the <name rend="italic">Mathematicks: </name> but all one and
+other hauing this scope to know, &amp; by knowledge
+to lift vp the minde from the dungeon of the bodie, 
+to the enioying his owne diuine essence. But when
+by the ballance of experience it was found, that the
+<name rend="italic">Astronomer</name> looking to the stars might fall in a ditch, 
+that the inquiring <name rend="italic">Philosopher</name> might be blind in him
+self, &amp; the <name rend="italic">Mathematician</name>, might draw forth a straight
+line with a crooked hart. Then lo did proofe, the ouerruler of opinions make manifest, that all these are
+but seruing sciences; which as they haue a priuate
+end in themselues, so yet are they all directed to the
+highest end of the mistresse knowledge by ye Greeks
+<foreign lang="greek">a)rxitektoni/kh</foreign>
+which stands as I thinke, in the knowledge
+of a mans selfe, in the Ethike and Politique consideration, with the end of well doing, and not of well
+knowing onely. 
+</p></div1>
+<div1 type="paragraph" n="18">
+<p>Euen as the Sadlers next ende is to
+make a good Saddle, but his further ende, to serue a
+nobler facultie, which is horsmanship, so the horsemans to souldiery:  and the souldier not onely to haue
+the skill, but to performe the practise of a souldier. 
+So that the ending end of all earthly learning, being
+verteous action, those skils that most serue to bring
+forth that, haue a most iust title to be Princes ouer al
+the rest: wherin if we can shew, the Poet is worthy to
+haue it before any other competitors:  among whom
+principally to challenge it, step forth the moral <name rend="italic">Philosophers, </name> whom me thinkes I see comming towards
+me, with a sullain grauitie, as though they could not
+abide vice by day-light, rudely cloathed, for to witnesse outwardly their contempt of outward things, 
+with bookes in their hands against glorie, whereto
+they set their names:  sophistically speaking against
+subtiltie, and angry with any man in whom they see
+the foule fault of anger. These men casting larges as
+they go of definitions, diuitions, and distinctions, 
+with a scornful interrogatiue, do soberly aske, whether it be possible to find any path so ready to lead a
+man to vertue, as that which teacheth what vertue
+is, &amp; teacheth it not only by deliuering forth his very being, his causes and effects, but also by making
+knowne his enemie vice, which must be destroyed, 
+and his combersome seruant passion, which must be
+mastred:  by shewing the generalities that contains
+it, and the specialities that are deriued from it. 
+</p></div1>
+<div1 type="paragraph" n="19">
+<p>Lastly by plaine setting downe, how it extends it selfe out
+of the limits of a mans owne little world, to the gouernment of families, and mainteining of publike
+societies. The <name rend="italic">Historian</name> scarsely giues leisure to the
+<name rend="italic">Moralist</name> to say so much, but that he loaden with old
+Mouse-eaten Records, authorising himselfe for the
+most part vpon other Histories, whose greatest authorities are built vppon the notable foundation
+<name rend="italic">Heresay, </name> hauing much ado to accord differing writers, &amp; to pick truth out of partiality: 
+better acquainted with a 1000 . yeres ago, then with the present age, 
+and yet better knowing how this world goes, then
+how his owne wit runnes, curious for Antiquities, 
+and inquisitiue of Nouelties, a wonder to yoong
+folkes, and a Tyrant in table talke;  denieth in a great
+chafe, that any man for teaching of vertue, and vertues actions, is comparable to him. 
+I am <foreign lang="la">Testis temporum, lux veritatis, vita memoriae, magistra vitae, nuncia vetustatis. </foreign>  
+The <name rend="italic">Philosopher</name> saieth he, teacheth a disputatiue vertue, but I do an actiue. His 
+vertue is excellent in the dangerlesse <name rend="italic">Academy</name> of <name rend="italic">Plato</name>:  but mine
+sheweth forth her honourable face in the battailes
+of <name rend="italic">Marathon</name>, <name rend="italic"> Pharsalia</name>, <name rend="italic">Poietiers</name>, and <name rend="italic">Agincourt</name>.  Hee
+teacheth vertue by certaine abstract considerations: 
+but I onely bid you follow the footing of them that
+haue gone before you. Old aged experience, goeth
+beyond the fine witted <name rend="italic">Philosopher: </name> but I giue the
+experience of many ages. 
+</p></div1>
+<div1 type="paragraph" n="20">
+<p>Lastly, if he make the song
+Booke, I put the learners hand to the Lute, and if he
+be the guide, I am the light. Then would he alleage
+you innumerable examples, confirming storie by
+stories, how much the wisest Senators and Princes, 
+haue bene directed by the credit of Historie, as <name rend="italic">Brutus, Alphonsus</name> 
+of <name rend="italic">Aragon</name>, (and who not if need be. )
+At length, the long line of their disputation makes a
+point in this, that the one giueth the precept, &amp; the
+other the example. Now whom shall we find, since
+the question standeth for the highest forme in the
+schoole of learning to be moderator?  Truly as mee
+seemeth, the Poet, and if not a moderator, euen the
+man that ought to carry the title from them both: 
+&amp; much more from all other seruing sciences. 
+</p></div1>
+<div1 type="paragraph" n="21">
+<p>Therfore compare we the <name rend="italic">Poet</name> with the <name rend="italic">Historian</name>, &amp; with
+the morall <name rend="italic">Philosopher: </name> and if hee goe beyond them
+both, no other humaine skill can match him. For as
+for the diuine, with all reuerence it is euer to be excepted, not onely for hauing his scope as far beyond
+any of these, as Eternitie exceedeth a moment:  but
+euen for passing ech of these in themselues. And for
+the <name rend="italic">Lawier, </name> though <foreign lang="la">Ius</foreign> be the daughter of <name rend="italic">Iustice</name>, the
+chiefe of vertues, yet because he seeks to make men
+good, rather <foreign lang="la">formidine poenae, </foreign> then <foreign lang="la">virtutis amore: </foreign> or
+to say righter, doth not endeuor to make men good, 
+but that their euill hurt not others, hauing no care
+so he be a good citizen, how bad a man he be. Therfore as our wickednes maketh him necessarie, and
+necessitie maketh him honorable, so is he not in the
+deepest truth to stand in ranck with these, who al endeuour to take naughtinesse away, and plant 
+goodnesse euen in the secretest cabinet of our soules:  and
+these foure are all that any way deale in the consideration of mens manners, which being the supreme
+knowledge, they that best breed it, deserue the best
+commendation. The <name rend="italic">Philosopher</name> therefore, and the
+<name rend="italic">Historian</name>, are they which would win the goale, the
+one by precept, the other by example:  but both, not
+hauing both, doo both halt. For the <name rend="italic">Philosopher</name> set-
+ting downe with thornie arguments, the bare rule, 
+is so hard of vtterance, and so mistie to be conceiued, 
+that one that hath no other guide but him, shall
+wade in him till he be old, before he shall finde sufficient cause to be honest. For his knowledge 
+standeth so vpon the abstract and generall that happie is
+that man who may vnderstand him, and more happie, that can apply what he doth vnderstand. On the
+other side, the <name rend="italic">Historian</name> wanting the precept, is so
+tied, not to what should be, but to what is, to the
+particular truth of things, and not to the general reason of things, that his example draweth no 
+necessarie consequence, and therefore a lesse fruitfull doctrine. 
+</p></div1>
+<div1 type="paragraph" n="22">
+<p>Now doth the peerlesse Poet performe both, 
+for whatsoeuer the <name rend="italic">Philosopher</name> saith should be done, 
+he giues a perfect picture of it by some one, by whom
+he presupposeth it was done, so as he coupleth the
+generall notion with the particuler example. A perfect picture I say, for hee yeeldeth to the powers of
+the minde an image of that whereof the <name rend="italic">Philosopher</name>
+bestoweth but a wordish description, which doth
+neither strike, pearce, nor possesse, the sight of the
+soule so much, as that other doth. For as in outward
+things to a man that had neuer seene an <name rend="italic">Elephant</name>, or a
+<name rend="italic">Rinoceros</name>, who should tell him most exquisitely all
+their shape, cullour, bignesse, and particuler marks, 
+or of a gorgious pallace an <name rend="italic">Architecture</name>, who decla-
+ring the full bewties, might well make the hearer able to repeat as it were by roat all he had heard, yet
+should neuer satisfie his inward conceit, with being
+witnesse to it selfe of a true liuely knowledge:  but
+the same man, assoon as he might see those beasts wel
+painted, or that house wel in modell, shuld straightwaies grow without need of any description to a 
+iudicial comprehending of them, so no doubt the <name rend="italic">Philosopher</name> with his learned definitions, be it of vertues
+of vices, matters of publike policy or priuat gouernment, replenisheth the memorie with many infallible 
+grounds of wisdom, which notwithstanding lie
+darke before the imaginatiue and iudging power, if
+they be not illuminated or figured forth by the 
+speaking picture of <name rend="italic">Poesie</name>.  
+</p></div1>
+<div1 type="paragraph" n="23">
+<p><name rend="italic">Tully</name> taketh much paines, and
+many times not without Poeticall helpes to make vs
+know the force, loue of our country hath in vs. Let
+vs but heare old <name rend="italic">Anchices</name>, speaking in the middest of
+<name rend="italic">Troies</name> flames, or see <name rend="italic">Vlisses</name> in the fulnesse of 
+all <name rend="italic">Calipsoes</name> delightes, bewaile his absence from barraine
+and beggerly <name rend="italic">Ithec&aelig;</name>. Anger the <name rend="italic">Stoickes</name> said, was a
+short madnesse:  let but <name rend="italic">Sophocles</name> bring you <name rend="italic">Aiax</name> on
+a stage, killing or whipping sheepe and oxen, thinking them the Army of Greekes, with their Chieftaines 
+<name rend="italic">Agamemnon</name>, and <name rend="italic">Menelaus: </name> and tell me if you
+haue not a more familiar insight into Anger, then
+finding in the schoolemen his <name rend="italic">Genus</name> and <name rend="italic">Difference</name>. 
+See whether wisdom and temperance in <name rend="italic">Vlisses</name> and
+<name rend="italic">Diomedes</name>, valure in <name rend="italic">Achilles, </name> friendship in <name rend="italic">Nisus</name> and
+<name rend="italic">Eurialus</name>, euen to an ignorant man carry not an apparant shining:  and contrarily, the remorse 
+of conscience in <name rend="italic">Oedipus</name>; the soone repenting pride in <name rend="italic">Agamemnon</name>; the 
+selfe deuouring crueltie in his father
+<name rend="italic">Atreus</name> ; the violence of ambition in the two <name rend="italic">Theban</name>
+brothers; the sower sweetnesse of reuenge in <name rend="italic">Medea</name>;
+and to fall lower, the <name rend="italic">Terentian Gnato</name>, and our <name rend="italic">Chawcers Pander</name> so 
+exprest, that we now vse their names, 
+to signifie their Trades:  and finally, all vertues, vices, and passions, so in their owne naturall states, 
+laide to the view, that we seeme not to heare of
+them, but clearly to see through them. 
+</p></div1>
+<div1 type="paragraph" n="24">
+<p>But euen in the most excellent determination of goodnesse, 
+what <name rend="italic">Philosophers</name> counsaile can so readely
+direct a Prince, as the feined <name rend="italic">Cirus</name> in <name rend="italic">Xenophon</name>, 
+or a vertuous man in all fortunes:  as <name rend="italic">Aeneas</name> in
+<name rend="italic">Virgill</name>, or a whole Common-wealth, as the Way
+of Sir Thomas Moores <name rend="italic">Eutopia</name>. I say the Way, because where Sir Thomas Moore erred, it was the
+fault of the man and not of the Poet:  for that Way
+of patterning a Common-wealth, was most absolute
+though hee perchaunce hath not so absolutely
+performed it. For the question is, whether the fained Image of Poetrie, or the reguler instruction
+of Philosophie, hath the more force in teaching ?
+Wherein if the <name rend="italic">Philosophers</name> haue more rightly shew-
+ed themselues <name rend="italic">Philosophers</name> then the <name rend="italic">Poets</name>, haue atteined to the 
+high toppe of their profession(as in truth
+<foreign lang="la">Mediocribus esse poetis non Dii, non homines, non concessere columnae</foreign>, ) it is (I say againe) not the fault of the
+Art, but that by fewe men that Art can be accomplished. Certainly euen our Sauiour Christ could as
+well haue giuen the morall comon places of vncharitablenesse and humblenesse, as the diuine 
+narration of <name rend="italic">Diues</name> and <name rend="italic">Lazarus</name>, or of disobedience and
+mercy, as that heauenly discourse of the lost childe
+and the gracious Father, but that his through searching wisdome, knew the estate of <name rend="italic">Diues</name> burning
+in hell, and of <name rend="italic">Lazarus</name> in <name rend="italic">Abrahams</name> bosome, would
+more constantly as it were, inhabit both the memorie and iudgement. Truly for my selfe(mee seemes)
+I see before mine eyes, the lost childs disdainful prodigalitie, turned to enuy a Swines dinner:  which by
+the learned <name rend="italic">Diuines</name> are thought not Historical acts, 
+but instructing Parables. For conclusion, I say the
+<name rend="italic">Philosopher</name> teacheth, but he teacheth obscurely, so as
+the learned onely can vnderstand him, that is to say, 
+he teacheth them that are alreadie taught. 
+</p></div1>
+<div1 type="paragraph" n="25">
+<p>But the Poet is the food for the tendrest stomacks, the Poet
+is indeed, the right populer <name rend="italic">Philosopher</name>. Whereof
+<name rend="italic">Esops</name> Tales giue good proofe, whose prettie Allegories stealing vnder the formall Tales of beastes, 
+makes many more beastly then beasts:  begin to hear
+the sound of vertue from those dumbe speakers.  But
+now may it be alleadged, that if this imagining of
+matters be so fit for the imagination, then must the
+<name rend="italic">Historian</name> needs surpasse, who brings you images of
+true matters, such as indeed were done, and not such
+as fantastically or falsly may be suggested to haue bin
+done. Truly <name rend="italic">Aristotle</name> himselfe in his discourse of <name rend="italic">Poesie</name>, plainly 
+determineth this question, saying, that <name rend="italic"> Poetrie</name> is 
+<foreign lang="greek">filosophw/teron</foreign>, and <foreign lang="greek">spoudaio/teron</foreign>, 
+that is to say, it is more
+Philosophicall and more then History. His reason is, 
+because <name rend="italic">Poesie</name> dealeth with <foreign lang="greek">kaqo/lou</foreign>, that is to say, with
+the vniuersall consideration, and the Historie with
+<foreign lang="greek">kaq' e)/kaston</foreign>, 
+the particular. Now saith he, the vniuersall
+wayes what is fit to be said or done, either in likelihood or necessitie, 
+which the <name rend="italic">Poesie</name> considereth in
+his imposed names:  and the particular onely marketh whether <name rend="italic">Alcibiades</name> did or suffered this or that. 
+Thus farre <name rend="italic">Aristotle</name>. Which reason of his, as all his
+is most full of reason.  
+</p></div1>
+<div1 type="paragraph" n="26">
+<p>For indeed if the question were, 
+whether it were better to haue a particular act truly
+or falsly set downe, there is no doubt which is to be
+chosen, no more then whether you had rather haue
+<name rend="italic">Vespacians</name> Picture right as he was, or at the Painters
+pleasure nothing resembling. But if the question be
+for your owne vse and learning, whether it be better to haue it set downe as it should be, or as it was ;
+then certainly is more doctrinable, the fained <name rend="italic">Cyrus</name>
+in <name rend="italic">Xenophon</name>, then the true <name rend="italic">Cyrus</name> in <name rend="italic">Iustin: </name> and the
+fained <name rend="italic">Aeneas</name> in <name rend="italic">Virgill</name>, 
+then the right Aeneas in <name rend="italic">Dares Phrigius</name>:  as to a Ladie that desired to fashion her
+countenance to the best grace:  a <name rend="italic">Painter</name> shuld more
+benefite her to pourtrait a most sweete face, writing <name rend="italic">Canidia</name> vppon it, 
+then to paint <name rend="italic">Canidia</name> as shee
+was, who <name rend="italic">Horace</name> sweareth was full ill fauoured. If
+the <name rend="italic">Poet</name> do his part aright, he wil shew you in <name rend="italic">Tantalus Atreus</name>, 
+and such like, nothing that is not to
+be shunned; in <name rend="italic">Cyrus</name>, <name rend="italic">Aeneas</name>, <name rend="italic">Vlisses</name>, each thing
+to be followed:  where the <name rend="italic">Historian</name> bound to tell
+things as things were, cannot be liberall, without
+hee will be Poeticall of a perfect patterne, but as in
+<name rend="italic">Alexander</name>, or <name rend="italic">Scipio</name> himselfe, shew doings, some to
+be liked, some to be misliked; and then how wil you
+discerne what to follow, but by your own discretion
+which you had without reading <name rend="italic">Q.  Curtius. </name> And
+whereas a man may say, though in vniuersall consideration of doctrine, the <name rend="italic">Poet</name> preuaileth, yet that the
+Historie in his saying such a thing was done, doth
+warrant a man more in that he shall follow. The answere is manifest, that if he stand vpon that was, as
+if he should argue, because it rained yesterday, therfore it should raine to day, then indeede hath it
+some aduantage to a grosse conceit. But if hee
+knowe an example onely enformes a coniectured
+likelihood, and so goe by reason, the <name rend="italic">Poet</name> doth so
+farre exceed him, as hee is to frame his example
+to that which is most reasonable, be it in warlike, 
+politike, or priuate matters, where the <name rend="italic">Historian</name> in
+his bare, was, hath many times that which we call
+fortune, to ouerrule the best wisedome. Manie
+times he must tell euents, whereof he can yeeld no
+cause, or if he do, it must be poetically.  
+</p></div1>
+<div1 type="paragraph" n="27">
+<p>For that a fained example hath as much force to teach, as a true
+example (for as for to mooue, it is cleare, since the
+fained may be tuned to the highest key of passion)
+let vs take one example wherein an <name rend="italic">Historian</name> and a
+<name rend="italic">Poet</name> did concurre. <name rend="italic">Herodotus</name> and <name rend="italic">Iustin</name> doth both
+testifie, that <name rend="italic">Zopirus</name>, King <name rend="italic">Darius</name> faithfull seruant, 
+seeing his maister long resisted by the rebellious <name rend="italic">Babilonians, </name> fained 
+himselfe in extreame disgrace of his
+King, for verifying of which, he caused his owne
+nose and eares to be cut off, and so flying to the
+<name rend="italic">Babylonians</name> was receiued, and for his knowne valure so farre creadited, that hee did finde meanes
+to deliuer them ouer to <name rend="italic">Darius</name>. Much like matter 
+doth <name rend="italic">Liuy</name> record of <name rend="italic">Tarquinius</name>, and his sonne. 
+<name rend="italic">Xenophon</name> excellently faineth such an other Stratageme, 
+performed by <name rend="italic">Abradates</name> in <name rend="italic">Cyrus</name> behalfe. 
+Now would I faine knowe, if occasion be presented vnto you, to serue your Prince by such an honest 
+dissimulation, why you do not as well learne
+it of <name rend="italic">Xenophons</name> fiction, as of the others veritie:  and
+truly so much the better, as you shall saue your nose
+by the bargaine. For <name rend="italic">Abradates</name> did not coun-
+terfeyt so farre. 
+</p></div1>
+<div1 type="paragraph" n="28">
+<p>So then the best of the <name rend="italic">Historian</name>
+is subiect to the <name rend="italic">Poet, </name> for whatsoeuer action or
+faction, whatsoeuer counsaile, pollicie, or warre, 
+stratageme, the <name rend="italic">Historian</name> is bounde to recite, that
+may the <name rend="italic">Poet</name> if hee list with his imitation make his
+owne ; bewtifying it both for further teaching, 
+and more delighting as it please him:  hauing all
+from <name rend="italic">Dante</name> his heuen to his hell, vnder the authority of
+his pen. Which if I be asked what <name rend="italic">Poets</name> haue don for
+as I might wel name some, so yet say I, and say again, 
+I speake of the Art and not of the Artificer. 
+</p></div1>
+<div1 type="paragraph" n="29">
+<p>Now to that which commonly is attributed to the praise of
+Historie, in respect of the notable learning, is got by
+marking the successe, as though therein a man shuld
+see vertue exalted, &amp; vice punished:  truly that commendation is peculier to Poetrie, and farre off from
+Historie ; for indeed Poetrie euer sets vertue so out
+in her best cullours, making fortune her well-wayting handmayd, that one must needs be enamoured
+of her. Well may you see <name rend="italic">Vlisses</name> in a storme and in
+other hard plights, but they are but exercises of patience &amp; magnanimitie, to make them shine the more
+in the neare following prosperitie. And of the contrary part, if euill men come to the stage, they euer
+goe out (as the Tragedie writer answered to one
+that misliked the shew of such persons) so manicled
+as they litle animate folkes to follow them. But the
+Historie beeing captiued to the trueth of a foolish
+world, is many times a terror from well-doing, and
+an encouragement to vnbrideled wickednes. For
+see we not valiant <name rend="italic">Milciades</name> rot in his fetters ?  The
+iust <name rend="italic">Phocion</name> and the accomplished <name rend="italic">Socrates</name>, put to
+death like Traytors?  The cruell <name rend="italic">Seuerus</name>, liue prosperously?  
+The excellent <name rend="italic">Seuerus</name> miserably murthered?  <name rend="italic">Sylla</name> 
+and <name rend="italic">Marius</name> dying in their beds?  <name rend="italic">Pompey</name>
+and <name rend="italic">Cicero</name> slain then when they wold haue thought
+exile happinesse?  See we not vertuous <name rend="italic">Cato</name> driuen
+to kill himselfe, and Rebell <name rend="italic">C&aelig;sar</name> so aduanced, that
+his name yet after 1600 yeares lasteth in the highest honor?  And marke but euen <name rend="italic">C&aelig;sars</name> owne words
+of the forenamed <name rend="italic">Sylla</name>, (who in that onely, did 
+honestly to put downe his dishonest Tyrannie)  <foreign lang="la">Litteras nesciuit: </foreign> as if want of learning caused him to doo
+well. He ment it not by Poetrie, which not content
+with earthly plagues, deuiseth new punishments in
+hell for Tyrants:  nor yet by Philosophy, which teacheth <foreign lang="la">Occidentos esse, </foreign> but no doubt by skill in History, 
+for that indeed can affoord you <name rend="italic">Cipselus</name>, <name rend="italic"> Periander</name>, 
+<name rend="italic">Phalaris</name>, <name rend="italic">Dionisius</name>, and I know not how many more
+of the same kennell, that speed well inough in their
+abhominable iniustice of vsurpation. 
+</p></div1>
+<div1 type="paragraph" n="30">
+<p>I conclude therfore that he excelleth historie, not onely in furnishing the minde with knowledge, but in setting it
+forward to that which deserues to be called and accounted good:  which setting forward and mouing
+to well doing, indeed setteth the Lawrell Crowne
+vpon the <name rend="italic">Poets</name> as victorious, not onely of the <name rend="italic">Historian</name>, but 
+ouer the <name rend="italic">Philosopher</name>, howsoeuer in teaching it may be questionable. 
+For suppose it be granted, that which I suppose with great reason may be
+denied, that the <name rend="italic">Philosopher</name> in respect of his methodical proceeding, 
+teach more perfectly then the <name rend="italic">Poet</name>, yet do I thinke, that no man is 
+so much <foreign lang="la">philophilosothos, </foreign>
+as to compare the <name rend="italic">Philosopher</name> in moouing with the
+<name rend="italic">Poet. </name>  And that moouing is of a higher degree then
+teaching, it may by this appeare, that it is well nigh
+both the cause and effect of teaching. For who will
+be taught, if hee be not mooued with desire to be
+taught?  And what so much good doth that teaching
+bring foorth, (I speake still of morall doctrine) as
+that it mooueth one to do that which it doth teach. 
+</p></div1>
+<div1 type="paragraph" n="31">
+<p>For as <name rend="italic">Aristotle</name> saith, it is not 
+<foreign lang="greek">gnw/sis</foreign>, but <foreign lang="greek">pra/cis</foreign> must be
+the frute:  and how <foreign lang="greek">pra/cis</foreign> can be without being 
+moued to practise, it is no hard matter to consider.  The
+<name rend="italic">Philosopher</name> sheweth you the way, hee enformeth
+you of the particularities, as well of the tediousnes
+of the way, as of the pleasaunt lodging you shall
+haue when your iourney is ended, as of the many by turnings that may diuert you from your way. 
+But this is to no man but to him that will reade
+him, and reade him with attentiue studious painfulnesse, which constant desire, whosoeuer hath in
+him, hath alreadie past halfe the hardnesse of the
+way:  and therefore is beholding to the <name rend="italic">Philosopher, </name> but for the other halfe. Nat truly learned
+men haue learnedly thought, that where once reason hath so much ouer-mastered passion, as that
+the minde hath a free desire to doo well, the inward light each minde hath in it selfe, is as good
+as a <name rend="italic">Philosophers</name> booke, since in Nature we know
+it is well, to doo well, and what is well, and what
+is euill, although not in the wordes of Art which
+<name rend="italic">Philosophers</name> bestow vppon vs:  for out of naturall
+conceit the <name rend="italic">Philosophers</name> drew it ; but to be moued
+to doo that which wee know, or to be mooued
+with desire to know. <foreign lang="la">Hoc opus, hic labor est. </foreign>  
+</p></div1>
+<div1 type="paragraph" n="32">
+<p>Now therein of all Sciences I speake still of humane (and
+according to the humane conceit) is our <name rend="italic">Poet</name> the
+<name rend="italic">Monarch</name>. For hee doth not onely shew the way, 
+but giueth so sweete a prospect into the way, as
+will entice anie man to enter into it:  Nay he doth
+as if your iourney should lye through a faire vineyard, at the verie first, giue you a cluster of grapes, 
+that full of that taste, you may long to passe further. Hee beginneth not with obscure 
+definitions, which must blurre the margent with interpretations, and loade the memorie with 
+doubtfulnesse:  but hee commeth to you with words
+set in delightfull proportion, either accompanied
+with, or prepared for the well enchanting skill of
+<name rend="italic">Musicke, </name> and with a tale forsooth he commeth vnto you, with a tale, which holdeth children from
+play, and olde men from the Chimney corner ; and
+pretending no more, doth intend the winning of the
+minde from wickednes to vertue; euen as the child
+is often brought to take most wholesome things by
+hiding them in such other as haue a pleasaunt taste: 
+which if one should begin to tell them the nature of
+the <name rend="italic">Alloes</name> or <name rend="italic">Rhabarbarum</name> they should receiue, wold
+sooner take their phisick at their eares then at their
+mouth, so is it in men (most of which, are childish
+in the best things, til they be cradled in their graues)
+glad they will be to heare the tales of <name rend="italic">Hercules, Achilles, Cyrus, Aeneas, </name> and hearing them, must needes
+heare the right description of wisdom, value, and iustice; which if they had bene barely (that is to say
+Philosophically) set out, they would sweare they be
+brought to schoole againe ; that imitation whereof
+<name rend="italic">Poetrie</name> is, hath the most conueniencie to nature of al
+other:  insomuch that as <name rend="italic">Aristotle</name> saith, those things
+which in themselues are horrible, as cruel battailes, 
+vnnatural monsters, are made in poeticall imitation, 
+delightfull. 
+</p></div1>
+<div1 type="paragraph" n="33">
+<p>Truly I haue knowne men, that euen
+with reading <name rend="italic">Amadis de gaule, </name> which God knoweth, 
+wanteth much of a perfect <name rend="italic">Poesie</name>, haue found their
+hearts moued to the exercise of courtesie, liberalitie, and especially courage. Who 
+readeth <name rend="italic">Aeneas</name> carrying old <name rend="italic">Anchises</name> on his backe, that wisheth not
+it were his fortune to performe so excellent an Act?
+Whom doth not those words of <name rend="italic">Turnus</name> mooue, 
+(the Tale of <name rend="italic">Turnus</name> hauing planted his image in the
+imagination) <foreign lang="la">fugientem haec terra videbit? Vsque adeone mori miserum est?</foreign> Wher 
+the <name rend="italic">Philosophers</name> as they think
+scorne to delight, so must they be content little to
+mooue ; sauing wrangling whether <foreign lang="la">Virtus</foreign> be the
+chiefe or the onely good ; whether the contemplatiue or the actiue life do excell; which <name rend="italic">Plato &amp; Poetius</name> 
+well knew:  and therefore made mistresse <name rend="italic">Philosophie</name> verie often borrow the masking raiment of
+<name rend="italic">Poesie</name>. For euen those hard hearted euill men who
+thinke vertue a schoole name, and know no other
+good but <foreign lang="la">indulgere genio</foreign>, and therefore despise the
+austere admonitions of the <name rend="italic">Philosopher, </name> and feele not
+the inward reason they stand vpon, yet will be content to be delighted, which is all the good, fellow
+<name rend="italic">Poet</name> seemes to promise; and so steale to see the form
+of goodnes, (which seene, they cannot but loue) ere
+themselues be aware, as if they tooke a medicine of
+Cheries. 
+</p></div1>
+<div1 type="paragraph" n="34">
+<p>Infinit proofes of the straunge effects of
+this Poeticall inuention, might be alleaged:  onely
+two shall serue, which are so often remembred, as
+I thinke all men know them. The one of <name rend="italic">Menemus</name>
+<name rend="italic">Agrippa, </name> who when the whole people of <name rend="italic">Rome</name> had
+resolutely diuided themselues from the <name rend="italic">Senate, </name> with
+apparant shew of vtter ruine, though he were for
+that time an excellent Orator, came not among them
+vpon trust either of figuratiue speeches, or cunning
+insinuations, and much lesse with farre fet <name rend="italic">Maximes</name>
+of <name rend="italic">Philosophie, </name> which especially if they were <name rend="italic">Platonicke, </name> they 
+must haue learned <name rend="italic">Geometrie</name> before
+they could well haue conceiued:  but forsooth, he
+behaueth himselfe like a homely and familiar <name rend="italic">Poet</name>. 
+He telleth them a tale, that there was a time, when
+all the parts of the bodie made a mutinous conspiracie against the belly, which they thought deuoured
+the frutes of each others labour: they concluded
+they would let so vnprofitable a spender starue. In
+the end, to be short, for the tale is notorious, and as
+notorious that it was a tale, with punishing the belly they plagued themselues ; this applied by him, 
+wrought such effect in the people, as I neuer red, 
+that onely words brought foorth:  but then so suddaine and so good an alteration, for vpon reasonable
+conditions, a perfect reconcilement ensued. The other is of <name rend="italic">Nathan</name> the Prophet, who when the holie
+<name rend="italic">Dauid</name>, had so farre forsaken God, as to confirme Adulterie with murther, when he was to do 
+the tendrest office of a friend, in laying his owne shame before his eyes; sent by God to call againe so chosen a
+seruant, how doth he it?  but by telling of a man
+whose beloued lambe was vngratefully taken from
+his bosome. The Application most diuinely true, 
+but the discourse it selfe fained; which made <name rend="italic">Dauid</name>
+(I speake of the second and instrumentall cause) as
+in a glasse see his owne filthinesse, as that heauenly
+Psalme of mercie well testifieth. By these therefore
+examples and reasons, I thinke it may be manifest, 
+that the <name rend="italic">Poet</name> with that same hand of delight, doth
+draw the mind more effectually then any other Art
+doth. 
+</p></div1>
+<div1 type="paragraph" n="35">
+<p>And so a conclusion not vnfitly ensue, that as
+vertue is the most excell't resting place for al worldly learning to make his end of, so <name rend="italic">Poetry</name> being the
+most familiar to teach it, and most Princely to moue
+towards it, in the most excellent worke, is the most
+excellent workeman. But I am content not onely
+to decipher him by his workes (although workes
+in commendation and dispraise, must euer hold a
+high authoritie) but more narrowly will examine
+his parts, so that  ( as in a man ) though altogither
+may carrie a presence full of maiestie and bewtie, 
+perchance in some one defectuous peece we may
+finde blemish. 
+</p></div1>
+<div1 type="paragraph" n="36">
+<p>Now in his parts, kindes, or <foreign lang="la">species, </foreign> as you list to tearme them, it is to be noted, 
+that some <name rend="italic">Poesies</name> haue coupled togither two or three
+kindes, as the <name rend="italic">Tragicall</name> and <name rend="italic">Comicall</name>, whereupon
+is risen the <name rend="italic">Tragicomicall</name>, some in the maner haue
+mingled prose and verse, as <name rend="italic">Sanazara</name> and <name rend="italic">Boetius;</name>
+some haue mingled matters <name rend="italic">Heroicall</name> and <name rend="italic">Pastorall, </name>
+but that commeth all to one in this question, for
+if seuered they be good, the coniunction cannot
+be hurtfull:  therefore perchance forgetting some, 
+and leauing some as needlesse to be remembred. It
+shall not bee amisse, in a word to cite the speciall
+kindes, to see what faults may be found in the right
+vse of them. Is it then the Pastorall <name rend="italic">Poeme</name> which is
+misliked ? (For perchance where the hedge is lowest they will soonest leape ouer) is the poore pipe
+disdained, which somtimes out of <name rend="italic">M&aelig;libeus</name> mouth, 
+can shewe the miserie of people, vnder hard Lords
+and rauening souldiers?  And again by <name rend="italic">Titerus, </name> what
+blessednesse is deriued, to them that lie lowest, from
+the goodnesse of them that sit highest ? Sometimes
+vnder the prettie tales of Woolues and sheepe, can
+enclude the whole considerations of wrong doing
+and patience; sometimes shew that contentions for
+trifles, can get but a trifling victory, wher perchance
+a man may see, that euen <name rend="italic">Alexander &amp; Darius</name>, when
+they straue who should be Cocke of this worldes
+dunghill, the benefit they got, was, that the afterliuers may say, 
+<quote lang="la"><l>Haec memini et victum frustra contendere Thirsim. </l>
+<l>Ex illo Coridon, Coridon est tempore nobis. </l></quote>
+</p></div1>
+<div1 type="paragraph" n="37">
+<p>Or is it the lamenting <name rend="italic">Elegiack</name>, which in a kinde
+heart would mooue rather pittie then blame, who
+bewaileth with the great Philosopher <name rend="italic">Heraclitus, </name>
+the weakenesse of mankinde, and the wretchednesse of the world:  who surely is to bee praised
+either for compassionate accompanying iust causes of lamentations, or for nightlie painting out
+how weake be the passions of wofulnesse ?  Is it
+the bitter but wholesome <name rend="italic">Iambick, </name> who rubbes the
+galled minde, in making shame the Trumpet of
+villanie, with bolde and open crying out against
+naughtinesse ?  Or the <name rend="italic">Satirick, </name> 
+who <foreign lang="la">Omne vafer vitium ridenti tandit amico, </foreign> who sportingly, neuer
+leaueth, till he make a man laugh at follie; and at
+length ashamed, to laugh at himself; which he cannot auoyde, without auoyding the follie ?  who
+while <foreign lang="la">Circum pr&aelig;cordia ludit, </foreign> giueth vs to feele how
+many headaches a passionate life bringeth vs to?
+How when all is done, <foreign lang="la">Est Vlubris animus si nos non deficit aquus. </foreign> 
+</p></div1>
+<div1 type="paragraph" n="38">
+<p>No perchance it is the <name rend="italic">Comick, </name> whom
+naughtie Play-makers and stage-keepers, haue iustly made odious. To the arguments of abuse, I will
+after answer, onely thus much now is to be said, that
+the <name rend="italic">Comedy</name> is an imitation of the common errors of our
+life, which he representeth in the most ridiculous &amp;
+scornfull sort that may be:  so as it is impossible that
+any beholder can be content to be such a one. Now
+as in <name rend="italic">Geometrie, </name> the oblique must be knowne as well
+as the right, and in <name rend="italic">Arithmetick, </name> the odde as well as
+the euen, so in the actions of our life, who seeth not
+the filthinesse of euill, wanteth a great foile to perceiue the bewtie of vertue. This doth the Com&aelig;die
+handle so in our priuate and domesticall matters, as
+with hearing it, wee get as it were an experience
+what is to be looked for of a niggardly <name rend="italic">Demea, </name> of a
+craftie <name rend="italic">Dauus, </name> of a flattering <name rend="italic">Gnato, </name> of a 
+vain-glorious <name rend="italic">Thrasa: </name> and not onely to know what effects are
+to be expected, but to know who be such, by the
+signifying badge giuen them by the <name rend="italic">Com&aelig;dient</name>. 
+And litle reason hath any man to say, that men learne
+the euill by seeing it so set out, since as I said before, 
+there is no man liuing, but by the force truth hath in
+nature, no sooner seeth these men play their parts, 
+but wisheth them in <name rend="italic">Pistrinum, </name>although perchance
+the sack of his owne faults lie so behinde his backe, 
+that he seeth not himselfe to dance the same measure: 
+wherto yet nothing can more open his eies, then to
+see his owne actions contemptibly set forth. So that
+the right vse of <name rend="italic">Com&aelig;die </name>, will I thinke, by no bodie
+be blamed; and much lesse of the high and excellent
+<name rend="italic">Tragedie, </name> that openeth the greatest woundes, and
+sheweth forth the <name rend="italic">Vlcers</name> that are couered with <name rend="italic">Tissue, </name> that 
+maketh Kings feare to be Tyrants, and Tyrants manifest their tyrannicall humours, that with
+sturring the affects of <name rend="italic">Admiration</name> and <name rend="italic">Comiseration</name>, 
+teacheth the vncertaintie of this world, and vppon
+how weak foundations guilden roofes are builded: that maketh 
+vs know, <foreign lang="la">Qui sc&aelig;ptra s&aelig;uus duro imperio regit, Timet timentes, metus in authorem redit. </foreign>  
+</p></div1>
+<div1 type="paragraph" n="39">
+<p>But how much it can moue, <name rend="italic">Plutarch</name> yeeldeth a notable
+testimonie of the abhominable Tyrant <name rend="italic">Alexander</name>
+<name rend="italic">Pher&aelig;us, </name> from whose eyes a <name rend="italic">Tragedie</name> well made and
+represented, drew abundance of teares, who without all pittie had murthered infinite numbers, and
+some of his owne bloud:  so as he that was not ashamed to make matters for <name rend="italic">Tragedies </name>, yet could not
+resist the sweete violence of a <name rend="italic">Tragedie</name>. And if it
+wrought no further good in him, it was, that he in
+despight of himself, withdrew himselfe from hearkening to that which might mollifie his hardened
+heart. But it is not the <name rend="italic">Tragedie</name> they do mislike, 
+for it were too absurd to cast our so excellent a representation of whatsoeuer is most woorthie to be
+learned. 
+</p></div1>
+<div1 type="paragraph" n="40">
+<p>Is it the <name rend="italic">Lyricke</name> that moste displeaseth, 
+who with his tuned <name rend="italic">Lyre</name> and well accorded voice, 
+giueth praise, the reward of vertue, to vertuous
+acts ?  who giueth morall preceptes and naturall
+Problemes, who sometime raiseth vp his voyce to
+the height of the heauens, in singing the laudes
+of the immortall God ?  Certainly I must confesse
+mine owne barbarousnesse, I neuer heard the old
+Song of <name rend="italic">Percy</name> and <name rend="italic">Duglas</name>, that I founde not my
+heart mooued more then with a Trumpet ; and
+yet is it sung but by some blinde Crowder, with
+no rougher voyce, then rude stile:  which being
+so euill apparelled in the dust and Cobwebbes of
+that vnciuill age, what would it worke, trimmed
+in the gorgious eloquence of <name rend="italic">Pindare?</name>  In <name rend="italic">Hungarie</name> I haue 
+seene it the manner at all Feastes and 
+other such like meetings, to haue songs of their ancestors valure, which that right souldierlike nation, 
+think one of the chiefest kindlers of braue courage. 
+The incomperable <name rend="italic">Lacedemonians</name>, did not onelie
+carrie that kinde of <name rend="italic">Musicke</name> euer with them to the
+field, but euen at home, as such songs were made, 
+so were they all content to be singers of them: when
+the lustie men were to tell what they did, the old
+men what they had done, and the yoong what they
+would doo. And where a man may say that <name rend="italic">Pindare</name> many times praiseth highly Victories of small
+moment, rather matters of sport then vertue, as it
+may be answered, it was the fault of the<name rend="italic">Poet </name>, and
+not of the <name rend="italic">Poetrie</name>; so indeed the chiefe fault was, 
+in the time and custome of the <name rend="italic">Greekes</name>, who set
+those toyes at so high a price, that <name rend="italic">Phillip</name> of <name rend="italic">Macedon</name> 
+reckoned a horse-race wonne at <name rend="italic">Olympus</name>, among his three fearefull felicities. But as the
+vnimitable <name rend="italic">Pindare</name> often did, so is that kind most
+capable and most fit, to awake the thoughts from
+the sleepe of idlenesse, to embrace honourable enterprises. 
+</p></div1>
+<div1 type="paragraph" n="41">
+<p>Their rests the <name rend="italic">Heroicall</name>, whose verie
+name I thinke should daunt all backbiters. For by
+what conceit can a tongue bee directed to speake
+euil of that which draweth with him no lesse champions then <name rend="italic">Achilles</name>, 
+<name rend="italic">Cirus</name>, <name rend="italic">Aeneas</name>, <name rend="italic">Turnus</name>, <name rend="italic">Tideus</name>, 
+<name rend="italic">Rinaldo</name>, who doeth not onely teache and
+mooue to a truth, but teacheth and mooueth to
+the most high and excellent truth:  who maketh
+magnanimitie and iustice, shine through all mistie
+fearefulnesse foggie desires. Who if the 
+saying of <name rend="italic">Plato</name> and <name rend="italic">Tully</name> bee true, that who could
+see vertue, woulde bee woonderfullie rauished
+with the loue of her bewtie. This man setteth
+her out to make her more louely in her holliday
+apparrell, to the eye of anie that will daine, not to
+disdaine vntill they vnderstand.  But if any thing
+be alreadie said in the defence of sweete <name rend="italic">Poetrie</name>, all
+concurreth to the mainteining the <name rend="italic">Heroicall</name>, which
+is not onelie a kinde, but the best and most accomplished kindes of <name rend="italic">Poetrie. </name>  For as the Image
+of each Action stirreth and instructeth the minde, 
+so the loftie Image of such woorthies, moste enflameth the minde with desire to bee woorthie: 
+and enformes with counsaile how to bee woorthie. Onely let <name rend="italic">Aeneas</name>  bee worne in 
+the Tablet of your memorie, how hee gouerneth himselfe in the ruine of his Countrey, in the 
+preseruing his olde Father, and carrying away his religious Ceremonies, 
+in obeying Gods Commaunment, to leaue <name rend="italic">Dido </name>, though not onelie all 
+passionate kindnesse, but euen the humane consideration of vertuous gratefulnesse, would haue 
+craued other of him:  how in stormes, how in sports, 
+how in warre, how in peace, how a fugitiue, 
+how victorious, how besieged, how besieging, 
+how to straungers, how to Allies, how to enemies, how to his owne. Lastly, how in 
+his inwarde selfe, and howe in his outward gouernment, and I thinke in a minde moste preiudiced
+with a preiudicating humour, Hee will bee
+founde in excellencie fruitefull. 
+</p></div1>
+<div1 type="paragraph" n="42">
+<p>Yea as <name rend="italic">Horace</name>
+saith, <foreign lang="la">Melius Chrisippo et Crantore</foreign>:  but truly I imagin it falleth out with these Poet-whippers, as with
+some good women who often are sicke, but in faith
+they cannot tel where. So the name of <name rend="italic">Poetrie</name> is odious 
+to them, but neither his cause nor effects, neither the summe that containes 
+him, nor the particularities descending from him, giue any fast handle to
+their carping dispraise. Since then <name rend="italic">Poetrie</name> is of al humane learnings the most ancient, 
+and of most fatherly antiquitie, as from whence other learnings haue
+taken their beginnings ; Since it is so vniuersall, that
+no learned nation doth despise it, nor barbarous nation is without it; 
+Since both <name rend="italic">Romane &amp; Greeke</name> gaue
+such diuine names vnto it, the one of prophesying, 
+the other of making ; and that indeed that name of
+making is fit for him, considering, that where all other Arts retain themselues within their subiect, and
+receiue as it were their being from it. The <name rend="italic">Poet</name> onely, onely bringeth his own stuffe, and doth not learn
+a Conceit out of a matter, but maketh matter for a
+Conceit. Since neither his description, nor end, containing any euill, the thing described cannot be euil;
+since his effects be so good as to teach goodnes, and
+delight the learners of it; since therein (namely in
+morall doctrine the chiefe of all knowledges) hee
+doth not onely farre passe the <name rend="italic">Historian</name>, but for instructing 
+is well nigh comparable to the <name rend="italic">Philosopher, </name>
+for mouing, leaueth him behind him. Since the holy scripture (wherein there is no vncleannesse) hath
+whole parts in it Poeticall, and that euen our Sauior
+Christ vouchsafed to vse the flowers of it:  since all
+his kindes are not onely in their vnited formes, but
+in their seuered dissections fully commendable, I
+thinke, ( and thinke I thinke rightly ) the Lawrell
+Crowne appointed for tryumphant Captaines, doth
+worthily of all other learnings, honour the <name rend="italic">Poets</name> triumph. 
+</p></div1>
+<div1 type="paragraph" n="43">
+<p>But bicause we haue eares as well as toongs, 
+and that the lightest reasons that may be, will seeme
+to waigh greatly, if nothing be put in the counterballance, let vs heare, and as well as we can, ponder
+what obiections be made against this Art, which
+may be woorthie either of yeelding, or answering. 
+First truly I note, not onely in these <foreign lang="greek">misomou=soi</foreign>, Poet-haters, 
+but in all that kind of people who seek a praise, 
+by dispraising others, that they do prodigally spend
+a great many wandring words in quips and scoffes, 
+carping and taunting at each thing, which by sturring the spleene, may staie the brain from a through
+beholding the worthinesse of the subiect. Those
+kind of obiections, as they are full or a verie idle easinesse, since there is nothing of so sacred a maiestie, 
+but that an itching toong may rub it selfe vpon it, so
+deserue they no other answer, but in steed of laughing at the ieast, to laugh at the ieaster. We know a
+playing wit can praise the discretion of an Asse, the
+comfortablenes of being in debt, and the iolly commodities of being sicke of the plague. So 
+of the contrary side, if we will turne <name rend="italic">Ouids</name> 
+verse, <foreign lang="la">Vt lateat virtus, prox imitate mali, </foreign> that good lye hid, in nearnesse
+of the euill. <name rend="italic">Agrippa</name> will be as mery in shewing the
+vanitie of Science, as <name rend="italic">Erasmus</name> was in the commending of folly:  neither shal any man or matter, escape
+some touch of these smiling Raylers. But for <name rend="italic">Erasmus</name> 
+and <name rend="italic">Agrippa</name>, they had an other foundation then
+the superficiall part would promise. Marry these other pleasaunt fault-finders, who will correct the
+<name rend="italic">Verbe</name>, before they vnderstand the <name rend="italic">Nowne, </name> 
+and confute others knowledge, before they confirme their
+owne, I would haue them onely remember, that
+scoffing commeth not of wisedome ; so as the best
+title in true English they get with their meriments, 
+is to be called good fooles:  for so haue our graue
+forefathers euer tearmed that humorous kinde of
+iesters. 
+</p></div1>
+<div1 type="paragraph" n="44">
+<p>But that which giueth greatest scope to their
+scorning humor, is ryming and versing. It is alreadie said (and as I thinke truly said) it is not ryming
+and versing that maketh <name rend="italic">Poesie: </name>  One may be a <name rend="italic">Poet</name>
+without versing, and a versefier without <name rend="italic">Poetrie</name>. But
+yet presuppose it were inseperable, as indeed it seemeth <name rend="italic">Scalliger</name> iudgeth truly, it were an inseperable
+commendation. For if <foreign lang="la">Oratio, </foreign> next to <foreign lang="la">Ratio, </foreign> Speech
+next to Reason, be the greatest gift bestowed vpon
+<name rend="italic">Mortalitie, </name> that cannot bee praiselesse, which doth
+most polish that blessing of speech ;  which considereth each word not onely as a man may say by his
+forcible qualitie, but by his best measured quantity: 
+carrying euen in themselues a <name rend="italic">Harmonie, </name> without
+perchance number, measure, order, proportion, be
+in our time growne odious. But laie aside the iust
+praise it hath, by being the onely fit speech for <name rend="italic">Musicke</name>, 
+(<name rend="italic">Musicke</name> I say the most diuine striker of the senses). Thus much is vndoubtedly true, 
+that if reading be foolish without remembring, Memorie being the onely treasure of knowledge, those words
+which are fittest for memory, are likewise most conuenient for knowledge. 
+</p></div1>
+<div1 type="paragraph" n="45">
+<p>Now that Verse far exceedeth Prose, in the knitting vp of the memorie, the
+reason is manifest, the words (besides their delight, 
+which hath a great affinitie to memorie) being so set
+as one cannot be lost, but the whole woorke failes: 
+which accusing it selfe, calleth the remembrance
+back to it selfe, and so most strongly confirmeth it. 
+Besides one word, so as it were begetting an other, 
+as be it in rime or measured verse, by the former a man
+shall haue a neare gesse to the follower. Lastly euen
+they that haue taught the Art of memory, haue shewed nothing so apt for it, as a certain roome diuided
+into many places, well &amp; throughly knowne:  Now
+that hath the verse in effect perfectly, euerie word
+hauing his natural seat, which seat must needs make
+the word remembred. But what needes more in a
+thing so knowne to all men. Who is it that euer was
+scholler, that doth not carry away som verses of <name rend="italic">Virgil</name>, <name rend="italic">Horace, </name> 
+or <name rend="italic">Cato, </name> which in his youth hee learned, 
+and euen to his old age serue him for hourely lessons;
+as <foreign lang="la">Percontatorem fugito nam garrulus idem est, Dum tibi quisque placet credula turba sumas</foreign>. But 
+the fitnes it hath for memorie, is notably prooued by all deliuerie of
+Arts, wherein for the most part, from <name rend="italic">Grammer, </name> to
+<name rend="italic">Logick, Mathematickes, Phisick, </name> and the rest, the Rules
+chiefly necessarie to be borne away, are compiled in
+verses. So that verse being in it selfe sweet and orderly, and being best for memorie, the onely handle of
+knowledge, it must be in iest that any man can speak
+against it. 
+</p></div1>
+<div1 type="paragraph" n="46">
+<p>Now then goe we to the most important
+imputations laid to the poore <name rend="italic">Poets</name>, for ought I can
+yet learne, they are these. First that there beeing
+manie other more frutefull knowledges, a man
+might better spend his time in them, then in this. 
+Secondly, that it is the mother of lyes. Thirdly, that 
+it is the nurse of abuse, infecting vs with many pestilent desires, with a <name rend="italic">Sirens</name> sweetnesse, drawing the
+minde to the Serpents taile of sinfull fansies ; and
+herein especially <name rend="italic">Comedies</name> giue the largest field to
+eare, as <name rend="italic">Chawcer</name> saith, how both in other nations and
+in ours, before <name rend="italic">Poets</name> did soften vs, we were full of
+courage giuen to martial exercises, the pillers of manlike libertie, and not lulled a sleepe in shadie idlenes, 
+with <name rend="italic">Poets</name> pastimes. And lastly and chiefly, they cry
+out with open mouth as if they had ouershot <name rend="italic">Robin-hood, </name> 
+that <name rend="italic">Plato</name> banished them out of his Commonwealth. 
+</p></div1>
+<div1 type="paragraph" n="47">
+<p>Truly this is much, if there be much truth
+in it. First to the first. That a man might better spend
+his time, is a reason indeed:  but it doth as they say, 
+but <foreign lang="la">petere principium</foreign>. For if it be, as I affirme, that
+no learning is so good, as that which teacheth and
+moueth to vertue, and that none can both teach and
+moue thereto so much as <name rend="italic">Poesie</name>, then is the conclusion manifest ; that incke and paper cannot be to a
+more profitable purpose imployed. And certainly
+though a man should graunt their first assumption, 
+it should follow (mee thinks) very vnwillingly, that
+good is not good, because better is better. But I still
+and vtterly deny, that there is sprung out of earth a
+more fruitfull knowledge. To the second therfore, 
+that they should be the principall lyers, I answere
+<name rend="italic">Paradoxically</name>, but truly, I think truly:  that of all 
+writers vnder the Sunne, the <name rend="italic">Poet</name> is the least lyer:  and
+though he wold, as a <name rend="italic">Poet</name> can scarcely be a lyer. The
+<name rend="italic">Astronomer</name> with his cousin the <name rend="italic">Geometrician</name>, can
+hardly escape, when they take vpon them to measure the height of the starres. How often thinke you
+do the <name rend="italic">Phisitians</name> lie, when they auerre things good
+for sicknesses, which afterwards send <name rend="italic">Charon</name> a great
+number of soules drownd in a potion, before they
+come to his Ferrie? And no lesse of the rest, which
+take vpon them to affirme. 
+</p></div1>
+<div1 type="paragraph" n="48">
+<p>Now for the <name rend="italic">Poet, </name>he nothing affirmeth, and therefore neuer lieth:  for as I
+take it, to lie, is to affirme that to bee true, which is
+false. So as the other <name rend="italic">Artistes</name>, and especially the <name rend="italic">Historian</name>, 
+affirming manie things, can in the clowdie
+knowledge of mankinde, hardly escape from manie
+lies. But the <name rend="italic">Poet</name> as I said before, neuer affirmeth, the
+<name rend="italic">Poet</name> neuer maketh any Circles about your imagination, to 
+coniure you to beleeue for true, what he writeth: he citeth not authorities of other histories, but
+euen for his entrie, calleth the sweete <name rend="italic">Muses</name> to inspire
+vnto him a good inuention. In troth, not laboring to
+tel you what is, or is not, but what should, or should
+not be. And therefore though he recount things not
+true, yet because he telleth them not for true, he lieth not:  without we will say, that <name rend="italic">Nathan</name> lied in his
+speech before alleaged to <name rend="italic">Dauid</name>, which as a wicked
+man durst scarce say, so think I none so simple, wold
+say, that <name rend="italic">Esope</name> lied, in the tales of his beasts: for who
+thinketh that <name rend="italic">Esope</name> wrote it for actually true, were
+wel worthie to haue his name Cronicled among the
+beasts he writeth of. What childe is there, that comming to a play, 
+and seeing <name rend="italic">Thebes</name> written in great letters vpon an old doore, doth beleeue that it 
+is <name rend="italic">Thebes?</name>  If then a man can arriue to the childes age, to
+know that the <name rend="italic">Poets</name> persons and dooings, are but
+pictures, what should be, and not stories what haue
+bin, they will neuer giue the lie to things not Affirmatiuely, but Allegorically and figuratiuely written; 
+and therefore as is historie looking for truth, 
+they may go away full fraught with falshood. 
+</p></div1>
+<div1 type="paragraph" n="49">
+<p>So in <name rend="italic">Poesie</name>, looking but for fiction, they shall vse the
+narration but as an imaginatiue groundplat of a
+profitable inuention. But hereto is replied, that the
+<name rend="italic">Poets</name> giue names to men they write of, which argueth a conceit of an actual truth, and so 
+not being true, prooueth a falshood . And dooth the
+<name rend="italic">Lawier</name> lye, then when vnder the names of <name rend="italic">Iohn</name> of
+the <name rend="italic">Stile</name>, and <name rend="italic">Iohn</name> of the <name rend="italic">Nokes</name>, hee putteth his
+Case?  But that is easily answered, their naming
+of men, is but to make their picture the more liuely, and not to build anie Historie. Painting men, 
+they cannot leaue men namelesse:  wee see, wee
+cannot plaie at Chestes, but that wee must giue
+names to our Chessemen ;  and yet mee thinkes he
+were a verie partiall Champion of truth, that would
+say wee lyed, for giuing a peece of wood the reuerende 
+title of a Bishop. The <name rend="italic">Poet</name> nameth <name rend="italic">Cyrus</name> and 
+<name rend="italic">Aeneas, </name> no other way, then to shewe
+what men of their fames, fortunes, and estates, 
+should doo. Their third is, how much it abuseth mens wit, training it to wanton sinfulnesse, 
+and lustfull loue. For indeed that is the principall
+if not onely abuse, I can heare alleadged. They say
+the <name rend="italic">Comedies </name> rather teach then reprehend amorous
+conceits. They say the <name rend="italic">Lirick</name> is larded with passionat
+<name rend="italic">Sonets</name>, the <name rend="italic">Elegiack</name> weeps the want of his mistresse, 
+and that euen to the <name rend="italic">Heroical Cupid</name> hath ambitiously
+climed. Alas Loue, I would thou couldest as wel defend thy selfe, as thou canst offend others:  I would
+those on whom thou doest attend, could either put
+thee away, or yeeld good reason why they keepe
+thee. But grant loue of bewtie to be a beastly fault, 
+although it be verie hard, since onely man and no
+beast hath that gift to discerne bewtie, graunt that
+louely name of loue to deserue all hatefull reproches, although euen some of my maisters 
+the <name rend="italic">Philosophers</name> spent a good deale of their Lampoyle in setting foorth the excellencie of it, graunt I say, what
+they will haue graunted, that not onelie loue, but
+lust, but vanitie, but if they list scurrilitie, possesse
+manie leaues of the <name rend="italic">Poets</name> bookes, yet thinke I, 
+when this is graunted, they will finde their sentence may with good manners put the last words
+foremost ; and not say, that <name rend="italic">Poetrie</name> abuseth mans
+wit, but that mans wit abuseth <name rend="italic">Poetrie</name>. 
+</p></div1>
+<div1 type="paragraph" n="50">
+<p>For I will not denie, but that mans wit may make <name rend="italic">Poesie, </name>
+which should be <foreign lang="greek">ei)kastikh/</foreign> which some learned haue
+defined figuring foorth good things to be <foreign lang="greek">qanastikh/</foreign> 
+which doth contrariwise infect  the fancie with vnwoorthie obiects, as the Painter should giue to
+the eye either some excellent perspectiue, or some
+fine Picture fit for building or fortification, or
+containing in it some notable example, as <name rend="italic">Abraham</name> sacrificing his 
+sonne <name rend="italic">Isaack, Iudith</name> killing <name rend="italic">Holofernes, Dauid</name> fighting 
+with <name rend="italic">Golias, </name>may leaue those, 
+and please an ill pleased eye with wanton shewes
+of better hidden matters. But what, shal the abuse of a
+thing, make the right vse odious?  Nay truly though
+I yeeld, that <name rend="italic">Poesie</name> may not onely be abused, but that
+being abused by the reason of his sweete charming
+force, it can do more hurt then anie other armie of
+words: yet shall it be so farre from concluding, that
+the abuse should giue reproach to the abused, that
+contrariwise, it is a good reason, that whatsoeuer being abused, doth most harme, being rightly vsed (and
+vpon the right vse, ech thing receiues his title) doth
+most good. 
+</p></div1>
+<div1 type="paragraph" n="51">
+<p>Do we not see skill of Phisicke the best
+ramper to our often assaulted bodies, being abused, 
+teach poyson the most violent destroyer ?  Doth not
+knowledge of Law, whose end is, to euen &amp; right
+all things, being abused, grow the crooked fosterer
+of horrible iniuries?  Doth not (to go to the highest)
+Gods word abused, breede heresie, and his name abused, become blasphemie?  Truly a Needle cannot
+do much hurt, and as truly (with leaue of Ladies be
+it spoken) it cannot do much good. With a swoord
+thou maist kill thy Father, and with a swoord thou
+maist defende thy Prince and Countrey:  so that, as in
+their calling <name rend="italic">Poets, </name>fathers of lies, they said nothing, 
+so in this their argument of abuse, they prooue the
+commendation. They alledge herewith, that before
+<name rend="italic">Poets</name> began to be in price, our Nation had set their
+hearts delight vppon action, and not imagination, 
+rather doing things worthie to be written, then writing things fit to be done. What that before time
+was, I think scarcely <name rend="italic">Spinx</name> can tell:  since no memerie is 
+so ancient, that hath not the precedens of <name rend="italic">Poetrie. </name>  And certain it is, that in our plainest homelines, 
+yet neuer was the <name rend="italic">Albion</name> Nation without <name rend="italic">Poetrie. </name>
+Marry this Argument, thou it be leuiled against
+<name rend="italic">Poetrie</name>, yet is it indeed a chain-shot against all learning or bookishnes, as they commonly terme it. Of
+such mind were certaine <name rend="italic">Gothes, </name> of whom it is written, that hauing in the spoile of a famous 
+Cittie, taken a faire Librarie, one hangman belike fit to execute the frutes of their wits, who had murthered a
+great number of bodies, would haue set fire in it. 
+No said an other verie grauely, take heed what you
+do, for while they are busie about those toyes, wee
+shall with more leisure conquere their Countries. 
+This indeed is the ordinarie doctrine of ignorance, 
+and many words sometimes I haue heard spent in
+it: but bicause this reason is generally against al learning, as wel 
+as <name rend="italic">Poetrie</name>, or rather all learning but <name rend="italic">Poetrie</name>, because it 
+were too large a digression to handle
+it, or at least too superfluous, since it is manifest that
+all gouernment of action is to be gotten by knowledge, and knowledge best, by gathering manie
+knowledges, which is reading; I onely with <name rend="italic">Horace</name>, 
+to him that is of that opinion, <foreign lang="la">Iubio stultum esse libenter</foreign>: for as 
+for <name rend="italic">Poetrie</name> it selfe, it is the freest from this
+obiection, for <name rend="italic">Poetrie</name> is the Companion of Camps. 
+I dare vndertake, <name rend="italic">Orlando Furioso</name>, or honest king <name rend="italic">Arthure</name>, will 
+neuer displease a souldier:  but the quidditie of <foreign lang="la">Ens et Prima materia, </foreign> will hardly agree with
+a Corcelet. 
+</p></div1>
+<div1 type="paragraph" n="52">
+<p>And therefore as I said in the beginning, 
+euen <name rend="italic">Turkes</name> and <name rend="italic">Tartars</name>, are delighted with <name rend="italic">Poets. </name>
+<name rend="italic">Homer</name> a <name rend="italic">Greeke</name>, flourished, before <name rend="italic">Greece</name> flourished: 
+and if to a slight coniecture, a coniecture may bee
+apposed, truly it may seem, that as by him their learned men tooke almost their first light of knowledge, 
+so their actiue men, receiued their first motions of
+courage. Onely <name rend="italic">Alexanders</name> example may serue, 
+who by <name rend="italic">Plutarche</name> is accounted of such vertue, that
+fortune was not his guide, but his footestoole, 
+whose Acts speake for him, though <name rend="italic">Plutarche</name> did
+not:  indeede the <name rend="italic">Phoenix</name> of warlike Princes. This
+<name rend="italic">Alexander</name>, left his Schoolemaister liuing <name rend="italic">Aristotle</name> 
+behinde him, but tooke dead <name rend="italic">Homer</name> with
+him. Hee put the Philosopher <name rend="italic">Callisthenes</name> to death, 
+for his seeming Philosophicall, indeed mutinous
+stubbornnesse, but the chiefe thing hee was euer
+heard to wish for, was, that <name rend="italic">Homer</name> had bene aliue. 
+Hee well founde hee receiued more brauerie of
+minde by paterne of <name rend="italic">Achilles</name>, then by hearing
+the definition of fortitude. And therefore if <name rend="italic">Cato</name> misliked <name rend="italic">Fuluius</name> 
+for carrying <name rend="italic">Ennius</name> with him
+to the field, It may be answered, that if <name rend="italic">Cato</name> misliked it, 
+the Noble <name rend="italic">Fuluius</name> liked it, or else he had
+not done it ; for it was not the excellent <name rend="italic">Cato Vticencis</name>, whose authoritie I would much more haue
+reuerenced: But it was the former, in truth a bitter punisher of faultes, but else a man that had neuer 
+sacrificed to the <name rend="italic">Graces</name>. Hee misliked and cried out against all Greeke learning, and yet being
+foure score yeares olde beganne to learne it, belike fearing that <name rend="italic">Pluto</name> vnderstood not Latine. Indeed 
+the <name rend="italic">Romane</name> lawes allowed no person to bee
+carried to the warres, but hee that was in the souldiers Role. And therefore though <name rend="italic">Cato</name> misliked
+his vnmustred person, he misliked not his worke. 
+And if hee had, <name rend="italic">Scipio Nasica</name> (iudged by common
+consent the best <name rend="italic">Romane)</name> loued him:  both the other
+<name rend="italic">Scipio</name> brothers, who had by their vertues no lesse
+surnames then of <name rend="italic">Asia</name> and <name rend="italic">Affricke</name>, so loued him, 
+that they caused his bodie to be buried in their Sepulture. So as <name rend="italic">Catoes</name> authoritie beeing but against
+his person, and that answered with so farre greater then himselfe, is herein of no validitie. 
+</p></div1>
+<div1 type="paragraph" n="53">
+<p>But now indeede my burthen is great, that <name rend="italic">Plato</name> his
+name is laide vppon mee, whom I must confesse
+of all <name rend="italic">Philosophers</name>, I haue euer esteemed most worthie of reuerence ; and with good reason, since of
+all <name rend="italic">Philosophers</name> hee is the most <name rend="italic">Poeticall: </name>  yet if hee
+will defile the fountaine out of which his flowing
+streames haue proceeded, let vs boldly examine
+with what reasons hee did it . First truly a man
+might maliciously obiect, that <name rend="italic">Plato</name> being a <name rend="italic">Philosopher, </name> 
+was a naturall enemy of <name rend="italic">Poets. </name>  For indeede
+after the <name rend="italic">Philosophers</name> had picked out of the sweete
+misteries of <name rend="italic">Poetrie, </name> the right discerning true points
+of knowledge:  they foorthwith putting it in methode, and making a Schoole Art of that which the
+<name rend="italic">Poets</name> did onely teach by a diuine delightfulnes, beginning to spurne at their guides, like vngratefull
+Prentices, were not content to set vp shop for themselues, but sought by all meanes to discredit their
+maisters, which by the force of delight being barred them, the lesse they could ouerthrow them, the
+more they hated them. For indeed they found for
+<name rend="italic">Homer</name>, seuen Cities straue who should haue him for
+their Cittizen, where many Cities banished <name rend="italic">Philosophers, </name> as not fit members to liue among them. For
+onely repeating certaine of <name rend="italic">Euripides</name> verses, 
+many <name rend="italic">Atheniens</name> had their liues saued of the <name rend="italic">Siracusans</name>; 
+where the <name rend="italic">Atheniens</name> themselues thought
+many <name rend="italic">Philosophers</name> vnworthie to liue. 
+</p></div1>
+<div1 type="paragraph" n="54">
+<p>Certaine <name rend="italic">Poets, </name> as <name rend="italic">Simonides, </name> and <name rend="italic">Pindarus</name>, had so preuailed with
+<name rend="italic">Hiero</name> the first, that of a Tyrant they made him a iust
+King:  where <name rend="italic">Plato</name> could do so little with <name rend="italic">Dionisius</name>, 
+that he himselfe of a <name rend="italic">Philosopher</name>, was made a slaue. 
+But who should do thus, I confesse should requite
+the obiections made against <name rend="italic">Poets</name>, with like 
+cauillations against <name rend="italic">Philosophers: </name> as likewise one should
+do, that should bid one read <name rend="italic">Phaedrus</name> or <name rend="italic">Simposium</name>
+in <name rend="italic">Plato</name>, or the discourse of loue in <name rend="italic">Plutarch</name>, and see
+whether any <name rend="italic">Poet</name> do authorise abhominable filthinesse as they doo. Againe, a man might aske, out of
+what Common-wealth <name rend="italic">Plato</name> doth banish them, in
+sooth, thence where he himselfe alloweth communitie of women. So as belike this banishment grew
+not for effeminate wantonnesse, since little should
+Poetical <name rend="italic">Sonnets</name> be hurtful, when a man might haue
+what woman he listed. But I honor Philosophicall
+instructions, and blesse the wits which bred them: 
+so as they be not abused, which is likewise stretched
+to <name rend="italic">Poetrie. </name>  <name rend="italic">S.  Paul</name> himselfe sets a watch-word vppon
+<name rend="italic">Philosophie</name>, indeed vppon the abuse. So doth <name rend="italic">Plato</name>
+vppon the abuse, not vpon <name rend="italic">Poetrie</name>. <name rend="italic">Plato</name> found fault
+that the <name rend="italic">Poettes</name> of his time, filled the worlde with
+wrong opinions of the Gods, making light tales of
+that vnspotted essence ; and therfore wold not haue
+the youth depraued with such opinions:  heerein
+may much be said ; let this suffice. 
+</p></div1>
+<div1 type="paragraph" n="55">
+<p>The <name rend="italic">Poets</name> did not
+induce such opinions, but did imitate those opinions alreadie induced. For all the <name rend="italic">Greeke</name> stories can
+well testifie, that the verie religion of that time, stood
+vpon many, and many fashioned Gods: Not taught
+so by <name rend="italic">Poets</name>, but followed according to their nature
+of imitation. Who list may read in <name rend="italic">Plutarch, </name> the 
+discourses of <name rend="italic">Isis</name> and <name rend="italic">Osiis</name>, of the cause why Oracles
+ceased, of the diuine prouidence, &amp; see whether the
+<name rend="italic">Theology</name> of that nation, stood not vpon such dreams, 
+which the <name rend="italic">Poets</name> indeede superstitiously obserued. 
+And truly since they had not the light of Christ, did
+much better in it, then the <name rend="italic">Philosophers, </name>who shaking
+off superstition, brought in <name rend="italic">Atheisme</name>. <name rend="italic">Plato</name> therfore, 
+whose authoritie, I had much rather iustly consture, 
+then vniustly resist:  ment not in generall of <name rend="italic">Poets</name>, in
+those words of which <name rend="italic">Iulius Scaliger</name> saith; <foreign lang="la">Qua authoritate 
+barbari quidam atque hispidi abuti velint ad poetas et &egrave; rep. Exigendos. </foreign> But only ment to driue out those
+wrong opinions of the Deitie:  wherof now without further law, <name rend="italic">Christianitie</name> hath taken away all the
+hurtful beliefe, perchance as he thought nourished
+by then esteemed <name rend="italic">Poets</name>. And a man need go no further then to <name rend="italic">Plato</name> himselfe to knowe his meaning: 
+who in his Dialogue called <name rend="italic">Ion</name>, giueth high, and
+rightly, diuine commendation vnto <name rend="italic">Poetrie. </name>  So as
+<name rend="italic">Plato</name> banishing the abuse, not the thing, not banishing it, but giuing due honour to it, shall be our
+Patron, and not our aduersarie. For indeed, I had
+much rather, since truly I may do it, shew their mistaking of <name rend="italic">Plato</name>, vnder whose Lyons skinne, they
+would make an Aslike braying against <name rend="italic">Poesie</name>, then
+go about to ouerthrow his authoritie ; whome the
+wiser a man is, the more iust cause he shall finde to
+haue in admiration:  especially since he attributeth
+vnto <name rend="italic">Poesie</name>, more then my selfe do ; namely, to be a
+verie inspiring of a diuine force, farre aboue mans
+wit, as in the forenamed Dialogue is apparant. 
+</p></div1>
+<div1 type="paragraph" n="56">
+<p>Of the other side, who would shew the honours haue
+bene by the best sort of iudgements graunted them, 
+a whole sea of examples woulde present themselues; <name rend="italic">Alexanders</name>, 
+<name rend="italic">C&aelig;sars</name>, <name rend="italic">Scipioes</name>, all fauourers
+of <name rend="italic">Poets: </name> <name rend="italic">L&aelig;lius</name>, called the Romane <name rend="italic">Socrates</name> himselfe 
+a <name rend="italic">Poet</name> ; so as part of <name rend="italic">Heautontimoroumenon</name> in
+<name rend="italic">Terrace</name>, was supposed to bee made by him. And
+euen the Greeke <name rend="italic">Socrates</name>, whome <name rend="italic">Appollo</name> confirmed to bee the onely wise man, is said to haue
+spent part of his olde time in putting <name rend="italic">Esopes</name> Fables into verses. And therefore full euill should
+it become his scholler <name rend="italic">Plato, </name> to put such words in
+his maisters mouth against <name rend="italic">Poets</name>. But what needs
+more?  <name rend="italic">Aristotle</name> writes the Arte of <name rend="italic">Poesie</name>, and
+why, if it should not bee written ?  <name rend="italic">Plutarche</name> teacheth the vse to bee gathered of them, and how, 
+if they should not bee reade ?  And who reades
+<name rend="italic">Plutarches</name> either Historie or <name rend="italic">Philosophie, </name> shall finde
+hee trimmeth both their garments with gardes of
+<name rend="italic">Poesie</name>. But I list not to defend <name rend="italic">Poesie</name> with the helpe
+of his vnderling <name rend="italic">Historiographie</name>. Let it suffice to
+haue shewed, it is a fit soyle for praise to dwell vppon:  and what dispraise may set vppon it, 
+is either easily ouercome, or transformed into iust commendation. So that since the excellencies of it, 
+may bee so easily and so iustly confirmed, and the
+lowe creeping obiections so soone trodden downe, 
+it not beeing an Art of lyes, but of true doctrine;
+not of effeminatenesse, but of notable stirring of
+courage; not of abusing mans wit, but of strengthening mans wit;not banished, but honored by <name rend="italic">Plato</name>;
+Let vs rather plant more Lawrels for to ingarland
+the <name rend="italic">Poets</name> heads (which honor of being Lawreate, 
+as besides them onely triumphant Captaines were, 
+is a sufficient authoritie to shewe the price they
+ought to bee held in ) then suffer the ill sauoured
+breath of such wrong speakers once to blow vppon the cleare springs of <name rend="italic">Poesie. </name>  
+</p></div1>
+<div1 type="paragraph" n="57">
+<p>But since I haue runne so long a Carrier in this matter, methinkes
+before I giue my penne a full stoppe, it shall be
+but a litle more lost time, to enquire why England
+the Mother of excellent mindes should be growne
+so hard a stepmother to <name rend="italic">Poets</name>, who certainely in
+wit ought to passe all others, since all onely proceedes from their wit, beeing indeed makers of
+themselues, not takers of others. How can I but
+exclaime. <foreign lang="la">Musa mihi causas memoria quo numine laeso</foreign>, 
+Sweete <name rend="italic">Poesie</name> that hath aunciently had Kings, 
+Emperours, Senatours, great Captaines, such as
+besides a thousandes others, <name rend="italic">Dauid, Adrian, Sophocles, Germanicus, </name> 
+not onelie to fauour <name rend="italic">Poets, </name> but
+to bee <name rend="italic">Poets: </name> and of our nearer times, can present
+for her Patrons, a <name rend="italic">Robert</name> King of <name rend="italic">Scicill</name>, the great
+King <name rend="italic">Fraunces</name> of <name rend="italic">Fraunce, </name> King <name rend="italic">Iames</name> of <name rend="italic">Scotland</name>;
+such Cardinalls as <name rend="italic">Bembus</name>, and <name rend="italic">Bibiena</name> ; suche famous 
+Preachers and Teachers, as <name rend="italic">Beza</name> and <name rend="italic">Melanchthon</name>;  
+so learned <name rend="italic">Philosophers</name>, as <name rend="italic">Fracastorius</name>, 
+and <name rend="italic">Scaliger</name> ; so great Orators, as <name rend="italic">Pontanus</name>, 
+and <name rend="italic">Muretus</name> ; so pearcing wits, as <name rend="italic">George Buchanan</name>; 
+so graue Cousailours, as besides manie, 
+but before all, the <name rend="italic">Hospitall</name> of <name rend="italic">Fraunce</name> ; then
+whome I thinke that Realme neuer brought forth
+a more accomplished iudgement, more firmly builded vpon vertue: I say these with numbers of others, 
+not onely to read others <name rend="italic">Poesies, </name> but to <name rend="italic">poetise</name> for others 
+reading ; that <name rend="italic">Poesie</name> thus embraced in all other
+places, should onely finde in our time a hard welcome in England. I thinke the verie earth laments it, 
+and therefore deckes our soyle with fewer Lawrels
+then it was accustomed. For heretofore, <name rend="italic">Poets</name> haue
+in England also flourished:  and which is to be noted, euen in those times when the Trumpet of <name rend="italic">Mars</name>
+did sound lowdest. 
+</p></div1>
+<div1 type="paragraph" n="58">
+<p>And now that an ouer faint quietnesse should seeme to strowe the house for <name rend="italic">Poets</name>. 
+They are almost in as good reputation, as the <name rend="italic">Mountebanckes</name> 
+at <name rend="italic">Venice</name>. Truly euen that, as of the one side
+it giueth great praise to <name rend="italic">Poesie, </name> which like <name rend="italic">Venus</name>(but
+to better purpose) had rather be troubled in the net
+with <name rend="italic">Mars, </name>then enioy the homely quiet of <name rend="italic">Vulcan</name>. 
+So serueth it for a peece of a reason, why they are lesse
+gratefull to idle England, which now can scarce endure the paine of a penne. Vpon this necessarily 
+followeth, that base men with seruill wits vndertake it, 
+who thinke it inough if they can be rewarded of the
+Printer: and so as <name rend="italic">Epaminandas</name> is said with the honor
+of his vertue to haue made an Office, by his exercising it, which before was contemtible, to become
+highly respected:  so these men no more but setting
+their names to it, by their own disgracefulnesse, disgrace the most gracefull <name rend="italic">Poesie. </name>  For now as if all the
+<name rend="italic">Muses</name> were got with childe, to bring forth bastard
+Poets:  without any commission, they do passe ouer
+the Bankes of <name rend="italic">Helicon</name>, till they make the Readers
+more wearie then Post-horses:  while in the meane
+time, they <foreign lang="la">Queis meliore luto finxit praecordia Titan, </foreign>
+are better content to suppresse the out-flowings of
+their wit, then by publishing them, to be accounted
+Knights of the same order. 
+</p></div1>
+<div1 type="paragraph" n="59">
+<p>But I that before euer I
+durst aspire vnto the dignitie, am admitted into the
+companie of the <name rend="italic">Paper-blurrers</name>, do finde the verie
+true cause of our wanting estimation, is want of desert, taking vppon 
+vs to be <name rend="italic">Poets, </name>in despite of <name rend="italic">Pallas</name>. 
+Now wherein we want desert, were a thankwoorthie labour to expresse. But if I knew I should haue
+mended my selfe, but as I neuer desired the title, so
+haue I neglected the meanes to come by it, onely
+ouer-mastered by some thoughts, I yeelded an inckie tribute vnto them. Marrie they that delight in
+<name rend="italic">Poesie</name> it selfe, should seek to know what they do, and
+how they do:  and especially looke themselues in an
+vnflattering glasse of reason, if they be enclinable
+vnto it. For <name rend="italic">Poesie</name> must not be drawne by the eares, 
+it must be gently led, or rather it must lead, which
+was partly the cause that made the auncient learned
+affirme, it was a diuine gift &amp; no humane skil; since
+all other knowledges lie readie for anie that haue
+strength of wit:  A <name rend="italic">Poet</name> no industrie can make, if his
+owne <name rend="italic">Genius</name> be not carried into it. And therefore is
+an old Prouerbe, <foreign lang="la">Orator fit, Poeta nascitur</foreign>. 
+</p></div1>
+<div1 type="paragraph" n="60">
+<p>Yet confesse I alwaies, that as the fertilest ground must
+be manured, so must the highest flying wit haue a
+<name rend="italic">Dedalus</name> to guide him. That <name rend="italic">Dedalus</name> they say both in
+this and in other, hath three wings to beare it selfe
+vp into the aire of due commendation:  that is Art, 
+Imitation, and Exercise. But these neither Artificall Rules, nor imitatiue paternes, we much comber
+our selues withall. Exercise indeed we do, but that
+verie fore-backwardly ; for where we should exercise to know, we exercise as hauing knowne:  and
+so is our braine deliuered of much matter, which
+neuer was begotten by knowledge. For there being two principall parts, Matter to be expressed by
+words, and words to expresse the matter:  In neither, wee vse Art or imitation 
+rightly. Our matre is, <foreign lang="la">Quodlibet, </foreign> indeed though 
+wrongly performing, <name rend="italic">Ouids</name> Verse. <foreign lang="la">Quicquid conabor dicere, Versus erit: </foreign> 
+neuer marshalling it into anie assured ranck, 
+that almost the Readers cannot tell where to finde
+themselues. 
+</p></div1>
+<div1 type="paragraph" n="61">
+<p><name rend="italic">Chawcer</name> vndoubtedly did excellently in 
+his <name rend="italic">Troilus</name> and <name rend="italic">Creseid</name>:  of whome trulie I
+knowe not whether to meruaile more, either that
+hee in that mistie time could see so clearly, or that
+wee in this cleare age, goe so stumblingly after
+him. Yet had hee great wants, fit to be forgiuen in so reuerent an Antiquitie. I account the
+Mirrour of Magistrates, meetly furnished of bewtiful partes. And in the Earle of <name rend="italic">Surreis Lirickes, </name>
+manie thinges tasting of a Noble birth, and worthie of a Noble minde. The Sheepheards 
+Kallender, hath much <name rend="italic">Poetrie</name> in his Egloges, indeed
+woorthie the reading, if I be not deceiued. That
+same framing of his style to an olde rusticke language, I dare not allow:  since neither <name rend="italic">Theocritus</name>
+in Greeke, <name rend="italic">Virgill</name> in Latine, nor <name rend="italic">Sanazara</name> in Italian, 
+did affect it. Besides these, I doo not remember to haue seene but fewe (to speake boldly) printed, that haue poeticall sinnewes in them. 
+For proofe whereof, let but moste of the Verses
+bee put in profe, and then aske the meaning, and
+it will bee founde, that one Verse did but beget
+an other, without ordering at the first, what should
+bee at the last, which becomes a confused masse of
+words, with a tingling sound of ryme, barely accompanied with 
+reasons. 
+</p></div1>
+<div1 type="paragraph" n="62">
+<p>Our Tragidies and Commedies, not without cause cryed out against, obseruing rules neither of 
+honest ciuilitie, not skilfull <name rend="italic">Poetrie</name>. Excepting <name rend="italic">Gorboducke, </name> (againe I say of
+those that I haue seen) which notwithstanding as it
+is full of stately speeches, and wel sounding phrases, 
+clyming to the height of <name rend="italic">Seneca</name> his style, and as
+full of notable morallitie, which it dooth most delightfully teach, and so obtaine the verie ende of
+<name rend="italic">Poesie. </name>  Yet in truth, it is verie defectious in the
+circumstaunces, which greeues mee, because it
+might not remaine as an exact moddell of all Tragidies. For it is faultie both in place and time, 
+the two necessarie Companions of all corporall
+actions. For where the Stage should alway represent but one place, and the vttermoste time
+presupposed in it, should bee both by <name rend="italic">Aristotles</name>
+precept, and common reason, but one day; there
+is both manie dayes and places, inartificially imagined. But if it bee so in <name rend="italic">Gorboducke</name>, howe much
+more in all the rest, where you shall haue <name rend="italic">Asia</name> of the one side, and <name rend="italic">Affricke</name> of the other, and
+so manie other vnder Kingdomes, that the Player when he comes in, must euer begin with telling
+where he is, or else the tale will not be conceiued. 
+Now you shall haue three Ladies walke to gather
+flowers, and then we must beleeue the stage to be a
+garden. By and by we heare newes of shipwrack in
+the same place, then we are too blame if we accept
+it not for a Rock. Vpon the back of that, comes out a
+hidious monster with fire and smoke, and then the
+miserable beholders are bound to take it for a Caue: 
+while in the meane time two Armies flie in, represented with foure swords &amp; bucklers, and then what
+hard hart wil not receiue it for a pitched field. 
+</p></div1>
+<div1 type="paragraph" n="63">
+<p>Now of time, they are much more liberall. For ordinarie
+it is, that two yoong Princes fall in loue, after many
+trauerses she is got with childe, deliuered of a faire
+boy:  he is lost, groweth a man, falleth in loue, and
+is readie to get an other childe, and all this in two
+houres space:  which howe absurd it is in sence, euen sence may imagine:  and Arte hath taught, 
+and all auncient examples iustified, and at this
+day the ordinarie players in <name rend="italic">Italie</name> will not erre in. 
+Yet will some bring in an example of <name rend="italic">Eunuche</name> in
+<name rend="italic">Terence, </name>that conteineth matter of two dayes, yet far
+short of twentie yeares. True it is, and so was it to
+be played in two dayes, and so fitted to the time it
+set foorth. And though <name rend="italic">Plautus</name> haue in one place
+done amisse, let vs hit it with him, &amp; not misse with
+him.  But they will say, how then shall we set foorth
+a storie, which contains both many places, and many times ?  And do they not know that a Tragidie is
+tied to the lawes of <name rend="italic">Poesie</name> and not of Historie:  not
+bounde to follow the storie, but hauing libertie either to faine a quite new matter, or to 
+frame the Historie to the most Tragicall conueniencie. 
+Againe, many things may be told which cannot be shewed: 
+if they know the difference betwixt reporting and
+representing.  As for example, I may speake though I
+am here, of <name rend="italic">Peru, </name> and in speech digresse from that, to
+the description of <name rend="italic">Calecut: </name> But in action, I cannot 
+represent it without <name rend="italic">Pacolets</name> Horse. And so was the
+manner the Auncients tooke, by some <name rend="italic">Nuntius</name>, to
+recount things done in former time or other place. 
+</p></div1>
+<div1 type="paragraph" n="64">
+<p>Lastly, if they will represent an Historie, they must
+not (as <name rend="italic">Horace</name> saith) beginne <foreign lang="la">ab ouo, </foreign> but they must
+come to the principall poynte of that one action
+which they will represent. By example this will
+be best expressed. I haue a storie of yoong <name rend="italic">Polidorus</name>, deliuered for safeties sake with great riches, 
+by his Father <name rend="italic">Priamus</name>, to <name rend="italic">Polminester</name> King of
+<name rend="italic">Thrace</name>, in the <name rend="italic">Troyan</name> warre time. He after some
+yeares, hearing the ouerthrowe of <name rend="italic">Priamus</name>, for
+to make the treasure his owne, murthereth the
+Childe, the bodie of the Childe is taken vp, <name rend="italic">Hecuba</name>, shee the same day, findeth a sleight to bee
+reuenged moste cruelly of the Tyrant . Where
+nowe would one of our Tragedie writers begin, 
+but with the deliuerie of the Childe ?  Then should
+hee saile ouer into <name rend="italic">Thrace, </name> and so spende I know
+not howe many yeares, and trauaile numbers of
+places. But where dooth <name rend="italic">Euripides ?</name> euen with
+the finding of the bodie, the rest leauing to be told
+by the spirite of <name rend="italic">Polidorus . </name>  This needes no further to bee enlarged, the dullest witte 
+may conceiue it . 
+</p></div1>
+<div1 type="paragraph" n="65">
+<p>But besides these grosse absurdities, 
+howe all their Playes bee neither right Tragedies, nor right Comedies, mingling Kinges and
+Clownes, not because the matter so carrieth it, but
+thrust in the Clowne by head and shoulders to play
+a part in maiesticall matters, with neither decencie not discretion:  so as neither the admiration
+and Commiseration, not the right sportfulnesse is
+by their mongrell Tragicomedie obtained.  I know
+<name rend="italic">Apuleius, </name> did somewhat so, but that is a thing
+recounted with space of time, not represented in
+one moment:  and I knowe the Auncients haue
+one or two examples of Tragicomedies, as <name rend="italic">Plautus</name> 
+hath <name rend="italic">Amphitrio. </name>  But if we marke them well, 
+wee shall finde that they neuer or verie daintily
+matche horne Pipes and Funeralls. So falleth it
+out, that hauing indeed no right Comedie in that
+Comicall part of our Tragidie, wee haue nothing
+but scurrillitie  vnwoorthie of anie chaste eares, 
+or some extreame shewe of doltishnesse, indeede
+fit lift vp a loude laughter and nothing else: 
+where the whole tract of a Comedie should be
+full of delight, as the Tragidie should bee still
+maintained in a well raised admiration. But our
+Comedients thinke there is no delight without
+laughter, which is verie wrong, for though laughter may come with delight, yet commeth it not
+of delight, as though delight should be the cause
+of laughter. But well may one thing breed both
+togither. Nay rather in themselues, they haue as
+it were a kinde of contrarietie: For delight wee
+scarcely doo, but in thinges that haue a conueniencie to our selues, or to the generall nature: 
+Laughter almost euer commeth of thinges moste
+disproportioned to our selues, and nature. 
+</p></div1>
+<div1 type="paragraph" n="66">
+<p>Delight hath a ioy in it either permanent or present. 
+Laughter hath onely a scornfull tickling. For example, wee are rauished with delight to see a faire
+woman, and yet are farre from beeing mooued
+to laughter. Wee laugh at deformed creatures, 
+wherein certainly wee cannot delight. We delight in good chaunces, wee laugh at mischaunces. We delight to heare the happinesse of our
+friendes and Countrey, at which hee were worthie to be laughed at, that would laugh: we shall
+contrarily laugh sometimes to finde a matter quite
+mistaken, and goe downe the hill against the byas, 
+in the mouth of some such men as for the respect
+of them, one shall be hartily sorie, he cannot chuse
+but laugh, and so is rather pained, then delighted
+with laughter. Yet denie I not, but that they
+may goe well togither, for as in <name rend="italic">Alexanders</name> picture well set out, wee delight without laughter, 
+and in twentie madde Antiques, wee laugh without delight . So in <name rend="italic">Hercules</name>, painted with his
+great beard and furious countenaunce, in a womans attyre, spinning, at <name rend="italic">Omphales</name> commaundement, 
+it breedes both delight and laughter:  for
+the representing of so straunge a power in Loue, 
+procures delight, and the scornefulnesse of the
+action, stirreth laughter . But I speake to this
+purpose, that all the ende of the Comicall part, 
+bee not vppon suche scornefull matters as stirre
+laughter onelie, but mixe with it, that delightfull teaching whiche is the ende of <name rend="italic">Poesie</name> . 
+</p></div1>
+<div1 type="paragraph" n="67">
+<p>And the great faulte euen in that poynt of laughter, 
+and forbidden plainly by <name rend="italic">Aristotle, </name> is, that they stirre
+laughter in sinfull things, which are rather execrable then ridiculous:  or in miserable, which are 
+rather to be pitied then scorned. For what is it to make
+folkes gape at a wretched begger, and a beggerly
+Clowne:  or against lawe of hospitalitie ; to ieast at
+straungers, because they speake not English so well
+as we do ?  What doo we learne, since it is certaine, 
+<foreign lang="la">Nil habet infelix paupert as durius in se, Quam quod ridiculos homines facit</foreign>. But 
+rather a busie louing Courtier, and a hartlesse threatning <name rend="italic">Thraso</name>; a selfe-wise-seeming 
+Schoolemaister, a wry transformed Traueller:  these if we saw walke in Stage names, which
+we plaie naturally, therein were delightfull laughter, and teaching delightfulnesse; as in the other
+the Tragidies of <name rend="italic">Buchanan</name> do iustly bring foorth a
+a diuine admiration. But I haue lauished out too
+many words of this Play-matter; I do it, because as
+they are excelling parts of <name rend="italic">Poesie</name>, so is there none so
+much vsed in England, and none can be more pittifully abused:  which like an vnmannerly daughter, 
+shewing a bad education, causeth her mother <name rend="italic">Poesies</name> honestie to be called in question. 
+</p></div1>
+<div1 type="paragraph" n="68">
+<p>Other sort of
+<name rend="italic">Poetrie</name>, almost haue we none, but that <name rend="italic">Lyricall</name> kind
+of Songs and Sonets ; which Lord, if he gaue vs so
+good mindes, how well it might be employed, and
+with how heauenly fruites, both priuate and publike, in singing the praises of the immortall bewtie, 
+the immortall goodnes of that God, who giueth vs
+hands to write, and wits to conceiue:  of which we
+might wel want words, but neuer matter, of which
+we could turne our eyes to nothing, but we should
+euer haue new budding occasions. But truly many
+of such writings as come vnder the banner of vnresistable loue, if I were a mistresse, 
+would neuer perswade mee they were in loue:  so coldly they applie
+firie speeches, as men that had rather redde louers
+writings, and so caught vp certaine swelling Phrases, which hang togither like a man that once tolde
+me the winde was at Northwest and by South, because he would be sure to name winds inough, then
+that in truth they feele those passions, which easily
+as I thinke, may be bewraied by that same forciblenesse or <name rend="italic">Euergia</name>, (as the Greeks call it of the writer). 
+But let this be a sufficient, though short note, that
+we misse the right vse of the materiall point of <name rend="italic">Poesie</name>. 
+</p></div1>
+<div1 type="paragraph" n="69">
+<p>Now for the outside of it, which is words, or (as I
+may tearme it) <name rend="italic">Diction</name>, it is euen well worse:  so is it
+that hony-flowing Matrone <name rend="italic">Eloquence, </name> apparrelled, 
+or rather disguised, in a Courtisanlike painted affectation. One time with so farre fet words, that many
+seeme monsters, but must seeme straungers  to anie
+poore Englishman:  an other time with coursing of
+a letter, as if they were bound to follow the method
+of a Dictionary:  an other time with figures and flowers extreemly winter-starued. But I would this
+fault were onely peculiar to Versefiers, and had not
+as large possession among Prose-Printers:  and which
+is to be meruailed among many Schollers, &amp; which
+is to be pitied among some Preachers. Truly I could
+wish, if at least I might be so bold to wish, in a thing
+beyond the reach of my capacity, the diligent Imitators of <name rend="italic">Tully &amp; Demosthenes, </name>most worthie to be 
+imitated, did not so much keepe <name rend="italic">Nizolian</name> paper bookes, 
+of their figures and phrases, as by attentiue translation, as it were, deuoure them whole, and make
+them wholly theirs. For now they cast Suger and
+spice vppon euerie dish that is serued to the table: 
+like those <name rend="italic">Indians</name>, not content to weare eare-rings
+at the fit and naturall place of the eares, but they
+will thrust Iewels through their nose and lippes, 
+because they will be sure to be fine. <name rend="italic">Tully</name> when he
+was to driue out <name rend="italic">Cataline</name>, as it were with a thunderbolt of eloquence, often vseth the figure 
+of repitition, as <foreign lang="la">Viuit et vincit, imo insenatum, Venit imo, in senatum venit, &amp;c. </foreign>  
+Indeede enflamed, with a well
+grounded rage, hee would haue his words ( as it
+were) double out of his mouth, and so do that artificially, which we see men in choller doo 
+naturally. And we hauing noted the grace of those words, 
+hale them in sometimes to a familiar Epistle, when
+it were too much choller to be chollericke. 
+</p></div1>
+<div1 type="paragraph" n="70">
+<p>How well store of <name rend="italic">Similiter Cadenses, </name> doth sound with
+the grauitie of the Pulpit, I woulde but inuoke
+<name rend="italic">Demosthenes</name> soule to tell: who with a rare daintinesse vseth them . Truly they haue made mee
+thinke of the <name rend="italic">Sophister</name>, that with too much subtiltie would proue two Egges three, and though he
+might bee counted a <name rend="italic">Sophister, </name> had none for his
+labour. So these men bringing in such a kinde of
+eloquence, well may they obtaine an opinion of a
+seeming finenesse, but perswade few, which should
+be the ende of their finenesse. Now for similitudes
+in certain Printed discourses, I thinke all Herberists, 
+all stories of beasts, foules, and fishes, are rifled vp, 
+that they may come in multitudes to wait vpon any
+of our conceits, which certainly is as absurd a surfet
+to the eares as is possible. For the force of a similitude not being to proue any thing to a 
+contrary disputer, but onely to explaine to a willing hearer, 
+when that is done, the rest is a moste tedious pratling, rather ouerswaying the memorie from the
+purpose whereto they were applied, then anie
+whit enforming the iudgement alreadie either satisfied, or by similitudes not to be satisfied. For
+my part, I doo not doubt, when <name rend="italic">Antonius</name> and
+<name rend="italic">Crassus, </name> the great forefathers of <name rend="italic">Cicero</name> in eloquence, 
+the one (as <name rend="italic">Cicero</name> testifieth of them) pretended not
+to knowe Art, the other not to set by it, (because
+with a plaine sensiblenesse, they might winne credit of popular eares, which credit, is the nearest
+steppe to perswasion, which perswasion, is the
+chiefe marke of Oratorie) I do not doubt I say, but
+that they vsed these knacks verie sparingly, which
+who doth generally vse, any man may see doth dance
+to his owne musick, and so to be noted by the audience, more careful to speak curiously 
+then truly. Vndoubtedly (at least to my opinion vndoubtedly ) I
+haue found in diuers smal learned Courtiers, a more
+sound stile, then in some professors of learning, of
+which I can gesse no other cause, but that the Courtier following that which by practise he 
+findeth fittest to nature, therein(though he know it not)doth
+according to art, thogh not by art:  where the other
+vsing art to shew art and not hide art (as in these cases he shuld do) flieth from nature, &amp; indeed abuseth
+art. 
+</p></div1>
+<div1 type="paragraph" n="71">
+<p>But what?  methinks I deserue to be pounded for
+straying from <name rend="italic">Poetrie</name>, to <name rend="italic">Oratory: </name>but both haue such
+an affinitie in the wordish consideration, that I think
+this digression will make my meaning receiue the
+fuller vnderstanding:  which is not to take vpon me
+to teach <name rend="italic">Poets</name> how they should do, but only finding
+my selfe sicke among the rest, to shew some one or
+two spots of the common infection growne among
+the most part of writers, that acknowledging our
+selues somewhat awry, wee may bende to the right
+vse both of matter and manner. Whereto our language giueth vs great occasion, being indeed 
+capable of any excellent exercising of it.  I knowe some
+will say it is a mingled language: And why not, so
+much the better, taking the best of both the other ?
+Another will say, it wanteth Grammer. Nay truly
+it hath that praise that it wants not Grammer ; for
+Grammer it might haue, but it needs it not, being so
+easie in it selfe, and so voyd of those combersome
+differences of <name rend="italic">Cases</name>, <name rend="italic">Genders</name>, 
+<name rend="italic">Moods</name>, <name rend="italic"> &amp; Tenses</name>, which
+I thinke was a peece of the Tower of <name rend="italic">Babilons</name> curse, 
+that a man should be put to schoole to learn his mother tongue. But for the vttering sweetly and 
+properly the conceit of the minde, which is the end of
+speech, that hath it equally with any other tongue
+in the world. And is perticularly happy in compositions of two or three wordes togither, neare the
+Greeke, farre beyond the Latine, which is one of
+the greatest bewties can be in a language. 
+</p></div1>
+<div1 type="paragraph" n="72">
+<p>Now of versefying, there are two sorts, the one auncient, the
+other moderne. The auncient marked the quantitie
+of each sillable, and according to that, framed his
+verse: The moderne, obseruing onely number, 
+with some regard of the accent; the chiefe life of it, 
+standeth in that like sounding of the words, which
+we call Rime. Whether of those be the more excellent, wold bear many speeches, the ancient no doubt
+more fit for Musick, both words and time obseruing
+quantitie, and more fit, liuely to expresse diuers passions by the low or loftie sound of the well-wayed
+sillable. The latter likewise with his rime striketh
+a certaine Musicke to the eare:  and in fine, since
+it dooth delight, though by an other way, it obtaineth the same purpose, there being in either 
+sweetnesse, and wanting in neither maiestie. Truly the
+English before any Vulgare language, I know is fit
+for both sorts:  for, for the auncient, the <name rend="italic">Italian</name> is so
+full of Vowels, that it must euer be combred with
+<name rend="italic">Elisions. </name>  The <name rend="italic">Duch</name> so of the other side with 
+Consonants, that they cannot yeeld the sweete slyding, fit
+for a Verse. The <name rend="italic">French</name> in his whole language, hath
+not one word that hath his accent in the last sillable, 
+sauing two, called <name rend="italic">Antepenultima</name>;  and little more
+hath the <name rend="italic">Spanish</name>, and therefore verie gracelesly may
+they vse <name rend="italic">Dactiles</name>. The English is subiect to none of
+these defects. Now for Rime, though we doo not
+obserue quantitie, yet wee obserue the Accent verie
+precisely, which other languages either cannot do, 
+or will not do so absolutely. That <name rend="italic">Caesura</name>, or breathing 
+place in the midst of the Verse, neither <name rend="italic">Italian</name>
+nor <name rend="italic">Spanish</name> haue:  the <name rend="italic">French</name> and we, neuer almost
+faile off. Lastly, euen the verie Rime it selfe, the <name rend="italic">Italian</name> cannot put it 
+in the last sillable, by the <name rend="italic">French</name> named the <name rend="italic">Masculine</name> Rime; but still in the next to the
+last, which the <name rend="italic">French</name> call the <name rend="italic">Female</name>; or the next before that, 
+which the Italian <name rend="italic">Sdrucciola: </name> the example
+of the former, is <name rend="italic">Buono</name>, <name rend="italic"> Suono</name>, of the <name rend="italic">Sdrucciola, </name> is
+<name rend="italic">Femina, Semina. </name>  The <name rend="italic">French</name> of the other side, hath
+both the Male as <name rend="italic">Bon</name>, <name rend="italic"> Son</name>; and the Female, as <name rend="italic">Plaise, </name>
+<name rend="italic">Taise</name>;but the <name rend="italic">Sdrucciola</name> he hath not: where the English hath 
+all three, as <name rend="italic">Du</name>, <name rend="italic"> Trew</name>, <name rend="italic"> Father</name>, <name rend="italic"> Rather</name>, 
+<name rend="italic"> Motion</name>, <name rend="italic"> Potion </name>, with much more which might be sayd, 
+but that alreadie I finde the triflings of this discourse
+is much too much enlarged. 
+</p></div1>
+<div1 type="paragraph" n="73">
+<p>So that since the euer praise woorthie <name rend="italic">Poesie</name> is full of vertue 
+breeding delightfulnesse, and voyd of no gift that ought to be
+in the noble name of learning, since the blames layd
+against it, are either false or feeble, since the cause
+why it is not esteemed in England, is the fault of Poet-apes, not <name rend="italic">Poets</name>. Since lastly our tongue is most fit
+to honour <name rend="italic">Poesie</name>, and to bee honoured by <name rend="italic">Poesie</name>, 
+I coniure you all that haue had the euill luck to read
+this inck-wasting toy of mine, euen in the name of
+the nine <name rend="italic">Muses</name>, no more to scorne the sacred misteries of <name rend="italic">Poesie</name>. 
+No more to laugh at the name of <name rend="italic">Poets</name>, as though they were next inheritors to fooles;
+no more to iest at the reuerent title of a Rimer, but
+to beleeue with <name rend="italic">Aristotle, </name> that they were the auncient Treasurers of the Grecians diuinitie; to beleeue
+with <name rend="italic">Bembus</name>, that they were first bringers in of all
+<name rend="italic">Ciuilitie</name>; to beleeue with <name rend="italic">Scalliger</name> that 
+no <name rend="italic">Philosophers</name> precepts can sooner make you an honest man, 
+then the reading of <name rend="italic">Virgil</name>; to beleeue with <name rend="italic">Clauserus</name> the 
+Translator of <name rend="italic">Cornutus</name>, that it pleased the
+heauenly deitie by <name rend="italic">Hesiod</name> and <name rend="italic">Homer</name>, vnder the vaile
+of Fables to giue vs all knowledge, <name rend="italic">Logicke, Rhetoricke, Philosophie, </name> 
+naturall and morall, and <foreign lang="la">Quid non?</foreign>
+To beleeue with me, that there are many misteries
+contained in <name rend="italic">Poetrie</name>, which of purpose were written darkly, least by prophane wits it should be 
+abused:  To beleeue with <name rend="italic">Landin</name>, that they are so beloued of the Gods, 
+that whatsoeuer they write, proceeds of a diuine furie. Lastly, to beleeue themselues when they tell you they will 
+make you immortal by their verses. Thus doing, your name shall
+florish in the Printers shops. Thus doing, you shall be
+of kin to many a Poeticall Preface.  Thus doing, you
+shal be most faire, most rich, most wise, most all: you
+shall dwel vpon Superlatiues. Thus doing, though
+you be <foreign lang="la">Libertino patre natus</foreign>, you shall sodeinly grow
+<foreign lang="la">Herculea proles. Si quid mea Carmina possunt. </foreign>  Thus do-
+ing your soule shall be placed with <name rend="italic">Dantes Beatrix</name>, 
+or <name rend="italic">Virgils Anchises</name>. But if (fie of such a but) you bee
+borne so neare the dull-making <name rend="italic">Cataract</name> of <name rend="italic">Nilus</name>, 
+that you cannot heare the Planet-like Musicke of
+<name rend="italic">Poetrie</name>; if you haue so earth-creeping a mind that it
+cannot lift it selfe vp to looke to the skie of <name rend="italic">Poetrie</name>, 
+or rather by a certaine rusticall disdaine, wil become
+such a mome, as to bee a <name rend="italic">Momus</name> of <name rend="italic">Poetrie: </name> then
+though I will not wish vnto you the Asses eares of
+<name rend="italic">Midas</name>, nor to be driuen by a <name rend="italic">Poets</name> verses as <name rend="italic">Bubonax</name>
+was, to hang himselfe, nor to be rimed to death as is
+said to be done in <name rend="italic">Ireland</name>, yet thus much Curse I
+must send you in the behalfe of all <name rend="italic">Poets</name>, that while
+you liue, you liue in loue, and neuer get fauour, 
+for lacking skill of a Sonet, and when you
+die, your memorie die from the earth
+for want of an Epitaphe. </p>
+<p></p></div1>
+</body>
+</text>
+</TEI.2>
