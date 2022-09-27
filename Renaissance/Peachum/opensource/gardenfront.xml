@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Prose//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
+%PersProse;
+]>
+<TEI.2>
+<teiHeader type="text" status="new">
+<fileDesc>
+<titleStmt>
+<title>The Garden of Eloquence (1593): Dedication</title>
+<author>Henry Peacham.</author>
+&responsibility;
+</titleStmt>
+<extent></extent>
+&Perseus.publish;
+
+<sourceDesc>
+<biblStruct>
+<monogr>
+<title>The Garden of Eloquence (1593): Tropes</title>
+<author>Henry Peacham</author>
+<imprint>
+<pubPlace>Delmar, New York 12054</pubPlace>
+<publisher>Scholars' Facsimiles &amp; Reprints, Inc.</publisher>
+<date>1977</date>
+</imprint>
+</monogr>
+<idno type="ISBN">0-8201-1225-9</idno>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<correction method="silent" status="medium">&Perseus.DE;</correction>
+</editorialDecl>
+      <refsDecl>
+	<state n="chunk" unit="section"/>
+      </refsDecl>
+
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="greek">Greek</language>
+<language id="la">Latin</language>
+<language id="de">German</language>
+<language id="fr">French</language>
+<language id="it">Italian</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change><date>8/6/01</date>
+<respStmt><name>Kreg Segall</name><resp>markup</resp></respStmt>
+<item>
+$Log: gardenfront.xml,v $
+Revision 1.1  2009-12-09 18:06:36  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.1  2004/04/28 14:19:54  cwulfman
+split into gardena and gardenb for chunking purposes; ditto for gardenfront. Changes to structure in each new section.
+
+Revision 1.2  2004/04/23 16:37:48  cwulfman
+fixed log.
+
+</item>
+</change>
+</revisionDesc>
+
+</teiHeader>
+
+<text>
+<body>
+<div1 n="Dedication" type="section">
+
+<opener>TO THE RIGHT HONORABLE SIR JOHN Puckering Knight, Lord keeper of
+the great seale of England.</opener>
+
+<p>Albeit (Right Honorable) it may seeme to some men at the first
+sight, a matter importunate to interrupt your Lordships grave, deep,
+and weightie considerations, sitting as you do at the sterne of the
+commonwelth in these daies of danger, yet seeing the infimitie of our
+mortall estate cannot possiblie indure to stand continually bent, no,
+not in the contemplation of the most excellent subject, or matter of
+greatest importance, May it therefore please your good Lordship (if
+for no other cause yet) partly for your owne ease, release, and
+recreation, and partly for patronage to poore and painfull studentes,
+to lend your honorable view to those my simple labours, hoping that as
+you are not wont either to close your eies, or stop your eares to the
+meanest or the poorest, so your Lordship wil not refuse to spare some
+time (when your leasure may best permit) to cast your eie uppon these
+meane and simple frutes of my studies: The argument whereof albeit I
+confesse it subject to the exceptions of many, and peradventure to the
+reprehensions of some, which seeme to make a divorce betweene nature
+and art, and a seperation betweene pollicie and humanitie: yet Cicero
+being both a most excellent Orator and prudent politick, doth mightily
+support, and defend it against all objections, as we may plainly see
+in one short sentence of his (among many other tending to this
+purpose) where he saith: Ut hominis decus est ingenium, sic ingenii
+lumen, est eloquentia: <note place="marg" anchored="yes">De claris
+oratoribum.</note> that is, as wit is mans worship, or wisedome man
+honor, so eloquence is the light and brightnesse of wisedome, in which
+sentence, he both expresseth the singular praises of two most worthie
+vertues, and also enforceth the necessitie, and commendeth the
+utilitie of their excellent conjunction.  And true it is that if we
+joine with this prudent Orator in a diligent inquisition and
+contemplation of wisedome, and in a deliberate consideration of art,
+we shal see that verified which he hath here affirmed.  For if we
+enquire what wisedome is, we shall find that it is the knowledge of
+divine and humane thinges, if whose gift it is, we shall find that it
+is the knowledge of divine and humane thinges, if whose gift it is, we
+shalbe certified, that it is the gift of God, if we consider the
+inventions thereof they are woonderfull, if the works they are
+infinit, if the frutes, they are in use sweete, in nature necessarie,
+both for the search of truth and for the direction of humane life.
+Brieflie this vertue is the loving &amp; provident mother of mankind,
+whom shee nourisheth with the sweete milke of prosperitie, defendeth
+against manifolde dangers, instructeth with her counsell, and
+prefereth to the imperiall dominion over all earthly creatures: and
+lest dissenting with himselfe, he should by his owne contention worke
+his owne confusion: she deviseth lawes to support equitie, and
+appointeth punishments to represse injurie, she inventeth the art and
+skill of warre, to resist violence offending against peace, she
+maintaineth the one, and directeth the other, and is the mightie
+Empresse of them both.</p>
+
+<p>Finallie, by her the true felicitie of man is found out and held
+up, without her it falleth by a sudden, and wofull ruine: by her it
+falleth by a sudden, and wofull ruine: by her his honor is highly
+advaunced, without her it sinketh into shame and reproach, and is
+utterlie confounded: by her hee is indued with a blessed state of
+life, without her he perisheth in miserie and death.  Now lest so
+excellent a gift of the divine goodnesse (as wisedome here appeareth
+to be, and is) should lye supprest by silence, and so remaine hid in
+darkenesse, almightie God the deep sea of wisedome, and bright sunne
+of majestie, hath opened the mouth of man, as the mouth of a
+plentifull fountaine, both to powre forth the inward pasions of his
+heart, and also as a heavenly planet to shew foorth, by the shining
+beames of speech) the privie thoughts and secret conceites of his
+mind.  By the benefit of this excellent gift, (I meane of apt speech
+given by nature, and guided by Art) wisedome appeareth in her beautie,
+sheweth her majestie, and exerciseth her power, working in the minde
+of the hearer, partly by a pleasant proportion, &amp; as it were by a
+sweet &amp; musicall harmonie, and partly by the secret and mightie power
+of perswasion after a most wonderfull manner.  This then is the vertue
+which the Orator in his praise before mentioned calleth eloquence, &amp;
+the brightnesse of wisedome, for that by the mean hereof, as well the
+rare inventions &amp; pleasant devises, as the deepe understanding, the
+secret counselles, &amp; politick considerations of wisedome, are most
+effectually expressed, and most comely beautified, for even as by the
+power of the Sun beames, the nature of the roote is shewed in the
+blossome, &amp; the goodnesse of the sap tasted in the sweetnesse of the
+frute, even so the precious nature, and wonderfull power of wisedome,
+is by the commendable ARt and use of eloquence, produced and brought
+into open light.  So that hereby plainlie appeareth, both the great
+necessitie &amp; singular utilitie of their conjunction before commended,
+for the one without the other, do finde both great want, and shew
+great imperfection, for to possesse great knowledge without apt
+utterance, is, as to possesse great treasure without use: contrariwise
+to affect eloquence without the discretion of wisdom, is, as to handle
+a sweete instrument of musicke without skill.  But the man which is
+well furnished with both: I meane with ample knowledge and excellent
+speech, hath bene judged able, and esteemed fit to rule the world with
+counsell, provinces with lawes, cities with pollicy, &amp; multitudes with
+persuasion: such were those men in times past, who by their singular
+wisdom and eloquence, made savage nations civil, wild people tame, and
+cruell tyrants not only to become meeke, but likewise mercifull.
+Hence it was, that in ancient time men did attribute so great opinion
+of wisedome to the eloquent Orators of those daies, that they called
+them sacred, holy, divine, &amp; the interpreters of the goddes, for so
+doth Horace commending Orpheus, his words be these.</p>
+
+	<quote rend="block">
+<lg lang="la">
+<l>Agrestes homines sacer interpresque Deorum.</l>
+<l>Caecibus, &amp; faedo victu deterruit Orpheus.</l>
+<l>Dictus ob id, lenire tigres rigidosque leones.</l>
+</lg></quote>
+
+<p>The Poet here under the name of tigres and lions, meant not beasts
+but men, &amp; such men as by their savage nature &amp; cruell manners, might
+well be compared to fierce tigres and devouring lions, which
+notwithstanding by the mightie power of wisdome, and prudent art of
+perswasion were converted from that most brutish condition of life, to
+the love of humanitie, &amp; polliticke government, so might is the power
+of this happie union.  (I meane of wisdom &amp; eloquence) that by the one
+the Orator forceth, and by the other he allureth, and by both so
+worketh, that what he commendeth is beloved, what he dispraiseth is
+abhorred, what he perswadeth is obeied, &amp; what he disswadeth is
+avoided: so that he is in a maner the emperour of mens minds &amp;
+affections, and next to the omnipotent God in the power of perswasion,
+by grace, &amp; divine assistance.  The principal instruments of mans help
+in this wonderfull effect, are those figures and formes of speech
+conteined in this booke, which are the frutefull branches of
+eloquution, and the mightie streames of eloquence: whose utilitie,
+power, and vertue, I cannot sufficiently commend, but speaking by
+similitude, I say they are as stars to give light, as cordials to
+comfort, as harmony to delight, as pitiful spectacles to move sorrow
+full passions, and as orient colours to beautifie reason.  Finally
+they are as martiall instruments both of defence &amp; invasion, and being
+so, what may be either more necessary, or more profitable for us, then
+to hold those weapons alwaies readie in our handes, wherewith we may
+defend our selves, invade our enemies, revenge our wrongs, ayd the
+weake, deliver the simple from danges, conserve true religion, &amp;
+confute idolatry?  for looke what the sword may do in war, for that
+with violence, this with perswasion, that with shedding of blood, this
+with pearcing the sffections, that with desire of death, this with
+speciall regard of life.</p>
+
+<p>Now, lest this part should seeme an emptie art of wordes, without
+wisedome or substance of matter, I have gathered out of the most
+excellent Orators, &amp; best approved authors, varietie of fit
+examples for everie figure by it selfe:  which figures or formes of
+speech, I have disposed into orders, described by their properties,
+distinguished by their differences, noted their singular uses, &amp;
+added certain Cautions to compasse them for feare of abuse.  And now
+Right Honourable, having finished this little booke (alhtough with no
+little labor) I hope to the good of many, and hurt of none, with
+sincere affection, &amp; with most humble dutie, I present it to your
+good Lordship, as to a lover &amp; favourer of learning, in hope of
+your favourable acceptation, being mooved hereunto by long experience
+of your lordships excellent wisdome, &amp; constant goodnes, ready at
+al time to lend your helping hand (in good causes) to them which by
+necessitie &amp; distresse, stood in need therof, among which, I am
+one that have tasted of your goodnes &amp; comfort:  the remembrance
+wherof, hath bin one principall motive, of taking this labor in hand,
+to the end that I among the rest which love and honour your Lordship,
+might have somewhat to signifie my gratitude and bound dutie:
+beseeching your Honor, albeit this worke be such as your Lordship
+shall litle need, being so richly furnished by nature, yet for their
+sakes who may take benefit by it, you will please to shadow and
+protect it under the wings of your honourable favour.  That I may not
+trouble your Lordship any further, I commend your Honour with my
+hartie praiers, to the mercifull protection of the Almightie,
+beseeching him, that by his grace and mercy you may long continue, to
+her most excellent Majestie a most faithfull and prudent Counsellour,
+to the oppressed a reliefe, to innocents a sure protection, to your
+country a treasure, to your friends a sure protection, to your country
+a treasure, to your friends a comfort, to godlie and painfull students
+a gracious Mecaenas, and to the posteritie of many ages, a renowmed
+president of equitie.</p>
+	<closer><dateline>At North Mymmes the 3. of
+February. 1593.</dateline>
+<salute>Your Honors most humble to be commanded,</salute>
+<signed>Henry Peacham.</signed>
+</closer>
+</div1>
+    </body>
+  </text>
+</TEI.2>
