@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersVerse PUBLIC "-//Perseus P4//DTD Perseus Verse//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersVerse.dtd" >
+%PersVerse;
+]>
+<TEI.2>
+<teiHeader type="text" status="new">
+<fileDesc>
+<titleStmt>
+<title>A Lover's Complaint</title>
+<author>William Shakespeare</author>
+<editor role="editor">W. G. Clark</editor>
+<editor role="editor">W. Aldis Wright</editor>
+&responsibility;
+&fund.DLI2;
+</titleStmt>
+&Perseus.publish;
+<sourceDesc>
+<biblStruct>
+<monogr>
+<author>William Shakespeare</author>
+<editor role="editor">W. G. Clark</editor>
+<editor role="editor">W. Aldis Wright</editor>
+<title>The Globe Shakespeare</title>
+<imprint>
+<pubPlace>New York</pubPlace>
+<publisher>Nelson Doubleday, Inc.</publisher>
+</imprint>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+	<state n="chunk" unit="poem"/>
+      </refsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+	<language id="en">English
+      </language></langUsage>
+    </profileDesc>
+
+<revisionDesc>
+<change><date>25-Oct-00</date>
+<respStmt><name>CEW</name><resp>ed.</resp></respStmt>
+<item>
+
+</item></change>
+</revisionDesc>
+</teiHeader>
+
+<text lang="en">
+<body>
+      <div n="1" type="poem">
+        <head>A LOVER'S COMPLAINT</head>
+<lg>
+<l>FROM off a hill whose concave womb reworded</l>
+<l>A plaintful story from a sistering vale,</l>
+<l>My spirits to attend this double voice accorded,</l>
+<l>And down I laid to list the sad-tuned tale;</l>
+<l>Ere long espied a fickle maid full pale,</l>
+<l>Tearing of papers, breaking rings a-twain,</l>
+<l>Storming her world with sorrow's wind and rain.</l>
+</lg>
+<lg>
+<l>Upon her head a platted hive of straw,</l>
+<l>Which fortified her visage from the sun,
+</l><l n="10">Whereon the thought might think sometime it saw</l>
+<l>The carcass of a beauty spent and done:</l>
+<l>Time had not scythed all that youth begun,</l>
+<l>Nor youth all quit; but, spite of heaven's fell rage,</l>
+<l>Some beauty peep'd through lattice of sear'd age.</l>
+</lg>
+<lg>
+<l>Oft did she heave her napkin to her eyne,</l>
+<l>Which on it had conceited characters,</l>
+<l>Laundering the silken figures in the brine</l>
+<l>That season'd woe had pelleted in tears,</l>
+<l>And often reading what contents it bears;</l>
+<l n="20">As often shrieking undistinguish'd woe,</l>
+<l>In clamours of all size, both high and low.</l>
+</lg>
+<lg>
+<l>Sometimes her levell'd eyes their carriage ride,</l>
+<l>As they did battery to the spheres intend;</l>
+<l>Sometime diverted their poor balls are tied</l>
+<l>To the orbed earth; sometimes they do extend</l>
+<l>Their view right on; anon their gazes lend</l>
+<l>To every place at once, and, nowhere fix'd,</l>
+<l>The mind and sight distractedly commix'd.</l>
+</lg>
+<lg>
+<l>Her hair, nor loose nor tied in formal plat,</l>
+<l n="30">Proclaim'd in her a careless hand of pride</l>
+<l>For some, untuck'd, descended her sheaved hat,</l>
+<l>Hanging her pale and pined cheek beside;</l>
+<l>Some in her threaden fillet still did bide,</l>
+<l>And true to bondage would not break from thence,</l>
+<l>Though slackly braided in loose negligence.</l>
+</lg>
+<lg>
+<l>A thousand favors from a maund she drew</l>
+<l>Of amber, crystal, and of beaded jet,</l>
+<l>Which one by one she in a river threw,</l>
+<l>Upon whose weeping margent she was set;</l>
+<l n="40">Like usury, applying wet to wet,</l>
+<l>Or monarch's hands that let not bounty fall</l>
+<l>Where want cries some, but where excess begs all.</l>
+</lg>
+<lg>
+<l>Of folded schedules had she many a one,</l>
+<l>Which she perused, sigh'd, tore, and gave the flood;</l>
+<l>Crack'd many a ring of posied gold and bone,</l>
+<l>Bidding them find their sepulchres in mud;</l>
+<l>Found yet moe letters sadly penn'd in blood,</l>
+<l>With sleided silk feat and affectedly</l>
+<l>Enswathed, and seal'd to curious secrecy.</l>
+</lg>
+<lg>
+<l n="50">These often bathed she in her fluxive eyes,</l>
+<l>And often kiss'd, and often 'gan to tear;</l>
+<l>Cried 'O false blood, thou register of lies,</l>
+<l>What unapproved witness dost thou bear!</l>
+<l>Ink would have seem'd more black and damned here!'</l>
+<l>This said, in top of rage the lines she rents,</l>
+<l>Big discontent so breaking their contents.</l>
+</lg>
+<lg>
+<l>A reverend man that grazed his cattle nigh--</l>
+<l>Sometime a blusterer, that the ruffle knew</l>
+<l>Of court, of city, and had let go by</l>
+<l n="60">The swiftest hours, observed as they flew--</l>
+<l>Towards this afflicted fancy fastly drew,</l>
+<l>And, privileged by age, desires to know</l>
+<l>In brief the grounds and motives of her woe.</l>
+</lg>
+<lg>
+<l>So slides he down upon his grained bat,</l>
+<l>And comely-distant sits he by her side;</l>
+<l>When he again desires her, being sat,</l>
+<l>Her grievance with his hearing to divide:</l>
+<l>If that from him there may be aught applied</l>
+<l>Which may her suffering ecstasy assuage,</l>
+<l n="70">'Tis promised in the charity of age.</l>
+</lg>
+<lg>
+<l>'Father,' she says, 'though in me you behold</l>
+<l>The injury of many a blasting hour,</l>
+<l>Let it not tell your judgement I am old;</l>
+<l>Not age, but sorrow, over me hath power:</l>
+<l>I might as yet have been a spreading flower,</l>
+<l>Fresh to myself, if I had self-applied</l>
+<l>Love to myself and to no love beside.</l>
+</lg>
+<lg>
+<l>'But, woe is me! too early I attended</l>
+<l>A youthful suit--it was to gain my grace--</l>
+<l>Of one by nature's outwards so commended,</l>
+<l n="81">That maidens' eyes stuck over all his face:</l>
+<l>Love lack'd a dwelling, and made himn her place;</l>
+<l>And when in his fair parts she did abide,</l>
+<l>She was new lodged and newly deified.</l>
+</lg>
+<lg>
+<l>'His browny locks did hang in crooked curls;</l>
+<l>And every light occasion of the wind</l>
+<l>Upon his lips their silken parcels hurls.</l>
+<l>What's sweet to do, to do will aptly find:</l>
+<l>Each eye that saw him did enchant the mind,</l>
+<l n="90">For on his visage was in little drawn</l>
+<l>What largeness thinks in Paradise was sawn.</l>
+</lg>
+<lg>
+<l>'Small show of man was yet upon his chin;</l>
+<l>His phoenix down began but to appear</l>
+<l>Like unshorn velvet on that termless skin</l>
+<l>Whose bare out-bragg'd the web it seem'd to wear:</l>
+<l>Yet show'd his visage by that cost more dear;</l>
+<l>And nice affections wavering stood in doubt</l>
+<l>If best were as it was, or best without.</l>
+<l>
+</l><l n="99">'His qualities were beauteous as his form,</l>
+<l>For maiden-tongued he was, and thereof free;</l>
+<l>Yet, if men moved him, was he such a storm</l>
+<l>As oft 'twixt May and April is to see,</l>
+<l>When winds breathe sweet, unruly though they be.</l>
+<l>His rudeness so with his authorized youth</l>
+<l>Did livery falseness in a pride of truth.</l>
+</lg>
+<lg>
+<l>'Well could he ride, and often men would say</l>
+<l>"That horse his mettle from his rider takes:</l>
+<l>Proud of subjection, noble by the sway,</l>
+<l>What rounds, what bounds, what course, what stop he makes!"</l>
+<l n="110">And controversy hence a question takes,</l>
+<l>Whether the horse by him became his deed,</l>
+<l>Or he his manage by the well-doing steed.</l>
+</lg>
+<lg>
+<l>'But quickly on this side the verdict went:</l>
+<l>His real habitude gave life and grace</l>
+<l>To appertainings and to ornament,</l>
+<l>Accomplish'd in himself, not in his case:</l>
+<l>All aids, themselves made fairer by their place,</l>
+<l>Came for additions; yet their purposed trim</l>
+<l>Pieced not his grace, but were all graced by him.</l>
+</lg>
+<lg>
+<l n="120">'So on the tip of his subduing tongue</l>
+<l>All kind of arguments and question deep,</l>
+<l>All replication prompt, and reason strong,</l>
+<l>For his advantage still did wake and sleep:</l>
+<l>To make the weeper laugh, the laugher weep,</l>
+<l>He had the dialect and different skill,</l>
+<l>Catching all passions in his craft of will:</l>
+</lg>
+<lg>
+<l>'That he did in the general bosom reign</l>
+<l>Of young, of old; and sexes both enchanted,</l>
+<l>To dwell with him in thoughts, or to remain</l>
+<l>In personal duty, following where he haunted:</l>
+<l>Consents bewitch'd, ere he desire, have granted;</l>
+<l> And dialogued for him what he would say,</l>
+<l> Ask'd their own wills, and made their wills obey.</l>
+</lg>
+<lg>
+<l>'Many there were that did his picture get,</l>
+<l>To serve their eyes, and in it put their mind;</l>
+<l>Like fools that in th' imagination set</l>
+<l>The goodly objects which abroad they find</l>
+<l>Of lands and mansions, theirs in thought assign'd;</l>
+<l>And labouring in moe pleasures to bestow them</l>
+<l n="140">Than the true gouty landlord which doth owe them:</l>
+</lg>
+<lg>
+<l>'So many have, that never touch'd his hand,</l>
+<l>Sweetly supposed them mistress of his heart.</l>
+<l>My woeful self, that did in freedom stand,</l>
+<l>And was my own fee-simple, not in part,</l>
+<l>What with his art in youth, and youth in art,</l>
+<l>Threw my affections in his charmed power,</l>
+<l>Reserved the stalk and gave him all my flower.</l>
+</lg>
+<lg>
+<l>'Yet did I not, as some my equals did,</l>
+<l>Demand of him, nor being desired yielded;
+</l><l n="150">Finding myself in honor so forbid,</l>
+<l>With safest distance I mine honor shielded:</l>
+<l>Experience for me many bulwarks builded</l>
+<l>Of proofs new-bleeding, which remain'd the foil</l>
+<l>Of this false jewel, and his amorous spoil.</l>
+</lg>
+<lg>
+<l>'But, ah, who ever shunn'd by precedent</l>
+<l>The destined ill she must herself assay?</l>
+<l>Or forced examples, 'gainst her own content,</l>
+<l>To put the by-past perils in her way?</l>
+<l>Counsel may stop'awhile what will not stay;</l>
+<l n="160">For when we rage, advice is often seen</l>
+<l>By blunting us to make our wits more keen.</l>
+</lg>
+<lg>
+<l>'Nor gives it satisfaction to our blood,</l>
+<l>That we must curb it upon others' proof;</l>
+<l>To be forbod the sweets that seem so good,</l>
+<l>For fear of harms that preach in our behoof.</l>
+<l>O appetite, from judgements stand aloof!</l>
+<l>The one a palate hath that needs will taste,</l>
+<l>Though Reason weep, and cry "It is thy last."</l>
+</lg>
+<lg>
+<l>'For further I could say "This man's untrue,"</l>
+<l>And knew the patterns of his foul beguiling;
+</l><l n="171">Heard where his plants in others' orchards grew,</l>
+<l>Saw how deceits were gilded in his smiling;</l>
+<l>Knew vows were ever brokers to defiling;</l>
+<l>Thought characters and words merely but art,</l>
+<l>And bastards of his foul adulterate heart.</l>
+</lg>
+<lg>
+<l>'And long upon these terms I held my city,</l>
+<l>Till thus he gan besiege me: "Gentle maid,</l>
+<l>Have of my suffering youth some feeling pity,</l>
+<l>And be not of my holy vows afraid:</l>
+<l n="180">That's to ye sworn to none was ever said;</l>
+<l>For feasts of love I have been call'd unto,</l>
+<l>Till now did ne'er invite, nor never woo.</l>
+</lg>
+<lg>
+<l>'"All my offences that abroad you see</l>
+<l>Are errors of the blood, none of the mind;</l>
+<l>Love made them not: with acture they may be,</l>
+<l>Where neither party is nor true nor kind:</l>
+<l>They sought their shame that so their shame did find;</l>
+<l>And so much less of shame in me remains,</l>
+<l>By how much of me their reproach contains.</l>
+</lg>
+<lg>
+<l>'"Among the many that mine eyes have seen,</l>
+<l n="191">Not one whose flame my heart so much as warm'd,</l>
+<l>Or my affection put to the smallest teen,</l>
+<l>Or any of my leisures ever charm'd:</l>
+<l>Harm have I done to them, but ne'er was harm'd;</l>
+<l>Kept hearts in liveries, but mine own was free,</l>
+<l>And reign'd, commanding in his monarchy.</l>
+</lg>
+<lg>
+<l>'"Look here, what tributes wounded fancies sent me,</l>
+<l>Of paled pearls and rubies red as blood;</l>
+<l>Figuring that they their passions likewise lent me</l>
+<l n="200">Of grief and blushes, aptly understood</l>
+<l>In bloodless white and the encrimson'd mood;</l>
+<l>Effects of terror and dear modesty,</l>
+<l>Encamp'd in hearts, but fighting outwardly.</l>
+</lg>
+<lg>
+<l>'"And, lo, behold these talents of their hair,</l>
+<l>With twisted metal amorously impleach'd,</l>
+<l>I have received from many a several fair,</l>
+<l>Their kind acceptance weepingly beseech'd,</l>
+<l>With the annexions of fair gems enrich'd,</l>
+<l>And deep-brain'd sonnets that did amplify</l>
+<l>Each stone's dear nature, worth, and quality.</l>
+<l>
+</l><l n="211">'"The diamond,--why, 'twas beautiful and hard,</l>
+<l>Whereto his invised properties did tend;</l>
+<l>The deep-green emerald, in whose fresh regard</l>
+<l>Weak sights their sickly radiance do amend;</l>
+<l>The heaven-hued sapphire and the opal blend</l>
+<l>With objects manifold: each several stone,</l>
+<l>With wit well blazon'd, smiled or made some moan.</l>
+</lg>
+<lg>
+<l>'"Lo, all these trophies of affections hot,</l>
+<l>Of pensived and subdued desires the tender,</l>
+<l>Nature hath charged me that I hoard them not,</l>
+<l>But yield them up where I myself must render,</l>
+<l>That is, to you, my origin and ender;</l>
+<l>For these, of force, must your oblations be,</l>
+<l>Since I their altar, you enpatron me.</l>
+</lg>
+<lg>
+<l>'"O, then, advance of yours that phraseless hand,</l>
+<l>Whose white weights down the airy scale of praise;</l>
+<l>Take all these similes to your own command,</l>
+<l>Hallow'd with sighs that burning lungs did raise;</l>
+<l>What me your minister, for you obeys,</l>
+<l>Works under you; and to your audit comes</l>
+<l>Their distract parcels in combined sums.</l>
+</lg>
+<lg>
+<l>'"Lo, this device was sent me from a nun,</l>
+<l>Or sister sanctified, of holiest note;</l>
+<l>Which late her noble suit in court did shun,</l>
+<l>Whose rarest havings made the blossoms dote;</l>
+<l>For she was sought by spirits of richest coat,</l>
+<l>But kept cold distance, and did thence remove,</l>
+<l>To spend her living in eternal love.</l>
+</lg>
+<lg>
+<l>'"But, O my sweet, what labor is 't to leave</l>
+<l n="240">The thing we have not, mastering what not strives,</l>
+<l>Playing the place which did no form receive,</l>
+<l>Playing patient sports in unconstrained gyves?</l>
+<l>She that her fame so to herself contrives,</l>
+<l>The scars of battle 'scapeth by the flight,</l>
+<l>And makes her absence valiant, not her might.</l>
+</lg>
+<lg>
+<l>'"O, pardon me, in that my boast is true:</l>
+<l>The accident which brought me to her eye</l>
+<l>Upon the moment did her force subdue,</l>
+<l>And now she would the caged cloister fly:</l>
+<l n="250">Religious love put out Religion's eye:</l>
+<l>Not to be tempted, would she be immured,</l>
+<l>And now, to tempt, all liberty procured.</l>
+</lg>
+<lg>
+<l>'"How mighty then you are, O, hear me tell!</l>
+<l>The broken bosoms that to me belong</l>
+<l>Have emptied all their fountains in my well,</l>
+<l>And mine I pour your ocean all among:</l>
+<l>I strong o'er them, and you o'er me being strong,</l>
+<l>Must for your victory us all congest,</l>
+<l>As compound love to physic your cold breast.</l>
+</lg>
+<lg>
+<l n="260">'"My parts had power to charm a sacred nun,</l>
+<l>Who, disciplined, ay, dieted in grace,</l>
+<l>Believed her eyes when they to assail begun,</l>
+<l>All vows and consecrations giving place:</l>
+<l>O most potential love! vow, bond, nor space,</l>
+<l>In thee hath neither sting, knot, nor confine,</l>
+<l>For thou art all, and all things else are thine.</l>
+</lg>
+<lg>
+<l>'"When thou impressest, what are precepts worth</l>
+<l>Of stale example?   When thou wilt inflame,</l>
+<l>How coldly those impediments stand forth</l>
+<l>Of wealth, of filial fear, law, kindred, fame!</l>
+<l>Love's arms are peace, 'gainst rule, 'gainst sense, 'gainst shame,</l>
+<l>And sweetens, in the suffering pangs it bears,</l>
+<l>The aloes of all forces, shocks, and fears,</l>
+</lg>
+<lg>
+<l>'"Now all these hearts that do on mine depend,</l>
+<l>Feeling it break, with bleeding groans they pine;</l>
+<l>And supplicant their sighs to you extend,</l>
+<l>To leave the battery that you make gainst mine,</l>
+<l>Lending soft audience to my sweet design,</l>
+<l>And credent soul to that strong-bonded oath</l>
+<l>That shall prefer and undertake my troth."</l>
+</lg>
+<lg>
+<l>'This said, his watery eyes he did dismount,</l>
+<l>Whose sights till then were levell'd on my face;</l>
+<l>Each cheek a river running from a fount</l>
+<l>With brinish current downward flow'd apace:</l>
+<l>O, how the channel to the stream gave grace!</l>
+<l>Who glazed with crystal gate the glowing roses</l>
+<l>That flame through water which their hue encloses.</l>
+</lg>
+<lg>
+<l>'O father, what a hell of witchcraft lies</l>
+<l>In the small orb of one particular tear!</l>
+<l n="290">But with the inundation of the eyes</l>
+<l>What rocky heart to water will not wear?</l>
+<l>What breast so cold that is not warmed here?</l>
+<l>O cleft effect! cold modesty, hot wrath,</l>
+<l>Both fire from hence and chill extincture hath.</l>
+</lg>
+<lg>
+<l>'For, lo, his passion, but an art of craft,</l>
+<l>Even there resolved my reason into tears;</l>
+<l>There my white stole of chastity I daff'd,</l>
+<l>Shook off my sober guards and civil fears;</l>
+<l>Appear to him, as he to me appears,</l>
+<l n="300">All melting; though our drops this difference bore,</l>
+<l>His poison'd me, and mine did him restore.</l>
+</lg>
+<lg>
+<l>'In him a plenitude of subtle matter,</l>
+<l>Applied to cautels, all strange forms receives,</l>
+<l>Of burning blushes, or of weeping water,</l>
+<l>Or swooning paleness; and he takes and leaves,</l>
+<l>In either's aptness, as it best deceives,</l>
+<l>To blush at speeches rank, to weep at woes,</l>
+<l>Or to turn white and swoon at tragic shows:</l>
+</lg>
+<lg>
+<l>'That not a heart which in his level came</l>
+<l>Could 'scape the hail of his all-hurting aim,</l>
+<l>Showing fair nature is both kind and tame;</l>
+<l>And, veil'd in them, did win whom he would maim:</l>
+<l>Against the thing he sought he would exclaim;</l>
+<l>When he most burn'd in heart-wish'd luxury,</l>
+<l>He preach'd pure maid, and praised cold chastity.</l>
+</lg>
+<lg>
+<l>'Thus merely with the garment of a Grace</l>
+<l>The naked and concealed fiend he cover'd</l>
+<l>That th' unexperient gave the tempter place,</l>
+<l>Which like a cherubin above them hover'd.</l>
+<l n="320">Who, young and simple, would not be so lover'd?</l>
+<l>Ay me! I fell; and yet do question make</l>
+<l>What I should do again for such a sake.</l>
+</lg>
+<lg>
+<l>'O, that infected moisture of his eye,</l>
+<l>O, that false fire which in his cheek so glow'd,</l>
+<l>O, that forced thunder from   his heart did fly,</l>
+<l>O, that sad breath his spongy lungs bestow'd,</l>
+<l>O, all that borrow'd motion seeming owed,</l>
+<l>Would yet again betray the fore-betray'd,</l>
+<l n="329">And new pervert reconciled maid!'</l>
+      </lg>
+</div></body></text></TEI.2>
