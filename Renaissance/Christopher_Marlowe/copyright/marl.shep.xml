@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersVerse PUBLIC "-//Perseus P4//DTD Perseus Verse//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersVerse.dtd" >
+%PersVerse;
+]>
+<TEI.2>
+<teiHeader type="text" status="new">
+<fileDesc>
+<titleStmt>
+<title>The Passionate Shepherd to His Love</title>
+<author>Christopher Marlowe</author>
+&responsibility;
+&fund.Tufts;
+</titleStmt>
+&Perseus.publish;
+<sourceDesc><bibl></bibl></sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<refsDecl doctype="TEI.2">
+<state unit="line"/>
+</refsDecl>
+      <refsDecl>
+	<state n="chunk" unit="section"/>
+      </refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change><date>6/25/97</date>
+<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
+<item>
+$Log: marl.shep.xml,v $
+Revision 1.1  2009-12-09 18:48:03  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.2  2004/04/22 14:27:39  cwulfman
+*** empty log message ***
+
+Revision 1.1  2004/04/22 13:55:25  cwulfman
+Making xml files the canonical ones.
+
+Revision 1.7  2003/07/01 22:14:54  yorkc
+Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+
+Revision 1.6  2000/04/26 00:05:32  dasmith
+Fixed fileDesc info. Cleaned up witList.
+
+Revision 1.5  2000/02/22 22:16:14  amahoney
+add refsdecls, for consistency
+
+Revision 1.4  2000/01/18 20:14:33  dasmith
+Added author to titleStmt
+
+Revision 1.3  1999/09/01 17:15:34  dasmith
+Fixed preamble and added encodingDesc.
+
+Revision 1.2  1997/09/11 16:00:42  textgod
+Updated for nsgmls.
+
+Revision 1.1  1997/09/03 21:35:49  textgod
+Added to repository. Passed SGML parse.
+
+</item></change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+
+<div type="versions">
+<witList>
+<witness sigil="Bow"><bibl><title>Complete Works</title>, ed. Bowers, 1973</bibl></witness>
+<witness sigil="EH"><bibl><title>Englands Helicon</title>, 1600</bibl></witness>
+<witness sigil="PP"><bibl><title>Passionate Pilgrim</title>, 1599</bibl></witness>
+<witness sigil="Rx"><bibl><title>"Live with me and be my love"</title>, in <title>Roxburghe Ballads</title>, 1603</bibl></witness>
+<witness sigil="Rw(u)">MS uncorrected, Rawl. Poet. 148, fol. 96, 1600</witness>
+<witness sigil="Rw(c)">MS corrected, Rawl. Poet. 148, fol. 96, 1600</witness>
+<witness sigil="A">MS Ashmole 1486, fol. 6v</witness>
+<witness sigil="T"><bibl><title>Thornborough Commonplace Book</title></bibl></witness>
+<witness sigil="W1"><bibl><title>Compleat Angler</title>, Walton, 1653</bibl></witness>
+<witness sigil="W2"><bibl><title>Compleat Angler</title>, Walton, 1655</bibl></witness>
+<witness sigil="Rs">MS Rodenbach</witness>
+<witness sigil="Bd"><bibl><title>Poems of Sir Walter Raleigh</title>, ed. Sir Egerton Brydges, 1813</bibl></witness>
+<witness sigil="F">MS Folger V.a.169, 1670
+</witness>
+<witness sigil="W" included="W1 W2"></witness>
+</witList>
+</div>
+
+
+</front>
+<body>
+      <div n="1" type="section">
+<head>THE PASSIONATE SHEPHERD TO HIS LOVE</head>
+
+<l><app>
+<lem>Come</lem>
+<rdg wit="PP Rx Rs"></rdg>
+</app> <app>
+<lem>live with mee</lem>
+<rdg wit="Rs">If thou wilt live</rdg>
+</app>, and be my love,</l>
+<l><app>
+<lem>And</lem>
+<rdg wit="Rs">Then</rdg>
+</app> we will <app>
+<lem>all the pleasures</lem>
+<rdg wit="Rs">every pleasure</rdg>
+</app> prove,</l>
+<l>That <app>
+<lem>Vallies, groves, hills and fieldes</lem>
+<rdg wit="PP">hilles and vallies, dales and fields</rdg>
+<rdg wit="Rw(c)">valleis, groves, the hills and filds</rdg>
+<rdg wit="Rw(u)">hills and valleis, groves and filds</rdg>
+<rdg wit="T">vallyes groves and woodds or feildes</rdg>
+<rdg wit="W, F">vallies, Groves, or hils, or fields</rdg>
+<rdg wit="Rs">hill or dales woodds or fieldes</rdg>
+<rdg wit="Bd">grove or valley, hill or field</rdg>
+</app>,</l>
+<l><app>
+<lem>Woods, or steepie mountaine yeeldes</lem>
+<rdg wit="PP">And all the craggy mountaines yeeld</rdg>
+<rdg wit="Rx">Woods, or steepy Mountaines yeelds</rdg>
+<rdg wit="Rw">Woods and steepest mountaynes yeelds</rdg>
+<rdg wit="A">Woods or craggi mountaines yieldes</rdg>
+<rdg wit="T">And craggie rockes or mountaines yieldes</rdg>
+<rdg wit="W F">Or woods and steepie mountains yeelds</rdg>
+<rdg wit="Rs">Rivers or steepy mountaines yieldes</rdg>
+<rdg wit="Bd">Or wood and steepy mountain yield</rdg>
+</app>.</l>
+
+<l><app>
+<lem>And</lem>
+<rdg wit="PP">There</rdg>
+<rdg wit="Rw A T W F Bd">Where</rdg>
+<rdg wit="Rs">Then</rdg>
+</app> <app>
+<lem>wee will</lem>
+<rdg wit="PP Rs">will we</rdg>
+</app> <app>
+<lem>sit</lem>
+<rdg wit="Rs">sett</rdg>
+</app> <app>
+<lem>upon the</lem>
+<rdg wit="Bd">on rising</rdg>
+</app> Rocks,</l>
+<l>Seeing the Sheepheards feede <app>
+<lem>theyr</lem>
+<rdg wit="W F">our</rdg>
+</app> flocks,</l>
+<l>By shallow Rivers, <app>
+<lem>to</lem>
+<rdg wit="PP">by</rdg>
+</app> whose falls,</l>
+<l>Melodious byrds <app>
+<lem>sing</lem>
+<rdg wit="EH T">sings</rdg>
+</app> Madrigalls.</l>
+
+<l><app>
+<lem>And</lem>
+<rdg wit="PP A Rs">There</rdg>
+<rdg wit="Rw T">Where</rdg>
+<rdg wit="Bd">Pleas'd</rdg>
+</app> <app>
+<lem>I will</lem>
+<rdg wit="PP A Bd">will I</rdg>
+<rdg wit="T">wee will</rdg>
+</app> <app>
+<lem>make</lem>
+<rdg wit="Rs">lye on</rdg>
+</app> <app>
+<lem>thee</lem>
+<rdg wit="T"></rdg>
+</app> <app>
+<lem>beds</lem>
+<rdg wit="PP T">a bedd</rdg>
+</app> of Roses,</l>
+<l><app>
+<lem>And</lem>
+<rdg wit="PP">With</rdg>
+<rdg wit="A">Drest with</rdg>
+<rdg wit="W F">And then</rdg>
+<rdg wit="Rs">And make</rdg>
+<rdg wit="Bd">And twine</rdg>
+</app> <app>
+<lem>a thousand</lem>
+<rdg wit="T">thowsande other</rdg>
+</app> <app>
+<lem>fragrant</lem>
+<rdg wit="Rs">flagrant</rdg>
+</app> <app>
+<lem>posies</lem>
+<rdg wit="EH">poesies</rdg>
+<rdg wit="PP Rx Rw A T Rs">poses</rdg>
+</app>,</l>
+<l>A cap of flowers, and <app>
+<lem>a</lem>
+<rdg wit="Bd">rural</rdg>
+</app> kirtle,</l>
+<l>Imbroydred all with leaves of Mirtle.</l>
+
+<!--<BAD - LINE EXCHANGE + OMIT - overlapping tags - BELOW-SEE B.-->
+<l>A <app>
+<lem>gowne made</lem>
+<rdg wit="Bd">jaunty gown</rdg>
+</app> of the finest wooll,</l>
+<l>Which from <app>
+<lem>our pretty</lem>
+<rdg wit="T">the little</rdg>
+</app> Lambes we pull,</l>
+<l><app>
+<lem>Fayre lined slippers</lem>
+<rdg wit="W F">Slippers lin'd choicely</rdg> 
+<rdg wit="Bd">And shoes lin'd choicely</rdg>
+</app>for the cold:</l>
+<l>With buckles of the purest gold.</l>
+
+<l><app>
+<rdg wit="Rx"><lacunaStart/></rdg>
+</app>A belt of straw, and Ivie buds,</l>
+<l>With <app>
+<lem>Corall</lem>
+<rdg wit="T">Amber</rdg>
+</app> clasps and Amber studs,</l>
+<l><app>
+<lem>And if</lem>
+<rdg wit="Rw(c) T">If</rdg>
+</app> these <app>
+<lem>pleasures may thee</lem>
+<rdg wit="Rw(u) A Rs">things thy mind may</rdg>
+<rdg wit="Rw(c) T">delights thy mind may</rdg>
+</app> move,</l>
+<l><app>
+<lem>Come</lem>
+<rdg wit="PP A T Rs">Then</rdg>
+<rdg wit="Bd">To</rdg>
+</app>
+ live with mee, and be my love.<app>
+<rdg wit="Rx"><lacunaEnd/></rdg>
+</app></l><!--
+<L N="20.1"><app>
+<rdg wit="Rx"><L>Thy silver dishes fil'd with meate,</L>
+<L>As precious as the Gods do eate,</L>
+<L>Shall on an Ivory Table be</L>
+<L>Prepar'd each day for thee and me.</L></rdg>
+<rdg wit="W2"><L>Thy silver dishes for thy meat,</L>
+<L>As precious as the Gods do eate,</L>
+<L>Shall on an Ivory Table be</L>
+<L>Prepar'd each day for thee and me.</L></rdg>
+<rdg wit="T"><L>Thy dyches shalbe fild with meate</L>
+<L>Such as the gods doe use to eate</L>
+<L>Shall one and everye table bee</L>
+<L>Preparde eache daye for thee and mee</L></rdg>
+</app></L>-->
+<l><app>
+<rdg wit="PP Rw A Rs Bd"><lacunaStart/></rdg>
+</app>The Sheepheards Swaines shall daunce and sing,</l>
+<l>For thy delight each May-morning.</l>
+<l>If these delights thy minde may move;</l>
+<l>Then live with mee, and be my love.<app>
+<rdg wit="PP Rw A Rs Bd"><lacunaEnd/></rdg>
+</app></l>
+<closer>
+<signed><name rend="ital">Chr. Marlow</name></signed>
+</closer>
+</div></body></text></TEI.2>
