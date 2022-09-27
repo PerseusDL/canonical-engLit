@@ -1,0 +1,2776 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd"[
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Dictionaries//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
+%PersProse;
+]>
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>The Processe of Irish Affaires</title>
+	<title>An Electronic Edition</title>
+      </titleStmt>
+      <publicationStmt>
+	&Holinshed.publicationStmt;
+      </publicationStmt>
+      <sourceDesc>
+	&Ellis.sourceDesc;
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <refsDecl>
+	<state n="chunk" unit="chronicle"/>
+      </refsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+	<language id="en">English</language>
+	<language id="la">Latin</language>
+	<language id="greek">Greek</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+	<date>3/25/03</date>
+	<respStmt>
+	  <name>cew</name><resp>ed</resp>
+	</respStmt>
+	<item>The Process broken out</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+      <text> <!-- Processe of Irish Affaires -->
+	<front>
+	  <pb n="233"/>
+	  <titlePage>
+	    <docTitle>
+	      <titlePart>The Processe Of Irish Affaires</titlePart>
+	      <titlePart>(Beginning Where Giraldus Did End) Vntill This Present Age, Being A Witnesse Of Sundrie Things As Yet Fresh In Memorie:</titlePart>
+	      <titlePart>Which Processe From Henseforward Is Intituled</titlePart>
+	      <titlePart>The Chronicles Of Ireland</titlePart>
+</docTitle>
+	  </titlePage>
+	  <div type="preface">
+<p>LEAUING at the conquest of Ireland penned by Giraldus
+Cambrensis, we are now to proceed in that which followeth:
+wherin our authour (as he himselfe writeth) vsed
+such notes as were written by one Philip Flatsburie, out of
+a certeine namelesse author, from this place vnto the yeare
+1370: and we hauing none other helpe besides (except
+onelie Henrie of Marleborow) do set downe that which we
+find in our oft mentioned authour, and in the same Marleborow
+in all the whole discourse that followeth, except in
+some certeine particular places, where we shew from whense
+we haue drawne that which we write as occasion serueth.
+<!--<fw place="bot-left">"VOL. VI."</fw>--><!--<fw place="bot-center">"2 H"</fw>-->
+</p>
+	  </div>
+	</front>
+	<body>
+	  <head>The Chronicles of Ireland, &amp;c.</head>
+	  <pb n="234"/>	<!-- blank verso page -->
+	      <head>The Chronicles of Ireland, &amp;c.</head>
+
+<div n="Edward1" type="chronicle">
+<p>HUGH de Lacie (of whom such memorable mention is made hertofore) the
+rather to m&eacute;et with such hurlie burlies as were like to put the state of the Irish
+countrie in danger, if the same were not the sooner brought to quiet, erected and
+built a number of castels and forts in places conuenientlie seated, well and sufficientlie
+garnished with men, munitions, and vittels, as one at Derwath, where diuerse
+<note place="marg">A castell built at Derwath.</note>
+of the Irish praied to be set on worke for wages. Lacie came sundrie times
+thither to further the woorke, full glad to s&eacute;e them fall in vre with anie such exercise,
+wherein might they once begin to haue a delight, and tast the sw&eacute;etnesse of a
+true mans life, he thought it no small token of reformation: for which cause he
+visited them the oftner, and merilie would command his gentlemen to giue the laborers
+example to take their tooles in hand, and to woorke a season, whilest the poore
+soules looking on might rest them. But this pastime grew to a tragicall end. For
+on a time, as each man was busilie occupied, some lading, some heauing, some
+plastering, some grauing, the generall also himselfe digging with a pickaxe: a desperat
+villaine among them, whose toole the noble man vsed, espieng both his hands
+occupied, and his bodie inclining downwards, still as he stroke watched when he so
+<note place="marg"><date>1186</date></note>
+
+<note place="marg">Lacie is traitorouslie slaine.</note>
+stooped, and with an axe cleft his head in sunder, little esteeming the torments that
+for this traitorous act insued. This Lacie was reputed to be the conqueror of Meth,
+for that he was the first that brought it to anie due order of obedience vnto the
+English power. His bodie the two archbishops, Iohn of Dublin, and Matthew
+of Cashill buried in the monasterie of Bectie, and his head in saint Thomas abbeie
+at Dublin.</p>
+<p>By occasion of this murther committed on the person of Hugh Lacie, Iohn
+Curcie, and Hugh Lacie the yoonger, with their assistants, did streight execution
+vpon the rebels; and preuenting euerie mischiefe yer it fell, staied the realme from
+vprores. Thus they knitting themselues togither in friendship, continued in wealth
+<note place="marg">Curcie and Hugh Lacie the voonger keepe the realme in quiet.</note>
+
+<note place="marg"><date>1199.</date></note>
+
+<note place="marg">King Iohn slaieth his nephue Arthur.</note>
+and honor vntill the first yeare of king Iohus reigne, who succ&eacute;eding his brother
+king Richard, tooke his nephue Arthur, son to his brother Geffreie earle of Britaine,
+and dispatched him (some said) with his owne hands, because he knew what claime
+he made to the crowne, as descended of the elder brother. And therefore not
+onelie the French king, but also certeine lords of England and Ireland fauored
+his title: and when they vnderstood that he was made awaie, they tooke it in maruelous
+euill part. And Curcie either of zeale to the truth, or parcialitie, abhorring
+<note place="marg">Curcie vttereth displeasant words against King Iohn.</note>
+such barbarous crueltie, whereof all mens eares were full, spake bloudie words against
+king Iohn, which his lurking aduersaries (that laie readie to vndermine him) caught
+<!--<fw place="bot-center">"2 H 2"</fw>--><!--<fw place="bot-right">"by"</fw>-->
+
+
+<pb n="236"/>
+
+<!--<fw place="top-left">"236"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+by the end, and vsed the same as a meane to lift him out of credit: which they
+did not onelie bring to passe, but also procured a commission to attach his bodie,
+and to send him ouer into England. Earle Curcie mistrusting his part, and belike
+<note place="marg">He is accused.</note>
+getting some inkeling of their drift, kept himselfe aloofe, till Hugh Lacie lord
+iustice was faine to leuie an armie and to inuade Vlster, from whense he was oftentimes
+put backe: wherevpon he proclaimed Curcie traitor, and hired sundrie gentlemen
+<note place="marg">He is proclamed traitor.</note>
+with promise of great recompense, to bring him in either quicke or dead.
+They fought once at Downe, in which battell there died no small number on both
+parts; but Curcie got the vpper hand, and so was the lord iustice foiled at Curcies
+hands: but yet so long he continued in practising to haue him, that at length Curcies
+owne capteins were inueihed to betraie their owne maister: insomuch that vpon
+Good fridaie, whilest the earle out of his armour visited barefooted certeine religious
+houses for deuotion sake, they laid for him, tooke him as a rebell, &amp; shipped
+him ouer into England the next waie, where he was adiudged to perpetuall prison.
+<note place="marg">He is taken.</note>
+One Seintleger addeth in his collections (as Campion saith) that Lacie paied the
+traitors their monie, and foorthwith therevpon hanged them.</p>
+<p>This Curcie translated the church and prebendaries of the trinitie in Downe, to
+<note place="marg">Translation of prebendaries to monks.</note>
+an abbeie of blacke moonks brought thither from Chester, and caused the same to
+be consecrated vnto saint Patrike: for which alteration, taking the name from God
+to a creature; he d&eacute;emed himselfe woorthilie punished. Not long after (as saie the
+Irish) certeine French knights came to king Iohns court, and one among them required
+the combat for triall of the right to the duchie of Normandie. It was not
+<note place="marg">A chalenge for a combat made by certeine French knights.</note>
+thought expedient to ieopard the title vpon one mans lucke, yet the chalenge they
+determined to answer. Some friend put them in mind of the earle imprisoned, a
+warrior of notable courage, and in pitch of bodie like a giant. King Iohn demanded
+Curcie, whether he could be content to fight in his quarrell? "Not for
+<note place="marg">Cureies answer to king Iohn.</note>
+thee" said the erle, "whose person I est&eacute;eme vnworthie th'aduenture of my blond,
+but for the crowne &amp; dignitie of the realme, in which manie a good man liueth
+<note place="marg">He taketh vpon him to defend the chalenge.</note>
+against thy will, I shall be contented to hazard my life."</p>
+<p>These words were not construed in the worst part, as proc&eacute;eding from an offended
+mind of him that was therein est&eacute;emed more plaine than wise. Therefore being
+cherished and much made of, he was fed so woonderfullie (now he came to so large
+allowance in diet after hard keeping) that the French chalenger tooke him for a monster:
+and fearing to deale with him, priuilie stole awaie into Spaine. It is further
+reported, that the French king, being desirous to s&eacute;e Curcie, requested king Iohn
+that he might come before them, and shew of what strength he was by striking a
+blow at an helmet. Herevpon foorth he was brought, and presented before the
+kings, where was an helmet set vpon a blocke. Curcie taking a sword in his hand,
+and with a sterne &amp; frowning countenance cast vpon the kings, gaue such a stroke
+to the helmet, that cleaning it in sunder, the sword sticked so fast in the log, that
+no man there was able to plucke it foorth, except Curcie himselfe. When he therefore
+had plucked foorth the sword, the kings asked him what he meant to looke vpon
+them with such a grim &amp; froward countenance before he gaue the blow to the helmet?
+He answered, that if he had missed in his stroke, he would haue killed all
+the whole companie, as well the kings as others. Then was he released of bonds,
+and crossing the seas towards Ireland whither he was bound, was fift&eacute;ene times beaten
+backe againe to the English shore, &amp; going into France to change the coast died
+<note place="marg">Curcie departeth this life.</note>
+
+<note place="marg">The description of Curcie.</note>
+there. This Curcie was white of colour, mightie of lims, with large bones and
+strong of sinews, tall &amp; broad in proportion of bodie, so as his strength was
+thought to exc&eacute;ed, of boldnesse incomparable, and a warrior euen from his youth;
+the formost in the front of euerie battell where he came, and euer readie to hazard
+himselfe in place of most danger, so forward in fight, that oftentimes forgetting the
+<!--<fw place="bot-right">"office"</fw>-->
+
+
+<pb n="237"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"237"</fw>-->
+
+
+office of a capteine, he tooke in hand the part of a souldior, pressing foorth with
+the formost, so that with his ouer rash violence, and desire of victorie, he might
+s&eacute;eme to put all in danger. But although he was thus hastie and hot in the field
+against his enimies, yet was he in conuersation modest and sober, and verie religious,
+hauing churchmen in great reuerence, ascribing all to the goodnesse of God,
+when he had atchiued anie praise-woorthie enterprise, y&eacute;elding thankes to his diuine
+maiestie accordinglie. But as seldome times anie one man is found perfect in
+all things, so these vertues were spotted with some vices; namelie, too much nigardnesse
+in sparing, and inconstaneie. He maried the daughter of Godred king of
+Man, and after manie conflicts and battels had against the Irish, he conquered (as
+before ve haue heard) the countrie of Vlster, and building diuerse strong castels
+therin, he established the same vnder his quiet rule and gouernment, till he and
+Lacie fell out, as before is expressed.</p>
+<p>After Curcies decease, because he left no heires, the earledome of Vlster was giuen
+vnto Hugh Lacie in recompense of his good seruice. There was one of the Curcies
+remaining in Ireland that was lord of Rathermie and Kilbarrocke, whome (as an
+espiall of all their practises and informer thereof to the king) Walter and Hugh the
+sons of Hugh Lacie slue, by reason whereof great trouble and disquietnesse insued:
+those Lacies bearing themselues (now after the decease of their father) for gouernors
+out of checke. To set the realme in quiet, king Iohn was faine to passe thither
+<note place="marg">King Iohn went into Ireland.</note>
+himselfe in person with a maine armie, banished the Lacies, subdued the residue of
+the countrie yet not conquered, tooke pledges, punished malefactors, established
+<note place="marg">S&eacute;e more hereof in Enland.</note>
+the execution of English lawes, coined monie of like value currant sterling in both
+realmes. The two Lacies repenting their misdemeanors, fled into France disguised
+<note place="marg">They fled into France.</note>
+in poore apparell, and serued there in an aboeie as gardeners, till the abbat by their
+countenance and behauior began to gesse their estates, and opposed them so farre
+that they disclosed what they were; bes&eacute;eching the abbat to keepe their counsels,
+who commending their repentant humblenes, aduised them yet to make sute for
+their princes fauor, if it might be had, promising to doo what he could in the matter,
+and so tooke vpon him to be a suter for them vnto the king that was his godcept
+and well acquainted with him. He trauelled so earnestlie herein, that at length
+he obteined their pardons: but yet they were fined, Walter at foure thousand, and
+<note place="marg">They are pardoned, and put to their fines.</note>
+Hugh at fiue and twentie hundred markes: and herevpon Walter was restored vnto
+the lordship of Meth, and Hugh to the earledome of Vlster.</p>
+<p>King Iohn appointed his lieutenants in Ireland, and returning home, subdued
+the Welshmen, and soone after with Pandulfus the legat of pope Innocentius the
+third, who came to release him of the censure, wherin he stood excommunicat, to
+whom as to the popes legat he made a personall surrender of both realines in waie
+of submission; and after he was once absolued, he receiued them againe. Some
+adde, that he gaue awaie his kingdoms to the see of Rome for him and his successors,
+recognising to hold the same of the popes in f&eacute;e, paieng yearelie therefore
+one thousand markes, as seauen hundred for England, and three hundred for Ireland.
+<note place="marg">An hundred marks of gold.</note>
+
+<note place="marg"><emph>Blondus.</emph></note>
+Blondus saith, "Centum pro vtroque auri marchias." Sir Thomas More
+(as Campion saith) a man both in calling &amp; office likelie to sound the matter to
+the depth, writeth preciselie, that neither such writing the pope can shew, neither
+were it effectuall if he could. How farre foorth, and with what limitation a prince
+may or may not addict his realme feodarie to another, Iohn Maior a Scotish chronicler,
+and a Sorbonist not vnlearned partlie scanneth, who thinketh three hundred
+markes for Ireland no verie hard peniworth. The instrument (as Campion thinketh)
+which our English writers rehearse, might happilie be motioned and drawen, and
+<note place="marg"><emph>Iohn Bale in bis apologie against vows.</emph></note>
+yet not confirmed with anie seale, nor ratified: but though the copie of this writing
+remaine in record, yet certeine it is, king Iohns successors neuer paid it. After Iohn
+<!--<fw place="bot-right">"Comin"</fw>-->
+
+
+<pb n="238"/>
+
+<!--<fw place="top-left">"238"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+Comin archbishop of Dublin, and founder of saint Patriks church succ&eacute;eded Henrie
+Londores in the s&eacute;e, who builded the kings castell there, being lord ch&eacute;efe iustice
+of Ireland, him they nicknamed (as the Irish doo commonlie giue additions in
+respect of some fact or qualitie) Scorchuillein, that is, Burnebill, because he required
+to peruse the writings of his tenants, colorablie pretending to learne the
+kind of ech mans seuerall tenure, and burned the same before their faces, causing
+them either to renew their takings, or to hold at will.</p>
+<p>In the yeare one thousand two hundred and sixt&eacute;ene king Iohn departed this
+life. In his daies diuerse monasteries were builded in Ireland, as (besides those
+that before are mentioned) in the fourth yeare of his reigne the abbeie of
+Dowish was founded; in the sixt the abbeie of Wetherham in the countie of Limerike,
+by Theobald le Butler lord of Cacrackie, and in the twelfe yeare Richard
+Oute builded the monasterie of Grenard. In the daies of Henrie the third that
+<note place="marg">Henrie the third.</note>
+
+<note place="marg">Warres betwixt Lacie and Marshall.</note>
+succ&eacute;eded his father king Iohn great warres were raised in Ireland betwixt Hugh
+Lacie &amp; William Marshall, so that the countrie of Meth was gr&eacute;euouslie afflicted.
+In the yeare of our Lord 1228, after the death of Londores archbishop of Dublin,
+<note place="marg"><date>1228</date></note>
+that was lord ch&eacute;efe iustice, king Henrie the third vnderstanding the good seruice
+doone by the Giraldines euer since their first comming into Ireland, although by
+<note place="marg">The Giraldines.</note>
+wrong reports the same had beene to their preiudice for a time sinisterlie misconstrued,
+so as the gentlemen had still b&eacute;ene kept backe, and not rewarded according
+to their deserts. The king now informed of the truth made Morice Fitzgerald the
+<note place="marg">Morice Fitzgirald.</note>
+
+<note place="marg">Lucas archbishop.</note>
+
+<note place="marg"><date>1230</date></note>
+sonne of Morice aforesaid lord ch&eacute;efe iustice of Ireland. Lucas succeeded Londres
+in the archbishops s&eacute;e, and was consecrated. In the yeare one thousand two
+hundred and thirtie, Richard Marshall was taken prisoner in battell at Kildare.
+Some write that he was wounded there, and within few daies after died of the
+<note place="marg"><date>1234</date></note>
+hurt at Kilkennie, and was buried there in the queere of the church of the friers
+preachers, n&eacute;ere to the place where his brother William was interred, who departed
+this life in the yeare one thousand two hundred thirtie and one.</p>
+<p>In the yeare one thousand two hundred fortie and one, Walter Lacie lord of Meth
+<note place="marg"><date>1241</date></note>
+departed this life in England: he left two daughters behind him that were his heires,
+Margaret married to the lord Verdon, and Matild the wife of Geffrie Genuill.
+<note place="marg">The lord Verdon.</note>
+
+<note place="marg">Geffreie Genuill.</note>
+
+<note place="marg"><date>1252</date></note>
+
+<note place="marg"><date>1253</date></note>
+King Henrie in the six &amp; thirtith yeare of his reigne, gaue to Edward his eldest
+sonne, Gascoigne, Ireland, and the countie of Chester. In the yeare following,
+Hugh Lacie earle of Vlster departed this life, and was buried at Cragfergus, in the
+church of the friers minors, leaning a daughter behind him, that was his heire,
+whome Walter de Burgh or Bourke married, and in right of hir was created earle
+of Vlster, as after shall appeare. Morice Fitzgirald lord iustice of Ireland, being
+requested by this prince to come and assist him with a power of men against the
+Welsh rebels, left a sufficient garrison of men in the castell of Scligath, which he
+<note place="marg">The castell of Scligath.</note>
+had latelie builded, and then came oner with Phelin Ochonher, and a lustie band of
+souldiers: &amp; meeting the prince at Chepstow, behaued themselues so valiantlie,
+that returning with victorie, they greatlie increased the fauor of the king and
+prince towards them; and vpon their returne into Ireland, they ioined with Cormacke
+Mac Dermot Mac Rorie, and made a notable iournie against Odonill the
+Irish enimie, that when Lacie was once dead, inuaded &amp; sore annoied the kings
+subicets of Vlster. Odonill being vanquished, the lord iustice forced pledges and
+<note place="marg">Odonill.</note>
+tribute of Oneale to keepe the kings peace, and diuerse other exploits praise-worthic
+did he, during the time of his gouernment, as Flatsburie hath gathered in his
+notes for the lord Girald Fitzgirald earle of Kildare, in the yeare one thousand fiue
+hundred and seuent&eacute;ene. After Morice Fitzgirald succeeded in office of lord iustice,
+Iohn Fitzgeffrie knight, and after him Alaine de la Zouch, whome the earle of
+<note place="marg">Iohn Fitzgeffrie lord iustice.</note>
+
+<note place="marg">Alaine de la Zouch lord iustice.</note>
+Surrie Fitzwarren slue. And after de la Zouch, in the yeare one thousand two hun-
+<!--<fw place="bot-right">"dred"</fw>-->
+
+
+<pb n="239"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"239"</fw>-->
+
+
+dred fiftie and eight, being the two and fortith of Henrie the third his reigne, was
+Stephan de long Esp&eacute;e sent to supplie that roome, who slue Oneale with thr&eacute;e hundred
+<note place="marg">Stephan de long Esp&eacute;e.</note>
+
+<note place="marg">William Dene lord iustice.</note>
+
+<note place="marg">Gr&eacute;ene castell destroied.</note>
+
+<note place="marg">Mac Carcie.</note>
+
+<note place="marg"><date>1261.</date></note>
+fiftie &amp; two of his men in the str&eacute;ets of Downe, and shortlie after departed
+this life; then William Dene was made lord iustice, and Gr&eacute;ene castell was destroied.
+Also Mac Careie plaid the diuell in Desmond.</p>
+<p>In the yeare one thousand two hundred sixtie and one, sir William Dene lord
+instice of Ireland deceased, and sir Richard Rochell (or Capell as some copies haue)
+<note place="marg">Sir Richard Capell lord iustice.</note>
+was sent to be lord iustice after him, who greatlie enuied the familie of the Giraldins;
+during his gouernement the lord Iohn Fitzthomas and the lord Morice his
+<note place="marg">Lord Iohn Fitzthomas slaine.</note>
+son were slaine. In the yeare one thousand two hundred sixtie and foure, Walter
+de Burgh was made earle of Vlster, and Morice Fitzmorice tooke the lord iustice
+<note place="marg">The lord iustice taken.</note>
+of Ireland togither with Theobald Butler, Miles Cogan, and diuerse other great
+lords at Tristildermot, on saint Nicholas daie. And so was Ireland full of warres,
+betwixt the Burghs and Giraldins. In the yeare one thousand two hundred sixtie
+<note place="marg"><date>1266</date></note>
+
+<note place="marg"><date>1267</date></note>
+and six, there chanced an earthquake in Ireland. In the yeere following, king
+Henrie tooke vp the variance that was in Ireland betwixt the parties, and discharging
+Dene, appointed Dauid Barrie lord iustice in his place, who tamed the insolent
+<note place="marg">Dauid Barrie lord iustice.</note>
+dealings of Morice Fitzmorice, cousine germane to Fitzgirald.</p>
+<p>In the yeare one thousand two hundred sixtie and eight, Conhur Obren was
+<note place="marg"><date>1263</date></note>
+slaine by Dermot Mac Monerd, and Morice Fitzgirald earle of Desmond was
+drowned in the sea, betwixt Wales &amp; Ireland. And Robert Vffort was sent ouer
+<note place="marg">Robert Vffort.</note>
+to remaine lord iustice of Ireland, and Barrie was discharged, who continued till
+the yeare one thousand two hundred sixtie and nine, and then was Richard de Excester
+<note place="marg">Richard de Excester.</note>
+
+<note place="marg"><date>1270</date></note>
+
+<note place="marg"><date>1271</date></note>
+made lord iustice. And in the yeare following, was the lord Iames Audleie
+made lord iustice. Richard Verdon, and Iohn Verdon were slaine, and Fulke archbishop
+of Dublin deceased. Also the castels of Aldlecke, Roscoman, &amp; Scheligagh,
+were destroied. The same yeare was a great dearth and mortulitie in Ireland. In
+the yeare one thousand two hundred seuentie &amp; two, the lord Iames Audleie was
+<note place="marg">The lord Audleie.</note>
+
+<note place="marg">Randon.</note>
+
+<note place="marg">The decease of king Henrie the third.</note>
+
+<note place="marg"><date>1272</date></note>
+
+<note place="marg">Walter Genuill.</note>
+
+<note place="marg"><date>1275</date></note>
+slaine by a fall from his horsse in Thomond, and then was Morice Fitzmorice made
+lord iustice of Ireland, and the castell of Randon was destroied. In the yeare one
+thousand two hundred seauentie and two, king Henrie the third departed this life,
+and the lord Walter Genuill latelie returned home from his iournie into the holie
+land, was sent into Ireland, and made lord iustice there. In the yeare one thousand
+two hundred seuentie and fiue, the castell of Roscoman was eftsoones repared and
+fortified.</p>
+<p>In the yeare one thousand two hundred seuentie and six, there was an ouerthrow
+<note place="marg"><date>1276</date></note>
+
+<note place="marg">An ouerthrow at Glenburie.</note>
+giuen at Glenburie, where William Fitzroger, prior of the knights hospitalers, &amp;
+manie other with him, were taken prisoners, and a great number of other were
+slaine. The same yeare, Iohn de Verdon departed this world, and Thomas de Clare
+maried the daughter of Morice Fitzmorice. In the yeare following, Robert Vffort
+was appointed to supplie the roome of Genuill, being called home, and so was
+this Vffort the second time ordeined lord iustice of Ireland. He hauing occasion
+to passe into England, made his substitute Fulborne bishop of Waterford till his
+returne, and then resumed the gouernement into his owne hands againe. In the
+yeare one thousand two hundred seauentie and seauen, Thomas de Clare slue Obrenroth
+<note place="marg"><date>1277</date></note>
+king of Tholethmond: and yet after this the Irish closed him vp in Slewbani,
+togither with Maurice Fitzmaurice, so that they gaue hostages to escape, and the
+eastell of Roscoman was woone. In the yere next insuing, was Iohn de Derlington
+<note place="marg"><date>1278</date></note>
+consecrated archbishop of Dublin. There was also a councell holden at
+Grenoke, and Mac Dermot slue Cathgur Oconthir king of Connagh. In the
+yeare one thousand two hundred seuentie and nine, Robert Vffort vpon occasion of
+<!--<fw place="bot-right">"busines"</fw>-->
+
+
+<pb n="240"/>
+
+<!--<fw place="top-left">"240"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+busines came ouer into England, and left frier Fulborne bishop of Waterford to supplie
+his roome, and Rafe Piphard and Ohaulan chased Oneale in a battell.</p>
+<p>In the yeare one thousand two hundred and foure score, Robert Vffort came
+<note place="marg"><date>1280</date></note>
+the third time to occupie the roome of lord chiefe iustice in Ireland, resuming that
+roome into his hands againe. In the yeare following, the bishop of Waterford was
+<note place="marg"><date>1281</date></note>
+established by the king of England lord iustice of Ireland. Adam Cusacke the
+yoonger slue William Barret, and manie other in Connagh. And in the next yeare,
+to wit, one thousand two hundred foure score and two, Penqueit slue Murertagh,
+&amp; his brother Art Mac Murgh at Athlon. Also the lord Iames de Birmingham, and
+Piers de Tute departed this life. Also the archbishop Derlington deceassed. And
+about the same time, the citie of Dublin was defaced by fire, and the st&eacute;eple of
+Christs church vtterlie destroied. The citizens before they went about to repare
+their owne priuat buildings, agreed togither to make a collection for reparing the
+<note place="marg">Christ church repared.</note>
+ruines of that ancient building first begun by the Danes, and continued by Citrius
+prince of Dublin at the instance of Donat sometime bishop of that citie, and dedicated
+<note place="marg">Donat bishop of Dublin.</note>
+to the blessed trinitie.</p>
+<p>At lengh Strangbow earle of Peubroke, Fitzstephans, &amp; Laurence, that for his
+vertue was called saint Laurence archbishop of Dublin, and his foure successors,
+Iohn of Euesham, Henrie Scortchhill, and Lucas, and last of all Iohn de saint
+Paule finished it. This notable building, since the time that it was thus defaced by
+fire, hath b&eacute;ne beautified in diuerse sorts by many zealous citizens. Strangbowes
+<note place="marg">Strangbows too ne restored by Henrie Sidneie.</note>
+toome defaced, by the fall of the roofe of the church, sir Henrie Sidneie, when he
+was lord deputie, restore; &amp; likewise did cost vpon the earle of Kildares chappell
+for an ornament to the quier, ouer the which he left also a monument of capteine
+Randolfe, late coronell of the English bands of footmen in Vlster that died there
+<note place="marg">Capteine Randolfe.</note>
+valiantlie, fighting in his princes seruice, as after shall appeare. In the yeare one
+thousand two hundred foure score and three, Furmund chancellor of Ireland, and
+Richard Tute departed this life, and frier Stepiran Fulborne was made lord iustice
+of Ireland.</p>
+<p>In the yeare 1285, the lord Theobald Butler fled from Dubline, and died shortlie
+<note place="marg"><date>1285</date></note>
+after, and the lord Theobald Verdon lost his men and horsses as he went towards
+Offalie, &amp; the next day Gerald Fitzmaurice was taken, and Iohn Samford was consecrated
+<note place="marg">Iohn Samford consecrated archbishop of Dublin.</note>
+
+<note place="marg">An ouerthrow at Rathod.</note>
+
+<note place="marg">Norwagh and Ardscol burnt</note>
+
+<note place="marg"><date>1286</date></note>
+archbishop of Dublin. Moreouer at Rathod, the lord Gerfreie Genuill
+fled, and sir Gerard Doget, and Rafe Petit were slaine, with a great number of
+others. The Norwagh and Ardscoil with other townes and villages were burnt by
+Philip Stanton the sixteenth daie of Nouember, in the yeare 1286. Also Calwagh
+was taken at Kildare. In the yeare 1287, dinerse nobles in Ireland deceased, as
+Richard Decerer, Gerald Fitzmaurice. Thomas de Clare, Richard Taffic, &amp; Nicholas
+Teling knights. The yeare next insuing, deceased frier Fulborne lord iustice of
+<note place="marg"><date>1288</date></note>
+
+<note place="marg">Samford archbishop of Dublin lord iustice.</note>
+Ireland, and Iohn Samford archbishop of Dublin was aduanced to the roome of
+lord iustice. Also Richard Burgh earle of Vlster besreged Theobald Verdon in
+the castell of Athlon, and came with a great power vnto frim, by the working of
+Walter Lacie.</p>
+<p>In the yeare 1290, was the chase or discomfiture of Offalie, &amp; diuerse Englishmen
+<note place="marg"><date>1290</date></note>
+slaine. Also Mac Coghlan slue Omolaghelin king of Meth, and William
+Burgh was discomfited at Deluin by Mac Coghlan. The same yeare 1290, William
+Vescie was made lord iustice of Ireland, and entered into that office on S. Martins
+<note place="marg">William Vescie lord iustice.</note>
+daie. Vnto this iustice, Edward Balioil king of Scotland did homage for an earledome
+which he held in Ireland, in like maner as he did to king Edward for the
+crowne of Scotland. In the yeare 1292, a fifteenth was granted to the king, of all
+<note place="marg"><date>1292</date></note>
+the temporall goods in Ireland, whilest Vescie was as yet lord iustice. This Vescie
+<!--<fw place="bot-right">"was"</fw>-->
+
+
+<pb n="241"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"241"</fw>-->
+
+
+was a sterne man and full of courage, he called Iohn earle of Kildare before him,
+charging him with foule riots and misdemeanors, for that he ranged abroad, and
+sought reuenge vpon priuat displeasures out of all order, and not for anie aduancement
+of the publike wealth or seruice of his souereigne.</p>
+<p>The earle as impatient to heare himselfe touched as the iustice to suffer euill
+<note place="marg">The earle of Kildare.</note>
+dooing, answered thus. "By your honor and mine (my lord) and by king Edwards
+hand (for that was accompted no small oth in those daies among the Irish) you
+would if you durst appeach me in plaine termes of treason or felonie: for where I
+haue the title, and you the fl&eacute;ece of Kildare. I wote well how great an eiesore I
+am in your sight, so that if I might be handsomlie trussed vp for a fellon, then
+might my master your sonne become a gentleman." "A gentleman" quoth the
+iustice, "thou proud earle? I tell th&eacute;e, the Vescies were gentlemen before Kildare
+was an earledome: and before that Welsh bankrupt thy cousine fethered his nest
+in Leinster. But seeing thou darest me, I will suerlie breake thy heart." And
+therwith he called the earle a notorious th&eacute;efe and a murtherer. Then followed
+facing and bracing among the souldiers, with high words, and terrible swearing on
+both sides, vntill either part appeased his owne.</p>
+<p>The lord iustice shortlie after, leaning his deputie William Haie, tooke the sea,
+and hasted ouer to the king. The earle immediatlie followed, and as heinouslie
+as the lord iustice accused him of felonie, Kildare no lesse appealed him of treason.
+For triall heereof, the earle asked the combat, and Vescie refused not: but yet when
+the lists were prouided, Vescie was slipt awaie into France, and so disherited of
+all his lands in the countie of Kildare, which were bestowed vpon the earle and his
+heires for euer. The earle waxing loftie of mind in such prosperous successe,
+squared with diuerse nobles, English and Irish of that land. The same yeare died
+<note place="marg"><date>1294</date></note>
+
+<note place="marg">The death of the archbishop Samford.</note>
+
+<note place="marg">The earle of Vlster taken prisoner.</note>
+Iohn Samford archbishop of Dublin, and Iohn Fitzthomas earle of Kildare, and
+Iohn de la Mare tooke prisoners, Richard Burgh earle of Vlster, and William Burgh
+within the countrie of Meth, and the castell of Kildare was taken, and all the
+countrie wasted by the English on the one side, and the Irish on the other, and
+Calwagh burnt all the rolles and talies concerning the records &amp; accompts of that
+countie. Great dearth and death reigned in Ireland this yeare, and the two y&eacute;eres
+<note place="marg">Great dearth and death.</note>
+next insuing. The earle of Kildare deteined the earle of Vlster prisoner, vntill by
+authoritie of a parlement holden at Kilkennie, he was deliuered out of the castell
+of Leie, for his two sonnes, and for the inuasion which the earle of Kildare had
+made into Meth, and other his vnrulie and misordred parts, was disseized of the
+castell of Sligagh, and of all his lands in Connagh.</p>
+<p>William Dodingsels, being this yeare made lord iustice of Ireland, after Vescie
+<note place="marg">William Dodingsels lord iustice.</note>
+
+<note place="marg"><date>1295</date></note>
+
+<note place="marg">Thomas Fitzmaurice lord iustice.</note>
+
+<note place="marg"><date>1296</date></note>
+
+<note place="marg"><date>1298</date></note>
+
+<note place="marg"><emph>Rec. Turris.</emph></note>
+died, in the y&eacute;ere next following, that is 1295, and the thr&eacute;e and twentith of king
+Edward the first. After him succ&eacute;eded in that roome the lord Thomas Fitzmaurice.
+In the yeare 1296, frier William de Bothum was consecrated archbishop of Dublin.
+In the yeare 1298, and six and twentith of Edward the first, the lord Thomas Fitzmaurice
+departed this life, and an agr&eacute;ement was made betwixt the earle of Vlster
+and the lord Iohn Fitzthomas earle of Kildare, by Iohn Wogan that was ordeined
+lord iustice of Ireland. In the y&eacute;ere 1299 William archbishop of Dublin departed
+<note place="marg"><date>1299</date></note>
+this life, and Richard de Fringis was consecrated archbishop in his place. The king
+went vnto Iohn Wogan lord iustice, commanding him to giue summons vnto the
+nobles of Ireland, to prepare themselues with horsse and armor to come in their
+best arraie for the warre, to serue him against the Scots: and withall wrote vnto
+the same nobles, as to Richard de Burgh earle of Vlster, Geffreie de Genuill, Iohn
+Fitzthomas, Thomas Fitzmaurice, Theobald lord Butler, Theobald lord Verdon,
+Piers lord Birmingham of Thetemoie, Eustace lord Powre, Hugh lord Purcell, Iohn
+de Cogan, Iohn de Barrie, William de Barrie, Walter de Lastice, Richard de
+<!--<fw place="bot-left">"VOL. VI."</fw>--><!--<fw place="bot-center">"2 I"</fw>--><!--<fw place="bot-right">"Excester,"</fw>-->
+
+<pb n="242"/>
+
+<!--<fw place="top-left">"242"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+Excester, Iohn Pipurd, Walter Lenfant, Iohn of Oxford, Adam de Stanton, Sunon
+de Pheibe, William Cadell, Iohn de Vale, Maurice de Carre, George de la Roch,
+Maurice de Rochford, and Maurice Fitzthomas de Kerto, commanding them to be
+with him at Withwelaun the first of March. Such a precept I remember I haue
+read, registred in a close roll among the records of the tower. But where Marlburrow
+saith, that the said Iohn Wogan lord iustice of Ireland, and the lord
+Iohn Fitzthomas, with manie others, came to king Edward into Scotland, in the
+nine and twentith yeare of king Edwards reigne, Campion noteth it to be in the
+yere 1299, which fell in the seuen &amp; twentith of the reigne of king Edward:
+&amp; if my remembrance faile me not, the close roll aforementioned beareth date of
+the foure and twentith yeare of king Edwards reigne. All which notes may be
+true, for it is verie like, that in those warres against the Scots, the king sent diuerse
+times to the Irish lords to come to serue him, as it behooued them to doo by
+their tenures: and not onelie he sent into Ireland to haue the seruices of men, but
+also for prouision of vittels, as in close rolles I remember I haue also s&eacute;ene recorded
+of the seauen and twentith and thirtith yeare of the said king Edward the first his
+reigne. For this we find in a certeine abstract of the Irish chronicles, which should
+s&eacute;eme to be collected out of Flatsburie, whom Campion so much followed, that in
+<note place="marg"><emph>Cbr. Pembrig.</emph></note>
+
+<note place="marg"><date>1301</date></note>
+
+<note place="marg">Irishmen inuade Scotland</note>
+the yeare 1301, the lord Iohn Wogan lord iustice, Iohn Fitzthomas, Peter Birmingham,
+&amp; diuerse others went into Scotland in aid of king Edward, in which
+yeare also a great part of the citie of Dublin, with the church of saint Werburgh
+was burnt in the night of the feast daie of saint Colme. Also the lord Genuill
+married the daughter of Iohn de Montfort, and the lord Iohn Mortimer married
+the daughter and heire of Peter Genuill, also the lord Theobald de Verdon married
+the daughter of the lord Roger Mortimer. The same yeare in the winter season,
+the Irish of Leinster raised warre against the townes of Wicklow and Rathdon,
+dooing much hurt by burning in the countrie all about: but they were chastised
+for their wickednesse, loosing the most part of their prouision and cattell. And
+in the Lent season the more part of them had b&eacute;ene vtterlie destroied, if discord
+and variance had not risen among the Englishmen, to the impeachment of their
+purposed enterprises.</p>
+<p>In haruest there were thr&eacute;e hundred th&eacute;eues slaine by the Phelanes. Also Walter
+le Power wasted a great part of Mounster, burning manie farmes and places in that
+<note place="marg">Walter Power.</note>
+countrie. In the yeare 1302, pope Boniface demanded a tenth of all the spirituall
+<note place="marg"><date>1302</date></note>
+liuings in England and Ireland, for the space of thr&eacute;e yeares, to mainteine wars in
+defense of the church of Rome, against the king of Arragon. In the yeare 1303,
+<note place="marg"><date>1303</date></note>
+
+<note place="marg">The earle of Vlster.</note>
+the earle of Vlster, and Richard Burgh, and sir Eustace le Power, with a puissant
+armie entered Scotland. The earle made thr&eacute;e and thirtie knights at Dublin, before
+he-set forwards. The same yeere Girald, sonne and heire to the lord Iohn
+Fitzthomas departed this life, and likewise the countesse of Vlster. William de
+Wellisleie, and sir Robert de Persiuall were slaine the two and twentith of October.
+In the yeare 1304, a great part of the citie of Dublin was burnt by casuall fire.
+<note place="marg"><date>1304</date></note>
+In the yeare next insuing, lordaine Comin with his complices slue Maritagh Oconhur
+king of Offalie, and his brother Calwagh, with diuerse others within the court
+of Piers de Birmingham at Carricke in Carbrie. Also sir Gilbert Sutton steward
+of Wexford was slaine by the Irishmen, n&eacute;ere to the farme of Heimond de Grace,
+which Heimond bare himselfe right valiantlie in that fight, and in the end through
+his great manhood escaped.</p>
+<p>In the yeare 1306 a great slaughter was made in Offalie n&eacute;ere to the castell of
+<note place="marg"><date>1306</date></note>
+
+<note place="marg">A discomfiture at Offalie.</note>
+Geschill, the thirteenth daie of Aprill vpon Oconhur and his fr&eacute;ends by the Odempsies,
+in the which place were slaine a great number of men. Also Obren king of
+Thomond was slaine. Moreouer, Donald Oge Mac Arthie slue Donald Russe king
+<!--<fw place="bot-right">"of"</fw>-->
+
+
+<pb n="243"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"243"</fw>-->
+
+
+of Desmond. And vpon the twelfe of Maie in the confins of Meth, a great ouerthrow
+chanced to the side of the lord Piers Butler, and Balimore in Leinster was
+<note place="marg">Balimore burnt.</note>
+burnt by the Irish, where Henrie Celfe was slaine at that present time. Hereof
+followed great wars betwixt the English and Irish in Leinster, so that a great
+<note place="marg">Warres in Leinster.</note>
+armie was called togither foorth of diuerse parts of Ireland, to restreine the malice
+of the Irish in Leinster, in which iournie sir Thomas Mandeuill knight entred into
+a conflict with the Irish n&eacute;ere to Glenfell, in the which he bare himselfe right manfullie,
+till his horsse was slaine vnder him, and yet then to his great praise and high
+commendation he saued both himselfe and manie of his companie. The lord chancellor
+<note place="marg">The lord chancellor consecrated bishop of Imaleie.</note>
+of Ireland, Thomas Caucocke, was consecrated bishop of Imaleie within the
+Trinitie church at Dublin, and kept such a feast as the like had not lightlie beene
+s&eacute;ene nor heard of before that time in Ireland, first to the rich &amp; after to the poore.
+Richard Flerings archbishop of Dublin deceased on the euen of saint Luke the
+<note place="marg">The archbishop of Dublin deceased.</note>
+euangelist, to whom succ&eacute;eded Richard de Hauerings, who after he had continued
+in that s&eacute;e about a fiue yeares, resigned it ouer by dispensasion obteined from Rome,
+and then his nephue Iohn L&eacute;ech was admitted archbishop there.</p>
+<p>In the yeare 1307 the first of Aprill, Murcod Ballagh was beheaded n&eacute;ere to
+<note place="marg"><date>1307</date></note>
+Merton by sir Dauid Caunton knight, and shortlie after was Adam Daune slaine.
+Also, a great discomfiture and slaughter fell vpon the Englishmen in Connagh by
+<note place="marg">A disc&omacr;fiture in Connagh.</note>
+the Oscheles the first daie of Maie, and the robbers that dwelt in the parties of
+Offalie raised the castell of Geischell, and in the vigill of the translation of Thomas
+Becket, being the sixt of Iulie, they burnt the towne of Leie and besieged the
+castell: but they were constreined to depart from thense shortlie after, by Iohn
+Fitzthomas and Edmund Butler that came to remoue that siege. In the yeare 1308
+<note place="marg"><date>1308</date></note>
+king Edward the first departed this life the seuenth of Iulie.</p>
+	  </div>
+<div n="Edward2" type="chronicle">
+<head>Edward the second.</head>
+<p>RICHARD archbishop of Dublin, after that he had gouerned that s&eacute;e the space
+of fiue yeares, by reason of a vision that he saw in his sl&eacute;epe, f&eacute;eling himselfe
+troubled in conscience, with consideration of that dreame, resigned the next morrow
+all his title to the archbishops dignitie (as before ye haue heard) and contented himselfe
+with other ecclesiasticall benefices as seemed conuenient to his estate. This
+<note place="marg"><date>1300</date></note>
+
+<note place="marg">The order of the T&emacr;plers suppressed.</note>
+yeare by vertue of letters directed from the pope to the king of England, he caused
+all the Templers as well in England as Ireland to be apprehended and committed
+to safe k&eacute;eping. The profession of these Templers began at Ierusalem, by certeine
+gentlemen that remained in an hostell n&eacute;ere to the temple, who till the councell of
+Trois in France were not increased aboue the number of nine, but from that time
+foorth in little more than fiftie yeares, by the zealous contribution of all christian
+realmes, they had houses erected euerie where, with liuings bountifullie assigned to
+the same for their maintenance, in so much as they were augmented vnto the number
+of thr&eacute;e hundred, that were knights of that order, beside inferiour brethren
+innumerable: but now with wealth they so forgot themselues, that they nothing
+lesse regarded, than the purpose of their foundation: and withall being accused
+of horrible heresies (whether in all things iustlie or otherwise, the Lord knoweth)
+they were in the councell at Lions in France condemned, and their liuings transposed
+to the knights Hospitalers, otherwise called the knights of the Rhodes, and now
+of Malta. The manner of their apprehension and committing was sudden, and so
+generall in all places vpon one daie, that they had no time to shift for themselues.</p>
+<p>For first, the king sent foorth a precept to euerie shiriffe within the realme of
+<!--<fw place="bot-center">"2 I 2"</fw>--><!--<fw place="bot-right">"England,"</fw>-->
+
+
+<pb n="244"/>
+
+<!--<fw place="top-left">"244"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+England, commanding them within each of their roomes to cause a prescribed number
+of knights, or rather such men of credit, on whose fidelities he might assure
+himselfe to assemble at a certeine towne named in the same writ, the sundaie next
+after the Epiphanie, &amp; that ech of the same shiriffes failed not to bethere the same
+daie, to execute all that should be inioined them by anie other writ, then and there
+to be deliuered. The shiriffe of Yorke was commanded to giue summons to foure
+and twentie such knights, or other sufficient men to m&eacute;et him at Yorke. The
+shiriffe of Norffolke and Suffolke, to summon twentie to meet him at Thetford.
+The other shiriffs were appointed to call to them some ten, some twelue, or some
+fourteene, to m&eacute;et them at such townes as in their writs were named. The date of
+this writ was from Westminster the fift&eacute;enth of December, in the first yeare of this
+king Edward the seconds reigne. The other writ was sent by a chapleine authorized
+both to deliuer the same writ, and to take an oth of the shiriffe, that he should
+not disclose the contents, till he had put the same in execution, which was to attach
+by assistance of those aforementioned knights, or as manie of them as he thought
+expedient to vse, all the Templers within the precinct of his roome, and to seize
+all their lands, goods, and cattels into the kings hands, and to cause an inuentarie
+of the same indented be made in presence of the warden of the place, whether
+he were knight of the order or anie other, and in the presence of other honest
+men neighbours thereabouts, keeping the one counterpane with himselfe, sealed with
+his seale that made the seizure, and leauing the other in the hands of the said warden:
+and further to s&eacute;e the same goods and cattels to be put in safe k&eacute;eping, and to
+prouide that the quicke goods might be well kept and looked vnto, and the grounds
+manured to the most profit, and to cause the bodies of the Templers attached, to be
+so deteined in all safetie, as that they be not yet committed to irons nor to streict
+prison, but to remaine in some conuenient place other than their owne houses, and
+to be found of the goods so seized accordinglie as falleth for their estates, till he
+haue otherwise in commandement from the king: and what is doone herein, to certifie
+into the excheker the morrow after the purification. The date of this second
+writ was from Biflet the twentith of December. There was likewise a writ directed
+to Iohn Wogan lord iustice of Ireland, signifieng vnto him what should be doone
+in England, touching the apprehension of the Templers, and seizure of their lands
+and goods, commanding him to proc&eacute;ed in semblable manner against them in Ireland:
+but the daie and place when the shiriffes should there assemble, was left to
+the discretion of the said iustice and treasuror of the excheker there, but so as the
+same might be doone before anie rumour of this thing could be brought ouer out
+of England thither. Also a like commandement was sent vnto Iohn de Britaine
+earle of Richmond, lord warden of Scotland, and to Eustace Cotesbach chamberleine
+of Scotland, also to Walter de Pederton lord iustice of west Wales, to Hugh
+Aldighleigh <emph>ali&agrave;s</emph> Auderleie lord iustice of north Wales, and to Robert Holland lord
+iustice of Chester. Thus much for the Temples. But now to other dooings in
+Ireland.</p>
+<p>In the yeare 1308 the twelfe of Aprill deceased Peter de Birmingham a noble
+<note place="marg"><date>1308</date></note>
+warriour, and one that had b&eacute;ene no small scourge to the Irish. The eleuenth of
+Maie the castell of Kennun was burnt, and diuers of them that had it in k&eacute;eeping
+were slaine by William Macbalther, and other of the Irish, and likewise the towne
+<note place="marg">This Macbalther was after hanged at Dublin.</note>
+
+<note place="marg">The lord iustice discomfited.</note>
+
+<note place="marg"><date>1308</date></note>
+of Courcoulie was burnt by the same malefactors. And the sixt of Iune, Iohn lord
+Wogan lord iustice was discomfited n&eacute;ere to Glindelorie, where Iohn de S. Hogelin,
+Iohn Norton, Iohn Breton, and manie other were slaine. The sixt&eacute;enth of Iune,
+Dunlouan, Tobir, and manic other townes were burnt by the Irish rebels. About
+<note place="marg">Iohn Decer maior of Dublin.</note>
+this season, Iohn Decer maior of Dublin builded the high pipe there, &amp; the bridge
+<!--<fw place="bot-right">"ouer"</fw>-->
+
+
+<pb n="245"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"245"</fw>-->
+
+
+ouer the Liffie towards S. Vlstons, and a chappell of our ladie at the friers minors,
+where he was buried, repared the church of the friers preachers, and euerie fridaie
+tabled the friers at his owne costs.</p>
+<p>Iohn Wogan hauing occasion to passe into England, William Burgh did supplie
+<note place="marg">Burgh.</note>
+
+<note place="marg">Piers Gaueston sent into Ireland.</note>
+his roome, vnto whom king Edward recommended Piers de Gaueston, when (contrarie
+to the kings mind) he was banished by the lords of England, and about the
+natiuitie of our ladie he came ouer into Ireland, being sent thither by the king with
+manie iewels: and beside the letters which he brought of recommendation from the
+king, he had assigned to him the c&omacr;modities roiall of that realme, which bred some
+trouble and bickerings there, betwixt Richard Burgh earle of Vlster, and the said
+Gaueston, who notwithstanding bought the good willes of the souldiers with his
+liberalitie, slue Dermot Odempsie, subdued Obren, edified soundrie castels, causeies,
+and bridges, but the next yeare he was reuoked home by the king, as in the historie
+of England it maie appeare.</p>
+<p>In the vigill of Simon and Iude, the lord Roger Mortimer landed in Ireland with
+<note place="marg">Lord Roger Mortimer.</note>
+
+<note place="marg"><date>1309</date></note>
+his wife, right heire to the seigniorie of Meth, as daughter to Piers Genuill, that
+was sonne to the lord Geffreie Genuill, which Geffreie became a frier at Trim of
+the order of the preachers: by reason whereof, the lord Mortimer and his wife entered
+into possession of the lands of Meth. In the yeare 1309, on Candlemas day,
+the lord Iohn Bonneuill was slaine n&eacute;ere to the towne of Ardscoll, by the lord
+<note place="marg">Lord Iohn Bonneuill slaine.</note>
+
+<note place="marg"><date>1310</date></note>
+Arnold Powre and his complices, his bodie was buried at Athie in the church of
+the friers preachers. In the yere following, at a parlement holden at Kildare, the
+lord Arnold Powre was acquit of that slaughter, for that it was prooued it was doone
+in his owne defense. In the yeare 1311, or (as some bookes haue) the yeare 1309,
+<note place="marg"><date>1311</date></note>
+
+<note place="marg">A parlement at Kilkennie.</note>
+
+<note place="marg"><emph>Campion.</emph></note>
+Wogan lord iustice summoned a parlement at Kilkennie, where diuerse wholesome
+lawes were ordeined, but neuer executed. There fell the bishops in contention
+about their iurisdictions, namelie the bishop of Dublin forbad the primat of Armagh
+to raise his croisier within the prouince of Leinster.</p>
+<p>Shortlie after, Rowland Ioice the primat stale by night (in his pontificals) from
+Howth to the priorie of Grace Dieu, where the bishops seruants met him, &amp; with
+force chased him out of the diocesse. This bishop was named Iohn a L&eacute;ekes, and
+was consecrated not long before he kept this sturre. Richard earle of Vlster with
+a great armie came to Bonrath in Thomond, where as sir Robert or rather sir Richard
+de Clare discomfited his power, tooke sir William de Burgh prisoner, or (as some
+<note place="marg">Sir Richard de Clare.</note>
+
+<note place="marg">Iohn Lacie slaine.</note>
+bookes haue) the earle himselfe. Iohn Lacie the sonne of Walter Lacie, and diuerse
+others were slaine. The twelfe of Nouember this yere, Richard de Clare slue six
+hundred Galloglasses, and Iohn Morgoghedan was slaine by Omolmoie. Also Donat
+Obren was murthered by his owne men in Thomond.</p>
+<p>The one and twentith of Februarie began a riot in Argile by Robert Verdon, for
+<note place="marg"><date>1312</date></note>
+
+<note place="marg">Robert Verdon raiseth a riotous tumult.</note>
+
+<note place="marg">Iohn Wogan lord iustice.</note>
+the appeasing wherof an armie was lead thither by Iohn Wogan lord chiefe iustice
+in the beginning of Iulie, but the same was discomfited, and diuerse men of account
+slaine, as sir Nicholas Auenell, Patrike de Roch, &amp; others. At length yet the said
+sir Robert Verdon, and many of his complices came and submitted themselues to
+prison within the castell of Dublin, abiding there the kings mercie. The lord
+Edmund Butler was made deputie iustice vuder the lord Iobn Wogan, who in
+the Lent next insuing besieged the Obrens in Glindelow, and compelled them to
+yeeld themselues to the kings peace. Also in the yeare abouesaid 1312, Maurice
+Fitzthomas maried the ladie Katharine, daughter to the earle of Vister at Gr&eacute;ene
+castell, and Thomas Fitziohn maried an other of the said earles daughters in the
+same place, but not on the same daie: for the first of those two mariages was celebrated
+the morrow after saint Dommikes daie, and this second mariage was kept
+<!--<fw place="bot-right">"the"</fw>-->
+
+
+<pb n="246"/>
+
+<!--<fw place="top-left">"246"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+the morrow after the feast of the assumption of our ladie. Also Robert de Bruse
+ouerthrew the castell of Man, and tooke the lord Donegan Odowill on saint Barnabies
+daie.</p>
+<p>In the yeare 1313, Iohn a Leekes archbishop of Dublln departed this life: after
+<note place="marg"><date>1313</date></note>
+
+<note place="marg"><emph>Campion.</emph></note>
+whose decease were elected in schisme and diuision of sides two successors, Walter
+Thorneburie lord chancellor, and Alexander Bignor treasuror of Ireland. The
+chancellor to strengthen his election, hastilie went to sea, and togither with an hundred
+and fiftie and six persons perished by shipwracke. The other submitting his
+cause to the processe of law, taried at home and sped. Moreouer, the lord Iohn
+de Burgh, sonne and heire to the earle of Vlster, deceased at Galbie on the feast
+<note place="marg">The earle of Vlsters sonne and heire deceaseth.</note>
+
+<note place="marg"><date>1314</date></note>
+daie of saint Marcell &amp; Marcelline. Also the lord Edmund Butler created thirtie
+knights in the castle or Dublin on Michaels daie being sundaie. The knights
+hospitalers or of saint Iohns (as they were called) were inuested in the lands of
+the Templers in Ireland. The same yeare was the lord Theobald Verdon sent lord
+iustice into Ireland.</p>
+<p>In the ninth yeare of king Edwards reigne, Edward Bruse, brother to Robert
+<note place="marg"><date>1315</date></note>
+
+<note place="marg">Edward Bruse inuadeth Ireland.</note>
+Bruse king of Scots, entered the north part of Ireland with six thousand men.
+There were with him diuerse capteins of high renowme among the Scotish nation,
+of whome the chiefe were these: the earles of Murrie and Mentith, the lord Iohn
+<note place="marg">Capteins of name with Bruse.</note>
+Steward, the lord Iohn Campbell, the lord Thomas Randolfe, Fergus de Andressan,
+Iohn Wood, and Iohn Bisset. They landed n&eacute;ere to Cragfergus in Vlster the frue.
+&amp; twentith of Maie, and ioining with the Irish, conquered the earledome of Vlster,
+and gaue the English there diuerse great ouerthrowes, tooke the towne of Dundalke,
+spoiled &amp; burnt it, with a great part of Vrgile: they burnt churches &amp; abbeies,
+<note place="marg">Dundalke taken and burnt.</note>
+with the people whom they found in the same, sparing neither man, woman
+nor child. Then was the lord Edmund Butler chosen lord iustice, who made the
+<note place="marg">Edmund Butler lord iustice.</note>
+earle of Vlster and the Giraldines friends, and reconciled himselfe with sir Iohn
+Mandeuill, thus seeking to preserue the residue of the realme which Edward Bruse
+meant wholie to conquer, hauing caused himselfe to be crowned king of Ireland.
+The lord iustice assembled a great power out of Mounster, and Leinster, and other
+parts therabouts, and the earle of Vlster with another armie came vnto him n&eacute;ere
+vnto Dundalke, where they consulted togither how to deale in defending the countrie
+against the enimies: but hearing the Scots were withdrawne backe, the earle
+of Vlster folowed them, and fighting with them at Coiners, h&eacute;e lost the field.</p>
+<p>There were manie slaine on both parts, and William de Burgh the earls brother,
+sir Iohn Mandeuill, and sir Alane Fitzalane were taken prisoners. Herewith the
+Irish of Connagh and Meth began foorthwith to rebell against the Englishmen, and
+burnt the castell of Athlon and Randon. And the Bruse comming forward burnt
+Kenlis in Meth, and Granard, also Finnagh, and Newcastell, and kept his Christmas
+at Loghsudie. From thense he went through the countrie vnto Rathimegan and
+Kildare, and to the parties about Tristeldermot and Athie, then to Raban, Sketlier,
+&amp; n&eacute;ere to Ardskoll in Leinster: where the lord iustice Butler, the lord Iohn Fitzthomas,
+the lord Arnold Powre, and other the lords and gentlemen of Leinster and
+Mounster came to incounter the Bruse: but through discord that rose among them,
+they left the field vnto the enimies, sir William Pendergast knight, and Heimond
+le Grace a right valiant esquier were slaine there. And on the Scotish side sir
+Fergus Andressan and sir Walter Murrcie, with diuerse other that were buried in
+the church of the friers preachers at Athie.</p>
+<p>After this the Bruse in his returne towards Meth burnt the castell of Leie, and
+so passed foorth till hee came to Kenlis in Meth. In which meane time Roger lord
+Mortimer, trusting to win himselfe fame if he might ouerthrow the enimies, called
+<!--<fw place="bot-right">"forth"</fw>-->
+
+
+<pb n="247"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"247"</fw>-->
+
+
+forth fift&eacute;ene thousand men, and vnderstanding that the Scots were come to Kenlis,
+<note place="marg">The lord Mortimer discomfited by the Scots.</note>
+made thitherwards, and there incountering with them, was put to the woorse, his
+men (as was supposed) wilfullie shrinking from him, as those that bare him
+hollow hearts. With the newes of this ouerthrow, vpstart the Irish of Mounster,
+the Otoolies, Obrens, Omores, and with fire and sword wasted all from Arclow to
+Leix. With them coped the lord iustice, and made of them a great slaughter,
+fourescore of their heads were sent to the castell of Dublin.</p>
+<p>In time of these troubles and warres in Ireland by the inuasion thus of the Scots,
+certeine Irish lords, faithfull men and true subiects to the king of England, did
+not onelie promise to continue in their loiall obeisance towards him, being their
+souereigne prince; but also for more assurance deliuered hostages to be kept within
+the castell of Dublin. The names of which lords that were so contented to assure
+their allegiance were these, Iohn Fitzthomas lord of Offalie, Richard de Clare, Morice
+Fitzthomas, Thomas Fitziohn le Power baron of Donoille, Arnold le Power, Morice
+<note place="marg">Assurance giuen by the lords of Ireland for their loialtie.</note>
+de Rochford, Dauid de la Roch, and Miles de la Roch. These and diuerse other
+resisted with all their might and maine the iniurious attempts of the Scots, although
+the Scots had drawne to their side the most part of the wild Irish, and no small
+number also of the English Irish, as well lords, as others of meaner calling: so that
+the countrie was miserablie afflicted, what by the Scots on the one part, and the Irish
+rebels on the other, which rebels notwithstanding were ouerthrowne in diuerse
+particular conflicts. But yet to the further scattering of the English forces in
+Ireland, there rose foure princes of Connagh, but the Burghes and Birminghams
+discomfited them, and slue eleuen thousand of them beside Athenrie. Amongst
+<note place="marg">A great ouerthrow.</note>
+
+<note place="marg">The king of Connagh slaine.</note>
+other were slaine in this battell Fedelmicus, Oconhur king of Connagh, Okellie,
+and diuerse other great lords and capteins of Connagh and Meth. The lord
+Richard Birmingham had an esquier that belonged to him called Iohn Husseie, who
+by the commandement of his maister went foorth to take view of the dead bodies,
+and to bring him word whether Okellie his mortall fo were slaine among the residue.
+Husseie comming into the field with one man to turne vp and surneie the dead
+carcases, was streight espied by Okellie, that laie lurking in a brake bush thereby,
+who hauing had good proofe of Husseie his valiancie before that time, longed sore
+to traine him from his capteine, and presuming now vpon his good oportunitie,
+discouered himselfe, not doubting, but either to win him with courteous persuasions,
+or by force to worke his will of him, and so comming to him said: "Husseie, thou
+s&eacute;est that I am at all points armed, &amp; haue mine esquire here likewise furnished
+with armour &amp; weapon readie at mine elbow; thou art naked with thy page, a
+yoongling, &amp; not to be accounted of: so that if I loued th&eacute;e not, and meant to
+spare th&eacute;e for thine owne sake, I might now doo with th&eacute;e what I would, and slea
+th&eacute;e for thy maisters sake. But come &amp; serue me vpon this request here made to
+th&eacute;e, and I promise th&eacute;e by saint Patrikes staffe to make th&eacute;e a lord in Connagh,
+of more possessions than thy maister hath in Ireland." When these words might
+nothing weie him, his owne man (a great stout lubber) began to reproue him of
+follie, for not consenting to so large an offer, which was assured with an oth,
+wherevpon he durst gage his soule for performance.</p>
+<p>Now had Husseie thr&eacute;e enimies, and first therefore turning to his knaue, he dispatched
+him. Next he raught vnto Okellies esquier such a knocke vnder the pit of
+the care, that downe he came to the ground and there he laie. Thirdlie, he laid so
+about him, that yer anie helpe could be looked for, he had also siaine Okellie, and
+<note place="marg">Okellie slaine.</note>
+perceuing the esquire to be but astonied he recouered him, and holpe him vp
+againe, and after he was somewhat come to himselfe, he forced him vpon a
+trunchion, to beare his lords head into the high towne before him, who did so;
+<!--<fw place="bot-right">"and"</fw>-->
+
+
+<pb n="248"/>
+
+<!--<fw place="top-left">"248"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+and Husseie presented it to Birmingham, who after the circumstances declared, he
+dubbed Husseie knight, aduancing him to manie preferments. The successors of
+that familie afterwards were barons of Galtrim. Sir Thomas Mandeuill and others
+in this meane while made oftentimes enterprises against the Scots, and slue diuerse of
+them in sundrie conflicts. But howsoeuer it chanced, we find recorded by Henrie
+Marlburrow, that either the said sir Thomas Mandeuill (that thus valiantlie behaued
+<note place="marg">Sir Thomas Mandeuill slaine.</note>
+himselfe against the Scots) or some other bearing the same name, and his brother
+also called Iohn Mandeuill were both slaine shortlie after at Downe, vpon their
+comming foorth of England, by the Scots that were readie there to assaile them.</p>
+<p>Thus may we see, that those lords and knights, which had giuen pledges for their
+loialtie to the king of England, sought by all waies and meanes how to beat backe the
+enimies: which they might haue doone with more ease, if the Irish had not assisted
+the Scots, and presuming of their aid, rebelled in sundrie parts of the countrie;
+who neuerthelesse were oftentimes well chastised for their disloiall dealings, as
+partlie we haue touched; although we omit diuerse small ouerthrowes and other
+particular matters, sith otherwise we should increase this booke further than our
+first purposed intent would permit. Whilest the Scots were thus holden vp in
+<note place="marg"><emph>Campion.</emph></note>
+
+<note place="marg"><date>1316</date></note>
+
+<note place="marg">The king of Scots in Ireland.</note>
+Ireland, that they could not in all things worke their wils, Robert le Bruse king of
+Scots came ouer himselfe, landed at Cragfergus to the aid of his brother, whose
+souldiors most wickedlie entred into churches, spoiling and defacing the same of
+all such toomes, monuments, plate, copes, &amp; other ornaments which they found,
+and might laie hands vpon.</p>
+<p>The castell of Cragfergus, after it had b&eacute;ene strictlie besieged a long time, was
+<note place="marg">Cragfergus deliuered vp to the Scots.</note>
+
+<note place="marg">Men eaten.</note>
+surrendred to the Scots, by them that had kept it, till they for want of other vittels
+were driuen to eate leather, and eight Scots (as some write) which they had taken
+prisoners. The lord Thomas, sonne to the earle of Vlster departed this life. And
+on the sundaie next after the natiuitie of our ladie, the lord Iohn Fitzthomas
+<note place="marg">Iohn Fitzthomas the first earle of Kildare deceasseth.</note>
+deceased at Laragh Brine n&eacute;ere to Mainoth, and was buried at Kildare, in the church
+of the friers preachers. This Iohn Fitzthomas, a little before his death, was created
+earle of Kildare; after whome succ&eacute;eded his sonne Thomas Fitziohn a right wise
+and prudent personage. The fourt&eacute;enth of September, Conhor Mac Kele, &amp; flue
+hundred Irishmen were slaine by the lord William de Burgh, and lord Richard
+Birmingham in Connagh. Also on the mondaie after the feast of All saints, Iohn
+<note place="marg">Scots ouerthrowne.</note>
+Loggan and sir Hugh Bisset slue a great number of Scots, among the which were
+one hundred with double armors, and two hundred with single armors: so that of
+their men of armes there died thr&eacute;e hundred beside footemen.</p>
+<p>The fift&eacute;enth of Nouember chanced a great tempest of wind and raine; which
+<note place="marg">A great tempest.</note>
+threw downe manie houses, with the st&eacute;eple of the Trinitie church in Dublin, and
+did much other burt both by land and water. On the fift of December, sir Alane
+Steward that had b&eacute;ene taken prisoner in Vlster by Iohn Loggan, and sir Iohn
+Sandale, was brought to the castell of Dublin. After Canlemas, the Lacies
+<note place="marg"><date>1317</date></note>
+came to Dublin, &amp; procured an inquest to be impanelled to inquire of their
+demeanor, for that they were accused to haue procured the Scots to come into
+Ireland: but by that inquest they were discharged, and therewith tooke an oth to
+keepe the kings peace, and to destroie the Scots to the vttermost of their power.
+In the beginning of Lent, the Scots came in secret wise vnto Slane, with twentie
+thousand armed men: and with them came the armie of Vlster, destroieng all the
+countrie before them. Moreouer, on mondaie before the feast of S. Matthias the
+apostle, the earle of Vlster lieng in the abbeie of S. Marie n&eacute;ere to Dublin, Robert
+Notingham maior of that citie, with the communaltie of the same went thither,
+<note place="marg">The earle of Vlster apprehended.</note>
+tooke the earle, and put him in prison within the castell of Dublin, slue seuen of
+his men, and spoiled the abbeie.
+<!--<fw place="bot-right">"The"</fw>-->
+
+
+<pb n="249"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"249"</fw>-->
+
+
+The same w&eacute;eke, Edward Bruse marched towards Dublin, but herewith, turning
+to the castell of Knoke, he entred the same, and tooke Hugh Tirrell the lord thereof,
+<note place="marg">Hugh Tirrell taken by the Scots.</note>
+togither with his wife, and ransomed them for a summe of monie. The citizens of
+Dublin burnt all their suburbs for feare of a siege, and made the best purueiance
+they could to defend their citie, if the Bruse had come to haue besieged them: but he
+turning another waie, went vnto the towne of Naas, and was guided thither by the
+Lacies, contrarie to their oth. From thense he passed vnto Tristeldermot, and so
+to Baliganam, and to Callan, at length he came to Limerike, and there remained till
+after Easter. They of Vlster sent to the lord iustice lamentable informations of
+such crueltie as the enimies practised in those parts, bes&eacute;eching him to take some
+order for their reliefe in that their so miserable estate. The lord iustice deliuered
+to them the kings power with his standard, wherewith vnder pretense to expell the
+<note place="marg">The kings standard deliuered to them of Vlster.</note>
+Scots, they got vp in armor, and ranging through the countrie, did more vexe and
+molest the subiects, than did the strangers. The Scots proc&eacute;eded and spoiled
+Cashels, &amp; wheresoeuer they lighted vpon the Butlers lands, they burnt and spoiled
+them vnmercifullie.</p>
+<p>In this meane while had the lord iustice and Thomas Fitziohn earle of Kildare,
+Richard de Clare, and Arnold le Powre baron of Donnoill leuied an armie of thirtie
+thousand men, readie to go against the enimies, and to giue them battell, but no
+good was doone. For about the same time the lord Roger Mortimer was sent into
+<note place="marg">Roger Mortimer iustice of Ireland.</note>
+Ireland as lord iustice, and landing at Yoghall, wrote his letters vnto the lord
+Butler, &amp; to the other capteins, willing them not to fight till he came with such
+power as he had brought ouer with him. Whereof the Bruse being warned, retired
+first towards Kildare. But yet after this he came within foure miles of Trim, where
+he laie in a wood, and lost manie of his men through famine, and so at length
+about the beginning of Maie he returned into Vlster.</p>
+<p>The lord Edmund Butler made great slaughter of the Irish n&eacute;ere to Tristledermot,
+<note place="marg">Slaughter of Irishmen.</note>
+
+<note place="marg"><date>1317</date></note>
+and likewise at Balithan he had a good hand of Omorch, and slue manie
+of his men. The lord Mortimer pacified the displeasure and variance betwixt
+Richard earle of Vlster, and the nobles that had put the said earle vnder safe
+<note place="marg">The earle of Vlster deliuered out of prison.</note>
+
+<note place="marg">Scarsitie of vittels in Vlster.</note>
+k&eacute;eping within the castell of Dublin, accusing him of certeine riots committed to
+the preiudice and losse of the kings subiects, whereby the Scots increased in
+strength and courage, whose spoiling of the countrie caused such horrible scarsitie in
+Vlster, that the soldiors which the yeare before abused the kings authoritie, to
+purueie themselues of ouer fine diet, surfetted with flesh and <emph>Aquavit&oelig;</emph> all the Lent
+long, prolled and pilled insatiablie wheresoeuer they came without need, and without
+regard of the poore people, whose onelie prouision they deuoured. These people
+now liuing in slauerie vnder the Bruse, starued for hunger, hauing first experienced
+manie lamentable shifts, euen to the eating of dead carcasses.</p>
+<p>The earle of Vlster was deliuered by maineprise and vpon his oth, by the which
+<note place="marg">The earle of Vlster deliuered.</note>
+he vndertooke neuer to seeke reuenge of his apprehension otherwise than by order
+of law, and so had daie giuen him vnto the feast of the natiuitie of saint Iohn
+baptist: but he kept not his daie, whether for that he mistrusted to stand in triall
+of his cause, or through some other reasonable let, I cannot tell. A great dearth
+<note place="marg">Great dearth.</note>
+this yeere afflicted the Irish people: for a measure of wheat called a chronecke was
+sold at foure and twentie shillings, &amp; a chronecke of otes at sixteene shillings, and
+all other vittels likewise were sold according to the same rate; for all the whole
+countrie was sore wasted by the Scots and them of Vlster, insomuch that no small
+number of people perished through famine.</p>
+<p>About the feast of Pentecost the lord iustice Mortimer tooke his iornie towards
+Drogheda, and sent to the Lacies, commanding them to come vnto him, but they
+refused so to do. Whervpon he sent sir Hugh Crofts vnto them, to talke with them
+<!--<fw place="bot-left">"VOL. VI."</fw>--><!--<fw place="bot-center">"2 K"</fw>--><!--<fw place="bot-right">"about"</fw>-->
+
+
+
+<pb n="250"/>
+
+<!--<fw place="top-left">"250"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+about some agr&eacute;ement of peace: but they slue the messenger, for whome great
+<note place="marg">Sir Hugh Crofts slaine.</note>
+lamentation was made, for that he was reputed &amp; knowne to be a right woorthie
+knight. The lord iustiee sore offended herewith, gathereth an armie, &amp; goeth
+against the Lacies, whome he chased out of Connagh, so that Hugh Lacie withdrew
+to Vlster, &amp; there ioined himselfe with Edward Bruse. Wherevpon, on the thursdaie
+next before the feast of saint Margaret, the said Hugh Lacie and also Walter
+<note place="marg">The Lacies reuolt to the Scots.</note>
+Lacie were proclamed traitors. This yeare passed verie troublesome vnto the whole
+realme of Ireland, as well through slaughter betwixt the parties enimies one to
+another, as by dearth and other misfortunes. Hugh Canon the kings iustice of his
+bench was slaine by Andrew Birmingham betwixt the towne of Naas and castell
+<note place="marg"><date>1318</date></note>
+Marten. Also in the feast of the purification, the popes bulles were published,
+whereby Alexander Bignor was consecrated archbishop of Dublin. About the
+same time was great slaughter made of Irishmen, through a quarrell betwixt two
+<note place="marg">Bignor consecrated archbishop of Dublin.</note>
+great lords in Connagh: so that there died in fight to the number of foure thousand
+men on both parties.</p>
+<p>After Easter Walter Islep treasuror of Ireland was sent ouer into that realme,
+<note place="marg">Walter Islep treasuror of Ireland.</note>
+who brought letters to the lord Mortimer, commanding him to returne into
+England vnto the king: which he did, and departing foorth of Ireland, remained
+indebted to the citizens of Dublin for his prouision of vittels in the summe of a
+thousand pounds, wherof he paid not one farthing, so that manie a bitter cursse
+he carried with him to the sea, leauing William archbishop of Cashell lord
+chancellor gouernor of the land in his place: and so by this meane was the said
+archbishop both chancellor and iustice, and so continued till the feast of saint
+Michaell. At what time Alexander Bignor archbishop of Dublin arriued at Yoghall,
+being constituted lord iustice, and came to Dublin on saint Denise daie, being the
+seauenth of October. But here is to be remembred, that a little before the departure
+of the lord Mortimer foorth of Ireland, to wit, the fift of Maie, the lord
+<note place="marg">The lord Richard de Clare slaine.</note>
+Richard de Clare with foure knights, sir Henrie Capell, sir Thomas de Naas, sir
+Iames Caunton, and sir Iohn Caunton; also Adam Apilgard and others (to the
+number of foure score persons) were slaine by Obren and Mac Arthie. It was said
+that the enimies in despite caused the lord Richards bodie to be cut in p&eacute;eces, so to
+satisfie their malicious stomachs; but the same p&eacute;eces were yet afterwards buried in
+the church of the friers minors at Limerike. Also before the lord Mortimers
+returne into England, Iohn Lacie was had foorth of the castell of Dublin, and
+carried to Trim, where he was arreigned and adiudged to be pressed to death, and
+so he died in prison.</p>
+<p>But now to returne vnto the dooings in time of Bignors gouernment. Immediatlie
+<note place="marg">The lord Birmingham and other capteins against the Scots.</note>
+vpon his arriuall, the lord Iohn Birmingham being generall of the field, and
+hauing with him diuerse capteins of worthie fame, namelie sir Richard Tute, sir
+Miles Verdon, sir Hugh Trippetton, sir Herbert Sutton, sir Iohn Cusacke, sir
+Edmund Birmingham, sir William Birmingham, Walter Birmingham the primat of
+Armagh, sir Walter de la Pulle, and Iohn Maupas led forth the kings power, to
+the number of one thousand thr&eacute;e hundred foure and twentie able men against
+Edward Bruse, who being accompanied with the lord Philip Mowbraie, the lord
+Walter de Soules, the lord Alaine Steward, with his thr&eacute;e brethren, sir Walter, and
+sir Hugh, sir Robert, and sir Aimerie Lacies, and others, was incamped not past
+two miles from Dundalke with three thousand men, there abiding the Englishmen,
+to fight with them if they came forward: which they did with all conuenient sp&eacute;ed,
+being as desirous to giue battell as the Scots were to receiue it.</p>
+<p>The primat of Armagh personallie accompanieng the English power, &amp; blessing
+<note place="marg">The primat of Armagh.</note>
+their enterprise, gaue them such comfortable exhortation, as he thought serued the
+time yer they began to incounter. And herewith buckling togither, at length the
+
+<!--<fw place="bot-right">"Scots"</fw>-->
+
+
+<pb n="251"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"251"</fw>-->
+
+
+Scots fullie and wholie were vanquished, and two thousand of them slaine, togither
+<note place="marg">The battell of Armagh.</note>
+
+<note place="marg">The Scots vanquished.</note>
+
+<note place="marg">Edward Bruse slaine.</note>
+with their capteine Edward Bruse. Maupas that pressed into the throng to
+incounter with Bruse hand to hand, was found in the search dead aloft vpon the
+slaine bodie of Bruse. The victorie thus obteined vpon saint Calixtus daie, made
+an end of the Scotish kingdome in Ireland, &amp; lord Birmingham sending the head of
+Bruse into England, or as Marlburrow hath, being the messenger himselfe, presented
+it to king Edward, who in recompense gaue to him and his heires males the earledome
+of Louth, and the baronie of Ardich and Athenrie to him and his heirs
+<note place="marg">Birmingham made earle of Louth.</note>
+
+<note place="marg">Sir Richard de Clare slaine.</note>
+
+<note place="marg"><date>1319</date></note>
+generall for euer. Shortlie after sir Richard de Clare with foure other knights of
+name, and manie other men of warre were slaine in Thomond. The lord Roger
+Mortimer came againe into Ireland to gouerne as lord iustice there now the second
+time, and the townes of Athessell and Plebs were burned by the lord Fitzthomas
+brother to the lord Maurice Fitzthomas. And about this season the bridge
+of Kilcolin was builded by Maurice Iakis.</p>
+<p>In the yeare following, to wit, one thousand thr&eacute;e hundred and twentie, which
+<note place="marg"><date>1320</date></note>
+
+<note place="marg">The earle of Kildare lord iustice.</note>
+
+<note place="marg">An vniuersitie erected at Dublin.</note>
+was the fouret&eacute;enth yeare of king Edwards reigne, Thomas Fitziohn earle of Kildare
+was made lord iustice of Ireland. Here is to be remembred, that about this time
+also Alexander Bignor archbishop of Dublin sent to pope Iohn the two and twentith,
+for a priuilege to institute an vniuersitie within the citie of Dublin, and his sute tooke
+effect: and the first thr&eacute;e doctors of diuinitie did the said archbishop himselfe creat,
+William Harditie a frier preacher, Henrie Cogie a frier minor, and frier Edmund
+Bernerden: and beside these one doctor of canon law, to wit, Richard archdeacon
+of saint Patrikes that was chancellor of the same vniuersitie, who kept their terms
+and commensements solemnlie: neither was this vniuersitie at anie time since disfranchised,
+but onlie through change of times discontinued, and now since the
+dissoluing of monasteries vtterlie decaied.</p>
+<p>A motion was made (as Campion hath noted) in a parlement holden there, whilest
+sir Henrie Sidneie was the qu&eacute;enes lieutenant, to haue it againe erected, by waie of
+contributions to be laid togither: the said sir Henrie offering twentie pounds lands,
+and an hundred pounds in monie. Other there were also, that according to their
+abilities and deuotions followed with their offers. The name was deuised; A
+worthie plantation of Plantagenet &amp; Bullogne. But while they disputed of a conuenient
+place for it, and of other circumstances, they let fall the principall.</p>
+<p>In the yeare one thousand three hundred twentie and one, there was a great
+slaughter made of the Oconhurs at Balibagan, by the English of Leinster and Meth.
+<note place="marg"><date>1321</date></note>
+And Iohn Birmingham earle of Louth was lord iustice of Ireland. Vnto this man,
+whilest he was lord iustice, the king wrote, commanding him to be with him at
+<note place="marg"><emph>Rec. Turris.</emph></note>
+Carleill in the octaues of the Trinitie, in the fift&eacute;enth yeare of his reigne, with thr&eacute;e
+hundred men of armes, one thousand hobellars, and six thousand footmen, ech of
+them armed with an aketon, a sallet, and gloues of maill, which number was to be
+leuied in that land: besides thr&eacute;e hundred men of armes which the earle of Vlster
+was appointed to serue within that iournie, which the king at that time intended to
+make against the Scots. The date of the letter was the third of Aprill. In the
+yeare one thousand thr&eacute;e hundred twentie and two, diuerse nobles in Ireland
+<note place="marg"><date>1322</date></note>
+departed this life, as the lord Richard Birmingham, the lord Edmund Butler, and
+the lord Thomas Persiuall. Moreouer, the lord Andrew Birmingham, and sir
+<note place="marg"><date>1323</date></note>
+
+<note place="marg">Iohn Darcie lord iustice.</note>
+Richard de la Lond were slaine by Onolan. In the eighteenth y&eacute;ere of king
+Edward the second his reigne, the lord Iohn Darcie came into Ireland to be lord
+iustice, and the kings lieutenant there. In these daies liued in the diocesse of
+<note place="marg">The ladie Alice Kettle accused of sorcerie.</note>
+Ossorie the ladie Alice Kettle, whome the bishop ascited to purge hir selfe of the
+fame of inchantment and witchcraft imposed vnto hir, and to one Petronill and
+Basill hir complices. She was charged to haue nightlie conference with a spirit
+
+<!--<fw place="bot-center">"2 K 2"</fw>--><!--<fw place="bot-right">"called"</fw>-->
+
+
+<pb n="252"/>
+
+<!--<fw place="top-left">"252"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+called Robin Artisson, to whome she sacrificed in the high waie nine red cocks, and
+nine peacocks eies. Also that she swept the streets of Kilkennie betw&eacute;ene compleine
+and twilight, raking all the filth towards the doores of hir sonne William
+Outlaw, murmuring &amp; muttering secretlie with hir selfe these words:
+
+<quote rend="block"><lg>
+<l>To the house of William my sonne,</l>
+<l>Hie all the wealth of Kilkennie towne.</l>
+</lg></quote></p>
+
+<p>At the first conuiction they abiured &amp; did penance, but shortlie after they were
+found in relapse, &amp; then was Pentronill burnt at Kilkennie, the other twaine might
+not be heard of. She at the houre of hir death accused the said William as priuie to
+their sorceries, whome the bishop held in durance nine w&eacute;eks, forbidding his keepers
+to eat or to drinke with him, or to speake to him more than once in the daie.
+But at length, thorough the sute and instance of Arnold le Powre then seneschall of
+Kilkennie, he was deliuered, and after corrupted with bribes the seneschall to persecute
+the bishop; so that he thrust him into prison for thr&eacute;e moneths. In rifling
+the closet of the ladie, they found a water of sacramentall bread, hauing the diuels
+name stamped thereon in st&eacute;ed of Iesus Christ, and a pipe of ointment, wherewith she
+greased a staffe, vpon the which she ambled and gallopped thorough thicke and thin,
+when and in what maner she listed. This businesse about these witches troubled all
+the state of Ireland, the more; for that the ladie was supported by certeine of the
+nobilitie, and lastlie conueied ouer into England, since which time it could neuer
+be vnderstood what became of hir. In the yeare one thousand three hundred
+twentie and six, &amp; last of king Edwards the seconds reigne, Richard Burgh earle of
+Vlster departed this life.</p>
+</div>
+
+<div n="Edward3" type="chronicle">
+<head>Edward the third.</head>
+<p>VNNETH was the businesse about the witches at an end, when it was signified,
+<note place="marg"><date>1326</date></note>
+that a gentleman of the familie of the Otoolies in Leinster, named Adam Duffe,
+<note place="marg"><date>1327</date></note>
+possessed by some wicked spirit of error, denied obstinatelie the incarnation of our
+sauior, the trinitie of persons in the vnitie of the Godhead, &amp; the resurrection of the
+<note place="marg">Adam Duffe an heretike.</note>
+flesh; as for the holie scripture, he said it was but a fable: the virgin Marie he
+affirmed to be a woman of dissolute life, and the apostolike s&eacute;e erronious. For such
+assertions he was burnt in Hogging greene beside Dublin. About the same time,
+Fitzarke Macmorch, and sir Henrie Traherne were taken prisoners. In the yeare
+following, the lord Thomas Fitziohn erle of Kildare, and the lord Arnold Powre &amp;
+William earle of Vlster were sent ouer into Ireland, &amp; Roger Outlaw prior of saint
+<note place="marg">The prior of Kilmainan lord iustice.</note>
+Iohns of Ierusalem in Ireland, commonlie called the prior of Kilmainan, was
+made lord iustice. This man by reason of variance that chanced to rise betwixt
+the Giraldins, the Butlers, and Birminghams, on the one side; and the Powres &amp;
+Burghs on the other, for terming the earle of Kildare a rimer, to pacifie the parties
+called a parlement, wherein he himselfe was faine to make his purgation of a slander
+imposed to him, as suspected of heresie.</p>
+<p>The bishop of Ossorie had giuen an information against Arnold le Powre, conuented
+<note place="marg">Arnold Powre accused of heresie.</note>
+&amp; conuicted in his consistorie of certeine hereticall opinions, but bicause the
+beginning of Powrs accusation concerned the iustices kinsman, and the bishop was
+mistrusted to prosecute his owne wrong, and the person of the man rather than the
+fault: a daie was limited for the iustifieng of the bill, the partie being apprehended
+and respited therevnto. This dealing the bishop (who durst not stirre out of
+
+<!--<fw place="bot-right">"Kilkennie"</fw>-->
+
+
+<pb n="253"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"253"</fw>-->
+
+
+Kilkennie to prosecute his accusation) was reputed parciall: and when by meanes
+hereof the matter hanged in suspense, he infamed the said prior as an abbettor and
+fauourer of Arnolds heresie. The prior submitted himselfe to the triall, and therevpon
+were seuerall proclamations made in court, that it should be lawfull to anie man
+to come into the court, and to inferre, accuse, and declare what euidence he could,
+against the lord iustice: but none came. Then passed a decr&eacute;e by the councell,
+commanding all bishops, abbats, priors, and the maiors of Dublin, Corke, Limerike,
+Waterford, and Droghedagh, the shirifs, knights, &amp; seneschals of euerie shire, to
+appeare at Dublin. From amongst all these, they appointed six inquisitors, which
+examining the bishops and other persons aforesaid singularlie one by one, found
+that with an vniuersall consent they deposed for the prior, affirming that (to their
+iudgements) he was a zelous and a faithfull child of the catholike church. In the
+meane time, Arnold le Powre the prisoner deceased in the castell, &amp; bicause he
+stood vnpurged, long he laie vnburied.</p>
+<p>In the yeare one thousand thr&eacute;e hundred twentie and nine, Iohn de Birmingham
+<note place="marg"><date>1329</date></note>
+
+<note place="marg">The earle of Louth slaine.</note>
+earle of Louth, and his brother Peter, with many other of that surname, and
+Richard Talbot of Malahide were slaine on Whitsun euen at Balibragan by men of
+the countrie. Also the lord Thomas Butler, and diuerse other noblemen were
+<note place="marg">The lord Butler slaine.</note>
+slaine by Mac Gogoghdan &amp; other Irishmen n&eacute;ere to Molinger. For the Irish as
+well in Leinster as in Meth made insurrections in that season, and so likewise did
+they in Mounster vnder the leading of Obren, whom William earle of Vlster and
+Iames earle of Ormond vanquished. So outragious were the Leinster Irish, that in
+one church they burnt foure score innocent soules, asking no more but the life of
+their priest then at masse, whome they notwithstanding sticked with their iauelins,
+spurned the host, and wasted all with fire: neither forced they of the popes interdiction,
+nor anie ecclesiasticall censures denounced against them (matters of no small
+consideration among them namelie in those daies) but maliciouslie perseuered in the
+course of their furious rage, till the citizens of Wexford somewhat tamed them,
+and slue foure hundred of them in one skirmish, the rest flieng were all drenched in
+the water of Slane. In the yeare one thousand thr&eacute;e hundred and thirtie, the earle
+<note place="marg"><date>1330</date></note>
+
+<note place="marg">The prior of Kilmainan lord iustice.</note>
+of Vlster with a great armie made a iournie against Obren, and the prior of Kilmainan
+lord iustice put Maurice Fitzthomas earle of Desmond in prison in the
+marshalseie, out of the which he fr&eacute;elie escaped, and the lord Hugh Lacie returned
+into Ireland, and obteined the kings peace and fauour.</p>
+<p>In the yeare one thousand thr&eacute;e hundred thirtie and one, the earle of Vlster
+<note place="marg"><date>1331</date></note>
+passed ouer into England, and great slaughter was made vpon the Irish in Okenslie.
+Also the castell of Arclo was taken by the Irishmen, and great slaughter made of
+the English in the Cowlagh by Otothell and others. Also the lord Anthonie Lucie
+<note place="marg">Anthonie Lucie lord iustice.</note>
+was sent ouer lord iustice into Ireland, and great slaughter was made of the Irish at
+Thurlis by the knights of the countrie, &amp; at Finnath in Meth, there were manie of
+them slaine by the English; but yet was the castell of Fernis taken and burnt by
+the Irish. On the feast daie of the assumption of our ladie, which falleth on the
+fift&eacute;enth of August, Maurice Fitzthomas earle of Desmond was apprehended at
+<note place="marg">The earle of Desmond apprehended,</note>
+Limerike by the lord iustice, and sent vnto the castell of Dublin. Moreouer, the
+lord iustice tooke sir William Birmingham at Clomell by a wile, whilest he was sicke
+in his bed, &amp; sent him (togither with his sonne Walter Birmingham) vnto the castell
+<note place="marg"><date>1332</date></note>
+
+<note place="marg">William Birmingham executed.</note>
+of Dublin, the thirtith of Aprill. In the yeare one thousand three hundred thirtie
+and two the said sir William was hanged at Dublin, but Walter was deliuered by
+reason he was within orders.</p>
+<p>Campion following such notes as he hath s&eacute;ene, writeth that the death of this
+<note place="marg"><emph>Campion.</emph></note>
+William Birmingham chanced in time of the gouernement of William Outlaw prior
+
+<!--<fw place="bot-right">"of"</fw>-->
+
+
+<pb n="254"/>
+
+<!--<fw place="top-left">"254"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+of Kilmainan, being lieutenant vnto Iohn lord Darcie, that was made lord iustice
+(as the said Campion hath noted in the yeare one thousand thr&eacute;e hundred twentie
+and nine. Although Marlburrow affirmeth that he came thither to beare that office,
+in the yeare one thousand thr&eacute;e hundred thirtie and two, after the lord Lucie was
+discharged, as hereafter shall be recited. But whensoeuer, or vnder whome soeuer
+Birmingham was executed, he was accounted an od knight, and such a one as for
+his valiancie, his match was not lightlie to be anie where found. The castell of
+Clonmore was taken the same yeare by the Englishmen, and the castell of Bonrath
+was destroid by the Irish of Thomond. Also Henrie de Mandeuill was taken and
+sent prisoner to be safelie kept in Dublin. Likewise Walter Burgh with two of his
+bretheren were taken in Connagh by the earle of Vlster, and sent to the castell of
+Norburgh.</p>
+<p>This yeare the lord Antonie Lucie was discharged of his roome by the king, and
+so returned with his wife &amp; children into England, and the lord Iohn Darcie was
+<note place="marg">The lord Darcie iustice.</note>
+sent ouer lord iustice in Lucies place, and great slaughter was made vpon Bren Obren,
+and Mac Arthie in Mounster, by the English of that countrie. This Iohn Darcie
+(as should appeare by gifts bestowed vpon him by the king) was in singular fauour
+with him. Amongst other things which he had of the kings gift, we find that he had
+the manors of Louth, and Baliogarie, and other lands in Ireland which belonged to
+the earle of Ew. And for that the said earle was a Frenchman, and tooke part with
+<note place="marg">The earle of Ew.</note>
+Philip de Valois the kings enimie, they were seized into the kings hand. The earle
+of Desmond vpon suerties was set at libertie, and by the parlement holden at Dublin
+in this yeare 1333, was sent ouer into England vnto the king; and William erle of
+<note place="marg"><date>1333</date></note>
+
+<note place="marg">A parlement.</note>
+Vlster a yoong gentleman of twentie yeares of age, in going towards Knockfergus
+the seauenth of Iune, was slaine neere to the foords in Vlster, by his owne people,
+but his wife and daughter escaped into England: and the daughter was after maried
+vnto the lord Lionell the kings sonne. She deceased afterwards at Dublin, and left
+a daughter behind hir that was his heire, maried to Roger Mortimer earle of March,
+and lord of Trim.</p>
+<p>This murther was procured by Robert Fitzmartine Mandeuill, who was the first
+that presumed to giue to the earle anie wound. To reuenge the death of this earle of
+<note place="marg">The earle of Vlster slaine.</note>
+Vlster (slaine as yee haue heard beside Knockfergus) the lord iustice Darcie with a
+great power went into Vlster, to pursue those that through Mandeuils seditious
+tumults had so traitorouslie murthered their lord. At his setting forward, the said
+iustice Darcie appointed sir Thomas Burgh treasuror, to gouerne as lieutenant to him
+<note place="marg">Sir Thomas Burgh.</note>
+in his absence. When the lord iustice had punished the traitors in Vlster, he passed
+ouer into Scotland, there to make warre against the Scots that were enimies
+<note place="marg">The lord iustice inuadeth Scotland.</note>
+at that present to the king of England, and on the feast daie of saint Margaret,
+great slaughter was made of the Scots by the Irishmen: and so what by the king in
+one part, and the lord iustice of Ireland in another, Scotland was in maner wholie
+conquered, and Edward Balioll was established king of Scotland. The lord iustice
+might haue possessed the Iles if they had b&eacute;ene worth the k&eacute;eping: into the which
+Iles, except the said Darcie and the earle of Sussex late lieutenant of Ireland, no
+gouernor at anie time yet aduentured. At Darcies comming backe into Ireland,
+and exercising the office of lord iustice, he deliuered Walter Birmingham out of the
+castell of Dublin.</p>
+<p>In the yeare 1336, and tenth of Edward the thirds reigne, on S. Laurence daie,
+<note place="marg"><date>1336</date></note>
+the Irish of Connagh were discomfited and put to flight by the Englishmen of the
+countrie there, with the losse of one Englishman, and ten thousand of the enimies.
+<note place="marg"><date>1337</date></note>
+The lord Iohn Charleton baron came into Ireland to be lord iustice, and with him
+his brother Thomas bishop of Hereford lord chancellor, and John Rice lord treasuror,
+<note place="marg">Sir Iohn Charleson iustice.</note>
+
+<!--<fw place="bot-right">"and"</fw>-->
+
+
+<pb n="255"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"255"</fw>-->
+
+
+and two hundred Welshmen souldiors. The bishop was ordeined afterward lord
+<note place="marg"><date>1338</date></note>
+
+<note place="marg">The bishop of Hereford lord iustice.</note>
+
+<note place="marg"><date>1340</date></note>
+
+<note place="marg">Iohn Darcie lord iustice during life.</note>
+
+<note place="marg">Calling in of liberties.</note>
+iustice, in whose time all the Irish of Ireland were at defiance with the English, and
+shortlie brought againe into quiet by the earles of Kildare and Desmond. The lord
+Iohn Darcie by the kings letters patents was (during life) ordeined lord iustice of
+Ireland, in the fourt&eacute;enth yeare of king Edward the thirds reigne, which king abused
+by evill counsell and sinister informers, called in vnder his signet roiall, the franchises,
+liberties and grants, whatsoeuer had b&eacute;ene deuised, made and ratified to the
+realme of Ireland, and to euerie each person thereof. This reuoking of liberties was
+displeasantlie taken. The English of birth and the English of blood falling at words,
+were divided into factions about it, for which contention the Irish still waited, so as
+the realme was euen vpon the point to giue ouer all, and to rebell. For redresse
+whereof, the lord iustice called a parlement at Dublin, to the which the nobles
+refused to come, and in quiet wise assembled themselues togither at Kilkennie,
+where they with the commons agreed vpon certeine questions to be demanded of the
+king by waie of supplication, signifieng in the same partlie their gr&eacute;efes. Which
+questions were in effect as followeth.</p>
+<p>1 How a realme of warre might be gouerned by one both vnskilfull and vnable
+<note place="marg">Articles or questions.</note>
+in all warlike seruice?</p>
+<p>2 How an officer vnder the king, that entered verie poore, might in one yeare
+grow to more excessiue wealth, than men of great patrimonie and liuelihood in
+manie yeares?</p>
+<p>3 How it chanced, that sith they were all called lords of their owne, that the
+souereigne lord of them all was not a pennie the richer for them?</p>
+<p>The cheefe of them that thus seemed to repine with the present gouernment, was
+Thomas Fitzmaurice earle of Desmond, through whose maintenance and bearing
+out of the matter, the countrie was in great trouble; so as it had not lightlie be&eacute;ne
+s&eacute;ene, that such contrarietie in minds and disliking had appeared amongst those of
+the English race, in that realme at anie time before. H&eacute;erewith Rafe Vffort was sent
+<note place="marg"><date>1343</date></note>
+
+<note place="marg">Rafe Vffort lord iustice.</note>
+ouer lord iustice, who bringing his wife with him, the countesse of Vlster arriued
+about the thirt&eacute;enth of Julie. This man was verie rigorous, and through persuasion
+(as was said) of his wife, he was more extreame and couetous than otherwise he
+<note place="marg">The countesse of Vlster.</note>
+would haue b&eacute;ene, a matter not to be forgotten. For if this ladie had b&eacute;ene as
+readie to mooue hir husband to haue shewed himselfe gentle and mild in his
+gouernement, as she was bent to pricke him forward vnto sharpe dealings and rigorous
+proc&eacute;edings, she had beene now aswell reported of, as she is infamed by their
+pens that haue registred the dooings of those times. But to the purpose. This
+Vffort lord iustice, in paine of forfeiture of all his lands, commanded the earle of
+<note place="marg">The earle of Desmond.</note>
+Desmond to make his personall appearance at a parlement, which he called to
+be holden at Dublin, there to begin the seuenth of Iune. And bicause the earle
+refused to come acording to the summons, he raised the kings standard, and with
+an armie marched into Mounster, and there seized the earles possessions into
+the kings hands, letting them foorth to farme for an annuall rent vnto other
+persons.</p>
+<p>And whilest he yet remained in Mounster, he deuised waies how to haue the earle
+of Desmond apprehended: which being brought to passe, he afterward deliuered
+him vpon mainprise of these suerties whose names insue. William de Burgh earle of
+<note place="marg">Suerties for the earle of Desmond.</note>
+Vlster, Iames Butler earle of Ormond, Richard Tute, Nicholas Verdon, Morice
+Rochford, Eustace le Powre, Gerald de Rochford, Iohn Fitzrobert Powre, Robert
+Barrie, Maurice Fitzgirald, Iohn Wellesleie, Walter le Fant, Richard Rokelleie,
+Henrie Traherne, Roger Powre, Iohn Lenfant, Roger Powre, Matthew Fitzhenrie,
+Richard Walleis, Edmund Burgh sonne to the earle of Vlster, knights: Dauid Barrie
+
+<!--<fw place="bot-right">"William,"</fw>-->
+
+
+<pb n="256"/>
+
+<!--<fw place="top-left">"256"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+William Fitzgirald, Foulke de Fraxinus, Robert Fitzmaurice, Henrie Fitzberkleie,
+Iohn Fitzgeorge de Roch, Thomas de Lees de Burgh. These (as y&eacute;e haue
+heard) were bound for the earle. And bicause he made default, the lord iustice
+verelie tooke the aduantage of the bond against the mainpernours, foure of them
+onelie excepted, the two earles and two knights.</p>
+<p>The lord iustice is charged with strict dealing by writers in this behalfe, for that
+<note place="marg">Vffort euill spoken of.</note>
+the same persons had assisted him in his warres against Desmond. But trulie if we
+shall consider the matter with indifferencie, he did no more than law and reason required.
+For if euerie suertie vpon forfeiture of his bond should be forborne, that
+otherwise dooth his duetie, what care would men haue either to procure suerties or to
+become suerties themselues? But such is the affection of writers, speciallie when
+they haue conceiued anie misliking towards those of whome they take occasion
+to speake, so as manie a worthie man hath b&eacute;ene defamed, and with slander greatlie
+defaced in things wherein he rather hath deserued singular commendation. But
+howsoeuer this matter was handled touching the earle of Desmond, vpon the death
+<note place="marg">Ioie conceiued for the death of the lord iustice Vffort.</note>
+of the lord iustice, which insued the next yeare, bonfiers were made, and great ioy
+shewed through all the relme of Ireland. His ladie verelie (as should appeare) was
+but a miserable woman, procuring him to extortion and briberie. Much he abridged
+the prerogatiues of the church, and was so hated, that euen in the sight of the countrie
+he was robbed without rescue by Mac Cartie, notwithstanding he gathered
+power, and dispersed those rebels of Vlster. Robert Darcie was ordeined iustice by
+<note place="marg"><date>1346</date></note>
+
+<note place="marg">Robert Darcie lord iustice.</note>
+the councell till the kings letters came to sir Iohn Fitzmaurice, who released Fitzthomas
+earle of Kildare left in durance by Vffort at his death. Fitzmaurice continued
+not long, but was discharged, and the lord Walter Birmingham elected to succeed in
+<note place="marg">Iohn Fitzmorice iustice.</note>
+
+<note place="marg">L. Birmingham iustice.</note>
+that roome, who procured a safe conduct for Desmond to plead his cause before the
+king, by whom he was liberallie intreated, and allowed towards his expenses there
+twentie shillings a day at the princes charge. In consideration of which courtesie
+shewed to his kinsman, the earle of Kildare, accompanied with diuerse lords, knights,
+and chosen horssemen, serued the king at Calis, a towne thought impregnable, &amp;
+returned after the winning thereof in great pompe and iollitie.</p>
+<p>We find that Thomas Berkeleie, and Reinold lord Cobham, and sir Morice Berkleie
+<note place="marg"><date>1347</date></note>
+
+<note place="marg"><emph>Record. Tur.</emph></note>
+became mainpernours for the said earle of Desmond, that he should come into
+England, and abide such triall as the law would award. Iohn Archer prior of Kilmainan
+<note place="marg"><date>1348</date></note>
+
+<note place="marg">The prior of Kilmainan.</note>
+
+<note place="marg">Baron Carew iustice.</note>
+
+<note place="marg">Sir Thomas Rokesbie iustice.</note>
+
+<note place="marg"><emph>Record. Tur.</emph></note>
+was substituted lieutenant to the lord iustice. To whom succ&eacute;eded Baron
+Carew, and after Carew followed sir Thomas Rokesbie knight, vnto whom was
+assigned aboue his ordinarie retinue of twentie men of armes, a supplie of ten men
+of armes, and twentie archers on horssebacke, so long as it should be thought n&eacute;edfull.
+Great mortalitie chanced this yeare, as in other parts of the world, so especiallie
+in places about the seacoasts of England and Ireland. In the yeare following
+<note place="marg"><date>1349</date></note>
+departed this life Alexander Bignor archbishop of Dublin. And the same yeare was
+Iohn de saint Paule consecrated archbishop of that see. This yeare deceased Kemwrike
+<note place="marg">Iohn de S. Paule archbishop of Dublin.</note>
+
+<note place="marg"><date>1350</date></note>
+
+<note place="marg">Kemwrike Shereman.</note>
+Shereman sometime maior of Dublin, a great benefactor to euerie church
+and religions house within twentie miles round about the citie. His legacies to the
+poore and others, beside his liberalitie shewed in his life time, amounted to thr&eacute;e
+thousand marks.</p>
+<p>In this season dwelled in Vlster a welthie knight one sir Robert Sauage, who the
+<note place="marg">Sir Robert Sauage.</note>
+rather to preserue his owne, began to wall and fortifie his manor houses with castels
+and piles against the Irish enemie, exhorting his heire Henrie Sauage to applie that
+worke so beneficiall for himselfe &amp; his posteritie. "Father (quoth yoong Sauage) I
+remember the prouerbe 'Better a castell of bones than of stones.' Where strength &amp;
+courage of valiant men are prest to helpe vs, neuer will I (by the grace of God)
+
+<!--<fw place="bot-right">"cumber"</fw>-->
+
+
+<pb n="257"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"257"</fw>-->
+
+
+cumber my selfe with dead walles. My fort shall be where soeuer yoong blouds be
+stirring, &amp; where I find roome to fight." The father in a fume let lie the building,
+and forsware to go anie further forward in it. But yet the want therof and such like
+hath beene the decaie as well of the Sauages, as of all the English gentlemen in Vlster:
+as the lacke also of walled townes is one of the principall occasions of the rude
+wildnesse in other parts of Ireland.</p>
+<p>This Sauage, having prepared an armie against the Irish, allowed to euerie
+souldier before they should buckle with the enimie, a mightie draught of <emph>Aqua vit&oelig;,</emph>
+wine, or old ale, and killed in prouision for their returne, b&eacute;efe, venison, and fowle,
+great plentie: which dooings diuerse of his capteins misliked, bicause they considered
+the successe of warre to be vncerteine, and therefore est&eacute;emed it better
+policie to poison the cates, or to doo them awaie, than to k&eacute;epe the same; and happilie
+to f&eacute;ed a sort of roges with such princelie food, if ought should happen to
+themselues in this aduenture of so few against so manie. Herat smiled the gentleman
+and said, "Tush ye are too full of enuie: this world is but an in, to the which
+ye haue no speciall interest, but are onelie tenants at will of the Lord. If it please
+him to command vs from it as it were from our lodging, and to set other good
+fellowes in our roomes, what hurt shall it be for vs to leaue them some meat for their
+suppers? Let them hardlie win it &amp; weare it. If they enter our dwellings, good
+maner would no lesse but to welcome them with such fare as the countrie br&eacute;edeth,
+and with all my heart much good may it doo them. Notwithstanding I presume so
+far vpon your noble courages, that verelie my mind giueth me we shall returne at
+night, &amp; banket our selues with our owne store. And so did, hauing slain 3000
+Irishmen.</p>
+<p>In the yeare 1355 deceased Maurice Fitzthomas earle of Desmond lord iustice of
+<note place="marg"><date>1355</date></note>
+
+<note place="marg">The earle of Desmond lord iustice deceased.</note>
+
+<note place="marg">Thomas Rokesbie lord iustice his saieng.</note>
+Ireland, who had that office of the kings grant for terme of life. After him succ&eacute;eded
+in that roome Thomas de Rokesbie, a knight, sincere and vpright of conscience,
+who being controlled for suffering himselfe to be serued in tr&eacute;ene cups, answered:
+"Those homelie cups &amp; dishes paie trulie for that they conteine: I had rather
+drinke out of tr&eacute;ene cups &amp; paie gold and siluer, than drinke out of gold &amp;
+make woodden paiment. This yeare began great variance betwixt Richard Rafe primat
+<note place="marg"><date>1357</date></note>
+
+<note place="marg">Dissention betwixt the primat of Armagh, &amp; the foure orders of friers.</note>
+
+<note place="marg">Thr&eacute;e lord iustices.</note>
+
+<note place="marg"><emph>Record. Tur.</emph></note>
+of Armagh, &amp; foure orders of begging friers, which ended at length by the
+deaths of the said Richard Rafe, and Richard Kilminton, in the yeare 1360: Rafe
+deceasing in the popes court, and Kilminton in England. Almerike de S. Amand,
+Iohn or (as other haue) Iames Butler earle of Ormond, and Maurice Fitzthomas
+earle of Kildare, were appointed lord iustices of Ireland by turnes. In Ormonds
+time, and in the thr&eacute;e and twentith yeare of king Edward the thirds reigne, order
+was taken that the Irish lords should remaine and dwell in their houses on the
+marches, to defend the subiects from inuasions of enimies. And further, proclamation
+went foorth, that no m&eacute;ere Irish borne should be made maior, bailiffe, porter,
+officer, or minister in anie towne or place within the English dominions: nor that
+anie archbishop, abbat, prior, or anie other being of the kings allegiance, vpon forfeiture
+of all that he might forfeit, should aduance anie that was m&eacute;ere Irish borne to
+the roome of a canon, or to haue anie other ecclesiasticall benefice that laie among
+the English subiects.</p>
+<p>To Maurice Thomas earle of Kildare, when he was ordeined lord iustice, the
+<note place="marg">The earle of Kildare lord iustice.</note>
+kings letters assigned in yearelie fee for his office 500 pounds, with condition, that
+the said gouernour should find twentie great horsses to serue in the field, he himselfe
+to be the twentith man in going against the enimie: which allowance and conditions
+in those daies (so farre as I can gesse) should s&eacute;eme to be ordinarie to the office.
+Lionell duke of Clarence sonne to king Edward the third, came ouer into Ireland to
+<note place="marg">Lionell duke of Clarence.</note>
+
+<!--<fw place="bot-left">"VOL. VI."</fw>--><!--<fw place="bot-center">"2 L"</fw>--><!--<fw place="bot-right">"be"</fw>-->
+
+
+<pb n="258"/>
+
+<!--<fw place="top-left">"258"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+be lord justice there, and was in right of his wife earle of Vlster. He published an
+inhibition to all of the Irish birth not once to approch his armie, nor to be in anie
+wise imploied in seruice of the wars. He vanquished Obren, but yet sudenlie (no
+man vnderstanding how) an hundred of his souldiers were wanting as they laie in
+garrison, the losse of whom was thought to be occasioned by that displeasant decree
+afore rehearsed. Wherevpon he tooke better aduise, and receiued the Irish into like
+fauour, as other lieutenants had them in before that present, shewing a tender loue
+towards them all, and so euer after prospered in his affaires. He created diuerse
+knights, as Preston, now knowne by the name of the familie of Gormanston, Holiewood,
+Talbot, Cusac, de la Hide, Patrike, Robert and Iohn de Fraxinis: all these
+being gentlemen of worthie fame in chiualrie. The excheker he remooued to Catherlagh,
+&amp; bestowed in furnishing that towne fiue hundred pounds.</p>
+<p>In the yeare 1362 Iohn de S. Paule archbishop of Dublin departed this life the
+<note place="marg"><date>1362</date></note>
+fift ides of September. And in the yeare following was Thomas Minot consecrated
+archbishop of that place. Girald Fitzmaurice earle of Desmond was appointed lord
+<note place="marg"><date>1367</date></note>
+
+<note place="marg">The lord Windsor lieutenant.</note>
+
+<note place="marg"><date>1369</date></note>
+
+<note place="marg"><emph>Record. Turris.</emph></note>
+
+<note place="marg">A parlement.</note>
+
+<note place="marg">A subsidie.</note>
+iustice, vntill the comming of the lord Windsor, the first lieutenant in Ireland, who
+came ouer in the yeare 1369. This Windsore called a parlement at Kilkennie, in
+the which was granted to the king a subsidie of three thousand pounds to be leuied of
+the people, subjects to the king in that land. And in an other parlement holden by
+him at Balidoill they granted two thousand pounds to be likewise leuied. Which
+said sums were granted of the m&eacute;ere and fr&eacute;e good wils of the nobles and communaltie
+of the land, towards the maintenance of the kings expenses in his warres.
+Yet the king in the three and fortith yeare of his reigne, directing his letters vnto
+the said lord Windsor, c&omacr;manded him to surcease from leuieng the foresaid monie,
+although afterwards he commanded againe that the arrerages should be leuied and
+paid to his lieutenant the said Windsor.</p>
+<p>The third pestilence in Ireland made awaie a great number of people. In the
+<note place="marg">Mortalitie of people.</note>
+
+<note place="marg"><date>1370</date></note>
+
+<note place="marg">Conhur.</note>
+
+<note place="marg"><date>1372</date></note>
+
+<note place="marg">Sir Richard Ashton lord iustice.</note>
+
+<note place="marg"><date>1373</date></note>
+
+<note place="marg">Slaughter.</note>
+
+<note place="marg"><date>1375</date></note>
+yeare 1370 the lord Gerald Fitzmorice earle of Desmond, and the lord Iohn Fitzrichard,
+and the lord Iohn Fitziohn, and manie other noble men were slaine by
+Obren, and Mac Conmard of Thomond in the moneth of Iulie. In the yeare 1372 sir
+Richard Ashton was sent ouer to be lord iustice in Ireland. In the yeare following
+great warre was raised betwixt the English of Meth, and Offeroll, in the which manie
+vpon both sides were slaine. In Maie, the lord Iohn Husseie baron of Galtrim,
+Iohn Fitzrichard shiriffe of Meth, and William Dalton were slaine in Kinaleigh.
+In the yeare 1375 Thomas archbishop of Dublin departed this life, and the same
+yeare was Robert de Wikeford consecrated archbishop there.</p>
+</div>
+
+<div n="Richard2" type="chronicle">
+<head>Richard the second. </head>
+
+<p>EDMUND Mortimer earle of March &amp; Vlster was made the kings lieutenant
+<note place="marg"><date>1381</date></note>
+
+<note place="marg">The earle of March the kings lieutenant.</note>
+
+<note place="marg"><date>1383</date></note>
+
+<note place="marg"><date>1385</date></note>
+in Ireland. In the yeare 1383 a great mortalitie reigned in that countrie. This was
+called the fourth pestilence. In the y&eacute;ere 1385 Dublin bridge fell. Beside Edmund
+Mortimer earle of March, Campion affirmeth, that in this Richard the seconds daies,
+there are iustices and lieutenants of Ireland speciallie recorded; Roger Mortimer
+sonne to the said Edmund, Philip Courtneie the kings cousine, Iames earle of
+Ormond, and Robert Vere earle of Oxford, marquesse of Dublin lord chamberleine,
+who was also created duke of Ireland by parlement, and was credited with the whole
+dominion of the realme by grant for tearme of life, without paieng anie thing therefore,
+passing all writs, and placing all officers, as chancellor, treasuror, chiefe iustice,
+admerall, his owne lieutenant, and other inferiour charges under his owne Teste. In
+
+<!--<fw place="bot-right">"the"</fw>-->
+
+
+<pb n="259"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"259"</fw>-->
+
+
+the yeare 1390, Robert de Wikeford archbishop of Dublin departed this life, and the
+<note place="marg"><date>1390</date></note>
+same yeare was Robert Waldebie translated vnto the archbishop of Dublin an
+Augustine frier.</p>
+<p>In the yeare 1394, king Richard sore afflicted and troubled in mind with sorrow
+<note place="marg"><date>1394</date></note>
+
+<note place="marg">King Richard goeth ouer into Ireland.</note>
+for the decease of his wife qu&eacute;ene Anne, that departed this life at Whitsuntide last
+past, not able without teares to behold his palaces and chambers of estate, that represented
+vnto him the solace past, &amp; doubled his sorrow, sought some occasion of
+businesse: and now about Michaelmas passed ouer into Ireland, where diuerse lords
+and princes of Vlster renewed their homages, &amp; placing Roger Mortimer erle of
+March his lieutenant, returned about Shrouetide. In the yeare 1397, Richard de
+<note place="marg">Roger Mortimer lord lieutenant.</note>
+
+<note place="marg"><emph>Thom. Wals.</emph></note>
+
+<note place="marg"><date>1397</date></note>
+Northalis archbishop of Dublin departed this life, that was the same yeare from
+another see remooued thither: he was a frier of the order of the Carmelites.</p>
+<p>The same yeare Thomas de Craulie was chosen and consecrated archbishop of
+Dublin. Also sir Thomas de Burgh, and sir Walter de Birmingham, slue six hundred
+<note place="marg">Six hundred Irishmen slaine.</note>
+Irishmen, with their capteine Macdowne. Moreouer, Edmund earle of March
+lord deputie of Ireland, with the aid of the erle of Ormond, wasted the countrie of
+an Irish lord called Obren, and at the winning of his chiefe house he made seuen
+knights, to wit, sir Christopher Preston, sir Iohn Bedlow, sir Edmund Londores, sir
+Iohn Londores, sir William Nugent, Walter de la Hide, and Robert Cadell. But
+after this it chanced, that on the Ascension daie, certeine Irishmen slue fortie Englishmen:
+and among them these were accounted as principall, John Fitzwilliams,
+Thomas Talbot, and Thomas Cambrie. But shortlie after Roger Mortimer earle of
+March and Vlster the kings lieutenant was slaine, with diuerse other, by Obren and
+other Irishmen of Leinster at Kenlis. Then was Roger Greie elected lord iustice of
+<note place="marg">Roger Greie lord iustice of Ireland.</note>
+Ireland.</p>
+<p>The same yeare on the feast daie of saint Marke the pope, the duke of Surreie
+landed in Ireland, and with him came sir Thomas Craulie the archbishop of Dublin.
+King Richard informed of the vnrulie parts and rebellious sturres of the Irishmen,
+minded to appease the same, and speciallie to reuenge the death of the earle of
+<note place="marg"><date>1398</date></note>
+
+<note place="marg">King Richard passeth the second time ouer into Ireland.</note>
+March: wherevpon with a nauie of two hundred sails he passed ouer into Ireland,
+and landed at Waterford on a sundaie, being the morrow after saint Petronilla the
+virgins day. The fridaie after his arriual at Ford in Kenlis within the towne of Kildare,
+there were slaine two hundred Irishmen by Ienicho de Artois a Gascoigne,
+and such Englishmen as he had with him: and the morrow after, the citizens of
+Dublin brake into the countrie of Obren, slue thirtie &amp; thr&eacute;e of the enimies, and
+tooke fourescore men with children.</p>
+<p>The fourth kalends of Iulie, king Richard came to Dublin, and remained there
+<note place="marg">The king commeth to Dublin.</note>
+for a time; during the which diuerse lords and princes of the countrie came in and
+submitted themselues vnto him, by whome they were courteouslie vsed, and trained
+to honourable demeanor and ciuilitie, as much as the shortnes of time would permit,
+<note place="marg">S&eacute;e more here of in England.</note>
+as in the English historie you maie find set foorth more at large. Whilest king
+Richard thus laie in Dublin to reduce Ireland into due subiection, he was aduertised
+that Henrie duke of Lancaster, that latelie before had b&eacute;ene banished, was returned,
+&amp; ment to bereaue him of the crowne. The sonne of which duke, togither
+with the duke of Glocesters sonne, the king shut vp within the castell of Trim, and
+then taking the seas, he returned and landed in Wales, where he found his defense so
+weake, and vnsure, that finallie he came into his aduersaries hands, and was deposed
+by authoritie of parlement, and then was the said duke of Lancaster admitted to
+reigne in his place.
+
+<!--<fw place="bot-center">"2 L 2"</fw>--><!--<fw place="bot-right">"Henrie "</fw>-->
+</p>
+</div>
+
+<pb n="260"/>
+
+<div n="Henry4" type="chronicle">
+<head>
+<!--<fw place="top-left">"260"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+Henrie the fourth. </head>
+
+<p>AT Whitsuntide in the yeare 1400, which was the first yeare of the reigne of
+<note place="marg"><date>1400</date></note>
+Henrie the fourth, the conestable of Dublin castell, and diuerse other at Stanford
+in Vlster, fought by sea with Scots, where manie Englishmen were slaine and
+drowned. In the second yeare of king Henrie the fourth, sir Iohn Stanleie the
+<note place="marg"><date>1401</date></note>
+
+<note place="marg">Sir Iohn Stanleie lord lieutenant.</note>
+
+<note place="marg">Sir Stephan Scroope.</note>
+kings lieutenant in Ireland returned into England, leauing his vnder lieutenant there
+sir William Stanleie. The same yeare on Bartholomew &eacute;euen, sir Stephan Scroope,
+deputie vnto the lord Thomas of Lancaster the kings brother, and lord lieutenant of
+Ireland, arriued there to supplie the roome of Alexander bishop of Meth, that
+exercised the same office vnder the said lord Thomas of Lancaster, before the
+comming of this sir Stephan Scroope; which sir Stephan for his violence and extortion
+before time vsed in the same office vnder king Richard, was sore cried out vpon
+by the voices of the poore people, insomuch that the ladie his wife hearing of such
+exclamations, would in no wise continue with him there, except he would receiue a
+solemne oth on the bible, that wittinglie he should wrong no christian creature
+in that land, but dulie and trulie he should s&eacute;e paiment made for all expenses: and
+hereof (she said) she had made a vow to Christ so determinatlie, that vnlesse it were
+on his part firmelie promised, she could not without perill of soule go with him.
+Hir husband assented and accomplished hir request effectuallie, recouered a good
+opinion for his vpright deling, reformed his caters &amp; purueiors, inriched the countrie,
+mainteined a plentifull house, remission of great offenses, remedies for persons
+indangered to the prince, pardons of lands and liues he granted so charitablie and
+so discr&eacute;etlie, that his name was neuer recited among them without manie blessings
+and praiers, and so ch&eacute;erefullie they were readie to serue him against the Irish vpon
+all necessarie occasions. The lord Thomas of Lancaster the kings sonne, and lord
+lieutenant of Ireland, arriued the same yeare at Dublin, vpon saint Brices daie.</p>
+<p>The maior of Dublin Iohn Drake, with a band of his citizens neere to Bre, slue
+<note place="marg">The Irish ouershrowne by the maior of Dublin.</note>
+foure thousand of the Irish outlawes (as Campion noteth out of the records of
+Christs church) but Marlburrow speaketh onelie of 493, and these being all men of
+warre. The verie same daie that this victorie was atchiued, to wit, the eleuenth
+day of Iulie, the church of the friers prechers of Dublin was dedicated by the archbishop
+of that citie. The same yeare in September, a parlement was holden at
+Dublin, during the which in Vrgile sir Bartholomew Verdon knight, Iames White,
+Stephan Gernon, and other their complices, slue the shiriffe of Louth Iohn Dowdall.
+In the yere 1403, in Maie, sir Walter Betterleie steward of Vlster, a right valiant
+<note place="marg"><date>1403</date></note>
+knight was slaine, and to the number of thirtie other with him. The same yeare
+about the feast of saint Martin, the lord Thomas of Lancaster the kings sonne
+returned into England leauing the lord Stephan Scroope his deputie there: who also
+<note place="marg">Stephan Scroope.</note>
+
+<note place="marg">The earle of Ormond lord iustice.</note>
+
+<note place="marg"><date>1404</date></note>
+
+<note place="marg">The archbishop of Armagh deceased.</note>
+in the beginning of Lent sailed ouer into England, and then the lords of the land
+chose the earle of Ormond to be lord iustice.</p>
+<p>In the fift yere of Henrie the fourth, Iohn Colton archbishop of Armagh the seuen
+&amp; twentith of Aprill departed this life, vnto whom Nicholas Stoning succ&eacute;eded.
+The same yeare on the daie of saint Vitale the martyr, the parlement of Dublin
+began before the earle of Ormond then lord iustice of Ireland, where the statutes
+of Kilkennie and Dublin were confirmed, and likewise the charter of Ireland. In
+the sixt yeare of Henrie the fourth, in the moneth of Maie, thr&eacute;e Scotish barks
+<note place="marg"><date>1405</date></note>
+were taken, two at Green castell, and one at Alkeie, with capteine Macgolagh.
+The same yeare the merchants of Brodagh entered Scotland, and tooke preies and
+pledges. Also on the &eacute;euen of the feast day of the seuen brethren, Oghgard was
+
+<!--<fw place="bot-right">"burnt"</fw>-->
+
+
+<pb n="261"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"261"</fw>-->
+
+
+burnt by the Irish. And in Iune sir Stephan Scroope that was come againe into
+Ireland, returned eftsoones into England, leauing the earle of Ormond lord iustice
+of Ireland. About the same time they of Dublin entered Scotland at saint Ninian,
+<note place="marg">The citizens of Dublin inuade Scotland.</note>
+
+<note place="marg">They inuade Wales.</note>
+and valiantlie behaued themselues against the enimies, and after crossing the seas,
+directed their course into Wales, and did much hurt to the Welshmen, bringing
+from thense the shrine of saint Cubins, &amp; placed it in the church of the Trinitie
+in Dublin. Iames Butler earle of Ormond died at Baligam, whilest he was lord
+<note place="marg">The earle of Ormond deceased.</note>
+iustice, vnto whom succeeded Gerald earle of Kildare.</p>
+<p>In the seuenth yeare of king Henrie on Corpus Christi day, the citizens of Dublin
+with the countrie people about them, manfullie vanquished the Irish enimies, and
+slue diuerse of them, and tooke two ensignes or standards, bringing with them to
+Dublin the heads of those whom they had slaine. The same yeare the prior of
+Conall, in the plaine of Kildare, fought manfullie with the Irish, &amp; vanquished two
+hundred that were well armed, slaieng part of them, and chasing the residue out of
+the field, and the prior had not with him past the number of twentie Englishmen:
+but God (as saith mine author) assisted those that put their trust in him. The same
+<note place="marg"><emph>Hen. Marlb.</emph></note>
+yeare after Michaelmas, Stephan Scroope deputie iustice to the lord Thomas of
+Lancaster the kings sonne, and his lieutenant of Ireland, came againe ouer into Ireland.
+And in the feast of saint Hilarie was a parlement holden at Dublin, which in
+<note place="marg">A parlement at Dublin.</note>
+Lent after was ended at Trim. And Meiler de Birmingham slue Cathole Oconhur
+about the end of Februarie. In the yere 1407, a certeine false and heathenish
+<note place="marg"><date>1407</date></note>
+wretch an Irishman, named Mac Adam Mac Gilmore, that had caused fortie
+churches to be destroied, as he that was neuer christened, and therefore called Corbi,
+<note place="marg">Corbi what it signifieth.</note>
+chanced to take prisoner one Patrike Sauage, and receiued for his ransome two
+thousand markes, though afterwards he slue him, togither with his brother Richard.</p>
+<p>The same yeare in the feast of the exaltation of the crosse, Stephan Scroope deputie
+to the lord Thomas of Lancaster, with the earles of Ormond and Desmond,
+and the prior of Kilmainan, and diuerse other capteins and men of warre of Meth,
+set from Dublin, and inuaded the land of Mac Murch, where the Irish came into
+the field and skirmished with them, so as in the former part of the daie they put the
+English power to the woorse; but at length the Irish were vanquished and chased,
+so that Onolan with his son and diuerse others were taken prisoners. But the
+English capteins aduertised here, that the Burkens and Okeroll in the countie of
+Kilkennie, had for the space of two daies togither doone much mischief, they rode
+with all sp&eacute;ed vnto the towne of Callan, and there incountering with the aduersaries,
+manfullie put them to flight, slue Okeroll, and eight hundred others. There went a
+<note place="marg">Okeroll slaine.</note>
+tale, and beleeued of manie, that the sunne stood still for a space that daie, till the
+Englishmen had ridden six miles: so much was it thought that God fauoured the
+English part in this enterprise, if we shall bel&eacute;eue it.</p>
+<p>The same yeare the lord Stephan Scroope passed once againe ouer into England,
+and Iames Butler earle of Ormond was elected by the countrie lord iustice of Ireland.
+In the dais of this K. Henrie the fourth, the inhabitants of Corke being sore
+afflicted with perpetuall oppressions of their Irish neighbors, complained themselues
+in a generall writing directed to the lord Rutland and Corke, the kings deputie
+there, and to the councell of the realme then assembled at Dublin: which letter
+because it openeth a window to behold the state of those parties, and of the whole
+realme of Ireland in those daies, we haue thought good to set downe here, as it hath
+beene enterd by Campion, according to the copie deliuered to him by Francis
+Agard esquire, one of the queenes maiesties priuie councell in Ireland.
+
+<!--<fw place="bot-right">"A letter"</fw>-->
+</p>
+
+<pb n="262"/>
+
+<p>
+<!--<fw place="top-left">"262"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+<text>
+		  <front>
+		    <docTitle>
+		      <titlePart>A letter from Corke out of an old record that beareth no date.</titlePart>
+		    </docTitle>
+		  </front>
+<body>
+		    <div type="letter">
+<p>"IT may please your wisedomes to haue pittie on vs the kings poore subiects
+within the countie of Corke, or else we are cast awaie for euer. For where there
+are in this countie these lords by name, beside knights, esquiers, gentlemen, and
+yeomen, to a great number that might dispend yearelie eight hundred pounds, sixe
+hundred pounds, foure hundred pounds, two hundred pounds, one hundred pounds,
+an hundred markes, twentie markes, twentie pounds, ten pounds, some more,
+some lesse, to a great numbers, besides these lords. First the lord marques
+Caro, his yearelie reuenues was beside Dorseie hauen and other cr&eacute;ekes, two
+thousand two hundred pounds sterling. The lord Barneuale of B&eacute;erhauen, his yearelie
+reuenue was beside Bodre hauen and other cr&eacute;ekes, one thousand six hundred pounds
+sterling. The lord Wogan of the great castell, his yearelie reuenue beside his hauens
+<note place="marg">I thinke rather Gr&eacute;ene castell.</note>
+and cr&eacute;ekes, thirt&eacute;ene thousand pounds. The lord Balram of Enfort, his yearelie reuenue
+beside hauens and creekes, one thousand thr&eacute;e hundred pounds sterling.
+The lord Curcie of Kelbretton, his yearelie reuenue beside hauens and cr&eacute;ekes, one
+thousand two hundred pounds sterling. The lord Mandeuile of Barenstellie, his
+yearelie reuenue beside havenr and creekes, one thousand two hundred pounds
+sterling. The lord Arundell of the Strand, his yearelie reuenue beside hauens
+and cr&eacute;ekes, one thousand fine hundred pounds sterling. The lord Barod of
+the gard, his yearelie reuenues beside hauens &amp; cr&eacute;ekes one thousand one hundred
+pounds sterling. The lord Steineie of Baltmore, his yearelie reuenue beside
+hauens and cr&eacute;ekes, eight hundred pounds sterling. The lord Roch of Poole
+castell, his yearelie reuenues besides hauens and creekes, ten thousand pounds sterling.
+The kings maiestie hath the lands of the late yoong Barrie by forfeiture, the
+yearelie reuenue whereof, besides, two riuers and cr&eacute;ekes, and all other casualties, is
+one thousand eight hundred pounds sterling.</p>
+<p>"And that at the end of this parlement, your lordship, with the kings most noble
+councell may come to Corke, &amp; call before you all these lords, and other Irishmen,
+and bind them in paine of losse of life, lands and goods, that neuer one of them doo
+make warre vpon an other, without licence or commandement of you my lord
+deputie, and the kings councell; for the vtter destruction of these parts is that
+onelie cause. And once all the Irishmen, and the kings enimies were driuen into
+a great vallie called Clane onight, betwixt two great mounteines called Maccort,
+or the leprous Iland: and there they liued long and manie yeares with their white
+meat, till at the last these English lords fell at variance amongst themselues, and then
+the weakest part tooke certeine Irishmen to take their part, and so vanquished their
+enimies. And thus fell the English lords at warre among themselues, till the
+Irishmen were stronger than they, and draue them awaie, and now haue the
+countrie whole vnder them; but that the lord Roch, the lord Barrie, and the lord
+Curcie onelie remaine with the least part of their ancestors possessions: and yoong
+Barrie is there vpon the kings portion, paieng his grace neuer a pennie rent.
+Wherefore we the kings poore subiects of the citie of Corke, Kinsale, and Yoghall,
+desire your lordship to send hither too good iustices to s&eacute;e this matter ordred,
+and some English capteins with twentie Englishmen that may be capteins ouer
+vs all: and we will rise with them to redresse these enormities all at our owne
+costs. And if you will not come nor send, we will send ouer to our liege lord
+the king, and complaine on you all."</p>
+		      <trailer>Thus far that letter.</trailer>
+</div></body></text>
+</p>
+
+<p>And (as saith Campion) at this daie the citie of Corke is so incumbred with vnquiet
+<note place="marg">The citie of Corke.</note>
+
+<!--<fw place="bot-right">"neighbors"</fw>-->
+
+
+<pb n="263"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"263"</fw>-->
+
+
+neighbors of great power, that they are forced to gard their gates continuallie, &amp;
+to k&eacute;epe them  shut at seruice times, at meales, and from sun setting to sun
+rising, not suffering anie stranger to enter the towne with his weapon, but to
+leaue the same at a lodge appointed. They dare vnneth at anie time walke abroad
+far from the towne for their recreation, except at seasons; and then with strength
+of men furnished with armor and weapon for their safegard. They match in wedlocke
+among themselues, so that weln&eacute;ere the whole citie is alied and ioined togither in consanguinitie.
+But now to returne vnto the dooings of the earle of Ormond that was
+placed lord iustice in Scroops roome. We doo find that in the yeare 1408 he
+<note place="marg"><date>1408</date></note>
+
+<note place="marg">A parlement at Dublin.</note>
+called a parlement at Dublin, in which the statutes of Kilkennie and Dublin
+were eftsoones reuiued, and certeine ordinances established vnder the great seale
+of England against purueiors. The same yeare, the morrow after Lammas daie,
+<note place="marg">The lord Thomas of Lancaster commeth ouer into Ireland.</note>
+the lord Thomas of Lancaster sonne to king Henrie the fourth, lord lieutenant of
+Ireland, landed at Carlingford, and in the w&eacute;eke following he came vnto Dublin,
+and put the earle of Kildare vnder arrest, comming to him with three of his
+familie. He lost all his goods, being spoiled &amp; rifled by the lord lieutenant his
+seruants, &amp; himselfe kept still in prison in the castell of Dublin, till he had paid 300
+marks fine.</p>
+<p>On the daie of saint Marcell the martyr deceased the lord Stephan Scroope at Tristeldermot.
+<note place="marg">The lord Scroope deceaseth.</note>
+The same yeare also was the lord Thomas of Lancaster at Kilmainan wounded
+(I know not how) and vnneth escaped with life, and after caused summons to be
+giuen by proclamation, that all such as ought by their tenures to serue the
+king, should assemble at Rosse. And after the feast of saint Hilarie, he held a
+parlement at Kilkennie for a tallage to be granted. And after the thirt&eacute;enth of
+<note place="marg">The lord Thomas returneth into England.</note>
+March, he returned into England, leauing the prior of Kilmainan for his deputie
+in Ireland. This yeare also Hugh Macgilmore was slaine in Cragfergus within
+the church of the friers minors, which church he had before destroied, and broken
+downe the glasse windowes to haue the iron bars, thorough which his enimies the
+Sauages entred vpon him. This yeare being the tenth of Henrie the fourth, in
+<note place="marg"><date>1409</date></note>
+
+<note place="marg">Iames de Artois.</note>
+
+<note place="marg">The sword giuen to the citie of Dublin.</note>
+Iune, Ianico de Artois with the Englishmen slue foure score of the Irish in Vlster.
+This yeare king Henrie gaue the sword to the citie of Dublin, which citie was
+first gouerned (as appeareth by their ancient scale called <emph>Signum pr&oelig;positur&oelig;</emph>) by
+a prouost: and in the thirteenth of Henrie the third by a maior and two bailiffes,
+<note place="marg">Bailiffes changed into shiriffes.</note>
+which were changed into shiriffes, by charter granted by Edward the sixt,
+1547.</p>
+<p>This maioralitie, both for state and charge of office, and for bountifull hospitalitie,
+exc&eacute;edeth anie citie in England, London excepted. In the yeare following, the
+<note place="marg"><date>1410</date></note>
+one and twentith daie of Maie, a parlement began at Dublin, which lasted thr&eacute;e
+w&eacute;ekes, the prior of Kilmainan sitting as lord iustice. The same yeare, the two
+and twentith of Iune, the same iustice tooke the castels of Mibraclide, Oferoll,
+and de la Mare. Ireland this yeare was sore afflicted for want of corne. The lord
+iustice entred into the land of Obren with 1500 Kernes, of which number eight hundred
+<note place="marg">A iournie made by the lord iustice.</note>
+reuolted to the Irish, so that if the power of Dublin had not beene there, it had
+gon euil with the lord iustice: and yet he escaped not without losse, for Iohn Derpatrike
+was slaine there. In the yeare 1411, mariages were celebrated among the
+<note place="marg"><date>1411</date></note>
+
+<note place="marg">Mariages.</note>
+nobilitie in Ireland. William Preston maried the daughter of Edward Paris, and Iohn
+Wogan matched with the eldest daughter of Christopher Preston; and Walter de
+la Hide with the second daughter of the same Christopher. In the yeare 1412, about
+<note place="marg"><date>1412</date></note>
+
+<note place="marg">Oconthir.</note>
+the feast of Tibertius and Valerianus, which falleth on the tenth of April, Oconthir
+did much mischiefe in Meth, and tooke 160 Englishmen. The same yeare Odoles
+a knight, and Thomas Fitzmorice fought togither, and either slue other. The foure
+<note place="marg">The bishop of Meth deceaseth.</note>
+and twentith of Maie, Robert Mounteine bishop of Meth departed this life, to
+
+<!--<fw place="bot-right">"whome"</fw>-->
+
+
+<pb n="264"/>
+
+<!--<fw place="top-left">"264"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+whome succ&eacute;eded Edward de Audiscie sometime archdecon of Cornwall. This yeare
+<note place="marg">The death of Henrie the fourth.</note>
+on saint Cutberts daie king Henrie the fourth departed this life.</p>
+</div>
+
+<div n="Henry5" type="chronicle">
+<head><emph>Henrie the fift.</emph></head>
+
+<p>In the first yeare of this king, the fiue and twentith of September, landed in
+<note place="marg"><date>1413.</date></note>
+
+<note place="marg">Iohn Stanleie the kings lieutenant in Ireland.</note>
+Ireland at Clawcarfe, Iohn Stanlie the kings lieutenant of that land. He departed
+this life the 18 of Ianuarie next insuing at Athird, in Latine called <emph>Atrium Dei.</emph>
+After his decease, Thomas Crauleie archbishop of Dublin was chosen lord iustice of
+<note place="marg">Thomas Crauleie archbishop of Dublin.</note>
+Ireland. Ianico de Artois led foorth a power against Maginors, a great lord of Ireland,
+but n&eacute;ere to a place called Inor manie Englishmen were slaine. The morrow
+after saint Matthias daie, a parlement began againe at Dublin, which continued
+<note place="marg">A parlement</note>
+for the space of fift&eacute;ene daies, in which meane time the Irish did much hurt by
+inuasions made into the English pale, and burning vp all the houses afore them
+that stood in their waie, as their vsuall custome was in times of other parlements:
+wherevpon a tallage was demanded, but not granted. In the yeare 1414, the Englishmen
+<note place="marg"><date>1414</date></note>
+fought with the Irish neere to Kilka, and slue an hundred of the enimies, whilest
+the archbishop being lord iustice in Tristeldermot, went in procession with his
+cleargie; praieng for the good sp&eacute;ed of his men and other of the countrie
+that were gone foorth to fight with the aduersaries. In the feast of saint Gordian
+and Epirnachus, to wit the tenth of Maie, were the English of Meth discomfited
+by Oconthir and his Irish, where they slue Thomas Maureuar baron of Serin; and
+there were taken prisoners Christopher Fleming, John Dardis, and diuerse others,
+<note place="marg">Englishmen slaine.</note>
+beside manie that were slaine.</p>
+<p>On saint Martins &eacute;euen sir Iohn Talbot of Holomshire, lord Furniuale landed at
+<note place="marg">Iohn lord Talbot of Sherfield.</note>
+
+<note place="marg"><date>1415</date></note>
+
+<note place="marg">Robert Talbot deceaseth.</note>
+Dalkeie, the kings lieutenant in Ireland, a man of great honor. In the yeere one
+thousand foure hundred and fift&eacute;ene in Nouember, Robert Talbot, a right noble
+man that walled the suburbs of Kilkennie, departed this life. Also Patrike Baret
+bishop of Fernis deceased, and was buried among the canons at Kenlis. This
+yeare on the feast daie of Geruasius and Prothasius which falleth on the ninet&eacute;enth
+of Iune, the lord lieutenants wife the ladie Furniuall was brought to bed at Finglasse
+of a sonne named Thomas. About the same time also Stephan Fleming archbishop
+<note place="marg"><date>1416</date></note>
+
+<note place="marg">The archbishop of Armagh deceaseth.</note>
+of Armagh departed this life, after whome succ&eacute;eded Iohn Suanig. On the daie of
+saint Laurence the lord Furniuals sonne Thomas Talbot that was borne at Finglasse in
+Nouember last past, departed this life, and was buried in the qu&eacute;ere of the friers preachers
+church in Dublin. About the same time the Irish fell vpon the Englishmen, and slue
+manie of them, among other Thomas Balimore of Baliquelan was one. The parlement
+which the last yeare had beene called and holden at Dublin, was this
+<note place="marg">The parlement remooued to Trim.</note>
+yeare remooued to Trim, &amp; there began the eleuenth of Maie, where it continued
+for the space of eleuen daies, in the which was granted to the lord lieutenant a
+subsidie in monie.</p>
+<note place="marg">A subsidie.</note>
+<p>In the yeare following, the archbishop of Dublin passed ouer into England, and
+<note place="marg"><date>1417</date></note>
+
+<note place="marg">The archbishop of Dublin deceased.</note>
+
+<note place="marg">His praise.</note>
+deceased at Faringdon, but his bodie was buried in the new college at Oxford.
+This man is greatlie praised for his liberalitie, he was a good almesman, a great
+clerke, a doctor of diuinitie, an excellent preacher, a great builder, beautifull, tall
+of stature, and sanguine of complexion. He was foure score and ten yeares of age
+when he died, and had gouerned the church of Dublin in good quiet for the
+space of twentie yeeres. This yeare shortlie after Easter, the lord deputie spoiled
+<note place="marg"><date>1418</date></note>
+the tenants of Henrie Crus, and Henrie Bethat. Also at Olane on the
+feast daie of saint Iohn and saint Paule, the erle of Kildare, sir Christopher
+
+<!--<fw place="bot-right">"Preston,"</fw>-->
+
+
+<pb n="265"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"265"</fw>-->
+
+
+Preston, and sir Iohn Bedlow were arrested and committed to ward within the
+castell of Trim, because they sought to commune with the prior of Kilmainan.</p>
+<p>The nine and twentith of Iune Matthew Husseie baron of Galtrim deceased, &amp;
+was buried at the friers preachers of Trim. In the yeare one thousand foure hundred
+<note place="marg"><date>1419</date></note>
+
+<note place="marg">A councell or parlement holden.</note>
+&amp; ninet&eacute;ene a roiall councell was holden at Naas, where was granted to the lord
+lieutenant a subsidie in monie. The same yeare vpon Cenethursdaie Othoell tooke
+foure hundred kine that belonged vnto Balimore, so breaking the peace contrarie to
+his oth. The fourth ides of Maie, Mac Murch ch&eacute;efe capteine of his nation, and
+<note place="marg">Mac Murch taken prisenor.</note>
+of all the Irish in Leinster was taken prisoner, and the same daie was sir Hugh
+Cokeseie made knight. The last of Maie the lord lieutenant, and the archbishop
+of Dublin with the maior rased the castell of Keninie. The morrow after the feast
+daie of Processus and Martinianus, that is the twentith of Iune, the lord William
+de Burgh and other Englishmen slue flue hundred Irishmen, &amp; tooke Okellie. On the
+<note place="marg">Okellie taken.</note>
+feast daie of Marie Magdalen the lord lieutenant Talbot returned into England, leauing
+his deputie there the archbishop of Dublin. This yeare about saint Laurence
+daie, diuerse went foorth of Ireland to serue the king in his warres of Normandie,
+as Thomas Butler that was prior of Kilmainan, and manie others. Iohn Fitzhenrie
+<note place="marg">The prior of Kilmainan went to serue the king in France.</note>
+succ&eacute;eded the said Butler in gouernment of the priorie of Kilmainan. The
+archbishop of Dublin that remained as lord deputie slue thirtie Irishmen n&eacute;ere
+vnto Rodiston. Also the thirteenth of Februarie Iohn Fitzhenrie prior of Kilmainan
+departed this life, and William Fitzthomas was chosen to succ&eacute;ed in his place, and
+was confirmed the morrow after saint Valentines daie.</p>
+<p>Iames Butler earle of Ormond appointed the kings lieutenant in Ireland, in place
+<note place="marg"><date>1420</date></note>
+
+<note place="marg">Iames Butler erle of Ormond lord lieutenant.</note>
+of Iohn lord Talbot and Furniuall, landed at Waterford about the fourth ides of Aprill:
+and shortlie after his comming ouer, he caused a combat to be fought betwixt two
+of his cousins, of whom the one was slaine in that place, and the other carried awaie
+sore wounded. On saint Georges daie, he held a councell in Dublin, &amp; summoned
+<note place="marg">A parlement summoned.</note>
+a parlement to begin there the seuenth of Iune. In the meane while he fetcht great
+booties out of the countries of the Irish lords, Oralie, Mac Mahun, and Maginois.
+But first yer we go further to shew what Marlburrow hath noted of the dooings,
+whilest this earle of Ormond gouerned as the kings lieutenant in Ireland, we haue
+thought good to set downe what Campion also writeth thereof, as thus.</p>
+<p>In the red moore of Athie (the sunne almost lodged in the west, and miraculouslie
+<note place="marg"><emph>Iames Young</emph> an author alleaged by <emph>Campion.</emph></note>
+
+<note place="marg">The sunne staieth his course.</note>
+standing still in his epicicle by the space of thr&eacute;e houres, till the feat was accomplished,
+and no hole nor quakemire in all that bog annoieng either horsse or man
+of his part) he vanquished Omore and his terrible armie with a few of his owne meinie,
+and with the like number he ouercame Arthur Mac Morogh, at whose might
+&amp; puisance all Leinster trembled. To the instruction of this mans worthinesse, the
+compiler of certeine precepts touching the rule of a common-wealth exciteth his lord
+the said earle in diuerse places of that worke incidentlie, eftsoons putting him in mind
+that the Irish are false by kind, that it were expedient, and a worke of charitie to
+execute vpon them wilfull and malicious transgressors the kings lawes somewhat
+sharplie, that Odempsie being winked at a while, abused that small time of sufferance
+to the iniurie of the earle of Kildare, intruding vniustlie vpon the castell of Leie, from
+whense the said deputie had iustlie expelled him, and put the earle in possession
+thereof, that notwithstanding their oths and pledges, they are yet no longer true than
+they f&eacute;ele themselues the weaker. This deputie tamed the Brens, the Burghs, Mac
+Banons, Oghaghucaght, Moris Mac Mahun, all the capteins of Thomond: &amp; all this
+he did in thr&eacute;e months; the clergie twise euerie weeke in solemne procession praieng
+for his good succes against those disordered persons, which now in euerie part of Ireland 
+<!--<fw
+place="bot-left">"VOL. VI."</fw>--><!--<fw place="bot-center">"2 M"</fw>--><!--<fw place="bot-right">"land"</fw>-->
+
+
+<pb n="266"/>
+
+<!--<fw place="top-left">"266"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+degenerated from the English ciuilitie, to their old trade of life vsed in that
+countrie, repined at the English maner of gouernment. So far Campion.]</p>
+<p>Diuerse parlements vpon prorogations were holden in time that this earle of
+Ormond was gouernor. The first began at Dublin the seauenth of Iune in this
+<note place="marg"><date>1420</date></note>
+
+<note place="marg">The parlement began.</note>
+yeare one thousand foure hundred and twentie, which continued about sixt&eacute;en
+daies. At this parlement was granted to the lord lieutenant a subsidie of seauen
+hundred marks. At the sixt&eacute;ene daies end this parlement was adiorned till the
+mondaie after saint Andrews daie. In the same parlement the debts of the lord Iohn
+Talbot, which were due to certeine persons for vittels and other things, taken vp
+whilest he was lord lieutenant there, were reckoned vp; which lord Talbot verelie, for
+that he saw not the creditors satisfied before his comming awaie, was partlie euill
+spoken of in the countrie. The morrow after the feast of Simon and Iude, the
+castell of Colmolin was taken by Thomas Fitzgirald. And on saint Katharins eeuen,
+<note place="marg">The castell of Colmolin.</note>
+
+<note place="marg">The earle of Ormonds son and heire borne.</note>
+the sonne and heire of the earle of Ormond lord lieutenant was borne, for the which
+there was great reioising. In the parlement begun againe at Dublin the mondaie
+after saint Andrews daie, an other subsidie of thr&eacute;e hundred marks was granted
+vnto the lord lieutenant. And after they had sat thirt&eacute;ene daies, it was eftsoons
+adiorned vntill the mondaie after saint Ambrose daie. Then rumors were spred
+abrode, that Thomas Fitz-Iohn earle of Desmond was departed this life at Paris
+vpon saint Laurence daie, after whome succ&eacute;eded his vncle Iames Fitzgirald, whome
+he had three seuerall times renounced, as one that was a waster of his patrimonie
+both in England and Ireland, and not like to come to anie good proofe.</p>
+<p>In the yeare one thousand foure hundred twentie and one, the parlement began
+<note place="marg"><date>1421.</date></note>
+
+<note place="marg">A parlement.</note>
+againe vpon the last prorogation, the mondaie after saint Ambrose daie: in which
+parlement it was ordeined that certeine persons should be sent to the king, to
+sue that a reformation might be had in matters touching the state of the land.
+The ch&eacute;efe of those that were thus sent, were the archbishop of Armagh, and sir
+Christopher Preston knight. Moreouer Richard Ohedian bishop of Cashill was accused
+<note place="marg">The bishop of Cashill accused.</note>
+by Iohn Gese bishop of Lismore and Waterford, who laid thirtie articles vnto
+his charge. Amongst other, one was for that he loued none of the English nation,
+and that he bestowed not one benefice vpon anie Englishman, and counselled
+other bishops that they should not bestow anie within their diocesse vpon anie Englishman.
+Moreouer, another article was for counterfeting the kings seale. And
+another, for that he went about to make himselfe king of Mounster, and had taken
+a ring from the image of saint Patrike (which the earle of Desmond had offered) and
+giuen it to his lemman. Manie other crimes were laid to him by the said bishop of
+Lismore and Waterford, which he exhibited in writing. Also in the same parlement
+there rose contention betwixt Adam Paine bishop of Clone, and another prelat,
+whose church he would haue annexed vnto his see. At length, after the parlement
+had continued for the space of eight&eacute;ene daies, it brake vp. Herewith came
+news of the slaughter of the lord Thomas of Lancaster duke of Clarence, that had b&eacute;ene
+<note place="marg">The duke of Clarence slaine in France.</note>
+lord lieutenant of Ireland. And vpon the seuenth of Maie certeine of the erle of Ormonds
+men were ouerthrowen by the Irish, n&eacute;ere to the abbeie of Leis, and seuen
+and twentie Englishmen were slaine there: of whom the cheefe were two gentlemen,
+the one named Purcell, &amp; the other Grant. Also ten were taken prisoners,
+and two hundred escaped to the foresaid abbeie, so sauing themselues. About
+the same time Mac Mahun an Irish lord did much hurt within the countrie of Vrgile,
+<note place="marg">Mac Mahun.</note>
+by burning &amp; wasting all afore him. Also vpon the morrow after Midsummer
+daie, the earle of Ormond lord lieutenant entred into the countrie about Leis
+
+<!--<fw place="bot-right">"vpon"</fw>-->
+
+
+<pb n="267"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"267"</fw>-->
+
+
+vpon Omordris, and for the space of foure daies togither did much hurt, in slaieng
+and spoiling the people, till the Irish were glad to sue for peace.</p>
+</div>
+
+<div n="Henry6" type="chronicle">
+<head><emph>Henrie the sixt.</emph></head>
+<p>LIEUTENANTS to Henrie the sixt ouer the relme of Ireland were these, Edmund
+earle of March, and Iames earle of Ormond his deputie; Iohn Sutton, lord
+Dudleie, and sir Thomas Strange knight his deputie; sir Thomas Stanleie, and sir
+<note place="marg">Here endeth <emph>Marlburrow.</emph> and all that followeth is taken out of <emph>Campion.</emph></note>
+Christopher Plunket his deputie. This sir Thomas Stanleie on Michaelmasse daie, in
+the twelfe yeare of king Henrie the sixt, with all the knights of Meth &amp; Irrell, fought
+against the Irish, slue a great number, &amp; tooke Neill Odonell prisoner.]</p>
+<p>Lion lord Wels, and the earle of Ormond his deputie. Iames earle of Ormond by
+himselfe, Iohn earle of Shrewesburie, and the archbishop of Dublin lord iustice in
+his absence. Richard Plantagenet duke of Yorke, father to king Edward the fourth
+&amp; earle of Vlster, had the office of lieutenant by the kings letters patents during
+the terme of tenne yeares, who appointed to rule vnder him as his deputies at sundrie
+times the baron of Deluin, Richard Fitzeustace knight, Iames earle of Ormond,
+<note place="marg"><emph>Campion</emph> out of the records of Christs church.</note>
+
+<note place="marg">George duke of Clarence borne at Dublin.</note>
+
+<note place="marg">Iacke Cade.</note>
+and Thomas Fitzmorice earle of Kildare. To this Richard duke of Yorke and Vlster
+then resident in Dublin, was borne within the castell there his second sonne
+the lord George that was after duke of Clarence. His godfathers at the fontstone
+were the earles of Ormond and Desmond. Whether the commotion of Iacke Cade
+an Irishman borne, naming himselfe Mortimer, and so pretending cousinage to
+diuerse noble houses in this land, proc&eacute;eded from some intelligence with the dukes
+fr&eacute;ends here in Ireland, it is vncerteine: but surelie the duke was vehementlie suspected,
+and immediatelie after began the troubles, which through him were raised.
+Which broiles being couched for a time, the duke held himselfe in Ireland, being
+latelie by parlement ordeined protector of the realme of England: he left his
+agent in the court, his brother the earle of Salisburie, lord chancellor, to whom
+he declared the truth of the troubles then toward in Ireland: which letter exemplified
+by sir Henrie Sidneie lord deputie, a great searcher and preseruer of antiquities,
+as it came to Campions hands, and by him set downe we haue thought good
+likewise to present it here to your view.</p>
+
+<p>
+<text><body>
+<div type="letter">
+<head>To the right worshipfull, and withall mine heart entierelie beloued brother, the earle
+of Salisburie.</head>
+
+<note place="marg">The copie of a letter.</note>
+<p>RIGHT worshipfull, &amp; with all my hart entierelie beloued brother, I recommend
+me vnto you as heartilie as I can. And like it you to wit, sith I wrote last
+vnto the king our souereigne lord his highnesse, the Irish enimie, that is to saie
+Magoghigam, and with him thr&eacute;e or foure Irish capteins, associat with a great
+fellowship of English rebels, notwithstanding that they were within the king our
+souereigne lord his peace, of great malice, and against all truth haue maligned
+against their legiance, and vengeablie haue brent a great towne of mine inheritance
+in Meth, called Ramore, and other villages thereabouts, and murthered
+and brent both men, women, and children, withouten mercie: the which enimies
+be yet assembled in woods and forts, awaighting to doo the hurt and gr&eacute;euance
+to the kings subiects, that they can thinke or imagine. For which cause I write at
+this time vnto the kings highnesse, and beseech his good grace for to hasten my pai
+ment for this land, according vnto his letters of warrant now late directed vnto the
+treasuroe of England, to the intent I may wage men in sufficient number for to resist
+
+<!--<fw place="bot-center">"2 M 2"</fw>--><!--<fw place="bot-right">"the"</fw>-->
+
+
+<pb n="268"/>
+
+<!--<fw place="top-left">"268"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+the malice of the same enimies, &amp; punish them in such wise, that other which
+would doo the same for lacke of resistance, in time maie take example. For doubtlesse,
+but if my paiment be had in all hast, for to haue men of warre in defense
+and safegard of this land; my power can not stretch to k&eacute;epe it in the kings obeisance:
+and verie necessitie will compell me to come into England to liue there
+vpon my poore liuelihood. For I had leaner be dead than anie inconuenience
+should fall thervnto by my default: for it shall neuer be chronicled nor remaine in
+scripture (by the grace of God) that Ireland was lost by my negligence. And therefore
+I bes&eacute;ech you right worshipfull brother, that you will hold to your hands instantlie,
+that my paiment maie be had at this time in eschewing all inconucniences.
+For I haue example in other places (more pitie it is) for to dread shame, and for
+to acquit my troth vnto the kings highnesse, as my dutie is. And this I praie and
+exhort you good brother, to shew vnto his good grace, and that you will be so
+good, that this language maie be inacted at this present parlement for mine excuse
+in time to come, and that you will be good to my seruant Roger Ro the bearer of
+<note place="marg">Roger Ro.</note>
+these, and to my other seruants, in such things as they shall pursue vnto the kings
+highnes, and to giue full faith and credence vnto the report of the said Roger, touching
+the said matters. Right worshipfull, and with all my heart entierlie beloned brother,
+our blessed Lord God preserue and keepe you in all honour, prosperous estate, and
+felicitie, &amp; grant you right good life and long.</p>
+			<closer>
+<dateline> Written at Dublin the fift&eacute;enth daie of June.</dateline>
+<salute>Your faithfull true brother</salute>
+<signed>RICHARD YORKE.</signed>
+</closer>
+</div>
+</body></text>
+</p>
+
+<p>Of such power was Magoghigam in those daies, who as he wan and kept it by
+<note place="marg">Magoghigham his power.</note>
+the sword, so now his successors in that state liue but as meane capteins, y&eacute;elding
+their winnings to the stronger. This is the miserie of lawlesse people, resembling
+the rudenesse of the rude world, wherein euerie man was richer and poorer than
+other, as he was in might and violence more or lesse inabled. Here began factions of
+the nobilitie in Ireland, fauouring diuerse sides that stroue for the crowne of England.
+For the duke of Yorke, in those ten yeares of his gouernement, exc&eacute;edinglie wan the
+hearts of the noblemen and gentlemen of that land, of the which diuerse were slaine with
+him at Wakefield; as the contrarie part was the next yeare by his sonne Edward earle
+of March at Mortimers crosse in Wales. In which meane time the Irish grew hardie,
+&amp; vsurped the English countries insufficientlie defended, as they had doone by
+like oportunitie in the latter end of Richard the second. These two seasons
+set them so aflote, that henseforward they could neuer be cast out from their
+forcible possessions, holding by plaine wrong all Vlster, and by certeine Irish tenures
+no small portions of Mounster and Connagh, least in Meth and Leinster
+where the ciuill subiects of the English bloud did euer most preuaile.</p>
+</div>
+
+<div n="Edward4 Edward5" type="chronicle">
+<head>Edward the fourth and Edward the fift.</head>
+
+<p>THOMAS Fitzmorice earle of Kildare, lord iustice till the third yeare of Edward
+<note place="marg">Lieutenants and deputies in king Edward the fourth his daies.</note>
+the fourth, after which time the duke of Clarence, brother to the king, had the
+office of lieutenant while he liued, &amp; made his deputies by sundry turnes, Thomas
+earle of Desmond, Iohn Tiptoft earle of Worcester the kings cousine, Thomas earle
+of Kildare, and Henrie lord Greie of Ruthin. Great was the credit of the Giraldins euer
+when the house of Yorke prospered, and likewise the Butlers thriued vnder the bloud
+<note place="marg">The Butlers.</note>
+
+<!--<fw place="bot-right">"of"</fw>-->
+
+
+<pb n="269"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND"</fw>--><!--<fw place="top-right">"269"</fw>-->
+
+
+of the Lancasters: for which cause the earle of Desmond remained mauie yeres
+deputie to George duke of Clarence his good brother: but when he had spoken certeine
+disdainefull words against the late marriage of king Edward with the ladie Elizabeth
+Greie, the said ladie being now queene, caused his trade of life after the Irish
+maner, contrarie to sundrie old statutes inacted in that behalfe, to be sifted and
+<note place="marg">The earle of Worcester.</note>
+
+<note place="marg"><date>1467</date></note>
+examined by Iohn erle of Worcester his successor; so that he was atteinted of treason,
+condemned, and for the same beheaded at Droghedagh.</p>
+<p>Iames the father of this Thomas earle of Desmond, being suffered and not controlled,
+<note place="marg"><emph>Campion</emph> out of Sentleger in his collections.</note>
+during the gouernment of Richard duke of Yorke his godcept, and of
+mas earle of Kildare his kinsman, put vpon the kings subiects within the countries of
+Waterford, Corke, Kerrie, and Limerike, the Irish impositions of quinto and liuerie,
+<note place="marg">Irish impositions</note>
+cartings, carriages, lodgings, cocherings, bonnaght, and such like, which customes
+are the verie br&eacute;eders, mainteiners, and vpholders of all Irish enormities, wringing
+from the poore tenants euerlasting sesse, allowance of meat and monie, whereby
+their bodies and goods were brought in seruice and thraldome, so that the
+men of warre, horsses, and their Galloglasses lie still vpon the farmers, eat
+them out, beggar the countrie, foster a sort of idle vagabonds, readie to rebell if
+their lord command them, euer nuzled in stealth and robberies.</p>
+<p>These euill presidents giuen by the father, the son did exercise, being lord deputie,
+to whome the reformation of that disorder speciallie belonged. Notwithstanding
+the same fault being winked at in other, and with such rigor auenged in him,
+was manifestlie taken for a quarrell sought and procured. Two yeares after, the
+<note place="marg"><date>1469</date></note>
+said earle of Worcester lost his head, whilest Henrie the sixt taken out of the tower
+was set vp againe, and king Edward proclained vsurper, and then was Kildare inlarged,
+whom likewise atteinted, they thought also to haue rid, and shortlie both
+the earles of Kildare &amp; Desmond were restored to their bloud by parlement. Sir
+<note place="marg">Restitution to bloud.</note>
+
+<note place="marg"><date>1470</date></note>
+
+<note place="marg"><emph>Flatsburie.</emph></note>
+Rowland Eustace, sometime treasuror and lord chancellor, was lastlie also lord
+deputie of Ireland. He founded saint Francis abbeie beside Kilcollen bridge.
+King Edward a yeare before his death honored his yoonger sonne (Richard duke of
+Yorke) with the title of lieutenant oner this land, which he injoied till his vnnaturall
+vncle bereft both him and his brother king Edward the fift of their naturall
+lines.</p>
+</div>
+
+<div n="Richard3" type="chronicle">
+<head>Richard the third.</head>
+<p>WHEN this monster of nature &amp; cruell tyrant Richard the third had killed his
+<note place="marg">Richard the third.</note>
+two yoong nephues, and taken vpon him the crowne &amp; gouernement of England, he
+preferred his owne sonne Edward to the dignitie of lord lieutenant of Ireland, whose
+deputie was Girald earle of Kildare that bare that office all the reigue of king Richard,
+and a while in Henrie the seuenth his daies.</p>
+</div>
+
+<div n="Henry7" type="chronicle">
+<head><emph>Henrie the seuenth.</emph></head>
+<p>TO which earle came the wilie priest sir Richard Simon, bringing with him a lad
+<note place="marg">Henrie the seuenth.</note>
+
+<note place="marg">Sir Richard Simon priest.</note>
+
+<note place="marg">Lambert counterfeit to be the earle of Warwike.</note>
+that was his scholer, named Lambert, whome he feined to be the sonne of George
+earle of Clarence, latelie escaped foorth of the tower of London. And the boie could
+reckon vp his pedigr&eacute;e so readilie, &amp; had learned of the priest such princelie behauiour,
+that he lightlie mooued the said earle, and manie others the nobles of Ireland
+(tendering as well the linage roiall of Richard Plantagenet duke of Yorke, and his
+
+<!--<fw place="bot-right">"sonne"</fw>-->
+
+
+<pb n="270"/>
+
+<!--<fw place="top-left">"270"</fw>--><!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>-->
+
+
+sonne George their countrieman borne, as also maligning the aduancement of the
+house of Lancaster in Henrie the seuenth) either to thinke or to faiue, that the world
+might bel&eacute;eue they thought verelie this child to be Edward earle of Warwike, the
+duke of Clarence his lawfull sonne.</p>
+<p>And although king Henrie more than halfe marred their sport, in shewing the
+right earle through all the str&eacute;ets of London, yet the ladie Margaret duches of
+Burgongne, sister to Edward the fourth, hir nephue John de la Poole, the lord
+Louell, sir Thomas Broughton knight, and diuers other capteins of this conspiracie,
+<note place="marg">The lord Louell.</note>
+
+<note place="marg">Sir Thomas Broughton.</note>
+deuised to abuse the colour of this yoong earles name, for preferring their purpose:
+which if it came to good, they agr&eacute;ed to depose Lambert, and to erect the verie
+earle ind&eacute;ed, now prisoner in the tower, for whose quarrell had they pretended to
+fight, they d&eacute;emed it likelie he should haue b&eacute;ene made awaie. Wherefore it was
+blazed in Ireland, that the king to mocke his subiects, had schooled a boie to take
+vpon him the earle of Warwikes name, and had shewed him about London, to blind
+the eies of the simple folke, and to defeat the lawfull inheritour of the good duke of
+Clarence their countriman and protector during his life, vnto whose linage they also
+deriued title in right to the crowne.</p>
+<p>In all hast they assembled at Dublin, and there in Christs church they crowned
+<note place="marg">Lambert crowned.</note>
+this idoll, honoring him with titles imperiall, feasting and triumphing, raising mightie
+shouts and cries, carrieng him from thense to the castell vpon tall men's shoulders,
+that he might be seene and noted, as he was sure an honorable child to looke vpon.
+Heerewith assembling their forces togither, they prouided themselues of ships, and
+imbarking therein, they tooke the sea, and landing in Lancashire, passed forwards,
+till they came to Newarke vpon Trent. Therevpon insued the battell of Stoke,
+commonlie called Martin Swarts field, wherein Lambert and his maister were taken,
+but yet pardoned of life, and were not executed. The erle of Lincolne, the lord
+Louell, Martin Swart, the Almaine capteine, and Maurice Fitzthomas capteine of the
+Irish, were slaine, and all their power discomfited, as in the English historie it may
+<note place="marg"><date>1490</date></note>
+
+<note place="marg">Iasper duke of Bedford lieutenant.</note>
+further appeare. Jasper duke of Bedford, and earle of Pembroke lieutenant, and
+Walter archbishop of Dublin his deputie.</p>
+<p>In this time befell another like Irish illusion, procured by the duchesse aforesaid,
+and certeine nobles in England, whereby was exalted as rightfull king of England,
+and vndoubted earle of Vlster, the counterfeit Richard duke of Yorke, preserued
+from king Richards crueltie (as the adherents faced the matter downe) and with this
+<note place="marg">Perkin Warbecke.</note>
+maigame lord, named indeed Peter, (in scorne Perkin) Warbecke, they flattered themselues
+manie yeares after. Then was sir Edward Poinings knight sent ouer lord deputie,
+<note place="marg"><date>1494</date></note>
+
+<note place="marg">Sir Edward Poinings lord deputie.</note>
+
+<note place="marg">Perkin Warbecke taken.</note>
+with commission to apprehend Warbecks principall parteners in Ireland:
+amongst whom was named Girald Fitzgirald, whose purgation the king (notwithstanding
+diuerse surmising and auouching the contrarie) did accept. After much
+adoo, Perkin being taken, confessed by his owne writing the course of his whole
+life, and all his proceedings in this enterprise, whereof in the English historie, as
+we have borowed the same foorth of <emph>Halles</emph> chronicles, yee may read more, and therefore
+h&eacute;ere we haue omitted to speake further of that matter.</p>
+<p>In the yeare 1501, king Henrie made lieutenant of Ireland his second sonne
+<note place="marg"><date>1501</date></note>
+
+<note place="marg">Henrie duke of Yorke, after king Henrie the eight, lord lieuenant.</note>
+Henrie, as then duke of Yorke, who after reigned by the name of Henrie the eight.
+To him was appointed deputie the foresaid Girald erle of Kildare, who accompanied
+with Iohn Blake maior of Dublin, warred vpon William le Burgh, Obren, and
+Mac Nemarre, Ocarroull, and fought with the greatest power of Irishmen that had
+b&eacute;ene togither since the conquest, vnder the hill of Knocktow, in English the hill
+<note place="marg">The field of Knocktow.</note>
+of the axes, six miles from Galowaie, and two miles from Belliclare Burghes manour
+
+<!--<fw place="bot-right">"towne."</fw>-->
+
+
+<pb n="271"/>
+
+<!--<fw place="top-center">"THE CHRONICLES OF IRELAND."</fw>--><!--<fw place="top-right">"271"</fw>-->
+
+
+towne. Mac William and his complices were there taken, his souldiers that escaped
+the sword were pursued fleeing, for the space of fiue miles: great slaughter was
+made of them, and manie capteins caught, without the losse of one Englishman.
+The earle of Kildare at his returne was made knight of the noble order of the
+<note place="marg">The earle of Kildare, knight of the garter.</note>
+garter, and liued in worthie estimation all his life long, as well for this seruice,
+as diuerse other his famous exploits.</p>
+</div>
+
+	      <trailer>Thus farre the Irish Chronicles continued and ended at Henrie the seauenth.</trailer>
+
+	</body>
+      </text> <!-- End of Processe -->
+</TEI.2>
