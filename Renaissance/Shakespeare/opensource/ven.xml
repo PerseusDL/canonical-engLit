@@ -1,0 +1,2511 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersVerse PUBLIC "-//Perseus P4//DTD Perseus Verse//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersVerse.dtd" >
+%PersVerse;
+]>
+<TEI.2>
+  <teiHeader status="new" type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>Venus and Adonis</title>
+        <author>William Shakespeare</author>
+        <editor role="editor">W. G. Clark</editor>
+        <editor role="editor">W. Aldis Wright</editor>
+        &responsibility;
+        &fund.DLI2;
+      </titleStmt>
+      &Perseus.publish;
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>William Shakespeare</author>
+            <editor role="editor">W. G. Clark</editor>
+            <editor role="editor">W. Aldis Wright</editor>
+            <title>The Globe Shakespeare</title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <publisher>Nelson Doubleday, Inc.</publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      <refsDecl>
+        <state n="chunk" unit="section"/>
+      </refsDecl>
+      
+      <refsDecl n="front" doctype="TEI.2">
+        <state n="chunk" unit="section"/>
+      </refsDecl>
+      
+      <refsDecl doctype="TEI.2">
+        <state unit="card"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language id="en">English
+        </language><language id="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    
+    <revisionDesc>
+      <change><date>19-Oct-00</date>
+        <respStmt><name>CEW</name><resp>ed.</resp></respStmt>
+        <item>
+          $Log: ven.xml,v $
+          Revision 1.1  2009-11-23 18:46:14  rsingh04
+          moved more xml files around based on copyright status
+
+          Revision 1.3  2008/06/09 16:20:09  rsingh04
+          fixed castList, head tags and other small changes
+
+          Revision 1.2  2004/04/22 18:55:46  cwulfman
+          fixing log
+          
+          Revision 1.1  2004/04/22 17:56:36  cwulfman
+          moving sgml files into separate directory; making xml files primary
+          
+          Revision 1.3  2003/07/01 22:16:26  yorkc
+          Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+          
+          Revision 1.2  2001/03/15 14:06:23  kgould
+          Copyedited all.
+          
+          Revision 1.1  2000/10/23 20:27:59  cwulfman
+          Adding sonnets, venus and adonis, and rape of lucrece to repository.
+          
+        </item></change>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text lang="en">
+    <front>
+      <div1 n="epigraph" type="section">
+        <lg lang="la">
+          <l>Vilia miretur vulgus; mihi flavus Apollo</l>
+          <l>Pocula Castalia plena ministret aqua.</l>
+        </lg>
+      </div1>
+      
+      <div1 n="dedication" type="section">
+        <opener>To the Right Honorable Henry Wriothesly, Earl of
+          Southampton, and Baron of Tichfield.
+          <salute>Right Honourable,</salute>
+          
+        </opener>
+        <p> I KNOW not how I shall offend in dedicating my unpolished lines to
+          your lordship, nor how the world will censure me for choosing so
+          strong a prop to support so weak a burden: only if your honor seem but
+          pleased, I account myself highly praised, and vow to take advantage of
+          all idle hours, till I have honored you with some graver labor. But if
+          the first heir of my invention prove deformed, I shall be sorry it had
+          so noble a god-father, and never after ear so barren a land, for fear
+          it yield me still so bad a harvest. I leave it to your honor- able
+          survey, and your honor to your heart's content; which I wish may
+          always answer your own wish and the world's hopeful expectation. </p>
+        <closer>
+          <salute>Your honour's in all duty,</salute>
+          <signed>WILLIAM SHAKESPEARE.</signed>
+        </closer>
+      </div1>
+    </front>
+    
+    <body>
+      <div n="ven" type="section">
+        <lg1 n="1" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1">EVEN as the sun with purple-color'd face</l>
+            <l n="2">Had ta'en his last leave of the weeping morn,</l>
+            <l n="3">Rose-cheek'd Adonis hied him to the chase;</l>
+            <l n="4">Hunting he loved, but love he laugh'd to scorn;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="5">   Sick-thoughted Venus makes amain unto him, </l>
+            <l n="6">   And like a bold-faced suitor 'gins to woo him.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="2" type="stanza">
+          <lg2 type="quatrain">
+            <l n="7">'Thrice-fairer than myself,' thus she began,</l>
+            <l n="8">'The field's chief flower, sweet above compare,</l>
+            <l n="9">Stain to all nymphs, more lovely than a man,</l>
+            <l n="10">More white and red than doves or roses are;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="11">   Nature that made thee, with herself at strife,</l>
+            <l n="12">   Saith that the world hath ending with thy life. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="3" type="stanza">
+          <lg2 type="quatrain">
+            <l n="13">'Vouchsafe, thou wonder, to alight thy steed,</l>
+            <l n="14">And rein his proud head to the saddle-bow;</l>
+            <l n="15">If thou wilt deign this favor, for thy meed</l>
+            <l n="16">A thousand honey secrets shalt thou know:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="17">   Here come and sit, where never serpent hisses, </l>
+            <l n="18">   And being set, I'll smother thee with kisses;</l>
+          </lg2>
+        </lg1>
+        <lg1 n="4" type="stanza">
+          <lg2 type="quatrain">
+            <l n="19">'And yet not cloy thy lips with loathed satiety,</l>
+            <l n="20">But rather famish them amid their plenty, </l>
+            <l n="21">Making them red and pale with fresh variety,</l>
+            <l n="22">Ten kisses short as one, one long as twenty:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="23">  A summer's day will seem an hour but short,</l>
+            <l n="24">  Being wasted in such time-beguiling sport.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="5" type="stanza">
+          <lg2 type="quatrain">
+            <l n="25">With this she seizeth on his sweating palm,</l>
+            <l n="26">The precedent of pith and livelihood,</l>
+            <l n="27">And trembling in her passion, calls it balm,</l>
+            <l n="28">Earth's sovereign salve to do a goddess good:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="29">   Being so enraged, desire doth lend her force</l>
+            <l n="30">   Courageously to pluck him from his horse.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="6" type="stanza">
+          <lg2 type="quatrain">
+            <l n="31">Over one arm the lusty courser's rein,      </l>
+            <l n="32">Under her other was the tender boy,</l>
+            <l n="33">Who blush'd and pouted in a dull disdain,</l>
+            <l n="34">With leaden appetite, unapt to toy;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="35">   She red and hot as coals of glowing fire,</l>
+            <l n="36">   He red for shame, but frosty in desire.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="7" type="stanza">
+          <lg2 type="quatrain">
+            <l n="37">The studded bridle on a ragged bough</l>
+            <l n="38">Nimbly she fastens:--O, how quick is love!--</l>
+            <l n="39">The steed is stalled up, and even now</l>
+            <l n="40">To tie the rider she begins to prove:         </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="41">   Backward she push'd him, as she would be thrust, </l>
+            <l n="42">   And govern'd him in strength, though not in lust. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="8" type="stanza">
+          <lg2 type="quatrain">
+            <l n="43">So soon was she along as he was down,</l>
+            <l n="44">Each leaning on their elbows and their hips:</l>
+            <l n="45">Now doth she stroke his cheek, now doth he frown, </l>
+            <l n="46"> And 'gins to chide, but soon she stops his lips;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="47">   And kissing speaks, with lustful language broken, </l>
+            <l n="48">   'If thou wilt chide, thy lips shall never open.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="9" type="stanza">
+          <lg2 type="quatrain">
+            <l n="49">He burns with bashful shame: she with her tears </l>
+            <l n="50">Doth quench the maiden burning of his cheeks;</l>
+            <l n="51">Then with her windy sighs and golden hairs</l>
+            <l n="52">To fan and blow them dry again she seeks:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="53">   He saith she is immodest, blames her 'miss;</l>
+            <l n="54">   What follows more she murders with a kiss.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="10" type="stanza">
+          <lg2 type="quatrain">
+            <l n="55">Even as an empty eagle, sharp by fast,</l>
+            <l n="56">Tires with her beak on feathers, flesh and bone,</l>
+            <l n="57">Shaking her wings, devouring all in haste,</l>
+            <l n="58">Till either gorge be stuff'd or prey be gone;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="59">   Even so she kissed his brow, his cheek, his chin, </l>
+            <l n="60">   And where she ends she doth anew begin.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="11" type="stanza">
+          <lg2 type="quatrain">
+            <l n="61">Forced to content, but never to obey,</l>
+            <l n="62">Panting he lies and breatheth in her face;</l>
+            <l n="63">She feedeth on the steam as on a prey,</l>
+            <l n="64">And calls it heavenly moisture, air of grace;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="65">   Wishing her cheeks were gardens full of flowers, </l>
+            <l n="66">   So they were dew'd with such distilling showers. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="12" type="stanza">
+          <lg2 type="quatrain">
+            <l n="67">Look, how a bird lies tangled in a net,</l>
+            <l n="68">So fasten'd in her arms Adonis lies;</l>
+            <l n="69">Pure shame and awed resistance made him fret,</l>
+            <l n="70">Which bred more beauty in his angry eyes: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="71">   Rain added to a river that is rank</l>
+            <l n="72">   Perforce will force it overflow the bank.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="13" type="stanza">
+          <lg2 type="quatrain">
+            <l n="73">Still she entreats, and prettily entreats,</l>
+            <l n="74">For to a pretty ear she tunes her tale;</l>
+            <l n="75">Still is he sullen, still he lours and frets,</l>
+            <l n="76">'Twixt crimson shame and anger ashy-pale:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="77">   Being red, she loves him best; and being white, </l>
+            <l n="78">   Her best is better'd with a more delight.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="14" type="stanza">
+          <lg2 type="quatrain">
+            <l n="79">Look how he can, she cannot choose but love;</l>
+            <l n="80">And by her fair immortal hand she swears, </l>
+            <l n="81">From his soft bosom never to remove,</l>
+            <l n="82">Till he take truce with her contending tears,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="83">   Which long have rain'd, making her cheeks all wet; </l>
+            <l n="84">   And one sweet kiss shall pay this countless debt. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="15" type="stanza">
+          <lg2 type="quatrain">
+            <l n="85">Upon this promise did he raise his chin,</l>
+            <l n="86">Like a dive-dapper peering through a wave,</l>
+            <l n="87">Who, being look'd on, ducks as quickly in;</l>
+            <l n="88">So offers he to give what she did crave;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="89">   But when her lips were ready for his pay,</l>
+            <l n="90">   He winks, and turns his lips another way. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="16" type="stanza">
+          <lg2 type="quatrain">
+            <l n="91">Never did passenger in summer's heat</l>
+            <l n="92">More thirst for drink than she for this good turn. </l>
+            <l n="93">Her help she sees, but help she cannot get;</l>
+            <l n="94">She bathes in water, yet her fire must burn:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="95">   'O, pity,' 'gan she cry, 'flint-hearted boy!</l>
+            <l n="96">   'Tis but a kiss I beg; why art thou coy?</l>
+          </lg2>
+        </lg1>
+        <lg1 n="17" type="stanza">
+          <lg2 type="quatrain">
+            <l n="97">'I have been woo'd, as I entreat thee now,</l>
+            <l n="98">Even by the stern and direful god of war,</l>
+            <l n="99">Whose sinewy neck in battle ne'er did bow,</l>
+            <l n="100">Who conquers where he comes in every jar;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="101">   Yet hath he been my captive and my slave,</l>
+            <l n="102">   And begg'd for that which thou unask'd shalt have. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="18" type="stanza">
+          <lg2 type="quatrain">
+            <l n="103">'Over my altars hath he hung his lance,</l>
+            <l n="104">His batter'd shield, his uncontrolled crest,</l>
+            <l n="105">And for my sake hath learn'd to sport and dance, </l>
+            <l n="106">To toy, to wanton, dally, smile and jest,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="107">   Scorning his churlish drum and ensign red,</l>
+            <l n="108">   Making my arms his field, his tent my bed.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="19" type="stanza">
+          <lg2 type="quatrain">
+            <l n="109">'Thus he that overruled I oversway'd,</l>
+            <l n="110">Leading him prisoner in a red-rose chain: </l>
+            <l n="111">Strong-tempered steel his stronger strength obey'd, </l>
+            <l n="112">Yet was he servile to my coy disdain.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="113"> O, be not proud, nor brag not of thy might,</l>
+            <l n="114">   For mastering her that foil'd the god of fight!</l>
+          </lg2>
+        </lg1>
+        <lg1 n="20" type="stanza">
+          <lg2 type="quatrain">
+            <l n="115">'Touch but my lips with those fair lips of thine,-- </l>
+            <l n="116">Though mine be not so fair, yet are they red--</l>
+            <l n="117">The kiss shall be thine own as well as mine.</l>
+            <l n="118">What seest thou in the ground? hold up thy head: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="119">   Look in mine eye-balls, there thy beauty lies;</l>
+            <l n="120">   Then why not lips on lips, since eyes in eyes?</l>
+          </lg2>
+        </lg1>
+        <lg1 n="21" type="stanza">
+          <lg2 type="quatrain">
+            <l n="121">'Art thou ashamed to kiss? then wink again,</l>
+            <l n="122">And I will wink; so shall the day seem night;</l>
+            <l n="123">Love keeps his revels where they are but twain; </l>
+            <l n="124">Be bold to play, our sport is not in sight:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="125">   These blue-vein'd violets whereon we lean</l>
+            <l n="126">   Never can blab, nor know not what we mean. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="22" type="stanza">
+          <lg2 type="quatrain">
+            <l n="127">'The tender spring upon thy tempting lip</l>
+            <l n="128">Shows thee unripe; yet mayst thou well be tasted: </l>
+            <l n="129">Make use of time, let not advantage slip;</l>
+            <l n="130">Beauty within itself should not be wasted: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="131">   Fair flowers that are not gather'd in their prime </l>
+            <l n="132">   Rot and consume themselves in little time.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="23" type="stanza">
+          <lg2 type="quatrain">
+            <l n="133">'Were I hard-favor'd, foul, or wrinkled-old,</l>
+            <l n="134">Ill-nurtured, crooked, churlish, harsh in voice,</l>
+            <l n="135">O'erworn, despised, rheumatic and cold,</l>
+            <l n="136">Thick-sighted, barren, lean and lacking juice,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="137">   Then mightst thou pause, for then I were not for thee; </l>
+            <l n="138">   But having no defects, why dost abhor me?</l>
+          </lg2>
+        </lg1>
+        <lg1 n="24" type="stanza">
+          <lg2 type="quatrain">
+            <l n="139">'Thou canst not see one wrinkle in my brow;</l>
+            <l n="140">Mine eyes are gray and bright and quick in turning:</l>
+            <l n="141">My beauty as the spring doth yearly grow,</l>
+            <l n="142">My flesh is soft and plump, my marrow burning; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="143">   My smooth moist hand, were it with thy hand felt, </l>
+            <l n="144">   Would in thy palm dissolve, or seem to melt.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="25" type="stanza">
+          <lg2 type="quatrain">
+            <l n="145">'Bid me discourse, I will enchant thine ear,</l>
+            <l n="146">Or, like a fairy, trip upon the green,</l>
+            <l n="147">Or, like a nymph, with long dishevell'd hair,</l>
+            <l n="148">Dance on the sands, and yet no footing seen:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="149">   Love is a spirit all compact of fire,</l>
+            <l n="150">   Not gross to sink, but light, and will aspire.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="26" type="stanza">
+          <lg2 type="quatrain">
+            <l n="151">'Witness this primrose bank whereon I lie;</l>
+            <l n="152">These forceless flowers like sturdy trees support me; </l>
+            <l n="153">Two strengthless doves will draw me through the sky, </l>
+            <l n="154">From morn till night, even where I list to sport me: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="155">   Is love so light, sweet boy, and may it be</l>
+            <l n="156">   That thou shouldst think it heavy unto thee?</l>
+          </lg2>
+        </lg1>
+        <lg1 n="27" type="stanza">
+          <lg2 type="quatrain">
+            <l n="157">'Is thine own heart to thine own face affected?</l>
+            <l n="158">Can thy right hand seize love upon thy left?</l>
+            <l n="159">Then woo thyself, be of thyself rejected,</l>
+            <l n="160">Steal thine own freedom and complain on theft.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="161">   Narcissus so himself himself forsook,     </l>
+            <l n="162">   And died to kiss his shadow in the brook.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="28" type="stanza">
+          <lg2 type="quatrain">
+            <l n="163">'Torches are made to light, jewels to wear,</l>
+            <l n="164">Dainties to taste, fresh beauty for the use,</l>
+            <l n="165">Herbs for their smell, and sappy plants to bear:</l>
+            <l n="166">Things growing to themselves are growth's abuse: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="167">   Seeds spring from seeds and beauty breedeth beauty; </l>
+            <l n="168">   Thou wast begot; to get it is thy duty.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="29" type="stanza">
+          <lg2 type="quatrain">
+            <l n="169">'Upon the earth's increase why shouldst thou feed, </l>
+            <l n="170">Unless the earth with thy increase be fed?</l>
+            <l n="171">By law of nature thou art bound to breed,</l>
+            <l n="172">That thine may live when thou thyself art dead; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="173">   And so, in spite of death, thou dost survive,</l>
+            <l n="174">   In that thy likeness still is left alive.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="30" type="stanza">
+          <lg2 type="quatrain">
+            <l n="175">By this the love-sick queen began to sweat,</l>
+            <l n="176">For where they lay the shadow had forsook them, </l>
+            <l n="177">And Titan, tired in the mid-day heat,</l>
+            <l n="178">With burning eye did hotly overlook them;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="179">   Wishing Adonis had his team to guide,</l>
+            <l n="180">   So he were like him and by Venus' side.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="31" type="stanza">
+          <lg2 type="quatrain">
+            <l n="181">And now Adonis, with a lazy spright,</l>
+            <l n="182">And with a heavy, dark, disliking eye,</l>
+            <l n="183">His louring brows o'erwhelming his fair sight,</l>
+            <l n="184">Like misty vapors when they blot the sky,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="185">   Souring his cheeks cries 'Fie, no more of love! </l>
+            <l n="186">   The sun doth burn my face: I must remove.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="32" type="stanza">
+          <lg2 type="quatrain">
+            <l n="187">'Ay me,' quoth Venus, 'young, and so unkind?</l>
+            <l n="188">What bare excuses makest thou to be gone!</l>
+            <l n="189">I'll sigh celestial breath, whose gentle wind</l>
+            <l n="190">Shall cool the heat of this descending sun:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="191">   I'll make a shadow for thee of my hairs;</l>
+            <l n="192">   If they burn too, I'll quench them with my tears. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="33" type="stanza">
+          <lg2 type="quatrain">
+            <l n="193">'The sun that shines from heaven shines but warm, </l>
+            <l n="194">And, lo, I lie between that sun and thee:</l>
+            <l n="195">The heat I have from thence doth little harm,</l>
+            <l n="196">Thine eye darts forth the fire that burneth me;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="197">   And were I not immortal, life were done</l>
+            <l n="198">   Between this heavenly and earthly sun.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="34" type="stanza">
+          <lg2 type="quatrain">
+            <l n="199">'Art thou obdurate, flinty, hard as steel,</l>
+            <l n="200">Nay, more than flint, for stone at rain relenteth?</l>
+            <l n="201">Art thou a woman's son, and canst not feel</l>
+            <l n="202">What 'tis to love? how want of love tormenteth? </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="203">  O, had thy mother borne so hard a mind,</l>
+            <l n="204">  She had not brought forth thee, but died unkind. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="35" type="stanza">
+          <lg2 type="quatrain">
+            <l n="205">'What am I, that thou shouldst contemn me this? </l>
+            <l n="206">Or what great danger dwells upon my suit?</l>
+            <l n="207">What were thy lips the worse for one poor kiss?</l>
+            <l n="208">Speak, fair; but speak fair words, or else be mute: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="209">   Give me one kiss, I'll give it thee again,</l>
+            <l n="210">   And one for interest, if thou wilt have twain.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="36" type="stanza">
+          <lg2 type="quatrain">
+            <l n="211">'Fie, lifeless picture, cold and senseless stone,</l>
+            <l n="212">Well-painted idol, image dull and dead,</l>
+            <l n="213">Statue contenting but the eye alone,</l>
+            <l n="214">Thing like a man, but of no woman bred!</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="215">   Thou art no man, though of a man's complexion, </l>
+            <l n="216">   For men will kiss even by their own direction.' </l>
+          </lg2>
+        </lg1>
+        <lg1 n="37" type="stanza">
+          <lg2 type="quatrain">
+            <l n="217">This said, impatience chokes her pleading tongue, </l>
+            <l n="218">And swelling passion doth provoke a pause;</l>
+            <l n="219">Red cheeks and fiery eyes blaze forth her wrong; </l>
+            <l n="220">Being judge in love, she cannot right her cause: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="221">   And now she weeps, and now she fain would speak, </l>
+            <l n="222">   And now her sobs do her intendments break.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="38" type="stanza">
+          <lg2 type="quatrain">
+            <l n="223">Sometimes she shakes her head and then his hand, </l>
+            <l n="224">Now gazeth she on him, now on the ground;</l>
+            <l n="225">Sometimes her arms infold him like a band:</l>
+            <l n="226">She would, he will not in her arms be bound;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="227">   And when from thence he struggles to be gone, </l>
+            <l n="228">   She locks her lily fingers one in one.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="39" type="stanza">
+          <lg2 type="quatrain">
+            <l n="229">'Fondling,' she saith, 'since I have hemm'd thee here </l>
+            <l n="230">Within the circuit of this ivory pale,   </l>
+            <l n="231">I'll be a park, and thou shalt be my deer;</l>
+            <l n="232">Feed where thou wilt, on mountain or in dale:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="233">   Graze on my lips; and if those hills be dry,</l>
+            <l n="234">   Stray lower, where the pleasant fountains lie.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="40" type="stanza">
+          <lg2 type="quatrain">
+            <l n="235">'Within this limit is relief enough,</l>
+            <l n="236">Sweet bottom-grass and high delightful plain,</l>
+            <l n="237">Round rising hillocks, brakes obscure and rough, </l>
+            <l n="238">To shelter thee from tempest and from rain</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="239">   Then be my deer, since I am such a park;</l>
+            <l n="240">   No dog shall rouse thee, though a thousand bark.' </l>
+          </lg2>
+        </lg1>
+        <lg1 n="41" type="stanza">
+          <lg2 type="quatrain">
+            <l n="241">At this Adonis smiles as in disdain,</l>
+            <l n="242">That in each cheek appears a pretty dimple:</l>
+            <l n="243">Love made those hollows, if himself were slain,</l>
+            <l n="244">He might be buried in a tomb so simple;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="245">   Foreknowing well, if there he came to lie,</l>
+            <l n="246">   Why, there Love lived and there he could not die. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="42" type="stanza">
+          <lg2 type="quatrain">
+            <l n="247">These lovely caves, these round enchanting pits,</l>
+            <l n="248">Open'd their mouths to swallow Venus' liking.</l>
+            <l n="249">Being mad before, how doth she now for wits?</l>
+            <l n="250">Struck dead at first, what needs a second striking? </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="251">   Poor queen of love, in thine own law forlorn, </l>
+            <l n="252">   To love a cheek that smiles at thee in scorn!</l>
+          </lg2>
+        </lg1>
+        <lg1 n="43" type="stanza">
+          <lg2 type="quatrain">
+            <l n="253">Now which way shall she turn? what shall she say? </l>
+            <l n="254">Her words are done, her woes are more increasing; </l>
+            <l n="255">The time is spent, her object will away,</l>
+            <l n="256">And from her twining arms doth urge releasing.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="257">   'Pity,' she cries, 'some favor, some remorse!'</l>
+            <l n="258">   Away he springs and hasteth to his horse.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="44" type="stanza">
+          <lg2 type="quatrain">
+            <l n="259">But, lo, from forth a copse that neighbors by,</l>
+            <l n="260">A breeding jennet, lusty, young and proud,</l>
+            <l n="261">Adonis' trampling courser doth espy,</l>
+            <l n="262">And forth she rushes, snorts and neighs aloud:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="263">   The strong-neck'd steed, being tied unto a tree, </l>
+            <l n="264">   Breaketh his rein, and to her straight goes he.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="45" type="stanza">
+          <lg2 type="quatrain">
+            <l n="265">Imperiously he leaps, he neighs, he bounds,</l>
+            <l n="266">And now his woven girths he breaks asunder;</l>
+            <l n="267">The bearing earth with his hard hoof he wounds, </l>
+            <l n="268">Whose hollow womb resounds like heaven's thunder; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="269">   The iron bit he crusheth 'tween his teeth,</l>
+            <l n="270">   Controlling what he was controlled with.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="46" type="stanza">
+          <lg2 type="quatrain">
+            <l n="271">His ears up-prick'd; his braided hanging mane</l>
+            <l n="272">Upon his compass'd crest now stand on end;</l>
+            <l n="273">His nostrils drink the air, and forth again,</l>
+            <l n="274">As from a furnace, vapors doth he send:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="275">   His eye, which scornfully glisters like fire,</l>
+            <l n="276">   Shows his hot courage and his high desire.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="47" type="stanza">
+          <lg2 type="quatrain">
+            <l n="277">Sometime he trots, as if he told the steps,</l>
+            <l n="278">With gentle majesty and modest pride;</l>
+            <l n="279">Anon he rears upright, curvets and leaps,</l>
+            <l n="280">As who should say 'Lo, thus my strength is tried, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="281">   And this I do to captivate the eye</l>
+            <l n="282">   Of the fair breeder that is standing by.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="48" type="stanza">
+          <lg2 type="quatrain">
+            <l n="283">What recketh he his rider's angry stir,</l>
+            <l n="284">His flattering 'Holla,' or his 'Stand, I say'?</l>
+            <l n="285">What cares he now for curb or pricking spur?</l>
+            <l n="286">For rich caparisons or trapping gay?</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="287">   He sees his love, and nothing else he sees,</l>
+            <l n="288">   For nothing else with his proud sight agrees.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="49" type="stanza">
+          <lg2 type="quatrain">
+            <l n="289">Look, when a painter would surpass the life,</l>
+            <l n="290">In limning out a well-proportion'd steed, </l>
+            <l n="291">His art with nature's workmanship at strife,</l>
+            <l n="292">As if the dead the living should exceed;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="293">   So did this horse excel a common one</l>
+            <l n="294">   In shape, in courage, color, pace and bone.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="50" type="stanza">
+          <lg2 type="quatrain">
+            <l n="295">Round-hoof'd, short-jointed, fetlocks shag and long, </l>
+            <l n="296">Broad breast, full eye, small head and nostril wide, </l>
+            <l n="297">High crest, short ears, straight legs and passing strong, </l>
+            <l n="298">Thin mane, thick tail, broad buttock, tender hide: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="299">   Look, what a horse should have he did not lack, </l>
+            <l n="300">   Save a proud rider on so proud a back. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="51" type="stanza">
+          <lg2 type="quatrain">
+            <l n="301">Sometime he scuds far off and there he stares;</l>
+            <l n="302">Anon he starts at stirring of a feather;</l>
+            <l n="303">To bid the wind a base he now prepares,</l>
+            <l n="304">And whether he run or fly they know not whether; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="305">   For through his mane and tail the high wind sings, </l>
+            <l n="306">   Fanning the hairs, who wave like feather'd wings. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="52" type="stanza">
+          <lg2 type="quatrain">
+            <l n="307">He looks upon his love and neighs unto her;</l>
+            <l n="308">She answers him as if she knew his mind:</l>
+            <l n="309">Being proud, as females are, to see him woo her,</l>
+            <l n="310">She puts on outward strangeness, seems unkind,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="311">   Spurns at his love and scorns the heat he feels, </l>
+            <l n="312">   Beating his kind embracements with her heels. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="53" type="stanza">
+          <lg2 type="quatrain">
+            <l n="313">Then, like a melancholy malcontent,</l>
+            <l n="314">He vails his tail that, like a falling plume,</l>
+            <l n="315">Cool shadow to his melting buttock lent:</l>
+            <l n="316">He stamps and bites the poor flies in his fume.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="317">   His love, perceiving how he is enraged,</l>
+            <l n="318">   Grew kinder, and his fury was assuaged.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="54" type="stanza">
+          <lg2 type="quatrain">
+            <l n="319">His testy master goeth about to take him;</l>
+            <l n="320">When, lo, the unback'd breeder, full of fear,</l>
+            <l n="321">Jealous of catching, swiftly doth forsake him,</l>
+            <l n="322">With her the horse, and left Adonis there:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="323">   As they were mad, unto the wood they hie them, </l>
+            <l n="324">   Out-stripping crows that strive to over-fly them. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="55" type="stanza">
+          <lg2 type="quatrain">
+            <l n="325">All swoln with chafing, down Adonis sits,</l>
+            <l n="326">Banning his boisterous and unruly beast:</l>
+            <l n="327">And now the happy season once more fits,</l>
+            <l n="328">That love-sick Love by pleading may be blest;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="329">   For lovers say, the heart hath treble wrong</l>
+            <l n="330">   When it is barr'd the aidance of the tongue.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="56" type="stanza">
+          <lg2 type="quatrain">
+            <l n="331">An oven that is stopp'd, or river stay'd, </l>
+            <l n="332">Burneth more hotly, swelleth with more rage:</l>
+            <l n="333">So of concealed sorrow may be said;</l>
+            <l n="334">Free vent of words love's fire doth assuage;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="335">   But when the heart's attorney once is mute,</l>
+            <l n="336">   The client breaks, as desperate in his suit.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="57" type="stanza">
+          <lg2 type="quatrain">
+            <l n="337">He sees her coming, and begins to glow,</l>
+            <l n="338">Even as a dying coal revives with wind,</l>
+            <l n="339">And with his bonnet hides his angry brow;</l>
+            <l n="340">Looks on the dull earth with disturbed mind,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="341">   Taking no notice that she is so nigh,   </l>
+            <l n="342">   For all askance he holds her in his eye.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="58" type="stanza">
+          <lg2 type="quatrain">
+            <l n="343">O, what a sight it was, wistly to view</l>
+            <l n="344">How she came stealing to the wayward boy!</l>
+            <l n="345">To note the fighting conflict of her hue,</l>
+            <l n="346">How white and red each other did destroy!</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="347">   But now her cheek was pale, and by and by</l>
+            <l n="348">   It flash'd forth fire, as lightning from the sky. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="59" type="stanza">
+          <lg2 type="quatrain">
+            <l n="349">Now was she just before him as he sat,</l>
+            <l n="350">And like a lowly lover down she kneels; </l>
+            <l n="351">With one fair hand she heaveth up his hat,</l>
+            <l n="352">Her other tender hand his fair cheek feels:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="353">   His tenderer cheek receives her soft hand's print, </l>
+            <l n="354">   As apt as new-fall'n snow takes any dint.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="60" type="stanza">
+          <lg2 type="quatrain">
+            <l n="355">O, what a war of looks was then between them!</l>
+            <l n="356">Her eyes petitioners to his eyes suing;</l>
+            <l n="357">His eyes saw her eyes as they had not seen them; </l>
+            <l n="358">Her eyes woo'd still, his eyes disdain'd the wooing: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="359">   And all this dumb play had his acts made plain </l>
+            <l n="360">   With tears, which, chorus-like, her eyes did rain. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="61" type="stanza">
+          <lg2 type="quatrain">
+            <l n="361">Full gently now she takes him by the hand,</l>
+            <l n="362">A lily prison'd in a gaol of snow,</l>
+            <l n="363">Or ivory in an alabaster band;</l>
+            <l n="364">So white a friend engirts so white a foe:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="365">   This beauteous combat, wilful and unwilling,</l>
+            <l n="366">   Show'd like two silver doves that sit a-billing.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="62" type="stanza">
+          <lg2 type="quatrain">
+            <l n="367">Once more the engine of her thoughts began:</l>
+            <l n="368">'O fairest mover on this mortal round,</l>
+            <l n="369">Would thou wert as I am, and I a man,</l>
+            <l n="370">My heart all whole as thine, thy heart my wound; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="371">   For one sweet look thy help I would assure thee, </l>
+            <l n="372">   Though nothing but my body's bane would cure thee.' </l>
+          </lg2>
+        </lg1>
+        <lg1 n="63" type="stanza">
+          <lg2 type="quatrain">
+            <l n="373">'Give me my hand,' saith he, 'why dost thou feel it?' </l>
+            <l n="374">'Give me my heart,' saith she, 'and thou shalt have it:</l>
+            <l n="375">O, give it me, lest thy hard heart do steel it,</l>
+            <l n="376">And being steel'd, soft sighs can never grave it:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="377">   Then love's deep groans I never shall regard, </l>
+            <l n="378">   Because Adonis' heart hath made mine hard.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="64" type="stanza">
+          <lg2 type="quatrain">
+            <l n="379">'For shame,' he cries, 'let go, and let me go;</l>
+            <l n="380">My day's delight is past, my horse is gone,</l>
+            <l n="381">And 'tis your fault I am bereft him so:</l>
+            <l n="382">I pray you hence, and leave me here alone;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="383">   For all my mind, my thought, my busy care,</l>
+            <l n="384">   Is how to get my palfrey from the mare.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="65" type="stanza">
+          <lg2 type="quatrain">
+            <l n="385">Thus she replies: 'Thy palfrey, as he should,</l>
+            <l n="386">Welcomes the warm approach of sweet desire:</l>
+            <l n="387">Affection is a coal that must be cool'd;</l>
+            <l n="388">Else, suffer'd, it will set the heart on fire:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="389">   The sea hath bounds, but deep desire hath none; </l>
+            <l n="390">   Therefore no marvel though thy horse be gone. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="66" type="stanza">
+          <lg2 type="quatrain">
+            <l n="391">'How like a jade he stood, tied to the tree,</l>
+            <l n="392">Servilely master'd with a leathern rein!</l>
+            <l n="393">But when he saw his love, his youth's fair fee,</l>
+            <l n="394">He held such petty bondage in disdain;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="395">   Throwing the base thong from his bending crest, </l>
+            <l n="396">   Enfranchising his mouth, his back, his breast.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="67" type="stanza">
+          <lg2 type="quatrain">
+            <l n="397">'Who sees his true-love in her naked bed,</l>
+            <l n="398">Teaching the sheets a whiter hue than white,</l>
+            <l n="399">But, when his glutton eye so full hath fed,</l>
+            <l n="400">His other agents aim at like delight?       </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="401">   Who is so faint, that dare not be so bold</l>
+            <l n="402">   To touch the fire, the weather being cold?</l>
+          </lg2>
+        </lg1>
+        <lg1 n="68" type="stanza">
+          <lg2 type="quatrain">
+            <l n="403">'Let me excuse thy courser, gentle boy;</l>
+            <l n="404">And learn of him, I heartily beseech thee,</l>
+            <l n="405">To take advantage on presented joy;</l>
+            <l n="406">Though I were dumb, yet his proceedings teach thee;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="407">  O, learn to love; the lesson is but plain,</l>
+            <l n="408">  And once made perfect, never lost again.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="69" type="stanza">
+          <lg2 type="quatrain">
+            <l n="409">'I know not love,' quoth he, 'nor will not know it, </l>
+            <l n="410">Unless it be a boar, and then I chase it; </l>
+            <l n="411">'Tis much to borrow, and I will not owe it;</l>
+            <l n="412">My love to love is love but to disgrace it;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="413">   For I have heard it is a life in death,</l>
+            <l n="414">   That laughs and weeps, and all but with a breath. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="70" type="stanza">
+          <lg2 type="quatrain">
+            <l n="415">'Who wears a garment shapeless and unfinish'd? </l>
+            <l n="416">Who plucks the bud before one leaf put forth? </l>
+            <l n="417">If springing things be any jot diminish'd,</l>
+            <l n="418">They wither in their prime, prove nothing worth: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="419">   The colt that's back'd and burden'd being young </l>
+            <l n="420">   Loseth his pride and never waxeth strong.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="71" type="stanza">
+          <lg2 type="quatrain">
+            <l n="421">'You hurt my hand with wringing; let us part,</l>
+            <l n="422">And leave this idle theme, this bootless chat:</l>
+            <l n="423">Remove your siege from my unyielding heart;</l>
+            <l n="424">To love's alarms it will not ope the gate:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="425">   Dismiss your vows, your feigned tears, your flattery; </l>
+            <l n="426">   For where a heart is hard they make no battery.' </l>
+          </lg2>
+        </lg1>
+        <lg1 n="72" type="stanza">
+          <lg2 type="quatrain">
+            <l n="427">'What! canst thou talk?' quoth she, 'hast thou a tongue? </l>
+            <l n="428">O, would thou hadst not, or I had no hearing!</l>
+            <l n="429">Thy mermaid's voice hath done me double wrong; </l>
+            <l n="430">I had my load before, now press'd with bearing: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="431">    Melodious discord, heavenly tune harshsounding, </l>
+            <l n="432">    Ear's deep-sweet music, and heart's deepsore wounding. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="73" type="stanza">
+          <lg2 type="quatrain">
+            <l n="433">'Had I no eyes but ears, my ears would love</l>
+            <l n="434">That inward beauty and invisible;</l>
+            <l n="435">Or were I deaf, thy outward parts would move </l>
+            <l n="436">Each part in me that were but sensible:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="437">   Though neither eyes nor ears, to hear nor see, </l>
+            <l n="438">   Yet should I be in love by touching thee.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="74" type="stanza">
+          <lg2 type="quatrain">
+            <l n="439">'Say, that the sense of feeling were bereft me,</l>
+            <l n="440">And that I could not see, nor hear, nor touch,</l>
+            <l n="441">And nothing but the very smell were left me,</l>
+            <l n="442">Yet would my love to thee be still as much;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="443">   For from the stillitory of thy face excelling</l>
+            <l n="444">   Comes breath perfumed that breedeth love by smelling. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="75" type="stanza">
+          <lg2 type="quatrain">
+            <l n="445">'But, O, what banquet wert thou to the taste,</l>
+            <l n="446">Being nurse and feeder of the other four!</l>
+            <l n="447">Would they not wish the feast might ever last,</l>
+            <l n="448">And bid Suspicion double-lock the door,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="449">   Lest Jealousy, that sour unwelcome guest,</l>
+            <l n="450">   Should, by his stealing in, disturb the feast?'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="76" type="stanza">
+          <lg2 type="quatrain">
+            <l n="451">Once more the ruby-color'd portal open'd,</l>
+            <l n="452">Which to his speech did honey passage yield;</l>
+            <l n="453">Like a red morn, that ever yet betoken'd</l>
+            <l n="454">Wreck to the seaman, tempest to the field,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="455">   Sorrow to shepherds, woe unto the birds,</l>
+            <l n="456">   Gusts and foul flaws to herdmen and to herds. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="77" type="stanza">
+          <lg2 type="quatrain">
+            <l n="457">This ill presage advisedly she marketh:</l>
+            <l n="458">Even as the wind is hush'd before it raineth,</l>
+            <l n="459">Or as the wolf doth grin before he barketh,</l>
+            <l n="460">Or as the berry breaks before it staineth, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="461">   Or like the deadly bullet of a gun,</l>
+            <l n="462">   His meaning struck her ere his words begun. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="78" type="stanza">
+          <lg2 type="quatrain">
+            <l n="463">And at his look she flatly falleth down,</l>
+            <l n="464">For looks kill love and love by looks reviveth; </l>
+            <l n="465">A smile recures the wounding of a frown;</l>
+            <l n="466">But blessed bankrupt, that by love so thriveth! </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="467">   The silly boy, believing she is dead,</l>
+            <l n="468">   Claps her pale cheek, till clapping makes it red; </l>
+          </lg2>
+        </lg1>
+        <lg1 n="79" type="stanza">
+          <lg2 type="quatrain">
+            <l n="469">And all amazed brake off his late intent,</l>
+            <l n="470">For sharply he did think to reprehend her, </l>
+            <l n="471">Which cunning love did wittily prevent:</l>
+            <l n="472">Fair fall the wit that can so well defend her!</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="473">   For on the grass she lies as she were slain,</l>
+            <l n="474">   Till his breath breatheth life in her again.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="80" type="stanza">
+          <lg2 type="quatrain">
+            <l n="475">He wrings her nose, he strikes her on the cheeks, </l>
+            <l n="476">He bends her fingers, holds her pulses hard,</l>
+            <l n="477">He chafes her lips; a thousand ways he seeks</l>
+            <l n="478">To mend the hurt that his unkindness marr'd:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="479">    He kisses her; and she, by her good will,</l>
+            <l n="480">    Will never rise, so he will kiss her still. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="81" type="stanza">
+          <lg2 type="quatrain">
+            <l n="481">The night of sorrow now is turn'd to day:</l>
+            <l n="482">Her two blue windows faintly she up-heaveth,</l>
+            <l n="483">Like the fair sun, when in his fresh array</l>
+            <l n="484">He cheers the morn and all the earth relieveth; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="485">   And as the bright sun glorifies the sky,</l>
+            <l n="486">   So is her face illumined with her eye;</l>
+          </lg2>
+        </lg1>
+        <lg1 n="82" type="stanza">
+          <lg2 type="quatrain">
+            <l n="487">Whose beams upon his hairless face are fix'd,</l>
+            <l n="488">As if from thence they borrow'd all their shine. </l>
+            <l n="489">Were never four such lamps together mix'd,</l>
+            <l n="490">Had not his clouded with his brow's repine;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="491">   But hers, which through the crystal tears gave light, </l>
+            <l n="492">   Shone like the moon in water seen by night.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="83" type="stanza">
+          <lg2 type="quatrain">
+            <l n="493">'O, where am I?' quoth she, 'in earth or heaven, </l>
+            <l n="494">Or in the ocean drench'd, or in the fire?</l>
+            <l n="495">What hour is this? or morn or weary even?</l>
+            <l n="496">Do I delight to die, or life desire?</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="497">   But now I lived, and life was death's annoy; </l>
+            <l n="498">   But now I died, and death was lively joy.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="84" type="stanza">
+          <lg2 type="quatrain">
+            <l n="499">'O, thou didst kill me: kill me once again:</l>
+            <l n="500">Thy eyes' shrewd tutor, that hard heart of thine, </l>
+            <l n="501">Hath taught them scornful tricks and such disdain </l>
+            <l n="502">That they have murder'd this poor heart of mine; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="503">   And these mine eyes, true leaders to their queen, </l>
+            <l n="504">   But for thy piteous lips no more had seen.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="85" type="stanza">
+          <lg2 type="quatrain">
+            <l n="505">'Long may they kiss each other, for this cure!</l>
+            <l n="506">O, never let their crimson liveries wear!</l>
+            <l n="507">And as they last, their verdure still endure,</l>
+            <l n="508">To drive infection from the dangerous year!</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="509">   That the star-gazers, having writ on death,</l>
+            <l n="510">   May say, the plague is banish'd by thy breath. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="86" type="stanza">
+          <lg2 type="quatrain">
+            <l n="511">'Pure lips, sweet seals in my soft lips imprinted, </l>
+            <l n="512">What bargains may I make, still to be sealing? </l>
+            <l n="513">To sell myself I can be well contented,</l>
+            <l n="514">So thou wilt buy and pay and use good dealing; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="515">   Which purchase if thou make, for fear of slips </l>
+            <l n="516">   Set thy seal-manual on my wax-red lips.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="87" type="stanza">
+          <lg2 type="quatrain">
+            <l n="517">'A thousand kisses buys my heart from me;</l>
+            <l n="518">And pay them at thy leisure, one by one.</l>
+            <l n="519">What is ten hundred touches unto thee?</l>
+            <l n="520">Are they not quickly told and quickly gone?</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="521">   Say, for non-payment that the debt should double, </l>
+            <l n="522">   Is twenty hundred kisses such a trouble?'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="88" type="stanza">
+          <lg2 type="quatrain">
+            <l n="523">'Fair queen,' quoth he, 'if any love you owe me, </l>
+            <l n="524">Measure my strangeness with my unripe years:</l>
+            <l n="525">Before I know myself, seek not to know me;</l>
+            <l n="526">No fisher but the ungrown fry forbears:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="527">   The mellow plum doth fall, the green sticks fast, </l>
+            <l n="528">   Or being early pluck'd is sour to taste.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="89" type="stanza">
+          <lg2 type="quatrain">
+            <l n="529">'Look, the world's comforter, with weary gait,</l>
+            <l n="530">His day's hot task hath ended in the west;</l>
+            <l n="531">The owl, night's herald, shrieks, "'Tis very late;" </l>
+            <l n="532">The sheep are gone to fold, birds to their nest, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="533">   And coal-black clouds that shadow heaven's light </l>
+            <l n="534">   Do summon us to part and bid good night.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="90" type="stanza">
+          <lg2 type="quatrain">
+            <l n="535">'Now let me say "Good night," and so say you; </l>
+            <l n="536">If you will say so, you shall have a kiss.'</l>
+            <l n="537">'Good night,' quoth she, and, ere he says 'Adieu,' </l>
+            <l n="538">The honey fee of parting tender'd is:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="539">   Her arms do lend his neck a sweet embrace; </l>
+            <l n="540">   Incorporate then they seem; face grows to face. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="91" type="stanza">
+          <lg2 type="quatrain">
+            <l n="541">Till, breathless, he disjoin'd, and backward drew </l>
+            <l n="542">The heavenly moisture, that sweet coral mouth,</l>
+            <l n="543">Whose precious taste her thirsty lips well knew, </l>
+            <l n="544">Whereon they surfeit, yet complain on drouth: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="545">   He with her plenty press'd, she faint with dearth</l>
+            <l n="546">   Their lips together glued, fall to the earth.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="92" type="stanza">
+          <lg2 type="quatrain">
+            <l n="547">Now quick desire hath caught the yielding prey, </l>
+            <l n="548">And glutton-like she feeds, yet never filleth;</l>
+            <l n="549">Her lips are conquerors, his lips obey,</l>
+            <l n="550">Paying what ransom the insulter willeth;   </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="551">   Whose vulture thought doth pitch the price so high, </l>
+            <l n="552">   That she will draw his lips' rich treasure dry: </l>
+          </lg2>
+        </lg1>
+        <lg1 n="93" type="stanza">
+          <lg2 type="quatrain">
+            <l n="553">And having felt the sweetness of the spoil,</l>
+            <l n="554">With blindfold fury she begins to forage;</l>
+            <l n="555">Her face doth reek and smoke, her blood doth boil, </l>
+            <l n="556">And careless lust stirs up a desperate courage,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="557">   Planting oblivion, beating reason back,</l>
+            <l n="558">   Forgetting shame's pure blush and honor's wrack. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="94" type="stanza">
+          <lg2 type="quatrain">
+            <l n="559">Hot, faint, and weary, with her hard embracing, </l>
+            <l n="560">Like a wild bird being tamed with too much handling,</l>
+            <l n="561">Or as the fleet-foot roe that's tired with chasing, </l>
+            <l n="562">Or like the froward infant still'd with dandling, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="563">   He now obeys, and now no more resisteth,</l>
+            <l n="564">   While she takes all she can, not all she listeth. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="95" type="stanza">
+          <lg2 type="quatrain">
+            <l n="565">What wax so frozen but dissolves with tempering, </l>
+            <l n="566">And yields at last to every light impression?</l>
+            <l n="567">Things out of hope are compass'd oft with venturing, </l>
+            <l n="568">Chiefly in love, whose leave exceeds commission: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="569">   Affection faints not like a pale-faced coward, </l>
+            <l n="570">   But then woos best when most his choice is froward. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="96" type="stanza">
+          <lg2 type="quatrain">
+            <l n="571">When he did frown, O, had she then gave over, </l>
+            <l n="572">Such nectar from his lips she had not suck'd.</l>
+            <l n="573">Foul words and frowns must not repel a lover;</l>
+            <l n="574">What though the rose have prickles, yet 'tis pluck'd: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="575">   Were beauty under twenty locks kept fast,</l>
+            <l n="576">   Yet love breaks through and picks them all at last. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="97" type="stanza">
+          <lg2 type="quatrain">
+            <l n="577">For pity now she can no more detain him;</l>
+            <l n="578">The poor fool prays her that he may depart:</l>
+            <l n="579">She is resolved no longer to restrain him; </l>
+            <l n="580">Bids him farewell, and look well to her heart,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="581">   The which, by Cupid's bow she doth protest, </l>
+            <l n="582">   He carries thence incaged in his breast.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="98" type="stanza">
+          <lg2 type="quatrain">
+            <l n="583">'Sweet boy,' she says, 'this night I'll waste in sorrow, </l>
+            <l n="584">For my sick heart commands mine eyes to watch. </l>
+            <l n="585">Tell me, Love's master, shall we meet to-morrow? </l>
+            <l n="586">Say, shall we? shall we? wilt thou make the match?' </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="587">   He tells her, no; to-morrow he intends</l>
+            <l n="588">   To hunt the boar with certain of his friends.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="99" type="stanza">
+          <lg2 type="quatrain">
+            <l n="589">'The boar!' quoth she; whereat a sudden pale,</l>
+            <l n="590">Like lawn being spread upon the blushing rose, </l>
+            <l n="591">Usurps her cheek; she trembles at his tale,</l>
+            <l n="592">And on his neck her yoking arms she throws:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="593">   She sinketh down, still hanging by his neck,</l>
+            <l n="594">   He on her belly falls, she on her back.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="100" type="stanza">
+          <lg2 type="quatrain">
+            <l n="595">Now is she in the very lists of love,</l>
+            <l n="596">Her champion mounted for the hot encounter: </l>
+            <l n="597">All is imaginary she doth prove,</l>
+            <l n="598">He will not manage her, although he mount her; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="599">   That worse than Tantalus' is her annoy,</l>
+            <l n="600">   To clip Elysium and to lack her joy. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="101" type="stanza">
+          <lg2 type="quatrain">
+            <l n="601">Even as poor birds, deceived with painted grapes, </l>
+            <l n="602">Do surfeit by the eye and pine the maw,</l>
+            <l n="603">Even so she languisheth in her mishaps,</l>
+            <l n="604">As those poor birds that helpless berries saw.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="605">   The warm effects which she in him finds missing </l>
+            <l n="606">   She seeks to kindle with continual kissing.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="102" type="stanza">
+          <lg2 type="quatrain">
+            <l n="607">But all in vain; good queen, it will not be:</l>
+            <l n="608">She hath assay'd as much as may be proved;</l>
+            <l n="609">Her pleading hath deserved a greater fee; </l>
+            <l n="610">She's Love, she loves, and yet she is not loved. </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="611">   'Fie, fie,' he says, 'you crush me; let me go; </l>
+            <l n="612">   You have no reason to withhold me so.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="103" type="stanza">
+          <lg2 type="quatrain">
+            <l n="613">'Thou hadst been gone,' quoth she, 'sweet boy, ere this, </l>
+            <l n="614">But that thou told'st me thou wouldst hunt the boar. </l>
+            <l n="615">O, be advised! thou know'st not what it is</l>
+            <l n="616">With javelin's point a churlish swine to gore,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="617">   Whose tushes never sheathed he whetteth still, </l>
+            <l n="618">   Like to a mortal butcher bent to kill.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="104" type="stanza">
+          <lg2 type="quatrain">
+            <l n="619">'On his bow-back he hath a battle set</l>
+            <l n="620">Of bristly pikes, that ever threat his foes;     </l>
+            <l n="621">His eyes, like glow-worms, shine when he doth fret; </l>
+            <l n="622">His snout digs sepulchres where'er he goes;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="623">   Being moved, he strikes whate'er is in his way, </l>
+            <l n="624">   And whom he strikes his cruel tushes slay. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="105" type="stanza">
+          <lg2 type="quatrain">
+            <l n="625">'His brawny sides, with hairy bristles arm'd,</l>
+            <l n="626">Are better proof than thy spear's point can enter; </l>
+            <l n="627">His short thick neck cannot be easily harm'd;</l>
+            <l n="628">Being ireful, on the lion he will venture:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="629">  The thorny brambles and embracing bushes,</l>
+            <l n="630">  As fearful of him, part, through whom he rushes. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="106" type="stanza">
+          <lg2 type="quatrain">
+            <l n="631">'Alas, he nought esteems that face of thine,</l>
+            <l n="632">To which Love's eyes pay tributary gazes;</l>
+            <l n="633">Nor thy soft hands, sweet lips and crystal eyne, </l>
+            <l n="634">Whose full perfection all the world amazes;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="635">   But having thee at vantage,--wondrous dread!-- </l>
+            <l n="636">   Would root these beauties as he roots the mead. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="107" type="stanza">
+          <lg2 type="quatrain">
+            <l n="637">'O, let him keep his loathsome cabin still;</l>
+            <l n="638">Beauty hath nought to do with such foul fiends: </l>
+            <l n="639">Come not within his danger by thy will;</l>
+            <l n="640">They that thrive well take counsel of their friends. </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="641">   When thou didst name the boar, not to dissemble, </l>
+            <l n="642">   I fear'd thy fortune, and my joints did tremble. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="108" type="stanza">
+          <lg2 type="quatrain">
+            <l n="643">'Didst thou not mark my face? was it not white? </l>
+            <l n="644">Saw'st thou not signs of fear lurk in mine eye?</l>
+            <l n="645">Grew I not faint? and fell I not downright?</l>
+            <l n="646">Within my bosom, whereon thou dost lie,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="647">   My boding heart pants, beats, and takes no rest, </l>
+            <l n="648">   But, like an earthquake, shakes thee on my breast. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="109" type="stanza">
+          <lg2 type="quatrain">
+            <l n="649">'For where Love reigns, disturbing Jealousy</l>
+            <l n="650">Doth call himself Affection's sentinel;      </l>
+            <l n="651">Gives false alarms, suggesteth mutiny,</l>
+            <l n="652">And in a peaceful hour doth cry "Kill, kill!"</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="653">   Distempering gentle Love in his desire,</l>
+            <l n="654">   As air and water do abate the fire.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="110" type="stanza">
+          <lg2 type="quatrain">
+            <l n="655">'This sour informer, this bate-breeding spy,</l>
+            <l n="656">This canker that eats up Love's tender spring,</l>
+            <l n="657">This carry-tale, dissentious Jealousy,</l>
+            <l n="658">That sometime true news, sometime false doth bring, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="659">   Knocks at my heart and whispers in mine ear </l>
+            <l n="660">   That if I love thee, I thy death should fear:</l>
+          </lg2>
+        </lg1>
+        <lg1 n="111" type="stanza">
+          <lg2 type="quatrain">
+            <l n="661">'And more than so, presenteth to mine eye</l>
+            <l n="662">The picture of an angry-chafing boar,</l>
+            <l n="663">Under whose sharp fangs on his back doth lie</l>
+            <l n="664">An image like thyself, all stain'd with gore;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="665">   Whose blood upon the fresh flowers being shed </l>
+            <l n="666">   Doth make them droop with grief and hang the head. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="112" type="stanza">
+          <lg2 type="quatrain">
+            <l n="667">'What should I do, seeing thee so indeed,</l>
+            <l n="668">That tremble at the imagination?</l>
+            <l n="669">The thought of it doth make my faint heart bleed, </l>
+            <l n="670">And fear doth teach it divination:          </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="671">   I prophesy thy death, my living sorrow,</l>
+            <l n="672">   If thou encounter with the boar to-morrow.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="113" type="stanza">
+          <lg2 type="quatrain">
+            <l n="673">'But if thou needs wilt hunt, be ruled by me;</l>
+            <l n="674">Uncouple at the timorous flying hare,</l>
+            <l n="675">Or at the fox which lives by subtlety,</l>
+            <l n="676">Or at the roe which no encounter dare:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="677">   Pursue these fearful creatures o'er the downs,</l>
+            <l n="678">   And on thy well-breath'd horse keep with thy hounds. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="114" type="stanza">
+          <lg2 type="quatrain">
+            <l n="679">'And when thou hast on foot the purblind hare, </l>
+            <l n="680">Mark the poor wretch, to overshoot his troubles</l>
+            <l n="681">How he outruns the wind and with what care</l>
+            <l n="682">He cranks and crosses with a thousand doubles:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="683">   The many musets through the which he goes</l>
+            <l n="684">   Are like a labyrinth to amaze his foes.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="115" type="stanza">
+          <lg2 type="quatrain">
+            <l n="685">'Sometime he runs among a flock of sheep,</l>
+            <l n="686">To make the cunning hounds mistake their smell, </l>
+            <l n="687">And sometime where earth-delving conies keep,</l>
+            <l n="688">To stop the loud pursuers in their yell,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="689">   And sometime sorteth with a herd of deer:</l>
+            <l n="690">   Danger deviseth shifts; wit waits on fear:</l>
+          </lg2>
+        </lg1>
+        <lg1 n="116" type="stanza">
+          <lg2 type="quatrain">
+            <l n="691">'For there his smell with others being mingled,</l>
+            <l n="692">The hot scent-snuffing hounds are driven to doubt, </l>
+            <l n="693">Ceasing their clamorous cry till they have singled </l>
+            <l n="694">With much ado the cold fault cleanly out;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="695">   Then do they spend their mouths: Echo replies, </l>
+            <l n="696">   As if another chase were in the skies.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="117" type="stanza">
+          <lg2 type="quatrain">
+            <l n="697">'By this, poor Wat, far off upon a hill,</l>
+            <l n="698">Stands on his hinder legs with listening ear,</l>
+            <l n="699">To hearken if his foes pursue him still:</l>
+            <l n="700">Anon their loud alarums he doth hear;     </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="701">   And now his grief may be compared well</l>
+            <l n="702">   To one sore sick that hears the passing-bell.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="118" type="stanza">
+          <lg2 type="quatrain">
+            <l n="703">'Then shalt thou see the dew-bedabbled wretch</l>
+            <l n="704">Turn, and return, indenting with the way;</l>
+            <l n="705">Each envious brier his weary legs doth scratch,</l>
+            <l n="706">Each shadow makes him stop, each murmur stay: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="707">   For misery is trodden on by many,</l>
+            <l n="708">   And being low never relieved by any.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="119" type="stanza">
+          <lg2 type="quatrain">
+            <l n="709">'Lie quietly, and hear a little more;        </l>
+            <l n="710">Nay, do not struggle, for thou shalt not rise:</l>
+            <l n="711">To make thee hate the hunting of the boar,</l>
+            <l n="712">Unlike myself thou hear'st me moralize,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="713">   Applying this to that, and so to so;</l>
+            <l n="714">   For love can comment upon every woe.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="120" type="stanza">
+          <lg2 type="quatrain">
+            <l n="715">'Where did I leave?' 'No matter where;' quoth he, </l>
+            <l n="716">'Leave me, and then the story aptly ends:</l>
+            <l n="717">The night is spent.' 'Why, what of that?' quoth she. </l>
+            <l n="718">'I am,' quoth he, 'expected of my friends;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="719">   And now 'tis dark, and going I shall fall.'</l>
+            <l n="720">   'In night,' quoth she, 'desire sees best of all.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="121" type="stanza">
+          <lg2 type="quatrain">
+            <l n="721">'But if thou fall, O, then imagine this,   </l>
+            <l n="722">The earth, in love with thee, thy footing trips,</l>
+            <l n="723">And all is but to rob thee of a kiss.</l>
+            <l n="724">Rich preys make true men thieves; so do thy lips </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="725">   Make modest Dian cloudy and forlorn,</l>
+            <l n="726">   Lest she should steal a kiss and die forsworn. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="122" type="stanza">
+          <lg2 type="quatrain">
+            <l n="727">'Now of this dark night I perceive the reason:</l>
+            <l n="728">Cynthia for shame obscures her silver shine,</l>
+            <l n="729">Till forging Nature be condemn'd of treason,</l>
+            <l n="730">For stealing moulds from heaven that were divine; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="731">   Wherein she framed thee in high heaven's despite, </l>
+            <l n="732">   To shame the sun by day and her by night.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="123" type="stanza">
+          <lg2 type="quatrain">
+            <l n="733">'And therefore hath she bribed the Destinies</l>
+            <l n="734">To cross the curious workmanship of nature,</l>
+            <l n="735">To mingle beauty with infirmities,</l>
+            <l n="736">And pure perfection with impure defeature,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="737">   Making it subject to the tyranny</l>
+            <l n="738">   Of mad mischances and much misery;</l>
+          </lg2>
+        </lg1>
+        <lg1 n="124" type="stanza">
+          <lg2 type="quatrain">
+            <l n="739">'As burning fevers, agues pale and faint,</l>
+            <l n="740">Life-poisoning pestilence and frenzies wood,</l>
+            <l n="741">The marrow-eating sickness, whose attaint</l>
+            <l n="742">Disorder breeds by heating of the blood:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="743">   Surfeits, imposthumes, grief, and damn'd despair, </l>
+            <l n="744">   Swear Nature's death for framing thee so fair. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="125" type="stanza">
+          <lg2 type="quatrain">
+            <l n="745">'And not the least of all these maladies</l>
+            <l n="746">But in one minute's fight brings beauty under:</l>
+            <l n="747">Both favor, savor, hue and qualities,</l>
+            <l n="748">Whereat the impartial gazer late did wonder,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="749">   Are on the sudden wasted, thaw'd and done,</l>
+            <l n="750">   As mountain-snow melts with the midday sun. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="126" type="stanza">
+          <lg2 type="quatrain">
+            <l n="751">'Therefore, despite of fruitless chastity,</l>
+            <l n="752">Love-lacking vestals and self-loving nuns,</l>
+            <l n="753">That on the earth would breed a scarcity</l>
+            <l n="754">And barren dearth of daughters and of sons,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="755">   Be prodigal: the lamp that burns by night</l>
+            <l n="756">   Dries up his oil to lend the world his light.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="127" type="stanza">
+          <lg2 type="quatrain">
+            <l n="757">'What is thy body but a swallowing grave,</l>
+            <l n="758">Seeming to bury that posterity</l>
+            <l n="759">Which by the rights of time thou needs must have,</l>
+            <l n="760">If thou destroy them not in dark obscurity?</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="761">   If so, the world will hold thee in disdain,</l>
+            <l n="762">   Sith in thy pride so fair a hope is slain.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="128" type="stanza">
+          <lg2 type="quatrain">
+            <l n="763">'So in thyself thyself art made away;</l>
+            <l n="764">A mischief worse than civil home-bred strife,</l>
+            <l n="765">Or theirs whose desperate hands themselves do slay, </l>
+            <l n="766">Or butcher-sire that reaves his son of life.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="767">   Foul-cankering rust the hidden treasure frets,</l>
+            <l n="768">   But gold that's put to use more gold begets.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="129" type="stanza">
+          <lg2 type="quatrain">
+            <l n="769">'Nay, then,' quoth Adon, 'you will fall again</l>
+            <l n="770">Into your idle over-handled theme:         </l>
+            <l n="771">The kiss I gave you is bestow'd in vain,</l>
+            <l n="772">And all in vain you strive against the stream;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="773">   For, by this black-faced night, desire's foul nurse, </l>
+            <l n="774">   Your treatise makes me like you worse and worse. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="130" type="stanza">
+          <lg2 type="quatrain">
+            <l n="775">'If love have lent you twenty thousand tongues,</l>
+            <l n="776">And every tongue more moving than your own,</l>
+            <l n="777">Bewitching like the wanton mermaid's songs,</l>
+            <l n="778">Yet from mine ear the tempting tune is blown:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="779">   For know, my heart stands armed in mine ear, </l>
+            <l n="780">   And will not let a false sound enter there;</l>
+          </lg2>
+        </lg1>
+        <lg1 n="131" type="stanza">
+          <lg2 type="quatrain">
+            <l n="781">'Lest the deceiving harmony should run     </l>
+            <l n="782">Into the quiet closure of my breast;</l>
+            <l n="783">And then my little heart were quite undone,</l>
+            <l n="784">In his bedchamber to be barr'd of rest.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="785">   No, lady, no; my heart longs not to groan,</l>
+            <l n="786">   But soundly sleeps, while now it sleeps alone.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="132" type="stanza">
+          <lg2 type="quatrain">
+            <l n="787">'What have you urged that I cannot reprove?</l>
+            <l n="788">The path is smooth that leadeth on to danger:</l>
+            <l n="789">I hate not love, but your device in love, </l>
+            <l n="790">That lends embracements unto every stranger.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="791">   You do it for increase: O strange excuse,</l>
+            <l n="792">   When reason is the bawd to lust's abuse!</l>
+          </lg2>
+        </lg1>
+        <lg1 n="133" type="stanza">
+          <lg2 type="quatrain">
+            <l n="793">'Call it not love, for Love to heaven is fled,</l>
+            <l n="794">Since sweating Lust on earth usurp'd his name; </l>
+            <l n="795">Under whose simple semblance he hath fed</l>
+            <l n="796">Upon fresh beauty, blotting it with blame;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="797">   Which the hot tyrant stains and soon bereaves, </l>
+            <l n="798">   As caterpillars do the tender leaves.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="134" type="stanza">
+          <lg2 type="quatrain">
+            <l n="799">'Love comforteth like sunshine after rain,</l>
+            <l n="800">But Lust's effect is tempest after sun;      </l>
+            <l n="801">Love's gentle spring doth always fresh remain,</l>
+            <l n="802">Lust's winter comes ere summer half be done;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="803">   Love surfeits not, Lust like a glutton dies;</l>
+            <l n="804">   Love is all truth, Lust full of forged lies.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="135" type="stanza">
+          <lg2 type="quatrain">
+            <l n="805">'More I could tell, but more I dare not say;</l>
+            <l n="806">The text is old, the orator too green.</l>
+            <l n="807">Therefore, in sadness, now I will away;</l>
+            <l n="808">My face is full of shame, my heart of teen:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="809">   Mine ears, that to your wanton talk attended, </l>
+            <l n="810">   Do burn themselves for having so offended.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="136" type="stanza">
+          <lg2 type="quatrain">
+            <l n="811">With this, he breaketh from the sweet embrace,</l>
+            <l n="812">Of those fair arms which bound him to her breast, </l>
+            <l n="813">And homeward through the dark laund runs apace; </l>
+            <l n="814">Leaves Love upon her back deeply distress'd.</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="815">   Look, how a bright star shooteth from the sky, </l>
+            <l n="816">   So glides he in the night from Venus' eye.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="137" type="stanza">
+          <lg2 type="quatrain">
+            <l n="817">Which after him she darts, as one on shore</l>
+            <l n="818">Gazing upon a late-embarked friend,</l>
+            <l n="819">Till the wild waves will have him seen no more,</l>
+            <l n="820">Whose ridges with the meeting clouds contend: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="821">   So did the merciless and pitchy night </l>
+            <l n="822">   Fold in the object that did feed her sight.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="138" type="stanza">
+          <lg2 type="quatrain">
+            <l n="823">Whereat amazed, as one that unaware</l>
+            <l n="824">Hath dropp'd a precious jewel in the flood,</l>
+            <l n="825">Or stonish'd as night-wanderers often are,</l>
+            <l n="826">Their light blown out in some mistrustful wood, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="827">   Even so confounded in the dark she lay,</l>
+            <l n="828">   Having lost the fair discovery of her way.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="139" type="stanza">
+          <lg2 type="quatrain">
+            <l n="829">And now she beats her heart, whereat it groans,</l>
+            <l n="830">That all the neighbor caves, as seeming troubled, </l>
+            <l n="831">Make verbal repetition of her moans;</l>
+            <l n="832">Passion on passion deeply is redoubled:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="833">   'Ay me!' she cries, and twenty times 'Woe, woe!' </l>
+            <l n="834">   And twenty echoes twenty times cry so.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="140" type="stanza">
+          <lg2 type="quatrain">
+            <l n="835">She marking them begins a wailing note</l>
+            <l n="836">And sings extemporally a woeful ditty;</l>
+            <l n="837">How love makes young men thrall and old men dote; </l>
+            <l n="838">How love is wise in folly, foolish-witty:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="839">   Her heavy anthem still concludes in woe,</l>
+            <l n="840">   And still the choir of echoes answer so.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="141" type="stanza">
+          <lg2 type="quatrain">
+            <l n="841">Her song was tedious and outwore the night,</l>
+            <l n="842">For lovers' hours are long, though seeming short: </l>
+            <l n="843">If pleased themselves, others, they think, delight </l>
+            <l n="844">In such-like circumstance, with such-like sport:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="845">   Their copious stories oftentimes begun</l>
+            <l n="846">   End without audience and are never done.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="142" type="stanza">
+          <lg2 type="quatrain">
+            <l n="847">For who hath she to spend the night withal</l>
+            <l n="848">But idle sounds resembling parasites,</l>
+            <l n="849">Like shrill-tongued tapsters answering every call, </l>
+            <l n="850">Soothing the humor of fantastic wits?   </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="851">   She says ''Tis so:' they answer all ''Tis so;' </l>
+            <l n="852">   And would say after her, if she said 'No.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="143" type="stanza">
+          <lg2 type="quatrain">
+            <l n="853">Lo, here the gentle lark, weary of rest,</l>
+            <l n="854">From his moist cabinet mounts up on high,</l>
+            <l n="855">And wakes the morning, from whose silver breast </l>
+            <l n="856">The sun ariseth in his majesty;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="857">   Who doth the world so gloriously behold</l>
+            <l n="858">   That cedar-tops and hills seem burnish'd gold. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="144" type="stanza">
+          <lg2 type="quatrain">
+            <l n="859">Venus salutes him with this fair good-morrow:</l>
+            <l n="860">'O thou clear god, and patron of all light, </l>
+            <l n="861">From whom each lamp and shining star doth borrow </l>
+            <l n="862">The beauteous influence that makes him bright,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="863">   There lives a son that suck'd an earthly mother, </l>
+            <l n="864">   May lend thee light, as thou dost lend to other.' </l>
+          </lg2>
+        </lg1>
+        <lg1 n="145" type="stanza">
+          <lg2 type="quatrain">
+            <l n="865">This said, she hasteth to a myrtle grove,</l>
+            <l n="866">Musing the morning is so much o'erworn,</l>
+            <l n="867">And yet she hears no tidings of her love:</l>
+            <l n="868">She hearkens for his hounds and for his horn:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="869">   Anon she hears them chant it lustily,</l>
+            <l n="870">   And all in haste she coasteth to the cry. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="146" type="stanza">
+          <lg2 type="quatrain">
+            <l n="871">And as she runs, the bushes in the way</l>
+            <l n="872">Some catch her by the neck, some kiss her face,</l>
+            <l n="873">Some twine about her thigh to make her stay:</l>
+            <l n="874">She wildly breaketh from their strict embrace,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="875">   Like a milch doe, whose swelling dugs do ache, </l>
+            <l n="876">   Hasting to feed her fawn hid in some brake.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="147" type="stanza">
+          <lg2 type="quatrain">
+            <l n="877">By this, she hears the hounds are at a bay;</l>
+            <l n="878">Whereat she starts, like one that spies an adder</l>
+            <l n="879">Wreathed up in fatal folds just in his way,</l>
+            <l n="880">The fear whereof doth make him shake and shudder; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="881">   Even so the timorous yelping of the hounds</l>
+            <l n="882">   Appals her senses and her spirit confounds.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="148" type="stanza">
+          <lg2 type="quatrain">
+            <l n="883">For now she knows it is no gentle chase,</l>
+            <l n="884">But the blunt boar, rough bear, or lion proud,</l>
+            <l n="885">Because the cry remaineth in one place,</l>
+            <l n="886">Where fearfully the dogs exclaim aloud:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="887">    Finding their enemy to be so curst,</l>
+            <l n="888">    They all strain courtesy who shall cope him first. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="149" type="stanza">
+          <lg2 type="quatrain">
+            <l n="889">This dismal cry rings sadly in her ear,   </l>
+            <l n="890">Through which it enters to surprise her heart;</l>
+            <l n="891">Who, overcome by doubt and bloodless fear,</l>
+            <l n="892">With cold-pale weakness numbs each feeling part: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="893">   Like soldiers, when their captain once doth yield, </l>
+            <l n="894">   They basely fly and dare not stay the field.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="150" type="stanza">
+          <lg2 type="quatrain">
+            <l n="895">Thus stands she in a trembling ecstasy;</l>
+            <l n="896">Till, cheering up her senses all dismay'd,</l>
+            <l n="897">She tells them 'tis a causeless fantasy,</l>
+            <l n="898">And childish error, that they are afraid;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="899">   Bids them leave quaking, bids them fear no more:-- </l>
+            <l n="900">   And with that word she spied the hunted boar, </l>
+          </lg2>
+        </lg1>
+        <lg1 n="151" type="stanza">
+          <lg2 type="quatrain">
+            <l n="901">Whose frothy mouth, bepainted all with red,</l>
+            <l n="902">Like milk and blood being mingled both together, </l>
+            <l n="903">A second fear through all her sinews spread,</l>
+            <l n="904">Which madly hurries her she knows not whither: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="905">   This way she runs, and now she will no further, </l>
+            <l n="906">   But back retires to rate the boar for murther.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="152" type="stanza">
+          <lg2 type="quatrain">
+            <l n="907">A thousand spleens bear her a thousand ways;</l>
+            <l n="908">She treads the path that she untreads again;</l>
+            <l n="909">Her more than haste is mated with delays,</l>
+            <l n="910">Like the proceedings of a drunken brain, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="911">   Full of respects, yet nought at all respecting;</l>
+            <l n="912">   In hand with all things, nought at all effecting. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="153" type="stanza">
+          <lg2 type="quatrain">
+            <l n="913">Here kennell'd in a brake she finds a hound,</l>
+            <l n="914">And asks the weary caitiff for his master,</l>
+            <l n="915">And there another licking of his wound,</l>
+            <l n="916">'Gainst venom'd sores the only sovereign plaster; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="917">   And here she meets another sadly scowling,</l>
+            <l n="918">   To whom she speaks, and he replies with howling. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="154" type="stanza">
+          <lg2 type="quatrain">
+            <l n="919">When he hath ceased his ill-resounding noise,</l>
+            <l n="920">Another flap-mouth'd mourner, black and grim,</l>
+            <l n="921">Against the welkin volleys out his voice; </l>
+            <l n="922">Another and another answer him,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="923">   Clapping their proud tails to the ground below, </l>
+            <l n="924">   Shaking their scratch'd ears, bleeding as they go. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="155" type="stanza">
+          <lg2 type="quatrain">
+            <l n="925">Look, how the world's poor people are amazed</l>
+            <l n="926">At apparitions, signs and prodigies,</l>
+            <l n="927">Whereon with fearful eyes they long have gazed, </l>
+            <l n="928">Infusing them with dreadful prophecies;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="929">   So she at these sad signs draws up her breath</l>
+            <l n="930">   And sighing it again, exclaims on Death.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="156" type="stanza">
+          <lg2 type="quatrain">
+            <l n="931">'Hard-favor'd tyrant, ugly, meagre, lean,</l>
+            <l n="932">Hateful divorce of love,'--thus chides she Death,-- </l>
+            <l n="933">'Grim-grinning ghost, earth's worm, what dost thou mean </l>
+            <l n="934">To stifle beauty and to steal his breath,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="935">   Who when he lived, his breath and beauty set </l>
+            <l n="936">   Gloss on the rose, smell to the violet?</l>
+          </lg2>
+        </lg1>
+        <lg1 n="157" type="stanza">
+          <lg2 type="quatrain">
+            <l n="937">'If he be dead,--O no, it cannot be,</l>
+            <l n="938">Seeing his beauty, thou shouldst strike at it:--</l>
+            <l n="939">O yes, it may; thou hast no eyes to see,</l>
+            <l n="940">But hatefully at random dost thou hit.     </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="941">   Thy mark is feeble age, but thy false dart</l>
+            <l n="942">   Mistakes that aim and cleaves an infant's heart. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="158" type="stanza">
+          <lg2 type="quatrain">
+            <l n="943">'Hadst thou but bid beware, then he had spoke,</l>
+            <l n="944">And, hearing him, thy power had lost his power. </l>
+            <l n="945">The Destinies will curse thee for this stroke;</l>
+            <l n="946">They bid thee crop a weed, thou pluck'st a flower: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="947">   Love's golden arrow at him should have fled,</l>
+            <l n="948">   And not Death's ebon dart, to strike him dead. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="159" type="stanza">
+          <lg2 type="quatrain">
+            <l n="949">'Dost thou drink tears, that thou provokest such weeping? </l>
+            <l n="950">What may a heavy groan advantage thee?</l>
+            <l n="951">Why hast thou cast into eternal sleeping</l>
+            <l n="952">Those eyes that taught all other eyes to see?</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="953">   Now Nature cares not for thy mortal vigor,</l>
+            <l n="954">   Since her best work is ruin'd with thy rigor.'</l>
+          </lg2>
+        </lg1>
+        <lg1 n="160" type="stanza">
+          <lg2 type="quatrain">
+            <l n="955">Here overcome, as one full of despair,</l>
+            <l n="956">She vail'd her eyelids, who, like sluices, stopt</l>
+            <l n="957">The crystal tide that from her two cheeks fair</l>
+            <l n="958">In the sweet channel of her bosom dropt;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="959">   But through the flood-gates breaks the silver rain, </l>
+            <l n="960">   And with his strong course opens them again.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="161" type="stanza">
+          <lg2 type="quatrain">
+            <l n="961">O, how her eyes and tears did lend and borrow!</l>
+            <l n="962">Her eyes seen in the tears, tears in her eye;</l>
+            <l n="963">Both crystals, where they view'd each other's sorrow, </l>
+            <l n="964">Sorrow that friendly sighs sought still to dry;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="965">    But like a stormy day, now wind, now rain,</l>
+            <l n="966">    Sighs dry her cheeks, tears make them wet again. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="162" type="stanza">
+          <lg2 type="quatrain">
+            <l n="967">Variable passions throng her constant woe,</l>
+            <l n="968">As striving who should best become her grief;</l>
+            <l n="969">All entertain'd, each passion labors so,</l>
+            <l n="970"> That every present sorrow seemeth chief, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="971">    But none is best: then join they all together,</l>
+            <l n="972">    Like many clouds consulting for foul weather.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="163" type="stanza">
+          <lg2 type="quatrain">
+            <l n="973">By this, far off she hears some huntsman hollo;</l>
+            <l n="974">A nurse's song ne'er pleased her babe so well:</l>
+            <l n="975">The dire imagination she did follow</l>
+            <l n="976">This sound of hope doth labor to expel;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="977">   For now reviving joy bids her rejoice,</l>
+            <l n="978">   And flatters her it is Adonis' voice.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="164" type="stanza">
+          <lg2 type="quatrain">
+            <l n="979">Whereat her tears began to turn their tide,</l>
+            <l n="980">Being prison'd in her eye like pearls in glass;</l>
+            <l n="981">Yet sometimes falls an orient drop beside, </l>
+            <l n="982">Which her cheek melts, as scorning it should pass, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="983">   To wash the foul face of the sluttish ground,</l>
+            <l n="984">   Who is but drunken when she seemeth drown'd. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="165" type="stanza">
+          <lg2 type="quatrain">
+            <l n="985">O hard-believing love, how strange it seems</l>
+            <l n="986">Not to believe, and yet too credulous!</l>
+            <l n="987">Thy weal and woe are both of them extremes;</l>
+            <l n="988">Despair and hope makes thee ridiculous:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="989">   The one doth flatter thee in thoughts unlikely, </l>
+            <l n="990">   In likely thoughts the other kills thee quickly.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="166" type="stanza">
+          <lg2 type="quatrain">
+            <l n="991">Now she unweaves the web that she hath wrought; </l>
+            <l n="992">Adonis lives, and Death is not to blame;</l>
+            <l n="993">It was not she that call'd him, all-to naught:</l>
+            <l n="994">Now she adds honors to his hateful name;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="995">   She clepes him king of graves and grave for kings, </l>
+            <l n="996">   Imperious supreme of all mortal things.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="167" type="stanza">
+          <lg2 type="quatrain">
+            <l n="997">'No, no,' quoth she, 'sweet Death, I did but jest; </l>
+            <l n="998">Yet pardon me I felt a kind of fear</l>
+            <l n="999">When as I met the boar, that bloody beast,</l>
+            <l n="1000">Which knows no pity, but is still severe;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1001">   Then, gentle shadow,--truth I must confess,-- </l>
+            <l n="1002">   I rail'd on thee, fearing my love's decease.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="168" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1003">''Tis not my fault: the boar provoked my tongue; </l>
+            <l n="1004">Be wreak'd on him, invisible commander;</l>
+            <l n="1005">Tis he, foul creature, that hath done thee wrong; </l>
+            <l n="1006">I did but act, he's author of thy slander:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1007">   Grief hath two tongues, and never woman yet </l>
+            <l n="1008">   Could rule them both without ten women's wit. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="169" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1009">Thus hoping that Adonis is alive,</l>
+            <l n="1010">Her rash suspect she doth extenuate;      </l>
+            <l n="1011">And that his beauty may the better thrive,</l>
+            <l n="1012">With Death she humbly doth insinuate;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1013">   Tells him of trophies, statues, tombs, and stories </l>
+            <l n="1014">   His victories, his triumphs and his glories.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="170" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1015">'O Jove,' quoth she, 'how much a fool was I</l>
+            <l n="1016">To be of such a weak and silly mind</l>
+            <l n="1017">To wail his death who lives and must not die</l>
+            <l n="1018">Till mutual overthrow of mortal kind!</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1019">   For he being dead, with him is beauty slain,</l>
+            <l n="1020">   And, beauty dead, black chaos comes again.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="171" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1021">'Fie, fie, fond love, thou art so full of fear</l>
+            <l n="1022">As one with treasure laden, hemm'd with thieves; </l>
+            <l n="1023">Trifles, unwitnessed with eye or ear,</l>
+            <l n="1024">Thy coward heart with false bethinking grieves.' </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1025">   Even at this word she hears a merry horn,</l>
+            <l n="1026">   Whereat she leaps that was but late forlorn.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="172" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1027">As falcon to the lure, away she flies;</l>
+            <l n="1028">The grass stoops not, she treads on it so light;</l>
+            <l n="1029">And in her haste unfortunately spies</l>
+            <l n="1030">The foul boar's conquest on her fair delight;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1031">   Which seen, her eyes, as murder'd with the view, </l>
+            <l n="1032">   Like stars ashamed of day, themselves withdrew; </l>
+          </lg2>
+        </lg1>
+        <lg1 n="173" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1033">Or, as the snail, whose tender horns being hit,</l>
+            <l n="1034">Shrinks backward in his shelly cave with pain,</l>
+            <l n="1035">And there, all smother'd up, in shade doth sit,</l>
+            <l n="1036">Long after fearing to creep forth again;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1037">    So, at his bloody view, her eyes are fled</l>
+            <l n="1038">    Into the deep dark cabins of her head:</l>
+          </lg2>
+        </lg1>
+        <lg1 n="174" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1039">Where they resign their office and their light</l>
+            <l n="1040">To the disposing of her troubled brain; </l>
+            <l n="1041">Who bids them still consort with ugly night,</l>
+            <l n="1042">And never wound the heart with looks again;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1043">    Who, like a king perplexed in his throne,</l>
+            <l n="1044">    By their suggestion gives a deadly groan,</l>
+          </lg2>
+        </lg1>
+        <lg1 n="175" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1045">Whereat each tributary subject quakes;</l>
+            <l n="1046">As when the wind, imprison'd in the ground,</l>
+            <l n="1047">Struggling for passage, earth's foundation shakes, </l>
+            <l n="1048">Which with cold terror doth men's minds confound. </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1049">    This mutiny each part doth so surprise</l>
+            <l n="1050">    That from their dark beds once more leap her eyes; </l>
+          </lg2>
+        </lg1>
+        <lg1 n="176" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1051">And, being open'd, threw unwilling light</l>
+            <l n="1052">Upon the wide wound that the boar had trench'd </l>
+            <l n="1053">In his soft flank; whose wonted lily white</l>
+            <l n="1054">With purple tears, that his wound wept, was drench'd: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1055">    No flower was nigh, no grass, herb, leaf, or weed, </l>
+            <l n="1056">    But stole his blood and seem'd with him to bleed. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="177" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1057">This solemn sympathy poor Venus noteth;</l>
+            <l n="1058">Over one shoulder doth she hang her head;</l>
+            <l n="1059">Dumbly she passions, franticly she doteth;</l>
+            <l n="1060">She thinks he could not die, he is not dead:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1061">   Her voice is stopt, her joints forget to bow;</l>
+            <l n="1062">   Her eyes are mad that they have wept till now. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="178" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1063">Upon his hurt she looks so steadfastly,</l>
+            <l n="1064">That her sight dazzling makes the wound seem three; </l>
+            <l n="1065">And then she reprehends her mangling eye,</l>
+            <l n="1066">That makes more gashes where no breach should be: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1067">   His face seems twain, each several limb is doubled; </l>
+            <l n="1068">   For oft the eye mistakes, the brain being troubled. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="179" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1069">'My tongue cannot express my grief for one,</l>
+            <l n="1070">And yet,' quoth she, 'behold two Adons dead!</l>
+            <l n="1071">My sighs are blown away, my salt tears gone,</l>
+            <l n="1072">Mine eyes are turn'd to fire, my heart to lead:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1073">   Heavy heart's lead, melt at mine eyes' red fire! </l>
+            <l n="1074">   So shall I die by drops of hot desire.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="180" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1075">'Alas, poor world, what treasure hast thou lost!</l>
+            <l n="1076">What face remains alive that's worth the viewing? </l>
+            <l n="1077">Whose tongue is music now? what canst thou boast </l>
+            <l n="1078">Of things long since, or any thing ensuing?</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1079">   The flowers are sweet, their colors fresh and trim; </l>
+            <l n="1080">   But true-sweet beauty lived and died with him. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="181" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1081">'Bonnet nor veil henceforth no creature wear!</l>
+            <l n="1082">Nor sun nor wind will ever strive to kiss you:</l>
+            <l n="1083">Having no fair to lose, you need not fear;</l>
+            <l n="1084">The sun doth scorn you and the wind doth hiss you: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1085">   But when Adonis lived, sun and sharp air</l>
+            <l n="1086">   Lurk'd like two thieves, to rob him of his fair: </l>
+          </lg2>
+        </lg1>
+        <lg1 n="182" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1087">'And therefore would he put his bonnet on,</l>
+            <l n="1088">Under whose brim the gaudy sun would peep;</l>
+            <l n="1089">The wind would blow it off and, being gone,</l>
+            <l n="1090">Play with his locks: then would Adonis weep;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1091">   And straight, in pity of his tender years,</l>
+            <l n="1092">   They both would strive who first should dry his tears. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="183" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1093">'To see his face the lion walk'd along</l>
+            <l n="1094">Behind some hedge, because he would not fear him; </l>
+            <l n="1095">To recreate himself when he hath sung,</l>
+            <l n="1096">The tiger would be tame and gently hear him;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1097">   If he had spoke, the wolf would leave his prey </l>
+            <l n="1098">   And never fright the silly lamb that day.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="184" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1099">'When he beheld his shadow in the brook,</l>
+            <l n="1100">The fishes spread on it their golden gills; </l>
+            <l n="1101">When he was by, the birds such pleasure took,</l>
+            <l n="1102">That some would sing, some other in their bills</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1103">   Would bring him mulberries and ripe-red cherries; </l>
+            <l n="1104">   He fed them with his sight, they him with berries. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="185" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1105">'But this foul, grim, and urchin-snouted boar,</l>
+            <l n="1106">Whose downward eye still looketh for a grave,</l>
+            <l n="1107">Ne'er saw the beauteous livery that he wore;</l>
+            <l n="1108">Witness the entertainment that he gave:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1109">   If he did see his face, why then I know</l>
+            <l n="1110">   He thought to kiss him, and hath kill'd him so. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="186" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1111">''Tis true, 'tis true; thus was Adonis slain:</l>
+            <l n="1112">He ran upon the boar with his sharp spear,</l>
+            <l n="1113">Who did not whet his teeth at him again,</l>
+            <l n="1114">But by a kiss thought to persuade him there;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1115">   And nuzzling in his flank, the loving swine</l>
+            <l n="1116">   Sheathed unaware the tusk in his soft groin.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="187" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1117">'Had I been tooth'd like him, I must confess,</l>
+            <l n="1118">With kissing him I should have kill'd him first;</l>
+            <l n="1119">But he is dead, and never did he bless     </l>
+            <l n="1120">My youth with his; the more am I accurst.'</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1121">   With this, she falleth in the place she stood,</l>
+            <l n="1122">   And stains her face with his congealed blood.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="188" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1123">She looks upon his lips, and they are pale;</l>
+            <l n="1124">She takes him by the hand, and that is cold;</l>
+            <l n="1125">She whispers in his ears a heavy tale,</l>
+            <l n="1126">As if they heard the woeful words she told;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1127">   She lifts the coffer-lids that close his eyes,</l>
+            <l n="1128">   Where, lo, two lamps, burnt out, in darkness lies; </l>
+          </lg2>
+        </lg1>
+        <lg1 n="189" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1129">Two glasses, where herself herself beheld</l>
+            <l n="1130">A thousand times, and now no more reflect;</l>
+            <l n="1131">Their virtue lost, wherein they late excell'd,</l>
+            <l n="1132">And every beauty robb'd of his effect:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1133">   'Wonder of time,' quoth she, 'this is my spite, </l>
+            <l n="1134">   That, thou being dead, the day should yet be light. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="190" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1135">'Since thou art dead, lo, here I prophesy:</l>
+            <l n="1136">Sorrow on love hereafter shall attend:</l>
+            <l n="1137">It shall be waited on with jealousy,</l>
+            <l n="1138">Find sweet beginning, but unsavory end,</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1139">   Ne'er settled equally, but high or low,</l>
+            <l n="1140">   That all love's pleasure shall not match his woe. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="191" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1141">'It shall be fickle, false and full of fraud,</l>
+            <l n="1142">Bud and be blasted in a breathing-while;</l>
+            <l n="1143">The bottom poison, and the top o'erstraw'd</l>
+            <l n="1144">With sweets that shall the truest sight beguile:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1145">   The strongest body shall it make most weak,</l>
+            <l n="1146">   Strike the wise dumb and teach the fool to speak. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="192" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1147">'It shall be sparing and too full of riot,</l>
+            <l n="1148">Teaching decrepit age to tread the measures;</l>
+            <l n="1149">The staring ruffian shall it keep in quiet,</l>
+            <l n="1150">Pluck down the rich, enrich the poor with treasures; </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1151">   It shall be raging-mad and silly-mild,</l>
+            <l n="1152">   Make the young old, the old become a child.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="193" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1153">'It shall suspect where is no cause of fear;</l>
+            <l n="1154">It shall not fear where it should most mistrust;</l>
+            <l n="1155">It shall be merciful and too severe,</l>
+            <l n="1156">And most deceiving when it seems most just;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1157">   Perverse it shall be where it shows most toward, </l>
+            <l n="1158">   Put fear to valor, courage to the coward.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="194" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1159">'It shall be cause of war and dire events,</l>
+            <l n="1160">And set dissension 'twixt the son and sire;</l>
+            <l n="1161">Subject and servile to all discontents,</l>
+            <l n="1162">As dry combustious matter is to fire:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1163">   Sith in his prime Death doth my love destroy,</l>
+            <l n="1164">   They that love best their loves shall not enjoy.' </l>
+          </lg2>
+        </lg1>
+        <lg1 n="195" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1165">By this, the boy that by her side lay kill'd</l>
+            <l n="1166">Was melted like a vapor from her sight,</l>
+            <l n="1167">And in his blood that on the ground lay spill'd,</l>
+            <l n="1168">A purple flower sprung up, chequer'd with white, </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1169">   Resembling well his pale cheeks and the blood </l>
+            <l n="1170">   Which in round drops upon their whiteness stood. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="196" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1171">She bows her head, the new-sprung flower to smell, </l>
+            <l n="1172">Comparing it to her Adonis' breath,</l>
+            <l n="1173">And says, within her bosom it shall dwell,</l>
+            <l n="1174">Since he himself is reft from her by death:</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1175">   She crops the stalk, and in the breach appears </l>
+            <l n="1176">   Green dropping sap, which she compares to tears. </l>
+          </lg2>
+        </lg1>
+        <lg1 n="197" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1177">'Poor flower,' quoth she, 'this was thy father's guise-- </l>
+            <l n="1178">Sweet issue of a more sweet-smelling sire--</l>
+            <l n="1179">For every little grief to wet his eyes:</l>
+            <l n="1180">To grow unto himself was his desire,      </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1181">   And so 'tis thine; but know, it is as good</l>
+            <l n="1182">   To wither in my breast as in his blood.</l>
+          </lg2>
+        </lg1>
+        <lg1 n="198" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1183">'Here was thy father's bed, here in my breast;</l>
+            <l n="1184">Thou art the next of blood, and 'tis thy right:</l>
+            <l n="1185">Lo, in this hollow cradle take thy rest,</l>
+            <l n="1186">My throbbing heart shall rock thee day and night: </l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1187">   There shall not be one minute in an hour</l>
+            <l n="1188">   Wherein I will not kiss my sweet love's flower.' </l>
+          </lg2>
+        </lg1>
+        <lg1 n="199" type="stanza">
+          <lg2 type="quatrain">
+            <l n="1189">Thus weary of the world, away she hies,</l>
+            <l n="1190">And yokes her silver doves; by whose swift aid</l>
+            <l n="1191">Their mistress mounted through the empty skies </l>
+            <l n="1192"> In her light chariot quickly is convey'd;</l>
+          </lg2>
+          <lg2 type="couplet">
+            <l n="1193">   Holding their course to Paphos, where their queen </l>
+            <l n="1194">   Means to immure herself and not be seen.</l>
+          </lg2>
+        </lg1>
+      </div>
+    </body>
+  </text>
+</TEI.2>
