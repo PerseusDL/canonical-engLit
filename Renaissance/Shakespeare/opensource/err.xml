@@ -1,0 +1,2694 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersDrama PUBLIC "-//Perseus P4//DTD Perseus Drama//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersDrama.dtd" >
+%PersDrama;
+]>
+<TEI.2>
+ <teiHeader status="new" type="text">
+  <fileDesc>
+   <titleStmt>
+    <title>The Comedy of Errors</title>
+    <author>William Shakespeare</author>
+    <editor role="editor">W. G. Clark</editor>
+    <editor role="editor">W. Aldis Wright</editor> &responsibility; &fund.DLI2; </titleStmt>
+   &Perseus.publish; <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <author>William Shakespeare</author>
+      <editor role="editor">W. G. Clark</editor>
+      <editor role="editor">W. Aldis Wright</editor>
+      <title>The Globe Shakespeare</title>
+      <imprint>
+       <pubPlace>New York</pubPlace>
+       <publisher>Nelson Doubleday, Inc.</publisher>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+   <refsDecl doctype="TEI.2">
+    <state unit="act"/>
+    <state n="chunk" unit="scene"/>
+    <state unit="line"/>
+   </refsDecl>
+  </encodingDesc>
+
+  <profileDesc>
+   <langUsage>
+    <language id="en">English </language>
+   </langUsage>
+  </profileDesc>
+
+  <revisionDesc>
+   <change>
+    <date>02-Oct-00</date>
+    <respStmt>
+     <name>CEW</name>
+     <resp>ed.</resp>
+    </respStmt>
+    <item> 
+     $Log: err.xml,v $
+     Revision 1.1  2009-11-23 18:46:14  rsingh04
+     moved more xml files around based on copyright status
+
+     Revision 1.4  2008/06/09 16:20:08  rsingh04
+     fixed castList, head tags and other small changes
+ 
+     Revision 1.3 2004/04/23 22:20:47 cwulfman fixing chunking. At this
+     point, chunking still doesn't work for lll, per, rom, tn, tro, wiv, and wt 
+     
+     Revision 1.2
+     2004/04/22 18:55:42 cwulfman fixing log 
+     
+     Revision 1.1 2004/04/22 17:56:25 cwulfman moving sgml
+     files into separate directory; making xml files primary 
+     
+     Revision 1.8 2003/07/01 22:16:18 yorkc
+     Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and
+     typos.) 
+     
+     Revision 1.7 2001/09/14 20:51:10 cwulfman turned up end-hyphenated words 
+     
+     Revision 1.6
+     2001/09/05 15:22:51 cwulfman added Globe lb tags 
+     
+     Revision 1.5 2001/07/16 18:18:56 kgould
+     Expanded lb tags to match folio. 
+     
+     Revision 1.4 2001/03/21 19:58:52 kgould Corrected line breaks
+     after Syrinx pass. 
+     
+     Revision 1.3 2001/02/14 19:14:23 kgould copyedited all 
+     
+     Revision 1.2
+     2001/02/08 14:11:23 cwulfman fixed lb tags 
+     
+     Revision 1.1 2000/10/02 15:05:33 cwulfman renamed
+     files in accordance with Shakespeare database naming convention; added comedy of errors (err)
+     to repository. </item>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+
+<text lang="en">
+<body>
+ <div1 type="act" n="cast">
+  <head>DRAMATIS PERSON&AElig;</head>
+  <castList>
+   <castItem type="role"><role id="duke.">SOLINUS</role><roleDesc>duke of Ephesus</roleDesc></castItem>
+   <castItem type="role"><role id="aege.">&AElig;GEON</role><roleDesc>a merchant of Syracuse</roleDesc></castItem>
+   <castGroup><head rend="braced"> twin brothers, and sons to &AElig;geon and &AElig;milia.</head>
+    <castItem type="role"><role id="ant.-e.">ANTIPHOLUS of Ephesus</role>
+    </castItem><castItem type="role"><role id="ant.-s.">ANTIPHOLUS of Syracuse</role></castItem>
+   </castGroup>
+   <castGroup><head rend="braced"> twin brothers, and attendants on the two Antipholuses.</head>
+    <castItem type="role"><role id="dro.-e.">DROMIO of Ephsus</role>
+    </castItem><castItem type="role"><role id="dro.-s.">DROMIO of Syracuse</role></castItem>
+   </castGroup>
+   <castItem type="role"><role id="bal.">BALTHAZAR</role><roleDesc>a merchant</roleDesc></castItem>
+   <castItem type="role"><role id="ang.">ANGELO</role><roleDesc>a goldsmith</roleDesc></castItem>
+   <castItem type="role"><role id="first-mer.">First Merchant</role><roleDesc>friendto Antipholus of Syracuse</roleDesc></castItem>
+   <castItem type="role"><role id="sec.-mer.">Second Merchant</role><roleDesc>to whom Angelo is a debtor</roleDesc></castItem>
+   <castItem type="role"><role id="pinch.">PINCH</role><roleDesc>a schoolmaster</roleDesc></castItem>
+   <castItem type="role"><role id="abb.">&AElig;MILIA, wife to &AElig;geon</role><roleDesc>an abbess at Ephesus</roleDesc></castItem>
+   <castItem type="role"><role id="adr.">ADRIANA</role><roleDesc>wife to Antipholus of Ephesus</roleDesc></castItem>
+   <castItem type="role"><role id="luc.">LUCIANA</role><roleDesc>her sister</roleDesc></castItem>
+   <castItem type="role"><role id="luce.">LUCE</role><roleDesc>servant to Adriana</roleDesc></castItem>
+   <castItem type="role"><role id="cour.">A Courtezan</role></castItem>
+   <castItem type="role"><role id="off.">An Officer</role></castItem>
+   <castItem type="role"><role id="serv.">A Servant</role></castItem>
+   <castItem type="role"><role id="gaol.">A Gaoler</role></castItem>
+   <castItem type="role"><roleDesc>and other Attendants</roleDesc></castItem>
+   <castItem type="role"></castItem>
+  </castList>
+ </div1>
+
+ <div1 type="act" n="1">
+<head>ACT I</head><lb ed="F1" n="2"/>
+<div2 type="scene" n="1">
+<head>SCENE I</head>
+<stage type="setting">A hall in the DUKE'S palace.</stage>
+<lb ed="F1" n="3"/><stage type="entrance">Enter DUKE, &AElig;GEON, Gaoler, Officers, and other Attendants.</stage>
+<lb ed="F1" n="4"/>
+
+<lb ed="G"/><lb ed="F1" n="5"/>
+ 
+ <sp who="aege."><speaker>&AElig;ge.</speaker><p>Proceed, Solinus, to procure my fall
+<lb ed="F1" n="6"/>And by the doom of death end woes and all.
+<lb ed="G"/><lb ed="F1" n="7"/></p></sp>
+ 
+ <sp who="duke."><speaker>Duke.</speaker><p>Merchant of Syracuse, plead no more;
+<lb ed="G"/><lb ed="F1" n="8"/>I am not partial to infringe our laws:
+<lb ed="G"/><lb ed="F1" n="9"/>The enmity and discord which of late
+<lb ed="G"/><lb ed="F1" n="10"/>Sprung from the rancorous outrage of your duke
+<lb ed="G"/><lb ed="F1" n="11"/>To merchants, our well-dealing countrymen,
+<lb ed="G"/><lb ed="F1" n="12"/>Who wanting guilders to redeem their lives
+<lb ed="G"/><lb ed="F1" n="13"/>Have seal'd his rigorous statutes with their bloods,
+<lb ed="G"/><lb ed="F1" n="14"/>Excludes all pity from our threatening looks.
+<lb ed="G" n="11"/><lb ed="F1" n="15"/>For, since the mortal and intestine jars
+<lb ed="G"/><lb ed="F1" n="16"/>'Twixt thy seditious countrymen and us,
+<lb ed="G"/><lb ed="F1" n="17"/>It hath in solemn synods been decreed,
+<lb ed="G"/><lb ed="F1" n="18"/>Both by the Syracusians and ourselves,
+<lb ed="G"/><lb ed="F1" n="19"/>To admit no traffic to our adverse towns:
+<lb ed="G"/><lb ed="F1" n="20"/>Nay, more,
+<lb ed="G"/>If any born at Ephesus be seen
+<lb ed="G"/><lb ed="F1" n="21"/>At any Syracusian marts and fairs;
+<lb ed="G"/><lb ed="F1" n="22"/>Again: if any Syracusian born
+<lb ed="G" n="20"/><lb ed="F1" n="23"/>Come to the bay of Ephesus, he dies,
+<lb ed="G"/><lb ed="F1" n="24"/>His goods confiscate to the duke's dispose,
+<lb ed="G"/><lb ed="F1" n="25"/>Unless a thousand marks be levied,
+<lb ed="G"/><lb ed="F1" n="26"/>To quit the penalty and to ransom him.
+<lb ed="G"/><lb ed="F1" n="27"/>Thy substance, valued at the highest rate,
+<lb ed="G"/><lb ed="F1" n="28"/>Cannot amount unto a hundred marks;
+<lb ed="G"/><lb ed="F1" n="29"/>Therefore by law thou art condemn'd to die.
+<lb ed="G"/><lb ed="F1" n="30"/></p></sp>
+ 
+ <sp who="aege."><speaker>&AElig;ge.</speaker><l>Yet this my comfort: when your words are done,
+<lb ed="G"/><lb ed="F1" n="31"/></l><l>My woes end likewise with the evening sun.
+
+<lb ed="G" n="29"/><lb ed="F1" n="32"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Well, Syracusian, say in brief the cause
+<lb ed="G"/><lb ed="F1" n="33"/></l><l>Why thou departed'st from thy native home
+<lb ed="G"/><lb ed="F1" n="34"/></l><l>And for what cause thou camest to Ephesus,
+
+<lb ed="G"/><lb ed="F1" n="35"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>A heavier task could not have been imposed
+<lb ed="G"/><lb ed="F1" n="36"/></l><l>Than I to speak my griefs unspeakable:
+<lb ed="G"/><lb ed="F1" n="37"/></l><l>Yet, that the world may witness that my end
+<lb ed="G"/><lb ed="F1" n="38"/></l><l>Was wrought by nature, not by vile offence,
+<lb ed="G"/><lb ed="F1" n="39"/></l><l>I'll utter what my sorrows give me leave.
+<lb ed="G"/><lb ed="F1" n="40"/></l><l>In Syracusa was I born, and wed
+<lb ed="G"/><lb ed="F1" n="41"/></l><l>Unto a woman, happy but for me,
+<lb ed="G"/><lb ed="F1" n="42"/></l><l>And by me, had not our hap been bad.
+<lb ed="G"/><lb ed="F1" n="43"/></l><l>With her I lived in joy; our wealth increased
+<lb ed="G" n="41"/><lb ed="F1" n="44"/></l><l>By prosperous voyages I often made
+<lb ed="G"/><lb ed="F1" n="45"/></l><l>To Epidamnum; till my factor's death
+<lb ed="G"/><lb ed="F1" n="46"/></l><l>And the great care of goods at random left
+<lb ed="G"/><lb ed="F1" n="47"/></l><l>Drew me from kind embracements of my spouse:
+<lb ed="G"/><lb ed="F1" n="48"/></l><l>From whom my absence was not six months old
+<lb ed="G"/><lb ed="F1" n="49"/></l><l>Before herself, almost at fainting under
+<lb ed="G"/><lb ed="F1" n="50"/></l><l>The pleasing punishment that women bear,
+<lb ed="G"/><lb ed="F1" n="51"/></l><l>Had made provision for her following me
+<lb ed="G"/><lb ed="F1" n="52"/></l><l>And soon and safe arrived where I was.
+<lb ed="G" n="50"/><lb ed="F1" n="53"/></l><l>There had she not been long but she became
+<lb ed="G"/><lb ed="F1" n="54"/></l><l>A joyful mother of two goodly sons;
+<lb ed="G"/><lb ed="F1" n="55"/></l><l>And, which was strange, the one so like the other
+<lb ed="G"/><lb ed="F1" n="56"/></l><l>As could not be distinguish'd but by names.
+<lb ed="G"/><lb ed="F1" n="57"/></l><l>That very hour, and in the self-same inn,
+<lb ed="G"/><lb ed="F1" n="58"/></l><l>A meaner woman was delivered
+<lb ed="G"/><lb ed="F1" n="59"/></l><l>Of such a burden, male twins, both alike:
+<lb ed="G"/><lb ed="F1" n="60"/></l><l>Those,--for their parents were exceeding poor,--
+<lb ed="G"/><lb ed="F1" n="61"/></l><l>I bought and brought up to attend my sons.
+<lb ed="G"/><lb ed="F1" n="62"/></l><l>My wife, not meanly proud of two such boys,
+<lb ed="G" n="60"/><lb ed="F1" n="63"/></l><l>Made daily motions for our home return:
+<lb ed="G"/><lb ed="F1" n="64"/></l><l>Unwilling I agreed; alas! too soon,
+<lb ed="G"/><lb ed="F1" n="65"/></l><l>We came aboard.
+<lb ed="G"/><lb ed="F1" n="66"/></l><l>A league from Epidamnum had we sail'd,
+<lb ed="G"/><lb ed="F1" n="67"/></l><l>Before the always wind-obeying deep
+<lb ed="G"/><lb ed="F1" n="68"/></l><l>Gave any tragic instance of our harm:
+<lb ed="G"/><lb ed="F1" n="69"/></l><l>But longer did we not retain much hope;
+<lb ed="G"/><lb ed="F1" n="70"/></l><l>For what obscured light the heavens did grant
+<lb ed="G"/><lb ed="F1" n="71"/></l><l>Did but convey unto our fearful minds
+<lb ed="G"/><lb ed="F1" n="72"/></l><l>A doubtful warrant of immediate death;
+<lb ed="G" n="70"/><lb ed="F1" n="73"/></l><l>Which though myself would gladly have embraced,
+<lb ed="G"/><lb ed="F1" n="74"/></l><l>Yet the incessant weepings of my wife,
+<lb ed="G"/><lb ed="F1" n="75"/></l><l>Weeping before for what she saw must come,
+<lb ed="G"/><lb ed="F1" n="76"/></l><l>And piteous plainings of the pretty babes,
+<lb ed="G"/><lb ed="F1" n="77"/></l><l>That mourn'd for fashion, ignorant what to fear,
+<lb ed="G"/><lb ed="F1" n="78"/></l><l>Forced me to seek delays for them and me.
+<lb ed="G"/><lb ed="F1" n="79"/></l><l>And this it was, for other means was none:
+<lb ed="G"/><lb ed="F1" n="80"/></l><l>The sailors sought for safety by our boat,
+<lb ed="G"/><lb ed="F1" n="81"/></l><l>And left the ship, then sinking-ripe, to us:
+<lb ed="G"/><lb ed="F1" n="82"/></l><l>My wife, more careful for the latter-born,
+<lb ed="G" n="80"/><lb ed="F1" n="83"/></l><l>Had fasten'd him unto a small spare mast,
+<lb ed="G"/><lb ed="F1" n="84"/></l><l>Such as seafaring men provide for storms;
+<lb ed="G"/><lb ed="F1" n="85"/></l><l>To him one of the other twins was bound,
+<lb ed="G"/><lb ed="F1" n="86"/></l><l>Whilst I had been like heedful of the other:
+<lb ed="G"/><lb ed="F1" n="87"/></l><l>The children thus disposed, my wife and I,
+<lb ed="G"/><lb ed="F1" n="88"/></l><l>Fixing our eyes on whom our care was fix'd,
+<lb ed="G"/><lb ed="F1" n="89"/></l><l>Fasten'd ourselves at either end the mast;
+<lb ed="G"/><lb ed="F1" n="90"/></l><l>And floating straight, obedient to the stream,
+<lb ed="G"/><lb ed="F1" n="91"/></l><l>Was carried towards Corinth, as we thought.
+<lb ed="G"/><lb ed="F1" n="92"/></l><l>At length the sun, gazing upon the earth,
+<lb ed="G" n="90"/><lb ed="F1" n="93"/></l><l>Dispersed those vapors that offended us;
+<lb ed="G"/><lb ed="F1" n="94"/></l><l>And, by the benefit of his wished light,
+<lb ed="G"/><lb ed="F1" n="95"/></l><l>The seas wax'd calm, and we discovered
+<lb ed="G"/><lb ed="F1" n="96"/></l><l>Two ships from far making amain to us,
+<lb ed="G"/><lb ed="F1" n="97"/></l><l>Of Corinth that, of Epidaurus this:
+<lb ed="G"/><lb ed="F1" n="98"/></l><l>But ere they came,--O, let me say no more!
+<lb ed="G"/><lb ed="F1" n="99"/></l><l>Gather the sequel by that went before.
+
+<lb ed="G"/><lb ed="F1" n="100"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Nay, forward, old man; do not break off so;
+<lb ed="G"/><lb ed="F1" n="101"/></l><l>For we may pity, though not pardon thee.
+
+<lb ed="G"/><lb ed="F1" n="102"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>O, had the gods done so, I had not now
+<lb ed="G" n="100"/><lb ed="F1" n="103"/></l><l>Worthily term'd them merciless to us!
+<lb ed="G"/><lb ed="F1" n="104"/></l><l>For, ere the ships could meet by twice five leagues,
+<lb ed="G"/><lb ed="F1" n="105"/></l><l>We were encounter'd by a mighty rock;
+<lb ed="G"/><lb ed="F1" n="106"/></l><l>Which being violently borne upon,
+<lb ed="G"/><lb ed="F1" n="107"/></l><l>Our helpful ship was splitted in the midst;
+<lb ed="G"/><lb ed="F1" n="108"/></l><l>So that, in this unjust divorce of us,
+<lb ed="G"/><lb ed="F1" n="109"/></l><l>Fortune had left to both of us alike
+<lb ed="G"/><lb ed="F1" n="110"/></l><l>What to delight in, what to sorrow for.
+<lb ed="G"/><lb ed="F1" n="111"/></l><l>Her part, poor soul! seeming as burdened
+<lb ed="G"/><lb ed="F1" n="112"/></l><l>With lesser weight but not with lesser woe,
+<lb ed="G"/><lb ed="F1" n="113"/></l><l>Was carried with more speed before the wind;
+<lb ed="G" n="111"/><lb ed="F1" n="114"/></l><l>And in our sight they three were taken up
+<lb ed="G"/><lb ed="F1" n="115"/></l><l>By fishermen of Corinth, as we thought.
+<lb ed="G"/><lb ed="F1" n="116"/></l><l>At length, another ship had seized on us;
+<lb ed="G"/><lb ed="F1" n="117"/></l><l>And, knowing whom it was their hap to save,
+<lb ed="G"/><lb ed="F1" n="118"/></l><l>Gave healthful welcome to their shipwreck'd guests;
+<lb ed="G"/><lb ed="F1" n="119"/></l><l>And would have reft the fishers of their prey,
+<lb ed="G"/><lb ed="F1" n="120"/></l><l>Had not their bark been very slow of sail;
+<lb ed="G"/><lb ed="F1" n="121"/></l><l>And therefore homeward did they bend their course.
+<lb ed="G"/><lb ed="F1" n="122"/></l><l>Thus have you heard me sever'd from my bliss;
+<lb ed="G"/><lb ed="F1" n="123"/></l><l>That by misfortunes was my life prolong'd,
+<lb ed="G" n="121"/><lb ed="F1" n="124"/></l><l>To tell sad stories of my own mishaps.
+
+<lb ed="G"/><lb ed="F1" n="125"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>And, for the sake of them thou sorrowest for,
+<lb ed="G"/><lb ed="F1" n="126"/></l><l>Do me the favor to dilate at full
+<lb ed="G"/><lb ed="F1" n="127"/></l><l>What hath befall'n of them and thee till now.
+
+<lb ed="G"/><lb ed="F1" n="128"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>My youngest boy, and yet my eldest care,
+<lb ed="G"/><lb ed="F1" n="129"/></l><l>At eighteen years became inquisitive
+<lb ed="G"/><lb ed="F1" n="130"/></l><l>After his brother: and importuned me
+<lb ed="G"/><lb ed="F1" n="131"/></l><l>That his attendant--so his case was like,
+<lb ed="G"/><lb ed="F1" n="132"/></l><l>Reft of his brother, but retain'd his name--
+<lb ed="G"/><lb ed="F1" n="133"/></l><l>Might bear him company in the quest of him:
+<lb ed="G" n="131"/><lb ed="F1" n="134"/></l><l>Whom whilst I labor'd of a love to see,
+<lb ed="G"/><lb ed="F1" n="135"/></l><l>I hazarded the loss of whom I loved.
+<lb ed="G"/><lb ed="F1" n="136"/></l><l>Five summers have I spent in furthest Greece,
+<lb ed="G"/><lb ed="F1" n="137"/></l><l>Roaming clean through the bounds of Asia,
+<lb ed="G"/><lb ed="F1" n="138"/></l><l>And, coasting homeward, came to Ephesus;
+<lb ed="G"/><lb ed="F1" n="139"/></l><l>Hopeless to find, yet loath to leave unsought
+<lb ed="G"/><lb ed="F1" n="140"/></l><l>Or that or any place that harbors men.
+<lb ed="G"/><lb ed="F1" n="141"/></l><l>But here must end the story of my life;
+<lb ed="G"/><lb ed="F1" n="142"/></l><l>And happy were I in my timely death,
+<lb ed="G" n="140"/><lb ed="F1" n="143"/></l><l>Could all my travels warrant me they live.
+
+<lb ed="G"/><lb ed="F1" n="144"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Hapless &AElig;geon, whom the fates have mark'd
+<lb ed="G"/><lb ed="F1" n="145"/></l><l>To bear the extremity of dire mishap!
+<lb ed="G"/><lb ed="F1" n="146"/></l><l>Now, trust me, were it not against our laws,
+<lb ed="G"/><lb ed="F1" n="147"/></l><l>Against my crown, my oath, my dignity,
+<lb ed="G"/><lb ed="F1" n="148"/></l><l>Which princes, would they, may not disannul,
+<lb ed="G"/><lb ed="F1" n="149"/></l><l>My soul should sue as advocate for thee.
+<lb ed="G"/><lb ed="F1" n="150"/></l><l>But, though thou art adjudged to the death
+<lb ed="G"/><lb ed="F1" n="151"/></l><l>And passed sentence may not be recall'd
+<lb ed="G"/><lb ed="F1" n="152"/></l><l>But to our honor's great disparagement,
+<lb ed="G" n="150"/><lb ed="F1" n="153"/></l><l>Yet I will favor thee in what I can.
+<lb ed="G"/><lb ed="F1" n="154"/></l><l>Therefore, merchant, I'll limit thee this day
+<lb ed="G"/><lb ed="F1" n="155"/></l><l>To seek thy life by beneficial help:
+<lb ed="G"/><lb ed="F1" n="156"/></l><l>Try all the friends thou hast in Ephesus;
+<lb ed="G"/><lb ed="F1" n="157"/></l><l>Beg thou, or borrow, to make up the sum,
+<lb ed="G"/><lb ed="F1" n="158"/></l><l>And live; if no, then thou art doom'd to die
+<lb ed="G"/><lb ed="F1" n="159"/></l><l>Gaoler, take him to thy custody.
+
+<lb ed="G"/><lb ed="F1" n="160"/></l></sp><sp who="gaol."><speaker>Gaol.</speaker><p>I will, my lord.
+
+<lb ed="G"/><lb ed="F1" n="161"/></p></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>Hopeless and helpless doth &AElig;geon wend,
+<lb ed="G"/><lb ed="F1" n="162"/></l><l>But to procrastinate his lifeless end.
+<stage>[Exeunt.</stage></l></sp></div2>
+<div2 type="scene" n="2">
+<head>SCENE II</head>
+<stage type="setting"> The Mart. </stage>
+<stage type="entrance">Enter ANTIPHOLUS of Syracuse, DROMIO of Syracuse, and First Merchant.</stage>
+
+<lb ed="G"/><lb ed="F1" n="163"/><sp who="first-mer."><speaker>First Mer.</speaker><l>Therefore give out you are of Epidamnum,
+<lb ed="G"/><lb ed="F1" n="164"/></l><l>Lest that your goods too soon be confiscate.
+<lb ed="G"/><lb ed="F1" n="165"/></l><l>This very day a Syracusian merchant
+<lb ed="G"/><lb ed="F1" n="166"/></l><l>Is apprehended for arrival here;
+<lb ed="G"/><lb ed="F1" n="167"/></l><l>And not being able to buy out his life
+<lb ed="G"/><lb ed="F1" n="168"/></l><l>According to the statute of the town,
+<lb ed="G"/><lb ed="F1" n="169"/></l><l>Dies ere the weary sun set in the west.
+<lb ed="G"/><lb ed="F1" n="170"/></l><l>There is your money that I had to keep.
+
+<lb ed="G"/><lb ed="F1" n="171"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Go bear it to the Centaur, where we host,
+<lb ed="G" n="10"/><lb ed="F1" n="172"/></l><l>And stay there, Dromio, till I come to thee.
+<lb ed="G"/><lb ed="F1" n="173"/></l><l>Within this hour it will be dinner-time:
+<lb ed="G"/><lb ed="F1" n="174"/></l><l>Till that, I'll view the manners of the town,
+<lb ed="G"/><lb ed="F1" n="175"/></l><l>Peruse the traders, gaze upon the buildings,
+<lb ed="G"/><lb ed="F1" n="176"/></l><l>And then return and sleep within mine inn,
+<lb ed="G"/><lb ed="F1" n="177"/></l><l>For with long travel I am stiff and weary.
+<lb ed="G"/><lb ed="F1" n="178"/></l><l>Get thee away.
+
+<lb ed="G"/><lb ed="F1" n="179"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Many a man would take you at your word,
+<lb ed="G"/><lb ed="F1" n="180"/></l><l>And go indeed, having so good a mean.
+<lb ed="F1" n="181"/><stage>[Exit.</stage>
+
+<lb ed="G"/><lb ed="F1" n="182"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>A trusty villain, sir, that very oft,
+<lb ed="G" n="20"/><lb ed="F1" n="183"/></l><l>When I am dull with care and melancholy,
+<lb ed="G"/><lb ed="F1" n="184"/></l><l>Lightens my humor with his merry jests.
+<lb ed="G"/><lb ed="F1" n="185"/></l><l>What, will you walk with me about the town,
+<lb ed="G"/><lb ed="F1" n="186"/></l><l>And then go to my inn and dine with me?
+
+<lb ed="G"/><lb ed="F1" n="187"/></l></sp><sp who="first-mer."><speaker>First Mer.</speaker><l>I am invited, sir, to certain merchants,
+<lb ed="G"/><lb ed="F1" n="188"/></l><l>Of whom I hope to make much benefit;
+<lb ed="G"/><lb ed="F1" n="189"/></l><l>I crave your pardon. Soon at five o'clock,
+<lb ed="G"/><lb ed="F1" n="190"/></l><l>Please you, I'l meet with you upon the mart
+<lb ed="G"/><lb ed="F1" n="191"/></l><l>And afterward consort you till bed-time:
+<lb ed="G"/><lb ed="F1" n="192"/></l><l>My present business calls me from you now.
+
+<lb ed="G" n="30"/><lb ed="F1" n="193"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Farewell till then: I will go lose myself
+<lb ed="G"/><lb ed="F1" n="194"/></l><l>And wander up and down to view the city.
+
+<lb ed="G"/><lb ed="F1" n="195"/></l></sp><sp who="first-mer."><speaker>First Mer.</speaker><l>Sir, I commend you to your own content.
+<lb ed="F1" n="196"/><stage>[Exit. </stage>
+
+<lb ed="G"/><lb ed="F1" n="197"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>He that commends me to mine own content
+<lb ed="G"/><lb ed="F1" n="198"/></l><l>Commends me to the thing I cannot get.
+<lb ed="G"/><lb ed="F1" n="199"/></l><l>I to the world am like a drop of water
+<lb ed="G"/><lb ed="F1" n="200"/></l><l>That in the ocean seeks another drop,
+<lb ed="G"/><lb ed="F1" n="201"/></l><l>Who, falling there to find his fellow forth,
+<lb ed="G"/><lb ed="F1" n="202"/></l><l>Unseen, inquisitive, confounds himself:
+<lb ed="G"/><lb ed="F1" n="203"/></l><l>So I, to find a mother and a brother,
+<lb ed="G" n="40"/><lb ed="F1" n="204"/></l><l>In quest of them, unhappy, lose myself.
+<lb ed="F1" n="205"/><stage type="entrance">          Enter DROMIO of Ephesus.</stage>
+<lb ed="G"/><lb ed="F1" n="206"/></l><l>Here comes the almanac of my true date.
+<lb ed="G"/><lb ed="F1" n="207"/></l><l>What now? how chance thou art return'd so soon ?
+
+<lb ed="G"/><lb ed="F1" n="208"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Return'd so soon! rather approach'd too late:
+<lb ed="G"/><lb ed="F1" n="209"/></l><l>The capon burns, the pig falls from the spit,
+<lb ed="G"/><lb ed="F1" n="210"/></l><l>The clock hath strucken twelve upon the bell;
+<lb ed="G"/><lb ed="F1" n="211"/></l><l>My mistress made it one upon my cheek:
+<lb ed="G"/><lb ed="F1" n="212"/></l><l>She is so hot because the meat is cold;
+<lb ed="G"/><lb ed="F1" n="213"/></l><l>The meat is cold because you come not home;
+<lb ed="G"/><lb ed="F1" n="214"/></l><l>You come not home because you have no stomach;
+<lb ed="G"/><lb ed="F1" n="215"/></l><l>You have no stomach having broke your fast;
+<lb ed="G" n="51"/><lb ed="F1" n="216"/></l><l>But we that know what 'tis to fast and pray
+<lb ed="G"/><lb ed="F1" n="217"/></l><l>Are penitent for your default to-day.
+
+<lb ed="G"/><lb ed="F1" n="218"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Stop in your wind, sir: tell me this, I pray:
+<lb ed="G"/><lb ed="F1" n="219"/></l><l>Where have you left the money that I gave you?
+
+<lb ed="G"/><lb ed="F1" n="220"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>O,--sixpence, that I had o' Wednesday last
+<lb ed="G"/><lb ed="F1" n="221"/></l><l>To pay the saddler for my mistress' crupper?
+<lb ed="G"/><lb ed="F1" n="222"/></l><l>The saddler had it, sir; I kept it not.
+
+<lb ed="G"/><lb ed="F1" n="223"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>I am not in a sportive humor now:
+<lb ed="G"/><lb ed="F1" n="224"/></l><l>Tell me, and dally not, where is the money?
+<lb ed="G"/><lb ed="F1" n="225"/></l><l>We being strangers here, how darest thou trust
+<lb ed="G" n="61"/><lb ed="F1" n="226"/></l><l>So great a charge from thine own custody?
+
+<lb ed="G"/><lb ed="F1" n="227"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>I pray you, jest, sir, as you sit at dinner:
+<lb ed="G"/><lb ed="F1" n="228"/></l><l>I from my mistress come to you in post;
+<lb ed="G"/><lb ed="F1" n="229"/></l><l>If I return, I shall be post indeed,
+<lb ed="G"/><lb ed="F1" n="230"/></l><l>For she will score your fault upon my pate.
+<lb ed="G"/><lb ed="F1" n="231"/></l><l>Methinks your maw, like mine, should be your clock
+<lb ed="G"/><lb ed="F1" n="232"/></l><l>And strike you home without a messenger.
+
+<lb ed="G"/><lb ed="F1" n="233"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Come, Dromio, come, these jests are out of season;
+<lb ed="G"/><lb ed="F1" n="234"/></l><l>Reserve them till a merrier hour than this.
+<lb ed="G" n="70"/><lb ed="F1" n="235"/></l><l>Where is the gold I gave in charge to thee?
+
+<lb ed="G"/><lb ed="F1" n="236"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>To me, sir? why, you gave no gold to me.
+
+<lb ed="G"/><lb ed="F1" n="237"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Come on, sir knave, have done your foolishness
+<lb ed="G"/><lb ed="F1" n="238"/></l><l>And tell me how thou hast disposed thy charge,
+
+<lb ed="G"/><lb ed="F1" n="239"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>My charge was but to fetch you from the mart
+<lb ed="G"/><lb ed="F1" n="240"/></l><l>Home to your house, the Phoenix, sir, to dinner:
+<lb ed="G"/><lb ed="F1" n="241"/></l><l>My mistress and her sister stays for you.
+
+<lb ed="G"/><lb ed="F1" n="242"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Now, as I am a Christian, answer me
+<lb ed="G"/><lb ed="F1" n="243"/></l><l>In what safe place you have bestow'd my money,
+<lb ed="G"/><lb ed="F1" n="244"/></l><l>Or I shall break that merry sconce of yours
+<lb ed="G" n="80"/><lb ed="F1" n="245"/></l><l>That stands on tricks when I am undisposed:
+<lb ed="G"/><lb ed="F1" n="246"/></l><l>Where is the thousand marks thou hadst of me?
+
+<lb ed="G"/><lb ed="F1" n="247"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>I have some marks of yours upon my pate,
+<lb ed="G"/><lb ed="F1" n="248"/></l><l>Some of my mistress' marks upon my shoulders,
+<lb ed="G"/><lb ed="F1" n="249"/></l><l>But not a thousand marks between you both.
+<lb ed="G"/><lb ed="F1" n="250"/></l><l>If I should pay your worship those again,
+<lb ed="G"/><lb ed="F1" n="251"/></l><l>Perchance you will not bear them patiently.
+
+<lb ed="G"/><lb ed="F1" n="252"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Thy mistress' marks? what mistress, slave, hast thou?
+
+<lb ed="G"/><lb ed="F1" n="253"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Your worship's wife, my mistress at the Phoenix;
+<lb ed="G"/><lb ed="F1" n="254"/></l><l>She that doth fast till you come home to dinner
+<lb ed="G"/><lb ed="F1" n="255"/></l><l>And prays that you will hie you home to dinner.
+
+<lb ed="G" n="91"/><lb ed="F1" n="256"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>What, wilt thou flout me thus unto my face,
+<lb ed="G"/><lb ed="F1" n="257"/></l><l>Being forbid? There, take you that, sir knave.
+
+<lb ed="G"/><lb ed="F1" n="258"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>What mean you, sir? for God's sake, hold your hands!
+<lb ed="G"/><lb ed="F1" n="259"/></l><l>Nay, an you will not, sir, I'll take my heels.
+<lb ed="F1" n="260"/><stage>[Exit.</stage>
+
+<lb ed="G"/><lb ed="F1" n="261"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Upon my life, by some device or other
+<lb ed="G"/><lb ed="F1" n="262"/></l><l>The villain is o'er-raught of all my money.
+<lb ed="G"/><lb ed="F1" n="263"/></l><l>They say this town is full of cozenage,
+<lb ed="G"/><lb ed="F1" n="264"/></l><l>As, nimble jugglers that deceive the eye,
+<lb ed="G"/><lb ed="F1" n="265"/></l><l>Dark-working sorcerers that change the mind,
+<lb ed="G" n="100"/><lb ed="F1" n="266"/></l><l>Soul-killing witches that deform the body,
+<lb ed="G"/><lb ed="F1" n="267"/></l><l>Disguised cheaters, prating mountebanks,
+<lb ed="G"/><lb ed="F1" n="268"/></l><l>And many such-like liberties of sin:
+<lb ed="G"/><lb ed="F1" n="269"/></l><l>If it prove so, I will be gone the sooner.
+<lb ed="G"/><lb ed="F1" n="270"/></l><l>I'll to the Centaur, to go seek this slave:
+<lb ed="G"/><lb ed="F1" n="271"/></l><l>I greatly fear my money is not safe.
+<stage>[Exit.</stage></l></sp>
+</div2>
+</div1>
+
+ <div1 type="act" n="2">
+<head>ACT II</head><lb ed="F1" n="272"/>
+<div2 type="scene" n="1">
+<head>SCENE I</head>
+<stage type="setting"> The house of ANTIPHOLUS of Ephesus. </stage>
+<lb ed="F1" n="273"/><stage type="entrance">         Enter ADRIANA and LUCIANA.</stage>
+<lb ed="F1" n="274"/>
+
+<lb ed="G"/><lb ed="F1" n="275"/><sp who="adr."><speaker>Adr.</speaker><l>Neither my husband nor the slave return'd,
+<lb ed="G"/><lb ed="F1" n="276"/></l><l>That in such haste I sent to seek his master!
+<lb ed="G"/><lb ed="F1" n="277"/></l><l>Sure, Luciana, it is two o'clock.
+
+<lb ed="G"/><lb ed="F1" n="278"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Perhaps some merchant hath invited him
+<lb ed="G"/><lb ed="F1" n="279"/></l><l>And from the mart he's somewhere gone to dinner.
+<lb ed="G"/><lb ed="F1" n="280"/></l><l>Good sister, let us dine and never fret:
+<lb ed="G"/><lb ed="F1" n="281"/></l><l>A man is master of his liberty:
+<lb ed="G"/><lb ed="F1" n="282"/></l><l>Time is their master, and, when they see time,
+<lb ed="G"/><lb ed="F1" n="283"/></l><l>They'll go or come: if so, be patient, sister.
+
+<lb ed="G" n="10"/><lb ed="F1" n="284"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Why should their liberty than ours be more ?
+
+<lb ed="G"/><lb ed="F1" n="285"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Because their business still lies out o' door.
+
+<lb ed="G"/><lb ed="F1" n="286"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Look, when I serve him so, he takes it ill.
+
+<lb ed="G"/><lb ed="F1" n="287"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>O, know he is the bridle of your will.
+
+<lb ed="G"/><lb ed="F1" n="288"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>There's none but asses will be bridled so.
+
+<lb ed="G"/><lb ed="F1" n="289"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Why, headstrong liberty is lash'd with woe.
+<lb ed="G"/><lb ed="F1" n="290"/></l><l>There's nothing situate under heaven's eye
+<lb ed="G"/><lb ed="F1" n="291"/></l><l>But hath his bound, in earth, in sea, in sky:
+<lb ed="G"/><lb ed="F1" n="292"/></l><l>The beasts, the fishes, and the winged fowls
+<lb ed="G"/><lb ed="F1" n="293"/></l><l>Are their males' subjects and at their controls:
+<lb ed="G" n="20"/><lb ed="F1" n="294"/></l><l>Men, more divine, the masters of all these,
+<lb ed="G"/><lb ed="F1" n="295"/></l><l>Lords of the wide world and wild watery seas,
+<lb ed="G"/><lb ed="F1" n="296"/></l><l>Indued with intellectual sense and souls,
+<lb ed="G"/><lb ed="F1" n="297"/></l><l>Of more pre-eminence than fish and fowls,
+<lb ed="G"/><lb ed="F1" n="298"/></l><l>Are masters to their females, and their lords:
+<lb ed="G"/><lb ed="F1" n="299"/></l><l>Then let your will attend on their accords.
+
+<lb ed="G"/><lb ed="F1" n="300"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>This servitude makes you to keep unwed.
+
+<lb ed="G"/><lb ed="F1" n="301"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Not this, but troubles of the marriagebed.
+
+<lb ed="G"/><lb ed="F1" n="302"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>But, were you wedded, you would bear some sway.
+
+<lb ed="G"/><lb ed="F1" n="303"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Ere I learn love, I'll practise to obey.
+
+<lb ed="G" n="30"/><lb ed="F1" n="304"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>How if your husband start some other where?
+
+<lb ed="G"/><lb ed="F1" n="305"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Till he come home again, I would forbear.
+
+<lb ed="G"/><lb ed="F1" n="306"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Patience unmoved! no marvel though she pause;
+<lb ed="G"/><lb ed="F1" n="307"/></l><l>They can be meek that have no other cause.
+<lb ed="G"/><lb ed="F1" n="308"/></l><l>A wretched soul, bruised with adversity,
+<lb ed="G"/><lb ed="F1" n="309"/></l><l>We bid be quiet when we hear it cry;
+<lb ed="G"/><lb ed="F1" n="310"/></l><l>But were we burden'd with like weight of pain,
+<lb ed="G"/><lb ed="F1" n="311"/></l><l>As much or more we should ourselves complain:
+<lb ed="G"/><lb ed="F1" n="312"/></l><l>So thou, that hast no unkind mate to grieve thee,
+<lb ed="G"/><lb ed="F1" n="313"/></l><l>With urging helpless patience wouldst relieve me;
+<lb ed="G" n="40"/><lb ed="F1" n="314"/></l><l>But, if thou live to see like right bereft,
+<lb ed="G"/><lb ed="F1" n="315"/></l><l>This fool-begg'd patience in thee will be left.
+
+<lb ed="G"/><lb ed="F1" n="316"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Well, I will marry one day, but to try.
+<lb ed="G"/><lb ed="F1" n="317"/></l><l>Here comes your man; now is your husband nigh.
+<lb ed="F1" n="318"/><stage type="entrance">           Enter DROMIO of Ephesus.</stage>
+
+<lb ed="G"/><lb ed="F1" n="319"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Say, is your tardy master now at hand ?
+
+<lb ed="G"/><lb ed="F1" n="320"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>Nay, he's at two hands with me,
+<lb ed="G"/>and that my <lb ed="F1" n="321"/>two ears can witness.
+
+<lb ed="G"/><lb ed="F1" n="322"/></p></sp><sp who="adr."><speaker>Adr.</speaker><l>Say, didst thou speak with him? know'st thou <lb ed="F1" n="323"/>his mind?
+
+<lb ed="G"/><lb ed="F1" n="324"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>Ay, ay, he told his mind upon mine ear:
+<lb ed="G"/><lb ed="F1" n="325"/></p><l>Beshrew his hand, I scarce could understand it.
+
+<lb ed="G"/><lb ed="F1" n="326"/></l></sp><sp who="luc."><speaker>Luc.</speaker><p>Spake he so doubtfully, thou couldst
+<lb ed="G" n="51"/>not feel <lb ed="F1" n="327"/>his meaning?
+
+<lb ed="G"/><lb ed="F1" n="328"/></p></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>Nay, he struck so plainly, I could
+<lb ed="G"/>too well <lb ed="F1" n="329"/>feel his blows; and withal so doubtfully
+<lb ed="G"/>that I could <lb ed="F1" n="330"/>scarce understand them.
+
+<lb ed="G"/><lb ed="F1" n="331"/></p></sp><sp who="adr."><speaker>Adr.</speaker><p>But say, I prithee, is he coming
+<lb ed="G"/>home? <lb ed="F1" n="332"/>It seems he hath great care to please
+<lb ed="G"/>his wife.
+
+<lb ed="G"/><lb ed="F1" n="333"/></p></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Why, mistress, sure my master is horn-mad.
+
+<lb ed="G"/><lb ed="F1" n="334"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l part="I">Horn-mad, thou villain!
+
+<lb ed="G"/><lb ed="F1" n="335"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l part="F">I mean not cuckold-mad;
+<lb ed="G"/><lb ed="F1" n="336"/></l><l>But, sure, he is stark mad.
+<lb ed="G"/><lb ed="F1" n="337"/></l><l>When I desired him to come home to dinner,
+<lb ed="G"/><lb ed="F1" n="338"/></l><l>He ask'd me for a thousand marks in gold:
+<lb ed="G"/><lb ed="F1" n="339"/></l><l>''Tis dinner-time,' quoth I; 'My gold!' quoth he:
+<lb ed="G"/><lb ed="F1" n="340"/></l><l>'Your meat doth burn,' quoth I; 'My gold!' quoth he:
+<lb ed="G"/><lb ed="F1" n="341"/></l><l>'Will you come home?' quoth I; 'My gold!' quoth he,
+<lb ed="G"/><lb ed="F1" n="342"/></l><l>'Where is the thousand marks I gave thee, villain?'
+<lb ed="G"/><lb ed="F1" n="343"/></l><l>'The pig,' quoth I, 'is burn'd;' 'My gold!' quoth he;
+<lb ed="G"/><lb ed="F1" n="344"/></l><l>'My mistress, sir,' quoth I; 'Hang up thy mistress!
+<lb ed="G"/><lb ed="F1" n="345"/></l><l>I know not thy mistress; out on thy mistress!'
+
+<lb ed="G"/><lb ed="F1" n="346"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Quoth who?
+
+<lb ed="G" n="70"/><lb ed="F1" n="347"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Quoth my master:
+<lb ed="G"/></l><l>'I know,' quoth he, 'no house, <lb ed="F1" n="348"/>no wife, no mistress.'
+<lb ed="G"/></l><l>So that my errand, due unto my <lb ed="F1" n="349"/>tongue,
+<lb ed="G"/></l><l>I thank him, I bare home upon my shoulders;
+<lb ed="G"/><lb ed="F1" n="350"/></l><l>For, in conclusion, he did beat me there.
+
+<lb ed="G"/><lb ed="F1" n="351"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Go back again, thou slave, and fetch him home.
+
+<lb ed="G"/><lb ed="F1" n="352"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Go back again, and be new beaten home?
+<lb ed="G"/><lb ed="F1" n="353"/></l><l>For God's sake, send some other messenger.
+
+<lb ed="G"/><lb ed="F1" n="354"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Back, slave, or I will break thy pate across.
+
+<lb ed="G"/><lb ed="F1" n="355"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>And he will bless that cross with other beating:
+<lb ed="G" n="80"/><lb ed="F1" n="356"/></l><l>Between you I shall have a holy head.
+
+<lb ed="G"/><lb ed="F1" n="357"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Hence, prating peasant! fetch thy master home.
+
+<lb ed="G"/><lb ed="F1" n="358"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Am I so round with you as you with me,
+<lb ed="G"/><lb ed="F1" n="359"/></l><l>That like a football you do spurn me thus?
+<lb ed="G"/><lb ed="F1" n="360"/></l><l>You spurn me hence, and he will spurn me hither:
+<lb ed="G"/><lb ed="F1" n="361"/></l><l>If I last in this service, you must case me in leather.
+<stage>[Exit. </stage>
+
+<lb ed="G"/><lb ed="F1" n="362"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Fie, how impatience loureth in your face!
+
+<lb ed="G"/><lb ed="F1" n="363"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>His company must do his minions grace,
+<lb ed="G"/><lb ed="F1" n="364"/></l><l>Whilst I at home starve for a merry look.
+<lb ed="G"/><lb ed="F1" n="365"/></l><l>Hath homely age the alluring beauty took
+<lb ed="G" n="90"/><lb ed="F1" n="366"/></l><l>From my poor cheek? then he hath wasted it:
+<lb ed="G"/><lb ed="F1" n="367"/></l><l>Are my discourses dull? barren my wit?
+<lb ed="G"/><lb ed="F1" n="368"/></l><l>If voluble and sharp discourse be marr'd,
+<lb ed="G"/><lb ed="F1" n="369"/></l><l>Unkindness blunts it more than marble hard:
+<lb ed="G"/><lb ed="F1" n="370"/></l><l>Do their gay vestments his affections bait?
+<lb ed="G"/><lb ed="F1" n="371"/></l><l>That's not my fault: he's master of my state:
+<lb ed="G"/><lb ed="F1" n="372"/></l><l>What ruins are in me that can be found,
+<lb ed="G"/><lb ed="F1" n="373"/></l><l>By him not ruin'd? then is he the ground
+<lb ed="G"/><lb ed="F1" n="374"/></l><l>Of my defeatures. My decayed fair
+<lb ed="G"/><lb ed="F1" n="375"/></l><l>A sunny look of his would soon repair:
+<lb ed="G" n="100"/><lb ed="F1" n="376"/></l><l>But, too unruly deer, he breaks the pale
+<lb ed="G"/><lb ed="F1" n="377"/></l><l>And feeds from home; poor I am but his stale.
+
+<lb ed="G"/><lb ed="F1" n="378"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Self-harming jealousy! fie, beat it hence!
+
+<lb ed="G"/><lb ed="F1" n="379"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Unfeeling fools can with such wrongs dispense.
+<lb ed="G"/><lb ed="F1" n="380"/></l><l>I know his eye doth homage otherwhere;
+<lb ed="G"/><lb ed="F1" n="381"/></l><l>Or else what lets it but he would be here?
+<lb ed="G"/><lb ed="F1" n="382"/></l><l>Sister, you know he promised me a chain;
+<lb ed="G"/><lb ed="F1" n="383"/></l><l>Would that alone, alone he would detain,
+<lb ed="G"/><lb ed="F1" n="384"/></l><l>So he would keep fair quarter with his bed!
+<lb ed="G"/><lb ed="F1" n="385"/></l><l>I see the jewel best enamelled
+<lb ed="G"/><lb ed="F1" n="386"/></l><l>Will lose his beauty; yet the gold bides still,
+<lb ed="G" n="111"/><lb ed="F1" n="387"/></l><l>That others touch, and often touching will
+<lb ed="G"/><lb ed="F1" n="388"/></l><l>Wear gold: and no man that hath a name,
+<lb ed="G"/><lb ed="F1" n="389"/></l><l>By falsehood and corruption doth it shame.
+<lb ed="G"/><lb ed="F1" n="390"/></l><l>Since that my beauty cannot please his eye,
+<lb ed="G"/><lb ed="F1" n="391"/></l><l>I'll weep what's left away, and weeping die.
+
+<lb ed="G"/><lb ed="F1" n="392"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>How many fond fools serve mad jealousy!
+<lb ed="F1" n="393"/><stage>[Exeunt. </stage></l></sp>
+</div2>
+<div2 type="scene" n="2">
+<head>SCENE II</head>
+<stage type="setting"> A public place.</stage>
+<lb ed="F1" n="394"/><stage type="entrance"> Enter ANTIPHOLUS of Syracuse.  </stage>
+
+<lb ed="G"/><lb ed="F1" n="395"/><sp who="ant.-s."><speaker>Ant. S.</speaker><l>The gold I gave to Dromio is laid up
+<lb ed="G"/><lb ed="F1" n="396"/></l><l>Safe at the Centaur; and the heedful slave
+<lb ed="G"/><lb ed="F1" n="397"/></l><l>Is wander'd forth, in care to seek me out
+<lb ed="G"/><lb ed="F1" n="398"/></l><l>By computation and mine host's report.
+<lb ed="G"/><lb ed="F1" n="399"/></l><l>I could not speak with Dromio since at first
+<lb ed="G"/><lb ed="F1" n="400"/></l><l>I sent him from the mark. See, here he comes.
+<lb ed="F1" n="401"/><stage type="entrance">         Enter DROMIO of Syracuse.</stage>
+<lb ed="G"/><lb ed="F1" n="402"/></l><l>How now, sir! is your merry humor alter'd?
+<lb ed="G"/><lb ed="F1" n="403"/></l><l>As you love strokes, so jest with me again.
+<lb ed="G"/><lb ed="F1" n="404"/></l><l>You know no Centaur? you received no gold?
+<lb ed="G"/><lb ed="F1" n="405"/></l><l>Your mistress sent to have me home to dinner?
+<lb ed="G" n="11"/><lb ed="F1" n="406"/></l><l>My house was at the Phoenix? Wast thou mad,
+<lb ed="G"/><lb ed="F1" n="407"/></l><l>That thus so madly thou didst answer me?
+
+<lb ed="G"/><lb ed="F1" n="408"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>What answer, sir? when spake I such a word?
+
+<lb ed="G"/><lb ed="F1" n="409"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Even now, even here, not half an hour since.
+
+<lb ed="G"/><lb ed="F1" n="410"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>I did not see you since you sent me hence,
+<lb ed="G"/><lb ed="F1" n="411"/></l><l>Home to the Centaur, with the gold you gave me.
+
+<lb ed="G"/><lb ed="F1" n="412"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Villain, thou didst deny the gold's receipt,
+<lb ed="G"/><lb ed="F1" n="413"/></l><l>And told'st me of a mistress and a dinner;
+<lb ed="G"/><lb ed="F1" n="414"/></l><l>For which, I hope, thou felt'st I was displeased.
+
+<lb ed="G" n="20"/><lb ed="F1" n="415"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>I am glad to see you in this merry vein:
+<lb ed="G"/><lb ed="F1" n="416"/></l><l>What means this jest? I pray you, master, tell me.
+
+<lb ed="G"/><lb ed="F1" n="417"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Yea, dost thou jeer and flout me in the teeth ?
+<lb ed="G"/><lb ed="F1" n="418"/></l><l>Think'st thou I jest? Hold, take thou that, and that.
+<stage>[Beating him. </stage>
+
+<lb ed="G"/><lb ed="F1" n="419"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Hold, sir, for God's sake! now your jest is earnest:
+<lb ed="G"/><lb ed="F1" n="420"/></l><l>Upon what bargain do you give it me?
+
+<lb ed="G"/><lb ed="F1" n="421"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Because that I familiarly sometimes
+<lb ed="G"/><lb ed="F1" n="422"/></l><l>Do use you for my fool and chat with you,
+<lb ed="G"/><lb ed="F1" n="423"/></l><l>Your sauciness will jest upon my love
+<lb ed="G"/><lb ed="F1" n="424"/></l><l>And make a common of my serious hours.
+<lb ed="G" n="30"/><lb ed="F1" n="425"/></l><l>When the sun shines let foolish gnats make sport,
+<lb ed="G"/><lb ed="F1" n="426"/></l><l>But creep in crannies when he hides his beams.
+<lb ed="G"/><lb ed="F1" n="427"/></l><l>If you will jest with me, know my aspect
+<lb ed="G"/><lb ed="F1" n="428"/></l><l>And fashion your demeanor to my looks,
+<lb ed="G"/><lb ed="F1" n="429"/></l><l>Or I will beat this method in your sconce.
+
+<lb ed="G"/><lb ed="F1" n="430"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Sconce call you it? so you would
+<lb ed="G"/>leave battering, <lb ed="F1" n="431"/>I had rather have it a head:
+<lb ed="G"/>an  you use these blows <lb ed="F1" n="432"/>long, I must get a
+<lb ed="G"/>sconce for my head and insconce it <lb ed="F1" n="433"/>too; or
+<lb ed="G"/>else I shall seek my wit in my shoulders. But,
+<lb ed="G" n="40"/>I pray, <lb ed="F1" n="434"/>sir, why am I beaten?
+
+<lb ed="G"/><lb ed="F1" n="435"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Dost thou not know?
+
+<lb ed="G"/><lb ed="F1" n="436"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Nothing, sir, but that I am beaten.
+
+<lb ed="G"/><lb ed="F1" n="437"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Shall I tell you why?
+
+<lb ed="G"/><lb ed="F1" n="438"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Ay, sir, and wherefore; for they
+<lb ed="G"/>say every why <lb ed="F1" n="439"/>hath a wherefore.
+
+<lb ed="G"/><lb ed="F1" n="440"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Why, first,--for flouting me; and then, wherefore,--
+<lb ed="G"/><lb ed="F1" n="441"/></l><l>For urging it the second time to me.
+
+<lb ed="G"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Was there ever any man thus beaten out of <lb ed="F1" n="442"/>season,
+<lb ed="G"/></l><l>When in the why and the wherefore is neither <lb ed="F1" n="443"/>rhyme nor reason?
+<lb ed="G" n="50"/><lb ed="F1" n="444"/></l><l>Well, sir, I thank you.
+
+<lb ed="G"/><lb ed="F1" n="445"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Thank me, sir! for what?
+
+<lb ed="G"/><lb ed="F1" n="446"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Marry, sir, for this something that
+<lb ed="G"/>you gave me <lb ed="F1" n="447"/>for nothing.
+
+<lb ed="G"/><lb ed="F1" n="448"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>I'll make you amends next, to give
+<lb ed="G"/>you nothing <lb ed="F1" n="449"/>for something. But say, sir, is it
+<lb ed="G"/>dinner-time ?
+
+<lb ed="G"/><lb ed="F1" n="450"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>No, sir; I think the meat wants that I have.
+
+<lb ed="G"/><lb ed="F1" n="451"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>In good time, sir; what's that?!
+
+<lb ed="G"/><lb ed="F1" n="452"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Basting.
+
+<lb ed="G" n="60"/><lb ed="F1" n="453"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Well, sir, then 'twill be dry.
+
+<lb ed="G"/><lb ed="F1" n="454"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>If it be, sir, I pray you, eat none of it.
+
+<lb ed="G"/><lb ed="F1" n="455"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Your reason?
+
+<lb ed="G"/><lb ed="F1" n="456"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Lest it make you choleric and purchase
+<lb ed="G"/>me <lb ed="F1" n="457"/>another dry basting.
+
+<lb ed="G"/><lb ed="F1" n="458"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Well, sir, learn to jest in good time:
+<lb ed="G"/>there's a <lb ed="F1" n="459"/>time for all things.
+
+<lb ed="G"/><lb ed="F1" n="460"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>I durst have denied that, before
+<lb ed="G"/>you were so <lb ed="F1" n="461"/>choleric.
+
+<lb ed="G"/><lb ed="F1" n="462"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>By what rule, sir?
+
+<lb ed="G"/><lb ed="F1" n="463"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Marry, sir, by a rule as plain as
+<lb ed="G" n="71"/>the plain bald <lb ed="F1" n="464"/>pate of father Time himself.
+
+<lb ed="G"/><lb ed="F1" n="465"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Let's hear it.
+
+<lb ed="G"/><lb ed="F1" n="466"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>There's no time for a man to recover
+<lb ed="G"/>his hair <lb ed="F1" n="467"/>that grows bald by nature.
+
+<lb ed="G"/><lb ed="F1" n="468"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>May he not do it by fine and recovery?
+
+<lb ed="G"/><lb ed="F1" n="469"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Yes, to pay a fine for a periwig and
+<lb ed="G"/>recover <lb ed="F1" n="470"/>the lost hair of another man.
+
+<lb ed="G"/><lb ed="F1" n="471"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Why is Time such a niggard of
+<lb ed="G"/>hair, being, as <lb ed="F1" n="472"/>it is, so plentiful an excrement?
+
+<lb ed="G"/><lb ed="F1" n="473"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Because it is a blessing that he bestows
+<lb ed="G"/>on <lb ed="F1" n="474"/>beasts; and what he hath scanted
+<lb ed="G"/>men in hair he hath <lb ed="F1" n="475"/>given them in wit.
+
+<lb ed="G"/><lb ed="F1" n="476"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Why, but there's many a man hath
+<lb ed="G"/>more hair <lb ed="F1" n="477"/>than wit.
+
+<lb ed="G"/><lb ed="F1" n="478"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Not a man of those but he hath
+<lb ed="G"/>the wit to lose <lb ed="F1" n="479"/>his hair.
+
+<lb ed="G"/><lb ed="F1" n="480"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Why, thou didst conclude hairy
+<lb ed="G"/>men plain dealers <lb ed="F1" n="481"/>without wit.
+
+<lb ed="G"/><lb ed="F1" n="482"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>The plainer dealer, the sooner lost:
+<lb ed="G" n="90"/>yet he loseth <lb ed="F1" n="483"/>it in a kind of jollity.
+
+<lb ed="G"/><lb ed="F1" n="484"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>For what reason?
+
+<lb ed="G"/><lb ed="F1" n="485"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>For two; and sound ones too.
+
+<lb ed="G"/><lb ed="F1" n="486"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Nay, not sound, I pray you.
+
+<lb ed="G"/><lb ed="F1" n="487"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Sure ones, then.
+
+<lb ed="G"/><lb ed="F1" n="488"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Nay, not sure, in a thing falsing.
+
+<lb ed="G"/><lb ed="F1" n="489"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Certain ones then.
+
+<lb ed="G"/><lb ed="F1" n="490"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Name them.
+
+<lb ed="G"/><lb ed="F1" n="491"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>The one, to save the money that
+<lb ed="G"/>he spends in <lb ed="F1" n="492"/>trimming; the other that at dinner
+<lb ed="G"/>they should not drop in <lb ed="F1" n="493"/>his porridge.
+
+<lb ed="G" n="100"/><lb ed="F1" n="494"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>You would all this time have
+<lb ed="G"/>proved there is no <lb ed="F1" n="495"/>time for all things.
+
+<lb ed="G"/><lb ed="F1" n="496"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Marry, and did, sir; namely, no
+<lb ed="G"/>time to recover <lb ed="F1" n="497"/>hair lost by nature.
+
+<lb ed="G"/><lb ed="F1" n="498"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>But your reason was not substantial,
+<lb ed="G"/>why there <lb ed="F1" n="499"/>is no time to recover.
+
+<lb ed="G"/><lb ed="F1" n="500"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Thus I mend it: Time himself is
+<lb ed="G"/>bald and <lb ed="F1" n="501"/>therefore to the world's end will have
+<lb ed="G"/>bald followers.
+
+<lb ed="G"/><lb ed="F1" n="502"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>I knew 'twould be a bald conclusion:
+<lb ed="G" n="111"/></l><l>But, soft! <lb ed="F1" n="503"/>who wafts us yonder?
+<lb ed="F1" n="504"/><stage type="entrance">         Enter ADRIANA and LUCIANA.</stage>
+
+<lb ed="G"/><lb ed="F1" n="505"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Ay, ay, Antipholus, look strange and frown:
+<lb ed="G"/><lb ed="F1" n="506"/></l><l>Some other mistress hath thy sweet aspects;
+<lb ed="G"/><lb ed="F1" n="507"/></l><l>I am not Adriana nor thy wife.
+<lb ed="G"/><lb ed="F1" n="508"/></l><l>The time was once when thou unurged wouldst vow
+<lb ed="G"/><lb ed="F1" n="509"/></l><l>That never words were music to thine ear,
+<lb ed="G"/><lb ed="F1" n="510"/></l><l>That never object pleasing in thine eye,
+<lb ed="G"/><lb ed="F1" n="511"/></l><l>That never touch well welcome to thy hand,
+<lb ed="G"/><lb ed="F1" n="512"/></l><l>That never meat sweet-savor'd in thy taste,
+<lb ed="G" n="120"/><lb ed="F1" n="513"/></l><l>Unless I spake, or look'd, or touch'd, or carved to thee.
+<lb ed="G"/><lb ed="F1" n="514"/></l><l>How comes it now, my husband, O, how comes it,
+<lb ed="G"/><lb ed="F1" n="515"/></l><l>That thou art thus estranged from thyself?
+<lb ed="G"/><lb ed="F1" n="516"/></l><l>Thyself I call it, being strange to me,
+<lb ed="G"/><lb ed="F1" n="517"/></l><l>That, undividable, incorporate,
+<lb ed="G"/><lb ed="F1" n="518"/></l><l>Am better than thy dear self's better part.
+<lb ed="G"/><lb ed="F1" n="519"/></l><l>Ah, do not tear away thyself from me!
+<lb ed="G"/><lb ed="F1" n="520"/></l><l>For know, my love, as easy mayest thou fall
+<lb ed="G"/><lb ed="F1" n="521"/></l><l>A drop of water in the breaking gulf,
+<lb ed="G"/><lb ed="F1" n="522"/></l><l>And take unmingled thence that drop again,
+<lb ed="G" n="130"/><lb ed="F1" n="523"/></l><l>Without addition or diminishing,
+<lb ed="G"/><lb ed="F1" n="524"/></l><l>As take from me thyself and not me too.
+<lb ed="G"/><lb ed="F1" n="525"/></l><l>How dearly would it touch thee to the quick,
+<lb ed="G"/><lb ed="F1" n="526"/></l><l>Shouldst thou but hear I were licentious
+<lb ed="G"/><lb ed="F1" n="527"/></l><l>And that this body, consecrate to thee,
+<lb ed="G"/><lb ed="F1" n="528"/></l><l>By ruffian lust should be contaminate!
+<lb ed="G"/><lb ed="F1" n="529"/></l><l>Wouldst thou not spit at me and spurn at me
+<lb ed="G"/><lb ed="F1" n="530"/></l><l>And hurl the name of husband in my face
+<lb ed="G"/><lb ed="F1" n="531"/></l><l>And tear the stain'd skin off my harlot-brow
+<lb ed="G"/><lb ed="F1" n="532"/></l><l>And from my false hand cut the wedding-ring
+<lb ed="G" n="140"/><lb ed="F1" n="533"/></l><l>And break it with a deep-divorcing vow?
+<lb ed="G"/><lb ed="F1" n="534"/></l><l>I know thou canst; and therefore see thou do it.
+<lb ed="G"/><lb ed="F1" n="535"/></l><l>I am possess'd with an adulterate blot;
+<lb ed="G"/><lb ed="F1" n="536"/></l><l>My blood is mingled with the crime of lust:
+<lb ed="G"/><lb ed="F1" n="537"/></l><l>For if we too be one and thou play false,
+<lb ed="G"/><lb ed="F1" n="538"/></l><l>I do digest the poison of thy flesh,
+<lb ed="G"/><lb ed="F1" n="539"/></l><l>Being strumpeted by thy contagion.
+<lb ed="G"/><lb ed="F1" n="540"/></l><l>Keep then fair league and truce with thy true bed;
+<lb ed="G"/><lb ed="F1" n="541"/></l><l>I live unstain'd, thou undishonored.
+
+<lb ed="G"/><lb ed="F1" n="542"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Plead you to me, fair dame? I know you not:
+<lb ed="G" n="150"/><lb ed="F1" n="543"/></l><l>In Ephesus I am but two hours old,
+<lb ed="G"/><lb ed="F1" n="544"/></l><l>As strange unto your town as to your talk;
+<lb ed="G"/><lb ed="F1" n="545"/></l><l>Who, every word by all my wit being scann'd,
+<lb ed="G"/><lb ed="F1" n="546"/></l><l>Want wit in all one word to understand.
+
+<lb ed="G"/><lb ed="F1" n="547"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Fie, brother! how the world is changed with you!
+<lb ed="G"/><lb ed="F1" n="548"/></l><l>When were you wont to use my sister thus?
+<lb ed="G"/><lb ed="F1" n="549"/></l><l>She sent for you by Dromio home to dinner.
+
+<lb ed="G"/><lb ed="F1" n="550"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>By Dromio?
+
+<lb ed="G"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>By me?
+
+<lb ed="G"/><lb ed="F1" n="551"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>By thee; and this thou didst return from him,
+<lb ed="G" n="160"/><lb ed="F1" n="552"/></l><l>That he did buffet thee, and, in his blows,
+<lb ed="G"/><lb ed="F1" n="553"/></l><l>Denied my house for his, me for his wife.
+
+<lb ed="G"/><lb ed="F1" n="554"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Did you converse, sir, with this gentlewoman ?
+<lb ed="G"/><lb ed="F1" n="555"/></l><l>What is the course and drift of your compact?
+
+<lb ed="G"/><lb ed="F1" n="556"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>I, sir? I never saw her till this time.
+
+<lb ed="G"/><lb ed="F1" n="557"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Villain, thou liest; for even her very words
+<lb ed="G"/><lb ed="F1" n="558"/></l><l>Didst thou deliver to me on the mart.
+
+<lb ed="G"/><lb ed="F1" n="559"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>I never spake with her in all my life.
+
+<lb ed="G"/><lb ed="F1" n="560"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>How can she thus then call us by our names?
+<lb ed="G" n="169"/><lb ed="F1" n="561"/></l><l>Unless it be by inspiration.
+
+<lb ed="G"/><lb ed="F1" n="562"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>How ill agrees it with your gravity
+<lb ed="G"/><lb ed="F1" n="563"/></l><l>To counterfeit thus grossly with your slave,
+<lb ed="G"/><lb ed="F1" n="564"/></l><l>Abetting him to thwart me in my mood!
+<lb ed="G"/><lb ed="F1" n="565"/></l><l>Be it my wrong you are from me exempt,
+<lb ed="G"/><lb ed="F1" n="566"/></l><l>But wrong not that wrong with a more contempt.
+<lb ed="G"/><lb ed="F1" n="567"/></l><l>Come, I will fasten on this sleeve of thine:
+<lb ed="G"/><lb ed="F1" n="568"/></l><l>Thou art an elm, my husband, I a vine,
+<lb ed="G"/><lb ed="F1" n="569"/></l><l>Whose weakness, married to thy stronger state,
+<lb ed="G"/><lb ed="F1" n="570"/></l><l>Makes me with thy strength to communicate:
+<lb ed="G"/><lb ed="F1" n="571"/></l><l>If aught possess thee from me, it is dross,
+<lb ed="G" n="180"/><lb ed="F1" n="572"/></l><l>Usurping ivy, brier, or idle moss;
+<lb ed="G"/><lb ed="F1" n="573"/></l><l>Who, all for want of pruning, with intrusion
+<lb ed="G"/><lb ed="F1" n="574"/></l><l>Infect thy sap and live on thy confusion.
+
+<lb ed="G"/><lb ed="F1" n="575"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>To me she speaks; she moves me for her <lb ed="F1" n="576"/>theme:
+<lb ed="G"/><lb ed="F1" n="577"/></l><l>What, was I married to her in my dream?
+<lb ed="G"/><lb ed="F1" n="578"/></l><l>Or sleep I now and think I hear all this?
+<lb ed="G"/><lb ed="F1" n="579"/></l><l>What error drives our eyes and ears amiss?
+<lb ed="G"/><lb ed="F1" n="580"/></l><l>Until I know this sure uncertainty,
+<lb ed="G"/><lb ed="F1" n="581"/></l><l>I'll entertain the offer'd fallacy.
+
+<lb ed="G"/><lb ed="F1" n="582"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Dromio, go bid the servants spread for dinner.
+
+<lb ed="G" n="190"/><lb ed="F1" n="583"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>O, for my beads! I cross me for a sinner.
+<lb ed="G"/><lb ed="F1" n="584"/></l><l>This is the fairy land: O spite of spites!
+<lb ed="G"/><lb ed="F1" n="585"/></l><l>We talk with goblins, owls and sprites:
+<lb ed="G"/><lb ed="F1" n="586"/></l><l>If we obey them not, this will ensue,
+<lb ed="G"/><lb ed="F1" n="587"/></l><l>They'll suck our breath or pinch us black and blue.
+
+<lb ed="G"/><lb ed="F1" n="588"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Why pratest thou to thyself and answer'st not?
+<lb ed="G"/><lb ed="F1" n="589"/></l><l>Dromio, thou drone, thou snail, thou slug, thou sot!
+
+<lb ed="G"/><lb ed="F1" n="590"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>I am transformed, master, am I not?
+
+<lb ed="G"/><lb ed="F1" n="591"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>I think thou art in mind, and so am I.
+
+<lb ed="G"/><lb ed="F1" n="592"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Nay, master, both in mind and in my shape.
+
+<lb ed="G"/><lb ed="F1" n="593"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l part="I">Thou hast thine own form.
+
+<lb ed="G"/><lb ed="F1" n="594"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l part="F">No, I am an ape.
+
+<lb ed="G" n="201"/><lb ed="F1" n="595"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>If thou art changed to aught, 'tis to an ass.
+
+<lb ed="G"/><lb ed="F1" n="596"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>'Tis true; she rides me and I long for grass.
+<lb ed="G"/><lb ed="F1" n="597"/></l><l>'Tis so, I am an ass; else it could never be
+<lb ed="G"/><lb ed="F1" n="598"/></l><l>But I should know her as well as she knows me.
+
+<lb ed="G"/><lb ed="F1" n="599"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Come, come, no longer will I be a fool,
+<lb ed="G"/><lb ed="F1" n="600"/></l><l>To put the finger in the eye and weep,
+<lb ed="G"/><lb ed="F1" n="601"/></l><l>Whilst man and master laugh my woes to scorn.
+<lb ed="G"/><lb ed="F1" n="602"/></l><l>Come, sir, to dinner. Dromio, keep the gate.
+<lb ed="G"/><lb ed="F1" n="603"/></l><l>Husband, I'll dine above with you to-day
+<lb ed="G" n="210"/><lb ed="F1" n="604"/></l><l>And shrive you of a thousand idle pranks.
+<lb ed="G"/><lb ed="F1" n="605"/></l><l>Sirrah, if any ask you for your master,
+<lb ed="G"/><lb ed="F1" n="606"/></l><l>Say he dines forth, and let no creature enter.
+<lb ed="G"/><lb ed="F1" n="607"/></l><l>Come, sister. Dromio, play the porter well.
+
+<lb ed="G"/><lb ed="F1" n="608"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Am I in earth, in heaven, or in hell?
+<lb ed="G"/><lb ed="F1" n="609"/></l><l>Sleeping or waking? mad or well-advised?
+<lb ed="G"/><lb ed="F1" n="610"/></l><l>Known unto these, and to myself disguised!
+<lb ed="G"/><lb ed="F1" n="611"/></l><l>I'll say as they say and persever so,
+<lb ed="G"/><lb ed="F1" n="612"/></l><l>And in this mist at all adventures go.
+
+<lb ed="G"/><lb ed="F1" n="613"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Master, shall I be porter at the gate?
+
+<lb ed="G" n="220"/><lb ed="F1" n="614"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Ay; and let none enter, lest I break your pate.
+
+<lb ed="G"/><lb ed="F1" n="615"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Come, come, Antipholus, we dine too late.
+<stage>[Exeunt. </stage></l></sp>
+</div2>
+</div1>
+
+ <div1 type="act" n="3">
+<head>ACT III</head><lb ed="F1" n="616"/>
+<div2 type="scene" n="1">
+<head>SCENE I</head>
+<stage type="setting"> Before the house of ANTIPHOLUS of Ephesus. </stage>
+<lb ed="F1" n="617"/><stage type="entrance">Enter ANTIPHOLUS of Ephesus, DROMIO of Ephesus, ANGELO, and BALTHAZAR.</stage>
+<lb ed="F1" n="618"/>
+
+<lb ed="G"/><lb ed="F1" n="619"/><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Good Signior Angelo, you must excuse us all;
+<lb ed="G"/><lb ed="F1" n="620"/></l><l>My wife is shrewish when I keep not hours:
+<lb ed="G"/><lb ed="F1" n="621"/></l><l>Say that I linger'd with you at your shop
+<lb ed="G"/><lb ed="F1" n="622"/></l><l>To see the making of her carcanet,
+<lb ed="G"/><lb ed="F1" n="623"/></l><l>And that to-morrow you will bring it home.
+<lb ed="G"/><lb ed="F1" n="624"/></l><l>But here's a villain that would face me down
+<lb ed="G"/><lb ed="F1" n="625"/></l><l>He met me on the mart and that I beat him,
+<lb ed="G"/><lb ed="F1" n="626"/></l><l>And charged him with a thousand marks in gold,
+<lb ed="G"/><lb ed="F1" n="627"/></l><l>And that I did deny my wife and house.
+<lb ed="G" n="10"/><lb ed="F1" n="628"/></l><l>Thou drunkard, thou, what didst thou mean by this?
+
+<lb ed="G"/><lb ed="F1" n="629"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Say what you will, sir, but I know what I know;
+<lb ed="G"/><lb ed="F1" n="630"/></l><l>That you beat me at the mart, I have your hand to show:
+<lb ed="G"/><lb ed="F1" n="631"/></l><l>If the skin were parchment, and the blows you gave were ink,
+<lb ed="G"/><lb ed="F1" n="632"/></l><l>Your own handwriting would tell you what I think.
+
+<lb ed="G"/><lb ed="F1" n="633"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l part="I">I think thou art an ass.
+
+<lb ed="G"/><lb ed="F1" n="634"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l part="F">Marry, so it doth appear
+<lb ed="G"/><lb ed="F1" n="635"/></l><l>By the wrongs I suffer and the blows I bear.
+<lb ed="G"/><lb ed="F1" n="636"/></l><l>I should kick, being kick'd; and, being at that pass,
+<lb ed="G"/><lb ed="F1" n="637"/></l><l>You would keep from my heels and beware of an ass.
+
+<lb ed="G"/><lb ed="F1" n="638"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>You're sad, Signior Balthazar: pray God our cheer
+<lb ed="G" n="20"/><lb ed="F1" n="639"/></l><l>May answer my good will and your good welcome here.
+
+<lb ed="G"/><lb ed="F1" n="640"/></l></sp><sp who="bal."><speaker>Bal.</speaker><l>I hold your dainties cheap, sir, and your welcome dear.
+
+<lb ed="G"/><lb ed="F1" n="641"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>O, Signior Balthazer, either at flesh or fish,
+<lb ed="G"/><lb ed="F1" n="642"/></l><l>A table full of welcome make scarce one dainty dish.
+
+<lb ed="G"/><lb ed="F1" n="643"/></l></sp><sp who="bal."><speaker>Bal.</speaker><l>Good meat, sir, is common; that every churl affords.
+
+<lb ed="G"/><lb ed="F1" n="644"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>And welcome more common; for that's nothing <lb ed="F1" n="645"/>but words.
+
+<lb ed="G"/><lb ed="F1" n="646"/></l></sp><sp who="bal."><speaker>Bal.</speaker><l>Small cheer and great welcome makes a merry <lb ed="F1" n="647"/>feast.
+
+<lb ed="G"/><lb ed="F1" n="648"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Ay to a niggardly host and more sparing guest:
+<lb ed="G"/><lb ed="F1" n="649"/></l><l>But though my cates be mean, take them in good part;
+<lb ed="G"/><lb ed="F1" n="650"/></l><l>Better cheer may you have, but not with better heart.
+<lb ed="G" n="30"/><lb ed="F1" n="651"/></l><l>But, soft! my door is lock'd. Go bid them let us in.
+
+<lb ed="G"/><lb ed="F1" n="652"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Maud, Bridget, Marian, Cicel, Gillian, Ginn!
+
+<lb ed="G"/><lb ed="F1" n="653"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>Mome, malt-horse, capon, coxcomb, idiot, <lb ed="F1" n="654"/>patch!
+<lb ed="G"/><lb ed="F1" n="655"/></l><l>Either get thee from the door, or sit down at the hatch.
+<lb ed="G"/><lb ed="F1" n="656"/></l><l>Dost thou conjure for wenches, that thou call'st for such store,
+<lb ed="G"/><lb ed="F1" n="657"/></l><l>When one is one too many? Go, get thee from the door.
+
+<lb ed="G"/><lb ed="F1" n="658"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>What patch is made our porter? My master <lb ed="F1" n="659"/>stays in the street.
+
+<lb ed="G"/><lb ed="F1" n="660"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>Let him walk from whence he came, lest he <lb ed="F1" n="661"/>catch cold on's feet.
+
+<lb ed="G"/><lb ed="F1" n="662"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Who talks within there? ho, open the door!
+
+<lb ed="G"/><lb ed="F1" n="663"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>Right, sir; I'll tell you when, an you'll tell <lb ed="F1" n="664"/>me wherefore.
+
+<lb ed="G" n="40"/><lb ed="F1" n="665"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Wherefore? for my dinner: I have not dined <lb ed="F1" n="666"/>to-day.
+
+<lb ed="G"/><lb ed="F1" n="667"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>Nor to-day here you must not; come again <lb ed="F1" n="668"/>when you may.
+
+<lb ed="G"/><lb ed="F1" n="669"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>What are thou that keepest me out from the <lb ed="F1" n="670"/>house I owe?
+
+<lb ed="G"/><lb ed="F1" n="671"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>The porter for this time, sir, and my name is <lb ed="F1" n="672"/>Dromio.
+
+<lb ed="G"/><lb ed="F1" n="673"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>O villain! thou hast stolen both mine office <lb ed="F1" n="674"/>and my name.
+<lb ed="G"/><lb ed="F1" n="675"/></l><l>The one ne'er got me credit, the other mickle blame.
+<lb ed="G"/><lb ed="F1" n="676"/></l><l>If thou hadst been Dromio to-day in my place,
+<lb ed="G"/><lb ed="F1" n="677"/></l><l>Thou wouldst have changed thy face for a
+<lb ed="G"/></l><l>name or thy <lb ed="F1" n="678"/>name for an ass.
+<lb ed="F1" n="679"/>
+
+<lb ed="G"/><lb ed="F1" n="680"/></l></sp><sp who="luce."><speaker>Luce.</speaker><stage>[Within]</stage><l>What a coil is there, Dromio? who are those <lb ed="F1" n="681"/>at the gate?
+
+<lb ed="G"/><lb ed="F1" n="682"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Let my master in, Luce.
+
+<lb ed="G"/><lb ed="F1" n="683"/></l></sp><sp who="luce."><speaker>Luce.</speaker><stage>[Within]</stage><l>Faith, no; he comes too late;</l>
+<l part="I">And so tell your <lb ed="F1" n="684"/>master.
+
+<lb ed="G"/><lb ed="F1" n="685"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l part="F">O Lord, I must laugh!
+<lb ed="G"/></l><l>Have at you with a <lb ed="F1" n="686"/>proverb--<lb ed="F1" n="687"/>Shall I set in my staff?
+
+<lb ed="G"/><lb ed="F1" n="688"/></l></sp><sp who="luce."><speaker>Luce.</speaker><stage>[Within]</stage><l>Have at you with another; that's--When? can <lb ed="F1" n="689"/>you tell?
+
+<lb ed="G"/><lb ed="F1" n="690"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>If thy name be call'd Luce,--Luce, thou hast answer'd <lb ed="F1" n="691"/>him well.
+
+<lb ed="G"/><lb ed="F1" n="692"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Do you hear, you minion? you'll let us in, I <lb ed="F1" n="693"/>hope?
+
+<lb ed="G"/><lb ed="F1" n="694"/></l></sp><sp who="luce."><speaker>Luce.</speaker><stage>[Within]</stage><l>I thought to have asked you.
+
+<lb ed="G"/><lb ed="F1" n="695"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>And you said no.
+
+<lb ed="G"/><lb ed="F1" n="696"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>So, come, help: well struck! there was blow <lb ed="F1" n="697"/>for blow.
+
+<lb ed="G"/><lb ed="F1" n="698"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Thou baggage, let me in.
+
+<lb ed="G"/><lb ed="F1" n="699"/></l></sp><sp who="luce."><speaker>Luce.</speaker><stage>[Within]</stage><l>Can you tell for whose sake?
+
+<lb ed="G"/><lb ed="F1" n="700"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Master, knock the door hard.
+
+<lb ed="G"/><lb ed="F1" n="701"/></l></sp><sp who="luce."><speaker>Luce.</speaker><stage>[Within]</stage><l>Let him knock till it ache.
+
+<lb ed="G"/><lb ed="F1" n="702"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>You'll cry for this, minion, if I beat the door <lb ed="F1" n="703"/>down.
+
+<lb ed="G"/><lb ed="F1" n="704"/></l></sp><sp who="luce."><speaker>Luce.</speaker><stage>[Within]</stage><l n="60">What needs all that, and a pair of stocks in the <lb ed="F1" n="705"/>town?
+<lb ed="F1" n="706"/>
+
+<lb ed="G"/><lb ed="F1" n="707"/></l></sp><sp who="adr."><speaker>Adr.</speaker><stage>[Within]</stage><l>Who is that at the door that keeps all this noise?
+
+<lb ed="G"/><lb ed="F1" n="708"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>By my troth, your town is troubled with unruly <lb ed="F1" n="709"/>boys.
+
+<lb ed="G"/><lb ed="F1" n="710"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Are you there, wife? you might have come <lb ed="F1" n="711"/>before.
+
+<lb ed="G"/><lb ed="F1" n="712"/></l></sp><sp who="adr."><speaker>Adr.</speaker><stage>[Within]</stage><l>Your wife, sir knave! go get you from the door.
+
+<lb ed="G"/><lb ed="F1" n="713"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>If you went in pain, master, this 'knave' would <lb ed="F1" n="714"/>go sore.
+
+<lb ed="G"/><lb ed="F1" n="715"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Here is neither cheer, sir, nor welcome: we <lb ed="F1" n="716"/>would fain have either.
+
+<lb ed="G"/><lb ed="F1" n="717"/></l></sp><sp who="bal."><speaker>Bal.</speaker><l>In debating which was best, we shall part <lb ed="F1" n="718"/>with neither.
+
+<lb ed="G"/><lb ed="F1" n="719"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>They stand at the door, master; bid them <lb ed="F1" n="720"/>welcome hither.
+
+<lb ed="G"/><lb ed="F1" n="721"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>There is something in the wind, that we cannot <lb ed="F1" n="722"/>get in.
+
+<lb ed="G" n="70"/><lb ed="F1" n="723"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>You would say so, master, if your garments <lb ed="F1" n="724"/>were thin.
+<lb ed="G"/><lb ed="F1" n="725"/></l><l>Your cake there is warm within; you stand here in the <lb ed="F1" n="726"/>cold:
+<lb ed="G"/><lb ed="F1" n="727"/></l><l>It would make a man mad as a buck, to be so bought <lb ed="F1" n="728"/>and sold.
+
+<lb ed="G"/><lb ed="F1" n="729"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Go fetch me something: I'll break ope the gate.
+
+<lb ed="G"/><lb ed="F1" n="730"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>Break any breaking here, and I'll break your <lb ed="F1" n="731"/>knave's pate.
+
+<lb ed="G"/><lb ed="F1" n="732"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>A man may break a word with you, sir, and <lb ed="F1" n="733"/>words are but wind,
+<lb ed="G"/><lb ed="F1" n="734"/></l><l>Ay, and break it in your face, so he break it not behind.
+
+<lb ed="G"/><lb ed="F1" n="735"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>It seems thou want'st breaking: out upon thee, <lb ed="F1" n="736"/>hind!
+
+<lb ed="G"/><lb ed="F1" n="737"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Here's too much 'out upon thee!' I pray thee, let <lb ed="F1" n="738"/>me in.
+
+<lb ed="G"/><lb ed="F1" n="739"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><stage>[Within]</stage><l>Ay, when fowls have no feathers and fish have <lb ed="F1" n="740"/>no fin.
+
+<lb ed="G" n="80"/><lb ed="F1" n="741"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Well, I'll break in: go borrow me a crow.
+
+<lb ed="G"/><lb ed="F1" n="742"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>A crow without feather?   Master, mean you so?
+<lb ed="G"/><lb ed="F1" n="743"/></l><l>For a fish without a fin, there's a fowl without a feather:
+<lb ed="G"/><lb ed="F1" n="744"/></l><l>If a crow help us in, sirrah, we'll pluck a crow together.
+
+<lb ed="G"/><lb ed="F1" n="745"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Go get thee gone; fetch me an iron crow.
+
+<lb ed="G"/><lb ed="F1" n="746"/></l></sp><sp who="bal."><speaker>Bal.</speaker><l>Have patience, sir; O, let it not be so!
+<lb ed="G"/><lb ed="F1" n="747"/></l><l>Herein you war against your reputation
+<lb ed="G"/><lb ed="F1" n="748"/></l><l>And draw within the compass of suspect
+<lb ed="G"/><lb ed="F1" n="749"/></l><l>The unviolated honor of your wife,
+<lb ed="G"/><lb ed="F1" n="750"/></l><l>Once this,--your long experience of her wisdom,
+<lb ed="G" n="90"/><lb ed="F1" n="751"/></l><l>Her sober virtue, years and modesty,
+<lb ed="G"/><lb ed="F1" n="752"/></l><l>Plead on her part some cause to you unknown;
+<lb ed="G"/><lb ed="F1" n="753"/></l><l>And doubt not, sir, but she will well excuse
+<lb ed="G"/><lb ed="F1" n="754"/></l><l>Why at this time the doors are made against you.
+<lb ed="G"/><lb ed="F1" n="755"/></l><l>Be ruled by me: depart in patience,
+<lb ed="G"/><lb ed="F1" n="756"/></l><l>And let us to the Tiger all to dinner,
+<lb ed="G"/><lb ed="F1" n="757"/></l><l>And about evening come yourself alone
+<lb ed="G"/><lb ed="F1" n="758"/></l><l>To know the reason of this strange restraint.
+<lb ed="G"/><lb ed="F1" n="759"/></l><l>If by strong hand you offer to break in
+<lb ed="G"/><lb ed="F1" n="760"/></l><l>Now in the stirring passage of the day,
+<lb ed="G" n="100"/><lb ed="F1" n="761"/></l><l>A vulgar comment will be made of it,
+<lb ed="G"/><lb ed="F1" n="762"/></l><l>And that supposed by the common rout
+<lb ed="G"/><lb ed="F1" n="763"/></l><l>Against your yet ungalled estimation
+<lb ed="G"/><lb ed="F1" n="764"/></l><l>That may with foul intrusion enter in
+<lb ed="G"/><lb ed="F1" n="765"/></l><l>And dwell upon your grave when you are dead;
+<lb ed="G"/><lb ed="F1" n="766"/></l><l>For slander lives upon succession,
+<lb ed="G"/><lb ed="F1" n="767"/></l><l>For ever housed where it gets possession.
+
+<lb ed="G"/><lb ed="F1" n="768"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>You have prevailed: I will depart in quiet,
+<lb ed="G"/><lb ed="F1" n="769"/></l><l>And, in despite of mirth, mean to be merry.
+<lb ed="G" n="109"/><lb ed="F1" n="770"/></l><l>I know a wench of excellent discourse,
+<lb ed="G"/><lb ed="F1" n="771"/></l><l>Pretty and witty; wild, and yet, too, gentle:
+<lb ed="G"/><lb ed="F1" n="772"/></l><l>There will we dine. This woman that I mean,
+<lb ed="G"/><lb ed="F1" n="773"/></l><l>My wife--but, I protest, without desert--
+<lb ed="G"/><lb ed="F1" n="774"/></l><l>Hath oftentimes upbraided me withal:
+<lb ed="G"/><lb ed="F1" n="775"/></l><l>To her will we to dinner.   <stage>[To Ang.]</stage>
+<lb ed="G"/></l><l>Get you home
+<lb ed="G"/><lb ed="F1" n="776"/></l><l>And fetch the chain; by this I know 'tis made:
+<lb ed="G"/><lb ed="F1" n="777"/></l><l>Bring it, I pray you, to the Porpentine;
+<lb ed="G"/><lb ed="F1" n="778"/></l><l>For there's the house: that chain will I bestow--
+<lb ed="G"/><lb ed="F1" n="779"/></l><l>Be it for nothing but to spite my wife--
+<lb ed="G"/><lb ed="F1" n="780"/></l><l>Upon mine hostess there: good sir, make haste.
+<lb ed="G" n="120"/><lb ed="F1" n="781"/></l><l>Since mine own doors refuse to entertain me,
+<lb ed="G"/><lb ed="F1" n="782"/></l><l>I'll knock elsewhere, to see if they'll disdain me.
+
+<lb ed="G"/><lb ed="F1" n="783"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>I'll meet you at that place some hour hence.
+
+<lb ed="G"/><lb ed="F1" n="784"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Do so. This jest shall cost me some expense.
+<lb ed="F1" n="785"/><stage>[Exeunt. </stage></l></sp>
+</div2>
+<div2 type="scene" n="2">
+<head>SCENE II</head>
+<stage type="setting"> The same. </stage>
+<lb ed="F1" n="786"/><stage type="entrance">Enter LUCIANA and ANTIPHOLUS of Syracuse.</stage>
+
+<lb ed="G"/><lb ed="F1" n="787"/><sp who="luc."><speaker>Luc.</speaker><l>And may it be that you have quite forgot
+<lb ed="G"/><lb ed="F1" n="788"/></l><l>A husband's office? shall, Antipholus.
+<lb ed="G"/><lb ed="F1" n="789"/></l><l>Even in the spring of love, thy love-springs rot?
+<lb ed="G"/><lb ed="F1" n="790"/></l><l>Shall love, in building, grow so ruinous?
+<lb ed="G"/><lb ed="F1" n="791"/></l><l>If you did wed my sister for her wealth,
+<lb ed="G"/><lb ed="F1" n="792"/></l><l>Then for her wealth's sake use her with more kindness:
+<lb ed="G"/><lb ed="F1" n="793"/></l><l>Or if you like elsewhere, do it by stealth;
+<lb ed="G"/><lb ed="F1" n="794"/></l><l>Muffle your false love with some show of blindness:
+<lb ed="G"/><lb ed="F1" n="795"/></l><l>Let not my sister read it in your eye;
+<lb ed="G"/><lb ed="F1" n="796"/></l><l>Be not thy tongue thy own shame's orator;
+<lb ed="G" n="11"/><lb ed="F1" n="797"/></l><l>Look sweet, speak fair, become disloyalty;
+<lb ed="G"/><lb ed="F1" n="798"/></l><l>Apparel vice like virtue's harbinger;
+<lb ed="G"/><lb ed="F1" n="799"/></l><l>Bear a fair presence, though your heart be tainted;
+<lb ed="G"/><lb ed="F1" n="800"/></l><l>Teach sin the carriage of a holy saint;
+<lb ed="G"/><lb ed="F1" n="801"/></l><l>Be secret-false: what need she be acquainted?
+<lb ed="G"/><lb ed="F1" n="802"/></l><l>What simple thief brags of his own attaint?
+<lb ed="G"/><lb ed="F1" n="803"/></l><l>'Tis double wrong, to truant with your bed
+<lb ed="G"/><lb ed="F1" n="804"/></l><l>And let her read it in thy looks at board:
+<lb ed="G"/><lb ed="F1" n="805"/></l><l>Shame hath a bastard fame, well managed;
+<lb ed="G" n="20"/><lb ed="F1" n="806"/></l><l>Ill deeds are doubled with an evil word.
+<lb ed="G"/><lb ed="F1" n="807"/></l><l>Alas, poor women! make us but believe,
+<lb ed="G"/><lb ed="F1" n="808"/></l><l>Being compact of credit, that you love us;
+<lb ed="G"/><lb ed="F1" n="809"/></l><l>Though others have the arm, show us the sleeve;
+<lb ed="G"/><lb ed="F1" n="810"/></l><l>We in your motion turn and you may move us.
+<lb ed="G"/><lb ed="F1" n="811"/></l><l>Then, gentle brother, get you in again;
+<lb ed="G"/><lb ed="F1" n="812"/></l><l>Comfort my sister, cheer her, call her wife:
+<lb ed="G"/><lb ed="F1" n="813"/></l><l>'Tis holy sport to be a little vain,
+<lb ed="G"/><lb ed="F1" n="814"/></l><l>When the sweet breath of flattery conquers strife.
+
+<lb ed="G"/><lb ed="F1" n="815"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Sweet mistress,--what your name is else, I <lb ed="F1" n="816"/>know not,
+<lb ed="G"/><lb ed="F1" n="817"/></l><l>Nor by what wonder you do hit of mine,--
+<lb ed="G" n="31"/><lb ed="F1" n="818"/></l><l>Less in your knowledge and your grace you show not
+<lb ed="G"/><lb ed="F1" n="819"/></l><l>Than our earth's wonder, more than earth divine.
+<lb ed="G"/><lb ed="F1" n="820"/></l><l>Teach me, dear creature, how to think and speak;
+<lb ed="G"/><lb ed="F1" n="821"/></l><l>Lay open to my earthly-gross conceit,
+<lb ed="G"/><lb ed="F1" n="822"/></l><l>Smother'd in errors, feeble, shallow, weak,
+<lb ed="G"/><lb ed="F1" n="823"/></l><l>The folded meaning of your words' deceit.
+<lb ed="G"/><lb ed="F1" n="824"/></l><l>Against my soul's pure truth why labor you
+<lb ed="G"/><lb ed="F1" n="825"/></l><l>To make it wander in an unknown field?
+<lb ed="G"/><lb ed="F1" n="826"/></l><l>Are you a god? would you create me new?
+<lb ed="G" n="40"/><lb ed="F1" n="827"/></l><l>Transform me then, and to your power I'll yield.
+<lb ed="G"/><lb ed="F1" n="828"/></l><l>But if that I am I, then well I know
+v<lb ed="F1" n="829"/></l><l>Your weeping sister is no wife of mine,
+<lb ed="G"/><lb ed="F1" n="830"/></l><l>Nor to her bed no homage do I owe:
+<lb ed="G"/><lb ed="F1" n="831"/></l><l>Far more, far more to you do I decline.
+<lb ed="G"/><lb ed="F1" n="832"/></l><l>O, train me not, sweet mermaid, with thy note,
+<lb ed="G"/><lb ed="F1" n="833"/></l><l>To drown me in thy sister's flood of tears:
+<lb ed="G"/><lb ed="F1" n="834"/></l><l>Sing, siren, for thyself and I will dote:
+<lb ed="G"/><lb ed="F1" n="835"/></l><l>Spread o'er the silver waves thy golden hairs,
+<lb ed="G"/><lb ed="F1" n="836"/></l><l>And as a bed I'll take them and there lie,
+<lb ed="G" n="50"/><lb ed="F1" n="837"/></l><l>And in that glorious supposition think
+<lb ed="G"/><lb ed="F1" n="838"/></l><l>He gains by death that hath such means to die:
+<lb ed="G"/><lb ed="F1" n="839"/></l><l>Let Love, being light, be drowned if she sink !
+
+<lb ed="G"/><lb ed="F1" n="840"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>What, are you mad, that you do reason so ?
+
+<lb ed="G"/><lb ed="F1" n="841"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Not mad, but mated; how, I do not know.
+
+<lb ed="G"/><lb ed="F1" n="842"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>It is a fault that springeth from your eye.
+
+<lb ed="G"/><lb ed="F1" n="843"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>For gazing on your beams, fair sun, being by.
+
+<lb ed="G"/><lb ed="F1" n="844"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Gaze where you should, and that will clear <lb ed="F1" n="845"/>your sight.
+
+<lb ed="G"/><lb ed="F1" n="846"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>As good to wink, sweet love, as look on night.
+
+<lb ed="G"/><lb ed="F1" n="847"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Why call you me love? call my sister so.
+
+<lb ed="G"/><lb ed="F1" n="848"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l part="I">Thy sister's sister.
+
+<lb ed="G"/><lb ed="F1" n="849"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l part="M">That's my sister.
+
+<lb ed="G"/><lb ed="F1" n="850"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l part="F" n="60">No;
+<lb ed="G"/></l><l>It is thyself, mine own self's better part,
+<lb ed="G"/><lb ed="F1" n="851"/></l><l>Mine eye's clear eye, my dear heart's dearer heart,
+<lb ed="G"/><lb ed="F1" n="852"/></l><l>My food, my fortune and my sweet hope's aim,
+<lb ed="G"/><lb ed="F1" n="853"/></l><l>My sole earth's heaven and my heaven's claim.
+
+<lb ed="G"/><lb ed="F1" n="854"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>All this my sister is, or else should be.
+
+<lb ed="G"/><lb ed="F1" n="855"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Call thyself sister, sweet, for I am thee.
+<lb ed="G"/><lb ed="F1" n="856"/></l><l>Thee will I love and with thee lead my life:
+<lb ed="G"/><lb ed="F1" n="857"/></l><l>Thou hast no husband yet nor I no wife.
+<lb ed="F1" n="858"/></l><l part="I">Give me thy hand.
+
+<lb ed="G"/><lb ed="F1" n="859"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l part="F" n="69">O, soft, sir! hold you still:
+<lb ed="G"/><lb ed="F1" n="860"/></l><l>I'll fetch my sister, to get her good will.
+<stage>[Exit. </stage>
+<lb ed="F1" n="861"/><stage type="entrance">         Enter DROMIO of Syracuse.</stage>
+
+<lb ed="G"/><lb ed="F1" n="862"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Why, how now, Dromio! where
+<lb ed="G"/>runn'st thou so <lb ed="F1" n="863"/>fast?
+
+<lb ed="G"/><lb ed="F1" n="864"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Do you know me, sir? am I
+<lb ed="G"/>Dromio? am I <lb ed="F1" n="865"/>your man? am I myself?
+
+<lb ed="G"/><lb ed="F1" n="866"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Thou art Dromio, thou art my
+<lb ed="G"/>man, thou art <lb ed="F1" n="867"/>thyself.
+
+<lb ed="G"/><lb ed="F1" n="868"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>I am an ass, I am a woman's man
+<lb ed="G"/>and besides <lb ed="F1" n="869"/>myself.
+
+<lb ed="G"/><lb ed="F1" n="870"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>What woman's man? and how besides
+<lb ed="G" n="80"/><lb ed="F1" n="871"/>thyself?
+
+<lb ed="G"/><lb ed="F1" n="872"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Marry, sir, besides myself, I am
+<lb ed="G"/>due to a woman; <lb ed="F1" n="873"/>one that claims me, one
+<lb ed="G"/>that haunts me, one that will <lb ed="F1" n="874"/>have me.
+
+<lb ed="G"/><lb ed="F1" n="875"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>What claim lays she to thee?
+
+<lb ed="G"/><lb ed="F1" n="876"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Marry, sir, such claim as you
+<lb ed="G"/>would lay to your <lb ed="F1" n="877"/>horse; and she would have
+<lb ed="G"/>me as a beast; not that, I being <lb ed="F1" n="878"/>a beast, she
+<lb ed="G"/>would have me; but that she, being a very
+<lb ed="F1" n="879"/><lb ed="G"/>beastly creature, lays claim to me.
+
+<lb ed="G" n="90"/><lb ed="F1" n="880"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>What is she?
+
+<lb ed="G"/><lb ed="F1" n="881"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>A very reverent body; ay, such a
+<lb ed="G"/>one as a man <lb ed="F1" n="882"/>may not speak of without he say
+<lb ed="G"/>'Sir-reverence.' I have <lb ed="F1" n="883"/>but lean luck in the
+<lb ed="G"/>match, and yet is she a wondrous <lb ed="F1" n="884"/>fat marriage.
+
+<lb ed="G"/><lb ed="F1" n="885"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>How dost thou mean a fat marriage
+<lb ed="G"/>?
+
+<lb ed="G"/><lb ed="F1" n="886"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Marry, sir, she's the kitchen wench
+<lb ed="G"/>and all grease; <lb ed="F1" n="887"/>and I know not what use to
+<lb ed="G"/>put her to but to make a <lb ed="F1" n="888"/>lamp of her and run
+<lb ed="G"/>from her by her own light.   I <lb ed="F1" n="889"/>warrant, her rags
+<lb ed="G"/>and the tallow in them will burn <lb ed="F1" n="890"/>a Poland
+<lb ed="G"/>winter: if she lives till doomsday, she'll burn
+<lb ed="F1" n="891"/><lb ed="G"/>a week longer than the whole world.
+
+<lb ed="G"/><lb ed="F1" n="892"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>What complexion is she of?
+
+<lb ed="G"/><lb ed="F1" n="893"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Swart, like my shoe, but her face
+<lb ed="G"/>nothing like <lb ed="F1" n="894"/>so clean kept: for why, she
+<lb ed="G"/>sweats; a man may go over shoes <lb ed="F1" n="895"/>in the grime
+<lb ed="G"/>of it.
+
+<lb ed="G"/><lb ed="F1" n="896"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>That's a fault that water will mend.
+
+<lb ed="G"/><lb ed="F1" n="897"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>No, sir, 'tis in grain; Noah's flood
+<lb ed="G"/>could not <lb ed="F1" n="898"/>do it.
+
+<lb ed="G" n="110"/><lb ed="F1" n="899"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>What's her name?
+
+<lb ed="G"/><lb ed="F1" n="900"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Nell, sir; but her name and three
+<lb ed="G"/>quarters, that's <lb ed="F1" n="901"/>an ell and three quarters, will
+<lb ed="G"/>not measure her from hip <lb ed="F1" n="902"/>to hip.
+
+<lb ed="G"/><lb ed="F1" n="903"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Then she bears some breadth?
+
+<lb ed="G"/><lb ed="F1" n="904"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>No longer from head to foot than
+<lb ed="G"/>from hip <lb ed="F1" n="905"/>to hip: she is spherical, like a globe;
+<lb ed="G"/>I could find out <lb ed="F1" n="906"/>countries in her.
+
+<lb ed="G"/><lb ed="F1" n="907"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>In what part of her body stands
+<lb ed="G"/>Ireland?
+
+<lb ed="G"/><lb ed="F1" n="908"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Marry, sir, in her buttocks: I
+<lb ed="G"/>found  it out by <lb ed="F1" n="909"/>the bogs.
+
+<lb ed="G"/><lb ed="F1" n="910"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Where Scotland?
+
+<lb ed="G"/><lb ed="F1" n="911"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>I found it by the barrenness; hard
+<lb ed="G"/>in the palm <lb ed="F1" n="912"/>of the hand.
+
+<lb ed="G"/><lb ed="F1" n="913"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Where France?
+
+<lb ed="G"/><lb ed="F1" n="914"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>In her forehead; armed and reverted,
+<lb ed="G"/>making <lb ed="F1" n="915"/>war against her heir.
+
+<lb ed="G"/><lb ed="F1" n="916"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Where England?
+
+<lb ed="G"/><lb ed="F1" n="917"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>I looked for the chalky cliffs, but I
+<lb ed="G"/>could find <lb ed="F1" n="918"/>no whiteness in them; but I guess
+<lb ed="G"/>it stood in her chin, <lb ed="F1" n="919"/>by the salt rheum that
+<lb ed="G"/>ran between France and it.
+
+<lb ed="G"/><lb ed="F1" n="920"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Where Spain?
+
+<lb ed="G"/><lb ed="F1" n="921"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Faith, I saw it not; but I felt it
+<lb ed="G"/>hot in her breath.
+
+<lb ed="G"/><lb ed="F1" n="922"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Where America, the Indies?
+
+<lb ed="G"/><lb ed="F1" n="923"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Oh, sir, upon her nose, all o'er
+<lb ed="G"/>embellished with <lb ed="F1" n="924"/>rubies, carbuncles, sapphires,
+<lb ed="G"/>declining their rich aspect <lb ed="F1" n="925"/>to the hot breath of
+<lb ed="G"/>Spain; who sent whole armadoes <lb ed="F1" n="926"/>of caracks
+<lb ed="G" n="141"/>to be ballast at her nose.
+
+<lb ed="G"/><lb ed="F1" n="927"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Where stood Belgia, the Netherlands?
+
+<lb ed="G"/><lb ed="F1" n="928"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Oh, sir, I did not look so low. To
+<lb ed="G"/>conclude, <lb ed="F1" n="929"/>this drudge, or diviner, laid claim to
+<lb ed="G"/>me; called me <lb ed="F1" n="930"/>Dromio; swore I was assured
+<lb ed="G"/>to her; told me what privy <lb ed="F1" n="931"/>marks I had about
+<lb ed="G"/>me, as, the mark of my shoulder, <lb ed="F1" n="932"/>the mole in
+<lb ed="G"/>my neck, the great wart on my left arm, <lb ed="F1" n="933"/>that
+<lb ed="G"/>I amazed ran from her as a witch:
+<lb ed="G" n="150"/></p><l>And, I think, if <lb ed="F1" n="934"/>my breast had not been made of faith and my heart of <lb ed="F1" n="935"/>steel,
+<lb ed="G"/></l><l>She had transform'd me to a curtal dog and made <lb ed="F1" n="936"/>me turn i' the wheel.
+
+<lb ed="G"/><lb ed="F1" n="937"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Go hie thee presently, post to the road:
+<lb ed="G"/><lb ed="F1" n="938"/></l><l>An if the wind blow any way from shore,
+<lb ed="G"/><lb ed="F1" n="939"/></l><l>I will not harbor in this town to-night:
+<lb ed="G"/><lb ed="F1" n="940"/></l><l>If any bark put forth, come to the mart,
+<lb ed="G"/><lb ed="F1" n="941"/></l><l>Where I will walk till thou return to me.
+<lb ed="G"/><lb ed="F1" n="942"/></l><l>If every one knows us and we know none,
+<lb ed="G"/><lb ed="F1" n="943"/></l><l>'Tis time, I think, to trudge, pack and be gone.
+
+<lb ed="G"/><lb ed="F1" n="944"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>As from a bear a man would run for life,
+<lb ed="G"/><lb ed="F1" n="945"/></l><l>So fly I from her that would be my wife.
+<stage>[Exit.</stage>
+
+<lb ed="G" n="161"/><lb ed="F1" n="946"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>There's none but witches do inhabit here;
+<lb ed="G"/><lb ed="F1" n="947"/></l><l>And therefore 'tis high time that I were hence.
+<lb ed="G"/><lb ed="F1" n="948"/></l><l>She that doth call me husband, even my soul
+<lb ed="G"/><lb ed="F1" n="949"/></l><l>Doth for a wife abhor. But her fair sister,
+<lb ed="G"/><lb ed="F1" n="950"/></l><l>Possess'd with such a gentle sovereign grace,
+<lb ed="G"/><lb ed="F1" n="951"/></l><l>Of such enchanting presence and discourse,
+<lb ed="G"/><lb ed="F1" n="952"/></l><l>Hath almost made me traitor to myself:
+<lb ed="G"/><lb ed="F1" n="953"/></l><l>But, lest myself be guilty to self-wrong,
+<lb ed="G"/><lb ed="F1" n="954"/></l><l>I'll stop mine ears against the mermaid's song.
+<lb ed="F1" n="955"/><stage type="entrance">          Enter ANGELO with the chain.</stage>
+
+<lb ed="G"/><lb ed="F1" n="956"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l part="I">Master Antipholus,--
+
+<lb ed="G"/><lb ed="F1" n="957"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l part="F" n="170">Ay, that's my name.
+
+<lb ed="G"/><lb ed="F1" n="958"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>I know it well, sir, lo, here is the chain.
+<lb ed="G"/><lb ed="F1" n="959"/></l><l>I thought to have ta'en you at the Porpentine:
+<lb ed="G"/><lb ed="F1" n="960"/></l><l>The chain unfinish'd made me stay thus long.
+
+<lb ed="G"/><lb ed="F1" n="961"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>What is your will that I shall do with this?
+
+<lb ed="G"/><lb ed="F1" n="962"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>What please yourself, sir: I have made it for <lb ed="F1" n="963"/>you.
+
+<lb ed="G"/><lb ed="F1" n="964"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Made it for me, sir! I bespoke it not.
+
+<lb ed="G"/><lb ed="F1" n="965"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Not once, nor twice, but twenty times you <lb ed="F1" n="966"/>have.
+<lb ed="G"/><lb ed="F1" n="967"/></l><l>Go home with it and please your wife withal;
+<lb ed="G"/><lb ed="F1" n="968"/></l><l>And soon at supper-time I'll visit you
+<lb ed="G" n="180"/><lb ed="F1" n="969"/></l><l>And then receive my money for the chain.
+
+<lb ed="G"/><lb ed="F1" n="970"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>I pray you, sir, receive the money now,
+<lb ed="G"/><lb ed="F1" n="971"/></l><l>For fear you ne'er see chain nor money more.
+
+<lb ed="G"/><lb ed="F1" n="972"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>You are a merry man, sir: fare you well.
+<stage>[Exit. </stage>
+
+<lb ed="G"/><lb ed="F1" n="973"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>What I should think of this, I cannot tell:
+<lb ed="G"/><lb ed="F1" n="974"/></l><l>But this I think, there's no man is so vain
+<lb ed="G"/><lb ed="F1" n="975"/></l><l>That would refuse so fair an offer'd chain.
+<lb ed="G"/><lb ed="F1" n="976"/></l><l>I see a man here needs not live by shifts,
+<lb ed="G"/><lb ed="F1" n="977"/></l><l>When in the streets he meets such golden gifts.
+<lb ed="G"/><lb ed="F1" n="978"/></l><l>I'll to the mart and there for Dromio stay:
+<lb ed="G"/><lb ed="F1" n="979"/></l><l>If any ship put out, then straight away.
+<stage>[Exit.</stage></l></sp>
+</div2>
+</div1>
+
+ <div1 type="act" n="4">
+<head>ACT IV</head><lb ed="F1" n="980"/>
+<div2 type="scene" n="1">
+<head>SCENE I</head>
+<stage type="setting"> A public place. </stage>
+<lb ed="F1" n="981"/><stage type="entrance"> Enter Second Merchant, ANGELO, and an Officer.</stage>
+
+<lb ed="G"/><lb ed="F1" n="982"/><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>You know since Pentecost the sum is due,
+<lb ed="G"/><lb ed="F1" n="983"/></l><l>And since I have not much importuned you;
+<lb ed="G"/><lb ed="F1" n="984"/></l><l>Nor now I had not, but that I am bound
+<lb ed="G"/><lb ed="F1" n="985"/></l><l>To Persia, and want guilders for my voyage:
+<lb ed="G"/><lb ed="F1" n="986"/></l><l>Therefore make present satisfaction,
+<lb ed="G"/><lb ed="F1" n="987"/></l><l>Or I'll attach you by this officer.
+
+<lb ed="G"/><lb ed="F1" n="988"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Even just the sum that I do owe to you
+<lb ed="G"/><lb ed="F1" n="989"/></l><l>Is growing to me by Antipholus,
+<lb ed="G"/><lb ed="F1" n="990"/></l><l>And in the instant that I met with you
+<lb ed="G" n="10"/><lb ed="F1" n="991"/></l><l>He had of me a chain: at five o'clock
+<lb ed="G"/><lb ed="F1" n="992"/></l><l>I shall receive the money for the same.
+<lb ed="G"/><lb ed="F1" n="993"/></l><l>Pleaseth you walk with me down to his house,
+<lb ed="G"/><lb ed="F1" n="994"/></l><l>I will discharge my bond and thank you too.
+<lb ed="F1" n="995"/><stage type="entrance">Enter ANTIPHOLUS of Ephesus and DROMIO of Ephesus from the courtezan's. </stage>
+
+<lb ed="G"/><lb ed="F1" n="996"/></l></sp><sp who="off."><speaker>Off.</speaker><l>That labor may you save; see where he comes.
+
+<lb ed="G"/><lb ed="F1" n="997"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>While I go to the goldsmith's house, go thou
+<lb ed="G"/><lb ed="F1" n="998"/></l><l>And buy a rope's end: that will I bestow
+<lb ed="G"/><lb ed="F1" n="999"/></l><l>Among my wife and her confederates,
+<lb ed="G"/><lb ed="F1" n="1000"/></l><l>For locking me out of my doors by day.
+<lb ed="G"/><lb ed="F1" n="1001"/></l><l>But, soft! I see the goldsmith. Get thee gone;
+<lb ed="G" n="20"/><lb ed="F1" n="1002"/></l><l>Buy thou a rope and bring it home to me.
+
+<lb ed="G"/><lb ed="F1" n="1003"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>I buy a thousand pound a year: I buy a rope.
+<lb ed="F1" n="1004"/><stage>[Exit. </stage>
+
+<lb ed="G"/><lb ed="F1" n="1005"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>A man is well holp up that trusts to you:
+<lb ed="G"/><lb ed="F1" n="1006"/></l><l>I promised your presence and the chain;
+<lb ed="G"/><lb ed="F1" n="1007"/></l><l>But neither chain nor goldsmith came to me.
+<lb ed="G"/><lb ed="F1" n="1008"/></l><l>Belike you thought our love would last too long,
+<lb ed="G"/><lb ed="F1" n="1009"/></l><l>If it were chain'd together, and therefore came not.
+
+<lb ed="G"/><lb ed="F1" n="1010"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Saving your merry humor, here's the note
+<lb ed="G"/><lb ed="F1" n="1011"/></l><l>How much your chain weighs to the utmost carat,
+<lb ed="G"/><lb ed="F1" n="1012"/></l><l>The fineness of the gold and chargeful fashion,
+<lb ed="G"/><lb ed="F1" n="1013"/></l><l>Which doth amount to three odd ducats more
+<lb ed="G" n="31"/><lb ed="F1" n="1014"/></l><l>Than I stand debted to this gentleman:
+<lb ed="G"/><lb ed="F1" n="1015"/></l><l>I pray you, see him presently discharged,
+<lb ed="G"/><lb ed="F1" n="1016"/></l><l>For he is bound to sea and stays but for it.
+
+<lb ed="G"/><lb ed="F1" n="1017"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I am not furnish'd with the present money;
+<lb ed="G"/><lb ed="F1" n="1018"/></l><l>Besides, I have some business in the town.
+<lb ed="G"/><lb ed="F1" n="1019"/></l><l>Good signior, take the stranger to my house
+<lb ed="G"/><lb ed="F1" n="1020"/></l><l>And with you take the chain and bid my wife
+<lb ed="G"/><lb ed="F1" n="1021"/></l><l>Disburse the sum on the receipt thereof:
+<lb ed="G"/><lb ed="F1" n="1022"/></l><l>Perchance I will be there as soon as you.
+
+<lb ed="G" n="40"/><lb ed="F1" n="1023"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Then you will bring the chain to her <lb ed="F1" n="1024"/>yourself ?
+
+<lb ed="G"/><lb ed="F1" n="1025"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>No; bear it with you, lest I come not time <lb ed="F1" n="1026"/>enough.
+
+<lb ed="G"/><lb ed="F1" n="1027"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Well, sir, I will. Have you the chain about <lb ed="F1" n="1028"/>you?
+
+<lb ed="G"/><lb ed="F1" n="1029"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>An if I have not, sir, I hope you have;
+<lb ed="G"/><lb ed="F1" n="1030"/></l><l>Or else you may return without your money.
+
+<lb ed="G"/><lb ed="F1" n="1031"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Nay, come, I pray you, sir, give me the chain:
+<lb ed="G"/><lb ed="F1" n="1032"/></l><l>Both wind and tide stays for this gentleman,
+<lb ed="G"/><lb ed="F1" n="1033"/></l><l>And I, to blame, have held him here too long.
+
+<lb ed="G"/><lb ed="F1" n="1034"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Good Lord! you use this dalliance to excuse
+<lb ed="G"/><lb ed="F1" n="1035"/></l><l>Your breach of promise to the Porpentine.
+<lb ed="G" n="50"/><lb ed="F1" n="1036"/></l><l>I should have chid you for not bringing it,
+<lb ed="G"/><lb ed="F1" n="1037"/></l><l>But, like a shrew, you first begin to brawl.
+
+<lb ed="G"/><lb ed="F1" n="1038"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>The hour steals on; I pray you, sir, dispatch.
+
+<lb ed="G"/><lb ed="F1" n="1039"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>You hear how he importunes me;--the chain!
+
+<lb ed="G"/><lb ed="F1" n="1040"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Why, give it to my wife and fetch your money.
+
+<lb ed="G"/><lb ed="F1" n="1041"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Come, come, you know I gave it you even now.
+<lb ed="G"/><lb ed="F1" n="1042"/></l><l>Either send the chain or send me by some token.
+
+<lb ed="G"/><lb ed="F1" n="1043"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Fie, now you run this humor out of breath,
+<lb ed="G"/><lb ed="F1" n="1044"/></l><l>Come, where's the chain? I pray you, let me see it.
+
+<lb ed="G"/><lb ed="F1" n="1045"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>My business cannot brook this dalliance.
+<lb ed="G" n="60"/><lb ed="F1" n="1046"/></l><l>Good sir, say whether you'll answer me or no:
+<lb ed="G"/><lb ed="F1" n="1047"/></l><l>If not, I'll leave him to the officer.
+
+<lb ed="G"/><lb ed="F1" n="1048"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I answer you! what should I answer you?
+
+<lb ed="G"/><lb ed="F1" n="1049"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>The money that you owe me for the chain.
+
+<lb ed="G"/><lb ed="F1" n="1050"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I owe you none till I receive the chain.
+
+<lb ed="G"/><lb ed="F1" n="1051"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>You know I gave it you half an hour since.
+
+<lb ed="G"/><lb ed="F1" n="1052"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>You gave me none: you wrong me much to <lb ed="F1" n="1053"/>say so.
+
+<lb ed="G"/><lb ed="F1" n="1054"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>You wrong me more, sir, in denying it;
+<lb ed="G"/><lb ed="F1" n="1055"/></l><l>Consider how it stands upon my credit.
+
+<lb ed="G"/><lb ed="F1" n="1056"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>Well, officer, arrest him at my suit.
+
+<lb ed="G" n="70"/><lb ed="F1" n="1057"/></l></sp><sp who="off."><speaker>Off.</speaker><l>I do; and charge you in the duke's name to obey <lb ed="F1" n="1058"/>me.
+
+<lb ed="G"/><lb ed="F1" n="1059"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>This touches me in reputation.
+<lb ed="G"/><lb ed="F1" n="1060"/></l><l>Either consent to pay this sum for me
+<lb ed="G"/><lb ed="F1" n="1061"/></l><l>Or I attach you by this officer.
+
+<lb ed="G"/><lb ed="F1" n="1062"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Consent to pay thee that I never had!
+<lb ed="G"/><lb ed="F1" n="1063"/></l><l>Arrest me, foolish fellow, if thou darest.
+
+<lb ed="G"/><lb ed="F1" n="1064"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Here is thy fee; arrest him, officer,
+<lb ed="G"/><lb ed="F1" n="1065"/></l><l>I would not spare my brother in this case,
+<lb ed="G"/><lb ed="F1" n="1066"/></l><l>If he should scorn me so apparently.
+
+<lb ed="G"/><lb ed="F1" n="1067"/></l></sp><sp who="off."><speaker>Off.</speaker><l>I do arrest you, sir: you hear the suit.
+
+<lb ed="G"/><lb ed="F1" n="1068"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I do obey thee till I give thee bail.
+<lb ed="G" n="81"/><lb ed="F1" n="1069"/></l><l>But, sirrah, you shall buy this sport as dear
+<lb ed="G"/><lb ed="F1" n="1070"/></l><l>As all the metal in your shop will answer.
+
+<lb ed="G"/><lb ed="F1" n="1071"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Sir, sir, I shall have law in Ephesus,
+<lb ed="G"/><lb ed="F1" n="1072"/></l><l>To your notorious shame; I doubt it not.
+<lb ed="F1" n="1073"/><stage type="entrance">Enter  DROMIO of Syracuse, from the bay.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1074"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Master, there is a bark of Epidamnum
+<lb ed="G"/><lb ed="F1" n="1075"/></l><l>That stays but till her owner comes aboard,
+<lb ed="G"/><lb ed="F1" n="1076"/></l><l>And then, sir, she bears away. Our fraughtage, sir,
+<lb ed="G"/><lb ed="F1" n="1077"/></l><l>I have convey'd aboard; and I have bought
+ <lb ed="G"/><lb ed="F1" n="1078"/></l><l>The oil, the balsamum and aqua-vit&aelig;.
+<lb ed="G" n="90"/><lb ed="F1" n="1079"/></l><l>The ship is in her trim: the merry wind
+<lb ed="G"/><lb ed="F1" n="1080"/></l><l>Blows fair from land: they stay for nought at all
+<lb ed="G"/><lb ed="F1" n="1081"/></l><l>But for their owner, master, and yourself.
+
+<lb ed="G"/><lb ed="F1" n="1082"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>How now! a madman! Why, thou peevish sheep,
+<lb ed="G"/><lb ed="F1" n="1083"/></l><l>What ship of Epidamnum stays for me?
+
+<lb ed="G"/><lb ed="F1" n="1084"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>A ship you sent me to, to hire waftage.
+
+<lb ed="G"/><lb ed="F1" n="1085"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Thou drunken slave, I sent thee for a rope;
+<lb ed="G"/><lb ed="F1" n="1086"/></l><l>And told thee to what purpose and what end.
+
+<lb ed="G"/><lb ed="F1" n="1087"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>You sent me for a rope's end as soon:
+<lb ed="G"/><lb ed="F1" n="1088"/></l><l>You sent me to the bay, sir, for a bark.
+
+<lb ed="G" n="100"/><lb ed="F1" n="1089"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I will debate this matter at more leisure
+<lb ed="G"/><lb ed="F1" n="1090"/></l><l>And teach your ears to list me with more heed.
+<lb ed="G"/><lb ed="F1" n="1091"/></l><l>To Adriana, villain, hie thee straight:
+<lb ed="G"/><lb ed="F1" n="1092"/></l><l>Give her this key, and tell her, in the desk
+<lb ed="G"/><lb ed="F1" n="1093"/></l><l>That's cover'd o'er with Turkish tapestry,
+<lb ed="G"/><lb ed="F1" n="1094"/></l><l>There is a purse of ducats; let her send it:
+<lb ed="G"/><lb ed="F1" n="1095"/></l><l>Tell her I am arrested in the street
+<lb ed="G"/><lb ed="F1" n="1096"/></l><l>And that shall bail me; hie thee, slave, be gone!
+<lb ed="G"/><lb ed="F1" n="1097"/></l><l>On, officer, to prison till it come.
+<stage>[Exeunt Sec. Merchant, Angelo,Officer, and Ant. E.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1098"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>To Adriana! that is where we dined,
+<lb ed="G"/><lb ed="F1" n="1099"/></l><l>Where Dowsabel did claim me for her husband:
+<lb ed="G" n="111"/><lb ed="F1" n="1100"/></l><l>She is too big, I hope, for me to compass.
+<lb ed="G"/><lb ed="F1" n="1101"/></l><l>Thither I must, although against my will,
+<lb ed="G"/><lb ed="F1" n="1102"/></l><l>For servants must their masters' minds fulfil.
+<stage>[Exit.</stage></l></sp>
+</div2>
+<div2 type="scene" n="2">
+<head>SCENE II</head>
+<stage type="setting"> The house of ANTIPHOLUS of Ephesus. </stage>
+<lb ed="F1" n="1103"/><stage type="entrance">         Enter ADRIANA and LUCIANA.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1104"/><sp who="adr."><speaker>Adr.</speaker><l>Ah, Luciana, did he tempt thee so?
+<lb ed="G"/><lb ed="F1" n="1105"/></l><l>Mightst thou perceive austerely in his eye
+<lb ed="G"/><lb ed="F1" n="1106"/></l><l>That he did plead in earnest? yea or no?
+<lb ed="G"/><lb ed="F1" n="1107"/></l><l>Look'd he or red or pale, or sad or merrily?
+<lb ed="G"/><lb ed="F1" n="1108"/></l><l>What observation madest thou in this case
+<lb ed="G"/><lb ed="F1" n="1109"/></l><l>Of his heart's meteors tilting in his face?
+
+<lb ed="G"/><lb ed="F1" n="1110"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>First he denied you had in him no right.
+
+<lb ed="G"/><lb ed="F1" n="1111"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>He meant he did me none; the more my spite.
+
+<lb ed="G"/><lb ed="F1" n="1112"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Then swore he that he was a stranger here.
+
+<lb ed="G" n="10"/><lb ed="F1" n="1113"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>And true he swore, though yet forsworn he <lb ed="F1" n="1114"/>were.
+
+<lb ed="G"/><lb ed="F1" n="1115"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l part="I">Then pleaded I for you.
+
+<lb ed="G"/><lb ed="F1" n="1116"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l part="F">And what said he?
+
+<lb ed="G"/><lb ed="F1" n="1117"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>That love I begg'd for you he begg'd of me.
+
+<lb ed="G"/><lb ed="F1" n="1118"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>With what persuasion did he tempt thy love?
+
+<lb ed="G"/><lb ed="F1" n="1119"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>With words that in an honest suit might move.
+<lb ed="G"/><lb ed="F1" n="1120"/></l><l>First he did praise my beauty, then my speech.
+
+<lb ed="G"/><lb ed="F1" n="1121"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l part="I">Didst speak him fair?
+
+<lb ed="G"/><lb ed="F1" n="1122"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l part="F">Have patience, I beseech.
+
+<lb ed="G"/><lb ed="F1" n="1123"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>I cannot, nor I will not, hold me still;
+<lb ed="G"/><lb ed="F1" n="1124"/></l><l>My tongue, though not my heart, shall have his will.
+<lb ed="G"/><lb ed="F1" n="1125"/></l><l>He is deformed, crooked, old and sere,
+<lb ed="G"/><lb ed="F1" n="1126"/></l><l>Ill-faced, worse bodied, shapeless everywhere;
+<lb ed="G"/><lb ed="F1" n="1127"/></l><l>Vicious, ungentle, foolish, blunt, unkind,
+<lb ed="G"/><lb ed="F1" n="1128"/></l><l>Stigmatical in making, worse in mind.
+
+<lb ed="G"/><lb ed="F1" n="1129"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Who would be jealous then of such a one?
+<lb ed="G"/><lb ed="F1" n="1130"/></l><l>No evil lost is wail'd when it is gone.
+
+<lb ed="G"/><lb ed="F1" n="1131"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Ah, but I think him better than I say,
+<lb ed="G"/><lb ed="F1" n="1132"/></l><l>And yet would herein others' eyes were worse.
+<lb ed="G"/><lb ed="F1" n="1133"/></l><l>Far from her nest the lapwing cries away:
+<lb ed="G"/><lb ed="F1" n="1134"/></l><l>My heart prays for him, though my tongue do curse.
+<lb ed="F1" n="1135"/><stage type="entrance">         Enter DROMIO of Syracuse.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1136"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Here! go; the desk, the purse! sweet, now, make <lb ed="F1" n="1137"/>haste.
+
+<lb ed="G"/><lb ed="F1" n="1138"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l part="I">How hast thou lost thy breath?
+
+<lb ed="G"/><lb ed="F1" n="1139"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l part="F" n="30">By running fast.
+
+<lb ed="G"/><lb ed="F1" n="1140"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Where is thy master, Dromio? is he well?
+
+<lb ed="G"/><lb ed="F1" n="1141"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>No, he's in Tartar limbo, worse than hell.
+<lb ed="G"/><lb ed="F1" n="1142"/></l><l>A devil in an everlasting garment hath him:
+<lb ed="G"/><lb ed="F1" n="1143"/></l><l>One whose hard heart is button'd up with steel;
+<lb ed="G"/><lb ed="F1" n="1144"/></l><l>A fiend, a fury, pitiless and rough;
+<lb ed="G"/><lb ed="F1" n="1145"/></l><l>A wolf, nay, worse, a fellow all in buff;
+<lb ed="G"/><lb ed="F1" n="1146"/></l><l>A back-friend, a shoulder-clapper, one that countermands
+<lb ed="G"/><lb ed="F1" n="1147"/></l><l>The passages of alleys, creeks and narrow lands;
+<lb ed="G"/><lb ed="F1" n="1148"/></l><l>A hound that runs counter and yet draws dryfoot well;
+<lb ed="G" n="40"/><lb ed="F1" n="1149"/></l><l>One that before the judgement carries poor souls to hell.
+
+<lb ed="G"/><lb ed="F1" n="1150"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Why, man, what is the matter?
+
+<lb ed="G"/><lb ed="F1" n="1151"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>I do not know the matter: he is 'rested on <lb ed="F1" n="1152"/>the case.
+
+<lb ed="G"/><lb ed="F1" n="1153"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>What, is he arrested?   Tell me at whose suit.
+
+<lb ed="G"/><lb ed="F1" n="1154"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>I know not at whose suit he is arrested well;
+<lb ed="G"/><lb ed="F1" n="1155"/></l><l>But he's in a suit of buff which 'rested him, that can I tell.
+<lb ed="G"/><lb ed="F1" n="1156"/></l><l>Will you send him, mistress, redemption, the money in his desk?
+
+<lb ed="G"/><lb ed="F1" n="1157"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Go fetch it, sister.   <stage>Exit Luciana.</stage>
+<lb ed="G"/><lb ed="F1" n="1158"/></l><l>This I wonder at,
+<lb ed="F1" n="1159"/>
+<lb ed="G"/><lb ed="F1" n="1160"/></l><l>That he, unknown to me, should be in debt,
+<lb ed="G"/><lb ed="F1" n="1161"/></l><l>Tell me, was he arrested on a band?
+
+<lb ed="G" n="50"/><lb ed="F1" n="1162"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Not on a band, but on a stronger thing;
+v<lb ed="F1" n="1163"/></l><l>A chain, a chain!   Do you not hear it ring?
+
+<lb ed="G"/><lb ed="F1" n="1164"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>What, the chain?
+
+<lb ed="G"/><lb ed="F1" n="1165"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>No, no, the bell: 'tis time that I were gone:
+<lb ed="G"/><lb ed="F1" n="1166"/></l><l>It was two ere I left him, and now the clock strikes one,
+
+<lb ed="G"/><lb ed="F1" n="1167"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>The hours come back! that did I never hear.
+
+<lb ed="G"/><lb ed="F1" n="1168"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>O, yes; if any hour meet a sergeant, a' turns <lb ed="F1" n="1169"/>back for very fear.
+
+<lb ed="G"/><lb ed="F1" n="1170"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>As if Time were in debt! how fondly dost thou <lb ed="F1" n="1171"/>reason!
+
+<lb ed="G"/><lb ed="F1" n="1172"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Time is a very bankrupt, and owes more than <lb ed="F1" n="1173"/>he's worth, to season.
+<lb ed="G"/><lb ed="F1" n="1174"/></l><l>Nay, he's a thief too: have you not heard men say,
+<lb ed="G"/><lb ed="F1" n="1175"/></l><l>That Time comes stealing on by night and day?
+<lb ed="G" n="61"/><lb ed="F1" n="1176"/></l><l>If Time be in debt and theft, and a sergeant in the way,
+<lb ed="G"/><lb ed="F1" n="1177"/></l><l>Hath he not reason to turn back an hour in a day?
+<lb ed="F1" n="1178"/><stage type="entrance"> Re-enter LUCIANA with a purse. </stage>
+
+<lb ed="G"/><lb ed="F1" n="1179"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Go, Dromio; there's the money, bear it straight,
+<lb ed="G"/><lb ed="F1" n="1180"/></l><l>And bring thy master home immediately.
+<lb ed="G"/><lb ed="F1" n="1181"/></l><l>Come, sister: I am press'd down with conceit--
+<lb ed="G"/><lb ed="F1" n="1182"/></l><l>Conceit, my comfort and my injury.
+<stage>[Exeunt.</stage></l></sp>
+</div2>
+<div2 type="scene" n="3">
+<head>SCENE III</head>
+<stage type="setting"> A public place.</stage>
+<lb ed="F1" n="1183"/><stage type="entrance"> Enter ANTIPHOLUS of Syracuse.  </stage>
+
+<lb ed="G"/><lb ed="F1" n="1184"/><sp who="ant.-s."><speaker>Ant. S.</speaker><l>There's not a man I meet but doth salute me
+<lb ed="G"/><lb ed="F1" n="1185"/></l><l>As if I were their well-acquainted friend;
+<lb ed="G"/><lb ed="F1" n="1186"/></l><l>And every one doth call me by my name.
+<lb ed="G"/><lb ed="F1" n="1187"/></l><l>Some tender money to me; some invite me;
+<lb ed="G"/><lb ed="F1" n="1188"/></l><l>Some other give me thanks for kindnesses;
+<lb ed="G"/><lb ed="F1" n="1189"/></l><l>Some offer me commodities to buy:
+<lb ed="G"/><lb ed="F1" n="1190"/></l><l>Even now a tailor call'd me in his shop
+<lb ed="G"/><lb ed="F1" n="1191"/></l><l>And show'd me silks that he had bought for me
+<lb ed="G"/><lb ed="F1" n="1192"/></l><l>And therewithal took measure of my body.
+<lb ed="G" n="10"/><lb ed="F1" n="1193"/></l><l>Sure, these are but imaginary wiles
+<lb ed="G"/><lb ed="F1" n="1194"/></l><l>And Lapland sorcerers inhabit here.
+<lb ed="F1" n="1195"/><stage type="entrance">          Enter DROMIO of Syracuse.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1196"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Master, here's the gold you sent
+<lb ed="G"/>me for. What, <lb ed="F1" n="1197"/>have you got the picture of old
+<lb ed="G"/>Adam new-apparelled?
+
+<lb ed="G"/><lb ed="F1" n="1198"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>What gold is this? what Adam dost thou <lb ed="F1" n="1199"/>mean?
+
+<lb ed="G"/><lb ed="F1" n="1200"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Not that Adam that kept the Paradise,
+<lb ed="G"/>but <lb ed="F1" n="1201"/>that Adam that keeps the prison: he
+<lb ed="G"/>that goes in the <lb ed="F1" n="1202"/>calf's skin that was killed for
+<lb ed="G"/>the Prodigal; he that <lb ed="F1" n="1203"/>came behind you, sir,
+<lb ed="G"/>like an evil angel, and bid you forsake <lb ed="F1" n="1204"/>your
+<lb ed="G" n="20"/>liberty.
+
+<lb ed="G"/><lb ed="F1" n="1205"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>I understand thee not.
+
+<lb ed="G"/><lb ed="F1" n="1206"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>No? why, 'tis a plain case: he
+<lb ed="G"/>that went, like <lb ed="F1" n="1207"/>a bass-viol, in a case of leather;
+<lb ed="G"/>the man, sir, that, when <lb ed="F1" n="1208"/>gentlemen are tired,
+<lb ed="G"/>gives them a sob and 'rests them: <lb ed="F1" n="1209"/>he, sir, that
+<lb ed="G"/>takes pity on decayed men and gives them <lb ed="F1" n="1210"/>suits
+<lb ed="G"/>of durance; he that sets up his rest to do more
+<lb ed="G"/>exploits <lb ed="F1" n="1211"/>with his mace than a morris-pike.
+
+<lb ed="G"/><lb ed="F1" n="1212"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>What, thou meanest an officer?
+
+<lb ed="G"/><lb ed="F1" n="1213"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Ay, sir, the sergeant of the band;
+<lb ed="G"/>he that brings <lb ed="F1" n="1214"/>any man to answer it that
+<lb ed="G"/>breaks his band; one that <lb ed="F1" n="1215"/>thinks a man always
+<lb ed="G"/>going to bed, and says, 'God give <lb ed="F1" n="1216"/>you good
+<lb ed="G"/>rest!'
+
+<lb ed="G"/><lb ed="F1" n="1217"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Well, sir, there rest in your foolery.
+<lb ed="F1" n="1218"/><lb ed="G"/>Is there any ship puts forth to-night? may we
+<lb ed="G"/>be gone?
+
+<lb ed="G"/><lb ed="F1" n="1219"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Why, sir, I brought you word an
+<lb ed="G"/>hour since <lb ed="F1" n="1220"/>that the bark Expedition put forth
+<lb ed="G"/>to-night; and then <lb ed="F1" n="1221"/>were you hindered by the
+<lb ed="G"/>sergeant, to tarry for the hoy <lb ed="F1" n="1222"/>Delay.   Here are
+<lb ed="G"/>the angels that you sent for to deliver <lb ed="F1" n="1223"/>you.
+
+<lb ed="G"/><lb ed="F1" n="1224"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>The fellow is distract, and so am I;
+<lb ed="G"/><lb ed="F1" n="1225"/></l><l>And here we wander in illusions:
+<lb ed="G"/><lb ed="F1" n="1226"/></l><l>Some blessed power deliver us from hence!
+<lb ed="F1" n="1227"/><stage type="entrance">              Enter a Courtezan.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1228"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>Well met, well met, Master Antipholus.
+<lb ed="G"/><lb ed="F1" n="1229"/></l><l>I see, sir, you have found the goldsmith now:
+<lb ed="G"/><lb ed="F1" n="1230"/></l><l>Is that the chain you promised me to-day?
+
+<lb ed="G"/><lb ed="F1" n="1231"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Satan, avoid! I charge thee, tempt me not.
+
+<lb ed="G"/><lb ed="F1" n="1232"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Master, is this Mistress Satan?
+
+<lb ed="G" n="50"/><lb ed="F1" n="1233"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>It is the devil.
+
+<lb ed="G"/><lb ed="F1" n="1234"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Nay, she is worse, she is the devil's
+<lb ed="G"/>dam; <lb ed="F1" n="1235"/>and here she comes in the habit of a
+<lb ed="G"/>light wench: and <lb ed="F1" n="1236"/>thereof comes that the
+<lb ed="G"/>wenches say 'God damn me;' that's <lb ed="F1" n="1237"/>as much
+<lb ed="G"/>to say 'God make me a light wench.'   It is
+<lb ed="G"/>written, <lb ed="F1" n="1238"/>they appear to men like angels of
+<lb ed="G"/>light: light is an <lb ed="F1" n="1239"/>effect of fire, and fire will
+<lb ed="G"/>burn; ergo, light wenches will <lb ed="F1" n="1240"/>burn. Come not
+<lb ed="G"/>near her.
+
+<lb ed="G"/><lb ed="F1" n="1241"/></p></sp><sp who="cour."><speaker>Cour.</speaker><l>Your man and you are marvellous merry, sir.
+<lb ed="G" n="60"/><lb ed="F1" n="1242"/></l><l>Will you go with me?   We'll mend our dinner here ?
+
+<lb ed="G"/><lb ed="F1" n="1243"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Master, if you do, expect spoon-meat;
+<lb ed="G"/>or bespeak <lb ed="F1" n="1244"/>a long spoon.
+
+<lb ed="G"/><lb ed="F1" n="1245"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><p>Why, Dromio?
+
+<lb ed="G"/><lb ed="F1" n="1246"/></p></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Marry, he must have a long spoon
+<lb ed="G"/>that must <lb ed="F1" n="1247"/>eat with the devil.
+
+<lb ed="G"/><lb ed="F1" n="1248"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Avoid then, fiend! what tell'st thou me of supping?
+<lb ed="G"/><lb ed="F1" n="1249"/></l><l>Thou art, as you are all, a sorceress:
+<lb ed="G"/><lb ed="F1" n="1250"/></l><l>I conjure thee to leave me and be gone.
+
+<lb ed="G"/><lb ed="F1" n="1251"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>Give me the ring of mine you had at dinner,
+<lb ed="G"/><lb ed="F1" n="1252"/></l><l>Or, for my diamond, the chain you promised,
+<lb ed="G" n="71"/><lb ed="F1" n="1253"/></l><l>And I'll be gone, sir, and not trouble you.
+
+<lb ed="G"/><lb ed="F1" n="1254"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Some devils ask but the parings of one's nail,
+<lb ed="G"/><lb ed="F1" n="1255"/></l><l>A rush, a hair, a drop of blood, a pin,
+<lb ed="G"/></l><l>A nut, a cherry-stone;
+<lb ed="G"/><lb ed="F1" n="1256"/></l><l>But she, more covetous, would have a chain.
+<lb ed="G"/></l><l>Master, <lb ed="F1" n="1257"/>be wise: an if you give it her,
+<lb ed="G"/></l><l>The devil will shake <lb ed="F1" n="1258"/>her chain and fright us with it.
+
+<lb ed="G"/><lb ed="F1" n="1259"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>I pray you, sir, my ring, or else the chain:
+<lb ed="G"/><lb ed="F1" n="1260"/></l><l>I hope you do not mean to cheat me so.
+
+<lb ed="G" n="80"/><lb ed="F1" n="1261"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Avaunt, thou witch! Come, Dromio, let us go.
+
+<lb ed="G"/><lb ed="F1" n="1262"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>'Fly pride,' says the peacock: mistress, that <lb ed="F1" n="1263"/>you know.
+<stage>[Exeunt Ant. S. and Dro. S.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1264"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>Now, out of doubt Antipholus is mad,
+<lb ed="G"/><lb ed="F1" n="1265"/></l><l>Else would he never so demean himself.
+<lb ed="G"/><lb ed="F1" n="1266"/></l><l>A ring he hath of mine worth forty ducats,
+<lb ed="G"/><lb ed="F1" n="1267"/></l><l>And for the same he promised me a chain:
+<lb ed="G"/><lb ed="F1" n="1268"/></l><l>Both one and other he denies me now.
+<lb ed="G"/><lb ed="F1" n="1269"/></l><l>The reason that I gather he is mad,
+<lb ed="G"/><lb ed="F1" n="1270"/></l><l>Besides this present instance of his rage,
+<lb ed="G"/><lb ed="F1" n="1271"/></l><l>Is a mad tale he told to-day at dinner,
+<lb ed="G" n="90"/><lb ed="F1" n="1272"/></l><l>Of his own doors being shut against his entrance.
+<lb ed="G"/><lb ed="F1" n="1273"/></l><l>Belike his wife, acquainted with his fits,
+<lb ed="G"/><lb ed="F1" n="1274"/></l><l>On purpose shut the doors against his way.
+<lb ed="G"/><lb ed="F1" n="1275"/></l><l>My way is now to hie home to his house,
+<lb ed="G"/><lb ed="F1" n="1276"/></l><l>And tell his wife that, being lunatic,
+<lb ed="G"/><lb ed="F1" n="1277"/></l><l>He rush'd into my house and took perforce
+<lb ed="G"/><lb ed="F1" n="1278"/></l><l>My ring away. This course I fittest choose;
+<lb ed="G"/><lb ed="F1" n="1279"/></l><l>For forty ducats is too much to lose.
+<stage>[Exit.</stage></l></sp>
+</div2>
+<div2 type="scene" n="4">
+<head>SCENE IV</head>
+<stage type="setting"> A   street. </stage>
+<lb ed="F1" n="1280"/><stage type="entrance">Enter ANTIPHOLUS of Ephesus and the Officer.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1281"/><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Fear me not, man; I will not break away:
+<lb ed="G"/><lb ed="F1" n="1282"/></l><l>I'll give thee, ere I leave thee, so much money,
+<lb ed="G"/><lb ed="F1" n="1283"/></l><l>To warrant thee, as I am 'rested for.
+<lb ed="G"/><lb ed="F1" n="1284"/></l><l>My wife is in a wayward mood to-day,
+<lb ed="G"/><lb ed="F1" n="1285"/></l><l>And will not lightly trust the messenger.
+<lb ed="G"/><lb ed="F1" n="1286"/></l><l>That I should be attach'd in Ephesus,
+<lb ed="G"/><lb ed="F1" n="1287"/></l><l>I tell you, 'twill sound harshly in her ears.
+<lb ed="F1" n="1288"/><stage type="entrance">Enter DROMIO of Ephesus with a rope's-end.</stage>
+<lb ed="G"/><lb ed="F1" n="1289"/></l><l>Here comes my man; I think he brings the money.
+<lb ed="G"/><lb ed="F1" n="1290"/></l><l>How now, sir! have you that I sent you for?
+
+<lb ed="G" n="10"/><lb ed="F1" n="1291"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Here's that, I warrant you, will pay them all.
+
+<lb ed="G"/><lb ed="F1" n="1292"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><p>But where's the money?
+
+<lb ed="G"/><lb ed="F1" n="1293"/></p></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Why, sir, I gave the money for the rope.
+
+<lb ed="G"/><lb ed="F1" n="1294"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Five hundred ducats, villain, for a rope?
+
+<lb ed="G"/><lb ed="F1" n="1295"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>I'll serve you, sir, five hundred at the rate.
+
+<lb ed="G"/><lb ed="F1" n="1296"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>To what end did I bid thee hie thee home ?
+
+<lb ed="G"/><lb ed="F1" n="1297"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>To a rope's-end, sir; and to that
+<lb ed="G"/>end am I <lb ed="F1" n="1298"/>returned.
+
+<lb ed="G"/><lb ed="F1" n="1299"/></p></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><p>And to that end, sir, I will welcome you.
+<stage>[Beating him. </stage>
+
+<lb ed="G" n="20"/><lb ed="F1" n="1300"/></p></sp><sp who="off."><speaker>Off.</speaker><p>Good sir, be patient.
+
+<lb ed="G"/><lb ed="F1" n="1301"/></p></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>Nay, 'tis for me to be patient; I
+<lb ed="G"/>am in <lb ed="F1" n="1302"/>adversity.
+
+<lb ed="G"/><lb ed="F1" n="1303"/></p></sp><sp who="off."><speaker>Off.</speaker><p>Good now, hold thy tongue.
+
+<lb ed="G"/><lb ed="F1" n="1304"/></p></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Nay, rather persuade him to hold his hands.
+
+<lb ed="G"/><lb ed="F1" n="1305"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><p>Thou whoreson, senseless villain!
+
+<lb ed="G"/><lb ed="F1" n="1306"/></p></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>I would I were senseless, sir, that
+<lb ed="G"/>I might <lb ed="F1" n="1307"/>not feel your blows.
+
+<lb ed="G"/><lb ed="F1" n="1308"/></p></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><p>Thou art sensible in nothing but
+<lb ed="G"/>blows, and <lb ed="F1" n="1309"/>so is an ass.
+
+<lb ed="G"/><lb ed="F1" n="1310"/></p></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>I am an ass, indeed; you may
+<lb ed="G"/>prove it by <lb ed="F1" n="1311"/>my long ears. I have served him
+<lb ed="G"/>from the hour of my <lb ed="F1" n="1312"/>nativity to this instant,
+<lb ed="G"/>and have nothing at his hands <lb ed="F1" n="1313"/>for my service
+<lb ed="G"/>but blows.   When I am cold, he heats <lb ed="F1" n="1314"/>me with
+<lb ed="G"/>beating; when I am warm, he cools me with
+<lb ed="F1" n="1315"/><lb ed="G"/>beating: I am waked with it when I sleep;
+<lb ed="G"/>raised with <lb ed="F1" n="1316"/>it when I sit; driven out of doors
+<lb ed="G"/>with it when I go <lb ed="F1" n="1317"/>from home; welcomed
+<lb ed="G"/>home with it when I return: nay, <lb ed="F1" n="1318"/>I bear it on
+<lb ed="G"/>my shoulders, as a beggar wont her brat; <lb ed="F1" n="1319"/>and,
+<lb ed="G"/>I think, when he hath lamed me, I shall beg
+<lb ed="G"/>with <lb ed="F1" n="1320"/>it from door to door.
+<lb ed="F1" n="1321"/>
+<lb ed="F1" n="1322"/>
+
+<lb ed="G"/><lb ed="F1" n="1323"/></p></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Come, go along; my wife is coming <lb ed="F1" n="1324"/>yonder.
+<stage type="entrance">Enter   ADRIANA, LUCIANA, the Courtezan, and PINCH.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1325"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>Mistress, 'respice finem,' respect
+<lb ed="G"/>your end; or rather, <lb ed="F1" n="1326"/>the prophecy like the
+<lb ed="G"/>parrot, 'beware the rope's-end.'
+
+<lb ed="G"/><lb ed="F1" n="1327"/></p></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><p>Wilt thou still talk? <stage>[Beating him.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1328"/></p></sp><sp who="cour."><speaker>Cour.</speaker><l>How say you now? is not your husband mad?
+
+<lb ed="G"/><lb ed="F1" n="1329"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>His incivility confirms no less.
+<lb ed="G" n="50"/><lb ed="F1" n="1330"/></l><l>Good Doctor Pinch, you are a conjurer;
+<lb ed="G"/><lb ed="F1" n="1331"/></l><l>Establish him in his true sense again,
+<lb ed="G"/><lb ed="F1" n="1332"/></l><l>And I will please you what you will demand.
+
+<lb ed="G"/><lb ed="F1" n="1333"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Alas, how fiery and how sharp he looks!
+
+<lb ed="G"/><lb ed="F1" n="1334"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>Mark how he trembles in his ecstasy!
+
+<lb ed="G"/><lb ed="F1" n="1335"/></l></sp><sp who="pinch."><speaker>Pinch.</speaker><l>Give me your hand and let me feel your <lb ed="F1" n="1336"/>pulse.
+
+<lb ed="G"/><lb ed="F1" n="1337"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>There is my hand, and let it feel your ear.<stage>[Striking him. </stage>
+
+<lb ed="G"/><lb ed="F1" n="1338"/></l></sp><sp who="pinch."><speaker>Pinch.</speaker><l>I charge thee, Satan, housed within this man,
+<lb ed="G"/><lb ed="F1" n="1339"/></l><l>To yield possession to my holy prayers
+<lb ed="G"/><lb ed="F1" n="1340"/></l><l>And to thy state of darkness hie thee straight:
+<lb ed="G" n="60"/><lb ed="F1" n="1341"/></l><l>I conjure thee by all the saints in heaven!
+
+<lb ed="G"/><lb ed="F1" n="1342"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Peace, doting wizard, peace! I am not mad.
+
+<lb ed="G"/><lb ed="F1" n="1343"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>O, that thou wert not, poor distressed soul!
+
+<lb ed="G"/><lb ed="F1" n="1344"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>You minion, you, are these your customers?
+<lb ed="G"/><lb ed="F1" n="1345"/></l><l>Did this companion with the saffron face
+<lb ed="G"/><lb ed="F1" n="1346"/></l><l>Revel and feast it at my house to-day,
+<lb ed="G"/><lb ed="F1" n="1347"/></l><l>Whilst upon me the guilty doors were shut
+<lb ed="G"/><lb ed="F1" n="1348"/></l><l>And I denied to enter in my house?
+
+<lb ed="G"/><lb ed="F1" n="1349"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>O husband, God doth know you dined at home;
+<lb ed="G"/><lb ed="F1" n="1350"/></l><l>Where would you had remain'd until this time,
+<lb ed="G"/><lb ed="F1" n="1351"/></l><l>Free from these slanders and this open shame!
+
+<lb ed="G" n="71"/><lb ed="F1" n="1352"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Dined at home! Thou villain, what sayest <lb ed="F1" n="1353"/>thou?
+
+<lb ed="G"/><lb ed="F1" n="1354"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Sir, sooth to say, you did not dine at home.
+
+<lb ed="G"/><lb ed="F1" n="1355"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Were not my doors lock'd up and I shut out?
+
+<lb ed="G"/><lb ed="F1" n="1356"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Perdie, your doors were lock'd and you shut <lb ed="F1" n="1357"/>out.
+
+<lb ed="G"/><lb ed="F1" n="1358"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>And did not she herself revile me there ?
+
+<lb ed="G"/><lb ed="F1" n="1359"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Sans fable, she herself reviled you there.
+
+<lb ed="G"/><lb ed="F1" n="1360"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Did not her kitchen-maid rail, taunt, and <lb ed="F1" n="1361"/>scorn me?
+
+<lb ed="G"/><lb ed="F1" n="1362"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Certes, she did; the kitchen-vestal scorn'd you.
+
+<lb ed="G"/><lb ed="F1" n="1363"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>And did not I in rage depart from thence ?
+
+<lb ed="G" n="80"/><lb ed="F1" n="1364"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>In verity you did; my bones bear witness,
+<lb ed="G"/><lb ed="F1" n="1365"/></l><l>That since have felt the vigor of his rage.
+
+<lb ed="G"/><lb ed="F1" n="1366"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Is't good to soothe him in these contraries ?
+
+<lb ed="G"/><lb ed="F1" n="1367"/></l></sp><sp who="pinch."><speaker>Pinch.</speaker><l>It is no shame: the fellow finds his vein,
+<lb ed="G"/><lb ed="F1" n="1368"/></l><l>And yielding to him humors well his frenzy.
+
+<lb ed="G"/><lb ed="F1" n="1369"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Thou hast suborn'd the goldsmith to arrest <lb ed="F1" n="1370"/>me.
+
+<lb ed="G"/><lb ed="F1" n="1371"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Alas, I sent you money to redeem you,
+<lb ed="G"/><lb ed="F1" n="1372"/></l><l>By Dromio here, who came in haste for it.
+
+<lb ed="G"/><lb ed="F1" n="1373"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Money by me! heart and goodwill you might;
+<lb ed="G"/><lb ed="F1" n="1374"/></l><l>But surely, master, not a rag of money.
+
+<lb ed="G" n="90"/><lb ed="F1" n="1375"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Went'st not thou to her for a purse of ducats?
+
+<lb ed="G"/><lb ed="F1" n="1376"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>He came to me and I deliver'd it.
+
+<lb ed="G"/><lb ed="F1" n="1377"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>And I am witness with her that she did.
+
+<lb ed="G"/><lb ed="F1" n="1378"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>God and the rope-maker bear me witness
+<lb ed="G"/><lb ed="F1" n="1379"/></l><l>That I was sent for nothing but a rope!
+
+<lb ed="G"/><lb ed="F1" n="1380"/></l></sp><sp who="pinch."><speaker>Pinch.</speaker><l>Mistress, both man and master is possess'd;
+<lb ed="G"/><lb ed="F1" n="1381"/></l><l>I know it by their pale and deadly looks:
+<lb ed="G"/><lb ed="F1" n="1382"/></l><l>They must be bound and laid in some dark room.
+
+<lb ed="G"/><lb ed="F1" n="1383"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Say, wherefore didst thou lock me forth to-day?
+<lb ed="G"/><lb ed="F1" n="1384"/></l><l>And why dost thou deny the bag of gold?
+
+<lb ed="G" n="100"/><lb ed="F1" n="1385"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>I did not, gentle husband, lock thee forth.
+
+<lb ed="G"/><lb ed="F1" n="1386"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>And, gentle master, I received no gold;
+<lb ed="G"/><lb ed="F1" n="1387"/></l><l>But I confess, sir, that we were lock'd out.
+
+<lb ed="G"/><lb ed="F1" n="1388"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Dissembling villain, thou speak'st false in both.
+
+<lb ed="G"/><lb ed="F1" n="1389"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Dissembling harlot, thou art false in all;
+<lb ed="G"/><lb ed="F1" n="1390"/></l><l>And art confederate with a damned pack
+<lb ed="G"/><lb ed="F1" n="1391"/></l><l>To make a loathsome abject scorn of me:
+<lb ed="G"/><lb ed="F1" n="1392"/></l><l>But with these nails I'll pluck out these false eyes
+<lb ed="G"/><lb ed="F1" n="1393"/></l><l>That would behold in me this shameful sport.
+<lb ed="F1" n="1394"/><stage type="entrance">Enter three or four, and offer to bind him. <lb ed="F1" n="1395"/>He strives.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1396"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>O, bind him, bind him! let him not come <lb ed="F1" n="1397"/>near me.
+
+<lb ed="G" n="110"/><lb ed="F1" n="1398"/></l></sp><sp who="pinch."><speaker>Pinch.</speaker><l>More company! The fiend is strong within him.
+
+<lb ed="G"/><lb ed="F1" n="1399"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Ay me, poor man, how pale and wan he looks!
+
+<lb ed="G"/><lb ed="F1" n="1400"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>What, will you murder me? Thou gaoler, thou,
+<lb ed="G"/><lb ed="F1" n="1401"/></l><l>I am thy prisoner: wilt thou suffer them</l>
+<l part="I">To make a <lb ed="F1" n="1402"/>rescue?
+
+<lb ed="G"/><lb ed="F1" n="1403"/></l></sp><sp who="off."><speaker>Off.</speaker><l part="F">Masters, let him go:
+<lb ed="G"/></l><l>He is my prisoner, and you <lb ed="F1" n="1404"/>shall not have him.
+
+<lb ed="G"/><lb ed="F1" n="1405"/></l></sp><sp who="pinch."><speaker>Pinch.</speaker><l>Go bind this man, for he is frantic too.
+<stage>[They offer to bind Dro. E. </stage>
+
+<lb ed="G"/><lb ed="F1" n="1406"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>What wilt thou do, thou peevish officer ?
+<lb ed="G"/><lb ed="F1" n="1407"/></l><l>Hast thou delight to see a wretched man
+<lb ed="G" n="119"/><lb ed="F1" n="1408"/></l><l>Do outrage and displeasure to himself?
+
+<lb ed="G"/><lb ed="F1" n="1409"/></l></sp><sp who="off."><speaker>Off.</speaker><l>He is my prisoner: if I let him go,
+<lb ed="G"/><lb ed="F1" n="1410"/></l><l>The debt he owes will be required of me.
+
+<lb ed="G"/><lb ed="F1" n="1411"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>I will discharge thee ere I go from thee:
+<lb ed="G"/><lb ed="F1" n="1412"/></l><l>Bear me forthwith unto his creditor,
+<lb ed="G"/><lb ed="F1" n="1413"/></l><l>And, knowing how the debt grows, I will pay it.
+<lb ed="G"/><lb ed="F1" n="1414"/></l><l>Good master doctor, see him safe convey'd
+<lb ed="G"/><lb ed="F1" n="1415"/></l><l>Home to my house. O most unhappy day!
+
+<lb ed="G"/><lb ed="F1" n="1416"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>O most unhappy strumpet!
+
+<lb ed="G"/><lb ed="F1" n="1417"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Master, I am here enter'd in bond for you.
+
+<lb ed="G" n="130"/><lb ed="F1" n="1418"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Out on thee, villain! wherefore dost thou mad <lb ed="F1" n="1419"/>me?
+
+<lb ed="G"/><lb ed="F1" n="1420"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Will you be bound for nothing?
+<lb ed="G"/>be mad, good <lb ed="F1" n="1421"/>master: cry 'The devil!'
+
+<lb ed="G"/><lb ed="F1" n="1422"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>God help, poor souls, how idly do they <lb ed="F1" n="1423"/>talk!
+
+<lb ed="G"/><lb ed="F1" n="1424"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Go bear him hence. Sister, go you with me.
+<stage>[Exeunt all but Adriana, Luciana, Officer and Courtezan.</stage>
+<lb ed="G"/><lb ed="F1" n="1425"/></l><l>Say now, whose suit is he arrested at?
+<lb ed="F1" n="1426"/>
+
+<lb ed="G"/><lb ed="F1" n="1427"/></l></sp><sp who="off."><speaker>Off.</speaker><l>One Angelo, a goldsmith: do you know him?
+
+<lb ed="G"/><lb ed="F1" n="1428"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>I know the man. What is the sum he owes?
+
+<lb ed="G"/><lb ed="F1" n="1429"/></l></sp><sp who="off."><speaker>Off.</speaker><l part="I">Two hundred ducats.
+
+<lb ed="G"/><lb ed="F1" n="1430"/></l></sp><sp who="adr."><speaker>Adr.</speaker><p>Say, how grows it due?
+
+<lb ed="G"/><lb ed="F1" n="1431"/></p></sp><sp who="off."><speaker>Off.</speaker><l>Due for a chain your husband had of him.
+
+<lb ed="G"/><lb ed="F1" n="1432"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>He did bespeak a chain for me, but had it not.
+
+<lb ed="G" n="140"/><lb ed="F1" n="1433"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>When as your husband all in rage to-day
+<lb ed="G"/><lb ed="F1" n="1434"/></l><l>Came to my house and took away my ring--
+<lb ed="G"/><lb ed="F1" n="1435"/></l><l>The ring I saw upon his finger now--
+<lb ed="G"/><lb ed="F1" n="1436"/></l><l>Straight after did I meet him with a chain.
+
+<lb ed="G"/><lb ed="F1" n="1437"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>It may be so, but I did never see it.
+<lb ed="G"/><lb ed="F1" n="1438"/></l><l>Come, gaoler, bring me where the goldsmith is:
+<lb ed="G"/><lb ed="F1" n="1439"/></l><l>I long to know the truth hereof at large.
+<lb ed="F1" n="1440"/><stage type="entrance">Enter ANTIPHOLUS of Syracuse with his rapier
+drawn, <lb ed="F1" n="1441"/>and DROMIO of Syracuse. </stage>
+
+<lb ed="G"/><lb ed="F1" n="1442"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>God, for thy mercy! they are loose again.
+
+<lb ed="G"/><lb ed="F1" n="1443"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>And come with naked swords.
+<lb ed="G"/><lb ed="F1" n="1444"/></l><l>Let's call more help to have them bound again.
+<lb ed="F1" n="1445"/>
+
+<lb ed="G" n="150"/><lb ed="F1" n="1446"/></l></sp><sp who="off."><speaker>Off.</speaker><l>Away! they'll kill us.
+<lb ed="F1" n="1447"/><stage>[Exeunt all but Ant. S. and Dro. S.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1448"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>I see these witches are afraid of swords.
+
+<lb ed="G"/><lb ed="F1" n="1449"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>She that would be your wife now ran from <lb ed="F1" n="1450"/>you.
+
+<lb ed="G"/><lb ed="F1" n="1451"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Come to the Centaur; fetch our stuff from <lb ed="F1" n="1452"/>thence:
+<lb ed="G"/><lb ed="F1" n="1453"/></l><l>I long that we were safe and sound aboard.
+
+<lb ed="G"/><lb ed="F1" n="1454"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><p>Faith, stay here this night; they
+<lb ed="G"/>will surely do <lb ed="F1" n="1455"/>us no harm: you saw they
+<lb ed="G"/>speak us fair, give us gold: <lb ed="F1" n="1456"/>methinks they are
+<lb ed="G"/>such a gentle nation that, but for <lb ed="F1" n="1457"/>the mountain
+<lb ed="G"/>of mad flesh that claims marriage of me, <lb ed="F1" n="1458"/>I
+<lb ed="G"/>could find in my heart to stay here still and
+<lb ed="G"/> n=160turn <lb ed="F1" n="1459"/>witch.
+
+<lb ed="G"/><lb ed="F1" n="1460"/></p></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>I will not stay to-night for all the town;
+<lb ed="G"/><lb ed="F1" n="1461"/></l><l>Therefore away, to get our stuff aboard.
+<stage>[Exeunt.</stage></l></sp>
+</div2>
+</div1>
+
+ <div1 type="act" n="5">
+<head>ACT V</head><lb ed="F1" n="1462"/>
+<div2 type="scene" n="1">
+<head>SCENE I</head>
+<stage type="setting"> A street before a Priory. </stage>
+<lb ed="F1" n="1463"/><stage type="entrance">    Enter Second Merchant and ANGELO.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1464"/><sp who="ang."><speaker>Ang.</speaker><l>I am sorry, sir, that I have hinder'd you;
+<lb ed="G"/><lb ed="F1" n="1465"/></l><l>But, I protest, he had the chain of me,
+<lb ed="G"/><lb ed="F1" n="1466"/></l><l>Though most dishonestly he doth deny it.
+
+<lb ed="G"/><lb ed="F1" n="1467"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>How is the man esteemed here in the city ?
+
+<lb ed="G"/><lb ed="F1" n="1468"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Of very reverend reputation, sir,
+<lb ed="G"/><lb ed="F1" n="1469"/></l><l>Of credit infinite, highly beloved,
+<lb ed="G"/><lb ed="F1" n="1470"/></l><l>Second to none that lives here in the city:
+<lb ed="G"/><lb ed="F1" n="1471"/></l><l>His word might bear my wealth at any time.
+
+<lb ed="G"/><lb ed="F1" n="1472"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>Speak softly; yonder, as I think, he walks.
+<lb ed="F1" n="1473"/><stage type="entrance">Enter ANTIPHOLUS of Syracuse and DROMIO of Syracuse.</stage>
+
+<lb ed="G" n="10"/><lb ed="F1" n="1474"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>'Tis so; and that self chain about his neck
+<lb ed="G"/><lb ed="F1" n="1475"/></l><l>Which he forswore most monstrously to have.
+<lb ed="G"/><lb ed="F1" n="1476"/></l><l>Good sir, draw near to me, I'll speak to him.
+<lb ed="G"/><lb ed="F1" n="1477"/></l><l>Signior Antipholus, I wonder much
+<lb ed="G"/><lb ed="F1" n="1478"/></l><l>That you would put me to this shame and trouble;
+<lb ed="G"/><lb ed="F1" n="1479"/></l><l>And, not without some scandal to yourself,
+<lb ed="G"/><lb ed="F1" n="1480"/></l><l>With circumstance and oaths so to deny
+<lb ed="G"/><lb ed="F1" n="1481"/></l><l>This chain which now you wear so openly:
+<lb ed="G"/><lb ed="F1" n="1482"/></l><l>Beside the charge, the shame, imprisonment,
+<lb ed="G"/><lb ed="F1" n="1483"/></l><l>You have done wrong to this my honest friend,
+<lb ed="G" n="20"/><lb ed="F1" n="1484"/></l><l>Who, but for staying on our controversy,
+<lb ed="G"/><lb ed="F1" n="1485"/></l><l>Had hoisted sail and put to sea to-day:
+<lb ed="G"/><lb ed="F1" n="1486"/></l><l>This chain you had of me; can you deny it?
+
+<lb ed="G"/><lb ed="F1" n="1487"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>I think I had; I never did deny it.
+
+<lb ed="G"/><lb ed="F1" n="1488"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>Yes, that you did, sir, and forswore it too.
+
+<lb ed="G"/><lb ed="F1" n="1489"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Who heard me to deny it or forswear it?
+
+<lb ed="G"/><lb ed="F1" n="1490"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>These ears of mine, thou know'st, did hear thee.
+<lb ed="G"/><lb ed="F1" n="1491"/></l><l>Fie on thee, wretch! 'tis pity that thou livest
+<lb ed="G"/><lb ed="F1" n="1492"/></l><l>To walk where any honest man resort.
+
+<lb ed="G"/><lb ed="F1" n="1493"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>Thou art a villain to impeach me thus:
+<lb ed="G" n="30"/><lb ed="F1" n="1494"/></l><l>I'll prove mine honor and mine honesty
+<lb ed="G"/><lb ed="F1" n="1495"/></l><l>Against thee presently, if thou darest stand.
+
+<lb ed="G"/><lb ed="F1" n="1496"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>I dare, and do defy thee for a villain.
+<lb ed="F1" n="1497"/><stage>[They draw. </stage>
+<stage type="entrance">Enter ADRIANA, LUCIANA, the Courtezan, and others.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1498"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Hold, hurt him not, for God's sakel he is mad.
+<lb ed="G"/><lb ed="F1" n="1499"/></l><l>Some get within him, take his sword away:
+<lb ed="G"/><lb ed="F1" n="1500"/></l><l>Bind Dromio too, and bear them to my house.
+
+<lb ed="G"/><lb ed="F1" n="1501"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Run, master, run; for God's sake, take a house!
+<lb ed="G"/><lb ed="F1" n="1502"/></l><l>This is some priory. In, or we are spoil'd!
+<lb ed="F1" n="1503"/><stage>[Exeunt Ant. S. and Dro. S. to the Priory.</stage>
+<lb ed="F1" n="1504"/><stage type="entrance">            Enter the Lady Abbess.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1505"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Be quiet, people. Wherefore throng you hither?
+
+<lb ed="G"/><lb ed="F1" n="1506"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>To fetch my poor distracted husband hence.
+<lb ed="G" n="40"/><lb ed="F1" n="1507"/></l><l>Let us come in, that we may bind him fast
+<lb ed="G"/><lb ed="F1" n="1508"/></l><l>And bear him home for his recovery.
+
+<lb ed="G"/><lb ed="F1" n="1509"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>I knew he was not in his perfect wits,
+
+<lb ed="G"/><lb ed="F1" n="1510"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>I am sorry now that I did draw on him.
+
+<lb ed="G"/><lb ed="F1" n="1511"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>How long hath this possession held the man?
+
+<lb ed="G"/><lb ed="F1" n="1512"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>This week he hath been heavy, sour, sad,
+<lb ed="G"/><lb ed="F1" n="1513"/></l><l>And much different from the man he was;
+<lb ed="G"/><lb ed="F1" n="1514"/></l><l>But till this afternoon his passion
+<lb ed="G"/><lb ed="F1" n="1515"/></l><l>Ne'er brake into extremity of rage.
+
+<lb ed="G"/><lb ed="F1" n="1516"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Hath he not lost much wealth by wreck of sea?
+<lb ed="G"/><lb ed="F1" n="1517"/></l><l>Buried some dear friend?   Hath not else his eye
+<lb ed="G" n="51"/><lb ed="F1" n="1518"/></l><l>Stray'd his affection in unlawful love?
+<lb ed="G"/><lb ed="F1" n="1519"/></l><l>A sin prevailing much in youthful men,
+<lb ed="G"/><lb ed="F1" n="1520"/></l><l>Who give their eyes the liberty of gazing.
+<lb ed="G"/><lb ed="F1" n="1521"/></l><l>Which of these sorrows is he subject to?
+
+<lb ed="G"/><lb ed="F1" n="1522"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>To none of these, except it be the last;
+<lb ed="G"/><lb ed="F1" n="1523"/></l><l>Namely, some love that drew him oft from home.
+
+<lb ed="G"/><lb ed="F1" n="1524"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>You should for that have reprehended him.
+
+<lb ed="G"/><lb ed="F1" n="1525"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l part="I">Why, so I did.
+
+<lb ed="G"/><lb ed="F1" n="1526"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l part="F">Ay, but not rough enough.
+
+<lb ed="G"/><lb ed="F1" n="1527"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>As roughly as my modesty would let me.
+
+<lb ed="G"/><lb ed="F1" n="1528"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l part="I">Haply, in private.
+
+<lb ed="G"/><lb ed="F1" n="1529"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l part="F">And in assemblies too.
+
+<lb ed="G" n="61"/><lb ed="F1" n="1530"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Ay, but not enough.
+
+<lb ed="G"/><lb ed="F1" n="1531"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>It was the copy of our conference:
+<lb ed="G"/><lb ed="F1" n="1532"/></l><l>In bed he slept not for my urging it;
+<lb ed="G"/><lb ed="F1" n="1533"/></l><l>At board he fed not for my urging it;
+<lb ed="G"/><lb ed="F1" n="1534"/></l><l>Alone, it was the subject of my theme;
+<lb ed="G"/><lb ed="F1" n="1535"/></l><l>In company I often glanced it;
+<lb ed="G"/><lb ed="F1" n="1536"/></l><l>Still did I tell him it was vile and bad.
+
+<lb ed="G"/><lb ed="F1" n="1537"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>And thereof came it that the man was mad:
+<lb ed="G"/><lb ed="F1" n="1538"/></l><l>The venom clamors of a jealous woman
+<lb ed="G"/><lb ed="F1" n="1539"/></l><l>Poisons more deadly than a mad dog's tooth.
+<lb ed="G" n="71"/><lb ed="F1" n="1540"/></l><l>It seems his sleeps were hinder'd by thy railing,
+<lb ed="G"/><lb ed="F1" n="1541"/></l><l>And thereof comes it that his head is light.
+<lb ed="G"/><lb ed="F1" n="1542"/></l><l>Thou say'st his meat was sauced with thy upbraidings:
+<lb ed="G"/><lb ed="F1" n="1543"/></l><l>Unquiet meals make ill digestions;
+<lb ed="G"/><lb ed="F1" n="1544"/></l><l>Thereof the raging fire of fever bred;
+<lb ed="G"/><lb ed="F1" n="1545"/></l><l>And what's a fever but a fit of madness?
+<lb ed="G"/><lb ed="F1" n="1546"/></l><l>Thou say'st his sports were hinder'd by thy brawls:
+<lb ed="G"/><lb ed="F1" n="1547"/></l><l>Sweet recreation barr'd, what doth ensue
+<lb ed="G"/><lb ed="F1" n="1548"/></l><l>But moody and dull melancholy,
+<lb ed="G" n="80"/><lb ed="F1" n="1549"/></l><l>Kinsman to grim and comfortless despair,
+<lb ed="G"/><lb ed="F1" n="1550"/></l><l>And at her heels a huge infectious troop
+<lb ed="G"/><lb ed="F1" n="1551"/></l><l>Of pale distemperatures and foes to life?
+<lb ed="G"/><lb ed="F1" n="1552"/></l><l>In food, in sport and life-preserving rest
+<lb ed="G"/><lb ed="F1" n="1553"/></l><l>To be disturb'd, would mad or man or beast:
+<lb ed="G"/><lb ed="F1" n="1554"/></l><l>The consequence is then thy jealous fits
+<lb ed="G"/><lb ed="F1" n="1555"/></l><l>Have scared thy husband from the use of wits.
+
+<lb ed="G"/><lb ed="F1" n="1556"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>She never reprehended him but mildly.
+<lb ed="G"/><lb ed="F1" n="1557"/></l><l>When he demean'd himself rough, rude and wildly.
+<lb ed="G"/><lb ed="F1" n="1558"/></l><l>Why bear you these rebukes and answer not?
+
+<lb ed="G"/><lb ed="F1" n="1559"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>She did betray me to my own reproof.
+<lb ed="G" n="91"/><lb ed="F1" n="1560"/></l><l>Good people, enter and lay hold on him.
+
+<lb ed="G"/><lb ed="F1" n="1561"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>No, not a creature enters in my house.
+
+<lb ed="G"/><lb ed="F1" n="1562"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Then let your servants bring my husband forth.
+
+<lb ed="G"/><lb ed="F1" n="1563"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Neither: he took this place for sanctuary,
+<lb ed="G"/><lb ed="F1" n="1564"/></l><l>And it shall privilege him from your hands
+<lb ed="G"/><lb ed="F1" n="1565"/></l><l>Till I have brought him to his wits again,
+<lb ed="G"/><lb ed="F1" n="1566"/></l><l>Or lose my labor in assaying it.
+
+<lb ed="G"/><lb ed="F1" n="1567"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>I will attend my husband, be his nurse,
+<lb ed="G"/><lb ed="F1" n="1568"/></l><l>Diet his sickness, for it is my office,
+<lb ed="G" n="100"/><lb ed="F1" n="1569"/></l><l>And will have no attorney but myself;
+<lb ed="G"/><lb ed="F1" n="1570"/></l><l>And therefore let me have him home with me.
+
+<lb ed="G"/><lb ed="F1" n="1571"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Be patient; for I will not let him stir
+<lb ed="G"/><lb ed="F1" n="1572"/></l><l>Till I have used the approved means I have,
+<lb ed="G"/><lb ed="F1" n="1573"/></l><l>With wholesome syrups, drugs and holy prayers,
+<lb ed="G"/><lb ed="F1" n="1574"/></l><l>To make of him a formal man again:
+<lb ed="G"/><lb ed="F1" n="1575"/></l><l>It is a branch and parcel of mine oath,
+<lb ed="G"/><lb ed="F1" n="1576"/></l><l>A charitable duty of my order.
+<lb ed="G"/><lb ed="F1" n="1577"/></l><l>Therefore depart and leave him here with me,
+
+<lb ed="G"/><lb ed="F1" n="1578"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>I will not hence and leave my husband here:
+<lb ed="G" n="110"/><lb ed="F1" n="1579"/></l><l>And ill it doth beseem your holiness
+<lb ed="G"/><lb ed="F1" n="1580"/></l><l>To separate the husband and the wife.
+
+<lb ed="G"/><lb ed="F1" n="1581"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Be quiet and depart: thou shalt not have him.
+<stage>[Exit. </stage>
+
+<lb ed="G"/><lb ed="F1" n="1582"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Complain unto the duke of this indignity.
+
+<lb ed="G"/><lb ed="F1" n="1583"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Come, go: I will fall prostrate at his feet
+<lb ed="G"/><lb ed="F1" n="1584"/></l><l>And never rise until my tears and prayers
+<lb ed="G"/><lb ed="F1" n="1585"/></l><l>Have won his grace to come in person hither
+<lb ed="G"/><lb ed="F1" n="1586"/></l><l>And take perforce my husband from the abbess.
+
+<lb ed="G"/><lb ed="F1" n="1587"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>By this, I think, the dial points at five:
+<lb ed="G"/><lb ed="F1" n="1588"/></l><l>Anon, I'm sure, the duke himself in person
+<lb ed="G" n="120"/><lb ed="F1" n="1589"/></l><l>Comes this way to the melancholy vale,
+<lb ed="G"/><lb ed="F1" n="1590"/></l><l>The place of death and sorry execution,
+<lb ed="G"/><lb ed="F1" n="1591"/></l><l>Behind the ditches of the abbey here.
+
+<lb ed="G"/><lb ed="F1" n="1592"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>Upon what cause?
+
+<lb ed="G"/><lb ed="F1" n="1593"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>To see a reverend Syracusian merchant,
+<lb ed="G"/><lb ed="F1" n="1594"/></l><l>Who put unluckily into this bay
+<lb ed="G"/><lb ed="F1" n="1595"/></l><l>Against the laws and statutes of this town,
+<lb ed="G"/><lb ed="F1" n="1596"/></l><l>Beheaded publicly for his offence.
+
+<lb ed="G"/><lb ed="F1" n="1597"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>See where they come: we will behold his death.
+
+<lb ed="G"/><lb ed="F1" n="1598"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Kneel to the duke before he pass the abbey.
+<lb ed="F1" n="1599"/><stage type="entrance">Enter DUKE, attended; &AElig;GEON <lb ed="F1" n="1600"/>bareheaded;
+with the Headsman and other <lb ed="F1" n="1601"/>Officers. </stage>
+
+<lb ed="G"/><lb ed="F1" n="1602"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Yet once again proclaim it publicly,
+<lb ed="G" n="131"/><lb ed="F1" n="1603"/></l><l>If any friend will pay the sum for him,m
+<lb ed="G"/><lb ed="F1" n="1604"/></l><l>He shall not die; so much we tender him.
+
+<lb ed="G"/><lb ed="F1" n="1605"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Justice, most sacred duke, against the abbess!
+
+<lb ed="G"/><lb ed="F1" n="1606"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>She is a virtuous and a reverend lady:
+<lb ed="G"/><lb ed="F1" n="1607"/></l><l>It cannot be that she hath done thee wrong.
+
+<lb ed="G"/><lb ed="F1" n="1608"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>May it please your grace, Antipholus, my husband,
+<lb ed="G"/><lb ed="F1" n="1609"/></l><l>Whom I made lord of me and all I had,
+<lb ed="G"/><lb ed="F1" n="1610"/></l><l>At your important letters,--this ill day
+<lb ed="G"/><lb ed="F1" n="1611"/></l><l>A most outrageous fit of madness took him;
+<lb ed="G"/><lb ed="F1" n="1612"/></l><l>That desperately he hurried through the street,
+<lb ed="G" n="141"/><lb ed="F1" n="1613"/></l><l>With him his bondman, all as mad as he,--
+<lb ed="G"/><lb ed="F1" n="1614"/></l><l>Doing displeasure to the citizens
+<lb ed="G"/><lb ed="F1" n="1615"/></l><l>By rushing in their houses, bearing thence
+<lb ed="G"/><lb ed="F1" n="1616"/></l><l>Rings, jewels, any thing his rage did like.
+<lb ed="G"/><lb ed="F1" n="1617"/></l><l>Once did I get him bound and sent him home,
+<lb ed="G"/><lb ed="F1" n="1618"/></l><l>Whilst to take order for the wrongs I went,
+<lb ed="G"/><lb ed="F1" n="1619"/></l><l>That here and there his fury had committed.
+<lb ed="G"/><lb ed="F1" n="1620"/></l><l>Anon, I wot not by what strong escape,
+<lb ed="G"/><lb ed="F1" n="1621"/></l><l>He broke from those that had the guard of him;
+<lb ed="G" n="150"/><lb ed="F1" n="1622"/></l><l>And with his mad attendant and himself,
+<lb ed="G"/><lb ed="F1" n="1623"/></l><l>Each one with ireful passion, with drawn swords,
+<lb ed="G"/><lb ed="F1" n="1624"/></l><l>Met us again and madly bent on us,
+<lb ed="G"/><lb ed="F1" n="1625"/></l><l>Chased us away; till, raising of more aid,
+<lb ed="G"/><lb ed="F1" n="1626"/></l><l>We came again to bind them. Then they fled
+<lb ed="G"/><lb ed="F1" n="1627"/></l><l>Into this abbey, whither we pursued them:
+<lb ed="G"/><lb ed="F1" n="1628"/></l><l>And here the abbess shuts the gates on us
+<lb ed="G"/><lb ed="F1" n="1629"/></l><l>And will not suffer us to fetch him out,
+<lb ed="G"/><lb ed="F1" n="1630"/></l><l>Nor send him forth that we may bear him hence.
+<lb ed="G"/><lb ed="F1" n="1631"/></l><l>Therefore, most gracious duke, with thy command
+<lb ed="G" n="160"/><lb ed="F1" n="1632"/></l><l>Let him be brought forth and borne hence for help.
+
+<lb ed="G"/><lb ed="F1" n="1633"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Long since thy husband served me in my wars,
+<lb ed="G"/><lb ed="F1" n="1634"/></l><l>And I to thee engaged a prince's word,
+<lb ed="G"/><lb ed="F1" n="1635"/></l><l>When thou didst make him master of thy bed,
+<lb ed="G"/><lb ed="F1" n="1636"/></l><l>To do him all the grace and good I could.
+<lb ed="G"/><lb ed="F1" n="1637"/></l><l>Go, some of you, knock at the abbey-gate
+<lb ed="G"/><lb ed="F1" n="1638"/></l><l>And bid the lady abbess come to me.
+<lb ed="G"/><lb ed="F1" n="1639"/></l><l>I will determine this before I stir.
+<lb ed="F1" n="1640"/><stage type="entrance">                Enter a Servant.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1641"/></l></sp><sp who="serv."><speaker>Serv.</speaker><l>O mistress, mistress, shift and save yourself!
+<lb ed="G"/><lb ed="F1" n="1642"/></l><l>My master and his man are both broke loose,
+<lb ed="G"/><lb ed="F1" n="1643"/></l><l>Beaten the maids a-row and bound the doctor,
+<lb ed="G" n="171"/><lb ed="F1" n="1644"/></l><l>Whose beard they have singed off with brands of fire;
+<lb ed="G"/><lb ed="F1" n="1645"/></l><l>And ever, as it blazed, they threw on him
+<lb ed="G"/><lb ed="F1" n="1646"/></l><l>Great pails of puddled mire to quench the hair:
+<lb ed="G"/><lb ed="F1" n="1647"/></l><l>My master preaches patience to him and the while
+<lb ed="G"/><lb ed="F1" n="1648"/></l><l>His man with scissors nicks him like a fool,
+<lb ed="G"/><lb ed="F1" n="1649"/></l><l>And sure, unless you send some present help,
+<lb ed="G"/><lb ed="F1" n="1650"/></l><l>Between them they will kill the conjurer.
+
+<lb ed="G"/><lb ed="F1" n="1651"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Peace, fool! thy master and his man are here,
+<lb ed="G" n="179"/><lb ed="F1" n="1652"/></l><l>And that is false thou dost report to us.
+
+<lb ed="G"/><lb ed="F1" n="1653"/></l></sp><sp who="serv."><speaker>Serv.</speaker><l>Mistress, upon my life, I tell you true;
+<lb ed="G"/><lb ed="F1" n="1654"/></l><l>I have not breathed almost since I did see it.
+<lb ed="G"/><lb ed="F1" n="1655"/></l><l>He cries for you, and vows, if he can take you,
+<lb ed="G"/><lb ed="F1" n="1656"/></l><l>To scorch your face and to disfigure you.
+<lb ed="F1" n="1657"/><stage>[Cry within.</stage>
+<lb ed="G"/><lb ed="F1" n="1658"/></l><l>Hark, hark! I hear him, mistress: fly, be gone!
+
+<lb ed="G"/><lb ed="F1" n="1659"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Come, stand by me; fear nothing. Guard and <lb ed="F1" n="1660"/>halberds!
+
+<lb ed="G"/><lb ed="F1" n="1661"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Ay me, it is my husband!   Witness you,
+<lb ed="G"/><lb ed="F1" n="1662"/></l><l>That he is borne about invisible:
+<lb ed="G"/><lb ed="F1" n="1663"/></l><l>Even now we housed him in the abbey here;
+<lb ed="G"/><lb ed="F1" n="1664"/></l><l>And now he's there, past thought of human reason.
+<lb ed="F1" n="1665"/><stage type="entrance">Enter ANTIPHOLUS of Ephesus and DROMIO of Ephesus.</stage>
+
+<lb ed="G" n="190"/><lb ed="F1" n="1666"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Justice, most gracious duke, O, grant me justice!
+<lb ed="G"/><lb ed="F1" n="1667"/></l><l>Even for the service that long since I did thee,
+<lb ed="G"/><lb ed="F1" n="1668"/></l><l>When I bestrid thee in the wars and took
+<lb ed="G"/><lb ed="F1" n="1669"/></l><l>Deep scars to save thy life; even for the blood
+<lb ed="G"/><lb ed="F1" n="1670"/></l><l>That then I lost for thee, now grant me justice.
+
+<lb ed="G"/><lb ed="F1" n="1671"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>Unless the fear of death doth make me dote,
+<lb ed="G"/><lb ed="F1" n="1672"/></l><l>I see my son Antipholus and Dromio.
+
+<lb ed="G"/><lb ed="F1" n="1673"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Justice, sweet prince, against that woman there!
+<lb ed="G"/><lb ed="F1" n="1674"/></l><l>She whom thou gavest to me to be my wife,
+<lb ed="G"/><lb ed="F1" n="1675"/></l><l>That hath abused and dishonor'd me
+<lb ed="G" n="200"/><lb ed="F1" n="1676"/></l><l>Even in the strength and height of injury!
+<lb ed="G"/><lb ed="F1" n="1677"/></l><l>Beyond imagination is the wrong
+<lb ed="G"/><lb ed="F1" n="1678"/></l><l>That she this day hath shameless thrown on me.
+
+<lb ed="G"/><lb ed="F1" n="1679"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Discover how, and thou shalt find me just.
+
+<lb ed="G"/><lb ed="F1" n="1680"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>This day, great duke, she shut the doors <lb ed="F1" n="1681"/>upon me,
+<lb ed="G"/><lb ed="F1" n="1682"/></l><l>While she with harlots feasted in my house.
+
+<lb ed="G"/><lb ed="F1" n="1683"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>A grievous fault!  Say, woman, didst thou so?
+
+<lb ed="G"/><lb ed="F1" n="1684"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>No, my good lord: myself, he and my sister
+<lb ed="G"/><lb ed="F1" n="1685"/></l><l>To-day did dine together. So befall my soul
+<lb ed="G"/><lb ed="F1" n="1686"/></l><l>As this is false he burdens me withal!
+
+<lb ed="G" n="210"/><lb ed="F1" n="1687"/></l></sp><sp who="luc."><speaker>Luc.</speaker><l>Ne'er may I look on day, nor sleep on night,
+<lb ed="G"/><lb ed="F1" n="1688"/></l><l>But she tells to your highness simple truth!
+
+<lb ed="G"/><lb ed="F1" n="1689"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>O perjured woman! They are both forsworn:
+<lb ed="G"/><lb ed="F1" n="1690"/></l><l>In this the madman justly chargeth them.
+
+<lb ed="G"/><lb ed="F1" n="1691"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>My liege, I am advised what I say,
+<lb ed="G"/><lb ed="F1" n="1692"/></l><l>Neither disturbed with the effect of wine,
+<lb ed="G"/><lb ed="F1" n="1693"/></l><l>Nor heady-rash, provoked with raging ire,
+<lb ed="G"/><lb ed="F1" n="1694"/></l><l>Albeit my wrongs might make one wiser mad.
+<lb ed="G"/><lb ed="F1" n="1695"/></l><l>This woman lock'd me out this day from dinner:
+<lb ed="G"/><lb ed="F1" n="1696"/></l><l>That goldsmith there, were he not pack'd with her,
+<lb ed="G" n="220"/><lb ed="F1" n="1697"/></l><l>Could witness it, for he was with me then;
+<lb ed="G"/><lb ed="F1" n="1698"/></l><l>Who parted with me to go fetch a chain,
+<lb ed="G"/><lb ed="F1" n="1699"/></l><l>Promising to bring it to the Porpentine,
+<lb ed="G"/><lb ed="F1" n="1700"/></l><l>Where Balthazar and I did dine together.
+<lb ed="G"/><lb ed="F1" n="1701"/></l><l>Our dinner done, and he not coming thither,
+<lb ed="G"/><lb ed="F1" n="1702"/></l><l>I went to seek him: in the street I meet him
+<lb ed="G"/><lb ed="F1" n="1703"/></l><l>And in his company that gentleman.
+<lb ed="G"/><lb ed="F1" n="1704"/></l><l>There did this perjured goldsmith swear me down
+<lb ed="G"/><lb ed="F1" n="1705"/></l><l>That I this day of him received the chain,
+<lb ed="G"/><lb ed="F1" n="1706"/></l><l>Which, God he knows, I saw not: for the which
+<lb ed="G" n="230"/><lb ed="F1" n="1707"/></l><l>He did arrest me with an officer.
+<lb ed="G"/><lb ed="F1" n="1708"/></l><l>I did obey, and sent my peasant home
+<lb ed="G"/><lb ed="F1" n="1709"/></l><l>For certain ducats: he with none return'd
+<lb ed="G"/><lb ed="F1" n="1710"/></l><l>Then fairly I bespoke the officer
+<lb ed="G"/><lb ed="F1" n="1711"/></l><l>To go in person with me to my house.
+<lb ed="G"/><lb ed="F1" n="1712"/></l><l>By the way we met
+<lb ed="G"/></l><l>My wife, her sister, and a rabble more
+<lb ed="G"/><lb ed="F1" n="1713"/></l><l>Of vile confederates. Along with them
+<lb ed="G"/><lb ed="F1" n="1714"/></l><l>They brought one Pinch, a hungry lean-faced villain,
+<lb ed="G"/><lb ed="F1" n="1715"/></l><l>A mere anatomy, a mountebank,
+<lb ed="G"/><lb ed="F1" n="1716"/></l><l>A threadbare juggler and a forutne-teller,
+<lb ed="G"/><lb ed="F1" n="1717"/></l><l>A needy, hollow-eyed, sharp-looking wretch,
+<lb ed="G" n="241"/><lb ed="F1" n="1718"/></l><l>A living-dead man: this pernicious slave,
+<lb ed="G"/><lb ed="F1" n="1719"/></l><l>Forsooth, took on him as a conjurer,
+<lb ed="G"/><lb ed="F1" n="1720"/></l><l>And, gazing in mine eyes, feeling my pulse,
+<lb ed="G"/><lb ed="F1" n="1721"/></l><l>And with no face, as 'twere, outfacing me,
+<lb ed="G"/><lb ed="F1" n="1722"/></l><l>Cries out, I was possess'd. Then all together
+<lb ed="G"/><lb ed="F1" n="1723"/></l><l>They fell upon me, bound me, bore me thence
+<lb ed="G"/><lb ed="F1" n="1724"/></l><l>And in a dark and dankish vault at home
+<lb ed="G"/><lb ed="F1" n="1725"/></l><l>There left me and my man, both bound together;
+<lb ed="G"/><lb ed="F1" n="1726"/></l><l>Till, gnawing with my teeth my bonds in sunder,
+<lb ed="G" n="250"/><lb ed="F1" n="1727"/></l><l>I gain'd my freedom and immediately
+<lb ed="G"/><lb ed="F1" n="1728"/></l><l>Ran hither to your grace; whom I beseech
+<lb ed="G"/><lb ed="F1" n="1729"/></l><l>To give me ample satisfaction
+<lb ed="G"/><lb ed="F1" n="1730"/></l><l>For these deep shames and great indignities.
+
+<lb ed="G"/><lb ed="F1" n="1731"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>My lord, in truth, thus far I witness with him,
+<lb ed="G"/><lb ed="F1" n="1732"/></l><l>That he dined not at home, but was lock'd out.
+
+<lb ed="G"/><lb ed="F1" n="1733"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>But had he such a chain of thee or no?
+
+<lb ed="G"/><lb ed="F1" n="1734"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>He had, my lord: and when he ran in here,
+<lb ed="G"/><lb ed="F1" n="1735"/></l><l>These people saw the chain about his neck.
+
+<lb ed="G"/><lb ed="F1" n="1736"/></l></sp><sp who="sec.-mer."><speaker>Sec. Mer.</speaker><l>Besides, I will be sworn these ears of mine
+<lb ed="G"/><lb ed="F1" n="1737"/></l><l>Heard you confess you had the chain of him
+<lb ed="G" n="261"/><lb ed="F1" n="1738"/></l><l>After you first foreswore it on the mart:
+<lb ed="G"/><lb ed="F1" n="1739"/></l><l>And thereupon I drew my sword on you;
+<lb ed="G"/><lb ed="F1" n="1740"/></l><l>And then you fled into this abbey here,
+<lb ed="G"/><lb ed="F1" n="1741"/></l><l>From whence, I think, you are come by miracle.
+
+<lb ed="G"/><lb ed="F1" n="1742"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I never came within these abbeywalls,
+<lb ed="G"/><lb ed="F1" n="1743"/></l><l>Nor ever didst thou draw thy sword on me:
+<lb ed="G"/><lb ed="F1" n="1744"/></l><l>I never saw the chain, so help me Heaven!
+<lb ed="G"/><lb ed="F1" n="1745"/></l><l>And this is false you burden me withal.
+
+<lb ed="G"/><lb ed="F1" n="1746"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Why, what an intricate impeach is this!
+<lb ed="G" n="270"/><lb ed="F1" n="1747"/></l><l>I think you all have drunk of Circe's cup.
+<lb ed="G"/><lb ed="F1" n="1748"/></l><l>If here you housed him, here he would have been;
+<lb ed="G"/><lb ed="F1" n="1749"/></l><l>If he were mad, he would not plead so coldly:
+<lb ed="G"/><lb ed="F1" n="1750"/></l><l>You say he dined at home; the goldsmith here
+<lb ed="G"/><lb ed="F1" n="1751"/></l><l>Denies that saying. Sirrah, what say you?
+
+<lb ed="G"/><lb ed="F1" n="1752"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Sir, he dined with her there, at the <lb ed="F1" n="1753"/>Porpentine.
+
+<lb ed="G"/><lb ed="F1" n="1754"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>He did, and from my finger snatch'd that ring.
+
+<lb ed="G"/><lb ed="F1" n="1755"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>'Tis true, my liege; this ring I had of her.
+
+<lb ed="G"/><lb ed="F1" n="1756"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Saw'st thou him enter at the abbey here ?
+
+<lb ed="G"/><lb ed="F1" n="1757"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>As sure, my liege, as I do see your grace.
+
+<lb ed="G" n="280"/><lb ed="F1" n="1758"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Why, this is strange. Go call the abbess <lb ed="F1" n="1759"/>hither.
+<lb ed="G"/><lb ed="F1" n="1760"/></l><l>I think you are all mated or stark mad.
+<lb ed="F1" n="1761"/><stage>[Exit one to the Abbess.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1762"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>Most mighty duke, vouchsafe me speak a word:
+<lb ed="G"/><lb ed="F1" n="1763"/></l><l>Haply I see a friend will save my life
+<lb ed="G"/><lb ed="F1" n="1764"/></l><l>And pay the sum that may deliver me.
+
+<lb ed="G"/><lb ed="F1" n="1765"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Speak freely, Syracusian, what thou wilt.
+
+<lb ed="G"/><lb ed="F1" n="1766"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>Is not your name, sir, call'd Antipholus ?
+<lb ed="G"/><lb ed="F1" n="1767"/></l><l>And is not that your bondman, Dromio?
+
+<lb ed="G"/><lb ed="F1" n="1768"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Within this hour I was his bondman, sir,
+<lb ed="G"/><lb ed="F1" n="1769"/></l><l>But he, I thank him, gnaw'd in two my cords:
+<lb ed="G" n="290"/><lb ed="F1" n="1770"/></l><l>Now am I Dromio and his man unbound.
+
+<lb ed="G"/><lb ed="F1" n="1771"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>I am sure you both of you remember me.
+
+<lb ed="G"/><lb ed="F1" n="1772"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Ourselves we do remember, sir, by you;
+<lb ed="G"/><lb ed="F1" n="1773"/></l><l>For lately we were bound, as you are now
+<lb ed="G"/><lb ed="F1" n="1774"/></l><l>You are not Pinch's patient, are you, sir?
+
+<lb ed="G"/><lb ed="F1" n="1775"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>Why look you strange on me? you know <lb ed="F1" n="1776"/>me well.
+
+<lb ed="G"/><lb ed="F1" n="1777"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I never saw you in my life till now.
+
+<lb ed="G"/><lb ed="F1" n="1778"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>O, grief hath changed me since you saw me last,
+<lb ed="G"/><lb ed="F1" n="1779"/></l><l>And careful hours with time's deformed hand
+<lb ed="G"/><lb ed="F1" n="1780"/></l><l>Have written strange defeatures in my face:
+<lb ed="G"/><lb ed="F1" n="1781"/></l><l>But tell me yet, dost thou not know my voice?
+
+<lb ed="G" n="301"/><lb ed="F1" n="1782"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Neither.
+
+<lb ed="G"/><lb ed="F1" n="1783"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l part="I">Dromio, nor thou?
+
+<lb ed="G"/><lb ed="F1" n="1784"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l part="F">No, trust me, sir, nor I.
+
+<lb ed="G"/><lb ed="F1" n="1785"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>I am sure thou dost.
+
+<lb ed="G"/><lb ed="F1" n="1786"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><p>Ay, sir, but I am sure I do not;
+<lb ed="G"/>and whatsoever <lb ed="F1" n="1787"/>a man denies, you are now
+<lb ed="G"/>bound to believe him.
+
+<lb ed="G"/><lb ed="F1" n="1788"/></p></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>Not know my voice!   O time's extremity,
+<lb ed="G"/><lb ed="F1" n="1789"/></l><l>Hast thou so crack'd and splitted my poor tongue
+<lb ed="G"/><lb ed="F1" n="1790"/></l><l>In seven short years, that here my only son
+<lb ed="G"/><lb ed="F1" n="1791"/></l><l>Knows not my feeble key of untuned cares?
+<lb ed="G"/><lb ed="F1" n="1792"/></l><l>Though now this grained face of mine be hid
+<lb ed="G"/><lb ed="F1" n="1793"/></l><l>In sap-consuming winter's drizzled snow,
+<lb ed="G"/><lb ed="F1" n="1794"/></l><l>And all the conduits of my blood froze up,
+<lb ed="G"/><lb ed="F1" n="1795"/></l><l>Yet hath my night of life some memory,
+<lb ed="G"/><lb ed="F1" n="1796"/></l><l>My wasting lamps some fading glimmer left,
+<lb ed="G"/><lb ed="F1" n="1797"/></l><l>My dull deaf ears a little use to hear:
+<lb ed="G"/><lb ed="F1" n="1798"/></l><l>All these old witnesses--I cannot err--
+<lb ed="G"/><lb ed="F1" n="1799"/></l><l>Tell me thou art my son Antipholus,
+
+<lb ed="G"/><lb ed="F1" n="1800"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I never saw my father in my life.
+
+<lb ed="G" n="320"/><lb ed="F1" n="1801"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>But seven years since, in Syracusa, boy,
+<lb ed="G"/><lb ed="F1" n="1802"/></l><l>Thou know'st we parted: but perhaps, my son,
+<lb ed="G"/><lb ed="F1" n="1803"/></l><l>Thou shamest to acknowledge me in misery.
+
+<lb ed="G"/><lb ed="F1" n="1804"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>The duke and all that know me in the city
+<lb ed="G"/><lb ed="F1" n="1805"/></l><l>Can witness with me that it is not so:
+<lb ed="G"/><lb ed="F1" n="1806"/></l><l>I ne'er saw Syracusa in my life.
+
+<lb ed="G"/><lb ed="F1" n="1807"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>I tell thee, Syracusian, twenty years
+<lb ed="G"/><lb ed="F1" n="1808"/></l><l>Have I been patron to Antipholus,
+<lb ed="G"/><lb ed="F1" n="1809"/></l><l>During which time he ne'er saw Syracusa:
+<lb ed="G"/><lb ed="F1" n="1810"/></l><l>I see thy age and dangers make thee dote.
+<lb ed="F1" n="1811"/><stage type="entrance">Re-enter Abbess, with ANTIPHOLUS of Syracuse <lb ed="F1" n="1812"/>and DROMIO of Syracuse. </stage>
+
+<lb ed="G"/><lb ed="F1" n="1813"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Most mighty duke, behold a man much <lb ed="F1" n="1814"/>wrong'd.
+<lb ed="F1" n="1815"/><stage>[All gather to see them. </stage>
+
+<lb ed="G" n="331"/><lb ed="F1" n="1816"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>I see two husbands, or mine eyes deceive me.
+
+<lb ed="G"/><lb ed="F1" n="1817"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>One of these men is Genius to the other;
+<lb ed="G"/><lb ed="F1" n="1818"/></l><l>And so of these. Which is the natural man,
+<lb ed="G"/><lb ed="F1" n="1819"/></l><l>And which the spirit? who deciphers them?
+
+<lb ed="G"/><lb ed="F1" n="1820"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>I, sir, am Dromio: command him away.
+
+<lb ed="G"/><lb ed="F1" n="1821"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>I, sir, am Dromio: pray, let me stay.
+
+<lb ed="G"/><lb ed="F1" n="1822"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>&AElig;geon art thou not? or else his ghost?
+
+<lb ed="G"/><lb ed="F1" n="1823"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>O, my old master! who hath bound him <lb ed="F1" n="1824"/>here?
+
+<lb ed="G"/><lb ed="F1" n="1825"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Whoever bound him, I will loose his bonds
+<lb ed="G" n="340"/><lb ed="F1" n="1826"/></l><l>And gain a husband by his liberty.
+<lb ed="G"/><lb ed="F1" n="1827"/></l><l>Speak, old &AElig;geon, if thou be'st the man
+<lb ed="G"/><lb ed="F1" n="1828"/></l><l>That hadst a wife once call'd &AElig;milia
+<lb ed="G"/><lb ed="F1" n="1829"/></l><l>That bore thee at a burden two fair sons:
+<lb ed="G"/><lb ed="F1" n="1830"/></l><l>O, if thou be'st the same &AElig;geon, speak,
+<lb ed="G"/><lb ed="F1" n="1831"/></l><l>And speak unto the same &AElig;milia!
+
+<lb ed="G"/><lb ed="F1" n="1832"/></l></sp><sp who="aege."><speaker>&AElig;ge.</speaker><l>If I dream not, thou art &AElig;milia:
+<lb ed="G"/><lb ed="F1" n="1833"/></l><l>If thou art she, tell me where is that son
+<lb ed="G"/><lb ed="F1" n="1834"/></l><l>That floated with thee on the fatal raft?
+
+<lb ed="G"/><lb ed="F1" n="1835"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>By men of Epidamnum he and I
+<lb ed="G" n="350"/><lb ed="F1" n="1836"/></l><l>And the twin Dromio all were taken up;
+<lb ed="G"/><lb ed="F1" n="1837"/></l><l>But by and by rude fishermen of Corinth
+<lb ed="G"/><lb ed="F1" n="1838"/></l><l>By force took Dromio and my son from them
+<lb ed="G"/><lb ed="F1" n="1839"/></l><l>And me they left with those of Epidamnum.
+<lb ed="G"/><lb ed="F1" n="1840"/></l><l>What then became of them I cannot tell;
+<lb ed="G"/><lb ed="F1" n="1841"/></l><l>I to this fortune that you see me in.
+
+<lb ed="G"/><lb ed="F1" n="1842"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Why, here begins his morning story right:
+<lb ed="G"/><lb ed="F1" n="1843"/></l><l>These two Antipholuses, these two so like,
+<lb ed="G"/><lb ed="F1" n="1844"/></l><l>And these two Dromios, one in semblance,--
+<lb ed="G"/><lb ed="F1" n="1845"/></l><l>Besides her urging of her wreck at sea,--
+<lb ed="G" n="360"/><lb ed="F1" n="1846"/></l><l>These are the parents to these children,
+<lb ed="G"/><lb ed="F1" n="1847"/></l><l>Which accidentally are met together.
+<lb ed="G"/><lb ed="F1" n="1848"/></l><l>Antipholus, thou camest from Corinth first?
+
+<lb ed="G"/><lb ed="F1" n="1849"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>No, sir, not I; I came from Syracuse.
+
+<lb ed="G"/><lb ed="F1" n="1850"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>Stay, stand apart; I know not which is which.
+
+<lb ed="G"/><lb ed="F1" n="1851"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>I came from Corinth, my most gracious lord,--
+
+<lb ed="G"/><lb ed="F1" n="1852"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>And I with him.
+
+<lb ed="G"/><lb ed="F1" n="1853"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Brought to this town by that most famous <lb ed="F1" n="1854"/>warrior,
+<lb ed="G"/><lb ed="F1" n="1855"/></l><l>Duke Menaphon, your most renowned uncle.
+
+<lb ed="G"/><lb ed="F1" n="1856"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>Which of you two did dine with me to-day ?
+
+<lb ed="G"/><lb ed="F1" n="1857"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l part="I">I, gentle mistress.
+
+<lb ed="G"/><lb ed="F1" n="1858"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l part="F">And are not you my husband?
+
+<lb ed="G" n="371"/><lb ed="F1" n="1859"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>No; I say nay to that.
+
+<lb ed="G"/><lb ed="F1" n="1860"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>And so do I; yet did she call me so:
+<lb ed="G"/><lb ed="F1" n="1861"/></l><l>And this fair gentlewoman, her sister here,
+<lb ed="G"/><lb ed="F1" n="1862"/></l><l>Did call me brother. <stage>[To Luc.</stage>What I told you then,
+<lb ed="G"/><lb ed="F1" n="1863"/></l><l>I hope I shall have leisure to make good;
+<lb ed="G"/><lb ed="F1" n="1864"/></l><l>If this be not a dream I see and hear.
+
+<lb ed="G"/><lb ed="F1" n="1865"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>That is the chain, sir, which you had of <lb ed="F1" n="1866"/>me.
+
+<lb ed="G"/><lb ed="F1" n="1867"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>I think it be, sir; I deny it not.
+
+<lb ed="G"/><lb ed="F1" n="1868"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>And you, sir, for this chain arrested me.
+
+<lb ed="G" n="380"/><lb ed="F1" n="1869"/></l></sp><sp who="ang."><speaker>Ang.</speaker><l>I think I did, sir; I deny it not.
+
+<lb ed="G"/><lb ed="F1" n="1870"/></l></sp><sp who="adr."><speaker>Adr.</speaker><l>I sent you money, sir, to be your bail,
+<lb ed="G"/><lb ed="F1" n="1871"/></l><l>By Dromio; but I think he brought it not.
+
+<lb ed="G"/><lb ed="F1" n="1872"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>No, none by me.
+
+<lb ed="G"/><lb ed="F1" n="1873"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>This purse of ducats I received from you,
+<lb ed="G"/><lb ed="F1" n="1874"/></l><l>And Dromio, my man, did bring them me.
+<lb ed="G"/><lb ed="F1" n="1875"/></l><l>I see we still did meet each other's man,
+<lb ed="G"/><lb ed="F1" n="1876"/></l><l>And I was ta'en for him, and he for me,
+<lb ed="G"/><lb ed="F1" n="1877"/></l><l>And thereupon these ERRORS are arose.
+
+<lb ed="G"/><lb ed="F1" n="1878"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>These ducats pawn I for my father here.
+
+<lb ed="G" n="390"/><lb ed="F1" n="1879"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>It shall not need; thy father hath his life.
+
+<lb ed="G"/><lb ed="F1" n="1880"/></l></sp><sp who="cour."><speaker>Cour.</speaker><l>Sir, I must have that diamond from you.
+
+<lb ed="G"/><lb ed="F1" n="1881"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>There, take it; and much thanks for my good <lb ed="F1" n="1882"/>cheer.
+
+<lb ed="G"/><lb ed="F1" n="1883"/></l></sp><sp who="abb."><speaker>Abb.</speaker><l>Renowned duke, vouchsafe to take the pains
+<lb ed="G"/><lb ed="F1" n="1884"/></l><l>To go with us into the abbey here
+<lb ed="G"/><lb ed="F1" n="1885"/></l><l>And hear at large discoursed all our fortunes:
+<lb ed="G"/><lb ed="F1" n="1886"/></l><l>And all that are assembled in this place,
+<lb ed="G"/><lb ed="F1" n="1887"/></l><l>That by this sympathized one day's error
+<lb ed="G"/><lb ed="F1" n="1888"/></l><l>Have suffer'd wrong, go keep us company,
+<lb ed="G" n="399"/><lb ed="F1" n="1889"/></l><l>And we shall make full satisfaction.
+<lb ed="G"/><lb ed="F1" n="1890"/></l><l>Thirty-three years have I but gone in travail
+<lb ed="G"/><lb ed="F1" n="1891"/></l><l>Of you, my sons; and till this present hour
+<lb ed="G"/><lb ed="F1" n="1892"/></l><l>My heavy burthen ne'er delivered.
+<lb ed="G"/><lb ed="F1" n="1893"/></l><l>The duke, my husband and my children both,
+<lb ed="G"/><lb ed="F1" n="1894"/></l><l>And you the calendars of their nativity,
+<lb ed="G"/><lb ed="F1" n="1895"/></l><l>Go to a gossips' feast, and go with me;
+<lb ed="G"/><lb ed="F1" n="1896"/></l><l>After so long grief, such festivity!
+
+<lb ed="G"/><lb ed="F1" n="1897"/></l></sp><sp who="duke."><speaker>Duke.</speaker><l>With all my heart I'll gossip at this feast.
+<lb ed="F1" n="1898"/><stage>[Exeunt all but Ant. S., Ant. E., Dro. S., and Dro. E.</stage>
+<lb ed="F1" n="1899"/>
+
+<lb ed="G"/><lb ed="F1" n="1900"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Master, shall I fetch your stuff from shipboard ?
+
+<lb ed="G"/><lb ed="F1" n="1901"/></l></sp><sp who="ant.-e."><speaker>Ant. E.</speaker><l>Dromio, what stuff of mine hast thou embark'd?
+
+<lb ed="G" n="410"/><lb ed="F1" n="1902"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Your goods that lay at host, sir, in the Centaur.
+
+<lb ed="G"/><lb ed="F1" n="1903"/></l></sp><sp who="ant.-s."><speaker>Ant. S.</speaker><l>He speaks to me. I am your master, Dromio:
+<lb ed="G"/><lb ed="F1" n="1904"/></l><l>Come, go with us; we'll look to that anon:
+<lb ed="G"/><lb ed="F1" n="1905"/></l><l>Embrace thy brother there; rejoice with him.
+<stage>[Exeunt Ant. S. and Ant. E.</stage>
+
+<lb ed="G"/><lb ed="F1" n="1906"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>There is a fat friend at your master's house,
+<lb ed="G"/><lb ed="F1" n="1907"/></l><l>That kitchen'd me for you to-day at dinner:
+<lb ed="G"/><lb ed="F1" n="1908"/></l><l>She now shall be my sister, not my wife.
+
+<lb ed="G"/><lb ed="F1" n="1909"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Methinks you are my glass, and not my brother:
+<lb ed="G"/><lb ed="F1" n="1910"/></l><l>I see by you I am a sweet-faced youth.
+<lb ed="G"/><lb ed="F1" n="1911"/></l><l>Will you walk in to see their gossiping?
+
+<lb ed="G" n="420"/><lb ed="F1" n="1912"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>Not I, sir; you are my elder.
+
+<lb ed="G"/><lb ed="F1" n="1913"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>That's a question: how shall we try it?
+
+<lb ed="G"/><lb ed="F1" n="1914"/></l></sp><sp who="dro.-s."><speaker>Dro. S.</speaker><l>We'll draw cuts for the senior: till then <lb ed="F1" n="1915"/>lead thou first.
+
+<lb ed="G"/><lb ed="F1" n="1916"/></l></sp><sp who="dro.-e."><speaker>Dro. E.</speaker><l>Nay, then, thus:
+<lb ed="G"/><lb ed="F1" n="1917"/></l><l>We came into the world like brother and brother;
+<lb ed="G"/><lb ed="F1" n="1918"/></l><l>And now let's go hand in hand, not one before another.
+<lb ed="F1" n="1919"/><stage>[Exeunt. </stage></l></sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>
