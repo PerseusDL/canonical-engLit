@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Prose//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
+%PersProse;
+]>
+<TEI.2>
+	<teiHeader type="text" status="new">
+		<fileDesc>
+			<titleStmt>
+				<title>The Perseus Garner: An Overview</title>
+				<author>Clifford E. Wulfman</author>
+				&responsibility;
+				&fund.DLI2;
+			</titleStmt>
+			<extent>about 200 words</extent>
+			&Perseus.publish;
+			<sourceDesc>
+				<bibl>
+					<title>The Perseus Garner: An Overview</title>
+					<author>Clifford E. Wulfman</author>
+					<date>April, 2001</date>
+					<publisher>Perseus Project</publisher>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		
+		<encodingDesc>
+			<refsDecl doctype="TEI.2">
+				<state unit="section"/>
+				<state unit="subsection"/>
+			</refsDecl>
+		</encodingDesc>
+		
+		<profileDesc>
+			<langUsage>
+				<language id="en">English
+				</language>
+			</langUsage>
+		</profileDesc>
+		
+		<revisionDesc>
+			<change><date>14-Nov-00</date>
+				<respStmt><name>Clifford E. Wulfman</name><resp>ed.</resp></respStmt>
+				<item>
+					$Log: ov_ren.xml,v $
+					Revision 1.1  2009-12-07 18:50:42  rsingh04
+					moved more xml files around based on copyright status
+
+					Revision 1.4  2008/06/09 16:43:16  rsingh04
+					fixed structure. pretty indenting
+
+					Revision 1.3  2008/06/09 16:20:09  rsingh04
+					fixed castList, head tags and other small changes
+
+					Revision 1.2  2005/08/01 18:02:50  packel
+					fixed stray item tags
+					
+					Revision 1.1  2005/07/25 14:56:17  packel
+					Converted to XML
+					
+					Revision 1.7  2003/07/01 22:17:16  yorkc
+					Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+					
+					Revision 1.6  2001/04/13 23:49:54  dasmith
+					Fixed links with apostrophes.
+					Call F1 an edition.
+					
+					Revision 1.5  2001/04/12 20:23:24  cwulfman
+					table of sh's works
+					
+					Revision 1.4  2001/04/12 18:12:38  cwulfman
+					interim version w/partial table
+					
+					Revision 1.3  2001/04/12 17:20:47  cwulfman
+					New version for the new release.
+					
+					Revision 1.2  2000/11/16 20:41:37  cwulfman
+					Removed reference to variorum and miscellany; included image.
+					
+					Revision 1.1  2000/11/14 16:43:20  cwulfman
+					First version of overview for Renaissance collection.
+					
+				</item>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	
+	<text>
+		<body>
+			<div1 type="section" n="0">
+				<head>Introduction</head>
+				<p><figure n="2000.15.0925"><head>Ward's Shakespeare Statue,
+					Central Park, New York</head></figure>
+					
+				</p><p>Welcome to the Perseus Garner, the latest collection in the
+					Perseus Digital Library.
+					
+				</p><p>The Garner is a gathering of primary materials from the
+					early modern period in England (commonly called the English
+					Renaissance) and selected secondary materials from the
+					nineteenth and early twentieth centuries. Begun with an
+					electronic edition of the complete works of Christopher
+					Marlowe, it now includes the works of William Shakespeare,
+					important historical sources from the period, and a variety of
+					secondary reference works. Our goal in assembling this
+					collection is to provide scholars, students, and general
+					readers with free access to important documents from the early
+					modern period, many of which are difficult to find outside
+					large research libraries, and to supplement them with helpful
+					scholarship and criticism.		
+				</p>
+			</div1>
+			<div1 type="section" n="1">
+				<head>The Works of William Shakespeare</head>
+				
+				<div2 type="subsection" n="1">
+					<head>The Works of William Shakespeare</head>
+					<p>Foremost in the Perseus Garner are the works of William
+						Shakespeare. Our primary edition is based on the famous
+						<title>Globe Shakespeare</title>, the one-volume version of
+						the great <title>Cambridge Shakespeare</title> (1891-3) edited
+						by W. G. Clark, J. Glover, and W. A. Wright. <title>The Cambridge
+							Shakespeare</title> was the reference edition well into the
+						twentieth century, and many important works of scholarship
+						are keyed to it.
+						
+					</p><p>The Garner also contains volumes from the magisterial
+						<title>New Variorum Shakespeare Series</title>, the
+						pre-eminent critical edition of Shakespeare's works begun by
+						Howard Furness in the nineteenth century and continuing to
+						this day. Each volume includes a fully collated edition of
+						Shakespeare's text with line-by-line commentary and an
+						extensive appendix containing textual histories, sources of
+						the work, actors' interpretations, and a wide sampling of
+						criticism. The New Variorum Shakespeare comprises twenty-two
+						volumes, of which three&mdash;<title>Antony and
+							Cleopatra</title>, <title>Julius Caesar</title>, and
+						<title>Coriolanus</title>&mdash;are presently included in
+						the Garner. Eventually the collection will contain the
+						entire series.
+						
+					</p><p>Of particular interest to textual scholars will be our
+						<bibl n="Perseus:text:1999.03.0018">electronic facsimile of
+							the First Folio</bibl>, the compilation of Shakespeare's
+						dramatic works published by fellow actors <name>John
+							Heminges</name> and <name>Henry Condell</name> in
+						<date>1623</date>. Through arrangement with the Special
+						Collections Department at Brandeis University, we have
+						scanned the entire seventeenth-century edition at very
+						high resolution and keyed each page image to act, scene, and
+						line number.
+						
+					</p>
+				</div2>
+				<div2 type="subsection" n="2">
+					<head>The Works of Shakespeare</head>
+					<p> <table rend="width=100%">
+						<row role="data">
+							<cell cols="1" role="label" rows="1">&nbsp;</cell>
+							<cell cols="1" role="label" rows="1">First Folio</cell>
+							<cell cols="1" role="label" rows="1">Globe Shakespeare</cell>
+							<cell cols="1" role="label" rows="1">New Variorum Shakespeare</cell>
+						</row>
+						
+						<row role="data"><cell cols="4" role="label" rows="1">Comedies</cell></row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Comedy of Errors</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=comedy of errors">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0039">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Taming of the Shrew</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=taming of the shrew">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0054">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Two Gentlemen of Verona</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=two gentlemen of verona">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0032">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Love's Labor's Lost</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=loves labour&apos;s lost">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0048">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>A Midsummer Night's Dream</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=midsummer night&apos;s dream">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0051">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Merchant of Venice</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=merchant of venice">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0050">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Merry Wives of Windsor</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=merry wives of windsor">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0059">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Much Ado About Nothing</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=much ado">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0047">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>As You Like It</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=as you like it">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0038">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Twelfth Night, or What You Will</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=twelfth night">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0057">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The History of Troilus and Cressida</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=troilus and cressida">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0058">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>All's Well That Ends Well</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=all&apos;s well">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0036">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Measure for Measure</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=measure for measure">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0049">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data"><cell cols="4" role="label" rows="1">Histories</cell></row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The First Part of Henry the Sixth</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=1 henry vi">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0044">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell></row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Second Part of Henry the Sixth</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=2 henry vi">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0045">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell></row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Third Part of Henry the Sixth</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=3 henry vi">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0046">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell></row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Richard the Third</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=richard iii">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0035">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Life and Death of King John</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=john">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0033">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of King Richard the Second</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=richard ii">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0052">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The First Part of Henry the Fourth</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=1 henry iv">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0041">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Second Part of Henry the Fourth</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=2 henry iv">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0042">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Life of Henry the Fifth</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=henry v">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0043">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Famous History of the Life of King Henry the Eighth</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=henry viii">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0074">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data"><cell cols="4" role="label" rows="1">Tragedies</cell></row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Titus Andronicus</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=titus andronicus">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0037">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Romeo and Juliet</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=romeo and juliet">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0053">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Julius Caesar</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=julius caesar">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0027">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Hamlet, Prince of Denmark</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=hamlet">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0031">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Othello, Moor of Venice</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=othello">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0034">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of King Lear</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=lear">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0029">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Macbeth</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=macbeth">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0028">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Antony and Cleopatra</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=antony and cleopatra">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0025">G</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0099">N</bibl></cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tragedy of Coriolanus</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=coriolanus">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0026">G</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0103">N</bibl></cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Life of Timon of Athens</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=timon">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0055">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data"><cell cols="4" role="label" rows="1">Romances</cell></row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Pericles, Prince of Tyre</title></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0030">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Cymbeline</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=cymbeline">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0040">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Winter's Tale</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=winter&apos;s tale">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0060">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Tempest</title></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0018:play=tempest">F</bibl></cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0056">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data"><cell cols="4" role="label" rows="1">Poems</cell></row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Venus and Adonis</title></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0061">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Venus and Adonis</title></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0061">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Rape of Lucrece</title></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0062">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>Sonnets</title></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0064">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>A Lover's Complaint</title></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0065">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Passionate Pilgrim</title></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0063">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+						<row role="data">
+							<cell cols="1" role="data" rows="1"><title>The Phoenix and Turtle</title></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+							<cell cols="1" role="data" rows="1"><bibl n="Perseus:text:1999.03.0066">G</bibl></cell>
+							<cell cols="1" role="data" rows="1">&nbsp;</cell>
+						</row>
+					</table>
+						
+					</p></div2>
+				<div2 type="subsection" n="3">
+					<head>Reference Works</head> 
+					
+					<p>The philological and lexicographical scholarship on
+						Shakespeare is vast. We have used this scholarship to
+						create a "hyper-annotated edition" of Shakespeare that
+						will be of use to readers of all kinds. The Garner
+						includes two of the most well-known and often
+						consulted glossaries: <name>Alexander Dyce</name>'s <bibl n="Perseus:text:1999.03.0067"><title>Glossary of the Works
+							of William Shakespeare</title></bibl>, and
+						<name>C. T. Onions</name>'s <bibl n="Perseus:text:1999.03.0068"><title>Shakespeare
+							Glossary</title></bibl>.  These reference works contain
+						thousands of glosses to Shakespeare's texts, which we have
+						hyperlinked to facilitate use. We will soon add the
+						indespensible <title>Shakespeare Lexicon and Quotation
+							Dictionary</title> by <name>Alexander Schmidt</name>.
+						
+					</p>
+				</div2>
+			</div1>
+			<div1 type="section" n="2">
+				<head>The Works of Christopher Marlowe</head>
+				
+				<p>The Garner's literary selection is not confined to the
+					works of Shakespeare. We also include an complete electronic
+					edition of the works of Shakespeare's contemporary,
+					<name>Christopher Marlowe</name> (this edition has, in fact, been
+					available in Perseus for some time).  The Marlowe materials
+					include all of Marlowe's plays, his two known poetic works,
+					<bibl n="Perseus:text:1999.03.0012"><title>Hero and
+						Leander</title></bibl> and <bibl n="Perseus:text:1999.03.0017"><title>The Passionate Shepherd
+							to his Love</title></bibl>, his translations of Ovid and
+					Lucan, and the short miscellaneous works attributed to
+					Marlowe, a dedicatory epistle to Mary Countess of Pembroke
+					and the epitaph on Sir Roger Manwood. The edition comprises
+					the extant sixteenth century versions and a variety of later
+					historical collations, all of which may be viewed as
+					complete texts or in side-by-side comparison with other
+					versions. The edition of <bibl>Doctor Faustus</bibl>
+					comprises the <bibl n="Perseus:text:1999.03.0010">A text
+						(1604)</bibl> and <bibl n="Perseus:text:1999.03.0011">B text
+							(1616)</bibl> as well as the play's major source-text, the
+					English <bibl n="Perseus:text:1999.03.0001"><title>Faust
+						Book</title></bibl>.
+					
+					
+				</p>
+			</div1>
+			<div1 type="section" n="3">
+				<head>Primary Sources</head>
+				
+				<p>In addition to works of literature, the Perseus Garner
+					also contains texts of interest to students of
+					history. <bibl n="Perseus:text:1999.03.0070"><title>The
+						Principal Navigations,Voyages, Traffiques, &amp; Discoveries
+						of the English Nation</title></bibl> by <name>Richard
+							Hakluyt</name> is an immense compendium of maritime
+					information from the Age of Discovery; <title>The Political
+						Writings of James I</title> is a collection of important
+					writings by the monarch.
+					
+				</p><p><title>The Chronicles of England, Ireland, and Scotland</title>,
+					compiled by Raphael Holinshed and others and first published
+					in 1577, were the source of many of Shakespeare's
+					plays. Outside large research libraries they are seldom
+					available except in abridged versions; the Perseus Garner
+					will eventually include all six volumes as reprinted in 1808
+					(the present sampling is from Volume IV).
+					
+				</p>
+			</div1>
+			<div1 type="section" n="4">
+				<head>Secondary Sources</head>
+				
+				<p>The Garner will collect important pieces of criticism as
+					well. In this first release we have included
+					<name>M. W. MacCallum</name>'s <bibl n="Perseus:text:1999.03.0069"><title>Shakespeare's Roman
+						Plays and their Backgrounds</title> (<date>1909</date>)</bibl> and will
+					soon add others.
+				</p>
+			</div1>
+			<div1 type="section" n="5">
+				<head>The Texts</head>
+				
+				<p>We are committed to making the texts in the Perseus
+					Garner conform as closely as possible to the original print
+					editions. Although we have carefully proof-read the
+					electronic texts presented here (paying particularly close
+					attention to the primary texts of Shakespeare and Marlowe),
+					any transcription process introduces errors. The Perseus
+					site is actively maintained, and we invite all readers to
+					report errata to the Perseus Webmaster; see the <xref n="http://www.perseus.tufts.edu/help" targOrder="U">Help Pages</xref> for
+					instructions.
+				</p>
+			</div1>
+		</body> 
+	</text> 
+</TEI.2>
