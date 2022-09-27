@@ -1,0 +1,1595 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd"[
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Dictionaries//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
+%PersProse;
+]>
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>The Description of Scotland</title>
+	<title>An Electronic Edition</title>
+      </titleStmt>
+      <publicationStmt>
+	<p>later</p>
+      </publicationStmt>
+      <sourceDesc>
+	<p>later</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl>
+	<state n="chunk" unit="chapter"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+	<language id="en">English</language>
+	<language id="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+	<date>4/13/04</date>
+	<respStmt>
+	  <name>cew</name><resp>ed</resp>
+	</respStmt>
+	<item>The description Scotland.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+	<front>
+	  <titlePage>
+	    <docTitle>
+	      <titlePart>The Description Of Scotland, Written At The First By Hector Boetius In Latine, And Afterward Translated Into The Scotish Speech By John Belleden Archdeacon Of Murrey, Now Finallie Into English By W. H.</titlePart>
+	    </docTitle>
+	  </titlePage>
+	</front>
+	<body>
+	  <div n="1" type="chapter">
+	    <head>Chapter 1: The Bounds Of Albion With The Sundrie Commodities Thereof, And Of The Great Infirmities That Fall Vnto The People There For Their Intemperancie, And Finallie Of The Religion Vsed There In Old Time.</head>
+<!-- <head>The First Chapter.</head> -->
+
+<p>THE Ile of Albion conteineth in the whole circumference, 2 M. miles, hauing in length
+700, &amp; in bredth s00, as app&eacute;ereth well by the coast therof that dooth lie ouer against
+France where it is broadest, and from whence it gathereth narrower and narrower, till it
+come to the vtter marches &amp; last bounds of England and Scotland. For betwixt the Mule
+of Gallowaie that is on the west side ouer against the Irish seas, and saint Ebbes head, that
+lieth vpon the Germane ocean toward the east, are scarselie 130 miles, and thencefoorth
+it groweth smaller and smaller till it touch vpon the north seas, where it is not aboue thirtie
+miles, as I noted before in the description of Britaine.</p>
+<p>This Ile is replenished with pleople, horsses, and all other kind of cattell and come in
+most abundant maner, except it be in such places where as God of his singular goodnesse
+hath otherwise indued the soile with rich mines of gold, siluer, tin, brasse, copper, and
+quicksiluer, which for the most part are so plentifull, that they suffice not onlie for the necessaries of the whole Iland, but also of sundrie regions that are situated round about it, if
+the inhabitants were skilfull and painefull to deale withall accordinglie. But the abundance
+of all other things requisite for the vse of men, that is found generallie in our Iland, maketh
+the people lesse carefull of these commodities, and more giuen to idlenesse. For beside
+the great plentie of those things which heauen and earth doo minister, as grasse, come and
+cattell, foules of sundrie kinds, there is such store of fish in all parties of our seas, especiallie
+towards the north, that the same would suffice to f&eacute;ed and susteine all the people of the
+Iland, if there were none other commodities to be found within the same.</p>
+
+<!--<fw place=bot-left>"VOL. V."</fw>--><!--<fw place=bot-center>"B"</fw>--><!--<fw place=bot-right>"For"</fw>-->
+
+
+<pb n="2"/>
+
+<!--<fw place=top-left>"2"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+<p>For the inhabitants of all countries that border vpon vs, as France, Flanders, Zealand,
+Holland, and a great part of Germanie (especiallie those which lie n&eacute;ere vnto the coast)
+doo saile hither with great numbers of vessels dailie to fish vpon our coasts, and buy such
+as we haue alreadie caught, not onlie for their owne vse, but also for the Lenton prouision
+of such nations as lie vpon the Leuant seas, where they sell the same at their owne wils,
+with very sp&eacute;edie vtterance. Manie other rich and pretious commodities are to be gotten
+in the said He, whereof the aforenamed nations doo make no small account, beside these
+common things. What shall I saie of our woolles, which are in so high estimation in all<note place="marg">Dionysius Alexandrinus saith that the wool of Britaine is often spun so fine that it is in manner comparable to the spiders draught.</note>
+lands, bicause of their necessarie vses, and whereof a great part is so fine and soft, that of
+it are made the costlie skarlets, pliant gloues, and manie other grained and delicate clothes,
+of which I thought good to make this mention, bicause the report thereof is not yet made
+common and generallie knowne to all men.</p>
+<p>Certes this I dare boldlie affirme, that if the kingdoms of Britaine had such grace giuen
+them from aboue, as that they might once liue in vnitie, or by any meanes be brought
+vnder the subiection of one prince, they should yer long f&eacute;ele such a sauour in this amitie,
+that they would not onelie liue franklie of their own, without any forren purchase of things,
+but also resist all outward inuasion, with small trauell and lesse dammage. For as touching
+their persons, and likewise their notable wits, apt both for the atteining of learning and
+knowledge of handicrafts, they are inferiour to no other nation. Therevnto we find them
+to be couragious and hardie, offering themselues often vnto the vttermost perils with great
+assurance, so that a man may pronounce nothing to be ouerhard or past their power to performe, if they would giue themselues to liue temperatelie, and follow their predecessors in
+moderation of diet.</p>
+<p>Therefore it is (as I thinke) that almightie God in his prouident disposition of all things,
+hath ordeined their grounds (otherwise plentifullie indued with all kinds of commodities) to
+be destitute and void of wine; as foreseeing that the said liquor, which bringeth greatest
+benefit into other countries, would grow in the end to be most pernicious &amp; noisome to
+them. For they are giuen to such vnnaturall rauening and greedie desire of forreine things
+(whilest they contemne or not regard their owne) that they cannot refraine the immoderate
+vse of wine, and excesse vsed in drinking of the same: insomuch that we may see diuerse
+to be ouertaken and haunted, not onelie with sundrie kinds of grieuous maladies common
+to vs and them of the maine, but also manie other which they haue not, neither be anie
+thing at all acquainted with, as experience dailie teacheth.</p>
+<p>Some by long sicknesse and languishing gr&eacute;efes doo grow into such deformitie onelie
+through excessiue feeding, and greedie abuse of wine, that if you knew them when they
+were children &amp; yoong men, you shall hardlie remember them when they be old and aged;
+and that which more is, in comparison of other that liue more soberlie, you will hardlie
+thinke them to be borne in the lie, but rather suppose them to be changelings and monsters,
+brought out of other countries to gaze and looke vpon: diuerse of them through the
+continuall vse of wine are molested in their age, with phreneticall pangs and passions.
+Seldome also shall you s&eacute;e those that are giuen much vnto wine and such welfare, to become parents of manie children, sith their naturall moisture and generatiue force is much
+abated, if not altogither extinguished by such immoderate diet.</p>
+<p>But to returne to our purpose, the Albanes or Britains, as C&aelig;sar in his commentaries,
+and Tacitus in his annales doo report, were very religious, after the maner of religion vsed
+in old time. For in those daies the priesrs of Britaine named Druides, were expert both
+in naturall and morall philosophie, and from thence came the first professors of that sect and
+opinion into France. The principall seat of their priests was in the Ile of Man, which was
+reputed at that season for the welspring and fountaine of all learning and knowledge, and
+after that their priests were once conuerted to the catholike faith, they perseuered in the same
+with great constancie, without anie note of heresie.</p>
+
+<!--<fw place=bot-left>"4"</fw>--><!--<fw place=bot-right>"THE"</fw>-->
+<!--<fw place=top-right>"3"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+	  </div>
+
+
+<pb n="3"/>
+
+<div n="2" type="chapter">
+<head>Chapter 2: The Description Of The East, West, And Middle Borders Of Scotland, With The Most Notable Townes And Flouds Thereof.</head>
+
+<!-- <head>THE SECOND CHAPTER.</head> -->
+<p>THE Picts had sometimes the principall and most ferrile part of that countrie, which now
+is vnder the regiment of the Scots, and after they had continued in the same by the space of
+1171 yeares, ioined in maner in perpetuall league with the Scots, and mainteining mutuallie
+the warres sometimes with the Britains and Romans, and sometimes also iarring with their
+Scotish neighbours, at the last they fell into extreme hatred one of another, till it was brought
+to passe by the diuine prouidence, that the said Picts were ouerthrowne, their name extinguished, and the kingdome vnited vnto that other of the Scots for euermore. After this
+time furthermore, although the Scots haue b&eacute;ene verie oftentimes assailed with most dangerous and terrible wars, and oftentimes inuaded by enimies from diuers regions, yet such
+hath beene the fauour of almightie God towards them, that still they flourish and reteine
+their estate inuiolate.</p>
+<p>Whatsoeuer we haue generallie spoken of Albion, that is chieflie to be vnderstood of
+the Scots, and farre greater, especiallie among the Scots, as they call them in the high land,
+as people that haue lesse to doo with forreine merchants, and therefore are lesse delicate,
+and not so much corrupted with strange bloud and aliance. Hereby in like sort it commeth
+to passe, that they are more hard of constitution of bodie, to beare off the cold blasts, to
+watch better, and absteine long, whervnto also it appeareth that they are bold, nimble, and
+thereto more skilfull in the warres. As for their faith and promise, they hold it with
+greatest constancie, as Hector hath set downe. Towards the Almaine sea, I find, that
+Scotland hath the Mers, sometime the most plentious region of the Picts for their march,
+which so long as the said people did inhabit it, was called Deera, or Dere; but after their
+expulsion, it was named Mers, that is to say, the marches or limits of their countrie. In
+processe of time also the Scots extended their bounds euen vnto the Tw&eacute;ed, which now
+diuideth Northumberland from the Mers.</p>
+<p>On the other side of the countrie towards the west, sundrie small bournes descend from
+the Cheriot hilles, and other mounteines lieng thereabout into the Solue, diuiding Cumberland
+from Annandale, and so being brought into one chanell, they fall togither into the Irish
+ocean, &amp; stand for the bounds of Scotland vpon that halfe of the countrie. The Cheriot
+hilles are in like sort taken for the middle marches of the region, which with certeine small
+brookes that fall from the same, doo separate both the countries, whereby their limits are
+knowne. The Mers hath vnder marches at seuerall places (whither it is extended) as
+sometime the Germane sea, sometime east Louthian, sometime the Tw&eacute;ed, and sometime
+the Forth, and among manie strong holds and castels, that stand vpon the borders, is the
+towne and castell of Barwike in time past called Ordolucium, as the inhabitants are called
+Ordoluci (if Hector be not deceiued.)</p>
+<p>The Tw&eacute;ed springeth out from a meane head, and after his augmentation with other
+small waters that fall into the same, it descendeth with a large course into the Almaine sea.
+Beyond the Tw&eacute;ed, to the middle march vnder the Cheriot hilles lieth Teuidale, that is to
+say, the vale of Tiffe: beyond it is Eskedale, or the vale of Eske, of a riuer so called that
+runneth through the same: ouer against Eskedale on the other side lieth Eusdale, so named
+of the riuer Eus that passeth thereby, and falleth into the water of Annand: but Tif and
+Eske doo run into the Tw&eacute;ed: furthermore, on the west side ouer against the Irish sea,
+lieth Annandale, wherevnto the Annand water giueth denomination, which marcheth sometimes without the bounds of Niddesdale, where all the three riuers aforesaid, that is to say,
+Eus, Anand and Sulway descend togither in one bottome into the Irish seas.</p>
+
+<!--<fw place=bot-center>"B 2"</fw>--><!--<fw place=bot-right>"In"</fw>-->
+
+
+<pb n="4"/>
+
+<!--<fw place=top-left>"4"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+<p>In Annandale is a loch or lake named Lochmaben, fiue miles in length and foure in
+bredth, not onlie verie full of fish, but of such kind as few men are acquainted with. Beside this lake also there is a castell of the same name, builded of purpose to restreine the
+furious dealing of th&eacute;eues which doo great hurt in those quarters. For not onlie in Annandale, but in all the dales or vales afore rehearsed, are manie strong th&eacute;eues, which often
+spoile the countrie, and exercise much cruell slaughter vpon such as inhahit there, in anie
+troublous time. These robbers (because the English doo border vpon their drie marches,
+and are their perpetuall enimies) doo often make forceable rodes into the English bounds,
+for their better maintenance and sustentation, or else they pilfer priuilie from them, as men
+leading in the meane season a poore beggerlie and verie miserable life. In the time of
+peace also, they are so invred to theft and rapine, that they cannot leaue off to steale at
+home: and notwithstanding that they be often verie sore handled therefore, yet they thinke
+it praisewoorthie to molest their aduersarie, as they call the truer sort, whereby it commeth
+to passe, that manie rich and fertile places of Scotland lie wast and void of culture for feare
+of their inuasion.</p>
+<p>Not far from the Sulwaie (a water where great plentie of fish is to be had) are manie
+quicke-sands, and those so perilous that no man may well go ouer the same, but with great
+difficultie and danger of his life. This vale of Annand was sometime called Ordouicia, and
+the people thereof Ordouices, whose ancient barbarousnesse is reported to be such, that in
+times past they refused not to kill and eate such prisoners as had y&eacute;elded themselues vnto
+them. The verie women in like sort would slea their husbands, if at anie time they fled
+from the field, and returned to their houses, onelie to giue occasion vnto other men to stand
+to their tacklings at euerie such aduenture. On the west borders and also toward the north
+lieth Niddesdale, so called of the water of Nidde. It beginneth with a verie narrow course,
+and increasing broder in the middle marches of Scotland, it finallie restreineth itselfe againe,
+till it commeth at the sea, whither it runneth with a swift course, as the Scotish writers doo
+report. In this vale standeth a towne named Dunfrise, wherein manie fine clothes speciallie
+whites are made, which are brought vp and caried into England, France, Flanders, and
+Germanie, where they are had in great price and estimation.</p>
+	  </div>
+<div n="3" type="chapter">
+<head>Chapter 3: The Description Of Gallowaie, Kile, Carricke, And Cuningham, With The Notable Townes, Lakes And Riuers In The Same.</head>
+<!-- <head>THE THIRD CHAPTER.</head> -->
+<p>ABOUE Niddesdale is Gallowaie (named sometimes Brigantia) the people whereof were
+in times past called Brigantes: this region is diuided by the water of Cr&eacute;e into two parts,
+whereof that which lieth n&eacute;erest to Niddesdale, is called nether Gallowaie, and the other
+that is aboue the Cr&eacute;e is named vpper Gallowaie. In nether Gallowaie is Kirkcowbrie, a
+rich towne and of a good trade in merchandize, and in vpper Gallowaie is Whitherne, in
+Latine <emph>Candida Casa,</emph> an abbeie dedicated to saint Ninian the bishop, and there lieth his
+carcase, which is honored of the people with great superstition and errour. Aboue Whitherne is Wigton towne, and not far from thence is the great lake of Mirton, the one halfe
+whereof doo fr&eacute;eze by naturall congelation as other pooles and plashes doo; but the other
+is neuer s&eacute;ene to beare anie yce at all, which vnto me dooth s&eacute;eme to be a great woonder.
+In Gallowaie moreouer are two other lakes, the Salset and the Neutramen, of equall length
+and bredth with the Lochmirton; as for Gallowaie it selfe, it yeeldeth out a great point,
+promontorie, or cape (which the Scots call a mule or nuke) into the Irish sea. The common sort name it the mules nuke, and by the rounding of it selfe, it maketh two great
+lakes, named Rean and Lois, except I be deceiued, one of these lakes or pooles is 30, and
+
+<!--<fw place=bot-right>"the"</fw>-->
+
+
+<pb n="5"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"5"</fw>-->
+
+
+the other 16, miles of length, and both full of oisters, herrings, coongers, cockles, and
+other like kinds of fish.</p>
+<p>Some are of the opinion that Brigantia was the same region of Britaine that is now called
+Wales, wherein the Britains inhabited manie yeares after their expulsion out of Britaine.
+But this opinion is false, sith the Romans write that Man the Iland lieth ouer against Brigantium and midwaie betw&eacute;ene the same and Ireland: for albeit that the braies or bales are
+now worne wider &amp; further distant ech from other by the washing and working of the sea,
+yet the same latitude &amp; eleuation of the pole that Ptolomie ascribed to the Brigants, agr&eacute;eth
+well to the heigth of the pole ouer Gallowaie, which is verie far from Wales, sithens the
+Ile of Man lieth also 300 miles from thence, and in the sight of Gallowaie. In like sort by
+the testimonie of sundrie authors both Irish and Spanish (we affirme that out of Brigantium
+a citie in Spaine, now named Compostella) there came a new companie of people into Ireland called Spaniards, and out of Ireland another crew of the same nation with king Fergus
+into Albion, and in remembrance of the citie Brigance, wherein they inhabited whilest they
+were in Spaine, they called themselues Brigantes. To this opinion in like sort Cornelius
+Tacitus dooth s&eacute;eme to leane, who saith, that the Brigantes descended from the Spaniards,
+which in his time dwelled in the vttermost parts of Britaine, including vnder that name all
+the Ile of Albion. These regions afore rehearsed, that is to say, Annandale, Niddesdale,
+and Gallowaie, beside fine woolls and store of cattell, dooth also abound with all kinds of
+graine, wheate onelie excepted.</p>
+<p>Aboue Gallowaie is Carrike, sometime a portion of the region of the Silures, of whose
+name it is not yet certeinelie knowne, whether it was deriued from the famous citie Carrike,
+whose ruines doo yet remaine, or not. Silurie is diuided into thr&eacute;e parts, to wit, Carrike,
+Kile, and Cuningham. In the first, as I said, was Carrike the noble citie: and in this
+countrie are manie strong castels, both by naturall situation and policie of man: herein
+also are faire kine and oxen, whose flesh is delicat and verie tender to be eaten, the tallow
+moreouer of their wombs is so moist and sappie that it neuer waxeth hard, but relenteth of
+the owne accord, and becommeth like vnto oile. Beyond Carrike is Kile, so called of Coile<note place="marg">Reade in the Latine.</note>
+<note place="marg"><emph>Hector.</emph></note>
+<note place="marg">12 foot in bith 30 foot in length, and three elns thicke.</note>
+king of Britaine, sometime slaine in the said region, and therein is a stone, not much aboue
+12 miles from the towne of Air, full 30 foot high, and three elns of breadth, called the
+deafe stone, not without cause: for when a man is on the one side thereof, he shall not
+heare what is said or doone on the other, though there be neuer so great noise made, no
+not if a canon should be discharged of set purpose; which to me dooth s&eacute;eme vnpossible,
+neuerthelesse the further a man standeth from the same, the better shall he heare, whatsoeuer the noise be. Next to Kile is Cuningham the third part of Silurie, whose inhabitants
+in time past were most noisome to the Romans. In Kile is a poole named Downe, from
+whence the riuer Downe dooth runne through the middest of that region into the Irish sea.
+In Cuningham likewise is a lake called Garnoth, equall in quantitie vnto the Downe, and
+no lesse famous for the abundance of fish that is dailie found therein; and not farre from
+the same is the towne called Largis, where Alexander the third king of Scotland of that
+name, sometime ouercame the Danes and Norwegians, whereby it grew to be famous and of
+more reputation among vs.</p>
+	  </div>
+<div n="4" type="chapter">
+<head>Chapter 4: The Situation Of Renerew, Clidesdale, Lennox, Lowmund, Argile, Louchquhaber, Lorne, And Kentire, With All The Notable Things Conteined In The Same.</head>
+<!-- <head>THE FOURTH CHAPTER.</head> -->
+<p>THE water of Clide diuideth Lennox on the north side from the baronie of Renfrew,
+and it ariseth out of the same hill in Calidonwood, from whence the Annand falleth, and
+
+<!--<fw place=bot-right>"goeth"</fw>-->
+
+
+<pb n="6"/>
+
+<!--<fw place=top-left>"6"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+goeth with a long course into the Irish sea; some call this riuer Gluda, and Cluda: but
+Tacitus nameth it Glota. Not far also from the founteines of Clide, ariseth the water of
+Forth, that runneth on the contrarie side into the Germane ocean. In like sort after the
+water of Clude hath run for a season toward the north, it gathereth somewhat inward, till
+it come to the mounteine of Granzeben, &amp; from thence holdeth on with a swift course, till
+it fall (as I said) into the Irish seas. The countrie where it runneth is named Clidesdale.
+Betwixt Clide and Lennox lieth the baronie of Renfrew, wherein are two pooles named
+Quhinsouth and Leboth, of which the first is 12 miles in compasse, the other 20, and both
+verie rich and plentifull of fish. But in Lennox, that lieth next aboue Renfrew toward the
+ocean (called by Ptolomie Leigouia) is a great mere or lake that hight Lochmond, of 24
+miles in length, and eight in breadth, and within this Ihin or poole are 30 Ilands, well replenished with churches and dwelling houses.</p>
+<p>And in the same also are three things woorthie consideration, whereof the first is, that the
+pleasant and verie delicat fishes there bred doo want fins. The second is, that the water
+will often swell with huge waues though no wind be stirring, and that in such wise that the
+best mariners in the countrie dare not aduenture to saile thereon. There is also a verie
+fruitfull and commodious Ile therein, verie necessarie for the pasturage of cattell, which
+fl&eacute;eteth hither and thither as the wind bloweth. This lake is situat at the foot of the hill
+called Granzeben, which were sometime the marches or limits betwixt the Scots and Picts,
+and are extended from Lochlowmund to the mouth of D&eacute;e. Certes the Picts had no part
+of the countrie beyond the Granzeben, nor toward the Irish seas, for this region was inhabited by the Scots. Eight miles from Lochlowmond is the castell of Dumbritteine named
+sometime Alcluid, and here the water of Leuen faileth into the Clide.</p>
+<p>Beyond Lochlowmund is Argile, an hillie countrie and full of crags and mounteins,
+therein also are two lakes, Lochfine &amp; Lochquho, that diuide the region into three parts,
+that in the middest being called Knapdaie. In Lochfine is more plentie of hering than in
+anie part of the coast that compasseth the Iland, but in Lochquho are such kinds of fish
+to be vsuallie had, as are commonlie bred in fresh waters. There are moreouer in Argile
+two castels, Glenunquhart and Enconell, &amp; in it are 12 lies, whose chiefe commoditie resteth
+rather in pasturage for cattell, than abundance of graine. In Argile furthermore are manie
+rich mines full of mettall, but the people there haue no skill to find and trie out the same.
+The consant report also goeth there, how there is a stone of such nature, that if it be hidden
+in straw for a certeine season, it will kindle of it selfe, and consume the straw to ashes.
+There are seuen other lakes in Argile, whereof some are thirtie miles in length and bredth,
+and other lesse.</p>
+<p>It was told me once by Doncan Campbell a noble knight, that out of Garloll, one of
+the pooles of Argile, there came a terrible beast, in the yeare of Grace 1510, which was
+of the bignesse of a greihound, and footed like a gander, and issuing out of the water earlie
+in the morning about midsummer time, did verie easilie and without anie visible force or
+streining of himselfe ouerthrow huge okes with his taile, &amp; therevnto killed thr&eacute;e men outright that hunted him with thr&eacute;e stroks of his said taile, the rest of them sauing themselues
+in tr&eacute;es thereabouts, whilest the foresaid monster returned to the water. Those that are giuen
+to the obseruations of rare and vncouth sights, bel&eacute;eue that this beast is neuer s&eacute;ene but against
+some great trouble &amp; mischiefe to come vpon the realme of Scotland. For it hath b&eacute;ene
+described also before that time, although not verie often. Lorne abutteth vpon Argile, which
+was once a part of Argile, and reacheth out into the Irish sea, in maner of a cape or toong,
+full sixtie miles. This point also was called Nouantia, but now it is named Kintire (that is
+to saie) the head of Lorne, whose vttermost part is not full 16 miles from ireland. Some
+authors affirme, that both Argile and Cantire, were called Nouantia in old time, sith Ptolomie
+maketh no mention of Argi;e in his cosmographie. In this Lorne is great abundance of
+barleie, which the Scots call beir. Beyond Lorne is Lochquhaber, heretofore a portion of
+Murrey land, verie rich in mines of iron and lead, and no lese beneficiall to the countrie in
+all kinds of cattell.</p>
+
+<!--<fw place=bot-right>"There"</fw>-->
+
+
+<pb n="7"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+<p>There are likewise manie woods, manie lakes, and manie riuers, but two of them are most
+notable for the plentie of samons, and other delicate fish, aswell of the salt as fresh water,
+which be there taken, and almost without anie trauell; neither is there anie where else in all
+the Ile such store. The one of these is named Lochtie, &amp; the other Spanze, but vpon what
+occasion these names were giuen to them I find as yet no certeintie. The Lochtie riseth
+not aboue eight miles from Lochnes, and falleth beneath the same into the Germane ocean,
+and beside it, there is a rockie crag, running out at length into the sea, named Hardnomorth. In the mouth of Lochtie likewise was sometime a rich towne named Inuerlochtie,
+whither the merchants of France &amp; Spaine did make their dailie resort, till at the last it was
+so defaced by the warres of the Danes, that it neuer was able since the said time to recouer hir
+pristinate renowme. But whether the negligence of the due repare of this towne, proc&eacute;edeth
+of the slouth of our people, or hatred that some enuious persons doo beare to cities and
+walled townes in our countrie, as yet it is vncerteine. Beyond Lochtie is the castell of
+Dunstafage, in time past named Euonium: beyond Dunstafage also is the mouth of the
+water of Spanze, where it falleth (as I heare) into the Germane ocean.</p>
+	  </div>
+
+<div n="5" type="chapter">
+<head>Chapter 5: The Discourse Of Ros, Stranauerne, &amp; Murrey Land, With The Lakes Riuers, And Notable Townes In Them.</head>
+<!-- <head>THE FIFT CHAPTER.</head> -->
+
+<p>BEYOND the water of Spanze lieth Ros, sometime called Lugia, a verie narrow region
+(God it wote) but running out in great length through the middest of the Iland, being enuironed on both sides with the ocean. That portion thereof which lieth n&eacute;erest to the Irish
+seas, is verie difficult for such as trauell by the countrie, by reason of the high mounteins,
+which maketh the countrie more apt for wild beasts than mankind to inhabit: neuerthelesse
+waxing more fertill on that part which stretcheth toward the German sea, it yeeldeth it selfe
+to culture, and rendreth some graine. In pasture also it is not altogither vnprofitable, sith
+there is good grasse and verie batable for their heards: for the vallies there, being watered
+with sundrie pleasant streames, doo yeeld a sweet and verie sauorie grasse, wherewith all
+sorts of cattell are verie much delighted. In Ros are sundrie lakes, but Lochbrun is the
+greatest. There are also manie fresh riuers, fraught with excellent fish, and finallie a nota.
+ble firth or safe hauen called Cromart, wherevnto diuers in time of necessitie doo resort, to
+auoid the danger of shipwracke, that otherwise would assuredlie annoy them. The Scotish
+men call it Heill of shipmen. In this region moreouer is the towne called Thane, where
+the bones of Dutho an holy man (as they say) doo rest, &amp; are had in greater estimation
+among the superstitious sort (as sometime ouer the whole Iland) than the holie gospell of
+God and merits of his sonne, whereby we are onelie saued. Two ancient houses are likewise mainteined in one vale of the Ros, whose formes resemble so manie belles, but to what
+end as yet I doo not find. Next vnto the said Ros lieth the Stranauerne, as the vttermost
+region of Scotland, the coasts whereof abutting for a while vpon the Deucalidon sea, doo
+afterward turne againe toward the Almain seas, hauing partlie the Deucalidon coast, and
+partlie Cathnesse vpon the north side, Southerland on the east, Rossia on the south, and
+Deucalidon againe vpon the west. There are thr&eacute;e great crags or points lieng on the vttermost side of Stranauerne, that is to saie, the Hoie, Howbrun (the greatest of the thr&eacute;e) and
+Downisbie, which bicause they shoot farre off into the sea, doo make two great firths and
+lakes, each of them being seuerallie distinguished from other.</p>
+<p>Next vnto Cathnesse lieth Southerland, a profitable region both for graine and all kinds
+of prouision, but chieflie for the nourishment of bestiall, wherevnto it chieflie inclineth, as
+doo the other two last before rehearsed. On the further side also of this lieth Murrey land,
+
+<!--<fw place=bot-right>"sometime"</fw>-->
+
+
+<pb n="8"/>
+
+<!--<fw place=top-left>"8"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+sometime called Vararis, although the marches thereof are changed from that they were of
+old. For whereas in time past all the region lieng betweene Spaie and Nesse to the Ireland
+sea, was named Murrey; now it is knowne to be onlie beyond the water of Spaie &amp; Kissocke,
+&amp; reacheth on vntill it come to the Irish sea. Betwixt Ros and Murrey land, is a great
+baie, and likewise a descent of sundrie waters: for thereinto fall the Nesse, Narden, Findorne, Los and Spaie, whereof this latter runneth with so fierce &amp; violent a streame, that
+the force of the sea at the floud striuing to enter into the same, is put back, &amp; may not resist the inuincible fall, and beates backe the water that descendeth into the ocean. The
+Nesse issueth out of a lake of the same name (which is not passing 8 miles from the said
+plash, from whence the Lochtie runneth) &amp; thence goeth into the Irish seas: and this propertie it hath, that neither the streame, neither the lake it selfe will yeeld to be frozen in the
+verie deepe of winter. Such also is the force thereof, that if anie yce or anie frozen substance
+be cast thereinto, it will by and by relent and dissolne againe to water, whereby it becommeth
+verie profitable for such cartell as are benummed with cold. In the mouth of the Nesse,
+standeth a towne called Inuernesse, where sometime was great abundance of herring taken,
+but now they be gone by the secret working of God. The common people put the fault
+in the rich &amp; men of higher calling, who enuieng the commoditie of the poore inhabitants,
+will often s&eacute;eme to bereue them of this emolument, by force and slaughter. Whervpon (as
+they say) it commeth to passe, that the increase eftsoones decaieth, and verie small store is
+taken there by manie yeares after such iniurie offered.</p>
+<p>But to proc&eacute;ed: beside Lochnesse, which is 24 miles of length, and foure in bredth, by
+reason of the great woods there standing, is great store of sauage beasts, as harts, wild
+horsses, roes, and such like. There are likewise martirns, beuers, foxes &amp; wezels, whose
+skins and cases are sold vnto strangers at huge and excessiue prices. In Murrey land also
+is not alonelie great plentie of wheat, barlie, otes, and such like graine, beside nuts and
+apples, but likewise of all kinds of fish, especiallie of samon. The people thereof in like
+sort doo vse a strange maner of fishing: for they make a long weele of wicker, narrow
+necked, and wide mouthed, with such cunning, that when the tide commeth, the fish shoot
+themselues into the same, and foorthwith are so inclosed that whilest the tide lasteth he cannot get out, nor after the water is gone escape the hands of the fishers. In this region moreouer is a lake named Spiney, wherein is exc&eacute;eding plentie of swans.</p>
+<p>The cause of their increase in this place is ascribed to a certeine herbe, which groweth
+there in great abundance, and whose s&eacute;ed is verie pleasant vnto the said foule in the eating,
+wherefore they call it Swangirs: and herevnto such is the nature of the same, that where it is
+once sowne or planted, it will neuer be destroied, as may be prooued by experience. For
+albeit that this lake be fiue miles in length, and was sometime within the remembrance of
+man verie well stored with samon and other fish, yet after that this herbe began to multiplie
+vpon the same, it became so shallow, that one may now wade through the greatest part
+thereof, by meanes wherof all the great fishes there be vtterlie consumed. In this portion
+furthermore, is the church of Pette, where the bones of little Iohn remaine in great esti-<note place="marg">This was no Scot but an Englishman, fled into Ireland, and then into Scotland</note>
+mation. Certes his carcasse hath b&eacute;ene 14 foot long, his members well proportioned according to his stature, and not fullie six y&eacute;eres before this booke was written (by Boetius)
+he saw his hanch bone, which s&eacute;emed so great as the whole thigh of a man, and he did
+thrust his arme into the hollownesse thereof, wherby it appeareth what mightie people grew
+vp in our region before they were ouercome with gluttonie and excesse. In this quarter
+finallie is the towne called Elgin, not farre from the mouth of Spaie, and therin is a cathedrall
+church furnished with canons: there are thereto sundrie rich and verie wealthie abbeies in
+Murrey, as Killos of the order of the Cisteaux, and Pluscardie of the Cluniaks.</p>
+
+<!--<fw place=bot-right>"OF"</fw>-->
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"9"</fw>-->
+	  </div>
+
+<pb n="9"/>
+
+
+<div n="6" type="chapter">
+<head>Chapter 6: Of Boene. Anze, Buchquhane, Mar, Mernis, Fiffe, And Angus, With The Lakes, Flouds, Abbies, Townes, And Other Notable Things Conteined In The Same.</head>
+<!-- <head>THE SIXT CHAPTER.</head> -->
+
+<p>NEXT vnto the Murrey lieth Boene, and Anze, two fertill and plentifull regions,
+which extend their bounds euen vnto the seas. They are both verie notablie indowed with
+batable pastures, and by reason thereof are verie full of cattell, they yeeld moreouer excellent
+corne, and by meanes of their large woods and forrests not without great store of wild beasts
+of sundrie kinds and natures. Neere also vnto the Douere water, which is a riuer maruellouslie stored with fish, standeth a towne named Bamfe, and vnder these two regions
+aforesaid lieth Buchquhane, a verie batable soile for all kinds of cattell, but especiallie of
+sh&eacute;epe, whose wooll exc&eacute;edeth that of the like beast of all other countries thereabouts for
+whitenesse and finenesse. The riuers that are in this countrie doo in like maner abound
+with samons, so that there is no one of them void of this commoditie, except the Rattra
+onelie, wherein it is not heard that anie hath b&eacute;ene s&eacute;ene: herein also standeth the castell of
+Slanis, in which the high constable of Scotland dwelleth, and n&eacute;ere vnto the same is a maruellous caue: for the water that droppeth into the same, in a short processe of time becommeth an hard white stone, and except they had b&eacute;ene oft remooued heretofore, the
+caue it selfe had b&eacute;ene filled vp with the same manie yeeres agone.</p>
+<p>This region is void of rats, and such is the nature thereof, that if anie be brought thither
+from other places, they are found to die immediatlie: finallie it is most maruellous of all;
+that as otes doo grow there in manie places of themselues without culture and tillage; so
+if a man come thither of set purpose to mow downe the same, he shall find nothing els
+but emptie huls and straw: but if he chance vpon the sudden and without premeditation of
+the thing to cut downe anie (a matter impossible in my mind) he shall find them so good
+and full as anie are elsewhere, to be gathered and led home. Certes it appeareth hereby,
+that this is nothing else but an illusion, wherewith the wicked f&eacute;ends doo captiuate and
+blind the senses of the superstitious sort; for that it should be so by nature, it is a thing
+altogither impossible. Next vnto this lieth the great region of Mar, which is verie plentifull
+of cattell, and extendeth 60 miles in length, from the Almaine seas to Badzenoch. In this
+is the citie of Aberden, wherin is a bishops s&eacute;e, and noble vniuersitie, sometime founded by
+William Elphinston bishop there. This citie lieth betwixt two rich riuers, the Done and
+the D&eacute;e, wherein, is the greatest store of samons that is to be found againe within the compasse of Albion, and likewise the greatest and longest if you respect their quantitie.</p>
+<p>Next vnto-Mar, we haue Mernis toward the sea, a verie fat soile, full of pasture, and abundantlie replenished with euerie sort of cattell. In this portion standeth Dunnother the marshall of Scotlands house, and likewise the towne of Fordon, in which the bones of Palladius
+doo rest, who is taken generallie for the apostle of our nation. The water of Eske is bound
+vnto this region, which is otherwise called Northeske, a verie dangerous chanell, and wherein
+manie haue perished for default of a bridge, as they haue attempted to passe and repasse
+ouer the same. Angus bordereth vpon the Mernis, it was sometime part of Horrestia, and
+now watered with three notable riuers, as the Northeske alreadie mentioned, and maru Ilouslie
+replenished with samons, likewise the Southeske; and finallie the Taie, the noblest water in
+all Scotland, and remembred by the Romane writers vnder the name of Tau.</p>
+<p>In Angus also is an high mounteine or promontorie, called the Red braes, which lieth
+out far off into the Almaine seas. The Taie also riseth farre beyond the mounteins of
+Granzben out of loch Taie, which is a poole of 24 miles of length, and 10 of breadth,
+wherein are not onelie diuers Ilands, with castels in them, but the water of the lake it selfe
+(being most fine and subtile) is notablie replenished with great store of fish, and therefore
+verie commodious for such as dwell about it. It falleth into the Almaine sea beside Dund&eacute;e, 
+
+<!--<fw place=bot-left>"VOL. V."</fw>--><!--<fw place=bot-center>"C"</fw>--><!--<fw place=bot-right>"d&eacute;e,"</fw>-->
+
+
+<pb n="10"/>
+
+<!--<fw place=top-left>"10"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+a towne called in old time Alectum, wherein I was borne, and in which the people
+trauell verie painfullie about weauing and making of cloth. There are in Angus also manie
+other cities and rich abbeies, as Mountros, Brechin, and Forfaire, beside so manie castels
+as lieth not in me to number. This likewise is not to be passed ouer with silence, that
+whereas Forfaire was in times past a notable citie, strengthened with two roiall castels, as
+the ruines doo yet declare, now it is brought vnto little more than a countrie village, replenished with simple cotages. Manie lakes &amp; pooles are also in Angus, and those well
+fraught with fish. There is also in this countrie one place called the vale of Eske, whose
+sh&eacute;epe haue such white, fine, and excellent wooll, as the like vnto it is hardlie to be found
+againe within the whole Iland.</p>
+<p>After we be ouer the Taie, we come vnto Fife, sometime a part of Ottoline. In this region groweth all maner of graine so plentifullie as elsewhere in anie part of Albion; and
+where no corne is, there is no lesse foison of cattell. There are blacke stones also digged out
+of the ground, which are verie good for firing, and such is their intollerable heat, when
+they are kindled, that they resolue and melt iron, and therefore are verie profitable for
+smiths, and such artificers as deale with other mettals; neither are they found anie where
+else (that I doo know of) but betw&eacute;ene the Taie and the Tine within the whole Iland,
+Salt is likewise made within this region in great quantitie of sea water, which they boile according to their maner. There are furthermore sundrie cities in the same, of which
+S. Andrewes is the chiefe, wherein is both the s&eacute;e of an archbishop and a famous vniuersitie,
+There are moreouer sundrie lakes, as loch Torre and loch Leuin, and in this later are diuerse lies, and in one of them also the church of S. Phillane, a Scotish saint, of no small
+name and reputation.</p>
+<p>Fife is diuided of Lowthian by the riuer of Forth that runneth a large &amp; broad chanell
+into the ocean seas. Certes it is a water verie plentifullie indued with cockles, oisters,
+muskels, seales, pellocks, mereswine, whales, and great foison of white fish: and among
+manie other Iles that are to be found in this Forth, that of Maie is of greatest fame, because
+Adrian and his fellows were killed in the same. In the middest of this lie springeth vp a
+founteine of fresh and cleare water, from an high rocke, which is not a little to be maruelled
+at, considering the quantitie and situation of the Ile. Beside this also is a woonderfull crag,
+rising within the sea, wherevnto is so strict and narrow a passage, that a man shall hardlie
+come vnto it by a fisher bote, and thereto but at one place. This rocke (called the Basse-castell) is inuicible, and therein are manie caues verie profitable for defense, made heretofore by great labor and industrie of men.</p>
+<p>Certes, there is nothing in this rocke that is not full of admiration and woonder; therein
+also is great store of soland g&eacute;ese (not vnlike to those which Plinie calleth water eagles, or
+(as we saie) sea herons) and no where else but in Ailsaie and this rocke. At their first
+comming, which is in the spring of the yeare, they gather such great plentie of sticks and
+boughs togither for the building of their nests, that the same doo satisfie the k&eacute;eper of the
+castell, for the y&eacute;erelie maintenance of his fewell, without anie other prouision. These
+foules doo f&eacute;ed their yoong with the most delicat fish that they can come by. For though
+they haue alreadie preied vpon anie one, and haue it fast in their beake or talons, yet if they
+happen as they flie toward the land to espie a better, they let the first fall againe into the
+sea, and pursue the later with great and eager swiftnesse, vntill they take hold thereof.</p>
+<p>Sometimes their preie is taken from them by the k&eacute;epers of the castell, as also their sticks
+from time to time for the aforesaid vse; but they making small or rather no resistance, doo
+turne againe forthwith, for more wood or fish (as their losse requireth) not ceasing till they
+haue builded their nests with the one, and nourished vp their yoong with the other, so that
+what by the timber of their nests, the beguiling them of their preie, and stealing awaie of
+their yoong, they bring y&eacute;erelie no small commoditie vnto the owner of the castell. Within
+the bowels of these g&eacute;ese there is a kind of grease to be had of singular force in medcine,
+and fleaing likewise the skin from their bodies with the fat, they make an oile verie 
+
+<!--<fw place=bot-right>"fitable"</fw>-->
+
+
+<pb n="11"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"11"</fw>-->
+
+
+profitable for the gout and manie other diseases in the hanches and groines of mankind. In this
+crag more, there groweth an hearbe verie pleasant and delicious for salads, but if it be taken
+vp and planted elsewhere, it either groweth not at all, or vtterlie giueth ouer the vertues
+wherewith it was earst indued.</p>
+<p>There was sometime a stone found here in this rocke much like to a water sponge or pumice,
+hollow on the one side, and of such a nature, that if anie salt water had b&eacute;ene powred thereinto, and suffered to run through, it would forthwith lose the naturall saltnesse, and become
+fresh and verie pleasant vnto the mouth and tast. We heare in these daies that this stone is to
+be s&eacute;ene in Fast castell, whither it was brought after it had passed manie hands for the triall of
+this matter. In this firth also is the Ile Aimon, wherein is an abbeie. There are likewise
+diuers other Ilands, and those are verie full of conies; and in the said firth are sundrie fishes
+oftentimes seene of monstrous shape, with cowles hanging ouer their heads like vnto moonks,
+and in the rest resembling the bodie of man. They shew themselues likewise aboue the water to the nauill, howbeit they neuer appeare but against some great pestilence of men, or
+murren of cattell; wherefore their onelie sight dooth br&eacute;ed great terror vnto the Scotish
+nation, who are verie great obseruers of uncouth signes &amp; tokens.</p>
+	  </div>
+
+<div n="7" type="chapter">
+<head>Chapter 7: The Description Of Louthian, Striueling, Menteth, Calidon Wood, Bougewall, Gareoth, With The Notable Cities, Castels, And Flouds Thereof.</head>
+<!-- <head>THE SEUENTH CHAPTER.</head> -->
+
+<p>ON the south of the Forth lieth Louthian, so called of Lothe or Loth, one of the
+kings of the Piets, it was sometime named Pictland; but now it is parcell of the Scotish
+kingdome, &amp; thereto for bountie of soile is not inferiour to anie region of Scotland. In
+Louthian are manie abbeies, castels and townes, as Hadinton, Dunbar, Northberwijc and
+Leith: but Edenburgh passeth them all, as well in policie of regiment as in forme of building and wisedome, and riches of the inhabitants: therein also is the castell of Maddens, remembred by the most renowmed authors, &amp; also the kings chiefe palace, the which tripleth the renowme of the foresaid citie. Not farre from thence moreouer is a certeine oilie
+spring, which riseth out of the ground in such abundance, that the more is caried from
+thence, the more is restored: and the people are persuaded hereof, that it is verie medicinable
+against all cankers and skalls.</p>
+<p>Not farre from the mouth of Forth is the castell of Dunbar, which by naturall situation and
+industrie of man is now become one of the cheefe holds in Albion. It was sometimes the
+principall house apperteining to the earles of March: and there hard by is a towne of the same
+name, wherein is a rich abbeie or colledge of canons founded by those earles. Next vnto
+Louthian lieth Mers, whereof I haue spoken alreadie, but we will now go vp higher into the
+land. Neerest vnto Mers therefore lieth Teuidale, and aboue it is Twedale: next vnto Twedale is Druisdale, Walcopdale, Douglassedale, and Cliddisdale, and all these are such names
+as the riuers haue that run along their bottoms. The principall towne of Cliddisdale is Glasco
+the archbishops s&eacute;e, wherein is a notable church erected in the honor of saint Mongow, and
+builded with great magnificence. In Glasco also is a noble vniuersitie, where the liberall
+arts and sciences are verie zelouslie taught.</p>
+<p>In this region moreouer is a verie rich mine of gold, and another of azure, the commoditie of
+which later is reaped with small trauell. There are sometimes found diuers pretious stones
+also, as rubies and diamonds. Certes this mine was disclosed in the time of Iames the fourth,
+who would no doubt haue brought it to full perfection, if he had longer liued, whereas now
+little profit redoundeth thereby to the common wealth, bicause it is either vtterlie neglected,
+
+<!--<fw place=bot-center>"C 2"</fw>--><!--<fw place=bot-right>"or"</fw>-->
+
+
+<pb n="12"/>
+
+<!--<fw place=top-left>"12"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+or not very much regarded. North of Glasco lieth Menteith, and Striueling shire, bordering vpon Argile and Lennox. In Striueling shire is the towne of Striueling, and aboue it is
+the castell of Striueling, which was sometime called the dolorous mounteine. At this towne
+also began the great Calidon wood, which ran through Menteith and Stratherne, to Atholl and
+Lochquhaber, as Ptolome writeth in his first table.</p>
+<p>In this wood were somtime white buls with shackt heares and curled manes like fierce
+lions, otherwise they were like vnto the tame, neuerthelesse so wild and sauage, that they would
+neuer be made familiar, nor fast of any hearbe or grasse that mans hand had once touched, after manie daies. Being taken also by the industrie of man (which was very hard to doo) they
+would refuse all sustenance, &amp; starue themselues to death. Assoone as any did inuade them,
+they would rush vpon him with great violence, and beare him to the earth; as for dogs,
+nets, or any kind of weapon they feared not, neither cared for any maner of engine.</p>
+<p>It is said that Robert Bruze after his coronation did hunt one of these buls in the foresaid wood, being accompanied but with a small traine, in which voiage he escaped narowlie
+with his life. For after the beast felt himselfe sore wounded by the hunters, he rushed vpon
+the king, who hauing now no weapon left in his hand wherewith to defend himselfe, he had
+suerlie perished if rescue had not come: howbeit in this distresse one came running vnto him,
+who ouerthrew the bull by plaine force, and held him down till the hunters came that killed
+him outright. For this valiant act also the king indued the aforesaid partie with great possessions, and his linage is to this daie called of the Turnebuls, bicause he ouerturned the beast,
+and saued the kings life, by such great prowesse and manhood. Certes the flesh of these
+beasts were reputed in old time as a most delicate food, and onlie meate for the nobilitie,
+notwithstanding that it be verie full of sinews and gristles, whereat some delicat f&eacute;eders doo
+often take offense. In times past also they were bred in many places of the Calidon, but now
+they be all consumed by the gluttonie of the inhabitants, so that none of them are left, but
+onlie in Comerland.</p>
+<p>On the east side of Menteith lieth Stratherne, &amp; bordereth also vpon Fife. Through the
+vallies likewise of this region runneth the water of Ern, that falleth into Tay. This is
+moreouer worthie to be noted, that not foure miles from the confluence of Ern and Tay,
+there is a stone of small quantitie, and yet of great woonder, for in what place soeuer it be
+laid, it will not be remooued from thence by manuall practise, art, or engine, &amp; yet one
+man may so soone moue it as an hundred. On the other side of Tay beyond Angus and
+Gowray lieth Stermond, a region plentifullie indued both with grasse and corne. Not
+farre from Stermond is Athole, wherein are manie noble vallies and riuers full of fish, as pikes,
+lamperns, &amp;c. The soile there also is so bountifull, that it y&eacute;eldeth corne in maner without
+any tillage. There is likewise therein a towne called Lud, whose f&eacute;elds are so plentious, that
+(if they be well tilled and dressed) they will y&eacute;eld great store of barlie without any sowing of
+seed. Howbeit, as this is in that part of the region often verified, so in other there is a contranrious disposition to be found in the earth, which turneth wheat soone into good and perfect
+rie, the like wherof I heare to be not farre from Luke, &amp; in the countries thereabouts.</p>
+<p>West of Buchquhane and Boene lieth Bostgewell and Gareoth, very plentifull soiles both
+for grasse and corne. In Gareoth also is an hill called Doundore, that is to saie, the golden
+mounteine: for the sh&eacute;epe that f&eacute;ed thereon are yellow, and their t&eacute;eth of the same hew,
+resembling burnished gold. Their flesh moreouer is red as it were tinged with saffron, and
+so is their wooll much after the same maner. There is furthermore in the same region, an
+heape of stones lieng togither in maner of a crown which y&eacute;eld a sound when one of them is
+stricken as if it were a bell. Some are of the opinion, that one idoll temple or other stood
+heretofore in that place, while the Scotish nation was addicted to the worshipping of diuels.
+Many other regions are in Scotland, as Bradalbane, Strabraun, and Badzenoth, with diuers
+small territories and flouds, howbeit they are not so notable as those which we haue alreadie
+touched, and therefore I thinke it but follie to deale any further with them.</p>
+
+<!--<fw place=bot-right>"OF"</fw>-->
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"13"</fw>-->
+	  </div>
+
+<pb n="13"/>
+
+
+
+<div n="8" type="chapter">
+<head>Chapter 8: Of The Great Plentie Of Hares, Red Deer, And Other Wilde Beasts In Scotland, Of The Strange Properties Of Sundrie Scotish Dogs, And Of The Nature Of Samon.</head>
+<!-- <head>THE EIGHT CHAPTER.</head> -->
+
+<p>HAUING made this speciall description of the realme of Scotland, now will I touch such
+things as concearne the same in generall. First of all therfore in the fields and wild places
+of the country there is great plentie of hares, red d&eacute;ere, fallow d&eacute;ere, roes, wild horsses,
+woolues and foxes. These horsses are not gotten but by great slight and policie: for in the
+winter season the inhabitants turne certeine tame horsses &amp; mares among them, wherewith
+they grow in the end to be so familiar, that afterward they go with them to and fro, and
+finallie home into their maisters yards, where they be taken and soone broken to their hands.
+The woolues are most fierce and noisome to the heards and flocks in all parts of Scotland,
+sauing in one parcell of Angus, called Glennors dale, where these beasts doo no manner of
+hurt vnto the domesticall cattell, but preie onlie vpon the wild.</p>
+<p>Foxes doo much misch&eacute;efe generallie in all steads, but ch&eacute;eflie in the mounteines,
+where they be verie hardlie hunted, howbeit art hath deuised a meane to preuent their malice,
+and to preserue their pultrie. Certes there is almost no house that dooth not for certeine
+daies cherish vp a yong fox, which the Scots doo call a Todde, and then killing the same,
+they mince the flesh thereof amongst such meat, as they giue vnto their foules and other
+little bestials, and by this meanes so many foules and cattell as eate h&eacute;erof are preserued from
+danger of the fox, almost by two moneths after, so that they may wander whither they will,
+for the foxes as it were winding or smelling the flesh of their fellowes yet in their crops will
+in no wise meddle with them, but eschew, and know such a one, although it were among an
+hundreth of other.</p>
+<p>In Scotland also are dogs of maruelous condition; for beside the common nature and vniuersall properties of dogs of all other countries, there are thr&eacute;e sorts with vs, which are not
+s&eacute;ene else-where in anie quarter of the world. The first is an hound of great swiftnesse,
+hardinesse, and strength, fierce and cruell vpon all wilde beasts, and eger against th&eacute;eues
+that offer their maisters any violence. The second is a rach or hound verie exquisite in following the foot, (which we call drawing) whether it be of man or beast, yea he will pursue
+any maner of foule, and find out whatsoeuer fish is cast vp, or lurketh among the rocks, by
+that excellent sense of smelling wherewith he is indued. The third sort is no greater than that of
+raches, in colour for the most part red, with blacke spots, or else blacke and full of red marks.
+These are so skilfull that they will pursue a th&eacute;efe, or th&eacute;efe stolen goods in most precise maner, and finding the trespasser, with great assurance they will make a raise vpon him. Or if
+it be so that he haue taken the water for his safegard, he shrinketh not to follow him, and
+entring and issuing at the same places where the partie went in and out, he neuer ceasseth to
+range till he haue nosed his footing, &amp; be come to the place wherein the th&eacute;efe is shrowded.
+The dogs of this kind are called sleuthhounds. Certes this report would s&eacute;eme m&eacute;ere incredible, except it were dailie had in experience vpon the borders of England and Scotland,
+where pillage is good purchase indifferentlie on both sides. There is a law also among the
+borderers in time of peace, that whoso denieth entrance or sute of a sleuthhound in pursuit
+made after fellons and stolen goods, shall be holden as accessarie vnto the theft, or taken for
+the selfe theefe.</p>
+<p>Of foules, such (I meane) as liue by preie, there are sundrie sorts in Scotland, as eagles, falcons, goshaukes, sparrowhaukes, marlions, and such like: but of water foules there is so
+great store, that the report thereof may seeme to exc&eacute;ed all credit. There are other kinds of
+birds also in this countrie, the like of which is no where else to be s&eacute;ene, as the capercailze
+or wild horsse greater in bodie than the rauen, and liuing onelie by the rinds and barks of the
+
+<!--<fw place=bot-right>"pine"</fw>-->
+
+
+<pb n="14"/>
+
+<!--<fw place=top-left>"14"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+pine trees. We haue in like maner manie moore cocks and hens, the which absteining from
+corne, doo feed vpon nought else, but the leaues of Cytisus, which the Scots doo commonlie
+call Hadder. These two are verie delicate in eating. The third sort is reddish blacke of
+colour, in quantitie comparable to the phesant, and no lesse delicious in taste and sauor at the
+table, our countrie men call them wild cocks, and their chiefe sustenance is by wheat.</p>
+<p>Beside these, we haue also another foule in Mers more strange and vncouth than all these
+afore mentioned, called a gustard, fullie so great as a swan, but in colour of feathers and tast
+of flesh, little differing from a partridge, howbeit these birds are not verie common, neither to
+be s&eacute;ene in all places, such also is their qualitie, that if they perceiue their egs to haue b&eacute;ene
+touched in their absence by mans hand (which lie commonlie on the bare earth) they forsake
+those nests, and laie in other places. All other our foules are common to vs and other nations. Samon is more plentifull in Scotland than in anie other region of the world, and bicause the nature of this fish is strange, I will set downe so much as I doo know hereof at this
+present time as followeth.</p>
+<p>The samon in haruest time commeth vp into the small riuers, where the water is most shallow, and there the male and female rubbing their wombe one against another, they shed their
+spawne, which foorthwith they couer with sand and grauell and so depart away. From hencefoorth they are gant and slender, and in appearance so leane that they appeare nought else
+but skin and bone, and therefore worthilie said to be growne out of vse and season. It is
+said also that if they touch anie of their full fellowes, during the time of this their leannesse,
+the same side which they touched will likewise become leane, whereby it commeth to passe,
+that a samon is oft seene to be fat on the one side of the chine, and leane on the other. But
+to proc&eacute;ed, the aforesaid spawne and milt being hidden in the sand (as you haue heard) in the
+next spring dooth y&eacute;eld great number of little frie, but so nesh and tender for a long time, that
+till they come to be so great as a mans finger (if you catch anie of them) you shall perceiue
+them to melt, and their substance to dissolue and fade euen as it were gellie, or as yse laid
+foorth against the sun. From henceforth they go to the sea, where within the space of 20
+daies they grow to a maruellous greatnesse, and then returning againe toward the place of
+their generation, they shew a notable spectacle not vnworthie to be considered.</p>
+<p>Certes in Scotland there are manie linnes or pooles, which being in some places among
+the rocks verie shallow aboue, are yet d&eacute;epe beneath, with the fall of the water, and thereto
+the samon not able to pearse through the chanell, either for swiftnesse of the course, or
+depth of the descent of such water as commeth against him, he goeth so neere vnto the side
+of the rocke or dam, if I may so call it, as he may, and there aduentureth to leape ouer and
+vp into the lin, if he leape well at the first he obteineth his desire, if not, he assaieth the second
+or third time, till he returne now vnto his countrie: a great fish able to swim against the
+streame, that before was a litle hod, and maugre his resistance, caried with the violent course of
+the water into the maine ocean. Such as assay often to leape, and cannot get ouer, doo
+broose themselues and become measelled: others that happen to fall vpon drie land, a thing
+often seene, are taken by the people (that watch their times) in caldrons of hot water, which
+they set vpon the shallow &amp; drie plots with fire vnder them, in hope to catch the fattest, &amp;
+such as by reason of their weight do oftnest leape short. Certes the tast of these is reputed
+to be most delicate, and therfore their price is commonlie greater than of the rest. It is inhibited in Scotland to take any samon from the 8 of September, vntill the 15 of Nouember.
+Finallie there is no man that knoweth readilie whereon this fish liueth, for neuer was anie thing
+yet found in their bellies, other than a thicke slimie humor.</p>
+
+<!--<fw place=bot-right>"OF"</fw>-->
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"15"</fw>-->
+	  </div>
+
+<pb n="15"/>
+
+
+<div n="9" type="chapter">
+<head>Chapter 9: Of The Sundrie Kinds Of Muskles And Cockles In Scotland, And Of Pearles Gotten In The Same: Of The Vncouth And Strange Fish There To Be Seene And Of The Nature Of The Herbe Citisus, Commonlie Called Hadder.</head>
+<!-- <head>THE NINTH CHAPTER.</head> -->
+
+<p>HERE it resteth that I shew the nature of muskles and cockles, wherof we haue manie and sundrie kinds among vs: of these also some are small, and yet if they be eaten
+fresh, are not without a naturall delicacie in tast. Others are greater and not vnlike in forme
+and quantitie to those that haue the purple: and albeit that they are vtterlie void therof, yet is
+their meat and substance right pleasant in the eating. There are of another sort which are
+longer and greater than either of these, called Horsse muskles, to be had in Dee and Done,
+and in these are the pearles ingendered. Certes they loue to be resident in the d&eacute;epest and
+clearest waters that are void of mud and filth, and such is their estimation among the deintiest kinds of food, that they were not vnwoorthilie called of old time, widowes lustes.
+Their shelles also is as it were wrought euen from the verie tops, and thereto full of spots,
+wherein (as in y&eacute;eld of gaine) they farre exc&eacute;ed all other. These earlie in the morning, in<note place="marg"><emph>Cardane</emph> denieth this, <emph>lib</emph> 7. <emph>de Subtilitate.</emph></note>
+the gentle, cleare, and calme aire, lift vp their vpper shelles and mouthes a little aboue the water, and there receiue of the fine and pleasant breath or dew of heauen, &amp; afterwards according to the measure and quantitie of this vitall force receiued, they first conceiue, then swell,
+and finallie product the pearle.</p>
+<p>They are so sensible and quicke of hearing, that although you standing on the braie or
+banke aboue them, doo speake neuer so softlie, or throw neuer so small a stone into the water,
+yet they will descrie you, and settle againe to the bottome, without returne for that time.
+Doubtlesse they haue as it were a naturall carefulnesse of their owne commoditie, as not ignorant, how great estimation we mortall men make of the same amongst vs, and therefore so
+soone as the fishermen doo catch them, they bind their shelles togither, for otherwise they
+would open and shed their pearles of purpose, for which they know themselues to be pursued. Their maner of apprehension is this, first foure or fiue persons go into the riuer togither, vp vnto the shoulders, and there stand in a compasse one by another with poles in their
+hands whereby they rest more suerlie, sith they fix them in the ground, and staie with one
+hand vpon them: then casting their eies downe to the bottome of the water, they espie where
+they lie by their shining and cl&eacute;erenesse, and with their toes take them vp (for the deapth of
+the water will not suffer them to stoope for them) &amp; giue them to such as stand next them.</p>
+<p>The perls that are so gotten in Scotland, are not of small value, they are verie orient &amp;
+bright, light and round, and sometimes of the quantitie of the naile of ones little finger, as I
+haue had and s&eacute;ene by mine owne experience. Almost such another muskle found on the
+coast of Spaine, the shels whereof are gathered by such as go in pilgrimage to saint Iames,
+and brought into Scotland, but they are without pearls, bicause they liue in salt water, which
+is an enimie to the margarite: but Cardane also denieth it. In all the sea coasts also of Scotland are cockles and muskles of the same forme, but without this commoditie. Many vncouth and strange shapes of fish likewise are seene there, whereof some are armed with
+shels, some with hard skales, and diuers round as a ball skinned like an yrcheon or hedghog,
+hauing but one cundit both for purgation of their excrements, and reception of their sustenance. To shew euerie kind of fish that is in Scotland, it were but a vaine trauell, sith the
+same are knowne almost in euerie region.</p>
+<p>In like sort we haue such plentie of fish vpon our seuerall coasts, that although milians and
+infinite numbers of them be taken on the one daie, yet on the next their losse will be so supplied with new store, that nothing shall be missing by reason of the yesterfang: so bountifull is God in these his benefits vnto vs. Furthermore, there is another gift bestowed vpon
+vs by the singular prouidence of God. For the greater dearth &amp; penurie of flesh and corne
+
+<!--<fw place=bot-right>"is"</fw>-->
+
+
+<pb n="16"/>
+
+<!--<fw place=top-left>"16"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+is s&eacute;ene in Scotland, the greater store of fish is taken vpon our shores. In like sort, in the
+deserts and wild places of this realme, there groweth an hearbe of it selfe called Hadder or
+Hather verie delicat, as Columella lib. 9. cap. 4. saith, for goats &amp; all kind of cattell to feed<note place="marg"><emph>Galen. lib.</emph> 1. <emph>de Antidotis</emph> saieth that Citisus is no herb but a shrub, and so dooth <emph>Plinie lib.</emph> 12.</note>
+<note place="marg"><emph>cap.</emph> 3, <emph>lib.</emph> 13.</note>
+<note place="marg"><emph>cap.</emph> 24. <emph>lib.</emph> 16.</note>
+<note place="marg"><emph>cap.</emph> 38. And <emph>Columella</emph> in the end of his 5. booke, where he accompteth it among tr&eacute;es.</note>
+vpon, and likewise for diuerse foules, but b&eacute;es especiallie. This herbe in Iune y&eacute;eldeth a
+purple floure sw&eacute;et as honie, whereof the Picts in time past did make a pleasant drinke, and
+verie wholsome for the bodie: but forsomuch as the maner of making hereof is perished in
+the hauocke made of the Picts, when the Scots subdued their countrie, it lieth not in me to
+set downe the order of it, neither shewed they euer the learning hereof to any but to their
+owne nation. Finallie there is no part of Scotland so barren and vnprofitable, but it produceth either iron or some other kind of mettall, as may be prooued easilie throughout all the
+Iles that are annexed to the same.</p>
+	  </div>
+<div n="10" type="chapter">
+<head>Of The Iles Of Scotland, And Such Notable Things As Are To Be Found In Them.</head>
+<!-- <head>THE TENTH CHAPTER.</head> -->
+
+<p>BEING fallen at the last into mention of our Iles, I will addresse my selfe to describe the
+same, in maner and forme as followeth. In the Irish sea, betwixt Ireland and Scotland are
+fortie and thr&eacute;e Iles, whereof some are thirtie miles long, diuers twelue, and others more or
+lesse. These are called by some writers Euboni&aelig;, and by other Hebrides. But the principall of them all is that of Man, which lieth ouer against Galloway, &amp; was somtime the principall seat of the Druides, as Cornelius Tacitus, C&aelig;sar in his commentaries, and other Romane writers doo testifie at large. North from the Ile of Man lieth Arran, otherwise named
+Botha, after S. Brandons time, who dwelled there in a little cottage, which (as all other the
+like were in those daies) was called Botha. From Arran we go to Hellaw and Rothesay,
+which later is so named of the Scot, which brought the Scots first out of Ireland into Britaine. Not far from this Ile is Ailsay, where there is such store of soland g&eacute;ese as they said
+before to be in Bas. Beyond Ailsay lie manie other distinguished by their seuerall names,
+but full of mines, as of iron, tin, lead, &amp; sundrie other mettals. But the most notable Ile
+belonging to Scotland is Ila, that lieth beyond the promontorie of Nouant cliffe (in Scotish
+the toong of Lorne) within sight of Lochquhabre. Certes it is a rich parcell, thirtie miles
+in length, and full of corne and mettall, if the people were cunning to find and trim the same.</p>
+<p>Not farre from thence is Cumbra, and Mula, fullie so large as Ila, both for length and
+breadth. In Mula is a faire spring two miles from the sea, from whence runneth a little
+brooke or strippet, whereof you shall read more in the description of Britaine, lib. 1. cap. 8.
+Neere vnto this is Iona, otherwise called Columkill, in which is an abbie, wherin the
+kings of Scotland were commonlie buried from the time of Fergus the second, vnto Malcolme Cammof, who erected the monasterie of Dunfermelin, where since that time the most
+part of our kings haue b&eacute;ene of custome interred. Passing forward toward the north-northwest seas, ouer against Rosse is an Ile named Lewis, 60 miles in length, in this Ile is
+but one fish riuer, &amp; it is said that if a woman wade through the same at the spring of the
+yeere, there shall no samon be s&eacute;ene there for a twelue month after, wheras otherwise that fish
+is knowne to abound there in verie great plentie. Beyond Lewis lie the Sky and the Rona,
+in the later whereof, it is incredible to saie what of seale, of pellocke and porpasse is to be
+s&eacute;ene, which are nothing abashed at the sight of any man. The last and vttermost Ile is
+named Hirtha, where the eleuation of the pole is 63 degr&eacute;es, and since the latitude of Man,
+is but 57.</p>
+<p>I conclude, that from the Ile of Man the first Ile of Albion, to Hirtha the last Ile hereof
+are 377 miles, after 62 miles and an halfe to each degr&eacute;e, as Ptolomie hath set downe. It is
+named Hirtha, which in Irish soundeth so much as a sh&eacute;epe in English, for herein that kind
+of cattell aboundeth, each one being greater than any bucke, their hornes longer and thicker
+
+<!--<fw place=bot-left>"2"</fw>--><!--<fw place=bot-right>"than"</fw>-->
+
+
+<pb n="17"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"17"</fw>-->
+
+
+than of the bugle, and thereto they haue side tailes that reach vnto the earth. It is enuironed on euerie part with rochie or rockie crags, whereby few vessels may land there
+but at one place, where the working of the sea is oftentimes so terrible &amp; rough, that no man
+dare aduenture thither without danger of his life. They that go thither therefore, doo watch
+their times when the sea is calme and still. In the moneth of Iune also, a priest commeth
+vnto them out of Leuissa, and ministreth the sacrament of baptisme to all the children that haue
+b&eacute;ene borne there since that moneth in the yeare precedent: which b&eacute;eing doone, and a certeine number of masses said, he receiueth tithes of all their commodities, and then returneth
+home againe.</p>
+<p>In the Ile of Lewis are two churches or chappels, whereof one is dedicated to saint Peter,
+another to saint Clement. The fame is, that so soone as the fire goeth out in this Ile, the
+man that is holden of most cleane and innocent life, goeth to the altar with great solemnitie
+and there laieth a wispe of straw, which being doone they fall all to praier, in the middest
+whereof fire commeth downe from heauen, and kindleth or setteth the same on fire. Beyond this is yet another Ile, but void of people and all other liuing creatures, sauing a certeine kind of beasts like vnto sh&eacute;epe, whose nature and forme I haue alreadie touched in the
+description of Britaine, and therefore omit it here for hast and breuitie sake. Betwixt these
+Iles also is a right dangerous passage, sith the sea by working of opposite streames hath ingendred a gulfe, which sometimes taketh in an incomprehensible deale of water, and sometimes
+casteth it foorth againe, by meanes whereof many ships that by rage of wind and weather are
+inforced to come that waie, are either swallowed vp by the waues, or throwne against the
+rocks to their vtter danger and ruine. The greatest rage of this confluence is at a place called
+Corebrecke, where it will either sinke, or at the least wise draw any ship vnto it, though it be
+a full mile distant from the same.</p>
+	  </div>
+<div n="11" type="chapter">
+<head>Of The Nature Of The Claike Geese, And Sundrie Maners Of Their Procreation, And Of The Ile Of Thule.</head>
+<!-- <head>THE ELEUENTH CHAPTER.</head> -->
+
+<p>NOW it is come to hand that I intreat of those g&eacute;ese which are ingendred by the sea, whose
+procreation hath hith rto b&eacute;en thought to haue beene made vpon trees. But the opinion is
+false, and yet sith their generation is strange indeed, I haue not a little trauelled, and with no
+small diligence indeuoured to search out the truth h&eacute;ereof, wherby I learne that their ingendrure is rather to be referred to the sea, than any thing els, if my coniecture be oughts: for
+although that they are in sundrie wise producted, yet I find the same to be performed continuallie in the sea, and not elsewhere, as shall appeere hereafter. All tr&eacute;es cast into that
+element in processe of time become wormeaten, and in the holes thereof are the said wormes
+to be found, though verie little and small in comparison to that they be afterward) to be perceiued at the first. In the beginning, these worms doo shew their heads and f&eacute;et, and last of
+all their plumes &amp; wings. Finallie when they are come to the iust measure and quantitie of
+g&eacute;ese, they flie in the aire as other foules doo.</p>
+<p>This was notablie prooued in the yeare of Grace 1490, in sight of many people, beside
+the castell of Peslego, whither the bodie of a great tr&eacute;e was brought by working of the sea.
+This tr&eacute;e being taken, it was carried to the lord of the soile, who soone after caused it to be
+slit in sunder with a saw: which being doone, it is incredible to s&eacute;e, what a multitude of
+wormes came out of their holes. Of these also some appeered as if they had b&eacute;ene but new
+shapen, diuers had head, foot and wings, but no feathers, the rest were formed into perfect
+foules. At last when the people had gazed theron by the space of an whole daie, they carried it to saint Andrewes church beside Tire, where the said blocke remains still to be seene.
+
+<!--<fw place=bot-left>"VOL. V."</fw>--><!--<fw place=bot-center>"D"</fw>--><!--<fw place=bot-right>"Within"</fw>-->
+
+
+<pb n="18"/>
+
+<!--<fw place=top-left>"18"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+Within two yeeres after there hapned such another tr&eacute;e to come into the firth of Tay beside
+Dund&eacute;e, wormeaten and full of yoong g&eacute;ese after the same maner: the third was s&eacute;ene in
+the hauen of Leith beside Edenburgh: and also within a few yeeres, in like sort a ship named
+the Christopher, after she had lien thr&eacute;e y&eacute;eres at anchor in one of these Iles, was broght to
+Leith, where bicau&sacute;e hir timber was found to be rotten she was taken in sunder, and in hir
+k&eacute;ele were found infinite holes as if they had beene eaten with wormes, or bored with a
+wimble, and each one of them filled with such creatures as I haue said before.</p>
+<p>H&eacute;ere if any man will alledge that the Christopher was builded of such timber onelie as
+grew in these Iles, and that all roots and trees there growing, are of such nature as in their
+corruption doo turne into these foules, I will disprooue his assertion by one notable example
+shewed before mine eies. Maister Alexander Galloway parson of Kinkell, was with vs in
+these Iles, &amp; giuing his mind with attentiue diligence to search out a full resolution with vs
+of these obscure and hidden matters, it hapned on a time that he tooke vp a branch of Alga,
+called in Scotish, Seatangle, which hanged full of muskle shels from the root euen to the
+verie top. Being also desirous to s&eacute;e what was in them, he grew to be more astonished than
+before: for when he had opened one or two of them, he saw no fish but a foule perfectlie
+shapen, fullie answering to the capacitie of the shell.</p>
+<p>Finallie, knowing that I was verie inquisitiue of these and the like rare nouelties, he came
+hastilie with the said hearbe &amp; shewed it vnto me, who found no lesse by experience than I
+before reported. By these and many other reasons and examples I cannot beleeue that these
+Claiks (or Barnacls as I call them) are producted either by the qualities of the tr&eacute;es or the
+roots thereof, but onelie by the nature of the sea, which is the verie cause and productrix of so
+manie wonderfull creatures. Furthermore, bicause the rude and ignorant people saw oftentimes the fruits that fell from tr&eacute;s, which stood neuer in the sea, conuerted within short time
+into g&eacute;ese, they bel&eacute;eued that these g&eacute;ese grew vpon tr&eacute;es, hanging by their nebs as apples and
+other fruit doo by their stalks, but their opinion is vtterlie to be reiected. For so soone as
+these apples or fruit fall from the tr&eacute;e into the sea, they grow first to be wormeaten, and in
+processe of time to be conuerted into g&eacute;ese.</p>
+<p>Thus haue I spoken sufficientlie of the Iles of the Hebrides adiacent vnto the realme of
+Scotland, and therewithall would shut vp my discourse of the same, were it not that I
+haue somewhat to say also of Thule, not vnknowne vnto the Romans, as may appeare by
+Tacitus, who telleth how the Romane nauie by the commandement of Agricola, was sent to
+view the coasts of the whole Iland of Britaine, and at their returne reported how they had
+s&eacute;ene the Thule, with other Ilands lieng about the same. Ptolome writeth that the Ile of
+Thule is one of the Shetland Iles, which lie n&eacute;ere vnto Norwey, and beyond the Orchades;
+but this cannot be prooued so by late experience: for Thule is manie miles distant from Shetland. Some say that Thule is the same which we call Island : other write that it is the last
+Ile of the ocean sea, and so is Island, which lieth in the cold frostie sea, beyond the Artike circle
+toward the north pole. The people of Island because no corne groweth among them, liue
+onelie by fish, which they drie and powder so small as meale dooth come backe from the
+mill, afterward they mix it with water, and worke it vp for bread.</p>
+	  </div>
+
+<div n="12" type="chapter">
+<head>Chapter 12: Of The Description Of Orkeney, And Shetland, With Sundrie Other Small Iles, And Of The Maners And Conditions Of The People Dwelling In The Same.</head>
+<!-- <head>THE TWELFE CHAPTER.</head> -->
+
+<p>BEYOND the Iles of Scotland lie those of Orkeney, partlie toward the northwest, and partie
+toward the Almain seas. The principall Ile of these is called Pomonia, wherein is a bishops
+s&eacute;e, and two strong castels. In these groweth no wheat, they are in like sort void of wood,
+
+<!--<fw place=bot-right>"howbeit"</fw>-->
+
+
+<pb n="19"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"19"</fw>-->
+
+
+howbeit all other graine groweth there verie plentifullie, they be without all venemous beasts
+also, neither can such as are brought thither liue anie while, more than in Ireland, which susteineth no creature that is aduersarie to mankind. Ouer and beside this, there are no frogs: as for
+&eacute;eles they are seldome found and to be seene in the Orchades. Hauing thus fallen into the
+ment n of Irel nd, I thinke it good among diuers other rare gifts of nature, to remember
+one thing that I haue prooued by experience to be done there (although the tractation of
+Ireland and hir commodities apperteine not to this place) which farre passeth all that euer I
+haue read in bookes.</p>
+<p>Certes there is a loch, lin, or poole there, n&eacute;ere vnto the which by manie miles, there
+groweth neither herbe nor tr&eacute;e; howbeit such is the qualitie of this water, that if stake be
+pitched in the same, the nature thereof dooth within one y&eacute;eres space alter and change exceedinglie, for that part thereof which standeth in the ground is conuerted into hard stone,
+the same that is inuironed with water turneth into tough iron, onelie that portion which is
+aboue the said element reteining hir former wooddie substance, whereby it is often seene how
+in one and the same bodie, thr&eacute;e distinct substances are found, that is to say, stone, iron, and
+wood, which farre exc&eacute;edeth all credit. But to returne againe to our Orchades, whereof
+things of little or no lesse importance are to be rehersed, for sith there is great abundance of
+barley whereof they make the strongest ale that is to be found in Albion, and thereto knowne,
+that they are the greatest drinkers of anie men in the world; yet was there neuer drunken or
+man disguised with drinke s&eacute;ene there, neither anie foole, or person otherwise bereft of his wits
+through frensie or madnes. There is herevnto small vse of physicke: for mankind liueth
+there most commonlie vnto extreame age in sound and perfect health, whose bodies also
+are of strong constitution and verie white of colour.</p>
+<p>The ewes that are to be found in these Ilands haue for the most part two or thr&eacute;e lambs a
+p&eacute;ece at euerie eaning, and therewithall they haue in this countrie such plentie of foules both
+wild and tame, as the like number againe is not to be found in Britaine. Their horsses are
+litle greter than the French asses, but in their labour they exc&eacute;ed all other. What should I
+speake of the plentie of fish there to be had, which passeth all credit? among which there is
+one sort greater than anie horsse, of a maruellous and incredible sluggish desire to sl&eacute;epe.
+This fish when sh&eacute;e prouideth to sleepe, fastneth hir huge teeth vpon some crag that lieth
+aboue the water, and then slumbreth or falleth into a most sound rest, which the seafaring
+men espieng, they foorthwith cast anchor, and then letting downe their ship-boats, they conueie themselues to the fish, and bore a great hole through hir taile, wherevnto they put one
+end of a cable, and so make it sure; the other end is fastened to a great anchor, which is let
+fall of purpose into the sea, and thus is their enterprise attempted yer long to be atchiued.
+For after this wound, it is not long yer the fish awaketh, who f&eacute;eling hirselfe to be hurt,
+leapeth at once into the sea, thinking to hide and shrowd hir in the d&eacute;epes: but being staid by
+the weight of the anchor, and indeuouring in vaine to breake the cable, she laboureth so vehementlie, that at the last she windeth hir selfe out of hir skin (for the which she is commonlie taken) and soone after also turneth vp hir bellie, y&eacute;elding hirselfe vnto the waues, and hir
+bodie to the mariners, who make an excellent oile of hir grease, and passing strong cables of
+hir hide or skin. Certes such is the force of rope made of the skin of this fish, that they
+will hold at a plunge no lesse than the Spanish sparto. Herein also they exc&eacute;ed the same, in
+that they will continue verie long without fretting asunder.</p>
+<p>An hundred miles beyond the Orchades are the Shetland Iles, whose chiefe commodities
+stand onelie by fish which is dried in the sun. There are brought also into Scotland out of
+these Ilands great store of sh&eacute;epes felles, oxe hides, gotes skinnes, and cases of martirnes dried
+in the sunne. And in the same maner the merchants of Holland, Zeland and Germanie,
+fetch them y&eacute;erelie by barter and exchange for other common and necessarie wares, with the
+people of that nation, who for maners and conditions resemble much the Orchanois. The
+same in like sort that is said of the Orchanois, concerning drunkennes and frensie, is verified
+on them, as is also their length of life, although not in so rare maner: sith these in stead of
+
+<!--<fw place=bot-center>"D 2"</fw>--><!--<fw place=bot-right>"strong"</fw>-->
+
+
+<pb n="20"/>
+
+<!--<fw place=top-left>"20"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+strong ale, content themselues with water, and verie slender diet. Beyond the Shetlands
+there are diuerse other Ilands of like condition, but without corne and all maner of flesh to
+f&eacute;ed vpon. These drie their fish in the sunne, and when they are through stiffe, they grind
+them to small powder, which they worke vp with water into loaues, and so vse the same in lieu
+of other bread. Their firing consisteth of the bones of such fishes as they take, and yet they
+content themselues in such maner with this their poore kind of liuelode, that they thinke their
+estate most happie in respect of such as inhabit in the maine.</p>
+<p>Certes there is no quarrelling amongst these for wealth or gaine, but each one prouideth such
+store of fish in summer which he taketh himselfe, as shall find his familie, or k&eacute;epe his house
+in winter. They are void of all ambitious mood, and neuer troubled with ciuill or forren
+warres, as men that d&eacute;eme firme peace and quietnesse, with mutuall loue and amitie, to be the
+chiefe felicitie to be sought for in this life, and to remaine herein, each one to his power dooth
+shew his whole indeuour. This finallie is to be added vnto their commendation, that they are
+simple, plaine, void of craft, and all maner of serpentine subtiltie, which endeth commonlie
+with misch&eacute;efe, and reigneth in the maine. Once in the y&eacute;ere there commeth a priest vnto
+them from Orkeney, (of which diocesse they are) who ministrcth vnto them the sacrament
+of baptisme, and after a certeine time (hauing taken vp in the meane time his tithes in fish,
+which is their sole increase, and verie trulie paid) he returneth home againe the same way
+that he came.</p>
+<p>If anie gifts of nature are to be numbred as parcels of worldlie riches and renowme, they are
+not without these also: for the people of these Iles are lustie, faire, strong of bodie, and high
+of stature, so that nature hath not failed to indue them with these things, and that in most excellent maner. What should I say of their health, which is and may be preferred aboue all treasure, as they well know that are oppressed with long and gr&eacute;euous infirmities ? For here
+among these men, you shall very seldome heare of sickenesse to attach anie, vntill extreame
+age come that killeth them altogither, and this is that exceeding benefit naturallie appropried
+vnto their carcases. As for their quietnesse of mind, it is alwaies such as is constant, &amp; vnchangeable, and therefore incomparable vnto any riches or huge masse of worldlie treasure.</p>
+<p>Herevnto furthermore, if it be true riches (as it is in d&eacute;ed) for ech one not to couet other mens
+goods, but to content himselfe with that which is his owne, and not to stand in need of anie
+thing, can anie man be found in anie other region more rich and fortunate than the Shetland
+men and these Ilanders? Finallie, if those be the true honors, and reuerend duties which the
+obedient sonne with great sinceritie and void of all flatterie, dooth shew vnto his good parents,
+and wherewithall the best sort doo maruellouslie reioise and delite themselues: and that these
+are also not wanting in these regions, can we iustlie say that these men doo lacke anie thing,
+or shall we not rather affirme with great assurance, that they rather stand in need of nothing
+that anie mortall man can iustlie wish or desire?</p>
+<p>But if there be anie man that will accuse me of vntruth in the recitall of these things, as
+one that lieth lowd and by authoritie of a people dwelling far off, for so much as I my selfe
+was neuer in those Ilands, he shall vnderstand that I learned all these things of the reuerend father Edward bishop of the Orchades, with whome one of these Ilanders dwelled, who not onelie
+made a like rehearsall of these things with his owne mouth, but also verified the same in his
+owne person, for his height far passed the common stature of men, thereto he was excellentlie well featured in his lims, so white of skin ouer all, that he might contend in beautie with
+anie ladie of the land, and finallie so white and strong of bodie, that no man in all those quarters durst run or wrestle with him. Hereby also we may s&eacute;e, how far they are deceiued which
+iudge them to be barbarous, and miserable creatures, that inhabit far from the tropike lines, for
+there are no people more happie than those that dwell in these quarters, as I haue proued
+alreadie.</p>
+<p>Furthermore, among the rocks and crags of these Ilesgroweth the delectable amber, called<note place="marg">See <emph>Matthiolus</emph> vpon the first booke of <emph>Dioscorides capite de populo alba &amp; nigra.</emph></note>
+Electrum, Chrysolectrum, or (as Dioscorides saith) Pterygophoron, indued with so vehement
+an attractiue force, that being chafed it draweth straw, flox, and other like light matter vnto
+
+<!--<fw place=bot-right>"it."</fw>-->
+
+
+<pb n="21"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"21"</fw>-->
+
+
+it. This gum is ingendred of the sea froth, which is throwen vp by continuall repercussion of
+crags and rocks against the sea walls, and through perpetuall working of the waues groweth in
+time to become tough as giue, till it fall at the last from the rocke againe into the sea. Such
+as haue often viewed and marked the generation of this gum, whilest it hangeth on the rocke,
+affirme it to be like a froth and bubble of water without all massie sadnesse, because that as
+yet it is not sufficientlie hardened by the working of the element. Sometimes the Seatangle<note place="marg">Alga.</note>
+is found inuironed also withail, because it is driuen hither and thither by the working of the
+waues, and so long as it fl&eacute;ets to and fro in this maner, so long is it apt to cleaue to anie thing
+that it toucheth.</p>
+<p>Two yeares before I wrote this booke, there came a great lumpe of amber into Buchquhane,
+in quantitie so big as anie horsse, which the heardmen that kept their cattell neere hand caught
+vp, &amp; not knowing in d&eacute;ed what it was, they caried it home, and threw a portion thereof into
+the fire: finallie, perceiuing a sw&eacute;et and delectable sauour to proc&eacute;ed from the same, they ran
+by &amp; by to the priest of the towne where they dwelled, telling him how they had found a p&eacute;ece
+of stuffe which would serue verie well in stead of frankincense, wherewith to perfume his saints
+or rather Idols in the church. These men supposed that sir Iohn had b&eacute;ene more cunning
+than themselues, but contrarie to their expectation, it fell out that he was no lesse vnskilfull &amp;
+void of knowlege than they; and therefore refusing the whole lumpe, he tooke but a small
+portion thereof, and returned the rest vnto them, whereby it came to little proofe and lesse
+gaine among the common sort, who suffered it to perish by reason of their vnskilfulnesse.
+Certes when they brake it in peeces, it resembled in color vnto the purest gold, &amp; shined as
+if it had b&eacute;ene the laie or flame of a candle. Herein also the prouerbe was proued true, that
+the sow recks not of balme. But so soone as I vnderstood of the matter, I vsed such diligence, that one portion thereof was brought to me at Aberden. And thus much of the
+Hebrides, Orchades, and Shetland Iles subiect vnto the Scotish regiment.</p>
+<p>I might (no doubt) haue made rehersall of diuers other strange things woorthie the noting in this behalfe: but I haue made choise onelie of the most rare and excellent, and so
+would finish this description, were it not that one thing hath fraied me right pleasant to be
+remembred, as an vncouth &amp; strange incident, whereof maister Iames Ogilbie ambassadour
+from Iames our king (among other) vnto the king of France, hath certified me, and whereof
+he had experience of late, at such time as he was constreined by tempest of wether to get to
+land in Norweie. Thus standeth the case, being driuen (as I said) vpon the shore of Norweie, he and his companie saw a kind of people ranging vp &amp; downe in the mounteins
+there, much like vnto those which diuers pictures giue foorth for wild men, hearie and vglie
+to behold. In the end being aduertised that they were sauage and wild beasts; yet neuerthelesse deadlie enimies to mankind: they vnderstood therevnto, that although in the day time
+they abhorred and feared the sight of man, yet in the night they would by great companies
+inuade the small villages &amp; countrie townes, killing and sleaing so manie as they found, or
+where no dogs were kept to put by their rage and furie.</p>
+<p>Certes such is their nature, that they stand in great feare of dogs, at whose barking and sight
+they flie and run away with no small hast and terror, wherefore the inhabitants are inforced
+to cherish great numbers of the said beasts, thereby to k&eacute;epe off those wild men that otherwise would annoy them. They are morouer of such strength, that sometimes they pull vp
+yoong tr&eacute;es by the roots to fight withall among themselues. The ambassadours s&eacute;eing these
+vncouth creatures, were not a little astonished, and therefore to be sure from all inuasion, procured a strong gard to watch all night about them, with great fiers to giue light ouer all that
+quarter, till on the morrow that they tooke the sea, and so departed thence. Finallie, the
+Norwegians shewed them, that there was another people not far off, which liued all the summer time in the sea like fish, &amp; fed of such as they did catch, but in the winter half (because
+the water is cold) they preied vpon such wild beasts as fed on the mounteins, which comming
+downe from the snowie hils to grase in the vallies, they killed with darts and weapons, and
+
+<!--<fw place=bot-left>"2"</fw>--><!--<fw place=bot-right>"caried"</fw>-->
+
+
+<pb n="22"/>
+
+<!--<fw place=top-left>"22"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+caried vnto their caues. In this exercise also they tie little boords to their f&eacute;et, which beare
+them vp from sinking into the snow, and so with a staffe in their hands they make the better shift to clime vp and come downe from the crags &amp; mounteins, whereof in that region
+there is verie great plentie and abundance.</p>
+	  </div>
+<div n="13" type="chapter">
+<head>Chapter 13: Of The Maners Of The Scots In These Daies, And Their Comparison With The Behauiour Of The Old, And Such As Liued Long Since Within This Iland.</head>
+<!-- <head>THE XIIJ. CHAPTER.</head> -->
+
+<p>FORSOMUCH as diuers noble men haue desired me to shew apart the old maners of the
+S&cacute;ots touched in my historie, to the end it may be knowne how far our nation in these present daies are different in their maners and behauiour from those of our forefathers, and here.
+vnto although I assure my selfe alreadie that the reuealing of these things will procure vnto
+me the hatred of sundrie woorthie or renowmed personages (of which few will y&eacute;eld to heare
+their doings touched or their errours reproued) yet because I owe such duetie and seruice vnto
+those that haue made this request vnto me, and least I should seeme ingrate not to hearken
+vnto them in this behalfe; I haue condescended to the performance of their desires, and so
+much the rather, for that they alledge how it will be verie profitable vnto all the readers, but
+especiallie such as are not immoderatlie giuen ouer vnto their owne affections, nor so wholie
+drowned in their owne sensualitie and pleasures, but vpon consideration of wholesome admonition will be verie willing to leaue whatsoeuer offendeth in them.</p>
+<p>First of all therefore, I will declare what vsages haue b&eacute;ene among our elders both in time
+of warre and peace, and by what wisedome and industrie they haue preuailed so long time
+against such and so manie mightie aduersaries, as first the Britains, then the Saxons, next of all
+the Danes which haue entered into this Iland with huge armies to spoile and subdue the same.
+Furthermore, I will set downe with so much breuitie as I can, how the falling by little and
+little from the frugalitie and customs of their forefathers, their vertue and force also began in
+like order to decaie. And finallie how in these daies either by the clemencie of our neighbours, or by their delicat negligence rather than by our owne prowesse, we liue in securitie,
+and thereby as it were ouerwhelmed and wrapped vp in all avarice and excesse, whereinto
+our want of exercise and martiall prowesse dooth maruellouslie impell vs.</p>
+<p>Certes I bel&eacute;eue that by this meanes such as are of the more couragious sort (&amp; yet reteining a sauour of the temperancie of their elders) will reioise to heare their manhood &amp;
+great prowesse commended in this wise, as others of the contrarie sect (in seruile maner addicted to gather goods, and spend their times in idle excesse and riot) s&eacute;eing their errors
+iustlie reprehended, and the dishonor gotten thereby openlie reuealed, will the rather addresse themselues to reformation of their estate, thereby to recouer the ancient renowme of
+their forefathers, in answering to their prowesse, than proue a reproch vnto their successours,
+through their lewd behauiours neuer to be forgiuen. This I protest before all men, that whatsoeuer I shall speake of the euill maners of our times, I doo not meane it vnto all, but those
+onlie whome blind selfe-loue, couetousnes, intemperancie, excesse and abuse of all Gods good
+gifts haue so touched, that they deserue much more to be reprehended than I will vouchsafe
+to attempt in this my lateward treatise. Therefore if anie man shall thinke himselfe to be rubbed on the gall by me, I counsell him that he conceale not his infirmitie, by s&eacute;eking reuenge on other men, but rather indeuour to procure the remedie in first acknowledging his
+misdemeanors, which is the one and better halfe of his cure.</p>
+<p>Our elders although they were right vertuous both in warre abroad, and at home in peace,
+were yet neuerthelesse in conuersation &amp; behauiour verie temperat, which is the founteine &amp;
+originall of all vertues. In sl&eacute;epe they were competent, in meate and drinke sober, and 
+
+<!--<fw place=bot-right>"tented"</fw>-->
+
+
+<pb n="23"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"23"</fw>-->
+
+
+contented with such food as was readie at hand and prepared with little cost. Their bread consisted of such stuff as grew most readilie on the ground, without all maner of sifting and
+bolting, whereby to please the palate; but baked vp as it came from the mill without anie
+such curiositie, which is a great abasing of the force thereof vnto our dailie nourishment.
+The flesh whereon they chiefelie fed, was either such as they got by hunting, wherein they
+tooke great delight, and which increased not a little their strength and nimblenesse, or else
+such tame cattell as they bred vp at home, whereof b&eacute;efe was accompted the principall, as
+it is yet in our daies, though after an other maner and far discrepant from the vse and custome
+of other countries. The stirkes or yoong b&eacute;efets vngelded, we either kill yoong for veale,
+or geld, to the end that they may serue afterward for tillage in earing vp of the ground, but
+the cowcalfes and heifers are neuer killed till they be with calfe, for then are they fattest and
+most delicious to the mouth. The common meat of our elders was fish, howbeit not onlie or
+somuch for the plentie thereof, as for that our lands laie often wast and vntilled, because of
+the great warres which they commonlie had in hand. They brake also their fast earlie in the
+morning with some slender repast, and so continued without anie other diet vntill supper
+time, in which they had but one dish, whereby it came to passe, that their stomachs were
+neuer ouercharged, nor their bones desirous of rest through the fulnesse of their bellies. At
+such time as they determined of set purpose to be merie, they vsed a kind of Aquauite void of
+all spice, and onelie consisting of such hearbs &amp; roots as grew in their owne gardens, otherwise their common drinke was ale: but in time of warre, when they were inforced to lie in
+campe, they contented themselues with water as rediest for their turnes. Ech souldier also
+had so much meale as might serue him for a daie which he made vp in cakes, and baked
+on the coles, as the Romans sometimes vsed to doo, and the emperour Caracalla himselfe
+(as Herodian hath remembred.) Seldome did they eate anie flesh in their tents, except they
+got it from their aduersaries; such as they had likewise was eaten halfe raw, because they
+supposed the iuice thereof so vsed to nourish verie abundantlie. But fish was much more
+plentifull amongst them, especiallie when they wanted their vsuall preies, or could not atteine vnto them.</p>
+<p>They brought furthermore from their houses to the field with them, a vessell of butter,
+cheese, meale, milke, and vineger tempered togither as a shoot-anchor against extreme hunger, on which they would f&eacute;ed and sucke out the moisture, when other prouision could not
+be gotten. In like maner, whensoeuer they had entred into league and amitie with their enimies, they would not liue in such securitie, that thereby they would suffer their bodies &amp;
+forces to degenerat, but they did keepe themselues in their former actiuitie and nimblenesse
+of lims, either with continuall hunting (a game greatlie esteemed amongest our ancestors) or
+with running from the hilles vnto the vallies, or from the vallies vnto the hilles, or with wrestling, and such kinds of pastime whereby they were neuer idle. Their heads were alwaies shauen
+after the maner of the ancient Spaniards, with a little tuft of heare onelie left on their forparts,
+and neuer couered, except when they were troubled with sicknesse, by which means it came
+to passe, that few of our nation in old time was seene to be bald and hearelesse. They went
+also barefooted, or if they had anie shooes, they dipped them first in the water yer they did put
+them on, especiallie in winter when sharpest weather shewed it selfe, to the end that the soles
+of their f&eacute;et (which were well hardned in summer with heat and in winter with cold) might be
+more strong and able to susteine great labor and dailie trauell.</p>
+<p>Their apparrell was not made for brauerie and pompe, but as shuld s&eacute;eme best to couer their
+bodies, and serue their appointed vses, their hosen were shapen also of linnen or woollen,
+which neuer came higher than their knees, their br&eacute;eches were for the most part of hempe,
+clokes also they had for winter made of course wooll; but in the summer time they ware of
+the finest that could be gotten. They slept moreouer either vpon the bare floore or pallets
+of straw, teaching their children euen from their infancie to eschew ease, and practise the like
+hardnesse; and sith it was a cause of suspicion of the mothers fideltie toward hir husband,
+to seeke a strange nurse for hir children (although hir milke failed) each woman would take
+
+<!--<fw place=bot-right>"intollerable"</fw>-->
+
+
+<pb n="24"/>
+
+<!--<fw place=top-left>"24"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+intollerable paines to bring vp and nourish hir owne children. They thought them furthermore not to be kindlie fostered, except they were so well nourished after their births with
+the milke of their brests, as they were before they were borne with the bloud of their owne
+bellies, nay they feared least they should degenerat and grow out of kind, except they gaue
+them sucke themselues, and eschewed strange milke, therefore in labour and painfulnesse
+they were equall, &amp; neither sex regarded the heat in summer or cold in winter, but trauelled
+barefooted, and in time of warres the men had their cariages and victuals trussed behind them
+on their horsses, or else vpon their owne shoulders without refusall of anie labour inioined
+vnto them by their capteins.</p>
+<p>If it hapened them at anie time to be vanquished, they fled with such speed to the mounteins, that no horsse might ouertake them, and verie oft escaped. The violence that was
+doone to anie one of them, was reputed common to all, &amp; such was their deadlie fude conceiued
+in these cases, that vntill they had requited the like with more extremitie, they would neuer
+be quiet nor let go their displeasure. The noblest and most couragious gentleman would
+soonest desire to be placed in the fore ward, where his vassalage or seruice &amp; manhood
+should readilest be s&eacute;ene, and such was the friendship of the nobilitie amongst themselues,
+that whilst they contended which of them should be most faithfull and friendlie to other,
+they would oft fall out, and quarell one with another. Sometimes it happened that their
+capteine was beset with extreme perill, or peraduenture some other of the nobilitie, in which
+cases they that were of his band would suddenlie rush in through the thickest of their enimies
+vnto him, and deliuer him, or else if they could not so doo, they would altogither lose their
+liues with him, thinking it a perpetuall note of reproch to ouerliue their leader.</p>
+<p>The graues and sepulchers of our noble men had commonlie so manie obelisks and spires
+pitched about them, as the deceassed had killed enimies before time in the field. If anie
+souldier had beene found in the field without his flint and tinder box, or had walked or gone
+vp and downe with his sword at his side, and not naked in his hand, for then vsed they
+light armour for the most part, he was terriblie scourged: but he that sold or morgaged his
+weapon, was forthwith cut from his companie, and banished as an exile; he that fled or went
+from the battell without leaue of his capteine, was slaine wheresoeuer he was met afterward,
+without anie iudgement or sentence, and all his goods confiscated to the prince. Their light
+armour in those daies consisted of the lance, the bowe, the long sword which hanged at the
+side of the owner, and thereto a buckler, but afterward heauier armour came into generall
+vsage.</p>
+<p>In these daies also the women of our countrie were of no lesse courage than the men,
+for all stout maidens &amp; wiues (if they were not with child) marched as well in the field as
+did the men, and so soone as the armie did set forward, they slue the first liuing creature
+that they found, in whose bloud they not onelie bathed their swords, but also tasted therof
+with their mouthes, with no lesse religion and assurance conceiued, than if they had alreadie
+b&eacute;ene sure of some notable and fortunate victorie. When they saw their owne bloud run
+from them in the fight, they waxed neuer a whit astonished with the matter, but rather
+doubling their courages, with more egernesse they assailed their enimies. This also is to
+be noted of them, that they neuer sought anie victorie by treason, falshood, or sleight, as
+thinking it a great reproch to win the field any otherwise than by meere manhood, prowesse
+and plaine dealing.</p>
+<p>When they went foorth vnto the wars, each one went with the king of his owne cost
+(except the hired souldior) which custome is yet in vse. If any were troubled with the
+falling euill, or leprosie, or fallen frantike, or otherwise was out of his wits, they were diligentlie sought out: and least those diseases should passe further by infectuous generation
+vnto their issue &amp; posteritie, they gelded the men. But the women were secluded to some
+od place far off from the companie of men, where if she afterward happened to be gotten
+with child, both she and the infant were run through with the lance. Gluttons and raueners, droonkards, and egregious deuourers of victuals were punished also by death, first
+
+<!--<fw place=bot-right>"being"</fw>-->
+
+
+<pb n="25"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"25"</fw>-->
+
+
+being permitted to deuoure so much as they listed, and then drowned in one fresh riuer or
+other.</p>
+<p>Furthermore, as iustice in time of war was commonlie driuen to perke, so in daies of
+peace our cuntriemen that offended, were oft seuerelie punished and with inconuenient rigor.
+For they well considered that after their people should returne &amp; come home againe from
+the warres, they would be giuen to so many enormities, that the same their excesse should
+hardlie be restreined but by extreame seueritie: such also was their nature, that so soone as
+they knew themselues guiltie of any offense committed against the estate or commonwealth,
+their first attempt was to set discord amongst the p&eacute;eres and princes of the realme, neuerthelesse when they are gentlie intreated, and with courteous moderation, they are found to
+be verie tractable and pliant vnto reason: in priuate bargains &amp; contracts they are so willing
+to giue euerie man his own, that they will y&eacute;eld the more. And so farre is it growne into
+a custome euen in these our daies, that except there be some surplusage aboue the bare
+couenant, they will breake off and not go forwards with the bargaine.</p>
+<p>They vsed at the first the rites and maners of the Aegyptians from whence they came, and
+in all their priuate affaires they vsed not to write with common letters, as other nations did;
+but rather with ciphers and figures of creatures made in maner of letters, as their epitaphes
+vpon their toomes and sepulchers remaining amongst vs doo hitherto declare. Neuerthelesse
+in our times this hieroglyphicall maner of writing (I wot not by what meanes) is perished
+and lost, and yet they haue certeine letters proper vnto themselues, which were somtime in
+common vse: but among such as reteine the ancient speach, they haue their aspirations,
+dipthongs, and pronunciation better than any other. The common sort are not in vre withall, but onlie they which inhabit in the higher part of the countrie, and sith they haue their
+language more eloquent and apt than others, they are called poets; they make also poets
+with great solemnitie and honour, being borne out therein by the authoritie of the prince.
+Besides the skill also of many other arts and sciences, whose rules and methods are turned
+into the said language, are giuen by tradition from their elders, they ch&eacute;eflie excell in physicke, wherein they go far beyond manie other, who learning of them the natures and
+qualities of such hearbs as grow in those quarters, doo heale all maner of diseases euen by
+their onelie application.</p>
+<p>Certes there is no region in the whole world so barren &amp; vnfruitfull, through distance from
+the sun, but by the prouidence of God all maner of necessaries for the sustentation of mankind dwelling there are to be had therein, if the inhabitants were such as had any skill how
+to vse the same in order. Neuerthelesse our elders, which dwelled continuallie vpon the
+marches of England, learned the Saxon toong through continuall trade of merchandize and
+hazard of the wars long since, whereby it came to passe that we neglected our owne language,
+&amp; our owne maners, and thereto both our ancient order in writing and speaking is vtterlie
+left among vs, that inhabit neere vnto them; whereas contrariwise those that dwell in the
+mounteins reteine still their ancient sp&eacute;ech and letters, and almost all their old rites, whervnto in time past their forefathers haue b&eacute;ene accustomed. One thing hereof also may
+euidentlie be s&eacute;ene (for an example) in their boats which they call carrocks, for being made
+of osiers and couered with bull hides, they vse to passe and repasse with them ouer their
+riuers and waters in catching of samons, and when they haue doone, they beare them on
+their backs vnto what place soeuer it pleaseth them.</p>
+<p>But we will now leaue the maners of our ancient friends, and intreat of our later countriemen. In processe of time therefore, and ch&eacute;eflie about the daies of Malcolme Cammor,
+our maners began greatlie to change and alter. For when our neighbors the Britons began,
+after they were subdued by the Romans, to wax idle and slouthfull, and therevpon driuen
+out of their countrie into Wales by their enimies the Saxons, we began to haue aliance (by
+proximitie of the Romans) with Englishmen, speciallie after the subuersion of the Picts, and
+through our dailie trades and conuersation with them, to learne also their maners, and
+therewithall their language, as I haue said alreadie. Heereby shortlie after it came also to
+
+<!--<fw place=bot-left>"VOL. V."</fw>--><!--<fw place=bot-center>"E"</fw>--><!--<fw place=bot-right>"passe,"</fw>-->
+
+
+<pb n="26"/>
+
+<!--<fw place=top-left>"26"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+passe, that the temperance and vertue of our ancestors grew to be iudged worthie of small
+estimation amongst vs, notwithstanding that a certeine idle desire of our former renowme
+did still remaine within vs.</p>
+<p>Furthermore as men not walking in the right path, we began to follow also the vaine
+shadow of the Germane honor and titles of nobilitie, and boasting of the same after the
+English maner, it fell out yer long, that wheras he in times past was accompted onlie honorable, which excelled other men not in riches and possessions, but in prowesse and manhood,
+now he would be taken most glorious that went loaden with most titles, wherof it came to
+passe, that some were named dukes, some earles, some lords, some barons, in which vaine
+puffes they fixed all their felicitie. Before time the noble men of Scotland were of one condition,
+&amp; called by the name of Thanes, so much in Latine as <emph>Qu&aelig;stores regij,</emph> gatherers of the kings
+duties, in English: and this denomination was giuen vnto them after their desert and merit.</p>
+<p>But how far we in these present daies are swarued from the vertues and temperance of our
+elders, I bel&eacute;eue there is no man so eloquent, nor indued with such vtterance, as that he is
+able sufficientlie to expresse. For whereas they gaue their minds to dowghtinesse, we applie
+our selues to droonkennes: they had plentie with sufficiencie, we haue inordinate excesse
+with superfluitie: they were temperate, we effeminate: and so is the case now altered with
+vs, that he which can deuoure and drinke most, is the noblest man and most honest companion, and thereto hath no p&eacute;ere if he can once find the veine, though with his great trauell
+to puruey himself of the plentifullest number of new fine and delicate dishes, and best prouoke
+his stomach to receiue the greatest quantitie of them, though he neuer make due digestion of it.</p>
+<p>Being thus drowned in our delicate gluttonie, it is a world to s&eacute;e, how we stuffe our selues
+both daie and night, neuer ceasing to ingorge &amp; powre in, till our bellies be so full that we
+must n&eacute;eds depart. Certes it is not supposed m&eacute;et that we should now content our selues
+with breakefast and supper onelie, as our elders haue doone before vs, nor inough that we
+haue added our dinners vnto their aforsaid meales, but we must haue thereto our beuerages
+and reare suppers, so that small time is spared wherein to occupie our selues in any godlie
+exercise, sith almost the whole daie and night doo scarselie suffice for the filling of our
+panches. We haue also our merchants, whose charge is not to looke out, and bring home
+such things as necessarilie perteine to the maintenance of our liues, but vnto the furniture of
+our kitchen, and these search all the secret corners of our forrests for veneson, of the aire
+for foules, and of the sea for fish, for wine also they trauell not only into France, whose
+wines doo now grow into contempt, but also into Spaine, Italie and Gr&eacute;ece: nay Affrike
+is not void of our factors, no nor Asia, and onelie for fine and delicate wines if they might
+be had for monie.</p>
+<p>In like sort they gad ouer all the world for sw&eacute;et and pleasant spices, and drugs (prouokers
+vnto all lust and licentiousnesse of behauiour) as men that aduenture their owne liues to
+bring home poison and destruction vnto their countriemen, as if the mind were not alreadie
+sufficientlie bereft of hir image of the diuinitie, but must yet more be clogged and ouerladen
+with such a franked case, therewithall to be extinguished outright, which alreadie dwelleth
+or is buried rather in such an vglie sepulchre. The bodie likewise being oppressed with
+such a heape of superfluous food, although otherwise it be indued with an excellent nature,
+cannot be able to execute his office, nor k&eacute;epe him selfe vpright, but must n&eacute;eds yeeld as
+ouercome, and to be torne in p&eacute;eces and rent with sundrie maladies.</p>
+<p>Hereof also it commeth to passe, that our countrimen trauelling into the colder regions
+are now a daies contrarie to their former vsage taken sometime with feuers, whereby their
+inward parts doo burne and parch as it were with continuall fier, the onelie cause whereof
+we may ascribe vnto those hot spices and drugs which are brought vnto vs from the hot
+countries. Others of them are so swollen and growne full of humors, that they are often
+taken suddenlie, and die of vehement apoplexies, and although here and there one or two
+recouer for a little while, yet are they but dead people, reuiuing againe, leading the rest of
+their liues like shadows, and walking about as if they were buried alreadie.</p>
+
+<!--<fw place=bot-right>"Our"</fw>-->
+
+
+<pb n="27"/>
+
+<!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>--><!--<fw place=top-right>"27"</fw>-->
+
+
+<p>Our youth also following these vnhappie steps of their parents, giue themselues wholie to
+lust and licentiousnesse, hauing all vertue and knowledge in contempt, and eschewing the
+same as a pestilence and subuersion of their pleasures, wherevnto they applie themselues as
+vnto the most excellent trade. But sithens they are now inured, and as it were haunted with
+these vices, when time dooth come of seruice, and that our countrie shall stand in need of
+manhood, these will become so effeminate, that they must now ride on horssebacke as clad
+in heauie armor, for on foot they cannot go by reason of their fatnesse which choketh vp
+their vitall forces, neither be able to performe anie thing at all in comparison of the souereigne manhood and prowesse of their elders. So soone also as they returne home, bicause their possessions are not otherwise able to nourish them vp in pleasure and pampering
+of their mawes, they must fall to couetous and gr&eacute;edie practises, therby to inrich themselues,
+or else proue strong th&eacute;eues, or finally sowers of dissention and discord among the noble
+men, thereby to preie some commoditie.</p>
+<p>Certes these and other vices following them necessarilie, proc&eacute;ed generallie from none
+other fountaine than voluptuous life and intemperancie, the which if we would refraine,
+there is no region vnder the sunne that would proue more wholsome, lesse subiect to pestilence, nor more commodious and profitable for the sustentation of hir people. Certes I despaire not of the redresse of these things, but still hope that in short time these corrupt
+maners of my countriemen will be turned into better frame. We are not yet become impudent, neither altogither haue cast off vnshamefastnesse, sith that in a great manie some
+remainder of our ancient sobernesse and manhood dooth yet appeare, and thereto newnesse
+of life with feruent deuotion increase euerie day, through the working of the zeale of our
+christian religion in vs.</p>
+<p>This also will I adde, without offense vnto other nations, that there was neuer people more
+stedfast to my knowledge in the christian faith, nor more constant in their faithfull promises,
+than the Scots haue b&eacute;ene since their first beginning: and for a conclusion I will say more,
+not onelie for their praise, but also in exhorting them vnto perseuerance, that as our people
+now liuing doo passe their ancestors in sumptuous and curious attire, so they are more neat
+and fine in their houses, better giuen to learning, and much more magnificent in building and
+decking of their churches. God grant them also to returne to their former frugalitie, and
+that with sp&eacute;ed, Amen.</p>
+<p>&para; Hitherto haue I translated Hectors description of Scotland out of the Scotish into the
+English toong, being not a little aided therein by the Latine, from whence sometime the
+translator swarueth not a little, as I haue done also from him, now and then following the
+Latine, and now and then gathering such sense out of both, as most did stand with my purposed breuitie. Now will I set downe the description of an ancient Pict, as I haue gathered
+it out of Herodian and other, and then I will giue ouer not onelie to write more at this present, but for euer hereafter of anie historicall matters, sith I s&eacute;e that this honest kind of recreation is denied me, and all time spent about the same in these daies vtterly condemned, as
+vaine and sauouring of negligence, and heathenish impietie.</p>
+	  </div>
+<div n="14" type="chapter">
+<head>Chapter 14: The Description Of An Ancient Pict.</head>
+<!-- <head>THE XIV. CHAPTER.</head> -->
+<p>THE Pict (saith Herodian) hath generallie no vse in apparell, howbeit the nobler sort
+of them doo wrap their heads and wombs in hoops of iron, which they take for great brauerie, esteeming this kind of attire, in such as weare the same, to be a token of wealth and
+riches, and so great an ornament, as if they had worne gold or any costlie lewels. Beside
+this, and the shauing of their nether lip, they painted ouer their bodies with the images of all
+kinds of beasts, so that he was the gaiest man that had his skin most disguised in this maner.
+Certes none of them regarded to weare anie apparell, bicause they est&eacute;emed it a great glorie
+
+<!--<fw place=bot-center>"E 2"</fw>--><!--<fw place=bot-right>"to"</fw>-->
+
+
+<pb n="28"/>
+
+<!--<fw place=top-left>"28"</fw>--><!--<fw place=top-center>"THE DESCRIPTION OF SCOTLAND."</fw>-->
+
+
+to haue these paintings s&eacute;ene. In warres they were bold, and desirous to shed blood, contenting themselues (in st&eacute;ed of other armor) with a short lance, and narrow target or buckler, their swords were tied to their naked sides with a thong, and as for iacke, shirt of male, or
+helmet, they made no regard of them, bicause they would trouble them in swimming, or
+otherwise at a pinch, when they should be compelled to wade.</p>
+<p>Dion writing generallie of the whole countrie, diuideth it with Herodian into the Calidors
+&amp; Meats, saieng that the said countrie is verie sauage, their cities void of walles, and fields
+without townes: they liue moreouer (saith he) by hunting and preie, and oftentimes with
+the fruit of their tr&eacute;es: and albeit that they haue exc&eacute;eding plentie of fish, yet they eat not
+of it. They liue naked in tents, and without shooes on their f&eacute;et, their wiues are common,
+and children generallie looked vnto: they haue morouer a populous regiment, and are verie
+readie to steale: they fight in wagons, and haue little light and swift horsses, which run also
+verie swiftlie, &amp; stand at their f&eacute;et with like stedfastnesse. In the nether end of their lances
+they haue hollow bullets of brasse, in each is a little p&eacute;ece or two of iron, which ratleth
+when they shake it, and maketh a strange noise where manie of them are togither. They
+haue also narrow daggers, but ch&eacute;eflie they can susteine hunger and cold best of all men,
+and likewise sore labour: and if it happen them to hunger and haue no meat at hand, they
+will sit in the marishes vp to the chins by manie daies togither. In the woods they f&eacute;ed on
+roots or barkes of trees, and they haue a kind of meat among them, whereof if they take
+but so much as a beane, they neither hunger nor thirst in a long time after. And thus
+much of the Meats (which were the n&eacute;erest vs) and the Calidons that dwelled beyond the
+wall, and both in their prouince called Maxima Cesariensis, whereof let this suffice.</p>
+	  </div>
+<div n="15" type="chapter">
+<head>Chapter 15: The Number Of Bishops In Scotland.</head>
+<!-- <head>THE XV CHAPTER.</head> -->
+
+	    <list>
+	      <head>The Number Of Bishops In Scotland.</head>
+
+<item>THE archbishoprik of S. Andrewes</item>
+<item>Glasco</item>
+<item>Dunfalden</item>
+<item>Dunblanen</item>
+<item>Aberden</item>
+<item>Brechen</item>
+<item>Morauie</item>
+<item>Ros</item>
+<item>Whitherne</item>
+<item>Cathnes</item>
+<item>Argadie</item>
+<item>Orkenie</item>
+<item>Ymor one of the Iles which are exempt and perteine vnto the pope.</item>
+	    </list>
+	    <list>
+<head>Vniuersities.</head>
+<item>S. Andrews</item>
+<item>Aberden</item>
+<item>Glasco</item>
+	    </list>
+	    <list>
+<head>Dukedomes.</head>
+
+<item>Rothsay</item>
+<item>Albanie.</item>
+	    </list>
+	    <list>
+<head>Earledomes.</head>
+<item>Cathnes</item>
+<item>Sotherland</item>
+<item>Rosse</item>
+<item>Morauie</item>
+<item>Buchquhan</item>
+<item>Garuiach</item>
+<item>Garmoran</item>
+<item>Mar</item>
+<item>Mernis</item>
+<item>Angus</item>
+<item>Gowri</item>
+<item>Fiffe</item>
+<item>Marche</item>
+<item>Athole</item>
+<item>Stratherne</item>
+<item>Menteth</item>
+<item>Leuenox</item>
+<item>Wigton</item>
+<item>Duglasse</item>
+<item>Carrike</item>
+<item>Crawford</item>
+<item>Annandale</item>
+<item>Ourmonth</item>
+<item>Huntley.</item>
+	    </list>
+	    <list>
+<head>Viscounties</head>
+
+<item>Berwike <emph>ali&agrave;s</emph> north Berwike</item>
+<item>Roxborow</item>
+<item>Selkirke</item>
+<item>Twedale</item>
+<item>Dunfrise</item>
+<item>Niddisdale</item>
+<item>Wigton</item>
+<item>Are</item>
+<item>Lanarke</item>
+<item>Dumbritten</item>
+<item>Sterueling</item>
+<item>Louthian</item>
+<item>Clakmanan</item>
+<item>Kimos</item>
+<item>Fiffe</item>
+<item>Perth</item>
+<item>Angus</item>
+<item>Mernis</item>
+<item>Aberden</item>
+<item>Bamph</item>
+<item>Fores</item>
+<item>Inuernes.</item>
+	    </list>
+	  </div>
+	  <trailer>FINIS.</trailer>
+	</body>
+  </text>
+</TEI.2>
+
+
