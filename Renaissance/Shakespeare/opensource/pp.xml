@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersVerse PUBLIC "-//Perseus P4//DTD Perseus Verse//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersVerse.dtd" >
+%PersVerse;
+]>
+<TEI.2>
+  <teiHeader status="new" type="text">
+    <fileDesc>
+      <titleStmt>
+        <title>The Passionate Pilgrim</title>
+        <author>William Shakespeare</author>
+        <editor role="editor">W. G. Clark</editor>
+        <editor role="editor">W. Aldis Wright</editor>
+        &responsibility;
+        &fund.DLI2;
+      </titleStmt>
+      &Perseus.publish;
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>William Shakespeare</author>
+            <editor role="editor">W. G. Clark</editor>
+            <editor role="editor">W. Aldis Wright</editor>
+            <title>The Globe Shakespeare</title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <publisher>Nelson Doubleday, Inc.</publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <state unit="sequence"/>
+        <state n="chunk" unit="poem"/>
+      </refsDecl>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language id="en">English
+        </language></langUsage>
+    </profileDesc>
+    
+    <revisionDesc>
+      <change><date>19-Oct-00</date>
+        <respStmt><name>CEW</name><resp>ed.</resp></respStmt>
+        <item>
+          
+        </item></change>
+    </revisionDesc>
+  </teiHeader>
+
+<text lang="en">
+<body>
+<div1 n="1" type="sequence">
+<head>THE PASSIONATE PILGRIM</head>
+<div2 n="1" type="poem">
+<head>I.</head>
+	  <lg>
+<l>WHEN my love swears that she is made of truth,</l>
+<l>I do believe her, though I know she lies,</l>
+<l>That she might think me some untutor'd youth,</l>
+<l>Unskilful in the world's false forgeries.</l>
+<l>Thus vainly thinking that she thinks me young,</l>
+<l>Although I know my years be past the best,</l>
+<l>I smiling credit her false-speaking tongue,</l>
+<l>Outfacing faults in love with love's ill rest.</l>
+<l>But wherefore says my love that she is young?</l>
+<l n="10">And wherefore say not I that I am old?</l>
+<l>O, love's best habit is a soothing tongue,</l>
+<l>And age, in love, loves not to have years told.</l>
+<l>   Therefore I'll lie with love, and love with me,</l>
+<l>   Since that our faults in love thus smother'd be. 
+</l></lg></div2>
+<div2 n="2" type="poem">
+<head>II.</head>
+	  <lg>
+<l>Two loves I have, of comfort and despair,</l>
+<l>That like two spirits do suggest me still;</l>
+<l>My better angel is a man right fair,</l>
+<l>My worser spirit a woman color'd ill.</l>
+<l>To win me soon to hell, my female evil</l>
+<l n="20">Tempteth my better angel from my side,</l>
+<l>And would corrupt my saint to be a devil,</l>
+<l>Wooing his purity with her fair pride.</l>
+<l>And whether that my angel be turn'd fiend,</l>
+<l>Suspect I may, yet not directly tell:</l>
+<l>For being both to me, both to each friend,</l>
+<l>I guess one angel in another's hell;</l>
+<l>   The truth I shall not know, but live in doubt,</l>
+<l>   Till my bad angel fire my good one out.
+</l></lg></div2>
+<div2 n="3" type="poem">
+<head>III.</head>
+	  <lg>
+<l>Did not the heavenly rhetoric of thine eye,</l>
+<l n="30">'Gainst whom the world could not hold argument,</l>
+<l>Persuade my heart to this false perjury?</l>
+<l>Vows for thee broke deserve not punishment.</l>
+<l>A woman I forswore; but I will prove,</l>
+<l>Thou being a goddess, I forswore not thee:</l>
+<l>My vow was earthly, thou a heavenly love;</l>
+<l>Thy grace being gain'd cures all disgrace in me.</l>
+<l>My vow was breath, and breath a vapor is;</l>
+<l>Then, thou fair sun, that on this earth doth shine,</l>
+<l>Exhale this vapor vow; in thee it is:</l>
+<l n="40">If broken, then it is no fault of mine.</l>
+<l>   If by me broke, what fool is not so wise</l>
+<l>   To break an oath, to win a paradise?
+</l></lg></div2>
+<div2 n="4" type="poem">
+<head>IV.</head>
+	  <lg>
+<l>Sweet Cytherea, sitting by a brook</l>
+<l>With young Adonis, lovely, fresh, and green,</l>
+<l>Did court the lad with many a lovely look,</l>
+<l>Such looks as none could look but beauty's queen.</l>
+<l>She told him stories to delight his ear;</l>
+<l>She showed him favors to allure his eye;</l>
+<l>To win his heart, she touch'd him here and there,--</l>
+<l n="50">Touches so soft still conquer chastity.</l>
+<l>But whether unripe years did want conceit,</l>
+<l>Or he refused to take her figured proffer,</l>
+<l>The tender nibbler would not touch the bait,</l>
+<l>But smile and jest at every gentle offer:</l>
+<l>   Then fell she on her back, fair queen, and toward:</l>
+<l>   He rose and ran away; ah, fool too froward! 
+</l></lg></div2>
+<div2 n="5" type="poem">
+<head>V.</head>
+	  <lg>
+<l>If love make me forsworn, how shall I swear to love?</l>
+<l>O never faith could hold, if not to beauty vow'd:</l>
+<l>Though to myself forsworn, to thee I'll constant prove;</l>
+<l n="60">Those thoughts, to me like oaks, to thee like osiers bow'd.</l>
+<l>Study his bias leaves, and makes his book thine eyes,</l>
+<l>Where all those pleasures live that art can comprehend.</l>
+<l>If knowledge be the mark, to know thee shall suffice;</l>
+<l>Well learned is that tongue that well can thee commend;</l>
+<l>All ignorant that soul that sees thee without wonder;</l>
+<l>Which is to me some praise, that I thy parts admire:</l>
+<l>Thine eye Jove's lightning seems, thy voice his dreadful thunder,</l>
+<l>Which, not to anger bent, is music and sweet fire.</l>
+<l>   Celestial as thou art, O do not love that wrong,</l>
+<l n="70">   To sing heaven's praise with such an earthly tongue, 
+</l></lg></div2>
+<div2 n="6" type="poem">
+<head>VI.</head>
+	  <lg>
+<l>Scarce had the sun dried up the dewy morn,</l>
+<l>And scarce the herd gone to the hedge for shade,</l>
+<l>When Cytherea, all in love forlorn,</l>
+<l>A longing tarriance for Adonis made</l>
+<l>Under an osier growing by a brook,</l>
+<l>A brook where Adon used to cool his spleen:</l>
+<l>Hot was the day; she hotter that did look</l>
+<l>For his approach, that often there had been.</l>
+<l>Anon he comes, and throws his mantle by,</l>
+<l n="80">And stood stark naked on the brook's green brim:</l>
+<l>The sun look'd on the world with glorious eye,</l>
+<l>Yet not so wistly as this queen on him.</l>
+<l>   He, spying her, bounced in, whereas he stood:</l>
+<l>   'O Jove,' quoth she, 'why was not I a flood!' 
+</l></lg></div2>
+<div2 n="7" type="poem">
+<head>VII.</head>
+	  <lg>
+<l>Fair is my love, but not so fair as fickle;</l>
+<l>Mild as a dove, but neither true nor trusty;</l>
+<l>Brighter than glass, and yet, as glass is, brittle;</l>
+<l>Softer than wax, and yet, as iron, rusty:</l>
+<l>   A lily pale, with damask dye to grace her,</l>
+<l>   None fairer, nor none falser to deface her.</l>
+<l>Her lips to mine how often hath she joined,</l>
+<l>Between each kiss her oaths of true love swearing!</l>
+<l>How many tales to please me hath she coined,</l>
+<l>Dreading my love, the loss thereof still fearing!</l>
+<l>   Yet in the midst of all her pure protestings,</l>
+<l>   Her faith, her oaths, her tears, and all were jestings.</l>
+<l>She burn'd with love, as straw with fire flameth;</l>
+<l>She burn'd out love, as soon as straw outburneth;</l>
+<l>She framed the love, and yet she foil'd the framing;</l>
+<l>She bade love last, and yet she fell a-turning.</l>
+<l n="101">   Was this a lover, or a lecher whether?</l>
+<l>   Bad in the best, though excellent in neither.
+</l></lg></div2>
+<div2 n="8" type="poem">
+<head>VIII.</head>
+	  <lg>
+<l>If music and sweet poetry agree,</l>
+<l>As they must needs, the sister and the brother,</l>
+<l>Then must the love be great 'twixt thee and me,</l>
+<l>Because thou lovest the one, and I the other.</l>
+<l>Dowland to thee is dear, whose heavenly touch</l>
+<l>Upon the lute doth ravish human sense;</l>
+<l>Spenser to me, whose deep conceit is such</l>
+<l n="110">As, passing all conceit, needs no defence.</l>
+<l>Thou lovest to hear the sweet melodious sound</l>
+<l>That Phoebus' lute, the queen of music, makes;</l>
+<l>And I in deep delight am chiefly drown'd</l>
+<l>When as himself to singing he betakes.</l>
+<l>   One god is god of both, as poets feign;</l>
+<l>   One knight loves both, and both in thee remain. 
+</l></lg></div2>
+<div2 n="9" type="poem">
+<head>IX.</head>
+	  <lg>
+<l>Fair was the morn when the fair queen of love,</l>
+<l>*    *    *    *    *    *</l>
+<l>Paler for sorrow than her milk-white dove,</l>
+<l>For Adon's sake, a youngster proud and wild;</l>
+<l n="121">Her stand she takes upon a steep-up hill:</l>
+<l>Anon Adonis comes with horn and hounds;</l>
+<l>She, silly queen, with more than love's good will,</l>
+<l>Forbade the boy he should not pass those grounds:</l>
+<l>'Once,' quoth she, 'did I see a fair sweet youth</l>
+<l>Here in these brakes deep-wounded with a boar,</l>
+<l>Deep in the thigh, a spectacle of ruth!</l>
+<l>See, in my thigh,' quoth she, 'here was the sore.'</l>
+<l>   She showed hers: he saw more wounds than one,</l>
+<l n="130">   And blushing fled, and left her all alone.
+</l></lg></div2>
+<div2 n="10" type="poem">
+<head>X.</head>
+	  <lg>
+<l>Sweet rose, fair flower, untimely pluck'd, soon vaded,</l>
+<l>Pluck'd in the bud, and vaded in the spring!</l>
+<l>Bright orient pearl, alack, too timely shaded!</l>
+<l>Fair creature, kill'd too soon by death's sharp sting!</l>
+<l>   Like a green plum that hangs upon a tree,</l>
+<l>   And falls, through wind, before the fall should be.</l>
+<l>I weep for thee, and yet no cause I have;</l>
+<l>For why thou left'st me nothing in thy will:</l>
+<l>And yet thou left'st me more than I did crave;</l>
+<l n="140">For why I craved nothing of thee still:</l>
+<l>   O yes, dear friend, I pardon crave of thee,</l>
+<l>   Thy discontent thou didst bequeath to me.
+</l></lg></div2>
+<div2 n="11" type="poem">
+<head>XI.</head>
+	  <lg>
+<l>Venus, with young Adonis sitting by her</l>
+<l>Under a myrtle shade, began to woo him:</l>
+<l>She told the youngling how god Mars did try her,</l>
+<l>And as he fell to her, so fell she to him.</l>
+<l>'Even thus,' quoth she, 'the warlike god embraced me,'</l>
+<l>And then she clipp'd Adonis in her arms;</l>
+<l n="149">'Even thus,' quoth she, 'the warlike god unlaced me,'</l>
+<l>As if the boy should use like loving charms;</l>
+<l>'Even thus,' quoth she, 'he seized on my lips,'</l>
+<l>And with her lips on his did act the seizure:</l>
+<l>And as she fetched breath, away he skips,</l>
+<l>And would not take her meaning nor her pleasure.</l>
+<l>   Ah, that I had my lady at this bay,</l>
+<l>   To kiss and clip me till I run away!
+</l></lg></div2>
+<div2 n="12" type="poem">
+<head>XII.</head>
+	  <lg>
+<l>Crabbed age and youth cannot live together:</l>
+<l>Youth is full of pleasance, age is full of care;</l>
+<l>Youth like summer morn, age like winter weather;</l>
+<l>Youth like summer brave, age like winter bare.</l>
+<l>Youth is full of sport, age's breath is short;</l>
+<l>   Youth is nimble, age is lame;</l>
+<l>Youth is hot and bold, age is weak and cold;</l>
+<l>   Youth is wild, and age is tame.</l>
+<l>Age, I do abhor thee; youth, I do adore thee;</l>
+<l>  O, my love, my love is young!</l>
+<l>Age, I do defy thee: O, sweet shepherd, hie thee,</l>
+<l>   For methinks thou stay'st too long.
+</l></lg></div2>
+<div2 n="13" type="poem">
+<head>XIII.</head>
+	  <lg>
+<l>Beauty is but a vain and doubtful good;</l>
+<l n="170">A shining gloss that vadeth suddenly;</l>
+<l>A flower that dies when first it gins to bud;</l>
+<l>A brittle glass that's broken presently:</l>
+<l>   A doubtful good, a gloss, a glass, a flower,</l>
+<l>   Lost, vaded, broken, dead within an hour.</l>
+<l>And as goods lost are seld or never found,</l>
+<l>As vaded gloss no rubbing will refresh,</l>
+<l>As flowers dead lie wither'd on the ground,</l>
+<l>As broken glass no cement can redress,</l>
+<l>   So beauty blemish'd once's for ever lost,</l>
+<l>   In spite of physic, painting, pain and cost.
+</l></lg></div2>
+<div2 n="14" type="poem">
+<head>XIV.</head>
+	  <lg>
+<l>Good night, good rest. Ah, neither be my share:</l>
+<l>She bade good night that kept my rest away;</l>
+<l>And daff'd me to a cabin hang'd with care,</l>
+<l>To descant on the doubts of my decay.</l>
+<l>   'Farewell,' quoth she, 'and come again tomorrow:'</l>
+<l>   Fare well I could not, for I supp'd with sorrow.</l>
+<l>Yet at my parting sweetly did she smile,</l>
+<l>In scorn or friendship, nill I construe whether:</l>
+<l n="189">'T may be, she joy'd to jest at my exile,</l>
+<l>'T may be, again to make me wander thither:</l>
+<l>   'Wander,' a word for shadows like myself,</l>
+<l>   As take the pain, but cannot pluck the pelf.
+</l></lg></div2>
+<div2 n="15" type="poem">
+<head>XV.</head>
+	  <lg>
+<l>Lord, how mine eyes throw gazes to the east!</l>
+<l>My heart doth charge the watch; the morning rise</l>
+<l>Doth cite each moving sense from idle rest.</l>
+<l>Not daring trust the office of mine eyes,</l>
+<l>   While Philomela sits and sings, I sit and mark,</l>
+<l>   And wish her lays were tuned like the lark;</l>
+<l>For she doth welcome daylight with her ditty,</l>
+<l>And drives away dark dismal-dreaming night:</l>
+<l>The night so pack'd, I post unto my pretty;</l>
+<l>Heart hath his hope, and eyes their wished sight;</l>
+<l>   Sorrow changed to solace, solace mix'd with sorrow;</l>
+<l>   For why, she sigh'd and bade me come tomorrow.</l>
+<l>Were I with her, the night would post too soon;</l>
+<l>But now are minutes added to the hours;</l>
+<l>To spite me now, each minute seems a moon;</l>
+<l>Yet not for me, shine sun to succor flowers!</l>
+<l>   Pack night, peep day; good day, of night now borrow:</l>
+<l n="210">   Short, night, to-night, and length thyself to-morrow. 
+</l></lg>
+</div2>
+</div1>
+
+
+<div1 n="2" type="sequence">
+<head>SONNETS TO SUNDRY NOTES OF MUSIC</head>
+<div2 n="16" type="poem">
+<head>[XVI.]</head>
+	  <lg>
+<l>It was a lording's daughter, the fairest one of three,</l>
+<l>That liked of her master as well as well might be,</l>
+<l>Till looking on an Englishman, the fair'st that eye could see,</l>
+<l>   Her fancy fell a-turning.</l>
+<l>Long was the combat doubtful that love with love did fight,</l>
+<l>To leave the master loveless, or kill the gallant knight:</l>
+<l>To put in practice either, alas, it was a spite</l>
+<l>   Unto the silly damsel!</l>
+<l>But one must be refused; more mickle was the pain</l>
+<l n="220">That nothing could be used to turn them both to gain,</l>
+<l>For of the two the trusty knight was wounded with disdain:</l>
+<l>   Alas, she could not help it!</l>
+<l>Thus art with arms contending was victor of the day,</l>
+<l>Which by a gift of learning did bear the maid away:</l>
+<l>Then, lullaby, the learned man hath got the lady gay;</l>
+<l>   For now my song is ended.
+</l></lg></div2>
+<div2 n="17" type="poem">
+<head>XVII.</head>
+	  <lg>
+ <l>On a day, alack the day!</l>
+<l>Love, whose month was ever May,</l>
+<l>Spied a blossom passing fair,</l>
+<l n="230">Playing in the wanton air:</l>
+<l>Through the velvet leaves the wind,</l>
+<l>All unseen, gan passage find;</l>
+<l>That the lover, sick to death,</l>
+<l>Wish'd himself the heaven's breath,</l>
+<l>'Air,' quoth he, 'thy cheeks may blow;</l>
+<l>Air, would I might triumph so!</l>
+<l>But, alas! my hand hath sworn</l>
+<l>Ne'er to pluck thee from thy thorn:</l>
+<l>Vow, alack! for youth unmeet:</l>
+<l n="240">Youth, so apt to pluck a sweet.</l>
+<l>Thou for whom Jove would swear</l>
+<l>Juno but an Ethiope were;</l>
+<l>And deny himself for Jove,</l>
+<l>Turning mortal for thy love.'
+</l></lg></div2>
+
+<div2 n="18" type="poem">     
+<head>[XVIII.]</head>
+	  <lg>
+<l>My flocks feed not,</l>
+<l>My ewes breed not,</l>
+<l>My rams speed not,</l>
+<l>  All is amiss:</l>
+<l>Love's denying,</l>
+<l n="250">Faith's defying,</l>
+<l>Heart's renying,</l>
+<l>  Causer of this.</l>
+<l>All my merry jigs are quite forgot,</l>
+<l>All my lady's love is lost, God wot:</l>
+<l>Where her faith was firmly fix'd in love,</l>
+<l>There a nay is placed without remove.</l>
+<l>One silly cross</l>
+<l>Wrought all my loss;</l>
+<l>  O frowning Fortune, cursed, fickle dame!</l>
+<l n="260">For now I see</l>
+<l>Inconstancy</l>
+<l>  More in women than in men remain.</l>
+<l>In black mourn I,</l>
+<l>All fears scorn I,</l>
+<l>Love hath forlorn me,</l>
+<l>  Living in thrall:</l>
+<l>Heart is bleeding,</l>
+<l>All help needing,</l>
+<l>O cruel speeding,</l>
+<l n="270">  Fraughted with gall.</l>
+<l>My shepherd's pipe can sound no deal;</l>
+<l>My wether's bell rings doleful knell;</l>
+<l>My curtail dog, that wont to have play'd,</l>
+<l>Plays not at all, but seems afraid;</l>
+<l>My sighs so deep</l>
+<l>Procure to weep,</l>
+<l>  In howling wise, to see my doleful plight.</l>
+<l>How sighs resound</l>
+<l>Through heartless ground,</l>
+<l>Like a thousand vanquish'd men in bloody fight!</l>
+<l>Clear wells spring not,</l>
+<l>Sweet birds sing not,</l>
+<l>Green plants bring not</l>
+<l>  Forth their dye;</l>
+<l>Herds stand weeping,</l>
+<l>Flocks all sleeping,</l>
+<l>Nymphs back peeping</l>
+<l>  Fearfully:</l>
+<l>All our pleasure known to us poor swains,</l>
+<l n="290">All our merry meetings on the plains,</l>
+<l>All our evening sport from us is fled,</l>
+<l>All our love is lost, for Love is dead</l>
+<l>Farewell, sweet lass,</l>
+<l>Thy like ne'er was</l>
+<l>  For a sweet content, the cause of all my moan:</l>
+<l>Poor Corydon</l>
+<l>Must live alone;</l>
+<l>  Other help for him I see that there is none. 
+</l></lg></div2>
+
+<div2 n="19" type="poem">
+<head>XIX.</head>
+<lg>
+<l>When as thine eye hath chose the dame,</l>
+<l>And stall'd the deer that thou shouldst strike,</l>
+<l n="301">Let reason rule things worthy blame,</l>
+<l>As well as fancy partial might:</l>
+<l>   Take counsel of some wiser head,</l>
+<l>   Neither too young nor yet unwed.</l>
+<l>And when thou comest thy tale to tell,</l>
+<l>Smooth not thy tongue with filed talk,</l>
+<l>Lest she some subtle practice smell,--</l>
+<l>A cripple soon can find a halt;--</l>
+<l>   But plainly say thou lovest her well,</l>
+<l n="310">   And set thy person forth to sell.</l>
+<l>What though her frowning brows be bent,</l>
+<l>Her cloudy looks will calm ere night:</l>
+<l>And then too late she will repent</l>
+<l>That thus dissembled her delight;</l>
+<l>   And twice desire, ere it be day,</l>
+<l>   That which with scorn she put away.</l>
+<l>What though she strive to try her strength,</l>
+<l>And ban and brawl, and say thee nay,</l>
+<l>Her feeble force will yield at length,</l>
+<l n="320">When craft hath taught her thus to say,</l>
+<l>   'Had women been so strong as men,</l>
+<l>   In faith, you had not had it then.'</l>
+<l>And to her will frame all thy ways;</l>
+<l>Spare not to spend, and chiefly there</l>
+<l>Where thy desert may merit praise,</l>
+<l>By ringing in thy lady's ear:</l>
+<l>   The strongest castle, tower, and town,</l>
+<l>   The golden bullet beats it down.</l>
+<l>Serve always with assured trust,</l>
+<l n="330">And in thy suit be humble true;</l>
+<l>Unless thy lady prove unjust,</l>
+<l>Press never thou to choose anew:</l>
+<l>   When time shall serve, be thou not slack</l>
+<l>   To proffer, though she put thee back.</l>
+<l>The wiles and guiles that women work,</l>
+<l>Dissembled with an outward show,</l>
+<l>The tricks and toys that in them lurk,</l>
+<l>The cock that treads them shall not know.</l>
+<l>   Have you not heard it said full oft,</l>
+<l n="340">   A woman's nay doth stand for nought?</l>
+<l>Think women still to strive with men,</l>
+<l>To sin and never for to saint:</l>
+<l>There is no heaven, by holy then,</l>
+<l>When time with age doth them attaint.</l>
+<l>   Were kisses all the joys in bed,</l>
+<l>   One woman would another wed.</l>
+<l>But, soft! enough, too much, I fear</l>
+<l>Lest that my mistress hear my song,</l>
+<l>She will not stick to round me i' the ear,</l>
+<l n="350">To teach my tongue to be so long:</l>
+<l>   Yet will she blush, here be it said,</l>
+<l>   To hear her secrets so bewray'd.</l>
+	  </lg>
+</div2>
+<div2 n="20" type="poem">            
+<head>[XX.]</head>
+<lg>
+<l>Live with me, and be my love,</l>
+<l>And we will all the pleasures prove</l>
+<l>That hills and valleys, dales and fields,</l>
+<l>And all the craggy mountains yields.</l>
+<l>There will we sit upon the rocks,</l>
+<l>And see the shepherds feed their flocks,</l>
+<l>By shallow rivers, by whose falls</l>
+<l n="360">Melodious birds sing madrigals.</l>
+<l>There will I make thee a bed of roses,</l>
+<l>With a thousand fragrant posies,</l>
+<l>A cap of flowers, and a kirtle</l>
+<l>Embroider'd all with leaves of myrtle.</l>
+<l>A belt of straw and ivy buds,</l>
+<l>With coral clasps and amber studs;</l>
+<l>And if these pleasures may thee move,</l>
+<l>Then live with me and be my love.</l>
+	  </lg>
+<lg>
+	    <head>Love's Answer</head>
+<l>If that the world and love were young,</l>
+<l n="370">And truth in every shepherd's tongue,</l>
+<l>These pretty pleasures might me move</l>
+<l>To live with thee and be thy love.</l>
+	  </lg>
+</div2>
+
+<div2 n="21" type="poem">         
+<head>[XXI.]</head>
+<lg>
+<l>As it fell upon a day</l>
+<l>In the merry month of May,</l>
+<l>Sitting in a pleasant shade</l>
+<l>Which a grove of myrtles made,</l>
+<l>Beasts did leap, and birds did sing,</l>
+<l>Trees did grow, and plants did spring;</l>
+<l>Every thing did banish moan,</l>
+<l n="380">Save the nightingale alone:</l>
+<l>She, poor bird, as all forlorn,</l>
+<l>Lean'd her breast up-till a thorn</l>
+<l>And there sung the dolefull'st ditty,</l>
+<l>That to hear it was great pity:</l>
+<l>'Fie, fie, fie,' now would she cry;</l>
+<l>'Tereu, tereu!' by and by;</l>
+<l>That to hear her so complain,</l>
+<l>Scarce I could from tears refrain;</l>
+<l>For her griefs, so lively shown,</l>
+<l n="390">Made me think upon mine own.</l>
+<l>Ah, thought I, thou mourn'st in vain!</l>
+<l>None takes pity on thy pain:</l>
+<l>Senseless trees they cannot hear thee;</l>
+<l>Ruthless beasts they will not cheer thee:</l>
+<l>King Pandion he is dead;</l>
+<l>All thy friends are lapp'd in lead;</l>
+<l>All thy fellow birds do sing,</l>
+<l>Careless of thy sorrowing.</l>
+<l>Even so, poor bird, like thee,</l>
+<l n="400">None alive will pity me.</l>
+<l>Whilst as fickle Fortune smiled,</l>
+<l>Thou and I were both beguiled.</l>
+<l>   Every one that flatters thee</l>
+<l>Is no friend in misery.</l>
+<l>Words are easy, like the wind;</l>
+<l>Faithful friends are hard to find:</l>
+<l>Every man will be thy friend</l>
+<l>Whilst thou hast wherewith to spend;</l>
+<l>But if store of crowns be scant,</l>
+<l n="410">No man will supply thy want.</l>
+<l>If that one be prodigal,</l>
+<l>Bountiful they will him call,</l>
+<l>And with such-like flattering,</l>
+<l>'Pity but he were a king;'</l>
+<l>If he be addict to vice,</l>
+<l>Quickly him they will entice;</l>
+<l>If to women he be bent,</l>
+<l>They have at commandment:</l>
+<l>But if Fortune once do frown,</l>
+<l n="420">Then farewell his great renown</l>
+<l>They that fawn'd on him before</l>
+<l>Use his company no more.</l>
+<l>He that is thy friend indeed,</l>
+<l>He will help thee in thy need:</l>
+<l>If thou sorrow, he will weep;</l>
+<l>If thou wake, he cannot sleep;</l>
+<l>Thus of every grief in heart</l>
+<l>He with thee doth bear a part.</l>
+<l>These are certain signs to know</l>
+<l n="430">Faithful friend from flattering foe.</l>
+	  </lg>
+</div2>
+</div1>
+</body></text></TEI.2>
