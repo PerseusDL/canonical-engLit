@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Prose//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
+%PersProse;
+]>
+<TEI.2>
+<teiHeader type="text" status="new">
+<fileDesc>
+<titleStmt>
+<title>Dedication to Mary Countess of Pembroke</title>
+<title type="sub">Machine readable text</title>
+<author>Christopher Marlowe</author>
+<editor role="translator">Mark Eccles</editor>
+&responsibility;
+&fund.Tufts;
+</titleStmt>
+<extent>about 700Kb</extent>
+&Perseus.publish;
+<sourceDesc><bibl></bibl></sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+ <refsDecl doctype="TEI.2"> 
+<state unit="line"/>
+      </refsDecl>
+      <refsDecl>
+	<state n="chunk" unit="dedication"/>
+      </refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change><date>3/14/96</date>
+<respStmt><name>Hilary Binda</name><resp>ed.</resp></respStmt>
+<item>Mark up scanned text</item></change>
+<change><date>9/1/97</date>
+<respStmt><name>David Smith</name><resp>ed.</resp></respStmt>
+<item>
+$Log: marl.dedication.xml,v $
+Revision 1.1  2009-12-09 18:48:03  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.2  2004/04/22 14:20:32  cwulfman
+*** empty log message ***
+
+Revision 1.1  2004/04/22 13:55:23  cwulfman
+Making xml files the canonical ones.
+
+Revision 1.7  2003/07/01 22:14:53  yorkc
+Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+
+Revision 1.6  2000/04/26 00:05:31  dasmith
+Fixed fileDesc info. Cleaned up witList.
+
+Revision 1.5  2000/02/22 22:16:14  amahoney
+add refsdecls, for consistency
+
+Revision 1.4  1999/09/01 17:15:33  dasmith
+Fixed preamble and added encodingDesc.
+
+Revision 1.3  1997/09/11 16:00:29  textgod
+Updated for nsgmls.
+
+Revision 1.2  1997/09/03 21:48:09  textgod
+Fixed typos.
+
+Revision 1.1  1997/09/01 19:43:34  textgod
+Added to repository. Passed SGML parse.
+
+</item></change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+      <div n="1" type="dedication">
+<opener><salute>TO THE MOST ILLUSTRIOUS NOBLE LADY, 
+<lb/>ADORNED WITH ALL GIFTS BOTH OF MIND 
+<lb/>AND BODY, MARY COUNTESS OF PEMBROKE</salute></opener>
+
+<p>Delia born of a laurel-crowned race, true sister of Sidney the bard of
+<lb/>Apollo, fostering parent of letters, to whose immaculate embrace
+<lb/>virtue, outraged by the assault of barbarism and ignorance, flieth for
+<lb/>refuge, as once Philomela from the Thracian tyrant; Muse of the
+<lb/>Poets of our time, and of all most happily burgeoning wits; descen-
+<lb/>dant of the gods, who impartest now to my rude pen breathings of a
+<lb/>lofty rage, whereby my poor self hath, methinks, power to surpass
+<lb/>what my unripe talent is wont to bring forth: Deign to be patron to
+<lb/>this posthumous Amyntas, as to thine adoptive son: the rather that
+<lb/>his dying father had most humbly bequeathed to thee his keeping.
+<lb/>And though thy glorious name is spread abroad not only among us
+<lb/>but even among foreign nations, too far ever to be destroyed by the
+<lb/>rusty antiquity of Time, or added to by the praise of mortals (for
+<lb/>how can anything be greater than what is infinite?), yet, crowned as
+<lb/>thou art by the songs of many as by a starry diadem Ariadne, scorn
+<lb/>not this pure priest of Phoebus bestowing another star upon thy
+<lb/>crown: but with that sincerity of mind which Jove the father of men
+<lb/>and of gods hath linked as hereditary to thy noble family, receive
+<lb/>and watch over him. So shall I, whose slender wealth is but the sea-
+<lb/>shore myrtle of Venus, and Daphne's evergreen laurel, on the fore-
+<lb/>most page of every poem invoke thee as Mistress of the Muses to my
+<lb/>aid: to sum up all, thy virtue, which shall overcome virtue herself,
+<lb/>shall likewise overcome even eternity.</p>
+<closer>
+<salute>Most desirous to do thee honor,</salute> <signed>C.M.</signed>
+</closer>
+</div></body></text></TEI.2>

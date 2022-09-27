@@ -1,0 +1,4270 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!ENTITY % TEI.XML "INCLUDE">
+<!ENTITY % PERSEUS.OVERLAPPING 'INCLUDE'>
+<!ENTITY % PersDrama PUBLIC "-//Perseus P4//DTD Perseus Drama//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersDrama.dtd" >
+%PersDrama;
+]>
+<TEI.2>
+<teiHeader status="new" type="text">
+<fileDesc>
+<titleStmt>
+<title>Dido, Queen of Carthage</title>
+<author>Christopher Marlowe</author>
+&responsibility;
+&fund.Tufts;
+</titleStmt>
+&Perseus.publish;
+<sourceDesc><bibl></bibl></sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<refsDecl doctype="TEI.2">
+<step delim="." from="DESCENDANT (1 DIV1 N %1)" refunit="act"/>
+<step delim="." from="DESCENDANT (1 DIV2 N %2)" refunit="scene"/>
+<step from="DESCENDANT (1 L N %3)" refunit="line"/>
+</refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="la">Latin</language>
+<language id="greek">Greek</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>6/25/97</date>
+<respStmt><name>DAS</name><resp>ed.</resp></respStmt>
+<item>
+$Log: marl.did.xml,v $
+Revision 1.1  2009-12-09 18:48:03  rsingh04
+moved more xml files around based on copyright status
+
+Revision 1.2  2004/04/22 14:22:27  cwulfman
+*** empty log message ***
+
+Revision 1.1  2004/04/22 13:55:23  cwulfman
+Making xml files the canonical ones.
+
+Revision 1.11  2003/07/01 22:14:53  yorkc
+Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+
+Revision 1.10  2000/04/26 00:05:31  dasmith
+Fixed fileDesc info. Cleaned up witList.
+
+Revision 1.9  1999/09/01 17:15:33  dasmith
+Fixed preamble and added encodingDesc.
+
+Revision 1.8  1997/09/11 13:52:33  textgod
+Updated for nsgmls.
+
+Revision 1.7  1997/09/01 17:24:15  textgod
+Added to repository. Passed SGML parse.
+
+Revision 1.6  1997/08/28 23:21:13  textgod
+Fixed MS wits.
+
+Revision 1.5  1997/08/28 23:09:25  textgod
+Fixed witness atts
+
+Revision 1.4  1997/08/28 22:47:45  textgod
+Added Bowers witness.
+
+Revision 1.3  1997/08/28 22:45:41  textgod
+Added variants and witness list.
+
+Revision 1.2  1997/06/25 14:52:48  textgod
+Fixed NAME in RESPSTMT
+
+Revision 1.1  1997/06/25 14:42:14  textgod
+Added to repository.
+
+</item></change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div type="versions">
+<witList>
+<witness sigil="Bow"><bibl><title>Complete Works</title>, ed. Bowers, 1973</bibl></witness>
+<witness sigil="Q">Quarto, 1594</witness>
+<witness sigil="Ox">ed. Oxberry, 1818</witness>
+<witness sigil="H"><bibl><title>Old English Drama</title>, vol.II, published by Hurst, Robinson &amp; Co., 1825</bibl></witness>
+<witness sigil="R"><bibl><title>Works</title>, ed. Robinson, 1826</bibl></witness>
+<witness sigil="D1"><bibl><title>Works</title>, ed. Dyce, 1850</bibl></witness>
+<witness sigil="D2"><bibl><title>Works</title>, rev. 1858</bibl></witness>
+<witness sigil="C"><bibl><title>Works</title>, ed. Cunningham, 1870</bibl></witness>
+<witness sigil="B"><bibl><title>Works</title>, ed. Bullen, 1884-5</bibl></witness>
+<witness sigil="G"><bibl><title>Works of Nashe</title>, ed. Grosart, vol. vi, 1885</bibl></witness>
+<witness sigil="McK"><bibl><title>Works of Nashe</title>McKerrow, vol.ii, 1904</bibl></witness>
+<witness sigil="TB"><bibl><title>Works</title>, ed.Tucker Brooke, 1910</bibl></witness>
+<witness sigil="M"><bibl>Methuen, ed. Tucker Brooke, 1930</bibl></witness>
+<witness sigil="Ri"><bibl><title>Plays</title> ed. Ribner, 1963</bibl></witness>
+<witness sigil="Rv"><bibl>Revels, ed. Oliver, 1968</bibl></witness>
+<witness sigil="Br">MS notes by Broughton in BM copy of Robinson</witness>
+<witness sigil="Coll">MS notes by Collier in BM copy of 1850 Dyce
+</witness>
+<witness included="D1 D2" sigil="D"></witness>
+</witList>
+</div>
+<div n="castlist" type="Dramatis Personae">
+<castList><head>[DRAMATIS PERSON&AElig;</head>
+<castGroup><head>Gods</head>
+<castItem type="role"><role id="jupi">JUPITER</role></castItem>
+<castItem type="role"><role id="gani">GANYMEDE</role></castItem>
+<castItem type="role"><role id="herm">MERCURY, or HERMES</role></castItem>
+<castItem type="role"><role id="cupi">CUPID</role></castItem>
+</castGroup>
+<castGroup><head>Goddesses</head>
+<castItem type="role"><role id="venu">VENUS</role></castItem>
+<castItem type="role"><role id="juno">JUNO</role></castItem>
+</castGroup>
+<castGroup><head>Trojans</head>
+<castItem type="role"><role id="aene">AENEAS</role></castItem>
+<castItem type="role"><role id="asca">ASCANIUS</role>, <roleDesc>his son</roleDesc></castItem>
+<castItem type="role"><role id="acha">ACHATES</role></castItem>
+<castItem type="role"><role id="illi">ILIONEUS</role></castItem>
+<castItem type="role"><role id="cloa">CLOANTHUS</role></castItem>
+<castItem type="role"><role id="serg">SERGESTUS</role></castItem></castGroup>
+<castItem type="role"><role id="iarb">IARBAS</role>, <roleDesc>King of Gaetulia</roleDesc></castItem>
+<castItem type="role"><role id="dido">DIDO</role>, <roleDesc>Queen of Carthage</roleDesc></castItem>
+<castItem type="role"><role id="anna">ANNA</role>, <roleDesc>her sister</roleDesc></castItem>
+<castItem type="role"><role id="nurs">Nurse</role></castItem>
+<castItem type="list">Trojan soldiers, Carthaginian Lords, servants.]</castItem>
+<castItem type="role"><role id="lord"></role></castItem>
+</castList>
+</div>
+</front>
+<body>
+<div1 n="1" type="act">
+<div2 n="1" type="scene"><head>Act One, Scene One</head>
+<stage type="setting">Here the Curtaines draw, there is discovered <name>Jupiter</name> dandling <name>Ganimed</name> upon his knee, and <name>Mercury</name> lying asleepe.</stage>
+
+<sp who="jupi"><speaker>Jupiter</speaker>
+<l>Come gentle <name>Ganimed</name> and play with me,</l>
+<l>I love thee well, say <name>Juno</name> what she will.</l>
+</sp>
+
+<sp who="gani"><speaker>Ganimed</speaker>
+<l>I am much better for your worthles love,</l>
+<l>That will not shield me from her shrewish blowes:</l>
+<l>To day when as I fild into your cups,</l>
+<l>And held the cloath of pleasance whiles you dranke,</l>
+<l>She reacht me such a rap for that I spilde,</l>
+<l>As made the bloud run downe about mine eares.</l>
+</sp>
+
+<sp who="jupi"><speaker>Jupiter</speaker>
+<l>What? dares she strike the darling of my thoughts?</l>
+<!--var:#earth] earth's Ox#-->
+<!--var:#haire] aire Q, Ox, H, R#-->
+<l>By <name>Saturnes</name> soule, and this <app>
+<lem>earth</lem>
+<rdg wit="Ox">earth's</rdg>
+</app> threatning <app>
+<lem>haire</lem>
+<rdg wit="Q Ox H R">aire</rdg>
+</app>,</l>
+<l>That shaken thrise, makes Natures buildings quake,</l>
+<l>I vow, if she but once frowne on thee more,</l>
+<l>To hang her meteor like twixt heaven and earth,</l>
+<l>And bind her hand and foote with golden cordes,</l>
+<l>As once I did for harming <name>Hercules</name>.</l>
+</sp>
+
+<sp who="gani"><speaker>Ganimed</speaker>
+<l>Might I but see that pretie sport a foote,</l>
+<l>O how would I with <name>Helens</name> brother laugh,</l>
+<l>And bring the Gods to wonder at the game:</l>
+<l>Sweet <name>Jupiter</name>, if ere I pleasde thine eye,</l>
+<l>Or seemed faire walde in with Egles wings,</l>
+<l>Grace my immortall beautie with this boone,</l>
+<l>And I will spend my time in thy bright armes.</l>
+</sp>
+
+<sp who="jupi"><speaker>Jupiter</speaker>
+<l>What ist sweet wagge I should deny thy youth?</l>
+<l>Whose face reflects such pleasure to mine eyes,</l>
+<l>As I exhal'd with thy fire darting beames,</l>
+<l>Have oft driven backe the horses of the night,</l>
+<l>When as they would have hal'd thee from my sight:</l>
+<l>Sit on my knee, and call for thy content,</l>
+<!--var:#time.] ~ ,#-->
+<l>Controule proud Fate, and cut the thred of time<app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<!--var:#Why,] ~ ^#-->
+<l>Why<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> are not all the Gods at thy commaund,</l>
+<l>And heaven and earth the bounds of thy delight?</l>
+<l><name>Vulan</name> shall daunce to make thee laughing sport,</l>
+<l>And my nine Daughters sing when thou art sad,</l>
+<l>From <name>Junos</name> bird Ile pluck her spotted pride,</l>
+<l>To make thee fannes wherewith to coole thy face,</l>
+<l>And <name>Venus</name> Swannes shall shed their silver downe,</l>
+<l>To sweeten out the slumbers of thy bed:</l>
+<l>Hermes no more shall shew the world his wings,</l>
+<l>If that thy fancie in his feathers dwell,</l>
+<l>But as this one Ile teare them all from him,</l>
+<stage type="business">[Plucks a feather from <name>Mercuries</name> wings.]</stage>
+<!--var:#me.] ~ :#-->
+<l>Doe thou but say their colour pleaseth me<app>
+<lem>.</lem>
+<rdg wit="Q">:</rdg>
+</app></l>
+<!--var:#love:] ~ ^ Q; ~ , Ox, H, R, C, G, McK,TB; ~ ; D,B, M; ~ . Ri, Rv#-->
+<l>Hold here my little love<app>
+<lem>:</lem>
+<rdg wit="Q"></rdg>
+<rdg wit="Ox H R C G McKTB">,</rdg>
+<rdg wit="Q"></rdg>
+<rdg wit="DB M"></rdg>
+<rdg wit="Ri Rv">.</rdg>
+</app> these linked gems,	<stage type="business">[Gives jewells.]</stage></l>
+<l>My <name>Juno</name> ware upon her marriage day,</l>
+<l>Put thou about thy necke my owne sweet heart,</l>
+<l>And tricke thy armes and shoulders with my theft.</l>
+</sp>
+
+<sp who="gani"><speaker>Ganimed</speaker>
+<!--var:#have] have too D (<I>qy</I>)#-->
+<l>I would <app>
+<lem>have</lem>
+<rdg wit="D" type="qy">have too</rdg>
+</app> a jewell for mine eare,</l>
+<!--var:#in] into Ox, H, R, C, B#-->
+<l>And a fine brouch to put <app>
+<lem>in</lem>
+<rdg wit="Ox H R C B">into</rdg>
+</app> my hat,</l>
+<!--var:#an] a Ox, H, R, D, C#-->
+<l>And then Ile hugge with you <app>
+<lem>an</lem>
+<rdg wit="Ox H R D C">a</rdg>
+</app> hundred times.</l>
+</sp>
+
+<sp who="jupi"><speaker>Jupiter</speaker>
+<!--var:#shall] shalt Ox, H, R, D, C, M#-->
+<l>And <app>
+<lem>shall</lem>
+<rdg wit="Ox H R D C M">shalt</rdg>
+</app> have <name>Ganimed</name>, if thou wilt be my love.</l>
+</sp>
+
+<stage type="entrance">Enter <name>Venus</name>.</stage>
+
+<sp who="venu"><speaker>Venus</speaker>
+<!--var:#I,] ~ ^#-->
+<l>I<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> this is it, you can sit toying there,</l>
+<l>And playing with that female wanton boy,</l>
+<!--var:#Whiles] While Ox, H, R#-->
+<l><app>
+<lem>Whiles</lem>
+<rdg wit="Ox H R">While</rdg>
+</app> my <name>Aeneas</name> wanders on the Seas,</l>
+<l>And rests a pray to every billowes pride.</l>
+<l><name>Juno</name>, false <name>Juno</name> in her Chariots pompe,</l>
+<l>Drawne through the heavens by Steedes of <name>Boreas</name> brood,</l>
+<l>Made <name>Hebe</name> to direct her ayrie wheeles</l>
+<l>Into the windie countrie of the clowdes,</l>
+<l>Where finding <name>Aeolus</name> intrencht with stormes,</l>
+<!--var:#ghosts] gusts Coll MS#-->
+<l>And guarded with a thousand grislie <app>
+<lem>ghosts</lem>
+<rdg wit="Coll">gusts</rdg>
+</app>,</l>
+<l>She humbly did beseech him for our bane,</l>
+<l>And charg'd him drowne my sonne with all his traine.</l>
+<l>Then gan the windes breake ope their brazen doores,</l>
+<l>And all <name>Aeolia</name> to be up in armes:</l>
+<l>Poore <name>Troy</name> must now be sackt upon the Sea,</l>
+<l>And <name>Neptunes</name> waves be envious men of warre,</l>
+<!--var:#horse,] ~ ^#-->
+<l><name>Epeus</name> horse<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> to <name>Aetnas</name> hill transformd,</l>
+<l>Prepared stands to wracke their woodden walles,</l>
+<l>And <name>Aeolus</name> like <name>Agamemnon</name> sounds</l>
+<!--var:#souldiers,] ~ ^#-->
+<l>The surges, his fierce souldiers<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> to the spoyle:</l>
+<l>See how the night <name>Ulysses</name>-like comes forth,</l>
+<l>And intercepts the day as <name>Dolon</name> erst:</l>
+<!--var:#Ay] Ah Ox, H, R, C#-->
+<l><app>
+<lem>Ay</lem>
+<rdg wit="Ox H R C">Ah</rdg>
+</app> me! the Starres supprisde like <name>Rhesus</name> Steedes,</l>
+<!--var:#<I>Astraeus</I>] Astraea's Ox, H, R, C#-->
+<l>Are drawne by darknes forth <name><app>
+<lem>Astraeus</lem>
+<rdg wit="Ox H R C">Astraea's</rdg>
+</app></name> tents.</l>
+<l>What shall I doe to save thee my sweet boy?</l>
+<l>When as the waves doe threat our Chrystall world,</l>
+<!--var:#floods] flood Ox#-->
+<l>And <name>Proteus</name> raising hils of <app>
+<lem>flouds</lem>
+<rdg wit="Ox">flood</rdg>
+</app> on high,</l>
+<l>Entends ere long to sport him in the skie.</l>
+<l>False <name>Jupiter</name>, rewardst thou vertue so?</l>
+<l>What? is not pietie exempt from woe?</l>
+<!--var:#thine] thy Ox, H, R, C#-->
+<l>Then dye <name>Aeneas</name> in <app>
+<lem>thine</lem>
+<rdg wit="Ox H R C">thy</rdg>
+</app> innocence,</l>
+<l>Since that religion hath no recompence.</l>
+</sp>
+
+<sp who="jupi"><speaker>Jupiter</speaker>
+<l>Content thee <name>Cytherea</name> in thy care,</l>
+<l>Since thy <name>Aeneas</name> wandring fate is firme,</l>
+<l>Whose wearie lims shall shortly make repose,</l>
+<l>In those faire walles I promist him of yore:</l>
+<l>But first in bloud must his good fortune bud,</l>
+<l>Before he be the Lord of <name>Turnus</name> towne,</l>
+<l>Or force her smile that hetherto hath frownd:</l>
+<l>Three winters shall he with the Rutiles warre,</l>
+<l>And in the end subdue them with his sword,</l>
+<l>And full three Sommers likewise shall he waste,</l>
+<l>In mannaging those fierce barbarian mindes:</l>
+<l>Which once performd, poore <name>Troy</name> so long supprest,</l>
+<l>From forth her ashes shall advance her head,</l>
+<l>And flourish once againe that erst was dead:</l>
+<!--var:#<I>Ascanius</I>, beauties] Ascanius' beauties, Ox, H, R#-->
+<l>But bright <name>Ascanius</name><app>
+<lem>,</lem>
+<rdg wit="Q">'</rdg>
+</app> beauties better worke</l>
+<l>Who with the Sunne devides one radiant shape,</l>
+<l>Shall build his throne amidst those starrie towers,</l>
+<l>That earth-borne <name>Atlas</name> groning underprops:</l>
+<l>No bounds but heaven shall bound his Emperie,</l>
+<l>Whose azured gates enchased with his name,</l>
+<l>Shall make the morning hast her gray uprise,</l>
+<l>To feede her eyes with his engraven fame.</l>
+<l>Thus in stoute <name>Hectors</name> race three hundred yeares,</l>
+<l>The Romane Scepter royall shall remaine,</l>
+<!--var:#Princesse priest conceav'd] princess, priest-conceiv'd Ox, H, R#-->
+<l>Till that a <app>
+<lem>Princesse priest conceav'd</lem>
+<rdg wit="Ox H R">princess, priest-conceiv'd</rdg>
+</app> by <name>Mars</name>,</l>
+<l>Shall yeeld to dignitie a dubble birth,</l>
+<l>Who will eternish <name>Troy</name> in their attempts.</l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>How may I credite these thy flattering termes,</l>
+<!--var:#sands] sand Ox, H, R#-->
+<l>When yet both sea and <app>
+<lem>sands</lem>
+<rdg wit="Ox H R">sand</rdg>
+</app> beset their ships,</l>
+<!--var:#Stygian] stygian#-->
+<l>And <name>Phoebus</name> as in <app>
+<lem>Stygian</lem>
+<rdg wit="Q">stygian</rdg>
+</app> pooles, refraines</l>
+<l>To taint his tresses in the Tyrrhen maine?</l>
+</sp>
+
+<sp who="jupi"><speaker>Jupiter</speaker>
+<l>I will take order for that presently:</l>
+<l><name>Hermes</name> awake, and haste to <name>Neptunes</name> realme,</l>
+<!--var:#Wind-god] wind-gods Br MS, C#-->
+<l>Whereas the <app>
+<lem>Wind-god</lem>
+<rdg wit="Br C">wind-gods</rdg>
+</app> warring now with Fate,</l>
+<!--var:#Besiege] Besieges D, B, G, M#-->
+<l><app>
+<lem>Besiege</lem>
+<rdg wit="D B G M">Besieges</rdg>
+</app> the ofspring of Our kingly loynes,</l>
+<l>Charge him from me to turne his stormie powers,</l>
+<l>And fetter them in <name>Vulcans</name> sturdie brasse,</l>
+<l>That durst thus proudly wrong our kinsmans peace.</l>
+<stage type="exit">[Exit <name>Mercury</name>.]</stage>
+<l><name>Venus</name> farewell, thy sonne shall be our care:</l>
+<l>Come <name>Ganimed</name>, we must about this geare.</l>
+</sp>
+<stage type="exit">Exeunt <name>Jupiter</name>cum <name>Ganimed</name>.</stage>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Disquiet Seas lay downe your swelling lookes,</l>
+<l>And court <name>Aeneas</name> with your calmie cheere,</l>
+<l>Whose beautious burden well might make you proude,</l>
+<l>Had not the heavens conceav'd with hel-borne clowdes,</l>
+<!--var:#view.] ~ ,#-->
+<l>Vaild his resplendant glorie from your view<app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>For my sake pitie him <name>Oceanus</name>,</l>
+<l>That erst-while issued from thy watrie loynes,</l>
+<l>And had my being from thy bubling froth:</l>
+<l><name>Triton</name> I know hath fild his trumpe with <name>Troy</name>,</l>
+<l>And therefore will take pitie on his toyle,</l>
+<!--var:#<I>Cimothoe</I>] <I>Cimodoae</I>  Q; Cymodoce Ox, H, R, D, C#-->
+<l>And call both <name>Thetis</name> and <name><app>
+<lem>Cimothoe</lem>
+<rdg wit="Q">Cimodoae</rdg>
+<rdg wit="Ox H R D C">Cymodoce</rdg>
+</app></name>,</l>
+<l>To succour him in this extremitie.</l>
+
+<stage type="entrance">Enter <name>Aeneas</name> with <name>Ascanius</name> [and <name>Achates</name>], with one or two more.</stage>
+
+<!--var:#What?... see^] What ^ ...see? D (<I>qy</I>), C, B#-->
+<l>What<app>
+<lem>?</lem>
+<rdg wit="D C B"></rdg><wit>D (<emph>qy</emph>)</wit>
+</app> doe I see my sonne now come on shoare<app>
+<rdg wit="D C B">?</rdg><wit>D (<emph>qy</emph>)</wit>
+</app></l>
+<l><name>Venus</name>, how art thou compast with content,</l>
+<!--var:#attract] attrect G (<I>qy</I>)#-->
+<l>The while thine eyes <app>
+<lem>attract</lem>
+<rdg wit="G" type="qy">attrect</rdg>
+</app> their sought for joyes:</l>
+<l>Great <name>Jupiter</name>, still honourd maist thou be,</l>
+<l>For this so friendly ayde in time of neede</l>
+<l>Here in this bush disguised will I stand,</l>
+<l>Whiles my <name>Aeneas</name> spends himselfe in plaints,</l>
+<l>And heaven and earth with his unrest acquaints.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>You sonnes of care, companions of my course,</l>
+<l><name>Priams</name> misfortune followes us by sea,</l>
+<!--var:#ye] thee Q, Ri, Rv; us Ox, H, R, B#-->
+<l>And <name>Helens</name> rape doth haunt <app>
+<lem>ye</lem>
+<rdg wit="Q Ri Rv">thee</rdg>
+<rdg wit="Ox H R B">us</rdg>
+</app> at the heeles.</l>
+<l>How many dangers have we over past?</l>
+<l>Both barking <name>Scilla</name>, and the sounding Rocks,</l>
+<l>The <name>Cyclops</name> shelves, and grim <name>Ceranias</name> seate</l>
+<l>Have you oregone, and yet remaine alive?</l>
+<l>Pluck up your hearts, since fate still rests our friend,</l>
+<l>And chaunging heavens may those good daies returne,</l>
+<l>Which <name>Pergama</name> did vaunt in all her pride.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>Brave Prince of <name>Troy</name>, thou onely art our God,</l>
+<!--var:#annoy] annoys D (<I>qy</I>)#-->
+<l>That by thy vertues freest us from <app>
+<lem>annoy</lem>
+<rdg wit="D" type="qy">annoys</rdg>
+</app>,</l>
+<!--var:#coming] cunning Q, Ox, H, R, Rv#-->
+<l>And makes our hopes survive to <app>
+<lem>coming</lem>
+<rdg wit="Q Ox H R Rv">cunning</rdg>
+</app> joyes:</l>
+<l>Doe thou but smile, and clowdie heaven will deare,</l>
+<l>Whose night and day descendeth from thy browes:</l>
+<l>Though we be now in extreame miserie,</l>
+<l>And rest the map of weatherbeaten woe:</l>
+<!--var:#aged...shed] azur'd...spread Coll MS#-->
+<!--var:#haire] aire Q, Ox, H, R#-->
+<l>Yet shall the <app>
+<lem>aged</lem>
+<rdg wit="Q Ox H R">azur'd</rdg>
+</app> Sunne <app>
+<lem>shed</lem>
+<rdg wit="Q Ox H R">spread</rdg>
+</app> forth his <app>
+<lem>haire</lem>
+<rdg wit="Q Ox H R">aire</rdg>
+</app>,</l>
+<l>To make us live unto our former heate,</l>
+<l>And every beast the forrest doth send forth,</l>
+<l>Bequeath her young ones to our scanted foode.</l>
+</sp>
+
+<sp who="asca"><speaker>Ascanius</speaker>
+<l>Father I faint, good father give me meate.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Alas sweet boy, thou must be still a while,</l>
+<l>Till we have fire to dresse the meate we kild:</l>
+<l>Gentle <name>Achates</name>, reach the Tinder boxe,</l>
+<l>That we may make a fire to warme us with,</l>
+<l>And rost our new found victuals on this shoare.</l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>See what strange arts necessitie findes out,</l>
+<stage type="delivery">[Aside.]</stage>
+<l>How neere my sweet <name>Aeneas</name> art thou driven?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Hold, take this candle and goe light a fire,</l>
+<l>You shall have leaves and windfall bowes enow</l>
+<l>Neere to these woods, to rost your meate withall:</l>
+<l><name>Ascanius</name>, goe and drie thy drenched lims,</l>
+<!--var:#roave] roam Ox, H, R, C#-->
+<l>Whiles I with my <name>Achates</name> <app>
+<lem>roave</lem>
+<rdg wit="Ox H R C">roam</rdg>
+</app> abroad,</l>
+<l>To know what coast the winde hath driven us on,</l>
+<l>Or whether men or beasts inhabite it.</l>
+</sp>
+<stage type="exit">[Exit <name>Ascanius</name> with others.]</stage>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>The ayre is pleasant, and the soyle most fit</l>
+<l>For Cities, and societies supports:</l>
+<l>Yet much I marvell that I cannot finde,</l>
+<l>No steps of men imprinted in the earth.</l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Now is the time for me to play my part:</l>
+<!--var:#came] came along D (<I>qy</I>), C#-->
+<l>Hoe yong men, saw you as you <app>
+<lem>came</lem>
+<rdg wit="D C">came along</rdg><wit>D (<emph>qy</emph>)</wit>
+</app></l>
+<l>Any of all my Sisters wandring here?</l>
+<l>Having a quiver girded to her side,</l>
+<l>And cloathed in a spotted Leopards skin.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>I neither saw nor heard of any such:</l>
+<l>But what may I faire Virgin call your name?</l>
+<l>Whose lookes set forth no mortall forme to view,</l>
+<!--var:#bewraies] betrays C#-->
+<l>Nor speech <app>
+<lem>bewraies</lem>
+<rdg wit="C">betrays</rdg>
+</app> ought humaine in thy birth,</l>
+<l>Thou art a Goddesse that delud'st our eyes,</l>
+<l>And shrowdes thy beautie in this borrowd shape:</l>
+<l>But whether thou the Sunnes bright Sister be,</l>
+<l>Or one of chast <name>Dianas</name> fellow Nimphs,</l>
+<l>Live happie in the height of all content,</l>
+<l>And lighten our extreames with this one boone,</l>
+<l>As to instruct us under what good heaven</l>
+<!--var:#as] us Coll MS,G#-->
+<l>We breathe <app>
+<lem>as</lem>
+<rdg wit="Coll G">us</rdg>
+</app> now, and what this world is calde,</l>
+<!--var:#cast.] ~ ,#-->
+<l>On which by tempests furie we are cast<app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>Tell us, O tell us that are ignorant,</l>
+<l>And this right hand shall make thy Altars crack</l>
+<l>With mountaine heapes of milke white Sacrifize.</l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Such honour, stranger, doe I not affect:</l>
+<!--var:#Tirien]Turen Q#-->
+<l>It is the use for <app>
+<lem>Tirien</lem>
+<rdg wit="Q">Turen</rdg>
+</app> maides to weare</l>
+<l>Their bowe and quiver in this modest sort,</l>
+<l>And suite themselves in purple for the nonce,</l>
+<l>That they may trip more lightly ore the lawndes,</l>
+<l>And overtake the tusked Bore in chase.</l>
+<l>But for the land whereof thou doest enquire,</l>
+<!--var:#Punick] punick#-->
+<l>It is the <app>
+<lem>Punick</lem>
+<rdg wit="Q">punick</rdg>
+</app> kingdome rich and strong,</l>
+<l>Adjoyning on <name>Agenors</name> stately towne,</l>
+<l>The kingly seate of Southerne <name>Libia</name>,</l>
+<l>Whereas Sidonian <name>Dido</name> rules as Queene.</l>
+<l>But what are you that aske of me these things?</l>
+<l>Whence may you come, or whither will you goe?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Of <name>Troy</name> am I, <name>Aeneas</name> is my name,</l>
+<l>Who driven by warre from forth my native world,</l>
+<l>Put sailes to sea to seeke out <name>Italy</name><app>
+<lem>,</lem>
+<rdg wit="Q">:</rdg>
+</app></l>
+<l>And my divine descent from sceptred <name>Jove</name><app>
+<lem>:</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>With twise twelve Phrigian ships I plowed the deepe,</l>
+<l>And made that way my mother <name>Venus</name> led:</l>
+<l>But of them all scarce seven doe anchor safe,</l>
+<l>And they so wrackt and weltred by the waves,</l>
+<l>As every tide tilts twixt their oken sides:</l>
+<l>And all of them unburdened of their loade,</l>
+<l>Are ballassed with billowes watrie weight.</l>
+<l>But haples I, God wot, poore and unknowne,</l>
+<l>Doe trace these Libian deserts all despisde,</l>
+<l>Exild forth <name>Europe</name> and wide <name>Asia</name> both,</l>
+<l>And have not any coverture but heaven.</l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Fortune hath favord thee what ere thou be,</l>
+<l>In sending thee unto this curteous Coast:</l>
+<!--var:#A] In Ox, H, R, C#-->
+<l><app>
+<lem>A</lem>
+<rdg wit="Ox H R C">In</rdg>
+</app> Gods name on and hast thee to the Court,</l>
+<l>Where <name>Dido</name> will receive ye with her smiles:</l>
+<l>And for thy ships which thou supposest lost,</l>
+<l>Not one of them hath perisht in the storme,</l>
+<l>But are arived safe not farre from hence:</l>
+<l>And so I leave thee to thy fortunes lot,</l>
+<l>Wishing good lucke unto thy wandring steps.</l>
+</sp>	<stage type="exit">Exit.</stage>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Achates</name>, tis my mother that is fled,</l>
+<!--var:#I...feete:] <I>omit</I>  Ox#-->
+<l><app>
+<rdg wit="Ox"><lacunaStart/></rdg>
+</app>I know her by the movings of her feete:<app>
+<rdg wit="Ox"><lacunaEnd/></rdg>
+</app></l>
+<l>Stay gentle <name>Venus</name>, flye not from thy sonne,</l>
+<l>Too cruell, why wilt thou forsake me thus?</l>
+<!--var:#shades] shapes C (<I>qy</I>)#-->
+<!--var:#deceiv'st] deceive C#-->
+<l>Or in these <app>
+<lem>shades</lem>
+<rdg wit="C" type="qy">shapes</rdg>
+</app> <app>
+<lem>deceiv'st</lem>
+<rdg wit="C">deceive</rdg>
+</app> mine eye so oft?</l>
+<!--var:#talke] walk C#-->
+<l>Why <app>
+<lem>talke</lem>
+<rdg wit="C">walk</rdg>
+</app> we not together hand in hand?</l>
+<l>And tell our griefes in more familiar termes:</l>
+<l>But thou art gone and leav'st me here alone,</l>
+<l>To dull the ayre with my discoursive moane.</l>
+</sp>
+
+<stage type="exit"><app>
+<lem>Exeunt</lem>
+<rdg wit="Q">Exit</rdg>
+</app>.</stage>
+</div2>
+
+<!--var:Cloanthus] <I>Cloanthes</I>-->
+<div2 n="2" type="scene"><head>Act One, Scene Two</head>
+<stage type="entrance">Enter [<name>Iarbus</name>, with] <name>Illioneus</name>, and <name>Cloanthus</name> [and <name>Sergestus</name>].</stage>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<l>Follow ye Troians, follow this brave Lord,</l>
+<l>And plaine to him the summe of your distresse.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Why, what are you, or wherefore doe you sewe?</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<l>Wretches of <name>Troy</name>, envied of the windes,</l>
+<l>That crave such favour at your honors feete,</l>
+<l>As poore distressed miserie may pleade:</l>
+<l>Save, save, O save our ships from cruell fire,</l>
+<l>That doe complaine the wounds of thousand waves,</l>
+<!--var:#spite] fate Ox#-->
+<l>And spare our lives whom every <app>
+<lem>spite</lem>
+<rdg wit="Ox">fate</rdg>
+</app> pursues.</l>
+<l>We come not we to wrong your Libian Gods,</l>
+<l>Or steale your houshold lares from their shrines:</l>
+<l>Our hands are not prepar'd to lawles spoyle,</l>
+<l>Nor armed to offend in any kind:</l>
+<l>Such force is farre from our unweaponed thoughts,</l>
+<l>Whose fading weale of victorie forsooke,</l>
+<l>Forbids all hope to harbour neere our hearts.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>But tell me Troians, Troians if you be,</l>
+<l>Unto what fruitfull quarters were ye bound,</l>
+<l>Before that <name>Boreas</name> buckled with your sailes?</l>
+</sp>
+
+<sp who="cloa"><speaker>Cloanthus</speaker>
+<l>There is a place <name>Hesperia</name> term'd by us,</l>
+<l>An ancient Empire, famoused for armes,</l>
+<l>And fertile in faire Ceres furrowed wealth,</l>
+<l>Which now we call Italia of his name,</l>
+<l>That in such peace long time did rule the same:</l>
+<l>Thither made we,</l>
+<l>When suddenly gloomie <name>Orion</name> rose,</l>
+<l>And led our ships into the shallow sands,</l>
+<l>Whereas the Southerne winde with brackish breath,</l>
+<l>Disperst them all amongst the wrackfull Rockes:</l>
+<l>From thence a fewe of us escapt to land,</l>
+<l>The rest we feare are foulded in the flouds.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Brave men at armes, abandon fruitles feares,</l>
+<l>Since Carthage knowes to entertaine distresse.</l>
+</sp>
+
+<sp who="serg"><speaker>Sergestus</speaker>
+<l>I but the barbarous sort doe threat our ships,</l>
+<l>And will not let us lodge upon the sands:</l>
+<l>In multitudes they swarme unto the shoare,</l>
+<l>And from the first earth interdict our feete.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>My selfe will see they shall not trouble ye,</l>
+<l>Your men and you shall banquet in our Court,</l>
+<l>And every Troian be as welcome here,</l>
+<!--var:#Baucis] Vausis Q#-->
+<l>As Jupiter to sillie <app>
+<lem>Baucis</lem>
+<rdg wit="Q">Vausis</rdg>
+</app> house:</l>
+<!--var:#you] ye B#-->
+<l>Come in with me, Ile bring <app>
+<lem>you</lem>
+<rdg wit="B">ye</rdg>
+</app> to my Queene,</l>
+<l>Who shall confirme my words with further deedes.</l>
+</sp>
+
+<sp who="serg"><speaker>Sergestus</speaker>
+<!--var:#grace.] ~ ,#-->
+<l>Thankes gentle Lord for such unlookt for grace<app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>Might we but once more see <name>Aeneas</name> face,</l>
+<!--var:#would] should Ox#-->
+<l>Then <app>
+<lem>would</lem>
+<rdg wit="Ox">should</rdg>
+</app> we hope to quite such friendly turnes,</l>
+<!--var:#shall] all D2 (<I>qy</I>); still McK (<I>qy</I>)#-->
+<l>As <app>
+<lem>shall</lem>
+<rdg wit="D2">all</rdg><wit>D2 (<emph>qy</emph>)</wit>
+<rdg wit="McK">still</rdg><wit>McK (<emph>qy</emph>)</wit>
+</app> surpasse the wonder of our speech.</l>
+</sp>
+<stage type="exit">[Exeunt.]</stage>
+</div2></div1>
+
+<div1 n="2" type="act">
+<!--var:#II.i] Actus 2.#-->
+<div2 n="1" type="scene"><head><app>
+<lem>Act Two, Scene One</lem>
+<rdg wit="Q">Actus 2.</rdg>
+</app></head>
+<stage type="entrance">Enter <name>Aeneas</name>, <name>Achates</name>, and <name>Ascanius</name> [attended].
+</stage>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Where am I now? these should be <name>Carthage</name> walles.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>Why stands my sweete <name>Aeneas</name> thus amazde?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O my <name>Achates</name>, Theban <name>Niobe</name>,</l>
+<l>Who for her sonnes death wept out life and breath,</l>
+<l>And drie with griefe was turnd into a stone,</l>
+<l>Had not such passions in her head as I.    <stage type="business">[Sees <name>Priams</name> statue.]</stage></l>
+<l>Me thinkes that towne there should be <name>Troy</name>, yon <name>Idas</name> hill,</l>
+<l>There <name>Zanthus</name> streame, because here's <name>Priamus</name>,</l>
+<l>And when I know it is not, then I dye.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>And in this humor is <name>Achates</name> to,</l>
+<l>I cannot choose but fall upon my knees,</l>
+<!--var:#<I>Hecuba</I>?] ~ ,#-->
+<l>And kisse his hand: O where is <name>Hecuba</name><app>
+<lem>?</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>Here she was wont to sit, but saving ayre</l>
+<l>Is nothing here, and what is this but stone?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O yet this stone doth make <name>Aeneas</name> weepe,</l>
+<l>And would my prayers (as <name>Pigmalions</name> did)</l>
+<l>Could give it life, that under his conduct</l>
+<l>We might saile backe to <name>Troy</name>, and be revengde</l>
+<l>On these hard harted Grecians, which rejoyce</l>
+<l>That nothing now is left of <name>Priamus</name>:</l>
+<l>O <name>Priamus</name> is left and this is he,</l>
+<l>Come, come abourd, pursue the hatefull Greekes.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates.</speaker>
+<l>What meanes <name>Aeneas</name>?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Achates</name> though mine eyes say this is stone,</l>
+<l>Yet thinkes my minde that this is <name>Priamus</name>:</l>
+<l>And when my grieved heart sighes and sayes no,</l>
+<l>Then would it leape out to give <name>Priam</name> life:</l>
+<l>O were I not at all so thou mightst be.</l>
+<l><name>Achates</name>, see King <name>Priam</name> wags his hand,</l>
+<l>He is alive, <name>Troy</name> is not overcome.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>Thy mind <name>Aeneas</name> that would have it so</l>
+<l>Deludes thy eye sight, <name>Priamus</name> is dead.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Ah <name>Troy</name> is sackt, and <name>Priamus</name> is dead,</l>
+<l>And why should poore <name>Aeneas</name> be alive?</l>
+</sp>
+
+<sp who="asca"><speaker>Ascanius</speaker>
+<l>Sweete father leave to weepe, this is not he:</l>
+<l>For were it <name>Priam</name> he would smile on me.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<!--var:#come] comes C#-->
+<l><name>Aeneas</name> see<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> here <app>
+<lem>come</lem>
+<rdg wit="C">comes</rdg>
+</app> the Citizens,</l>
+<!--var:#feares] tears Coll MS, B (<I>qy</I>)#-->
+<l>Leave to lament lest they laugh at our <app>
+<lem>feares</lem>
+<rdg wit="Coll B">tears</rdg><wit>B (<emph>qy</emph>)</wit>
+</app>.</l>
+</sp>
+
+<stage type="entrance">Enter <name>Cloanthus</name>, <name>Sergestus</name>, <name>Illioneus</name> [and others].</stage>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Lords of this towne, or whatsoever stile</l>
+<l>Belongs unto your name, vouchsafe of ruth</l>
+<l>To tell us who inhabits this faire towne,</l>
+<l>What kind of people, and who governes them:</l>
+<l>For we are strangers driven on this shore,</l>
+<l>And scarcely know within what Clime we are.</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<l>I heare <name>Aeneas</name> voyce, but see him not,</l>
+<l>For none of these can be our Generall.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>Like <name>Illioneus</name> speakes this Noble man,</l>
+<l>But <name>Illioneus</name> goes not in such robes.</l>
+</sp>
+
+<sp who="serg"><speaker>Sergestus</speaker>
+<!--var:#am] <I>omit</I>  Q, Ox, H, R, Ri#-->
+<l>You are <name>Achates</name>, or I <app>
+<lem>am</lem>
+<rdg wit="Q Ox H R Ri"></rdg>
+</app> deciv'd.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l><name>Aeneas</name> see, <name>Sergestus</name> or his ghost.</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<!--var:#names] meanes Q#-->
+<l>He <app>
+<lem>names</lem>
+<rdg wit="Q">meanes</rdg>
+</app> <name>Aeneas</name>, let us kisse his feete.</l>
+</sp>
+
+<sp who="cloa"><speaker>Cloanthus</speaker>
+<l>It is our Captaine, see <name>Ascanius</name>.</l>
+</sp>
+
+<sp who="serg"><speaker>Sergestus</speaker>
+<!--var:#Live long] Long live Ox#-->
+<l><app>
+<lem>Live long</lem>
+<rdg wit="Ox">Long live</rdg>
+</app> <name>Aeneas</name> and <name>Ascanius</name>.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Achates</name>, speake, for I am overjoyed.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>O <name>Illioneus</name>, art thou yet alive?</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<l>Blest be the time I see <name>Achates</name> face.</l>
+</sp>
+
+<sp who="cloa"><speaker>Cloanthus</speaker>
+<l>Why turnes <name>Aeneas</name> from his trustie friends?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Sergestus</name>, <name>Illioneus</name> and the rest,</l>
+<l>Your sight amazde me, O what destinies</l>
+<l>Have brought my sweete companions in such plight?</l>
+<l>O tell me, for I long to be resolv'd.</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<l>Lovely <name>Aeneas</name>, these are <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> walles,</l>
+<l>And here Queene <name>Dido</name> weares th'imperiall Crowne,</l>
+<l>Who for <name>Troyes</name> sake hath entertaind us all,</l>
+<l>And clad us in these wealthie robes we weare.</l>
+<!--var:#hath] has C#-->
+<l>Oft <app>
+<lem>hath</lem>
+<rdg wit="C">has</rdg>
+</app> she askt us under whom we serv'd,</l>
+<l>And when we told her she would weepe for griefe,</l>
+<l>Thinking the sea had swallowed up thy ships,</l>
+<l>And now she sees thee how will she rejoyce?</l>
+</sp>
+
+<sp who="serg"><speaker>Sergestus</speaker>
+<l>See where her servitors passe through the hall</l>
+<l>Bearing a banket, <name>Dido</name> is not farre.</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<!--var:#view] viewd Q#-->
+<l>Looke where she comes: <name>Aeneas</name> <app>
+<lem>view</lem>
+<rdg wit="Q">viewd</rdg>
+</app> her well.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Well may I view her, but she sees not me.</l>
+</sp>
+
+<stage type="entrance">Enter <name>Dido</name> [with <name>Anna</name>  and <name>Iarbus</name>] and her traine.</stage>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>What stranger art thou that doest eye me thus?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Sometime I was a Troian, mightie Queene:</l>
+<l>But <name>Troy</name> is not, what shall I say I am?</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<l>Renowmed <name>Dido</name>, tis our Generall:</l>
+<l>Warlike <name>Aeneas</name>.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Warlike <name>Aeneas</name>, and in these base robes?</l>
+<l>Goe fetch the garment which <name>Sicheus</name> ware:</l>
+<stage type="exit">[Exit servant.]</stage>
+<l>Brave Prince, welcome to <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> and to me,</l>
+<l>Both happie that <name>Aeneas</name> is our guest:</l>
+<l>Sit in this chaire and banquet with a Queene,</l>
+<l><name>Aeneas</name> is <name>Aeneas</name>, were he clad</l>
+<l>In weedes as bad as ever <name>Irus</name> ware.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>This is no seate for one thats comfortles,</l>
+<l>May it please your grace to let <name>Aeneas</name> waite:</l>
+<l>For though my birth be great, my fortunes meane,</l>
+<l>Too meane to be companion to a Queene.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Thy fortune may be greater then thy birth,</l>
+<l>Sit downe <name>Aeneas</name>, sit in Didos place,</l>
+<l>And if this be thy sonne as I suppose,</l>
+<l>Here let him sit, be merrie lovely child.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>This place beseemes me not, O pardon me.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Ile have it so, <name>Aeneas</name> be content.</l>
+</sp>
+
+<stage type="entrance">[Enter servant with robe and <name>Aeneas</name> puts it on.]</stage>
+
+<sp who="asca"><speaker>Ascanius</speaker>
+<l>Madame, you shall be my mother.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>And so I will sweete child: be merrie man,</l>
+<l>Heres to thy better fortune and good starres.</l>
+</sp>	<stage type="business">[Drinks.]</stage>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>In all humilitie I thanke your grace.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Remember who thou art, speake like thy selfe,</l>
+<l>Humilitie belongs to common groomes.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>And who so miserable as <name>Aeneas</name> is?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#blest,] ~ ? Ox, H, R, D, C, B#-->
+<l>Lyes it in <name>Didos</name> hands to make thee blest<app>
+<lem>,</lem>
+<rdg wit="Ox H R D C B">?</rdg>
+</app></l>
+<l>Then be assured thou art not miserable.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O <name>Priamus</name>, O <name>Troy</name>, oh <name>Hecuba</name>!</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>May I entreate thee to discourse at large,</l>
+<!--var:#to,] ~ ^#-->
+<l>And truely to<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> how <name>Troy</name> was overcome:</l>
+<l>For many tales goe of that Cities fall,</l>
+<l>And scarcely doe agree upon one poynt:</l>
+<l>Some say <name>Antenor</name> did betray the towne,</l>
+<l>Others report twas <name>Sinons</name> perjurie:</l>
+<l>But all in this that <name>Troy</name> is overcome,</l>
+<l>And <name>Priam</name> dead, yet how we heare no newes.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>A wofull tale bids <name>Dido</name> to unfould,</l>
+<l>Whose memorie like pale deaths stony mace,</l>
+<l>Beates forth my senses from this troubled soule,</l>
+<l>And makes <name>Aeneas</name> sinke at <name>Didos</name> feete.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#What,] ~ ^#-->
+<l>What<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> faints <name>Aeneas</name> to remember <name>Troy</name>?</l>
+<l>In whose defence he fought so valiantly:</l>
+<l>Looke up and speake.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Then speake <name>Aeneas</name> with <name>Achilles</name> tongue,</l>
+<l>And <name>Dido</name> and you Carthaginian Peeres</l>
+<l>Heare me, but yet with <name>Mirmidons</name> harsh eares,</l>
+<l>Daily inur'd to broyles and Massacres,</l>
+<l>Lest you be mov'd too much with my sad tale.</l>
+<l>The Grecian souldiers tired with ten yeares warre,</l>
+<l>Began to crye, let us unto our ships,</l>
+<l><name>Troy</name> is invincible, why stay we here?</l>
+<l>With whose outcryes <name>Atrides</name> being apal'd,</l>
+<l>Summoned the Captaines to his princely tent,</l>
+<l>Who looking on the scarres we Troians gave,</l>
+<l>Seeing the number of their men decreast,</l>
+<l>And the remainder weake and out of heart,</l>
+<l>Gave up their voyces to dislodge the Campe,</l>
+<l>And so in troopes all marcht to <name>Tenedos</name>:</l>
+<l>Where when they came, <name>Ulysses</name> on the sand</l>
+<l>Assayd with honey words to turne them backe:</l>
+<!--var:#spoke,] ~ ^ Q, TB, Ri, Rv#-->
+<l>And as he spoke<app>
+<lem>,</lem>
+<rdg wit="Q TB Ri Rv"></rdg>
+</app> to further his entent</l>
+<l>The windes did drive huge billowes to the shoare,</l>
+<l>And heaven was darkned with tempestuous clowdes:</l>
+<l>Then he alleag'd the Gods would have them stay,</l>
+<l>And prophecied <name>Troy</name> should be overcome:</l>
+<l>And therewithall he calde false <name>Sinon</name> forth,</l>
+<l>A man compact of craft and perjurie,</l>
+<l>Whose ticing tongue was made of <name>Hermes</name> pipe,</l>
+<l>To force an hundred watchfull eyes to sleepe:</l>
+<!--var:#him,] ~ ^#-->
+<l>And him<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> <name>Epeus</name> having made the horse,</l>
+<l>With sacrificing wreathes upon his head,</l>
+<l><name>Ulysses</name> sent to our unhappie towne:</l>
+<l>Who groveling in the mire of <name>Zanthus</name> bankes ,</l>
+<l>His hands bound at his backe, and both his eyes</l>
+<l>Turnd up to heaven as one resolv'd to dye,</l>
+<!--var:#shepherds] shepherd Q#-->
+<l>Our Phrigian <app>
+<lem>shepherds</lem>
+<rdg wit="Q">shepherd</rdg>
+</app> haled within the gates,</l>
+<l>And brought unto the Court of <name>Priamus</name>:</l>
+<l>To whom he used action so pitifull,</l>
+<l>Lookes so remorcefull, vowes so forcible,</l>
+<l>As therewithall the old man overcome,</l>
+<l>Kist him, imbrast him, and unloosde his bands,</l>
+<!--var:#then - -] ~ ,#-->
+<l>And then<app>
+<lem>&mdash;</lem>
+<rdg wit="Q">, </rdg>
+</app>O <name>Dido</name>, pardon me.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Nay leave not here, resolve me of the rest.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O th'inchaunting words of that base slave,</l>
+<l>Made him to thinke <name>Epeus</name> pine-tree Horse</l>
+<l>A sacrifize t'appease <name>Minervas</name> wrath:</l>
+<l>The rather for that one <name>Laocoon</name></l>
+<l>Breaking a speare upon his hollow breast,</l>
+<!--var:#stung] put Ox#-->
+<l>Was with two winged Serpents <app>
+<lem>stung</lem>
+<rdg wit="Ox">put</rdg>
+</app> to death.</l>
+<l>Whereat agast, we were commanded straight</l>
+<l>With reverence to draw it into <name>Troy</name>.</l>
+<l>In which unhappie worke was I employd,</l>
+<l>These hands did helpe to hale it to the gates,</l>
+<l>Through which it could not enter twas so huge.</l>
+<l>O had it never entred, <name>Troy</name> had stood.</l>
+<l>But <name>Priamus</name> impatient of delay,</l>
+<l>Inforst a wide breach in that rampierd wall,</l>
+<l>Which thousand battering Rams could never pierce,</l>
+<l>And so came in this fatall instrument:</l>
+<l>At whose accursed feete as overjoyed,</l>
+<l>We banquetted till overcome with wine,</l>
+<l>Some surfetted, and others soundly slept.</l>
+<l>Which <name>Sinon</name> viewing, causde the Greekish spyes</l>
+<l>To hast to <name>Tenedos</name> and tell the Campe:</l>
+<l>Then he unlockt the Horse, and suddenly</l>
+<l>From out his entrailes, <name>Neoptolemus</name></l>
+<l>Setting his speare upon the ground, leapt forth,</l>
+<l>And after him a thousand Grecians more,</l>
+<l>In whose sterne faces shin'd the quenchles fire,</l>
+<l>That after burnt the pride of <name>Asia</name>.</l>
+<l>By this the Campe was come unto the walles,</l>
+<!--var:#slreetes] street Ox#-->
+<l>And through the breach did march into the <app>
+<lem>streetes</lem>
+<rdg wit="Ox">street</rdg>
+</app>,</l>
+<l>Where meeting with the rest, kill kill they cryed.</l>
+<l>Frighted with this confused noyse, I rose,</l>
+<l>And looking from a turret, might behold</l>
+<l>Yong infants swimming in their parents bloud,</l>
+<l>Headles carkasses piled up in heapes,</l>
+<l>Virgins halfe dead dragged by their golden haire,</l>
+<l>And with maine force flung on a ring of pikes,</l>
+<l>Old men with swords thrust through their aged sides,</l>
+<l>Kneeling for mercie to a Greekish lad,</l>
+<l>Who with steele Pol-axes dasht out their braines.</l>
+<l>Then buckled I mine armour, drew my sword,</l>
+<l>And thinking to goe downe, came <name>Hectors</name> ghost</l>
+<l>With ashie visage, blewish sulphure eyes,</l>
+<l>His armes torne from his shoulders, and his breast</l>
+<!--var:#wounds] wound Ox#-->
+<l>Furrowd with <app>
+<lem>wounds</lem>
+<rdg wit="Ox">wound</rdg>
+</app>, and that which made me weepe,</l>
+<l>Thongs at his heeles, by which <name>Achilles</name> horse</l>
+<l>Drew him in triumph through the Greekish Campe,</l>
+<l>Burst from the earth, crying, <name>Aeneas</name> fiye,</l>
+<l><name>Troy</name> is a fire, the Grecians have the towne.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O <name>Hector</name> who weepes not to heare thy name?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Yet flung I forth, and desperate of my life,</l>
+<l>Ran in the thickest throngs, and with this sword</l>
+<l>Sent many of their savadge ghosts to hell.</l>
+<l>At last came <name>Pirrhus</name> fell and full of ire,</l>
+<l>His harnesse dropping bloud, and on his speare</l>
+<l>The mangled head of <name>Priams</name> yongest sonne,</l>
+<l>And after him his band of Mirmidons,</l>
+<l>With balles of wilde fire in their murdering pawes,</l>
+<l>Which made the funerall flame that burnt faire <name>Troy</name>:</l>
+<l>All which hemd me about, crying, this is he.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#Ah] Ha? Ox, H, R, C#-->
+<l><app>
+<lem>Ah</lem>
+<rdg wit="Ox H R C">Ha?</rdg>
+</app>, how could poore <name>Aeneas</name> scape their hands?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>My mother <name>Venus</name> jealous of my health,</l>
+<l>Convaid me from their crooked nets and bands:</l>
+<l>So I escapt the furious <name>Pirrhus</name> wrath:</l>
+<l>Who then ran to the pallace of the King,</l>
+<l>And at <name>Joves</name> Altar finding <name>Priamus</name>,</l>
+<l>About whose withered necke hung <name>Hecuba</name>,</l>
+<l>Foulding his hand in hers, and joyntly both</l>
+<l>Beating their breasts and falling on the ground,</l>
+<l>He with his faulchions poynt raisde up at once,</l>
+<l>And with <name>Megeras</name> eyes stared in their face,</l>
+<l>Threatning a thousand deaths at every glaunce.</l>
+<l>To whom the aged King thus trembling spoke:</l>
+<l><name>Achilles</name> sonne, remember what I was,</l>
+<l>Father of fiftie sonnes, but they are slaine,</l>
+<l>Lord of my fortune, but my fortunes turnd,</l>
+<l>King of this Citie, but my <name>Troy</name> is fired,</l>
+<l>And now am neither father, Lord, nor King:</l>
+<l>Yet who so wretched but desires to live?</l>
+<!--var:#<I>Neoptolemus</I>.] ~ ,#-->
+<l>O let me live, great <name>Neoptolemus</name><app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>Not mov'd at all, but smiling at his teares,</l>
+<l>This butcher whil'st his hands were yet held up,</l>
+<l>Treading upon his breast, strooke off his hands.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O end <name>Aeneas</name>, I can heare no more.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>At which the franticke Queene leapt on his face,</l>
+<l>And in his eyelids hanging by the nayles,</l>
+<l>A little while prolong'd her husbands life:</l>
+<l>At last the souldiers puld her by the heeles,</l>
+<l>And swong her howling in the emptie ayre,</l>
+<l>Which sent an eccho to the wounded King:</l>
+<l>Whereat he lifted up his bedred lims,</l>
+<l>And would have grappeld with <name>Achilles</name> sonne,</l>
+<l>Forgetting both his want of strength and hands,</l>
+<l>Which he disdaining whiskt his sword about,</l>
+<!--var:#wind] wound Q, Ox, H, R, Rv#-->
+<l>And with the <app>
+<lem>wind</lem>
+<rdg wit="Q Ox H R Rv">wound</rdg>
+</app> thereof the King fell downe:</l>
+<l>Then from the navell to the throat at once,</l>
+<l>He ript old <name>Priam</name>: at whose latter gaspe</l>
+<l><name>Joves</name> marble statue gan to bend the brow,</l>
+<l>As lothing <name>Pirrhus</name> for this wicked act:</l>
+<l>Yet he undaunted tooke his fathers flagge,</l>
+<l>And dipt it in the old Kings chill cold bloud,</l>
+<l>And then in triumph ran into the streetes,</l>
+<l>Through which he could not passe for slaughtred men:</l>
+<l>So leaning on his sword he stood stone still,</l>
+<l>Viewing the fire wherewith rich <name>Ilion</name> burnt.</l>
+<l>By this I got my father on my backe,</l>
+<l>This young boy in mine armes, and by the hand</l>
+<l>Led faire <name>Creusa</name> my beloved wife,</l>
+<l>When thou <name>Achates</name> with thy sword mad'st way,</l>
+<l>And we were round inviron'd with the Greekes:</l>
+<l>O there I lost my wife: and had not we</l>
+<l>Fought manfully, I had not told this tale:</l>
+<l>Yet manhood would not serve, of force we fled,</l>
+<l>And as we went unto our ships, thou knowest</l>
+<l>We sawe <name>Cassandra</name> sprauling in the streetes,</l>
+<!--var:#Fane] Fawne Q#-->
+<l>Whom <name>Ajax</name> ravisht in <name>Dianas</name> <app>
+<lem>Fane</lem>
+<rdg wit="Q">Fawne</rdg>
+</app>,</l>
+<l>Her cheekes swolne with sighes, her haire all rent,</l>
+<l>Whom I tooke up to beare unto our ships:</l>
+<l>But suddenly the Grecians followed us,</l>
+<l>And I alas, was forst to let her lye.</l>
+<l>Then got we to our ships, and being abourd,</l>
+<l><name>Polixena</name> cryed out, <name>Aeneas</name> stay,</l>
+<l>The Greekes pursue me, stay and take me in.</l>
+<l>Moved with her voyce, I lept into the sea,</l>
+<l>Thinking to beare her on my backe abourd<app>
+<lem>,</lem>
+<rdg wit="Q">:</rdg>
+</app></l>
+<l>For all our ships were launcht into the deepe<app>
+<lem>:</lem>
+<rdg wit="Q"></rdg>
+</app></l>
+<l>And as I swomme, she standing on the shoare,</l>
+<l>Was by the cruell Mirmidons surprizd,</l>
+<!--var:#by that] that, by D1 (<I>qy</I>), D2, B, G#-->
+<l>And after <app>
+<lem>by that</lem>
+<rdg wit="D1 D2 B G">that, by</rdg><wit>D1 (<emph>qy</emph>)</wit>
+</app> <name>Pirrhus</name> sacrifizde.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>I dye with melting ruth, <name>Aeneas</name> leave.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>O what became of aged <name>Hecuba</name>?</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>How got <name>Aeneas</name> to the fleete againe?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>But how scapt <name>Helen</name>, she that causde this warre?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Achates</name> speake, sorrow hath tired me quite.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>What happened to the Queene we cannot shewe,</l>
+<!--var:#<I>Greece</I>.] Greece,#-->
+<l>We heare they led her captive into <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Greece<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app><app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>As for <name>Aeneas</name> he swomme quickly backe,</l>
+<!--var:#<I>Deiphobus</I> ,] <I>Diiphobus</I>  ^#-->
+<l>And <name>Helena</name> betraied <name><app>
+<lem>Deiphobus</lem>
+<rdg wit="Q">Diiphobus</rdg>
+</app></name><app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app></l>
+<!--var:#Lover ^] ~ ,#-->
+<l>Her <app>
+<lem>Lover </lem>
+<rdg wit="Q">,</rdg>
+</app>after <name>Alexander</name> dyed,</l>
+<l>And so was reconcil'd to <name>Menelaus</name>.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O had that ticing strumpet nere been borne:</l>
+<l>Troian, thy ruthfull tale hath made me sad:</l>
+<l>Come let us thinke upon some pleasing sport,</l>
+<l>To rid me from these melancholly thoughts.</l>
+</sp> <stage type="exit">Exeunt omnes.</stage>
+
+
+<stage type="entrance">Enter <name>Venus</name> [with <name>Cupid</name>] at another doore, and takes <name>Ascanius</name> by the sleeve [as he is going off].</stage>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Faire child stay thou with <name>Didos</name> waiting maide,</l>
+<l>Ile give thee Sugar-almonds, sweete Conserves,</l>
+<l>A silver girdle, and a golden purse,</l>
+<l>And this yong Prince shall be thy playfellow.</l>
+</sp>
+
+<sp who="asca"><speaker>Ascanius</speaker>
+<l>Are you Queene <name>Didos</name> sonne?</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>I, and my mother gave me this fine bow.</l>
+</sp>
+
+<sp who="asca"><speaker>Ascanius</speaker>
+<l>Shall I have such a quiver and a bow?</l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Such bow, such quiver, and such golden shafts,</l>
+<l>Will <name>Dido</name> give to sweete <name>Ascanius</name>:</l>
+<l>For <name>Didos</name> sake I take thee in my armes,</l>
+<l>And sticke these spangled feathers in thy hat,</l>
+<l>Eate Comfites in mine armes, and I will sing.	<stage type="delivery">[Song.]</stage></l>
+
+<l>Now is he fast asleepe, and in this grove</l>
+<l>Amongst greene brakes Ile lay <name>Ascanius</name>,</l>
+<l>And strewe him with sweete smelling Violets,</l>
+<!--var:#Blushing] With blushing C (<I>after</I>  Mitford)#-->
+<!--var:#<I>Hyacinthe</I>] hyacinths D, C#-->
+<l><app>
+<lem>Blushing</lem>
+<rdg wit="C">With blushing</rdg><wit>C (<emph>after</emph> Mitford)</wit>
+</app> Roses, purple <name><app>
+<lem>Hyacinthe</lem>
+<rdg wit="D C">hyacinths</rdg>
+</app></name>:</l>
+<l>These milke white Doves shall be his Centronels:</l>
+<l>Who if that any seeke to doe him hurt,</l>
+<!--var:#<I>Cithereas</I>] <I>Citheidas</I>  Q#-->
+<l>Will quickly fiye to <name><app>
+<lem>Cithereas</lem>
+<rdg wit="Q">Citheidas</rdg>
+</app></name> fist.</l>
+<l>Now <name>Cupid</name> turne thee to <name>Ascanius</name> shape,</l>
+<l>And goe to <name>Dido</name>, who in stead of him</l>
+<l>Will set thee on her lap and play with thee:</l>
+<l>Then touch her white breast with this arrow head,</l>
+<l>That she may dote upon <name>Aeneas</name> love:</l>
+<l>And by that meanes repaire his broken ships,</l>
+<l>Victuall his Souldiers, give him wealthie gifts,</l>
+<l>And he at last depart to <name>Italy</name>,</l>
+<l>Or els in <name>Carthage</name> make his kingly throne.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>I will faire mother, and so play my part,</l>
+<l>As every touch shall wound Queene <name>Didos</name> heart.</l>
+</sp>	<stage type="exit">[Exit.]</stage>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Sleepe my sweete nephew in these cooling shades,</l>
+<l>Free from the murmure of these running streames,</l>
+<l>The crye of beasts, the ratling of the windes,</l>
+<l>Or whisking of these leaves, all shall be still,</l>
+<!--var:#And...sleepe,] <I>omit</I>  Ox#-->
+<l><app>
+<rdg wit="Ox"><lacunaStart/></rdg>
+</app>And nothing interrupt thy quiet sleepe,<app>
+<rdg wit="Ox"><lacunaEnd/></rdg>
+</app></l>
+<l>Till I returne and take thee hence againe.</l>
+</sp><stage type="exit">Exit.</stage>
+
+</div2></div1>
+
+<div1 n="3" type="act">
+<!--var:#III.i] Actus 3. Scene I.#-->
+<div2 n="1" type="scene"><head><app>
+<lem>Act Three, Scene One</lem>
+<rdg wit="Q">Actus 3. Scene I.</rdg>
+</app></head>
+<stage type="entrance">Enter <name>Cupid</name> solus [for <name>Ascanius</name>].</stage>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>Now <name>Cupid</name> cause the Carthaginian Queene,</l>
+<l>To be inamourd of thy brothers lookes,</l>
+<l>Convey this golden arrowe in thy sleeve,</l>
+<l>Lest she imagine thou art <name>Venus</name> sonne:</l>
+<!--var:#the] thy Ox#-->
+<l>And when she strokes <app>
+<lem>the</lem>
+<rdg wit="Ox">thy</rdg>
+</app>e softly on the head,</l>
+<l>Then shall I touch her breast and conquer her.</l>
+</sp>
+<stage type="entrance">Enter <name>Iarbus</name>, <name>Anna</name>, and <name>Dido</name>.</stage>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>How long faire <name>Dido</name> shall I pine for thee?</l>
+<l>Tis not enough that thou doest graunt me love,</l>
+<l>But that I may enjoy what I desire:</l>
+<l>That love is childish which consists in words.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Iarbus</name>, know that thou of all my wooers</l>
+<l>(And yet have I had many mightier Kings)</l>
+<l>Hast had the greatest favours I could give:</l>
+<l>I feare me <name>Dido</name> hath been counted light,</l>
+<l>In being too familiar with <name>Iarbus</name>:</l>
+<l>Albeit the Gods doe know no wanton thought</l>
+<l>Had ever residence in <name>Didos</name> breast.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>But <name>Dido</name> is the favour I request.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Feare not <name>Iarbus</name>, <name>Dido</name> may be thine.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Looke sister how <name>Aeneas</name> little sonne</l>
+<l>Playes with your garments and imbraceth you.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>No <name>Dido</name> will not take me in her armes,</l>
+<l>I shall not be her sonne, she loves me not.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Weepe not sweet boy, thou shalt be <name>Didos</name> sonne,</l>
+<l>Sit in my lap and let me heare thee sing.</l>
+<stage type="business">[<name>Cupid</name> sings.]</stage>
+<l>No more my child, now talke another while,</l>
+<!--var:#learndst] learnst Q, Ox, H, R, G, McK, TB#-->
+<l>And tell me where <app>
+<lem>learndst</lem>
+<rdg wit="Q Ox H R G McK TB">learnst</rdg>
+</app> thou this pretie song?</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>My cosin <name>Helen</name> taught it me in <name>Troy</name>.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>How lovely is <name>Ascanius</name> when he smiles?</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>Will <name>Dido</name> let me hang about her necke?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>I wagge, and give thee leave to kisse her to.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<!--var:#me^ now?] ~ ? ~ ^ Q, Ox, H, R, C, G, McK, TB, Rv#-->
+<l>What will you give <app>
+<lem>me now?</lem>
+<rdg wit="Q Ox H R C G McK TB Rv">? </rdg>
+</app> Ile have this Fanne.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Take it <name>Ascanius</name>, for thy fathers sake.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Come <name>Dido</name>, leave <name>Ascanius</name>, let us walke.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Goe thou away, <name>Ascanius</name> shall stay.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Ungentle Queene, is this thy love to me?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O stay <name>Iarbus</name>, and Ile goe with thee.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>And if my mother goe, Ile follow her.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#mine.] ~ ?#-->
+<l>Why staiest thou here? thou art no love of mine<app>
+<lem>.</lem>
+<rdg wit="Q">?</rdg>
+</app></l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l><name>Iarbus</name> dye, seeing she abandons thee.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>No, live <name>Iarbus</name>, what hast thou deserv'd,</l>
+<l>That I should say thou art no love of mine?</l>
+<!--var:#deserv'd. - - Away] ~ , away#-->
+<l>Something thou hast deserv'd<app>
+<lem>.&mdash;</lem>
+<rdg wit="Q">, </rdg>
+</app><app>
+<lem>Away</lem>
+<rdg wit="Q">away</rdg>
+</app> I say,</l>
+<l>Depart from <name>Carthage</name>, come not in my sight.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Am I not King of rich <name>Getulia</name>?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Iarbus</name> pardon me, and stay a while.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>Mother, looke here.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>What telst thou me of rich <name>Getulia</name>?</l>
+<l>Am not I Queen of <name>Libia</name>? then depart.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>I goe to feed the humour of my Love,</l>
+<l>Yet not from <name>Carthage</name> for a thousand worlds.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Iarbus</name>.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Doth <name>Dido</name> call me backe?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>No, but I charge thee never looke on me.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Then pull out both mine eyes, or let me dye.</l>
+</sp>
+
+<stage type="exit">Exit <name>Iarbus</name>.</stage>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Wherefore doth <name>Dido</name> bid <name>Iarbus</name> goe?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#eye] eyes C#-->
+<l>Because his lothsome sight offends mine <app>
+<lem>eye</lem>
+<rdg wit="C">eyes</rdg>
+</app>,</l>
+<!--var:#love] Iove Q, Ox, H, R, G#-->
+<l>And in my thoughts is shrin'd another <app>
+<lem>love</lem>
+<rdg wit="Q Ox H R G">Iove</rdg>
+</app>:</l>
+<l>O <name>Anna</name>, didst thou know how sweet love were,</l>
+<l>Full soone wouldst thou abjure this single life.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<!--var:#sower] power Ox, H, R#-->
+<l>Poore soule I know too well the <app>
+<lem>sower</lem>
+<rdg wit="Ox H R">power</rdg>
+</app> of love,  <stage type="delivery">[Aside.]</stage></l>
+<l>O that <name>Iarbus</name> could but fancie me.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Is not <name>Aeneas</name> faire and beautifull?</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Yes, and <name>Iarbus</name> foule and favourles.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Is he not eloquent in all his speech?</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Yes, and <name>Iarbus</name> rude and rusticall.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Name not <name>Iarbus</name>, but sweete <name>Anna</name> say,</l>
+<l>Is not <name>Aeneas</name> worthie <name>Didos</name> love?</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>O sister, were you Empresse of the world,</l>
+<l><name>Aeneas</name> well deserves to be your love,</l>
+<l>So lovely is he that where ere he goes,</l>
+<l>The people swarme to gaze him in the face.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>But tell them none shall gaze on him but I,</l>
+<l>Lest their grosse eye-beames taint my lovers cheekes:</l>
+<l><name>Anna</name>, good sister <name>Anna</name> goe for him,</l>
+<l>Lest with these sweete thoughts I melt cleane away.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Then sister youle abjure <name>Iarbus</name> love?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Yet must I heare that lothsome name againe?</l>
+<l>Runne for <name>Aeneas</name>, or Ile flye to him.</l>
+</sp>	<stage type="exit">Exit <name>Anna</name>.</stage>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>You shall not hurt my father when he comes.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>No, for thy sake Ile love thy father well.</l>
+<l>O dull conceipted <name>Dido</name>, that till now</l>
+<l>Didst never thinke <name>Aeneas</name> beautifull:</l>
+<l>But now for quittance of this oversight,</l>
+<l>Ile make me bracelets of his golden haire,</l>
+<!--var:#glistering] glist'ning Ox#-->
+<l>His <app>
+<lem>glistering</lem>
+<rdg wit="Ox">glist'ning</rdg>
+</app> eyes shall be my looking glasse,</l>
+<l>His lips an altar, where Ile offer up</l>
+<l>As many kisses as te Sea hath sands,</l>
+<l>In stead of musicke I will heare him speake,</l>
+<l>His lookes shall be my only Librarie,</l>
+<l>And thou <name>Aeneas</name>, <name>Didos</name> treasurie,</l>
+<l>In whose faire bosome I will locke more wealth,</l>
+<!--var:#<I>Indiaes</I>] Indiaes#-->
+<l>Then twentie thousand <name><app>
+<lem>Indiaes</lem>
+<rdg wit="Q">Indiaes</rdg>
+</app></name> can affoord:</l>
+<l>O here he comes, love, love, give Dido leave</l>
+<l>To be more modest then her thoughts admit,</l>
+<l>Lest I be made a wonder to the world.</l>
+<stage type="entrance">[Enter <name>Aeneas</name>, <name>Achates</name>, <name>Sergestus</name>, <name>Illioneus</name>, and <name>Cloanthus</name>.]</stage>
+
+<l><name>Achates</name>, how doth <name>Carthage</name> please your Lord?</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>That will <name>Aeneas</name> shewe your majestie.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Aeneas</name>, art thou there?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>I understand your highnesse sent for me.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>No, but now thou art here, tell me in sooth</l>
+<l>In what might <name>Dido</name> highly pleasure thee.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>So much have I receiv'd at <name>Didos</name> hands,</l>
+<l>As without blushing I can aske no more:</l>
+<l>Yet Queene of <name>Affricke</name>, are my ships unrigd,</l>
+<l>My Sailes all rent in sunder with the winde,</l>
+<l>My Oares broken, and my Tackling lost,</l>
+<l>Yea all my Navie split with Rockes and Shelfes:</l>
+<l>Nor Sterne nor Anchor have our maimed Fleete,</l>
+<l>Our Masts the furious windes strooke over bourd:</l>
+<l>Which piteous wants if <name>Dido</name> will supplie,</l>
+<l>We will account her author of our lives.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Aeneas</name>, Ile repaire thy Trojan ships,</l>
+<l>Conditionally that thou wilt stay with me,</l>
+<l>And let <name>Achates</name> saile to <name>Italy</name>:</l>
+<l>Ile give thee tackling made of riveld gold,</l>
+<l>Wound on the barkes of odoriferous trees,</l>
+<l>Oares of massie Ivorie full of holes,</l>
+<l>Through which the water shall delight to play:</l>
+<l>Thy Anchors shall be hewed from Christall Rockes,</l>
+<!--var:#lose] loose C#-->
+<l>Which if thou <app>
+<lem>lose</lem>
+<rdg wit="C">loose</rdg>
+</app> shall shine above the waves:</l>
+<l>The Masts whereon thy swelling sailes shall hang,</l>
+<l>Hollow Pyramides of silver plate:</l>
+<l>The sailes of foulded Lawne, where shall be wrought</l>
+<l>The warres of <name>Troy</name>, but not <name>Troyes</name> overthrow:</l>
+<l>For ballace, emptie <name>Didos</name> treasurie,</l>
+<l>Take what ye will, but leave <name>Aeneas</name> here.</l>
+<!--var:#meanly] seemly D (<I>but qy</I>  meetly), B; newly Coll MS, C#-->
+<l><name>Achates</name>, thou shalt be so <app>
+<lem>meanly</lem>
+<rdg wit="D B">seemly</rdg>
+<rdg wit="D">meetly</rdg><wit>D (<emph>qy</emph>)</wit>
+<rdg wit="Coll C">newly</rdg>
+</app> clad,</l>
+<l>As Seaborne Nymphes shall swarme about thy ships,</l>
+<l>And wanton Mermaides court thee with sweete songs,</l>
+<l>Flinging in favours of more soveraigne worth,</l>
+<l>Then <name>Thetis</name> hangs about <name>Apolloes</name> necke,</l>
+<l>So that <name>Aeneas</name> may but stay with me.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Wherefore would <name>Dido</name> have <name>Aeneas</name> stay?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>To warre against my bordering enemies:</l>
+<l><name>Aeneas</name>, thinke not <name>Dido</name> is in love:</l>
+<l>For if that any man could conquer me,</l>
+<l>I had been wedded ere <name>Aeneas</name> came:</l>
+<l>See where the pictures of my suiters hang,</l>
+<l>And are not these as faire as faire may be?</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>I saw this man at <name>Troy</name> ere <name>Troy</name> was sackt.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#Aeneus.] Sergi D2; <I>A Lord</I>. G#-->
+<!--<BAD desc="No match at 3,1,142">-->
+<l>I this in <name>Greece</name> when <name>Paris</name> stole fair <name>Helen</name>.</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<!--var:#<I>Olympus</I>] Olympia's D, C, B, M#-->
+<l>This man and I were at <name><app>
+<lem>Olympus</lem>
+<rdg wit="D C B M">Olympia's</rdg>
+</app></name> games.</l>
+</sp>
+
+<sp who="serg"><speaker>Sergestus</speaker>
+<l>I know this face, he is a Persian borne,</l> 
+<l>I traveld with him to <name>Aetolia</name>.</l>
+</sp>
+
+<sp who="cloa"><speaker>Cloanthus</speaker>
+<l>And I in <name>Athens</name> with this gentleman,</l>
+<l>Unlesse I be deceiv'd disputed once.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>But speake <name>Aeneas</name>, know you none of these?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>No Madame, but it seemes that these are Kings.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>All these and others which I never sawe,</l>
+<l>Have been most urgent suiters for my love,</l>
+<l>Some came in person, others sent their Legats:</l>
+<l>Yet none obtaind me, I am free from all<app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app><app>
+<lem>&mdash;</lem>
+<rdg wit="Q"></rdg>
+</app></l>
+<l>And yet God knowes intangled unto one.<app>
+<lem>&mdash;</lem>
+<rdg wit="Q"></rdg>
+</app><stage type="delivery">[Aside.]</stage></l>
+<l>This was an Orator, and thought by words</l>
+<l>To compasse me, but yet he was deceiv'd:</l>
+<l>And this a Spartan Courtier vaine and wilde,</l>
+<l>But his fantastick humours pleasde not me:</l>
+<l>This was <name>Alcion</name>, a Musition,</l>
+<l>But playd he nere so sweet, I let him goe:</l>
+<l>This was the wealthie King of <name>Thessaly</name>,</l>
+<l>But I had gold enough and cast him off:</l>
+<l>This <name>Meleagers</name> sonne, a warlike Prince,</l>
+<!--var:#gree] greed G#-->
+<l>But weapons <app>
+<lem>gree</lem>
+<rdg wit="G">greed</rdg>
+</app> not with my tender yeares:</l>
+<l>The rest are such as all the world well knowes,</l>
+<!--var:#how] here Ox, H, R, C; now D, B, TB, M, RI 1#-->
+<l>Yet <app>
+<lem>how</lem>
+<rdg wit="Ox H R C">here</rdg>
+<rdg wit="1">now D, B, TB, M, RI</rdg>
+</app> I sweare by heaven and him I love,</l>
+<l>I was as farre from love, as they from hate.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O happie shall he be whom <name>Dido</name> loves.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Then never say that thou art miserable,</l>
+<l>Because it may be thou shalt be my love:</l>
+<l>Yet boast not of it, for I love thee not,</l>
+<l>And yet I hate thee not:<app>
+<lem>&mdash;</lem>
+<rdg wit="Q"></rdg>
+</app> O if I speake</l>
+<!--var:#<I>Aeneas</I>  speake] Aeneas come <I>or</I>  hark D1 (<I>qy</I>); Aeneas come D2, B;           Aeneas- - | <I>Aen</I>. Speake! | <I>Dido</I>. We two McK (<I>qy</I>)#-->
+<l>I shall betray my selfe<app>
+<lem>:</lem>
+<rdg wit="Q">.</rdg>
+</app><app>
+<lem>&mdash;</lem>
+<rdg wit="Q"></rdg>
+</app> <name>Aeneas</name><app>
+<rdg wit="McK">&mdash;<tagEnd gi="L"/><tagEnd gi="sp"/>
+<tagStart atts="who=&apos;Aene&apos;" gi="sp"/>
+<tagStart gi="speaker"/>&AElig;n.<tagEnd gi="speaker"/>
+<tagStart atts="part=&apos;F&apos;" gi="L"/></rdg>
+</app>
+<app>
+<lem>speake</lem>
+<rdg wit="McK">Speake!</rdg>
+<rdg wit="D1 D2 B">come</rdg>
+<rdg wit="D1">hark</rdg><wit>D1 (<emph>qy</emph>)</wit>
+</app>,</l>
+<l><app>
+<rdg wit="McK"><tagEnd gi="sp"/><tagStart atts="who=&apos;Dido&apos;" gi="sp"/>
+<tagStart gi="speaker"/>Dido<tagEnd gi="speaker"/></rdg>
+</app>We two will goe a hunting in the woods,</l>
+<l>But not so much for thee, thou art but one,</l>
+<l>As for <name>Achates</name>, and his followers.</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+</div2>
+
+<div2 n="2" type="scene"><head>Act Three, Scene Two</head>
+<stage type="entrance">Enter <name>Juno</name> to <name>Ascanius</name> asleepe.</stage>
+
+<sp who="juno"><speaker>Juno</speaker>
+<l>Here lyes my hate, <name>Aeneas</name> cursed brat,</l>
+<l>The boy wherein false destinie delights,</l>
+<!--var:#fame] furie Q, Ox , H, R, D, B, TB, McK, RI; Troy C; furies G#-->
+<!--var:#the fates] the face Q; fate Rv#-->
+<l>The heire of <app>
+<lem>fame</lem>
+<rdg wit="Q Ox H R D B TB McK RI">furie</rdg>
+<rdg wit="C">Troy</rdg>
+<rdg wit="G">furies</rdg>
+</app>, the favorite of <app>
+<lem>the fates</lem>
+<rdg wit="Q">the face</rdg>
+<rdg wit="Rv">fate</rdg>
+</app>,</l>
+<l>That ugly impe that shall outweare my wrath,</l>
+<l>And wrong my deitie with high disgrace:</l>
+<l>But I will take another order now,</l>
+<l>And race th'eternall Register of time:</l>
+<l><name>Troy</name> shall no more call him her second hope,</l>
+<l>Nor <name>Venus</name> triumph in his tender youth:</l>
+<l>For here in spight of heaven Ile murder him,</l>
+<!--var:#let out] left out Q#-->
+<l>And feede infection with his <app>
+<lem>let out</lem>
+<rdg wit="Q">left out</rdg>
+</app> life:</l>
+<l>Say <name>Paris</name>, now shall <name>Venus</name> have the ball?</l>
+<!--var:#dye?] ~ .#-->
+<l>Say vengeance, now shall her <name>Ascanius</name> dye<app>
+<lem>?</lem>
+<rdg wit="Q">.</rdg>
+</app></l>
+<l>O no God wot, I cannot watch my time,</l>
+<l>Nor quit good turnes with double fee downe told:</l>
+<!--var:#simple,] ~ ^#-->
+<!--var:#without] with ought made McK (<I>qy</I>)#-->
+<!--var:#minde] made Q; might Ox, H, R#-->
+<l>Tut, I am simple<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> <app>
+<lem>without</lem>
+<rdg wit="McK">with ought made</rdg><wit>McK (<emph>qy</emph>)</wit>
+</app> <app>
+<lem>minde</lem>
+<rdg wit="Q">made</rdg>
+<rdg wit="Ox H R">might</rdg>
+</app> to hurt,</l>
+<l>And have no gall at all to grieve my foes:</l>
+<l>But lustfull <name>Jove</name> and his adulterous child,</l>
+<l>Shall finde it written on confusions front,</l>
+<l>That onely <name>Juno</name> rules in <name>Rhamnuse</name> towne.</l>
+</sp>
+
+<stage type="entrance">Enter <name>Venus</name>.</stage>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>What should this meane? my Doves are back returnd,</l>
+<!--var:#such] some C (<I>qy</I>)#-->
+<l>Who warne me of <app>
+<lem>such</lem>
+<rdg wit="C">some</rdg><wit>C (<emph>qy</emph>)</wit>
+</app> daunger prest at hand,</l>
+<l>To harme my sweete <name>Ascanius</name> lovely life.</l>
+<l><name>Juno</name>, my mortall foe, what make you here?</l>
+<l>Avaunt old witch and trouble not my wits.</l>
+</sp>
+
+<sp who="juno"><speaker>Juno</speaker>
+<l>Fie <name>Venus</name>, that such causeles words of wrath,</l>
+<l>Should ere defile so faire a mouth as thine:</l>
+<l>Are not we both sprong of celestiall rase,</l>
+<l>And banquet as two Sisters with the Gods?</l>
+<l>Why is it then displeasure should disjoyne,</l>
+<!--var:#counites?] ~ .#-->
+<l>Whom kindred and acquaintance counites<app>
+<lem>?</lem>
+<rdg wit="Q">.</rdg>
+</app></l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Out hatefull hag, thou wouldst have slaine my sonne,</l>
+<l>Had not my Doves discov'rd thy entent:</l>
+<l>But I will teare thy eyes fro forth thy head,</l>
+<l>And feast the birds with their bloud-shotten balles,</l>
+<l>If thou but lay thy fingers on my boy.</l>
+</sp>
+
+<sp who="juno"><speaker>Juno</speaker>
+<l>Is this then all the thankes that I shall have,</l>
+<l>For saving him from Snakes and Serpents stings,</l>
+<l>That would have kild him sleeping as he lay?</l>
+<l>What though I was offended with thy sonne,</l>
+<l>And wrought him mickle woe on sea and land,</l>
+<l>When for the hate of Troian <name>Ganimed</name>,</l>
+<l>That was advanced by my <name>Hebes</name> shame,</l>
+<l>And <name>Paris</name> judgement of the heavenly ball,</l>
+<l>I mustred all the windes unto his wracke,</l>
+<l>And urg'd each Element to his annoy:</l>
+<l>Yet now I doe repent me of his ruth,</l>
+<l>And wish that I had never wrongd him so:</l>
+<l>Bootles I sawe it was to warre with fate,</l>
+<l>That hath so many unresisted friends:</l>
+<!--var:#chaungd] chaunge Q, Ox, H, R, TB#-->
+<l>Wherefore I <app>
+<lem>chaungd</lem>
+<rdg wit="Q Ox H R TB">chaunge</rdg>
+</app> my counsell with the time,</l>
+<l>And planted love where envie erst had sprong.</l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Sister of <name>Jove</name>, if that thy love be such,</l>
+<l>As these thy protestations doe paint forth,</l>
+<l>We two as friends one fortune will devide:</l>
+<l><name>Cupid</name> shall lay his arrowes in thy lap,</l>
+<l>And to a Scepter chaunge his golden shafts,</l>
+<l>Fancie and modestie shall live as mates,</l>
+<l>And thy faire peacockes by my pigeons pearch:</l>
+<l>Love my <name>Aeneas</name>, and desire is thine,</l>
+<l>The day, the night, my Swannes, my sweetes are thine.</l>
+</sp>
+
+<sp who="juno"><speaker>Juno</speaker>
+<l>More then melodious are these words to me,</l>
+<l>That ovecloy my soule with their content:</l>
+<l><name>Venus</name>, sweete <name>Venus</name>, how may I deserve</l>
+<l>Such amourous favours at thy beautious hand?</l>
+<l>But that thou maist more easilie perceive,</l>
+<l>How highly I doe prize this amitie,</l>
+<l>Harke to a motion of eternall league,</l>
+<l>Which I will make in quittance of thy love:</l>
+<l>Thy sonne thou knowest with <name>Dido</name> now remaines,</l>
+<l>And feedes his eyes with favours of her Court,</l>
+<l>She likewise in admyring spends her time,</l>
+<l>And cannot talke nor thinke of ought but him:</l>
+<l>Why should not they then joyne in marriage,</l>
+<!--var:#<I>Carthage</I>] Carthage#-->
+<l>And bring forth mightie Kings to <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> towne,</l>
+<l>Whom casualtie of sea hath made such friends?</l>
+<l>And <name>Venus</name>, let there be a match confirmd</l>
+<l>Betwixt these two, whose loves are so alike,</l>
+<l>And both our Deities conjoynd in one,</l>
+<l>Shall chaine felicitie unto their throne.</l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Well could I like this reconcilements meanes,</l>
+<l>But much I feare my sonne will nere consent,</l>
+<l>Whose armed soule alreadie on the sea,</l>
+<!--var:#light to] light unto Br MS, C, B; lightning to <I>or</I>  light unto D (<I>qy</I>); light to the G#-->
+<!--var:#<I>Lavinias</I>] Lavinian D (<I>qy</I>); the <I>Lavinian</I>  G (but <I>qy</I>  unto <I>Lavinium's</I> )-->
+<l>Darts forth her <app>
+<lem>light</lem>
+<rdg wit="D">lightning</rdg>
+</app> <app>
+<lem wit="D G">to</lem>
+<rdg wit="Br C B D">unto</rdg><wit>D (<emph>qy</emph>)</wit>
+</app> <app>
+<rdg wit="G">the</rdg>
+</app> <name><app>
+<lem>Lavinias</lem>
+<rdg wit="D">Lavinian</rdg><wit>D (<emph>qy</emph>)</wit>
+<rdg wit="G">the Lavinian</rdg>
+<rdg wit="G">Lavinium's</rdg><wit>G (<emph>qy</emph>)</wit>
+</app></name> shoare.</l>
+</sp>
+
+<sp who="juno"><speaker>Juno</speaker>
+<l>Faire Queene of love, I will devorce these doubts,</l>
+<l>And finde the way to wearie such fond thoughts:</l>
+<l>This day they both a hunting forth will ride</l>
+<!--var:#88 these woods] the woods D, C, B, G, McK#-->
+<l>Into <app>
+<lem>these</lem>
+<rdg wit="D C B G McK">the</rdg>
+</app> woods, adjoyning to these walles,</l>
+<l>When in the midst of all their gamesome sports,</l>
+<l>Ile make the Clowdes dissolve their watrie workes,</l>
+<l>And drench <name>Silvanus</name> dwellings with their shewers,</l>
+<l>Then in one Cave the Queene and he shall meete,</l>
+<l><app>
+<rdg wit="Ox H R"><lacunaStart/></rdg>
+</app>And interchangeably discourse their thoughts,</l>
+<l>Whose short conclusion will seale up their hearts,</l>
+<l>Unto the purpose which we now propound.<app>
+<rdg wit="Ox H R"><lacunaEnd/></rdg>
+</app></l>
+</sp>
+
+<sp who="venu"><speaker>Venus</speaker>
+<l>Sister, I see you savour of my wiles,</l>
+<!--var:#have it] have Q, D1 (<I>but qy</I>  it), M, Rv#-->
+<l>Be it as you will <app>
+<lem>have it</lem>
+<rdg wit="D1" type="qy">have it</rdg>
+<rdg wit="Q D1 M Rv">have</rdg>
+</app> for this once,</l>
+<l>Meane time, <name>Ascanius</name> shall be my charge,</l>
+<l>Whom I will beare to <name>Ida</name> in mine armes,</l>
+<l>And couch him in <name>Adonis</name> purple downe.</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+</div2>
+
+<div2 n="3" type="scene"><head>Act Three, Scene Three</head>
+<stage type="entrance">Enter <name>Dido</name>, <name>Aeneas</name>, <name>Anna</name>, <name>Iarbus</name>, <name>Achates</name>, [<name>Cupid</name> for <name>Ascanius</name>,] and followers.</stage>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Aeneas</name>, thinke not but I honor thee,</l>
+<l>That thus in person goe with thee to hunt:</l>
+<l>My princely robes thou seest are layd aside,</l>
+<!--var:#shrowdes] shroud Ox, S, R, D, C, B#-->
+<l>Whose glittering pompe <name>Dianas</name> <app>
+<lem>shrowdes</lem>
+<rdg wit="Ox S R D C B">shroud</rdg>
+</app> supplies,</l>
+<!--var:#now,] ~ ^#-->
+<!--var:#fellowes] follow us C#-->
+<l>All <app>
+<lem>fellowes</lem>
+<rdg wit="C">follow us</rdg>
+</app> now<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> disposde alike to sporte,</l>
+<l>The woods are wide, and we have store of game:</l>
+<l>Faire Troian, hold my golden bowe awhile,</l>
+<l>Untill I gird my quiver to my side:</l>
+<l>Lords goe before, we two must talke alone.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Ungentle, can she wrong <name>Iarbus</name> so?</l>
+<l>Ile dye before a stranger have that grace:</l>
+<l>We two will talke alone, what words be these?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>What makes <name>Iarbus</name> here of all the rest?</l>
+<!--var:#could] would Ox, S, R#-->
+<l>We <app>
+<lem>could</lem>
+<rdg wit="Ox S R">would</rdg>
+</app> have gone without your companie.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>But love and duetie led him on perhaps,</l>
+<l>To presse beyond acceptance to your sight.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<!--var:#Why,] ~ ^#-->
+<l>Why<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> man of <name>Troy</name>, doe I offend thine eyes?</l>
+<l>Or art thou grievde thy betters presse so nye?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#ye] you D, B#-->
+<l>How now Getulian, are <app>
+<lem>ye</lem>
+<rdg wit="D B">you</rdg>
+</app> growne so brave,</l>
+<l>To challenge us with your comparisons?</l>
+<l>Pesant, goe seeke companions like thy selfe,</l>
+<l>And meddle not with any that I love:</l>
+<l><name>Aeneas</name>, be not movde at what he sayes,</l>
+<l>For otherwhile he will be out of joynt.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Women may wrong by priviledge of love:</l>
+<l>But should that man of men (<name>Dido</name> except)</l>
+<l>Have taunted me in these opprobrious termes,</l>
+<l>I would have either drunke his dying bloud,</l>
+<!--var:#gage.] ~ ?#-->
+<l>Or els I would have given my life in gage<app>
+<lem>.</lem>
+<rdg wit="Q">?</rdg>
+</app></l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Huntsmen, why pitch you not your toyles apace,</l>
+<!--var:#laire?] ~ . .#-->
+<l>And rowse the light foote Deere from forth their laire<app>
+<lem>?</lem>
+<rdg wit="Q">..</rdg>
+</app></l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Sister, see see <name>Ascanius</name> in his pompe,</l>
+<l>Bearing his huntspeare bravely in his hand.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Yea little sonne, are you so forward now?</l>
+</sp>
+
+<sp who="cupi"><speaker><app>
+<lem>Cupid</lem>
+<rdg wit="Q">Asca.</rdg>
+</app></speaker>
+<!--var:#<I>Cupid</I>.] Q <I>speech-prefix in this scene is</I> Asca<I></I>.#-->
+<l>I mother, I shall one day be a man,</l>
+<!--var:#armes.] ~ ,#-->
+<l>And better able unto other armes<app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>Meane time these wanton weapons serve my warre,</l>
+<l>Which I will breake betwixt a Lyons jawes.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>What, darest thou looke a Lyon in the face?</l>
+</sp>
+
+<sp who="cupi"><speaker><app>
+<lem>Cupid</lem>
+<rdg wit="Q">Asca.</rdg>
+</app></speaker>
+<l>I, and outface him to, doe what he can.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>How like his father speaketh he in all?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>And mought I live to see him sacke rich <name>Thebes</name>,</l>
+<l>And bade his speare with Grecian Princes heads,</l>
+<l>Then would I wish me with <name>Anchises</name> Tombe,</l>
+<l>And dead to honour that hath brought me up.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>And might I live to see thee shipt away,</l>
+<l>And hoyst aloft on <name>Neptunes</name> hideous hilles,</l>
+<l>Then would I wish me in faire <name>Didos</name> armes,</l>
+<l>And dead to scorne that hath pursued me so.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#thou] <I>omit</I>  Ox#-->
+<l>Stoute friend <name>Achates</name>, doest <app>
+<lem>thou</lem>
+<rdg wit="Ox"></rdg>
+</app> know this wood?</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>As I remember, here you shot the Deere,</l>
+<l>That sav'd your famisht souldiers lives from death,</l>
+<l>When first you set your foote upon the shoare,</l>
+<l>And here we met faire <name>Venus</name> Virgine like,</l>
+<l>Bearing her bowe and quiver at her backe.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O how these irksome labours now delight,</l>
+<l>And overjoy my thoughts with their escape:</l>
+<l>Who would not undergoe all kind of toyle,</l>
+<l>To be well stor'd with such a winters tale?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Aeneas</name>, leave these dumpes and lets away,</l>
+<l>Some to the mountaines, some unto the soyle,</l>
+<l>You to the vallies, thou unto the house.</l>
+</sp>	<stage type="delivery">[To <name>Iarbus</name>.] </stage>
+<stage type="exit">Exeunt omnes: <app>
+<lem>manet</lem>
+<rdg wit="Q">manent</rdg>
+</app> [<name>Iarbus</name>].</stage>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>I, this it is which wounds me to the death,</l>
+<!--var:#far fet] far set Ox, H, R; forfeit Ri, Rv, Br MS#-->
+<!--var:#on] to Q, Ox, H, R, Ri, Rv; o'er D, C, B, G, McK; 0' TB, M#-->
+<l>To see a Phrigian <app>
+<lem>far fet</lem>
+<rdg wit="Ox H R">far set</rdg>
+<rdg wit="Ri Rv Br">forfeit</rdg>
+</app> <app>
+<lem>on</lem>
+<rdg wit="Q Ox H R Ri Rv">to</rdg>
+<rdg wit="D C B G McK">o'er</rdg>
+<rdg wit="TB M">0'</rdg>
+</app> the sea,</l>
+<l>Preferd before a man of majestie:</l>
+<l>O love, O hate, O cruell womens hearts,</l>
+<l>That imitate the Moone in every chaunge,</l>
+<l>And like the Planets ever love to raunge:</l>
+<l>What shall I doe thus wronged with disdaine?</l>
+<l>Revenge me on <name>Aeneas</name>, or on her:</l>
+<l>On her? fond man, that were to warre gainst heaven,</l>
+<l>And with one shaft provoke ten thousand darts:</l>
+<l>This Troians end will be thy envies aime,</l>
+<l>Whose bloud will reconcile thee to content,</l>
+<l>And make love drunken with thy sweete desire:</l>
+<l>But <name>Dido</name> that now holdeth him so deare,</l>
+<l>Will dye with very tidings of his death:</l>
+<l>But time will discontinue her content,</l>
+<!--var:#fancies] fancies' Ox, H, R, D1, C, G; fancy's D2, B, M, RI, Rv#-->
+<l>And mould her minde unto newe <app>
+<lem>fancies</lem>
+<rdg wit="Ox H R D1 C G">fancies'</rdg>
+<rdg wit="D2 B M RI Rv">fancy's</rdg>
+</app> shapes:</l>
+<l>O God of heaven, turne the hand of fate</l>
+<l>Unto that happie day of my delight,</l>
+<l>And then, what then? <name>Iarbus</name> shall but love:</l>
+<l>So doth he now, though not with equall game,</l>
+<l>That resteth in the rivall of thy paine,</l>
+<l>Who nere will cease to soare till he be slaine.</l>
+</sp>
+<stage type="exit">Exit.</stage>
+</div2>
+
+<div2 n="4" type="scene"><head>Act Three, Scene Four</head>
+<stage type="entrance">The storme. Enter <name>Aeneas</name> and <name>Dido</name> in the Cave at severall times.</stage>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Aeneas</name>.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Dido</name>.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Tell me deare love, how found you out this Cave?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>By chance sweete Queene, as <name>Mars</name> and <name>Venus</name> met.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#where] here Ox, H, R, C#-->
+<l>Why, that was in a net, <app>
+<lem>where</lem>
+<rdg wit="Ox H R C">here</rdg>
+</app> we are loose,</l>
+<l>And yet I am not free, oh would I were.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#it] <I>omit</I>  Ox, H, R, C#-->
+<l>Why, what is <app>
+<lem>it</lem>
+<rdg wit="Ox H R C"></rdg>
+</app> that <name>Dido</name> may desire</l>
+<l>And not obtaine, be it in humaine power?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>The thing that I will dye before I aske,</l>
+<l>And yet desire to have before I dye. <name>Aeneas</name>.</l>
+<l>It is not ought <name>Aeneas</name> may atchieve?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Aeneas</name> no, although his eyes doe pearce.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>What, hath <name>Iarbus</name> angred her in ought?</l>
+<l>And will she be avenged on his life?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Not angred me, except in angring thee.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Who then of all so cruell may he be,</l>
+<l>That should detaine thy eye in his defects?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>The man that I doe eye where ere I am,</l>
+<!--var:#<I>Pean</I>] <I>Paean's</I>  Ox, H, R#-->
+<l>Whose amorous face like <name><app>
+<lem>Pean</lem>
+<rdg wit="Ox H R">Paean's</rdg>
+</app></name> sparkles fire,</l>
+<l>When as he buts his beames on <name>Floras</name> bed,</l>
+<!--var:#hath] now hath G#-->
+<l><name>Prometheus</name> <app>
+<lem>hath</lem>
+<rdg wit="G">now hath</rdg>
+</app> put on <name>Cupids</name> shape,</l>
+<l>And I must perish in his burning armes.</l>
+<l><name>Aeneas</name>, O <name>Aeneas</name>, quench these flames.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>What ailes my Queene, is she falne sicke of late?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#sicke:- -I] ~ , ^ ~#-->
+<l>Not sicke my love, but sicke<app>
+<lem>:</lem>
+<rdg wit="Q">,</rdg>
+</app><app>
+<lem>&mdash;</lem>
+<rdg wit="Q"> </rdg>
+</app>I must conceale</l>
+<l>The torment, that it bootes me not reveale,</l>
+<l>And yet Ile speake, and yet Ile hold my peace,</l>
+<!--var:#griefe:- -] ~ : ^#-->
+<l>Doe shame her worst, I will disclose my <app>
+<lem>griefe:--</lem>
+<rdg wit="Q">:</rdg>
+</app>-</l>
+<l><name>Aeneas</name>, thou art he, what did I say?</l>
+<l>Something it was that now I have forgot.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>What meanes faire <name>Dido</name> by this doubtfull speech?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Nay, nothing, but <name>Aeneas</name> loves me not.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Aeneas</name> thoughts dare not ascend so high</l>
+<l>As <name>Didos</name> heart, which Monarkes might not scale.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>It was because I sawe no King like thee,</l>
+<l>Whose golden Crowne might ballance my content:</l>
+<l>But now that I have found what to effect,</l>
+<!--var:#for] 'fore Br, D, C, B, G#-->
+<l>I followe one that loveth fame <app>
+<lem>for</lem>
+<rdg wit="Br D C B G">'fore</rdg>
+</app> me,</l>
+<!--var:#seeme] seen Ox, H, R#-->
+<!--var:#faire to] faire Q, Ox, H, R; foreign Coll MS; fair in D, B, G, Ri#-->
+<l>And rather had <app>
+<lem>seeme</lem>
+<rdg wit="Ox H R">seen</rdg>
+</app> <app>
+<lem>faire to</lem>
+<rdg wit="Q Ox H R">faire</rdg>
+<rdg wit="Coll">foreign</rdg>
+<rdg wit="D B G Ri">fair in</rdg>
+</app> <name>Sirens</name> eyes,</l>
+<!--var:#<I>Carthage</I>] Carthage#-->
+<l>Then to the <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> Queene that dyes for him.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>If that your majestie can looke so lowe,</l>
+<l>As my despised worts, that shun all praise,</l>
+<l>With this my hand I give to you my heart,</l>
+<l>And vow by all the Gods of Hospitalitie,</l>
+<l>By heaven and earth, and my faire  others bowe,</l>
+<l>By <name>Paphos</name>, <name>Capys</name>, and the purple Sea,</l>
+<!--var:#descend] ascend Br, B#-->
+<l>From whence my radiant mother did <app>
+<lem>descend</lem>
+<rdg wit="Br B">ascend</rdg>
+</app>,</l>
+<l>And by this Sword that saved me from the Greekes,</l>
+<l>Never to leave these newe upreared walles,</l>
+<l>Whiles <name>Dido</name> lives and rules in <name>Junos</name> towne,</l>
+<l>Never to like or love any but her.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#Delian] delian#-->
+<l>What more then <app>
+<lem>Delian</lem>
+<rdg wit="Q">delian</rdg>
+</app> musicke doe I heare,</l>
+<l>That calles my soule from forth his living seate,</l>
+
+
+<!--var:#delight] delights Ox#-->
+<l>To move unto the measures of <app>
+<lem>delight</lem>
+<rdg wit="Ox">delights</rdg>
+</app>:</l>
+<l>Kind clowdes that sent forth such a curteous storme,</l>
+<l>As made disdaine to flye to fancies lap:</l>
+<l>Stoute love in mine armes make thy <name>Italy</name>,</l>
+<!--var:#rests] rest Ox, H, R, C#-->
+<l>Whose Crowne and kingdome <app>
+<lem>rests</lem>
+<rdg wit="Ox H R C">rest</rdg>
+</app> at thy commande:</l>
+<l><name>Sicheus</name>, not <name>Aeneas</name> be thou calde:</l>
+<l>The King of <name>Carthage</name>, not <name>Anchises</name> sonne:</l>
+<l>Hold, take these Jewels at thy Lovers hand,</l>
+<l>These golden bracelets, and this wedding ring,</l>
+<l>Wherewith my husband woo'd me yet a maide,</l>
+<l>And be thou king of <name>Libia</name>, by my guift.</l></sp>
+<stage type="exit">Exeunt to the Cave.</stage>
+
+</div2>
+</div1>
+
+<div1 n="4" type="act">
+<!--var:#IV.i] Actus 4. Scene I.#-->
+<div2 n="1" type="scene">
+<head><app>
+<lem>Act Four, Scene One</lem>
+<rdg wit="Q">Actus 4. Scene I.</rdg>
+</app></head>
+<stage type="entrance">Enter <name>Achates</name>, [<name>Cupid</name> for] <name>Ascanius</name>, <name>Iarbus</name>, and <name>Anna</name>.</stage>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>Did ever men see such a sudden storme?</l>
+<l>Or day so deere so suddenly Orecast?</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>I thinke some fell Inchantresse dwelleth here,</l>
+<!--var:#That] One that G (<I>after</I>  Mitford)#-->
+<!--var:#them forth] forth the winds B (<I>qy)</I>#-->
+<l><app>
+<lem>That</lem>
+<rdg wit="G">One that</rdg><wit>G (<emph>after</emph> Mitford)</wit>
+</app> can call <app>
+<lem>them forth</lem>
+<rdg wit="B">forth the winds</rdg><wit>B (<emph>qy</emph>)</wit>
+</app> when as she please,</l>
+<l>And dive into blacke tempests treasurie,</l>
+<l>When as she meanes to maske the world with clowdes.</l></sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>In all my life I never knew the like,</l>
+<l>It haild, it snowde, it lightned all at once.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>I thinke it was the divels revelling night,</l>
+<l>There was such hurly burly in the heavens:</l>
+<l>Doubtles <name>Apollos</name> Axeltree is crackt,</l>
+<l>Or aged <name>Atlas</name> shoulder out of joynt,</l>
+<l>The motion was so over violent.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>In all this coyle, where have ye left the Queene?</l>
+</sp>
+
+<sp who="cupi"><speaker><app>
+<lem>Cupid</lem>
+<rdg wit="Q">Asca.</rdg>
+</app></speaker>
+<!--var:#<I>Cupid</I>.] <I>Asca</I>.#-->
+<l>Nay, where is my warlike father, can you tell?</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Behold where both of them come forth the Cave.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<!--var:#this] the Ox, H, R#-->
+<l>Come forth the Cave: can heaven endure <app>
+<lem>this</lem>
+<rdg wit="Ox H R">the</rdg>
+</app> sight?</l>
+<l><name>Iarbus</name>, curse that unrevenging <name>Jove</name>,</l>
+<!--var:#<I>Tipheus</I>]<I>Typhous</I>#-->
+<!--var:#darts] dart B#-->
+<l>Whose flintie <app>
+<lem>darts</lem>
+<rdg wit="B">dart</rdg>
+</app> slept in <name><app>
+<lem>Tipheus</lem>
+<rdg wit="Q">Typhous</rdg>
+</app></name> den,</l>
+<l>Whiles these adulterors surfetted with sinne:</l>
+<l>Nature , why mad'st me not some poysonous beast,</l>
+<l>That with the sharpnes of my edged sting,</l>
+<l>I might have stakte them both unto the earth,</l>
+<l>Whil'st they were sporting in this darksome Cave?</l></sp>
+
+<stage type="entrance">[Enter <name>Aeneas</name> and <name>Dido</name>.]</stage>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>The ayre is deere, and Southerne windes are whist,</l>
+<l>Come <name>Dido</name>, let us hasten to the towne,</l>
+<l>Since gloomie <name>Aeolus</name> doth cease to frowne.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Achates</name> and <name>Ascanius</name>, well met.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Faire <name>Anna</name>, how escapt you from the shower?</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>As others did, by running to the wood.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>But where were you <name>Iarbus</name> all this while?</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Not with <name>Aeneas</name> in the ugly Cave.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>I see <name>Aeneas</name> sticketh in your minde,</l>
+<l>But I will soone put by that stumbling blocke,</l>
+<!--var:#cares] eares Q, Rv#-->
+<l>And quell those hopes that thus employ your <app>
+<lem>cares</lem>
+<rdg wit="Q Rv">eares</rdg>
+</app>.</l></sp>
+
+<stage type="exit">Exeunt.</stage>
+</div2>
+
+<div2 n="2" type="scene"><head>Act Four, Scene 2</head>
+<stage type="entrance">Enters <name>Iarbus</name> to Sacrifize.</stage>
+
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Come servants, come bring forth the Sacrifize,</l>
+<l>That I may pacifie that gloomie <name>Jove</name>,</l>
+<l>Whose emptie Altars have enlarg'd our illes.</l>
+<l>Eternall <name>Jove</name>, great master of the Clowdes,</l>
+<l>Father of gladnesse, and all frollicke thoughts,</l>
+<l>That with thy gloomie hand corrects the heaven,</l>
+<l>When ayrie creatures warre amongst themselves:</l>
+<l>Heare, heare, O heare <name>Iarbus</name> plaining prayers,</l>
+<l>Whose hideous ecchoes make the welkin howle,</l>
+<l>And all the woods <name>Eliza</name> to resound:</l>
+<l>The woman that thou wild us entertaine,</l>
+<!--var:#Where] When Coll MS#-->
+<l><app>
+<lem>Where</lem>
+<rdg wit="Coll">When</rdg>
+</app> straying in our borders up and downe,</l>
+<l>She crav'd a hide of ground to build a towne,</l>
+<l>With whom we did devide both lawes and land,</l>
+<l>And all the fruites that plentie els sends forth,</l>
+<l>Scorning our loves and royall marriage rites,</l>
+<l>Yeelds up her beautie to a strangers bed,</l>
+
+<l>Who having wrought her shame, is straight way fled:</l>
+<l>Now if thou beest a pitying God of power,</l>
+<l>On whom ruth and compassion ever waites,</l>
+<l>Redresse these wrongs, and warne him to his ships</l>
+<!--var:#eyes] lips Coll MS#-->
+<l>That now afflicts me with his flattering <app>
+<lem>eyes</lem>
+<rdg wit="Coll">lips</rdg>
+</app>.</l></sp>
+
+<stage type="entrance">Enter <name>Anna</name>.</stage>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>How now <name>Iarbus</name>, at your prayers so hard?</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>I <name>Anna</name>, is there ought you would with me?</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Nay, no such waightie busines of import,</l>
+<l>But may be slackt untill another time:</l>
+<l>Yet if you would partake with me the cause</l>
+<l>Of this devotion that detaineth you,</l>
+<l>I would be thankfull for such curtesie.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l><name>Anna</name>, against this Troian doe I pray,</l>
+<l>Who seekes to rob me of thy Sisters love,</l>
+<l>And dive into her heart by coloured lookes.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Alas poore King that labours so in vaine,</l>
+<l>For her that so delighteth in thy paine:</l>
+<l>Be rul'd by me, and seeke some other love,</l>
+<l>Whose yeelding heart may yeeld thee more reliefe.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Mine eye is fixt where fancie cannot start,</l>
+<l>O leave me, leave me to my silent thoughts,</l>
+<!--var:#numbers] number Ox, H, R#-->
+<l>That register the <app>
+<lem>numbers</lem>
+<rdg wit="Ox H R">number</rdg>
+</app> of my ruth,</l>
+<l>And I will either move the thoughtles flint,</l>
+<l>Or drop out both mine eyes in drisling teares,</l>
+<!--var:#have] has Ox, H, R, C#-->
+<l>Before my sorrowes tide <app>
+<lem>have</lem>
+<rdg wit="Ox H R C">has</rdg>
+</app> any stint.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>I will not leave <name>Iarbus</name> whom I love,</l>
+<l>In this delight of dying pensivenes:</l>
+<l>Away with <name>Dido</name>, <name>Anna</name> be thy song,</l>
+<l><name>Anna</name> that doth admire thee more then heaven.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>I may nor will list to such loathsome chaunge,</l>
+<l>That intercepts the course of my desire:</l>
+<l>Servants, come fetch these emptie vessels here,</l>
+<l>For I will flye from these alluring eyes,</l>
+<!--var:#goes] flies Coll MS#-->
+<l>That doe pursue my peace where ere it <app>
+<lem>goes</lem>
+<rdg wit="Coll">flies</rdg>
+</app>.</l></sp>
+<stage type="exit">Exit.</stage>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l><name>Iarbus</name> stay, loving <name>Iarbus</name> stay,</l>
+<l>For I have honey to present thee with:</l>
+<!--var:#speake?] ~ ,#-->
+<l>Hard hearted, wilt not deigne to heare me speake<app>
+<lem>?</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>Ile follow thee with outcryes nere the lesse,</l>
+<l>And strewe thy walkes with my discheveld haire</l></sp>
+<stage type="exit">Exit.</stage>
+</div2>
+
+<div2 n="3" type="Scene">
+<head>Act Four, Scene 3</head>
+<stage type="entrance">Enter <name>Aeneas</name> alone.</stage>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Carthage</name>, my friendly host adue,</l>
+<!--var:#thy] the Q, McK,TB, M, Bi, Rv#-->
+<l>Since destinie doth call me from <app>
+<lem>thy</lem>
+<rdg wit="Q McKTB M Bi Rv">the</rdg>
+</app> shoare:</l>
+<l><name>Hermes</name> this night descending in a dreame,</l>
+<l>Hath summond me to fruitfull <name>Italy</name>:</l>
+<l><name>Jove</name> wils it so, my mother wils it so:</l>
+<l>Let my Phenissa graunt, and then I goe:</l>
+<l>Graunt she or no, <name>Aeneas</name> must away,</l>
+<!--var:#fortunes] fortune Ox, H, R, C#-->
+<l>Whose golden <app>
+<lem>fortunes</lem>
+<rdg wit="Ox H R C">fortune</rdg>
+</app> clogd with courtly ease,</l>
+<l>Cannot ascend to Fames immortall house,</l>
+<l>Or banquet in bright honors burnisht hall,</l>
+<l>Till he hath furrowed <name>Neptunes</name> glassie fieldes,</l>
+<l>And cut passage through his toples hilles:</l>
+<l><name>Achates</name> come forth, <name>Sergestus</name>, <name>Illioneus</name>,</l>
+<l><name>Cloanthus</name>, haste away, <name>Aeneas</name> calles.</l></sp>
+
+<stage type="entrance">Enter <name>Achates</name>, <name>Cloanthus</name>, <name>Sergestus</name>, and <name>Illioneus</name>.</stage>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>What willes our Lord, or wherefore did he call?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#dreames] dream Ox, H, R, D, C#-->
+<l>The <app>
+<lem>dreames</lem>
+<rdg wit="Ox H R D C">dream</rdg>
+</app> that did beset my bed</l>
+<l>When sleepe but newly had imbrast the night</l>
+<!--var:#reames] beames Q Ox H R#-->
+<l>Commaunds me leave these unrenowmed <app>
+<lem>reames</lem>
+<rdg wit="Q Ox H R">beames</rdg>
+</app>,</l>
+<l>Whereas Nobilitie abhors to stay,</l>
+<l>And none but base <name>Aeneas</name> will abide:</l>
+<l>Abourd, abourd, since Fates doe bid abourd,</l>
+<l>And slice the Sea with sable coloured ships,</l>
+<l>On whom the nimble windes may all day waight,</l>
+<l>And follow them as footemen through the deepe:</l>
+<l>Yet <name>Dido</name> casts her eyes like anchors out,</l>
+<!--var:#loosing] losing Ox#-->
+<l>To stay my Fleete from <app>
+<lem>loosing</lem>
+<rdg wit="Ox">losing</rdg>
+</app> forth the Bay:</l>
+
+
+<l>Come backe, come backe, I heare her crye a farre,</l>
+<!--var:#thy...my] my...my Q; my...thy Ox, H, R, M#-->
+<l>And let me linke <app>
+<lem>thy</lem>
+<rdg wit="Q Ox H R M">my</rdg>
+</app> bodie to <app>
+<lem wit="Q">my</lem>
+<rdg wit="Ox H R M">thy</rdg>
+</app> lips,</l>
+<l>That tyed together by the striving tongues,</l>
+<l>We may as one saile into <name>Italy</name></l></sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>Banish that ticing dame from forth your mouth,</l>
+<!--var:#starres] star Ox, S, R#-->
+<l>And follow your foreseeing <app>
+<lem>starres</lem>
+<rdg wit="Ox S R">star</rdg>
+</app> in all;</l>
+<l>This is no life for men at armes to live,</l>
+<l>Where daliance doth consume a Souldiers strength,</l>
+<l>And wanton motions of alluring eyes,</l>
+<l>Effeminate our mindes inur'd to warre.</l>
+</sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<l>Why, let us build a Citie of our owne,</l>
+<l>And not stand lingering here for amorous lookes:</l>
+<l>Will <name>Dido</name> raise old <name>Priam</name> forth his grave,</l>
+<l>And build the towne againe the Greekes did burne?</l>
+<l>No no, she cares not how we sinke or swimme,</l>
+<l>So she may have <name>Aeneas</name> in her armes.</l>
+</sp>
+
+<sp who="cloa"><speaker>Cloanthus</speaker>
+<l>To <name>Italy</name>, sweete friends to <name>Italy</name>,</l> 
+<l>We will not stay a minute longer here.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Troians abourd, and I will follow you,</l>
+<stage type="exit">[Exeunt omnes, manet <name>Aeneas</name>.]</stage>
+<l>I fame would goe, yet beautie calles me backe:</l>
+<l>To leave her so and not once say farewell,</l>
+<l>Were to transgresse against all lawes of love:</l>
+<l>But if I use such ceremonious thankes,</l>
+<l>As parting friends accustome on the shoare,</l>
+<!--var:#coll] coil Ox, H, R, C (<I>qy</I>  coll)#-->
+<l>Her silver armes will <app>
+<lem>coll</lem>
+<rdg wit="C" type="qy">coll</rdg>
+<rdg wit="Ox H R C">coil</rdg>
+</app> me round about,</l>
+<l>And teares of pearle, crye stay, <name>Aeneas</name>, stay:</l>
+<l>Each word she sayes will then containe a Crowne,</l>
+<l>And every speech be ended with a kisse:</l>
+<l>I may not dure this female drudgerie,</l>
+<l>To sea <name>Aeneas</name>, finde out <name>Italy</name>.</l></sp>
+<stage type="exit">Exit.</stage>
+<stage type="entrance">Enter <name>Dido</name> and <name>Anna</name> [with traine].</stage>
+</div2>
+
+<div2 n="4" type="scene">
+<head>Act Four, Scene Four</head>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O <name>Anna</name>, runne unto the water side,</l>
+<l>They say <name>Aeneas</name> men are going abourd,</l>
+<l>It may be he will steale away with them:</l>
+<l>Stay not to answere me, runne <name>Anna</name> runne.	<stage>[Exit <name>Anna</name>.]</stage></l>
+<l>O foolish Trojans that would steale from hence,</l>
+<l>And not let <name>Dido</name> understand their drift:</l>
+<l>I would have given <name>Achates</name> store of gold,</l>
+<l>And <name>Illioneus</name> gum and Libian spice,</l>
+<l>The common souldiers rich imbrodered coates,</l>
+<l>And silver whistles to controule the windes,</l>
+<!--var:#<I>Circes</I>] Circe Ox, H, R, D, C, B, TB#-->
+<l>Which <name><app>
+<lem>Circes</lem>
+<rdg wit="Ox H R D C B TB">Circe</rdg>
+</app></name> sent <name>Sicheus</name> when he lived:</l>
+<l>Unworthie are they of a Queenes reward:</l>
+<l>See where they come, how might I doe to chide?</l>
+
+<stage type="entrance">Enter <name>Anna</name>, with <name>Aeneas</name>, <name>Achates</name>, <name>Illioneus</name>, and <name>Sergestus</name>.</stage></sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Twas time to runne, <name>Aeneas</name> had been gone,</l>
+<l>The sailes were hoysing up, and he abourd.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Is this thy love to me?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O princely <name>Dido</name>, give me leave to speake, </l>
+<l>I went to take my farewell of <name>Achates</name>.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>How haps <name>Achates</name> bid me not farewell?</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>Because I feard your grace would keepe me here.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>To rid thee of that doubt, abourd againe,</l>
+<l>I charge thee put to sea and stay not here.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>Then let <name>Aeneas</name> goe abourd with us.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Get you abourd, <name>Aeneas</name> meanes to stay.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#windes blow] wind blows Ox, H, R, C#-->
+<l>The sea is rough, the <app>
+<lem>windes blow</lem>
+<rdg wit="Ox H R C">wind blows</rdg>
+</app> to the shoare.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O false <name>Aeneas</name>, now the sea is rough,</l>
+<l>But when you were abourd twas calme enough,</l>
+<l>Thou and <name>Achates</name> ment to saile away.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#<I>et seq.this scene  Carthage</I>]  Carthage#-->
+<l>Hath not the <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> Queene mine onely sonne?</l>
+<l>Thinkes <name>Dido</name> I will goe and leave him here?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Aeneas</name> pardon me, for I forgot</l>
+<l>That yong <name>Ascanius</name> lay with me this night:</l>
+<l>Love made me jealous, but to make amends,</l>
+<l>Weare the emperiall Crowne of <name>Libia</name>,</l>
+<l>Sway thou the Punike Scepter in my steede,</l>
+<l>And punish me <name>Aeneas</name> for this crime.</l>
+<stage type="business">[Gives him crowne and scepter.]</stage></sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>This kisse shall be faire <name>Didos</name> punishment.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O how a Crowne becomes <name>Aeneas</name> head!</l>
+<l>Stay here <name>Aeneas</name>, and commaund as King.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>How vaine am I to weare this Diadem,</l>
+<l>And beare this golden Scepter in my hand?</l>
+<l>A Burgonet of steele, and not a Crowne,</l>
+<l>A Sword, and not a Scepter fits <name>Aeneas</name>.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O keepe them still, and let me gaze my fill:</l>
+<l>Now lookes <name>Aeneas</name> like immortall <name>Jove</name>,</l>
+<l>O where is <name>Ganimed</name> to hold his cup,</l>
+<!--var:#calles?] ~ ,#-->
+<l>And <name>Mercury</name> to flye for what he calles<app>
+<lem>?</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l>Ten thousand <name>Cupids</name> hover in the ayre,</l>
+<l>And fanne it in <name>Aeneas</name> lovely face,</l>
+<!--var:#fledst] fleest Q, Ox, H, R, C, G, McK#-->
+<l>O that the Clowdes were here wherein thou <app>
+<lem>fledst</lem>
+<rdg wit="Q Ox H R C G McK">fleest</rdg>
+</app>,</l>
+<l>That thou and I unseene might sport our selves:</l>
+<!--var:#Heavens] Heaven Ox, H, R, D, C, B, G, M#-->
+<l><app>
+<lem>Heavens</lem>
+<rdg wit="Ox H R D C B G M">Heaven</rdg>
+</app> envious of our joyes is waxen pale,</l>
+<l>And when we whisper, then the starres fall downe,</l>
+<l>To be partakers of our honey talke.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O <name>Dido</name>, patronesse of all our lives,</l>
+<l>When I leave thee, death be my punishment,</l>
+<l>Swell raging seas, frowne wayward destinies ,</l>
+<l>Blow windes, threaten ye Rockes and sandie shelfes,</l>
+<l>This is the harbour that <name>Aeneas</name> seekes,</l>
+<l>Lets see what tempests can anoy me now.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#thee] that R, C#-->
+<l>Not all the world can take <app>
+<lem>thee</lem>
+<rdg wit="R C">that</rdg>
+</app> from mine armes,</l>
+<l><name>Aeneas</name> may commaund as many Moores,</l>
+<l>As in the Sea are little water drops:</l>
+<l>And now to make experience of my love,</l>
+<l>Faire sister <name>Anna</name> leade my lover forth,</l>
+<l>And seated on my Gennet, let him ride</l>
+<!--var:#Punicke] punicke#-->
+<l>As <name>Didos</name> husband through the <app>
+<lem>Punicke</lem>
+<rdg wit="Q">punicke</rdg>
+</app> streetes,</l>
+
+
+<l>And will my guard with Mauritanian darts,</l>
+<l>To waite upon him as their soveraigne Lord.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>What if the Citizens repine thereat?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Those that dislike what <name>Dido</name> gives in charge,</l>
+<l>Commaund my guard to slay for their offence:</l>
+<l>Shall vulgar pesants storme at what I doe?</l>
+<l>The ground is mine that gives them sustenance,</l>
+<l>The ayre wherein they breathe, the water, fire,</l>
+<l>All that they have, their lands, their goods, their lives,</l>
+<l>And I the Goddesse of all these, commaund</l>
+<l><name>Aeneas</name> ride as Carthaginian King.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l><name>Aeneas</name> for his parentage deserves</l>
+<l>As large a kingdome as is <name>Libia</name>.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>I, and unlesse the destinies be false,</l>
+<l>I shall be planted in as rich a land.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Speake of no other land, this land is thine,</l>
+<l><name>Dido</name> is thine, henceforth Ile call thee Lord:</l>
+<!--var:#thee^ sister,] ~ , ~ ^#-->
+<l>Doe as I bid <app>
+<lem>thee sister,</lem>
+<rdg wit="Q">, </rdg>
+</app> leade the way,</l>
+<l>And from a turret Ile behold my love.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Then here in me shall flourish <name>Priams</name> race,</l>
+<l>And thou and I <name>Achates</name>, for revenge,</l>
+<l>For <name>Troy</name>, for <name>Priam</name>, for his fiftie sonnes,</l>
+<!--var:#lives] loves Q, Ox, H, R, TB, Rv#-->
+<l>Our kinsmens <app>
+<lem>lives</lem>
+<rdg wit="Q Ox H R TB Rv">loves</rdg>
+</app>, and thousand guiltles soules,</l>
+<l>Will leade an hoste against the hatefull Greekes,</l>
+<l>And fire proude <name>Lacedemon</name> ore their heads.</l>
+<stage type="exit">Exit [with Troians].</stage></sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Speakes not <name>Aeneas</name> like a Conqueror?</l>
+<l>O blessed tempests that did drive him in,</l>
+<l>O happie sand that made him runne aground:</l>
+<!--var:#our] 'mong our D (<I>qy</I>); of our B,G#-->
+<l>Henceforth you shall be <app>
+<lem>our</lem>
+<rdg wit="D">'mong our</rdg><wit>D (<emph>qy</emph>)</wit>
+<rdg wit="BG">of our</rdg>
+</app> <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> Gods:</l>
+<l>I, but it may be he will leave my love,</l>
+<l>And seeke a forraine land calde <name>Italy</name>:</l>
+<l>O that I had a charme to keepe the windes</l>
+<l>Within the closure of a golden ball,</l>
+<l>Or that the Tyrrhen sea were in mine armes,</l>
+<l>That he might suffer shipwracke on my breast,</l>
+
+
+<l>As oft as he attempts to hoyst up saile:</l>
+<l>I must prevent him, wishing will not serve:</l>
+<l>Goe, bid my Nurse take yong <name>Ascanius</name>,</l>
+<l>And beare him in the countrey to her house,</l>
+<l><name>Aeneas</name> will not goe without his sonne:</l>
+<l>Yet lest he should, for I am full of feare,</l>
+<l>Bring me his oares, his tackling, and his sailes:	<stage type="exit">[Exit a Lord.]</stage></l>
+<l>What if I sinke his ships? O heele frowne:</l>
+<l>Better he frowne, then I should dye for griefe:</l>
+<l>I cannot see him frowne, it may not be:</l>
+<l>Armies of foes resolv'd to winne this towne,</l>
+<l>Or impious traitors vowde to have my life,</l>
+<l>Affright me not, onely <name>Aeneas</name> frowne</l>
+<l>Is that which terrifies poore <name>Didos</name> heart:</l>
+<l>Not bloudie speares appearing in the ayre,</l>
+<l>Presage the downfall of my Emperie,</l>
+<!--var:#threatens] threaten Ox, H, R, D, C, B, Ri#-->
+<l>Nor blazing Commets <app>
+<lem>threatens</lem>
+<rdg wit="Ox H R D C B Ri">threaten</rdg>
+</app> <name>Didos</name> death ,</l>
+<l>It is <name>Aeneas</name> frowne that ends my daies:</l>
+<l>If he forsake me not, I never dye,</l>
+<l>For in his lookes I see eternitie,</l>
+<l>And heele make me immortall with a kisse.</l>
+
+<stage type="entrance">Enter a <app>
+<lem>Lord.</lem>
+<rdg wit="Q"></rdg>
+</app></stage></sp>
+
+<sp who="lord"><speaker>Lord</speaker>
+<!--var:#is] has Ox#-->
+<l>Your Nurse <app>
+<lem>is</lem>
+<rdg wit="Ox">has</rdg>
+</app> gone with yong <name>Ascanius</name>,</l>
+<l>And heres <name>Aeneas</name> tackling, oares and sailes.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Are these the sailes that in despight of me,</l>
+<l>Packt with the windes to beare <name>Aeneas</name> hence?</l>
+<l>Ile hang ye in the chamber where I lye,</l>
+<l>Drive if you can my house to <name>Italy</name>:</l>
+<l>Ile set the casement open that the windes</l>
+<l>May enter in, and once againe conspire</l>
+<l>Against the life of me poore <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> Queene:</l>
+<!--var:#he goe] ye go D, C, B#-->
+<l>But though <app>
+<lem>he goe</lem>
+<rdg wit="D C B">ye go</rdg>
+</app>, he stayes in <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> still,</l>
+<l>And let rich <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> fleete upon the seas,</l>
+<l>So I may have <name>Aeneas</name> in mine armes.</l>
+<l>Is this the wood that grew in <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> plaines,</l>
+<l>And would be toyling in the watrie billowes,</l>
+<l>To rob their mistresse of her Troian guest?</l>
+<l>O cursed tree, hadst thou but wit or sense,</l>
+<l>To measure how I prize <name>Aeneas</name> love,</l>
+<l>Thou wouldst have leapt from out the Sailers hands,</l>
+<l>And told me that Aeneas ment to goe:</l>
+<l>And yet I blame thee not, thou art but wood.</l>
+<l>The water which our Poets terme a Nimph,</l>
+<l>Why did it suffer thee to touch her breast,</l>
+<l>And shrunke not backe, knowing my love was there?</l>
+<l>The water is an Element, no Nimph,</l>
+<l>Why should I blame Aeneas for his flight?</l>
+<l>O Dido, blame not him, but breake his oares,</l>
+<l>These were the instruments that launcht him forth,</l>
+<l>Theres not so much as this base tackling too,</l>
+<l>But dares to heape up sorrowe to my heart:</l>
+<l>Was it not you that hoysed up these sailes?</l>
+<l>Why burst you not, and they fell in the seas?</l>
+<l>For this will Dido tye ye full of knots,</l>
+<l>And sheere ye all asunder with her hands:</l>
+<l>Now serve to chastize shipboyes for their faults,</l>
+<l>Ye shall no more offend the <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Carthage<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> Queene.</l>
+<l>Now let him hang my favours on his masts,</l>
+<l>And see if those will serve in steed of sailes:</l>
+<l>For tackling, let him take the chaines of gold,</l>
+<l>Which I bestowd upon his followers:</l>
+<l>In steed of oares, let him use his hands,</l>
+<l>And swim to Italy, Ile keepe these sure:</l>
+<l>Come beare them in.</l>
+<stage type="exit"><app>
+<lem>Exeunt [attended]</lem>
+<rdg wit="Q">Exit</rdg>
+</app>.</stage></sp>
+</div2>
+
+<div2 n="5" type="scene">
+<head>Act Four, Scene Five</head>
+<stage type="entrance">Enter the <name>Nurse</name> with <name>Cupid</name> for <name>Ascanius</name>.</stage>
+
+
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<!--var:#ye] you Ox, D, B#-->
+<l>My Lord <name>Ascanius</name>, <app>
+<lem>ye</lem>
+<rdg wit="Ox D B">you</rdg>
+</app> must goe with me.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>Whither must I goe? Ile stay with my mother.</l>
+</sp>
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<l>No, thou shalt goe with me unto my house,</l>
+<l>I have an Orchard that hath store of plums,</l>
+<l>Browne Almonds, Servises, ripe Figs and Dates,</l>
+<l>Dewberries, Apples, yellow Orenges,</l>
+<l>A garden where are Bee hives full of honey,</l>
+<!--var:#sort] sorts Ox, H, R#-->
+<l>Musk-roses, and a thousand <app>
+<lem>sort</lem>
+<rdg wit="Ox H R">sorts</rdg>
+</app> of flowers,</l>
+<l>And in the midst doth run a silver streame,</l>
+<l>Where thou shalt see the red gild fishes leape,</l>
+<l>White Swannes, and many lovely water fowles:</l>
+<!--var:#ye] you D, B#-->
+<l>Now speake <name>Ascanius</name>, will <app>
+<lem>ye</lem>
+<rdg wit="D B">you</rdg>
+</app> goe or no?</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>Come come, Ile goe, how farre hence is your house?</l>
+</sp>
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<l>But hereby child, we shall get thither straight.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>Nurse I am wearie, will you carrie me?</l>
+</sp>
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<l>I, so youle dwell with me and call me mother.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>So youle love me, I care not if I doe.</l>
+</sp>
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<l>That I might live to see this boy a man,</l>
+<!--var:#goe] go to B (<I>after Athenaeum</I>, no. 2977)#-->
+<!--var:#ye] you D#-->
+<l>How pretilie he laughs, <app>
+<lem>goe</lem>
+<rdg wit="B">go to</rdg><wit>B (<title>after Athenaeum</title>, no. 2977)</wit>
+</app> <app>
+<lem>ye</lem>
+<rdg wit="D">you</rdg>
+</app> wagge,</l>
+<!--var:#twigger] trigger Coll MS#-->
+<l>Youle be a <app>
+<lem>twigger</lem>
+<rdg wit="Coll">trigger</rdg>
+</app> when you come to age.</l>
+<l>Say <name>Dido</name> what she will I am not old,</l>
+<l>Ile be no more a widowe, I am young,</l>
+<l>Ile have a husband, or els a lover.</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>A husband and no teeth!</l>
+</sp>
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<l>O what meane I to have such foolish thoughts!</l>
+<!--var:#toy.- -] ~ , ^#-->
+<!--var:#Foolish ^...toy.] ~ !...~ ? Coll MS#-->
+<l>Foolish<app>
+<rdg wit="Coll">!</rdg>
+</app> is love, a toy<app>
+<lem>.&mdash;</lem>
+<rdg wit="Q">, </rdg>
+<rdg wit="Coll">? </rdg>
+</app>O sacred love,</l>
+<l>If there be any heaven in earth, tis love:</l>
+<!--var:#yeares.- -] ~ . ^#-->
+<!--var:#Especially] <I>Cupid</I>. Especially CoIl MS#-->
+<!--var:#our] your Q, Ox, H, R, D, C, B, G, McK, TB, M, Ri, Rv#--><!--<BAD XXXXXXX><app>
+<rdg wit="CoIl"><tagEnd gi="sp" atts="who='Cupi'"><tagStart gi="sp">
+<tagStart gi="speaker">Cupid<tagEnd gi="speaker"></rdg>
+</app>-->
+<l>Especially in women of <app>
+<lem>our</lem>
+<rdg wit="Q Ox H R D C B G McK TB M Ri Rv">your</rdg>
+</app> yeares.<app>
+<lem>&mdash;</lem>
+<rdg wit="Q"></rdg>
+</app></l>
+<l>Blush blush for shame, why shouldst thou thinke of love?</l>
+<!--var:#age:- -] ~ : ^#-->
+<l>A grave, and not a lover fits thy age:<app>
+<lem>&mdash;</lem>
+<rdg wit="Q"></rdg>
+</app></l>
+<!--var:#A grave] <I>Nurse</I>. A grave Coll MS#-->
+<!--var:#grave? why,] ~ , ~ ? Q, Ox, H, R, G, McK, TB; ~ ! ~ , D, C, B, M; ~ ? ~ ? Ri, Rv#--><!--<BAD XXXXX><app>
+<rdg wit="Coll"><tagEnd gi="sp" atts="who='Nurs'">
+<tagStart gi="speaker">Nurse<tagEnd gi="speaker"></rdg>
+</app>-->
+<l>A grave<app>
+<lem wit="Ri Rv">?</lem>
+<rdg wit="Q Ox H R G McK TB">,</rdg>
+<rdg wit="D C B M">!</rdg>
+</app> why<app>
+<lem wit="D C B M">,</lem>
+<rdg wit="Q Ox H R G McK TB Ri Rv">?</rdg>
+</app> I may live a hundred yeares,</l>
+<!--var:#sweete:- -] ~ : ^#-->
+<l>Fourescore is but a girles age, love is sweete:<app>
+<lem>&mdash;</lem>
+<rdg wit="Q"></rdg>
+</app></l>
+<l>My vaines are withered, and my sinewes drie,</l>
+<l>Why doe I thinke of love now I should dye?</l>
+</sp>
+
+<sp who="cupi"><speaker>Cupid</speaker>
+<l>Come Nurse.</l>
+</sp>
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<l>Well, if he come a wooing he shall speede,</l>
+<!--var:#was I] I was Ox#-->
+<l>O how unwise <app>
+<lem>was I</lem>
+<rdg wit="Ox">I was</rdg>
+</app> to say him nay!</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+</div2>
+</div1>
+
+<div1 n="5" type="act">
+<!--var:#V.i] Actus 5.#-->
+<div2 n="1" type="scene"><head><app>
+<lem>Act Five, Scene One</lem>
+<rdg wit="Q">Actus 5.</rdg>
+</app></head>
+
+<stage type="entrance">Enter <name>Aeneas</name> with a paper in his hand, drawing the platforme of the citie, with him <name>Achates</name>, [<name>Sergestus</name>,] <name>Cloanthus</name>, and <name>Illioneus</name>.</stage>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Triumph, my mates, our travels are at end,</l>
+<l>Here will <name>Aeneas</name> build a statelier <name>Troy</name>,</l>
+<l>Then that which grim <name>Atrides</name> overthrew:</l>
+<l><name>Carthage</name> shall vaunt her pettie walles no more,</l>
+<l>For I will grace them with a fairer frame,</l>
+<!--var:#clad] clothe Ox, H, R#-->
+<l>And <app>
+<lem>clad</lem>
+<rdg wit="Ox H R">clothe</rdg>
+</app> her in a Chrystall liverie,</l>
+<!--var:#evermore] overcome Ox#-->
+<l>Wherein the day may <app>
+<lem>evermore</lem>
+<rdg wit="Ox">overcome</rdg>
+</app> delight:</l>
+<l>From golden <name>India</name> <name>Ganges</name> will I fetch,</l>
+<l>Whose wealthie streames may waite upon her towers,</l>
+<l>And triple wise intrench her round about:</l>
+<!--var:#<I>Egypt</I>] Egypt#-->
+<l>The Sunne from <app>
+<lem><tagStart gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app>Egypt<app>
+<lem><tagEnd gi="name"/></lem>
+<rdg wit="Q"></rdg>
+</app> shall rich odors bring,</l>
+<l>Wherewith his burning beames like labouring Bees,</l>
+<!--var:#honeys spoyles] honey-spoils Ox, H, R, D, C, B#-->
+<l>That bade their thighes with <name>Hyblas</name> <app>
+<lem>honeys spoyles</lem>
+<rdg wit="Ox H R D C B">honey-spoils</rdg>
+</app>,</l>
+<l>Shall here unburden their exhaled sweetes,</l>
+<!--var:#her] their D1 (<I>qy</I>), D2, B#-->
+<l>And plant our pleasant suburbes with <app>
+<lem>her</lem>
+<rdg wit="D1 D2 B">their</rdg><wit>D1 (<emph>qy</emph>)</wit>
+</app> fumes.</l>
+</sp>
+
+<sp who="acha"><speaker>Achates</speaker>
+<l>What length or bredth shal this brave towne containe?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Not past foure thousand paces at the most.</l></sp>
+
+<sp who="illi"><speaker>Illioneus</speaker>
+<l>But what shall it be calde, <name>Troy</name> as before?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#have I] I have Ox#-->
+<l>That <app>
+<lem>have I</lem>
+<rdg wit="Ox">I have</rdg>
+</app> not determinde with my selfe.</l>
+</sp>
+
+<sp who="cloa"><speaker>Cloanthus</speaker>
+<l>Let it be term'd <name>Aenea</name> by your name.</l>
+</sp>
+
+<sp who="serg"><speaker>Sergestus</speaker>
+<l>Rather <name>Ascania</name> by your little sonne.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Nay, I will haue it calde <name>Anchisaeon</name>,</l>
+<l>Of my old fathers name.</l></sp>
+
+<stage type="entrance">Enter <name>Hermes</name> with <name>Ascanius</name>.</stage>
+
+<sp who="herm"><speaker>Hermes</speaker>
+<l><name>Aeneas</name> stay, <name>Joves</name> Herald bids thee stay.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Whom doe I see, <name>Joves</name> winged messenger?</l> 
+<l>Welcome to <name>Carthage</name> new erected towne.</l>
+</sp>
+
+<sp who="herm"><speaker>Hermes</speaker>
+<l>Why cosin, stand you building Cities here,</l>
+<l>And beautifying the Empire of this Queene,</l>
+<l>While <name>Italy</name> is cleane out of thy minde?</l>
+<l>To too forgetfull of thine owne affayres,</l>
+<l>Why wilt thou so betray thy sonnes good hap?</l>
+
+
+<l>The king of Gods sent me from highest heaven,</l>
+<l>To sound this angrie message in thine eares.</l>
+<l>Vaine man, what Monarky expectst thou here?</l>
+<!--var:#in <I>Libia</I>] on Libia's Ox, H, R, C#-->
+<l>Or with what thought sleepst thou <app>
+<lem>in <name>Libia</name></lem>
+<rdg wit="Ox H R C">on Libia's</rdg>
+</app> shoare?</l>
+<l>If that all glorie hath forsaken thee,</l>
+<l>And thou despise the praise of such attempts:</l>
+<l>Yet thinke upon <name>Ascanius</name> prophesie,</l>
+<!--var:#<I>Iulus</I> ^] ~ , Ox, H, R, G#-->
+<l>And yong <name>Iulus</name><app>
+<rdg wit="Ox H R G">,</rdg>
+</app> more then thousand yeares,</l>
+<l>Whom I have brought from <name>Ida</name> where he slept,</l>
+<l>And bore yong <name>Cupid</name> unto <name>Cypresse</name> Ile.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>This was my mother that beguild the Queene,</l>
+<l>And made me take my brother for my sonne:</l>
+<l>No marvell <name>Dido</name> though thou be in love,</l>
+<!--var:#dandlest] danlest#-->
+<l>That daylie <app>
+<lem>dandlest</lem>
+<rdg wit="Q">danlest</rdg>
+</app> <name>Cupid</name> in thy armes:</l>
+<l>Welcome sweet child, where hast thou been this long?</l></sp>
+<sp who="asca"><speaker>Ascanius</speaker>
+<l>Eating sweet Comfites with Queene <name>Didos</name> maide,</l>
+<l>Who ever since hath luld me in her armes.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><name>Sergestus</name>, beare him hence unto our ships,</l>
+<!--var:#spying him] spying Ox, H, R#-->
+<l>Lest <name>Dido</name> <app>
+<lem>spying him</lem>
+<rdg wit="Ox H R">spying</rdg>
+</app> keepe him for a pledge.</l></sp>
+<stage type="exit">[Exit <name>Sergestus</name> with <name>Ascanius</name>.]</stage>
+
+<sp who="herm"><speaker>Hermes</speaker>
+<l>Spendst thou thy time about this little boy,</l>
+<l>And givest not eare unto the charge I bring?</l>
+<l>I tell thee thou must straight to <name>Italy</name>,</l>
+<l>Or els abide the wrath of frowning <name>Jove</name>.            <stage type="exit">[Exit.]</stage></l></sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>How should I put into the raging deepe,</l>
+<l>Who have no sailes nor tackling for my ships?</l>
+<!--var:#What,] ~ ^#-->
+<l>What<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> would the Gods have me, <name>Deucalion</name> like,</l>
+<l>Flote up and downe where ere the billowes drive?</l>
+<l>Though she repairde my fleete and gave me ships,</l>
+<l>Yet hath she tane away my oares and masts,</l>
+<l>And left me neither saile nor sterne abourd.</l>
+</sp>
+
+<stage type="entrance">Enter to them <name>Iarbus</name>.</stage>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<!--var:#meanes] mean Ox, H, R, D, C#-->
+<l>How now <name>Aeneas</name>, sad, what <app>
+<lem>meanes</lem>
+<rdg wit="Ox H R D C">mean</rdg>
+</app> these dumpes?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#besides] beside Ox, H, R, C#-->
+<l><name>Iarbus</name>, I am cleane <app>
+<lem>besides</lem>
+<rdg wit="Ox H R C">beside</rdg>
+</app> my selfe,</l>
+<l><name>Jove</name> hath heapt on me such a desperate charge,</l>
+
+
+<l>Which neither art nor reason may atchieve,</l>
+<l>Nor I devise by what meanes to contrive.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>As how I pray, may I entreate you tell.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>With speede he bids me saile to <name>Italy</name>,</l>
+<!--var:#When as] Whereas Ox, H, R#-->
+<l><app>
+<lem>When as</lem>
+<rdg wit="Ox H R">Whereas</rdg>
+</app> I want both rigging for my fleete,</l>
+<l>And also furniture for these my men.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>If that be all, then cheare thy drooping lookes,</l>
+<l>For I will furnish thee with such supplies:</l>
+<l>Let some of those thy followers goe with me,</l>
+<l>And they shall have what thing so ere thou needst.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Thankes good <name>Iarbus</name> for thy friendly ayde,</l>
+<l><name>Achates</name> and the rest shall waite on thee,</l>
+<l>Whil'st I rest thankfull for this curtesie.</l>
+<stage type="exit">Exit <name>Iarbus</name> and <name>Aeneas</name> traine.</stage>
+<l>Now will I haste unto <name>Lavinian</name> shoare,</l>
+<l>And raise a new foundation to old <name>Troy</name>,</l>
+<l>Witnes the Gods, and witnes heaven and earth,</l>
+<l>How loth I am to leave these <name>Libian</name> bounds,</l>
+<l>But that eternall <name>Jupiter</name> commands.</l></sp>
+
+<!--var:5,1,82.1:<I>to</I>] <I>and</I>  Q, Ox, H, G, TB-->
+<stage type="entrance">Enter <name>Dido</name> [attended] <app>
+<lem>to</lem>
+<rdg wit="Q Ox H G TB">and</rdg>
+</app> <name>Aeneas</name>.</stage>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>I feare I sawe <name>Aeneas</name> little sonne,</l>
+<!--var:#<I>Achates</I>] Sergestus D (<I>qy</I>)#-->
+<l>Led by <name><app>
+<lem>Achates</lem>
+<rdg wit="D">Sergestus</rdg><wit>D (<emph>qy</emph>)</wit>
+</app></name> to the Troian fleete:</l>
+<l>If it be so, his father meanes to flye:</l>
+<l>But here he is, now <name>Dido</name> trie thy wit.</l>
+<!--var:5,1,86.1:<I>omit</I>] <I>Enter Aeneas</I>. Ox, H, R, C-->
+<stage type="entrance"><app>
+<rdg wit="Ox H R C">Enter <name>&AElig;neas</name>.</rdg>
+</app></stage>
+<l><name>Aeneas</name>, wherefore goe thy men abourd?</l>
+<l>Why are thy ships new rigd? or to what end</l>
+<l>Launcht from the haven, lye they in the Rhode?</l>
+<l>Pardon me though I aske, love makes me aske.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O pardon me, if I resolve thee why:</l>
+<l><name>Aeneas</name> will not fame with his deare love,</l>
+<l>I must from hence: this day swift <name>Mercury</name></l>
+<l>When I was laying a platforme for these walies,</l>
+<l>Sent from his father <name>Jove</name>, appeard to me,</l>
+<l>And in his name rebukt me bitterly,</l>
+<l>For lingering here, neglecting <name>Italy</name>.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#love?] ~ .#-->
+<l>But yet <name>Aeneas</name> will not leave his love<app>
+<lem>?</lem>
+<rdg wit="Q">.</rdg>
+</app></l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>I am commaunded by immortall <name>Jove</name>,</l>
+<l>To leave this towne and passe to <name>Italy</name>,</l>
+<l>And therefore must of force.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>These words proceed not from <name>Aeneas</name> heart.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>Not from my heart, for I can hardly goe,</l>
+<l>And yet I may not stay, <name>Dido</name> farewell.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Farewell: is this the mends for <name>Didos</name> love?</l>
+<l>Doe Trojans use to quit their Lovers thus?</l>
+<l>Fare well may <name>Dido</name>, so <name>Aeneas</name> stay,</l>
+<l>I dye, if my <name>Aeneas</name> say farewell.</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<!--var:#farewell.] ~ ,#-->
+<l>Then let me goe and never say farewell<app>
+<lem>?</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#hence,] ~ .#-->
+<!--var:#<I>Dido</I>.] <I>assigned to line</I> 111 Q, Ox, H, R, D, C, B, G, McK#-->
+<!--<BAD desc="No match at 5,1,110">-->
+<!--var:#Let] O let G#-->
+<!--var:#goe] go is C#-->
+<!--var:#farewell] farewell none D2; farewell or none G (<I>qy</I>)#-->
+<l><app>
+<lem>Let</lem>
+<rdg wit="G">O let</rdg>
+</app> me <app>
+<lem>goe</lem>
+<rdg wit="C">go is</rdg>
+</app>, <app>
+<lem>farewell</lem>
+<rdg wit="D2">farewell none</rdg>
+<rdg wit="G">farewell or none</rdg><wit>G (<emph>qy</emph>)</wit>
+</app>, I must from hence<app>
+<lem>,</lem>
+<rdg wit="Q">.</rdg>
+</app></l>
+<l>These words are poyson to poore <name>Didos</name> soule,</l>
+<l>O speake like my <name>Aeneas</name>, like my love:</l>
+<l>Why look'st thou toward the sea? the time hath been</l>
+<!--var:#chaind] chaungd Q, Ox, H; charm'd TB (<I>qy</I>)#-->
+<!--var:#eyes] eye Ox, H, R, C#-->
+<l>When <name>Didos</name> beautie <app>
+<lem>chaind</lem>
+<rdg wit="Q Ox H">chaungd</rdg>
+<rdg wit="TB">charm'd</rdg><wit>TB (<emph>qy</emph>)</wit>
+</app> thine <app>
+<lem>eyes</lem>
+<rdg wit="Ox H R C">eye</rdg>
+</app> to her:</l>
+<l>Am I lesse faire then when thou sawest me first?</l>
+<l>O then <name>Aeneas</name>, tis for griefe of thee:</l>
+<!--var:#thy] my Q, G (<I>qy</I>)#-->
+<l>Say thou wilt stay in <name>Carthage</name> with <app>
+<lem>thy</lem>
+<rdg wit="Q G">my</rdg><wit>G (<emph>qy</emph>)</wit>
+</app> Queene,</l>
+<l>And <name>Didos</name> beautie will returne againe:</l>
+<l><name>Aeneas</name>, say, how canst thou take thy leave?</l>
+<l>Wilt thou kisse <name>Dido</name>? O thy lips have sworne</l>
+<l>To stay with <name>Dido</name>: canst thou take her hand?</l>
+<l>Thy hand and mine have plighted mutuall faith,</l>
+<l>Therefore unkind <name>Aeneas</name>, must thou say,</l>
+<!--var:#farewell?] ~ .#-->
+<l>Then let me goe, and never say farewell<app>
+<lem>?</lem>
+<rdg wit="Q">.</rdg>
+</app></l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>O Queene of <name>Carthage</name>, wert thou ugly blacke,</l>
+<l><name>Aeneas</name> could not choose but hold thee deare,</l>
+<l>Yet must he not gainsay the Gods behest.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>The Gods, what Gods be those that seeke my death?</l>
+<l>Wherein have I offended <name>Jupiter</name>,</l>
+<l>That he should take <name>Aeneas</name> from mine armes?</l>
+<l>O no, the Gods wey not what Lovers doe,</l>
+<l>It is <name>Aeneas</name> calles <name>Aeneas</name> hence,</l>
+
+
+<l>And wofull <name>Dido</name> by these blubbred cheekes,</l>
+<l>By this right hand, and by our spousall rites,</l>
+<l>Desires <name>Aeneas</name> to remaine with her:</l>
+<l><foreign lang="la">Si bene quid de te merui, fuit aut tibi quidquam</foreign></l>
+<l><foreign lang="la">Dulce meum, miserere domus labentis: et istam</foreign></l>
+<!--var:#<I>adhuc</I>] <I>ad hoec</I>  Q#-->
+<l><foreign lang="la">Oro, si quis <app>
+<lem>adhuc</lem>
+<rdg wit="Q">ad h&aelig;c</rdg>
+</app> precibus locus, exue mentem.</foreign></l></sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l><foreign lang="la">Desine meque tuis incendere teque querelis, </foreign></l>
+<l><foreign lang="la">Italiam non sponte sequor.</foreign></l></sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Hast thou forgot how many neighbour kings</l>
+<l>Were up in armes, for making thee my love?</l>
+<l>How <name>Carthage</name> did rebell, <name>Iarbus</name> storme,</l>
+<!--var:#calles] call'd Ox, H, R, D, C#-->
+<l>And all the world <app>
+<lem>calles</lem>
+<rdg wit="Ox H R D C">call'd</rdg>
+</app> me a second <name>Helen</name>,</l>
+<!--var:#by] with Ox#-->
+<l>For being intangled <app>
+<lem>by</lem>
+<rdg wit="Ox">with</rdg>
+</app> a strangers lookes:</l>
+<l>So thou wouldst prove as true as <name>Paris</name> did,</l>
+<l>Would, as faire <name>Troy</name> was, <name>Carthage</name> might be sackt,</l>
+<l>And I be calde a second <name>Helena</name>.</l>
+<l>Had I a sonne by thee, the griefe were lesse,</l>
+<l>That I might see <name>Aeneas</name> in his face:</l>
+<!--var:#Now] Nor M#-->
+<l><app>
+<lem>Now</lem>
+<rdg wit="M">Nor</rdg>
+</app> if thou goest, what canst thou leave behind,</l>
+<l>But rather will augment then ease my woe?</l>
+</sp>
+
+<sp who="aene"><speaker>Aeneas</speaker>
+<l>In vaine my love thou spendst thy fainting breath,</l>
+<l>If words might move me I were overcome.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#thou not] not thou Ox#-->
+<l>And wilt <app>
+<lem>thou not</lem>
+<rdg wit="Ox">not thou</rdg>
+</app> be mov'd with <name>Didos</name> words?</l>
+<l>Thy mother was no Goddesse perjurd man,</l>
+<l>Nor <name>Dardanus</name> the author of thy stocke:</l>
+<l>But thou art sprung from <name>Scythian Caucasus</name>,</l>
+<l>And Tygers of <name>Hircania</name> gave thee sucke:</l>
+<l>Ah foolish <name>Dido</name> to forbeare this long!</l>
+<!--var:#this] thus Ox, H, R#-->
+<l>Wast thou not wrackt upon <app>
+<lem>this</lem>
+<rdg wit="Ox H R">thus</rdg>
+</app> <name>Libian</name> shoare,</l>
+<l>And cam'st to <name>Dido</name> like a Fisher swaine?</l>
+<l>Repairde not I thy ships, made thee a King,</l>
+<l>And all thy needie followers Noblemen?</l>
+<l>O Serpent that came creeping from the shoare,</l>
+<l>And I for pitie harbord in my bosome,</l>
+<l>Wilt thou now slay me with thy venomed sting,</l>
+<l>And hisse at <name>Dido</name> for preserving thee?</l>
+
+
+<l>Goe goe and spare not, seeke out <name>Italy</name>,</l>
+<l>I hope that that which love forbids me doe,</l>
+<!--var:#Sea-gulfes] sea-gulls Ox, H, R, C#-->
+<l>The Rockes and <app>
+<lem>Sea-gulfes</lem>
+<rdg wit="Ox H R C">sea-gulls</rdg>
+</app> will performe at large,</l>
+<l>And thou shalt perish in the billowes waies,</l>
+<l>To whom poore <name>Dido</name> doth bequeath revenge.</l>
+<l>I traytor, and the waves shall cast thee up,</l>
+<l>Where thou and false <name>Achates</name> first set foote:</l>
+<l>Which if it chaunce, Ile give ye buriall,</l>
+<l>And weepe upon your liveles carcases,</l>
+<l>Though thou nor he will pitie me a whit.</l>
+<l>Why star'st thou in my face? if thou wilt stay,</l>
+<l>Leape in mine armes, mine armes are open wide:</l>
+<l>If not, turne from me, and Ile turne from thee:</l>
+<!--var:#heart] power Ox, H, R#-->
+<l>For though thou hast the <app>
+<lem>heart</lem>
+<rdg wit="Ox H R">power</rdg>
+</app> to say farewell,</l>
+<l>I have not power to stay thee: is he gone? <stage type="exit">[Exit <name>Aeneas</name>.]</stage></l>
+<l>I but heele come againe, he cannot goe,</l>
+<l>He loves me to too well to serve me so:</l>
+<l>Yet he that in my sight would not relent,</l>
+<!--var:#obdurate] abdurate#-->
+<l>Will, being absent, be <app>
+<lem>obdurate</lem>
+<rdg wit="Q">abdurate</rdg>
+</app> still.</l>
+<l>By this is he got to the water side,</l>
+<l>And, see the Sailers take him by the hand,</l>
+<l>But he shrinkes backe, and now remembring me,</l>
+<l>Returnes amaine: welcome, welcome my love:</l>
+<l>But wheres <name>Aeneas</name>? ah hees gone hees gone!</l></sp>
+
+<stage type="entrance">[Enter <name>Anna</name>.]</stage>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>What meanes my sister thus to rave and crye?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O<name>Anna</name>, my <name>Aeneas</name> is abourd,</l>
+<l>And leaving me will saile to <name>Italy</name>.</l>
+<l>Once didst thou goe, and he came backe againe,</l>
+<l>Now bring him backe, and thou shalt be a Queene,</l>
+<l>And I will live a private life with him.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Wicked <name>Aeneas</name>.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<!--var:#sister,] ~ ^#-->
+<l>Call him not wicked, sister<app>
+<lem>,</lem>
+<rdg wit="Q"></rdg>
+</app> speake him faire,</l>
+<l>And looke upon him with a Mermaides eye,</l>
+<l>Tell him, I never vow'd at <name>Aulis</name> gulfe</l>
+<l>The desolation of his native <name>Troy</name>,</l>
+<l>Nor sent a thousand ships unto the walles,</l>
+<l>Nor ever violated faith to him:</l>
+<l>Request him gently (<name>Anna</name>) to returne,</l>
+<l>I crave but this, he stay a tide or two,</l>
+<l>That I may learne to beare it patiently,</l>
+<l>If he depart thus suddenly, I dye:</l>
+<l>Run <name>Anna</name>, run, stay not to answere me.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<!--var:#heavens] heaven Ox, H, R#-->
+<l>I goe faire sister, <app>
+<lem>heavens</lem>
+<rdg wit="Ox H R">heaven</rdg>
+</app> graunt good successe.</l></sp>
+<stage type="exit">Exit <name>Anna</name>.</stage>
+
+<stage type="entrance">Enter the <name>Nurse</name>.</stage>
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<l>O<name>Dido</name>, your little sonne <name>Ascanius</name></l>
+<l>Is gone! he lay with me last night,</l>
+<l>And in the morning he was stolne from me,</l>
+<l>I thinke some Fairies have beguiled me.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O cursed hagge and false dissembling wretch!</l>
+<l>That slayest me with thy harsh and hellish tale,</l>
+<l>Thou for some pettie guift hast let him goe,</l>
+<l>And I am thus deluded of my boy:</l>
+<l>Away with her to prison presently,</l>
+<!--var:#keene] keend Q, D, G, McK,TB; kind Coll MS, M, Ri; kenn'd D (<I>qy</I>), C, B; too, keend^ G#-->
+<l>Traytoresse too<app>
+<rdg wit="G">,</rdg>
+</app> <app>
+<lem>keene</lem>
+<rdg wit="Q D G McK TB">keend</rdg>
+<rdg wit="D C B">kenn'd</rdg><wit>D (<emph>qy</emph>)</wit>
+<rdg wit="Coll M Ri">kind</rdg>
+</app> and cursed Sorceresse.</l>
+</sp>
+
+<sp who="nurs"><speaker>Nurse</speaker>
+<l>I know not what you meane by treason, I,</l>
+<l>I am as true as any one of yours.<app>
+<rdg wit="Q"><stage type="exit">Exeunt the <name>Nurse</name> [and Attendants].</stage></rdg>
+</app></l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Away with her, suffer her not to speake</l>
+<stage type="exit"><app>
+<lem>Exeunt the <name>Nurse</name> [and Attendants].</lem>
+<rdg wit="Q"></rdg>
+</app></stage>
+<l>My sister comes, I like not her sad lookes.</l>
+
+<stage type="entrance">Enter <name>Anna</name>.</stage>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Before I came, <name>Aeneas</name> was abourd,</l>
+<l>And spying me, hoyst up the sailes amaine:</l>
+<l>But I cride out, <name>Aeneas</name>, false <name>Aeneas</name> stay.</l>
+<l>Then gan he wagge his hand, which yet held up,</l>
+<l>Made me suppose he would have heard me speake:</l>
+<l>Then gan they drive into the Ocean,</l>
+<l>Which when I viewd, I cride, <name>Aeneas</name> stay,</l>
+
+<l><name>Dido</name>, faire <name>Dido</name> wils <name>Aeneas</name> stay:</l>
+<!--var:#hearts] heart Q, TB, Ri, Rv#-->
+<l>Yet he whose <app>
+<lem>hearts</lem>
+<rdg wit="Q TB Ri Rv">heart</rdg>
+</app> of adamant or flint,</l>
+<l>My teares nor plaints could mollifie a whit:</l>
+<l>Then carelesly I rent my haire for griefe,</l>
+<l>Which seene to all, though he beheld me not,</l>
+<l>They gan to move him to redresse my ruth,</l>
+<l>And stay a while to heare what I could say,</l>
+<l>But he clapt under hatches saild away.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>O<name>Anna</name>, <name>Anna</name>, I will follow him.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<!--var:#ye] you D, B#-->
+<l>How can <app>
+<lem>ye</lem>
+<rdg wit="D B">you</rdg>
+</app> goe when he hath all your fleete?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>Ile frame me wings of waxe like <name>Icarus</name>,</l>
+<!--var:#ships] ship Ox, H, R, C#-->
+<l>And ore his <app>
+<lem>ships</lem>
+<rdg wit="Ox H R C">ship</rdg>
+</app> will soare unto the Sunne,</l>
+<l>That they may melt and I fall in his armes:</l>
+<l>Or els Ile make a prayer unto the waves,</l>
+<l>That I may swim to him like <name>Tritons</name> neece:</l>
+<!--var:#<I>Anna</I>] Anna, Anna D (<I>qy</I>), C, B, G#-->
+<!--var:#<I>Arions</I>] <I>Orions</I>  Q, Ox, H, R#-->
+<l>O <name>Anna</name>, <app>
+<rdg wit="D C B G"><name>Anna</name>,</rdg><wit>D (<emph>qy</emph>)</wit>
+</app> fetch <name><app>
+<lem>Arions</lem>
+<rdg wit="Q Ox H R">Orions</rdg>
+</app></name> Harpe,</l>
+<l>That I may tice a Dolphin to the shoare,</l>
+<l>And ride upon his backe unto my love:</l>
+<l>Looke sister, looke lovely <name>Aeneas</name> ships,</l>
+<!--var:#him] 'em D2; them C#-->
+<l>See see, the billowes heave <app>
+<lem>him</lem>
+<rdg wit="D2">'em</rdg>
+<rdg wit="C">them</rdg>
+</app> up to heaven,</l>
+<!--var:#falles] fall Ox, H, R, D, C#-->
+<l>And now downe <app>
+<lem>falles</lem>
+<rdg wit="Ox H R D C">fall</rdg>
+</app> the keeles into the deepe:</l>
+<l>O sister, sister, take away the Rockes,</l>
+<l>Theile breake his ships, O <name>Proteus</name>, <name>Neptune</name>, <name>Jove</name>,</l>
+<l>Save, save <name>Aeneas</name>, <name>Didos</name> leefest love!</l>
+<l>Now is he come on shoare safe without hurt:</l>
+<l>But see, <name>Achates</name> wils him put to sea,</l>
+<l>And all the Sailers merrie make for joy,</l>
+<l>But he remembring me shrinkes backe againe:</l>
+<l>See where he comes, welcome, welcome my love.</l>
+</sp>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>Ah sister, leave these idle fantasies,</l>
+<l>Sweet sister cease, remember who you are.</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Dido</name> I am, unlesse I be deceiv'd,</l>
+<l>And must I rave thus for a runnagate?</l>
+<l>Must I make ships for him to saile away?</l>
+<l>Nothing can beare me to him but a ship,</l>
+
+<!--var:#my] thy Q#-->
+<l>And he hath all <app>
+<lem>my</lem>
+<rdg wit="Q">thy</rdg>
+</app> fleete, what shall I doe</l>
+<l>But dye in furie of this oversight?</l>
+<l>I, I must be the murderer of my selfe:</l>
+<l>No but I am not, yet I will be straight.</l>
+<l><name>Anna</name> be glad, now have I found a meane</l>
+<l>To rid me from these thoughts of Lunacie:</l>
+<l>Not farre from hence</l>
+<l>There is a woman famoused for arts,</l>
+<!--var:#Daughter] Guardian B (<I>qy</I>)#-->
+<l><app>
+<lem>Daughter</lem>
+<rdg wit="B">Guardian</rdg><wit>B (<emph>qy</emph>)</wit>
+</app> unto the Nimphs <name>Hesperides</name>,</l>
+<l>Who wild me sacrifize his ticing relliques:</l>
+<l>Goe <name>Anna</name>, bid my servants bring me fire.</l></sp>	<stage type="exit">Exit <name>Anna</name>.</stage>
+
+<stage type="entrance">Enter <name>Iarbus</name>.</stage>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>How long will <name>Dido</name> mourne a strangers flight,</l>
+<l>That hath dishonord her and <name>Carthage</name> both?</l>
+<l>How long shall I with griefe consume my daies,</l>
+<l>And reape no guerdon for my truest love?</l></sp>
+
+<stage type="entrance">[Enter Attendants with wood and fire.]</stage>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l><name>Iarbus</name>, talke not of <name>Aeneas</name>, let him goe,</l>
+<l>Lay to thy hands and helpe me make a fire,</l>
+<l>That shall consume all that this stranger left,</l>
+<l>For I entend a private Sacrifize,</l>
+<l>To cure my minde that melts for unkind love.</l>
+</sp>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>But afterwards will <name>Dido</name> graunt me love?</l>
+</sp>
+
+<sp who="dido"><speaker>Dido</speaker>
+<l>I, I, <name>Iarbus</name>, after this is done,</l>
+<l>None in the world shall have my love but thou:</l>
+<l>So, leave me now, let none approach this place.   <stage type="exit">Exit <name></name>.</stage></l>
+<l>Now <name>Dido</name>, with these reliques burne thy selfe,</l>
+<l>And make <name>Aeneas</name> famous through the world,</l>
+<l>For perjurie and slaughter of a Queene:</l>
+<l>Here <app>
+<lem>lye</lem>
+<rdg wit="Ox H R D">lies</rdg>
+</app> the Sword that in the darksome Cave</l>
+<l>He drew, and swore by to be true to me,</l>
+<l>Thou shalt burne first, thy crime is worse then his;</l>
+<!--var:#1] <I>omit</I>  Ox, H, R#-->
+<l>Here <app>
+<lem>lye</lem>
+<rdg wit="Ox H R D">lies</rdg>
+</app> the garment which <app>
+<lem>I</lem>
+<rdg wit="Ox H R"></rdg>
+</app> cloath'd him in,</l>
+<l>When first he came on shoare, perish thou to:</l>
+
+
+<l>These letters, lines, and perjurd papers all,</l>
+<l>Shall burne to cinders in this pretious flame.</l>
+<l>And now ye gods that guide the starrie frame,</l>
+<l>And order all things at your high dispose,</l>
+<l>Graunt, though the traytors land in <name>Italy</name>,</l>
+<l>They may be still tormented with unrest,</l>
+<l>And from mine ashes let a Conquerour rise,</l>
+<l>That may revenge this treason to a Queene,</l>
+<l>By plowing up his Countries with the Sword:</l>
+<l>Betwixt this land and that be never league,</l>
+<l><foreign lang="la">Littora littoribus contraria,fluctibus undas</foreign></l>
+<l><foreign lang="la">Imprecor: arma armis: pugnent ipsique nepotes</foreign>:</l>
+<l>Live false <name>Aeneas</name>, truest <name>Dido</name> dyes,</l>
+<l><foreign lang="la">Sic sic juvat ire sub umbras</foreign>.</l></sp>
+<stage type="business">[Throws herself into the flames.]</stage>
+
+<stage type="entrance">Enter <name>Anna</name>.</stage>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>O helpe <name>Iarbus</name>, <name>Dido</name> in these flames</l>
+<l>Hath burnt her selfe, <app>
+<lem>aye</lem>
+<rdg wit="Ox H R C">ah</rdg>
+</app> me, unhappie me!</l></sp>
+
+<stage type="entrance">Enter <name>Iarbus</name> running.</stage>
+
+<sp who="iarb"><speaker>Iarbus</speaker>
+<l>Cursed <name>Iarbus</name>, dye to expiate</l>
+<!--var:#soule.] ~ ,#-->
+<l>The griefe that tires upon thine inward soule<app>
+<lem>.</lem>
+<rdg wit="Q">,</rdg>
+</app></l>
+<l><name>Dido</name> I come to thee, <app>
+<lem>aye</lem>
+<rdg wit="Ox H R C">ah</rdg>
+</app> me <name>Aeneas</name>.</l></sp>
+<stage type="business">[Kills himself]</stage>
+
+<sp who="anna"><speaker>Anna</speaker>
+<l>What can my teares or cryes prevaile me now?</l>
+<l><name>Dido</name> is dead,</l>
+<l>Iarbus slaine, Iarbus my deare love,</l>
+<l>O sweet <name>Iarbus</name>, <name>Annas</name> sole delight,</l>
+<l>What fatall destinie envies me thus,</l>
+<l>To see my sweet <name>Iarbus</name> slay himselfe?</l>
+<l>But <name>Anna</name> now shall honor thee in death,</l>
+<l>And mixe her bloud with thine, this shall I doe,</l>
+<l>That Gods and men may pitie this my death,</l>
+<l>And rue our ends senceles of life or breath:</l>
+<l>Now sweet <name>Iarbus</name> stay, I come to thee.</l></sp>
+<stage type="business">[Kills herself]</stage>
+<l><foreign lang="la">FINIS</foreign></l>
+
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>
+<!--var:2,1,77-8:<I>One line in Q</I>-->
+<!--var:5,1,274-5:<I>One line in</I>  Q-->
+<!--var:5,1,320-1:<I>One line in</I>  Q-->
