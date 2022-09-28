@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd"[
 <!ENTITY % TEI.XML "INCLUDE">
 <!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Dictionaries//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
@@ -10,12 +9,32 @@
       <titleStmt>
 	<title>The History of Scotland</title>
 	<title>An Electronic Edition</title>
+      	<author>Hector Boethius</author>
+      	<editor role="translator">Raphael Holinshed</editor>
+      	<sponsor>Perseus Project, Tufts University</sponsor>
+      	<principal>Gregory Crane</principal>
       </titleStmt>
-      <publicationStmt>
-	<p>later</p>
-      </publicationStmt>
+    	<publicationStmt>
+    		<publisher>Trustees of Tufts University</publisher>
+    		<pubPlace>Medford, MA</pubPlace>
+    		<authority>Perseus Project</authority>
+    		<date>2004-04-13</date>
+    	</publicationStmt>
       <sourceDesc>
-	<p>later</p>
+	<biblStruct>
+		<monogr>
+			<title>Holinshed's Chronicles of England, Scotland, and Ireland</title>
+			<title type="sub">Scotland</title>
+			<editor>Raphael Holinshed</editor>
+			<imprint>
+				<pubPlace>London</pubPlace>
+				<publisher>J. Johnson</publisher>
+				<date>1808</date>
+			</imprint>
+			<!-- 			<biblScope unit="volume">5</biblScope> -->
+			<!--  Does not allow the ref unit for a link to an outside volme-->
+		</monogr>
+	</biblStruct>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -37,6 +56,13 @@
 	</respStmt>
 	<item>The description Scotland.</item>
       </change>
+    	<change>
+    		<date>09/28/2022</date>
+    		<respStmt>
+    			<name>Alison Babeu</name>
+    		</respStmt>
+    		<item>Added in metadata</item>
+    	</change>
     </revisionDesc>
   </teiHeader>
       <text>
