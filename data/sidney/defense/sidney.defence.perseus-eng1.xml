@@ -2,10 +2,10 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+  <teiHeader xml:lang="eng">
       <fileDesc>
          <titleStmt>
-            <title xml:lang="eng">Defence of Poesie</title>
+            <title>Defence of Poesie</title>
             <author>Sir Philip Sidney</author>
          </titleStmt>
          <publicationStmt>
@@ -27,6 +27,7 @@
                      <date>1595</date>
                   </imprint>
                </monogr>
+               <ref target="https://books.google.com/books?id=l1ZpAAAAcAAJ">Google Books</ref>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
@@ -55,7 +56,7 @@
   </teiHeader>
   <text>
 <body>
-
+   <div type="edition" n="urn:cts:pdlpsci:sidney.defence.perseus-eng1" xml:lang="eng">
 <p>When the right vertuous <name rend="italic">E. W.</name> and I were
 at the Emperours Court togither, wee gaue our selues to learne
 horsemanship of <name rend="italic">Ion Pietro Pugliano, </name> one
@@ -2056,6 +2057,7 @@ for lacking skill of a Sonet, and when you
 die, your memorie die from the earth
 for want of an Epitaphe. </p>
 <p></p>
+   </div>
 </body>
 </text>
 </TEI>

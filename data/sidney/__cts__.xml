@@ -8,6 +8,7 @@
       There needs to be at least one groupname node, with a clear lang declaration. 
       One groupname at least is required.
     -->
-    <ti:groupname xml:lang="eng">Sidney</ti:groupname>
+  <!-- Full author name used here -->
+    <ti:groupname xml:lang="eng">Sir Philip Sidney</ti:groupname>
 </ti:textgroup>
 
