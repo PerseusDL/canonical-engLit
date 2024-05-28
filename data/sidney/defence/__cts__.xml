@@ -1,0 +1,10 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:sidney"
+  urn="urn:cts:engLit:sidney.defence"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">Defence of Poesie</ti:title>
+  <ti:edition urn="urn:cts:engLit:sidney.defence.perseus-eng1" workUrn="urn:cts:engLit:sidney.defence" xml:lang="eng">
+    <ti:label xml:lang="eng">Defence of Poesie</ti:label>
+    <ti:description xml:lang="eng">Sidney, Philip, Sir. The Defence of Poesie. London: William Posonby, 1595.</ti:description>
+  </ti:edition>
+</ti:work>
