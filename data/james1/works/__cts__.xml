@@ -1,0 +1,11 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:james1"
+  urn="urn:cts:engLit:james1.works"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">The Political Works of James I</ti:title>
+  <ti:edition urn="urn:cts:engLit:james1.works.perseus-eng1" workUrn="urn:cts:engLit:james1.works" xml:lang="eng">
+    <ti:label xml:lang="eng">The Political Works of James I</ti:label>
+    <ti:description xml:lang="eng">James I. Political
+    Works. 1616.</ti:description>
+  </ti:edition>
+</ti:work>
