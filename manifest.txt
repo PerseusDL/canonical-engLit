@@ -1,0 +1,3 @@
+data/sidney/__cts__.xml
+data/sidney/defence/__cts__.xml
+data/sidney/defence/sidney.defence.perseus-eng1.xml
