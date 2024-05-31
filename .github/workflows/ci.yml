@@ -2,9 +2,9 @@ name: Hooktest and Release
 
 on:
   push:
-    # Dispatch when pushing to default branch; currently `master`
+    # Dispatch when pushing to default branch; currently `main`
     branches:
-    - master
+    - main
   # Dispatch on pull requests
   pull_request:
 jobs:
@@ -38,7 +38,7 @@ jobs:
           path: manifest.txt
   create_release:
     name: Create release
-    # Only create releases on commits to the default branch; currently `master`.
+    # Only create releases on commits to the default branch; currently `main`.
     # We are able to use the event.repository.default_branch variable within the job definition,
     # but _not_ in workflow:on definition above.
     if: success() && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
