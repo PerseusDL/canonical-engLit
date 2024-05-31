@@ -52,11 +52,7 @@
      replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
    </refsDecl>
 
-   <refsDecl>
-    <refState unit="section"/>
-    <refState unit="subsection" n="chunk"/>
-    <refState unit="subsubsection"/>
-   </refsDecl>
+   
 
   </encodingDesc>
   <profileDesc>
@@ -429,7 +425,7 @@
    <div type="edition" n="urn:cts:engLit:james1.basilikon.perseus-eng1" xml:lang="eng">
     <pb n="3"/>
 
-    <div type="textpart" subtype="book">
+    <div type="textpart" subtype="book" n="1">
      <head>OF A KINGS CHRISTIAN DVETIE TOWARDS GOD. <lb/>The First Booke.</head>
 
      <p>As he cannot be thought worthy to rule and command others, that cannot rule and dantone his
@@ -679,7 +675,7 @@
       eschew outwardly before the world, the suspition of filthie proude hypo- crisie, and
       deceitfull dissimulation. </p>
     </div>
-    <div type="textpart" subtype="book">
+    <div type="textpart" subtype="book" n="2">
      <head>OF A KINGS DVETIE IN HIS OFFICE. <lb/><hi rend="smallcap">The Second Booke.</hi></head>
      <p> BVT as ye are clothed with two callings, so must ye be alike careful for the dis- charge of
       them both: that as yee are a good Christian, so yee may be a good King, discharging your
@@ -690,18 +686,22 @@
       example: <note anchored="true" place="foot">Isocr. in Sym.</note> for people are naturally
       inclined to counterfaite (like apes) their Princes maners, according to the notable saying of
        <hi rend="italic">Plato</hi>,<note anchored="true" place="foot">Plato in Polit.</note> ex-
-      pressed by the Poet - <foreign xml:lang="lat"><quote><lg>
-         <l>
-          <hi rend="italic">Componitur orbis</hi>
-         </l>
-         <l>
-          <hi rend="italic">Regis ad exemplum, nec sic infiectere sensus</hi>
-         </l>
-         <l>
-          <hi rend="italic">Humanos edicta valent, quam vita regentis.</hi><note anchored="true"
+      pressed by the Poet - 
+      <cit>
+       <quote>
+        <lg xml:lang="lat">
+         <l>Componitur orbis</l>
+         <l>Regis ad exemplum, nec sic infiectere sensus</l>
+         <l>Humanos edicta valent, quam vita regentis.<note anchored="true"
            place="foot">Claudian in 4. cons. Hon.</note></l>
-        </lg></quote></foreign>
+        </lg>
+       </quote>
+       <ref>Claudian in 4. cons. Hon.</ref>
+      </cit>
+       
+      
      </p>
+     
      <p>For the part of making, and executing of Lawes, consider first the trew dif- ference betwixt
       a lawfull good King, and an vsurping Tyran, and yee shall the more easily vnderstand your
       duetie herein: for <hi rend="italic"><foreign xml:lang="lat">contraria iuxta se posita magis
@@ -1196,13 +1196,21 @@
        5. de Leg. </note> and education be therefore most iustly called <hi rend="italic"><foreign
         xml:lang="lat">altera natura</foreign></hi>, yet is it euill to get out of the flesh,<note
        anchored="true" place="foot">Arisr. 2. cecon.</note> that is bred in the bone, as the olde
-      prouerbe sayth. Be very ware then in making choice of your seruants and companie: - <foreign
-       xml:lang="lat"><quote><lg>
-         <l part="F"><hi rend="italic">Nam</hi>
-         </l>
-         <l><hi rend="italic">Turpius eiicitur, quam non admittitur hospes</hi>:</l>
-        </lg></quote></foreign>
-      <note anchored="true" place="foot"> Ouid. 5. de Trist.</note> and many respects may lawfully
+      prouerbe sayth. Be very ware then in making choice of your seruants and companie: - 
+      
+      <cit>
+       <quote xml:lang="lat">
+        <lg>
+         <l part="F">Nam</l>
+         <l>Turpius eiicitur, quam non admittitur hospes:</l>
+        </lg>
+       </quote>
+       <ref>Ouid. 5. de Trist.</ref>
+      </cit>
+      
+       
+      
+      and many respects may lawfully
       let an admission, that will not be sufficient causes of depriuation. </p>
      <p>All your seruants and Court must be composed partly of minors, such as young Lords, to be
       brought vp in your company, or Pages and such like; and partly of men of perfit aage, for
@@ -1716,7 +1724,7 @@
       vertue, and hatred of vice. <pb n="43"/>
      </p>
     </div>
-    <div type="textpart" subtype="book">
+    <div type="textpart" subtype="book" n="3">
      <head>OF A KINGS BEHAVIOVR IN INDIFFERENT THINGS. <lb/>
       <hi rend="smallcap">The Third Booke</hi>.</head>
      <p>IT is a trew old saying, That a King is as one set on a stage, whose smallest actions and
@@ -2130,21 +2138,23 @@
       furthering of that principall. And being content to let others excell in other things, let it
       be your chiefest earthly glory, to excell in your owne craft: according to the worthy counsel
       and charge of <hi rend="italic">Anchises</hi> to his pos- teritie, in that sublime and
-      heroicall Poet, wherein also my dicton is included; <foreign xml:lang="lat"><quote><lg>
-         <l>
-          <hi rend="italic">Excudent alij spirantia mollius aera,</hi></l>
-         <l>
-          <hi rend="italic">Credo equidem, &amp; viuos ducent de marmore vultus,</hi></l>
-         <l>
-          <hi rend="italic">Orabunt causas melius, caelique meatus</hi></l>
-         <l>
-          <hi rend="italic">Describent radio, &amp; surgentia sydera dicent.</hi></l>
-         <l>
-          <hi rend="italic">Tu; regere imperio populos, Romane, memento</hi></l>
-         <l> (<hi rend="italic">Hae tibi erunt artes) pacique imponere morem,</hi></l>
-         <l> "Parcere subiectis, &amp; debellare superbos.<note anchored="true" place="foot">Virg 6.
-           AEn.</note></l>
-        </lg></quote></foreign>
+      heroicall Poet, wherein also my dicton is included; 
+      
+      <cit>
+       <quote xml:lang="lat">
+        <lg>
+        <l>Excudent alij spirantia mollius aera,</l>
+        <l>Credo equidem, &amp; viuos ducent de marmore vultus,</l>
+        <l>Orabunt causas melius, caelique meatus</l>
+        <l>Describent radio, &amp; surgentia sydera dicent.</l>
+        <l>Tu; regere imperio populos, Romane, memento</l>
+        <l> (Hae tibi erunt artes) pacique imponere morem,</l>
+        <l> "Parcere subiectis, &amp; debellare superbos.</l>
+       </lg></quote>
+       <ref>Virg 6. AEn.</ref>
+      </cit>
+      
+      
       <pb n="53"/>
      </p>
     </div>
