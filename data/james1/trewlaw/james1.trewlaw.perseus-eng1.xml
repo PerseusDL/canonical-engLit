@@ -46,11 +46,10 @@
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
-
    <refsDecl n="CTS">
-    <cRefPattern n="book" matchPattern="(\w+)"
-     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+    <cRefPattern matchPattern="(.+)" n="work" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
    </refsDecl>
+   
 
 
 
@@ -98,7 +97,8 @@
     </p></div>  
   </front>
   <body>
-   <div type="edition">
+   <div type="edition" n="urn:cts:engLit:james1.trewlaw.perseus-eng1" xml:lang="eng">
+    <div type="textpart" subtype="work" n="1">
      <head>THE TREW LAW OF FREE MONARCHIES: OR THE RECIPROCK
 AND MVTVALL DVETIE BETWIXT A FREE KING AND HIS NATURALL SUBJECTS.</head>
 
@@ -910,6 +910,7 @@ happy in ruling ouer so louing and obedient subiects.
 </p>
 
     
+   </div>
    </div>
   </body>
  </text>
