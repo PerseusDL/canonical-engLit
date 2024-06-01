@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+   <titleStmt>
+    <title type="main">
+     Triplici Nodo, Triplex Cuneus. Or An Apologie For The Oath Of Allegiance.
+    </title>
+    <title type="sub">
+     Against The Two Breves Of Pope Pavlvs Qvintvs, And The Late Letter Of Cardinall Bellarmine To G. Blackwel The Arch-Priest.
+    </title>
+    <author>James I</author>
+    <editor role="editor">Charles Howard McIlwain</editor>
+    <respStmt>
+     <resp>Prepared under the supervision of</resp>
+     <name>Lisa Cerrato</name>
+     <name>Anne Mahoney</name>
+     <name>David Smith</name>
+     <name>Clifford Wulfman</name>
+    </respStmt>
+    <funder n="org:Tufts">Tufts University</funder>
+   </titleStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+    <date type="release" when="2001" cert="high">Perseus 3.0</date>
+    <idno type="filename">james1.apology.perseus-eng1.xml</idno>
+    <availability>
+     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative
+      Commons Attribution-ShareAlike 4.0 International License</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>The Politial Works of James I: Reprinted from the Edition of 1616</title>
+      <author>James I</author>
+      <editor role="editor">Charles Howard McIlwain</editor>
+      <imprint>
+       <pubPlace>Cambridge</pubPlace>
+       <publisher>Harvard University Press</publisher>
+       <date>1918</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <refsDecl n="CTS">
+    <cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+     <p>This pointer pattern extracts section.</p>
+    </cRefPattern>
+   </refsDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="eng">English</language>
+    <language ident="lat">Latin</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2000-03-29" who="Tony Lilly">markup</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="edition" n="urn:cts:engLit:james1.apology.perseus-eng1" xml:lang="eng">
+<div type="textpart" subtype="section" n="1">
+ <head>AGAINST THE TWO BREVES OF POPE PAVLVS QVINTVS, AND THE LATE LETTER OF CARDINALL BELLARMINE TO
+ G. BLACKWEL THE ARCH-PRIEST.</head>
+
+
+<p>WHAT a monstrous, rare, nay neuer heard-of Treacherous attempt, was
+          plotted within these few yeeres here in England, for the destruction of Mee,
+my Bed-fellow, and our posteritie, the whole house of Parliament, and a great
+number of good subjects of all sorts and degrees; is so famous already through
+the whole world by the infamie thereof, as it is needlesse to bee repeated or pub-
+lished any more; the horrour of the sinne it selfe doeth so lowdly proclaime it.
+For if those crying sinnes, (whereof mention is made in the Scripture)<note anchored="true" place="foot">Gen. 4. 10. </note>haue that
+epithet giuen them for their publique infamie, and for procuring as it were with a
+lowd cry from heauen a iust vengeance and recompense, and yet those sinnes are
+both old and too common, neither the world, nor any one Countrey being euer at
+any time cleane voyd of them: If those sinnes (I say) are said in the Scripture to cry
+so lowd; What then must this sinne doe, plotted without cause, infinite in crueltie,
+and singular from all examples ? What proceeded hereupon is likewise notorious
+to the whole world; our Iustice onely taking hold vpon the offenders, and that in
+as honourable and publique a forme of Triall, as euer was vsed in this Kingdome.
+ </p><p>    2. For although the onely reason they gaue for plotting so heinous an attempt,
+was the zeale they caried to the Romish Religion; yet were neuer any other of
+that profession the worse vsed for that cause, as by our gracious Proclamation
+immediatly after the discouery of the said fact doeth plainly appeare: onely at
+the next sitting downe againe of the Parliament, there were Lawes made, setting
+downe some such orders as were thought fit for preuenting the like mischiefe in
+time to come. Amongst which a forme of OATH was framed to be taken by my
+Subiects, whereby they should make a cleare profession of their resolution, faith-
+fully to persist in their obedience vnto mee, according to their naturall allegiance;
+To the end that I might hereby make a separation, not onely betweene all my
+good Subiets in generall, and vnfathfull Traitors, that intended to withdraw
+themselues from my obedience; But specially to make a separation betweene so
+many of my Subiects, who although they were otherwise Popishly affected, yet
+retained in their hearts the print of their naturall dutie to their Soueraigne; and
+those who being caried away with the like fanaticall zeale that the Powder-
+Traitors were, could not conteine themselues within the bounds of their naturall
+Allegiance, but thought diuersitie of religion a safe pretext for all kinde of trea-
+
+
+<pb n="72"/>
+  sons, and rebellions against their Soueraigne. Which godly and wise intent, God
+  did blesse with successe accordingly: For very many of my Subiects that were
+  Popishly affected, aswell Priests, as Layicks, did freely take the same Oath:
+  whereby they both gaue me occasion to thinke the better of their fidelitie, and
+  likewise freed themselues of that heauie slander, that although they were fellow
+  professors of one Religion with the powder-Traitors, yet were they not ioyned
+  with them in treasonable courses against their Soueraigne; whereby all quietly
+  minded Papists were put of despaire, and I gaue a good proofe that I intended no
+  persecution against them for conscience cause, but onely desired to be secured of
+  them for ciuill obedience, which for conscience cause they were bound to performe.
+    </p><p>  3. But the diuel could not haue deuised a more malicious tricke for interrupting
+  this so calme and clement a course, then fell out by the sending hither, and publish-
+  ing a <hi rend="italic">Breue</hi> of the Popes, countermanding all them of his profession to take this
+  Oath; Thereby sowing new seeds of ielousie betweene me and my Popish Subiects,
+  by stirring them vp to disobey that lawfull commandement of their Soueraigne,
+  which was ordeined to bee taken of them as a pledge of their fidelitie; And so by their
+  refusall of so iust a charge, to giue mee so great and iust a ground for punishment of
+  them, without touching any matter of conscience: throwing themselues needlesly
+  into one of these desperate straits; either with the losse of their lives and goods
+  to renounce their Allegiance to their naturall Soueraigne; or else to procure the
+  condemnation of their soules by renouncing the Catholicke faith, as he alleadgeth.
+    </p><p>  4. And on the other part, although disparitie of Religion (the Pope being head
+ of the contrary part) can permit no intelligence nor intercourse of messengers
+ betweene mee and the Pope: yet there being no denounced warre betweene vs,
+ he hath by this action broken the rules of common ciuilitie and iustice between
+ Christian Princes, in thus condemning me vnheard, both by accounting me a perse-
+ cutor, which cannot be but implied by exhorting the Papists to endure Martyrdome;
+ as likewise by so straitly commanding all those of his profession in England, to refuse
+ the taking of this Oath; thereby refusing to professe their naturall obedience to me
+ their Soueraigne. For if he thinke himselfe my lawfull Iudge, wherefore hath he
+ condemned me vnheard ? And, if he haue nothing to doe with me and my gouern-
+ ment (as indeed he hath not) why doeth he <hi rend="italic"><foreign xml:lang="lat">mittere falcem in alienam messem</foreign></hi>, to
+ meddle betweene me and my Subiects, especially in matters that meerely and
+ onely concerne ciuill obedience ? And yet could <hi rend="italic">Pius Quintus</hi> in his greatest fury
+ and auowed quarrell against the late Queene, doe no more iniurie vnto her; then
+ hee hath in this case offered vnto mee, without so much as a pretended or an
+ alleadged cause. For what difference there is, betweene the commanding Subiects
+ to rebell, and loosing them from their Oath of Allegiance as <hi rend="italic">Pius Quintus</hi> did; and
+ the commanding of Subiects not to obey in making profession of their Oath of
+ their dutifull Allegiance, as this Pope hath now done: no man can easily discerne.
+    </p><p> 5. But to draw neere vnto his <hi rend="italic">Breue</hi>, wherein certainely hee hath taken more
+paines then he needed, by setting downe in the said <hi rend="italic">Breue</hi> the whole body of the
+
+<pb n="73"/>
+ Oath at length; whereas the onely naming of the Title thereof might as well haue
+ serued, for any answere hee hath made thereunto (making <hi rend="italic">Vna litura</hi>, that is,
+ the flat and generall condemnation of the whole Oath to serue for all his refuta-
+ tion.) Therein hauing as well in this respect as in the former, dealt both
+ vndiscreetly with me, and iniuriously with his owne Catholickes. With mee; in
+ not refuting particularly what speciall words he quarrelled in that Oath; which
+ if hee had done, it might haue beene that for the fatherly care I haue not to put
+ any of my Subiects to a needlesse extremitie, I might haue beene contented in
+ some sort to haue reformed or interpreted those wordes. With his owne Catho-
+ lickes: for either if I had so done, they had beene thereby fully eased in that
+ businesse; or at least if I would not haue condescended to haue altered any thing
+ in the saide Oath, yet would thereby some appearance or shadow of excuse haue
+ been left vnto them for refusing the same: not as seeming thereby to swarue from
+ their Obedience and Allegiance vnto mee, but onely beeing stayed from taking the
+ same vpon the scrupulous tendernesse of their consciences, in regard of those
+ particular words which the Pope had noted and condemned therein.
+</p>
+<p>And now let vs heare the words of his thunder.
+
+</p></div>
+<div type="textpart" subtype="section" n="2"><head>POPE PAVLVS THE FIFT, TO THE ENGLISH CATHOLICKES.</head>
+ <p>WELBELOUED Sonnes, Salutation and Apostolicall Benediction. <hi rend="italic">The tribulations
+ and calamities, which yee haue continually sustainedfor the keeping of the Catholike
+ Faith, haue alwayes afflicted vs with great griefe of minde. But for as much as we
+ vnderstand that at this time all things are more grieuous, our affliction hereby is
+ wonderfully increased. For wee haue heard how you are compelled, by most grieuous
+ punishments set before you, to goe to the Churches of Heretikes, to frequent their
+ assemblies, to be present at their Sermons. Truly wee doe vndoubtedly beleeue, that
+ they which with so great constancie and fortitude, haue hitherto indured most cruell
+ persecutions and almost infinite miseries, that they may walke without spot in the
+ Law of the Lord; will neuer suffer themselves to be defiled with the communion of
+ those that haue forsaken the diuine Law. Yet notwithstanding, being compelled by the
+ zeale of our Pastorall Office, and by our Fatherly care which we doe continually take
+for the saluation of your soules, we are inforced to admonish and desire you, that by
+no meanes you come unto the Churches of the Heretickes, or hear their Sermons, or
+communicate with them in their Rites, lest you incurre the wrath of God: For these
+things may ye not doe without indamaging the worship of God, and your owne sal-
+uation. As likewise you cannot, without most euident and grieuous wronging of Gods
+Honour, bind your selues by the Oath, which in like maner we haue heard with very
+great griefe of our heart is administred vnto you, of the tenor vnder-written. viz.</hi>
+<quote><p>I A.B. doe trewly and sincerely acknowledge, professe, testifie and declare in my
+conscience before God and the world, That our Soueraigne Lord King IAMES, is
+lawfull King of this Realme, and of all other his Maiesties Dominions and Coun-
+
+<pb n="74"/>
+treyes: And that the <hi rend="italic">Pope</hi> neither of himselfe, nor by any authority of the Church
+or Sea of <hi rend="italic">Rome</hi>, or by any other meanes with any other, hath any power or au-
+thoritie to depose the King, or to dispose of any of his Maiesties Kingdomes or
+Dominions, or to authorize any forreigne Prince to inuade or annoy him or his
+Countreys, or to discharge any of his Subiects of their Allegiance and obedience
+to his Maiestie, or to giue Licence or leaue to any of them to beare Armes, raise
+tumults, or to offer any violence or hurt to his Maiesties Royall Person, State or
+Gouernment, or to any of his Maiesties subiects within his Maiesties Dominions.
+Also I doe sweare from my heart, that, notwithstanding any declaration or
+sentence of Excommunication, or depriuation made or granted, or to be made or
+granted, by the <hi rend="italic">Pope</hi> or his successors, or by any Authoritie deriued, or pretended
+to be deriued from him or his Sea, against the said King, his heires or successors,
+or any absolution of the said subiects from their obedience; I will beare faith and
+trew Allegiance to his Maiestie, his heires and successors, and him and them will
+defend to the vttermost of my power, against all conspiracies and attempts what-
+soeuer, which shalbe made against his or their Persons, their Crowne and dignitie,
+by reason or colour of any such sentence, or declaration, or otherwise, and will doe
+my best endeuour to disclose and make knowne vnto his Maiestie, his heires and
+successors, all Treasons and traiterous conspiracies, which I shall know or heare
+of, to be against him or any of them. And I doe further sweare, That I doe from
+my heart abhorre, detest and abiure as impious and Hereticall, this damnable
+doctrine and position, That Princes which be excommunicated or depriued by the
+<hi rend="italic">Pope</hi>, may be deposed or murthered by their Subiects or any other whatsoeuer.
+And I doe beleeue, and in conscience am resolued, that neither the <hi rend="italic">Pope</hi> nor any
+person whatsoeuer, hath power to absolue me of this Oath, or any part thereof;
+which I acknowledge by good and full authoritie to bee lawfully ministred vnto
+mee, and doe renounce all Pardons and Dispensations to the contrarie. And all
+these things I doe plainely and sincerely acknowledge and sweare, according to
+these expresse words by me spoken, and according to the plaine and common sense
+and vnderstanding of the same words, without any Equiuocation, or mentall
+euasion, or secret reseruation whatsoeuer. And I do make this Recognition and
+acknowledgment heartily, willingly, and trewly, vpon the trew faith of a Christian.
+So helpe me GOD.</p></quote>
+</p>
+<p>     <hi rend="italic">Which things since they are thus; it must euidently appeare vnto you by the words
+themselues, That such an Oath cannot be taken without hurting of the Catholike Faith
+and the saluation of your soules; seeing it conteines many things which are flat con-
+trary to Faith and saluation. Wherefore wee doe admonish you, that you doe vtterly
+abstainefrom taking this and the like Oathes: which thing wee doe the more earnestly
+require of you, because wee haue experience of the constancie of your faith, which is
+tried like gold in the fire of perpetuall tribulation. Wee doe well know, that you will
+cheerfully vnder-goe all kinde of cruell torments whatsoeuer, yea and constantly endure</hi>
+
+<pb n="75"/>
+ <hi rend="italic">death itselfe, rather then you will in any thing offend the Maiestie of</hi> <hi rend="smallcap">God</hi>. <hi rend="italic">And this
+ our confidence is confirmed by those things, which are dayly reported vnto vs, of the
+ singular vertue, valour, and fortitude which in these last times doeth no lesse shine in
+ your Martyrs, then it did in the first beginning of the Church. Stand therefore, your
+ loynes being girt about with veritie, and hauing on the brest-plate of righteousness,
+ taking the shield of Faith, be ye strong in the Lord, and in the power of his might;
+ And let nothing hinder you. Hee which will crowne you, and doeth in Heauen behold
+ your conflicts, willfinish the good worke which hee hath begun in you. You know how
+ hee hath promised his disciples, that hee will neuer leaue them Orphanes: for hee is
+ faithfull which hath promised. Hold fast therefore his correction, that is, being rooted
+ and grounded in Charitie, whatsoeuer ye doe, whatsoeuer ye indeuour, doe it with one
+ accord, in simplicitie of heart, in meekenesse of Spirit, without murmuring or doubt-
+ ing. For by this doe all men know that we are the disciples of</hi> <hi rend="smallcap">Christ</hi>, <hi rend="italic">if we haue
+ loue one to another. Which charitie, as it is very greatly to be desired of all faithfull
+ Christians; So certainely it is altogether necessary for you, most blessed sonnes. For
+ by this your charitie, the power of the diuel is weakened, who doeth so much assaile you,
+ since that power of his is especially vpheld by the contentions and disagreement of our
+ sonnes. Wee exhort you therefore by the bowels of our Lord</hi> <hi rend="smallcap">Iesvs Chirst</hi>, <hi rend="italic">by whose
+ loue we are taken out of the iawes of eternall death; That above all things, you would
+ haue mutuall charitie among you. Surely Pope</hi> Clement <hi rend="italic">the eight of happy memory,
+ hath giuen you most profitable precepts of practising brotherly charitie one to another,
+ in his Letters in forme of a</hi> Breue, <hi rend="italic">to our welbeloued sonne</hi> M. George <hi rend="italic">Arch-priest of
+ the Kingdome of England, dated the 5. day of the month of October 1602. Put them
+ therefore diligently in practise, and be not hindered by any difficultie or doubtfulnesse.
+ We command you that ye doe exactly obserue the words of those letters, and that yee
+ take and vnderstand them simply as they sound, and as they lie; all power to interpret
+ them otherwise, being taken away. In the meane while, we will neuer cease to pray to
+ the Father of Mercies, that he would with pitie behold your afflictions and your paines;
+ And that he would keepe and defend you with his continuall protection: whom wee
+ doe gently greet with our Apostolicall Benediction. Dated at</hi> Rome <hi rend="italic">at S</hi>. Marke,
+ <hi rend="italic">vnder the Signet of the Fisherman, the tenth of the Calends of October, 1606. the second
+ yeere of our</hi> Popedome.
+
+</p></div>
+<div type="textpart" subtype="section" n="3"><head>THE ANSWERE TO THE FIRST BREVE.</head>
+<p>FIRST, the <hi rend="italic">Pope</hi> expresseth herein his sorrow, for that persecution which the
+Catholiques sustaine for the faiths sake. Wherein, besides the maine vntrewth
+whereby I am so iniuriously vsed, I must euer auow and maintaine, as the trewth
+is according to mine owne knowledge, that the late Queene of famous memory,
+neuer punished any Papist for Religion, but that their owne punishment was euer
+extorted out of her hands against her will, by their owne misbehauiour, which both
+the time and circumstances of her actions will manifestly make proofe of. For
+before <hi rend="italic">Pius Quintus</hi> his excommunication giuing her ouer for a prey, and setting
+
+<pb n="76"/>
+her Subiects at libertie to rebell, it is well knowne she neuer medled with the blood
+or hard punishment of any Catholique, nor made any rigorous Lawes against
+them. And since that time, who list to compare with an indifferent eye, the mani-
+fold intended inuasions against her whole kingdome, the forreine practises, the
+internall publike rebellions, the priuate plots and machinations, poysonings,
+murthers, and all sorts of deuises, &amp; <hi rend="italic"><foreign xml:lang="lat">quid non</foreign></hi> ? daily set abroach; and all these
+wares continually fostered and fomented from <hi rend="italic">Rome</hi>; together with the con-
+tinuall corrupting of her Subiects, as well by temporall bribes, as by faire and
+specious promises of eternall felicitie; and nothing but booke vpon booke pub-
+likely set foorth by her fugitiues, for approbation of so holy designes: who list, I
+say, with an indifferent eye, to looke on the one part, vpon those infinite and intol-
+lerable temptations, and on the other part vpon the iust, yet moderate punish-
+ment of a part of these hainous offendors; shall easily see that that blessed
+defunct LADIE was as free from persecution, as they shall free these hellish
+Instruments from the honour of martyrdome.
+     5. But now hauing sacrificed (if I may so say) to the <hi rend="italic">Manes</hi> of my late Pre-
+decessour, I may next with Saint <hi rend="smallcap">Pavl</hi> iustly vindicate mine owne fame, from
+those innumerable calumnies spread against me, in testifying the trewth of my
+behauiour toward the Papists: wherein I may trewly affirme, That whatsoeuer was
+her iust and mercifull Gouernement ouer the Papists in her time, my Gouerne-
+ment ouer them since hath so farre exceeded hers, in Mercie and Clemencie, as
+not onely the Papists themselues grewe to that height of pride, in confidence of my
+mildnesse, as they did directly expect, and assuredly promise to themselues
+libertie of Conscience, and equalitie with other of my Subiects in all things; but
+euen a number of the best and faithfulliest of my sayde Subiects, were cast in
+great feare and amazement of my course and proceedings, euer prognosticating
+and iustly suspecting that sowre fruite to come of it, which shewed it selfe clearely
+in the Powder-Treason. How many did I honour with Knighthood, of knowen
+and open Recusants ? How indifferently did I giue audience, and accesse to both
+sides, bestowing equally all fauours and honours on both professions ? How free
+and continuall accesse, had all rankes and degrees of Papists in my Court and
+company ? And aboue all, how frankely and freely did I free Recusants of their
+ordinarie paiments ? Besides, it is euident what strait order was giuen out of my
+owne mouth to the Iudges, to spare the execution of all Priests, (notwithstanding
+their conuiction,) ioyning thereunto a gracious Proclamation, whereby all Priests,
+that were at libertie, and not taken, might goe out of the contrey by such a day:
+my generall Pardon hauing beene extended to all conuicted Priestes in prison:
+whereupon they were set at libertie as good Subiects: and all Priests that were
+taken after, sent over and set at libertie there. But time and paper will faile me
+to make enumeration of all the benefits and fauours that I bestowed in generall
+and particular vpon Papists: in recounting whereof, euery scrape of my penne
+would serue but for a blot of the Popes ingratitude and iniustice, in meating me
+
+<pb n="77"/>
+ with so hard a measure for the same. So as I thinke I haue sufficiently, or at least
+ with good reason wiped the <hi rend="italic">teares</hi><note anchored="true" place="foot"><foreign xml:lang="lat">Magno cum animi moerore</foreign>, &amp;c.</note> from the Popes eyes, for complaining vpon such
+ persecution, who if hee had beene but politickely wise, although hee had had no
+ respect to Iustice and Veritie, would haue in this complaint of his, made a dif-
+ ference betweene my present time, and the time of the late Queene: And so by
+ his commending of my moderation, in regard of former times, might haue had
+ hope to haue mooued me to haue continued in the same clement course: For it is a
+ trew saying, that alledged kindnesse vpon noble mindes, doeth euer worke much.
+ And for the maine vntrewth of any persecution in my time, it can neuer bee
+ prooued, that any were, or are put to death since I came to the Crowne for cause
+ of Conscience; except that now this discharge giuen by the Pope to all Catholiques
+ to take their Oath of Allegiance to me, be the cause of the due punishment of
+ many: which if it fall out to be, let the blood light vpon the Popes head, who is the
+ onely cause thereof.
+</p>
+<p>As for the next point contained in his <hi rend="italic">Breue</hi> concerning his discharge of all
+Papists to come to our Church, or frequent our rites and ceremonies, I am not to
+meddle at this time with that matter, because my errand now onely is to publish
+to the world the Iniurie and Iniustice done vnto me, in discharging my subiects
+to make profession of their obedience vnto mee. Now as to the point where the
+Oath is quarrelled, it is set downe in few, but very weighty words; to wit, <hi rend="italic">That
+it ought to be cleare vnto all Catholiques, that this Oath cannot bee taken with safetie of
+the Catholique Faith, and of their soules health, since it containeth many things that
+are plainely and directly contrarie to their faith and saluation</hi>. To this, the old
+saying fathered vpon the Philosopher, may very fitly bee applied, <hi rend="italic"><foreign xml:lang="lat">Multa dicit, sed
+pauca probat</foreign></hi>; nay indeed, <hi rend="italic"><foreign xml:lang="lat">Nihil omnino probat</foreign></hi>: For how the profession of the
+naturall Allegiance of Subiects to their Prince can be directly opposite to the faith
+and saluation of soules, is so farre beyond my simple reading in Diuinitie, as I
+must thinke it a strange and new Assertion, to proceed out of the mouth of that
+pretended generall Pastor of all Christian soules. I reade indeede, and not in one,
+or two, or three places of Scripture, that Subiects are bound to obey their Princes
+for conscience sake, whether they were good or wicked Princes. So said the people
+to <hi rend="italic">Ioshua,<note anchored="true" place="foot">Iosh. 1.7.</note> As wee obeyed Moses in all things, so will wee obey thee</hi>. So the Pro-
+phet<note anchored="true" place="foot">Iere. 27. 12. </note> commanded the peoples to obey the King of Babel, saying, <hi rend="italic">Put your neckes
+vnder the yoke of the King of Babel, and serue him and his people, that yee may liue.</hi>
+So were the children of Israel, vnto <hi rend="italic">Pharaoh</hi>,<note anchored="true" place="foot">Exod. 5. 1.</note> desiring him to let them goe: so to
+<hi rend="italic">Cyrus</hi>,<note anchored="true" place="foot">Ezra 1. 3. </note> obtaining leaue of him to returne to build the Temple: and in a word, the
+Apostle willed all men <hi rend="italic">to bee subiect to the higher powers for conscience sake.</hi><note anchored="true" place="foot">Rom. 13. 5.</note>
+Agreeable to the Scriptures did the Fathers teach. <hi rend="italic">Augustine</hi><note anchored="true" place="foot">August. in Psalm. 124.</note> speaking of <hi rend="italic">Iulian,</hi>
+saith, Iulian <hi rend="italic">was an vnbeleeuing Emperour: was hee not an Apostata, an Oppressour,
+and an Idolater ? Christian Souldiers serued that vnbeleeuing Emperour: when</hi>
+
+<pb n="78"/>
+
+<hi rend="italic">they came to the cause of</hi> CHRIST, <hi rend="italic">they would acknowledge no Lord, but him that is in
+heauen. When hee would haue them to worship Idoles and to sacrifice, they preferred</hi>
+GOD <hi rend="italic">before him: But when he said, Goe forth to fight, inuade such a nation, they
+presently obeyed. They distinguished their eternall Lord from their temporall, and
+yet were they subiect euen vnto their temporall Lord, for his sake that was their
+eternall Lord and Master</hi>. Tertullian<note anchored="true" place="foot">Tertull. ad Scap. </note> fayth, <hi rend="italic">A Christian is enemie to no man,
+much lesse to the Prince, whom hee knoweth to bee appointed of God; and so of
+necessitie must loue, reuerence and honour him, and wish him safe with the whole
+Romane Empire, so long as the world shall last: for so long shall it endure. Wee
+honour therefore the Emperour in such sort, as is lawfull for vs, and expedientfor him,
+as a man, the next vnto God, and obtaining from God, whatsoeuer hee hath, and onely
+inferiour vnto God. This the Emperour himselfe would: for so is hee greater then all,
+while hee is inferiour onely to the trew God. Iustine</hi> Martyr;<note anchored="true" place="foot">Iust. Martyr. Apol. 2. ad Ant. Imperat. </note> <hi rend="italic">Wee onely adore the
+Lord, and in all other things cheerefully performe seruice to you, professing that you
+are Emperours and Princes of men</hi>. Ambrose;<note anchored="true" place="foot">Amb. in orat. cont. Auxentium, de basilicis traden. habetur lib. 5. epist. Ambr.</note> <hi rend="italic">I may lament, weepe, and sigh: My
+tears are my weapons against their armes, souldiers, and the</hi> Gothes <hi rend="italic">also: such are
+the weapons of a Priest: Otherwise, neither ought I, neither can I resist</hi>. Optatus;<note anchored="true" place="foot">Optat. contra Parmen. lib. 3.</note>
+<hi rend="italic">Ouer the Emperour, there is none but onely God, that made the Emperour</hi>. And
+<hi rend="italic">Gregory</hi><note anchored="true" place="foot">Greg. Mag. Epist. lib 2. indict. 11. Epist. 61.</note> writing to <hi rend="italic">Mauritius</hi> about a certaine Law, that a Souldier should not be
+receiued into a Monasterie, <hi rend="italic">nondum expleta militia, The Almightie God</hi>, sayeth hee,
+<hi rend="italic">holdes him guiltie, that is not vpright to the most excellent Emperour in all things that
+hee doeth or speaketh</hi>. And then calling himselfe the vnworthy seruant of his
+Godlinesse, goeth on the whole Epistle to shewe the iniustice of that Lawe, as hee
+pretendeth: and in the end concludes his Epistle with these wordes; <hi rend="italic">I being
+subiect to your command, haue caused the same Law to be sent through diuers parts of
+your Dominions: and because the Law it selfe doeth not agree to the Law of the
+Almightie God, I haue signified the same by my Letters to your most excellent Lord-
+ship: so that on both parts I haue payed what I ought; because I haue yeelded
+obedience to the Emperour, and haue not holden my peace, in what I thought for God.</hi>
+Now how great a contrarietie there is, betwixt this ancient Popes action in obey-
+ing an Emperour by the publication of his Decree, which in his owne conscience
+hee thought vnlawfull, and this present Popes prohibition to a Kings Subiects
+from obedience vnto him in things most lawfull and meere temporall; I remit it
+to the Readers indifferencie. And answerably to the Fathers, spake the Councels
+in their Decrees. As the Councell of <hi rend="italic">Arles</hi>,<note anchored="true" place="foot">Concil. Arelatense sub Carolo Mag. Can. 26.</note> submitting the whole Councell to the
+Emperour in these wordes; <hi rend="italic">These things wee haue decreed to be presented to our
+Lord the Emperour, beseeching his Clemencie, that if wee haue done lesse then wee
+ought, it may be supplyed by his wisdome: if any thing otherwise then reason re-</hi>
+
+<pb n="79"/>
+ <hi rend="italic">quireth, it may be corrected by his iudgement: if any thing be found fault with by vs
+ with reason, it may be perfected by his aide with</hi> <hi rend="smallcap">Gods</hi> <hi rend="italic">fauourable assistance.</hi>
+</p>
+<p>But why should I speak of <hi rend="italic">Charles</hi> the great, to whome not one Councell, but
+ sixe seuerall Councels, <hi rend="italic">Frankeford, Arles, Tours, Chalons, Ments and Rhemes</hi> did
+ wholly submit themselues ? and not rather speake of all the generall Councels,
+ that of <hi rend="italic">Nice, Constantinople, Ephesus, Chalcedon</hi>, and the foure other commonly
+ so reputed, which did submit themselues to the Emperours wisedome and piety
+ in all things ? Insomuch as that of <hi rend="italic">Ephesus</hi> repeated it foure seuerall times,
+ <hi rend="italic">That they were summoned by the Emperours Oracle, becke, charge and command, and
+ betooke themselues to his Godlinesse; beseeching him, that the Decrees made against
+ Nestorius and his followers, might by his power have their full force and validitie,</hi><note anchored="true" place="foot"><foreign xml:lang="lat">Vide Epistolam generalis</foreign> Conc. Ephes. ad August.</note> as
+ appeareth manifestly in the Epistle of the generall Councell of <hi rend="italic">Ephesus</hi> written
+ <hi rend="italic">ad Augustos</hi>. I also reade that Christ said, <hi rend="italic">His kingdome<note anchored="true" place="foot">Iohn 18. 36.</note> was not of this world,</hi>
+ bidding, <hi rend="italic">Giue to Caesar what was Caesars,<note anchored="true" place="foot">Matt. 22. 21.</note> and to God what was Gods</hi>. And I euer
+ held it for an infallible Maxime in Diuinitie, That temporall obedience to a tem-
+ porall Magistrate, did nothing repugne to matters of faith or saluation of soules:
+ But that euer temporall obedience was against faith and saluation of soules, as in
+ this <hi rend="italic">Breue</hi> is alledged, was neuer before heard nor read of in the Christian Church.
+ And therefore I would haue wished the <hi rend="italic">Pope</hi>, before hee had set downe this com-
+ mandement to all Papists here, That, since in him is the power by the infabillity
+ of his spirit, to make new Articles of Faith when euer it shall please him; he had
+ first set it downe for an Article of Faith, before he had commended all Catho-
+ likes to beleeue and obey it. I will then conclude the answere to this point in a
+ <hi rend="italic">Dilemma.</hi>
+</p>
+<p>Either it is lawfull to obey the Soueraigne in temporal things, or not.
+ </p><p>   1. If it be lawfull (as I neuer heard nor read it doubted of) then why is the
+ <hi rend="italic">Pope</hi> so vniust, and so cruell towards his owne Catholikes, as to command them
+ to disobey their Soueraignes lawfull commandement ?
+  </p><p>    2. If it be vnlawfull, why hath hee neither expressed any one cause or reason
+thereof, nor yet will giue them leaue (nay rather hee should command and per-
+swade them in plaine termes) not to liue vnder a King whom vnto they ought no
+obedience ?
+</p>
+<p>And as for the vehement exhortation vnto them to perseuere in constancie, and
+to suffer Martyrdome and all tribulation for this cause; it requireth no other
+answer then onely this, That if the ground be good whereupon hee hath com-
+maunded them to stand, then exhortation to constancie is necessarie: but if the
+ground be vniust and naught (as indeed it is, and I haue in part already proued)
+then this exhortation of his can worke no other effect, then to make him guilty of
+the blood of so many of his sheepe, whom hee doeth thus wilfully cast away; not
+onely to the needlesse losse of their liues, and ruine of their families, but euen to
+
+<pb n="80"/>
+
+the laying on of a perpetuall slander vpon all Papists; as if no zealous Papist
+could be a trew subiect to his Prince; and that the profession of that Religion,
+and the Temporall obedience to the Ciuill Magistrate, were two things repugnant
+and incompatible in themselues. But euill information, and vntrew reports<note anchored="true" place="foot"><foreign xml:lang="lat">Famavires acquirit eundo</foreign>.</note>
+(which being caried so farre as betweene this and <hi rend="italic">Rome</hi>, cannot but increase by
+the way) might haue abused the <hi rend="italic">Pope</hi>, and made him dispatch this <hi rend="italic">Breue so</hi>
+rashly: For that great Citie, Queene of the World, and as themselues confesse,<note anchored="true" place="foot">Eusebius, Oecumenius and Leo hold, that by Babylon, in 1. Pet. 5. 13. Rome is meant, as the
+Rhemists themselues confesse.</note>
+mystically <hi rend="italic">Babylon</hi>, cannot but be so full of all sorts of Intelligencies. Besides, all
+complainers (as the Catholikes here are) be naturally giuen to exaggerate their
+owne griefs, and multiply thereupon: So that it is no wonder, that euen a iust
+ludge sitting there, should vpon wrong information, giue an vnrighteous sentence;
+as some of their owne partie doe not sticke to confesse, That <hi rend="italic">Pius Quintus</hi> was too
+rashly caried vpon wrong information, to pronounce his thunder of Excommuni-
+cation vpon the late Queene. And it may be, the like excuse shall hereafter be
+made for the two <hi rend="italic">Breues</hi>, which <hi rend="italic">Clemens Octauus</hi> <note anchored="true" place="foot">See the Relation of the whole proceedings against the Traitours, Garnet and his confederates.</note> sent to <hi rend="smallcap">England</hi> immediatly
+before her death, for debarring me of the Crowne, or any other that either would
+professe, or any wayes tolerate the professours of our Religion; contrary to his
+manifold vowes and protestations, <hi rend="italic"><foreign xml:lang="lat">simul &amp; eodem tempore</foreign></hi>, and as it were, deliuered
+<hi rend="italic"><foreign xml:lang="lat">vno &amp; eodem spiritu</foreign></hi>, to diuers of my ministers abroad, professing such kindnesse,
+and shewing such forwardnesse to aduance me to this Crowne. Nay, the most
+part of Catholikes here, finding this <hi rend="italic">Breue</hi> when it came to their handes to bee so
+farre against Diuinitie, Policie, or naturall sense, were firmely perswaded that it
+was but a counterfeit Libell, deuised in hatred of the Pope; or at the farthest, a
+thing hastily done vpon wrong information, as was before said. Of which opinion
+were not onely the simpler sort of Papists, but euen some amongst them of best
+account, both for learning and experience; whereof the Archpriest himselfe was
+one: But for soluing of this obiection, the Pope himselfe hath taken new paines
+by sending foorth a second <hi rend="italic">Breue</hi>, onely for gluing faith and confirmation to the
+former; That whereas before, his sinne might haue beene thought to haue pro-
+ceeded from rashnesse and mis-information, he will now willfully and willingly
+double the same; whereof the Copy followeth.
+</p></div>
+<div type="textpart" subtype="section" n="4"><head>TO OVR BELOVED SONNES THE ENGLISH CATHOLIKES,
+                                             PAULUS P. P. V<hi rend="sup">tus</hi>.</head>
+<p>BELOUED sonnes, Salutation and Apostolicall Benediction. <hi rend="italic">It is reported vnto vs,
+that there are found certaine amongst you, who when as we haue sufficiently declared
+by our Letters, dated the last yeere on the tenth of the Calends of October in the forme
+of a</hi> Breue, <hi rend="italic">that yee cannot with safe Conscience take the Oath, which was then re-</hi>
+
+<pb n="81"/>
+ <hi rend="italic">quired of you; and when as wee haue further straitly commanded you, that by no
+ meanes yee should take it: yet there are some, I say, among you, which dare now
+ affirme, that such Letters concerning the forbidding of the Oath, were not written of our
+ owne accord, or of our owne proper will, but rather for the respect and at the instiga-
+ tion of other men. And for that cause the same men doe goe about to perswade you,
+ that our commands in the said Letters are not to be regarded. Surely this newes did
+ trouble vs; and that so much the more, because hauing had experience of your obedience
+ (most dearly beloued sonnes) who to the end ye might obey this holy Sea, haue godlily
+ and valiantly contemned your riches, wealth, honour, libertie, yea and life it selfe; wee
+ should neuer haue suspected that the trewth of our Apostolike Letters could once be
+ called into question among you, that by this pretence ye might exempt your selues from
+ our Commandements. But we doe herein perceiue the subtiltie and craft of the enemie
+ of mans saluation, and we doe attribute this your backwardnesse rather to him, then
+ to your owne will. And for this cause, wee haue thought good to write the second time
+ vnto you, and to signifie vnto you againe, That our Apostolike Letters dated the last
+ yeere on the tenth of the Calends of October, concerning the prohibition of the Oath,
+ were written not only vpon our proper motion, and of our certaine knowledge, but
+ also after long and weightie deliberation vsed concerning all those things, which
+ are contained in them; and that for that cause ye are bound fully to obserue them,
+ reiecting all interpretation perswading to the contrary. And this is our meere,
+ pure, and perfect will, being alwayes carefull of your saluation, and alwayes minding
+ those things, which are most profitable vnto you. And we doe pray without ceasing,
+ that hee that hath appointed our lowlinesse to the keeping of the flocke of Christ,
+ would inlighten our thoughts and our counsels: whom we doe also continually desire,
+ that he would increase in you (our beloued Sonnes) faith, constancie, and mutuall
+ charitie and peace one to another. All whom, we doe most louingly blesse with all
+ charitable affection.
+   Dated at</hi> <hi rend="smallcap">Rome</hi> <hi rend="italic">at Saint</hi> Markes <hi rend="italic">vnder the Signet of the</hi> Fisherman, <hi rend="italic">the x. of the
+Calends of September, 1607. the third yeere of our</hi> Popedome.
+
+</p></div>
+<div type="textpart" subtype="section" n="5"><head>THE ANSWERE TO THE SECOND BREVE.</head>
+<p>Now for this <hi rend="italic">Breue</hi>, I may iustly reflect his owne phrase vpon him, in tearming it
+to be <hi rend="italic">The craft of the Deuill</hi>. For if the Deuill had studied a thousand yeeres, for
+to finde out a mischiefe for our Catholikes heere, hee hath found it in this: that
+now when many Catholikes haue taken their Oath, and some Priests also; yea,
+the Arch-priest himselfe, without compunction or sticking, they shall not now
+onely be bound to refuse the profession of their naturall Allegiance to their
+Soueraigne, which might yet haue beene some way coloured vpon diuers scruples
+conceiued vpon the words of the Oath; but they must now renounce and for-
+sweare their profession of obedience alreadie sworne, and so must as it were at the
+third instance forsweare their former two Oathes, first closely sworne, by their
+
+
+
+<pb n="82"/>
+
+birth in their naturall Allegiance; and next, clearly confirmed by this Oath, which
+doeth nothing but expresse the same: so as no man can now holde the faith, or
+procure the saluation of his soule in <hi rend="smallcap">England</hi> that must not abiure and renounce
+his borne and sworne Allegiance to his naturall Soueraigne.
+</p>
+<p>And yet it is not sufficient to ratifie the last yeeres <hi rend="italic">Breue</hi>, by a new one come
+ forth this yeere; but (that not onely euery yeere, but euery moneth may produce
+ a new monster) the great and famous Writer of the Controuersies, the late
+ vn-Iesuited Cardinall <hi rend="italic">Bellarmine</hi>, must adde his talent to this good worke, by
+ blowing the bellowes of sedition, and sharpening the spurre to rebellion, by send-
+ ing such a Letter of his to the Arch-priest here, as it is a wonder how passion,
+ and an ambitious desire of maintaining that Monarchie, should charme the wits
+ of so famously learned a man.
+</p>
+<p>The Copy whereof here followeth.
+
+</p></div>
+<div type="textpart" subtype="section" n="6"><head>TO THE VERY REVEREND <hi rend="smallcap">Mr.</hi> GEORGE BLACKWELL, ARCH-PRIEST OF THE ENGLISH: ROBERT BELLARMINE CARDINALL OF THE
+                           HOLY CHURCH OF ROME, GREETING.</head>
+
+<p><hi rend="smallcap">Reuerend Sir</hi>, <hi rend="italic">and brother in</hi> <hi rend="smallcap">Christ</hi>; <hi rend="italic">It is almost fourtie yeeres since we did see
+one the other: but yet I haue bene vnmindfull of our ancient acquaintance, neither haue
+I ceased seeing I could doe you no other good, to commend your labouring most pain-
+fully in the Lords Vineyard, in my prayers to God. And I doubt not, but that I haue
+liued all this while in your memory, and haue had some place in your prayers at the
+Lords Altar. So therefore euen vnto this time we haue abidden, as</hi> S. Iohn <hi rend="italic">speaketh,
+in the mutall loue one of the other, not by word or letter, but in deed and trewth. But
+a late message which was brought vnto vs within these few dayes, of your bonds and
+imprisonment, hath inforced mee to breake off this silence; which message, although
+it seemed heauie in regard of the losse which that Church hath receiued, by their being
+thus depriued of the comfort of your pastorall function amongst them, yet withall it
+seemed ioyous, because you drew neere vnto the glory of</hi> Martyrdome, <hi rend="italic">then the which
+gift of God there is none more happy; That you, who haue fedde your flocke so many
+yeeres with the word and doctrine, should now feed it more gloriously by the example
+of your patience. But another heauie tidings did not a little disquiet and almost take
+away this ioy, which immediatly followed, of the aduersaries assault, and per aduen-
+ture of the slip and fall of your constancie in refusing an vnlawfull Oath. Neither
+trewly (most deare brother) could that Oath therefore bee lawfull, because it was offered
+in sort tempered and modified: for you know that those kinde of modifications are
+nothing else, but sleights and subtilties of Satan, that the Catholique faith touching the
+Primacie of the Sea Apostolike, might either secretly or openly be shot at; for the
+which faith so many worthy Martyrs euen in that very</hi> England <hi rend="italic">it selfe, haue resisted
+vnto blood. For most certaine it is, that in whatsoeuer words the Oath is conceiued by,
+the aduersaries of the faith in that Kingdome, it tends to this end, that the Authoritie</hi>
+
+<pb n="83"/>
+ <hi rend="italic">of the head of the Church in</hi> England, <hi rend="italic">may bee transferred from the successour of</hi>
+ S. Peter, <hi rend="italic">to the successour of King</hi> Henry the eight: <hi rend="italic">For that which is pretended of
+ the danger of the Kings life, if the high Priest should haue the same power in</hi> England,
+ <hi rend="italic">which hee hath in all other Christian Kingdomes, it is altogether idle, as all that haue
+ any vnderstanding, may easily perceiue. For it was neuer heard of from the Churches
+ infancie vntill this day, that euer any</hi> Pope <hi rend="italic">did command, that any Prince, though an
+ Heretike, though an Ethnike, though a persecutour, should be murdered; or did
+ approue of the fact, when it was done by any other. And why, I pray you, doeth onely
+ the King of Englandfeare that, which none of all other the Princes in Christendome
+ either doeth feare, or euer did feare ?</hi>
+</p>
+<p><hi rend="italic">But, as I said, these vaine pretexts are but the traps and stratagemes of Satan:
+ Of which kinde I could produce not a fewe out of ancient Stories, if I went about to
+ write a Booke and not an Epistle. One onely for example sake, I will call to your
+ memory</hi>. S. Gregorius Nazianzenus <hi rend="italic">in his first Oration against</hi> Iulian <hi rend="italic">the Em-
+ perour, reporteth, That hee, the more easily to beguile the simple Christians, did insert
+ the Images of the false gods into the pictures of the Emperour, which the Romanes did
+ vse to bow downe vnto with a ciuill kinde of reuerence: so that no man could doe
+ reuerence to the Emperours picture, but withall hee must adore the Images of the false
+ gods; whereupon it came to passe that many were deceiued. And if there were any
+ that found out the Emperours craft, and refused to worship his picture, those were most
+ grieuously punished, as men that had contemned the Emperour in his Image. Some
+ such like thing, me thinkes, I see in the Oath that is offered to you; which is so craftily
+ composed, that no man can detest Treason against the King, and make profession of
+ his Ciuill subiection, but he must bee constrained perfidiously to denie the Primacie
+ of the Apostolicke Sea. But the seruants of Christ, and especially the chiefe Priests
+ of the Lord, ought to bee so farre from taking an vnlawfull Oath, where they may
+ indamage the Faith, that they ought to beware that they giue not the least suspicion of
+ dissimulation that they haue taken it, least they might seeme to haue left any example
+ of preuarication tofaithfull people. Which thing that worthy</hi> Eleazar <hi rend="italic">did most notably
+ performe, who would neither eate swines flesh, nor so much as faine to haue eaten it,
+ although hee sawe the great torments that did hang ouer his head; least, as himselfe
+ speaketh in the second Booke of the</hi> Machabees, <hi rend="italic">many young men might bee brought
+ through that simulation, to preuaricate with the Lawe. Neither did</hi> Basil <hi rend="italic">the Great
+ by his example, which is more fit for our purpose, cary himselfe lesse worthily toward</hi>
+ Valens <hi rend="italic">the Emperour. For as</hi> Theodoret <hi rend="italic">writeth in his Historie, when the Deputy of
+ that heretical Emperour did perswade Saint</hi> Basil, <hi rend="italic">that hee would not resist the
+ Emperour for a little subtiltie of afew points of doctrine; that most holy and prudent
+ man made answere</hi>, That it was not to be indured, that the least syllable of Gods
+ word should be corrupted, but rather all kind of torment was to be embraced,
+ for the maintenance of the Trewth thereof. <hi rend="italic">Now I suppose, that there wants not
+ amongst you, who say that they are but subtilties of Opinions that are contained in the
+Oath that is offered to the Catholikes, and that you are not to striue against the Kings</hi>
+
+<pb n="84"/>
+<hi rend="italic">Authoritie for such a little matter. But there are not wanting also amongst you holy
+men like vnto</hi> Basil <hi rend="italic">the Great, which will openly auow, that the very least syllable of
+Gods diuine Trewth is not to bee corrupted, though many torments were to bee en-
+dured, and death it selfe set before you: Amongst whom it is meete, that you should bee
+one, or rather the Standard-bearer, and Generall to the rest. And whatsoeuer hath
+beene the cause, that your Constancie hath quailed, whether it bee the suddaineness of
+your apprehension, or the bitternesse of your persecution, or the imbecilitie of your old
+age: yet wee trust in the goodnesse of God, and in your owne long continued vertue,
+that it will come to passe, that as you seeme in some part to haue imitated the fall of</hi>
+Peter <hi rend="italic">and</hi> Marcellinus, <hi rend="italic">so you shall happily imitate their valour in recouering your
+strength, and maintaining the Trewth: For if you will diligently weigh the whole
+matter with your selfe, trewly you shall see, it is no small matter that is called in ques-
+tion by this Oath, but one of the principall heads of our Faith, and foundations of
+Catholique Religion. For heare what your Apostle</hi> Saint Gregorie <hi rend="italic">the Great hath
+written in his 24. Epistle of his II. Booke</hi>. Let not the reuerence due to the Apos-
+tolique Sea, be troubled by any mans presumption; for then the state of the
+members doeth remaine entire, when the Head of the Faith is not bruised by any
+iniurie: <hi rend="italic">Therefore by</hi> Saint Gregories <hi rend="italic">testimonie, when they are busie about disturbing
+or diminishing, or taking away of the Primacie of the Apostolique Sea; then are they
+busie about cutting of the very head of the faith, and dissoluing of the state of the whole
+body, and of all the members. Which selfe same thing</hi> S. Leo <hi rend="italic">doth confirme in his
+third Sermon of his Assumption to the Popedom, when he saith</hi>, Our Lord had a
+special care of <hi rend="italic">Peter</hi>, &amp; praied properly for <hi rend="italic">Peters</hi> faith, as though the state of
+others were more stable, when their Princes mind was not to be ouercome. <hi rend="italic">Where-
+upon himselfe in his Epistle to the bishops of the prouince of Vienna, doth not doubt
+to affirme</hi>, that he is not partaker of the diuine Mysterie, that dare depart from the
+solidity of <hi rend="italic">Peter, who also saith</hi>, That who thinketh the Primacy to be denied to
+that Sea, he can in no sort lessen the authority of it; but by being puft vp with
+the spirit of his owne pride, doth cast himselfe headlong into hel. <hi rend="italic">These and many
+many other of this kind, I am very sure are most familiar to you: who besides many
+other books, haue diligently read ouer the visible Monarchy of your owne</hi> Sanders, <hi rend="italic">a
+most diligent writer, and one who hath worthily deserued of the Church of</hi> England
+<hi rend="italic">Neither can you be ignorant, that these most holy and learned men</hi>, Iohn <hi rend="italic">bishop of</hi>
+Rochester, <hi rend="italic">and</hi> Tho. Moore, <hi rend="italic">within our memory, for this one most weighty head of
+doctrine, led the way to</hi> Martyrdome <hi rend="italic">to many others, to the exceeding glory of the
+English nation. But I would put you in remembrance that you should take heart,
+and considering the weightines of the cause, not to trust too much to your owne
+iudgement, neither be wise aboue that is meet to be wise: and if peraduenture your
+fall haue proceeded not vpon want of consideration, but through humane infirmity, &amp;
+for feare of punishment and imprisonment, yet do not preferre a temporall liberty to
+the liberty of the glory of the Sonnes of God: neither for escaping a light &amp; momentarie
+tribulation, lose an eternal weight of glory, which tribulation it selfe doeth worke in you.</hi>
+
+
+
+ <pb n="85"/>
+ <hi rend="italic"> You haue fought a good fight a long time, you haue wel-neere finished your course; so
+ many yeeres haue you kept the faith: do not therefore lose the reward of such labors
+ do not depriue your selfe of that crowne of righteousnes, which so long agone is pre-
+ pared for you; Do not make the faces of so many yours both brethren and children
+ ashamed. Vpon you at this time are fixed the eyes of all the Churches: yea also, you
+ are made a spectacle to the world, to Angels, to men; Do not so carry your selfe in this
+ your last act, that you leaue nothing but laments to your friends, and ioy to your
+ enemies. But rather on the contrary, which we assuredly hope, and for which we
+ continually powre forth prayers to God, display gloriously the banner of faith, and
+ make to reioyce the Church, which you haue made heauy; so shall you not onely
+ merite pardon at Gods hands, but a Crowne. Farewell. Quite you like a man, and
+ let your heart be strengthened. From Rome the 28. day of September 1607.</hi>
+ </p>
+
+ <ab type="closer"><seg type="salute">Your very Reuerendships brother and seruant in Christ,</seg>
+        <seg type="signed"><hi rend="italic">Robert Bellarmine</hi> Cardinall.</seg></ab></div>
+
+
+<div type="textpart" subtype="section" n="7"><head>THE ANSWERE TO THE CARDINALS LETTER.</head>
+<p>AND now that I am to enter into the field against him by refuting his Letter, I
+must first vse this protestation; That no desire of vaine-glory by matching with
+so learned a man, maketh me to vndertake this taske; but onely the care and
+conscience I haue, that such smooth <hi rend="italic">Circes</hi> charmes and guilded pilles, as full of
+exterior eloquence, as of inward vntrewths, may not haue that publike passage
+through the world without an answere: whereby my reputation might vniustly
+be darkened, by such cloudie and foggie mists of vntrewths and false imputations,
+the hearts of vnstayed and simple men be misse-led, and the trewth it selfe
+smothered.
+</p>
+<p>But before I come to the particular answere of this Letter, I must here desire
+the world to wonder with me, at the committing of so grosse an errour by so
+learned a man: as that he should haue pained himselfe to haue set downe so
+elaborate a Letter, for the refutation of a quite mistaken question: For it ap-
+peareth, that our English Fugitiues, of whose inward societie with him he so
+greatly vaunteth, haue so fast hammered in his head the Oath of Supremacie,
+which hath euer bene so great a scarre vnto them, as he thinking by his Letter to
+haue refuted the last Oath, hath in place thereof onely paied the Oath of Supre-
+macie, which was most in his head; as a man that being earnestly caried in his
+thoughts vpon another matter, then he is presently in doing, will often name the
+matter or person he is thinking of, in place of the other thing he hath at that time
+in hand.
+</p>
+<p>For as the Oath of Supremacie was deuised for putting a difference betweene
+Papists, and them of our profession: so was this Oath, which hee would seeme to
+impugne, ordained for making difference betweene the ciuilly obedient Papists,
+and the peruerse disciples of the Powder-Treason. Yet doeth all his Letter runne
+
+<pb n="86"/>
+
+vpon an Inuectiue against the compulsion of Catholiques to deny the authoritie
+of <hi rend="italic">S. Peters</hi> successors, and in place thereof to acknowledge the Successors of
+King <hi rend="italic">Henry the eight</hi>: For in K. <hi rend="italic">Henry the eights</hi> time, was the Oath of Supremacie
+first made: By him were <hi rend="italic">Thomas Moore</hi> and <hi rend="italic">Roffensis</hi> put to death, partly for
+refusing of it: From his time till now, haue all the Princes of this land professing
+this Religion, successiuely in effect maintained the same: and in that Oath onely
+is contained the Kings absolute power, to be Iudge ouer all persons, aswell Ciuill
+as Ecclesiastical, excluding al forraigne powers and Potentates to be Iudges
+within his dominions; whereas this last made Oath containeth no such matter,
+onely medling with the ciuill obedience of Subiects to their Soueraigne, in meere
+temporall causes.
+</p>
+<p>And that it may the better appeare, that whereas by name hee seemeth to
+condemne the last Oath; yet indeed his whole Letter runneth vpon nothing, but
+vpon the condemnation of the Oath of Supremacie: I haue here thought good to
+set downe the said Oath, leauing it then to the discretion of euery indifferent
+reader to iudge, whether he doth not in substance onely answere to the Oath of
+Supremacie, but that hee giues the child a wrong name.
+
+<quote><p>I A.B. <hi rend="italic">doe vtterly testifie and declare in my conscience, that the Kings Highnesse is the
+onely Supreame Gouernour of this Realme, and all other his Highnesse Dominions
+and Countries, aswell in all Spirituall, or Ecclesiasticall things or causes, as Tem-
+porall: And that no forraine Prince, Person, Prelate, State or Potentate, hath or
+ought to haue any Iurisdiction, Power, Superioritie, Preeminence or Authoritie
+Ecclesasticall or Spirituall within this Realme. And therefore I doe vtterly renounce
+and forsake all forraine Iurisdictions, Powers, Superiorities and Authorities; and
+doe promise thatfrom hencefoorth I shall beare faith and trew Allegiance to the Kings
+Highnesse, his Heires and lawfull Successours: and to my power shall assist and
+defend all Iurisdictions, Priuiledges, Preeminences and Authorities granted or
+belonging to the Kings Highnesse, his Heires and Successours, or vnited and annexed
+to the Imperiall Crowne of the Realme: So helpe me God; and by the Contents of this
+booke.</hi></p></quote>
+</p>
+<p>And that the iniustice, as well as the error of his grosse mistaking in this point,
+may yet be more clearely discouered; I haue also thought good to insert here
+immediatly after the Oath of Supremacie, the contrary conclusions to all the
+points and Articles, whereof this other late Oath doeth consist: whereby it may
+appeare, what vnreasonable and rebellious points hee would driue my Subiects
+vnto, by refusing the whole body of that Oath, as it is concei ed: For he that
+shall refuse to take this Oath, must of necessitie hold all, or some of these pro-
+positions following.
+<list type="simple">
+<item>     1. That I King <hi rend="smallcap">Iames</hi>, am not the lawfull King of this Kingdome, and of all
+other my Dominions.</item>
+<item>    2. That the <hi rend="italic">Pope</hi> by his owne authoritie may depose me: If not by his owne
+authoritie, yet by some other authoritie of the Church, or of the Sea of <hi rend="italic">Rome:</hi>
+
+<pb n="87"/>
+If not by some other authoritie of the Church and Sea of <hi rend="italic">Rome</hi>, yet by other
+meanes with others helpe, he may depose me.</item>
+<item>     3. That the <hi rend="italic">Pope</hi> may dispose of my Kingdomes and Dominions.</item>
+<item>     4. That the <hi rend="italic">Pope</hi> may giue authoritie to some forreine Prince to inuade my
+Dominions.</item>
+<item>     5. That the <hi rend="italic">Pope</hi> may discharge my Subiects of their Allegiance and Obe-
+dience to me.</item>
+<item>     6. That the <hi rend="italic">Pope</hi> may giue licence to one, or more of my Subiects to beare
+armes against me.</item>
+<item>     7. That the <hi rend="italic">Pope</hi> may giue leaue to my Subiects to offer violence to my
+Person, or to my gouernement, or to some of my Subiects.</item>
+<item>     8. That if the <hi rend="italic">Pope</hi> shall by Sentence excommunicate or depose mee, my
+Subiects are not to beare Faith and Allegiance to me.</item>
+<item>     9. If the <hi rend="italic">Pope</hi> shall by Sentence excommunicate or depose me, my Subiects
+are not bound to defend with all their power my Person and Crowne.</item>
+<item>   10. If the <hi rend="italic">Pope</hi> shall giue out any Sentence of Excommunication or Depri-
+uation against me, my Subiects by reason of that Sentence, are not bound to
+reueale all Conspiracies and Treasons against mee, which shall come to their
+hearing and knowledge.</item>
+<item>     11. That it is not hereticall and detestable to hold, that Princes being excom-
+municated by the <hi rend="italic">Pope</hi>, may be either deposed or killed by their Subiects, or any
+other.</item>
+<item>     12. That the <hi rend="italic">Pope</hi> hath power to absolue my Subiects from this Oath, or
+from some part thereof.</item>
+<item>     13. That this Oath is not administred to my Subiects, by a full and lawfull
+authoritie.</item>
+<item>     14. That this Oath is to be taken with Equiuocation, mentall euasion, or
+secret reseruation; and not with the heart and good will, sincerely in the trew
+faith of a Christian man.</item>
+</list></p>
+<p>These are the trew and naturall branches of the body of this Oath. The
+affirmatiue of all which negatiues, doe neither concerne in any case the <hi rend="italic">Popes</hi>
+Supremacie in Spirituall causes: nor yet were euer concluded, and defined by any
+complete generall Councell<note anchored="true" place="foot">Touching the pretended Councell of Lateran. See Plat. In vita Innocen. III.</note> to belong to the <hi rend="italic">Popes</hi> authoritie; and their owne
+schoole Doctors are at irreconciliable oddes and iarres about them.
+</p>
+<p>And that the world may yet farther see ours and the whole States setting
+downe of this Oath, did not proceed from any new inuention of our owne, but as
+it is warranted by the word of <hi rend="smallcap">God</hi>: so doeth it take the example from an Oath
+of Allegiance decreed a thousand yeeres agone, which a famous Councell then,
+together with diuers other Councels, were so farre from condemning (as the <hi rend="italic">Pope</hi>
+now hath done this Oath) as I haue thought good to set downe their owne wordes
+here in that purpose: whereby it may appear that I craue nothing now of my
+<pb n="88"/>
+
+Subiects in this Oath, which was not expresly and carefully commaunded then,
+by the Councels to be obeyed without exception of persons. Nay not in the very
+particular point of <hi rend="italic">Equiuocation</hi>, which I in this Oath was so carefull to haue
+eschewed: but you shall here see the said Councels in their Decrees, as carefull
+to prouide for the eschewing of the same; so as almost euery point of that action,
+&amp; this of ours shalbe found to haue relation &amp; agreeance one with the other, saue
+onely in this, that those old Councels were careful and strait in commanding the
+taking of the same: whereas by the contrary, he that now vanteth himselfe to be
+head of al Councels, is as careful &amp; strait in the prohibition of all men from the
+taking of this Oath of Allegiance.
+</p>
+
+<p>                                  The words of the Councell be these:
+
+<quote><p><hi rend="italic">Heare our sentence.</hi>
+</p>
+<p><hi rend="italic">Whosoeuer of vs, or of all the people thorowout all</hi> Spaine, <hi rend="italic">shall goe about by any
+meanes of conspiracie or practise, to violate the Oath of his fidelitie, which he hath
+taken for the preseruation of his Countrey, or of the Kings life; or who shall attempt
+to put violent handes vpon the King; or to depriue him of his kingly power; or that
+by tyrannicall presumption would vsurpe the Soueraigntie of the Kingdome: Let him
+bee accursed in the sight of God the Father, and of his Angels; and let him bee made
+and declared a stranger from the Catholique Church, which hee hath prophaned by his
+periurie; and an aliant from the companies of all Christian people, together with all
+the complices of his impietie; because it behooueth all those that bee guiltie of the like
+offence, to vnder-lie the like-punishment.</hi><note anchored="true" place="foot">Concil. Tolet. 4 can. 47. Anno 633.</note>   Which sentence is three seuerall times
+together, and almost in the same wordes, repeated in the same Canon. After
+this, <hi rend="italic">the Synode desired, That this Sentence of theirs now this third time rehearsed,
+might bee confirmed by the voyce and consent of all that were present. Then the whole
+Clergie and people answered, Whosoeuer shall cary himselfe presumptuously against
+this your definitiue sentence, let them be Anathema maranatha, that is, let them bee
+vtterly destroyed at the Lords comming, and let them and their complices haue their
+portion with Iudas Iscarioth. Amen.</hi></p></quote>
+</p>
+<p>And in the fifth Councell,<note anchored="true" place="foot">Concil. Tolet. 5. Can. 7. anno 636.</note> there it is decreed, That this Acte touching the
+Oath of Allegiance, shall bee repeated in euery Councell of the Bishops of <hi rend="italic">Spaine.</hi>
+The Decree is in these wordes: <quote><hi rend="italic">In consideration that the mindes of men are easily
+inclined to euill and forgetfulnesse, therefore this most holy Synode hath ordained;
+and doeth enact, That in euery Councell of the Bishops of</hi> Spaine, <hi rend="italic">the Decree of the
+generall Councell <note anchored="true" place="foot">Synod. Tolet. 4. vniuersalis, &amp; magna Synodus dicta, Synod. Tolet. 5. cap. 2.</note> which was made for the safetie of our Princes, shall bee with an
+audible voyce proclaimed and pronounced, after the conclusion of all other things in
+the Synode: That so it being often sounded into their eares, at least by continuall
+remembrance, the mindes of wicked men beeing terrified, might bee reformed, which by
+obliuion and facilitie [to euill] are brought to preuaricate.</hi></quote>
+
+
+<pb n="89"/>
+
+</p>
+<p>And in the sixt Councell,<note anchored="true" place="foot">Concil. Tolet. 6. Can. 18. Anno 638.</note><quote> <hi rend="italic">Wee doe protest before God, and all the orders of
+ Angels, in the presence of the Prophets and Apostles, and all the companie of Martyrs,
+ and before all the Catholique Church, and assemblies of the Christians; That no man
+ shall goe about to seeke the destruction of the King: No man shall touch the life of the
+ Prince: No man shall depriue him of the Kingdome: No man by any tyrannical pre-
+ sumption shall vsurpe to himselfe the Soueraigntie of the Kingdome: No man by any
+ Machination shall in his aduersitie associate to himselfe any packe of Conspirators
+ against him: And that if any of vs shall be presumptuous by rashnesse in any of these
+ cases, let him be stricken with the anatheme of God, and reputed as condemned in
+ eternall iudgement without any hope of recouery.</hi></quote>
+</p>
+<p>And in the tenth Councell<note anchored="true" place="foot">Concil. Tolet. 10. Can. 2. AEra 694.</note> (to omit diuers others held also at <hi rend="italic">Toledo</hi>) it is
+ said: <quote><hi rend="italic">That if any religious man, euen from the Bishop to the lowest Order of the
+ Church-men or Monkes, shall bee found to haue violated the generall Oathes made for
+ the preseruation of the Kinges Person, or of the Nation and Countrey with a prophane
+ minde; foorthwith let him bee depriued of all dignitie, and excludedfrom all place and
+ Honour</hi>.</quote> The occasion of the Decrees made for this Oath, was, That the Chris-
+ tians were suspected for want of fidelitie to their Kings; and did either equiuocate
+ in taking their Oath, or make no conscience to keepe it, when they had giuen it;
+ as may appeare by sundry speeches in the Councell,<note anchored="true" place="foot">Concil. Tolet. 4. cap. 74.</note> saying, <quote><hi rend="italic">There is a generall
+ report, that there is that perfidiousnesse in the mindes of many people of diuers
+ Nations, that they make no conscience to keepe the Oath and fidelitie that they haue
+ sworne vnto their Kings: but doe dissemble a profession of fidelitie in their mouthes,
+ when they hold an impious perfidiousnesse in their mindes</hi>.</quote> And againe, <quote><hi rend="italic">They
+ sweare to their Kings, and yet doe they preuaricate in the fidelitie which they haue
+ promised: Neither doe they feare the Volume of Gods iudgement, by the which the
+ curse of God is brought vpon them, with great threatening of punishments, which doe
+ sweare lyingly in the Name of God</hi>.</quote><note anchored="true" place="foot">Concil. Tolet. 4. cap. 74.</note> To the like effect spake they in the Councill
+ of <hi rend="italic">Aquisgran:</hi> <quote><hi rend="italic">If any of the Bishops, or other Church-man of inferiour degree,
+ hereafter thorow feare or couetousnesse, or any other perswasion, shall make defection
+from our Lord the Orthodoxe Emperour</hi> Lodowicke, <hi rend="italic">or shall violate the Oath of
+fidelitie made vnto him, or shall with their peruerse intention adhere to his enemies;
+let him by this Canonicall and Synodall sentence bee depriued of whatsoeuer place hee
+is possessed of.</hi></quote><note anchored="true" place="foot">Concil. Aquis. gran. sub Ludo Pio, &amp; Greg.; 4. Can. 12. anno 836.</note>
+</p>
+<p>And now to come to a particular answere of his Letter. First, as concerning
+ the sweet memory hee hath of his old acquaintance with the Arch-priest; it may
+ indeed be pleasing for him to recount: but sure I am, his acquaintance with him
+ and the rest of his societie, our Fugitiues (whereof he also vanteth himselfe in his
+ Preface to the Reader in his Booke of Controuersies) hath prooued sowre to vs
+
+
+<pb n="90"/>
+and our State: For some of such Priests <note anchored="true" place="foot">Campian and Hart. See the conference in the Tower.</note> and Iesuits, as were the greatest Traitors
+and fomenters of the greatest conspiracies against the late Queene, gaue vp
+Father <hi rend="italic">Rob: Bellarmine</hi> for one of their greatest authorities and oracles: And
+therefore I do not enuy the great honour he can winne, by his vaunt of his inward
+familiarity with an other Princes traitors &amp; fugitiues; whom vnto if he teach
+no better maners then hitherto he hath done, I thinke his fellowship are litle
+beholding vnto him.
+</p>
+<p>And for desiring him to remember him in his prayers at the Altar of the Lord:
+if the Arch-Priests prayers prooue no more profitable to his soule, then <hi rend="italic">Bellar-
+mines</hi> counsell is like to proue profitable, both to the soule and bodie of <hi rend="italic">Blackwell</hi>
+(if he would follow it) the authour of this Letter might very well be without his
+prayers.
+</p>
+<p>Now the first messenger that I can finde which brought ioyfull newes of the
+Arch-Priest to <hi rend="italic">Bellarmine</hi>, was hee that brought the newes of the Arch-Priests
+taking, and first appearance of Martyrdome. A great signe surely of the Cardi-
+nals mortification, that hee was so reioyced to heare of the apprehension, im-
+prisonment and appearance of putting to death of so old and deare a friend of his.
+But yet apparantly he should first haue beene sure, that hee was onely to bee
+punished for cause of Religion, before hee had so triumphed vpon the expectation
+of his Martyrdome. For first, by what rule of charitie was it lawfull for him to
+iudge mee a persecutour, before proofe had beene made of it by the said Arch-
+Priests condemnation and death ? What could hee know, that the said Arch-
+Priest was not taken vpon suspicion of his guiltinesse in the Powder-Treason ?
+What certaine information had hee then receiued vpon the particulars, whereupon
+hee was to bee accused ? And last of all, by what inspiration could he foretell
+whereupon hee was to bee accused ? For at that time there was yet nothing
+layed to his charge. And if charitie should not bee suspicious, what warrant had
+hee absolutely to condemne mee of vsing persecution and tyrannie, which could
+not bee but implyed vpon mee, if <hi rend="italic">Blackwel</hi> was to bee a Martyr ? But surely it
+may iustly be sayd of <hi rend="italic">Bellarmine</hi> in this case, that our Sauiour CHRIST saith of all
+worldly and carnall men, who thinke it enough to loue their friends,<note anchored="true" place="foot">Mat. 5. 43.</note> and hate
+their enemies; the limits of the Cardinals charitie extending no farther, then to
+them of his owne profession. For what euer hee added in superfluous charitie to
+<hi rend="italic">Blackwel</hi>, in reioycing in the speculation of his future Martyrdome; hee detracted
+as much vniustly and vncharitably from me, in accounting of me thereby as of a
+bloody Persecutour. And whereas this ioy of his was interrupted by the next
+messenger, that brought the newes of the saide Arch-Priest his failing in his
+constancie, by taking of this Oath; he needed neuer to haue beene troubled, either
+with his former ioy or his second sorrow, both beeing alike falsly grounded. For
+as it was neuer my intention to lay any thing vnto the said Arch-Priests charge,
+as I haue neuer done to any for cause of conscience, so was <hi rend="italic">Blackwels</hi> constancie
+
+<pb n="91"/>
+ neuer brangled by taking of this Oath; It beeing a thing which he euer thought
+ lawfull before his apprehension, and whereunto hee perswaded all Catholiques to
+ giue obedience; like as after his apprehension, hee neuer made doubt or stop in it;
+ but at the first offering it vnto him, did freely take it, as a thing most lawfull;
+ neither meanes of threatening, or flatterie being euer vsed vnto him, as himselfe
+ can yet beare witnesse.
+</p>
+<p>And as for the temperature and modification of this Oath, except that a rea-
+ sonable and lawfull matter is there set downe in reasonable and temperate wordes,
+ agreeing thereunto; I know not what he can meane, by quarelling it for that fault:
+ For no temperatenesse nor modifications in words therein, can iustly be called the
+ Deuils craft; when the thing it selfe is so plaine, and so plainely interpreted to all
+ them that take it; as the onely troublesome thing in it all, bee the wordes vsed
+ in the end thereof, for eschewing AEquiuocation and <hi rend="italic">Mentall reseruation</hi>. Which
+ new Catholike doctrine, may farre iustlier bee called the Deuils craft, then any
+ plaine and temperate wordes, in so plaine and cleare a matter. But what shall we
+ say of these strange countrey clownes, whom of with the <hi rend="italic">Satyre</hi> we may iustly
+ complaine, that they blow both hote &amp; cold out of one mouth ? For <hi rend="italic">Luther</hi> and
+ all our bold and free-speaking Writers are mightily railed vpon by them, as hote-
+ brained fellowes, and speakers by the Deuils instinct: and now if we speake
+ moderately and temperately of them, it must be tearmed the Deuils craft: And
+ therefore wee may iustly complaine with <hi rend="smallcap">Christ</hi>, that when we mourne, they
+ wil not lament: and when we pipe, they wil not dance.<note anchored="true" place="foot">Mat. 11. 17.
+</note> But neither <hi rend="italic">Iohn Baptist</hi>
+ his seueritie, nor <hi rend="smallcap">Christ</hi> his meekenesse and lenitie can please them, who build
+ but to their owne Monarchie vpon the ground of their owne Traditions; and not
+ to <hi rend="smallcap">Christ</hi> vpon the ground of his word and infallible trewth.
+</p>
+<p>But what can bee meant by alleadging, that the craft of the Deuill herein, is
+onely vsed for subuersion of the Catholique Faith, and euersion of Saint <hi rend="italic">Peters</hi>
+Primacie; had neede bee commented anew by <hi rend="italic">Bellarmine</hi> himselfe: For in all this
+Letter of his, neuer one word is vsed, to prooue that by any part of this Oath the
+Primacie of Saint <hi rend="italic">Peter</hi> is any way medled with, except Master <hi rend="italic">Bellarmine</hi> his
+bare alleadging; which without proouing it by more cleare demonstration, can
+neuer satisfie the conscience of any reasonable man. For (for ought that I know)
+heauen and earth are no farther asunder, then the profession of a temporall
+obedience to a temporall King, is different from any thing belonging to the
+Catholique Faith, or Supremacie of Saint <hi rend="italic">Peter</hi>: For as for the Catholique Faith;
+can there be one word found in all that Oath, tending or sounding to matter of
+Religion ? Doeth he that taketh it, promise there to beleeue, or not to beleeue
+any article of Religion ? Or doeth hee so much as name a trew or false Church
+there ? And as for Saint <hi rend="italic">Peters</hi> Primacie; I know no Apostles name that it therein
+named, except the name of <hi rend="smallcap">Iames</hi>, it being my Christen name: though it please
+him not to deigne to name me in all the Letter; albeit, the contents thereof con-
+
+<pb n="92"/>
+cerne mee in the highest degree. Neither is there any mention at all made therein,
+either <hi rend="italic">disertis verbis</hi>, or by any other indirect meanes, either of the Hierarchie of
+the Church, of Saint <hi rend="italic">Peters</hi> succession, of the Sea Apostolike, or of any such mat-
+ter: but that the Author of our Letter doeth brauely make mention of Saint
+<hi rend="italic">Peters</hi> succession, bringing it in comparison with the succession of <hi rend="italic">Henry</hi> the
+eight. Of which vnapt and vnmannerly similitude, I wonder he should not be
+much ashamed: For as to King <hi rend="italic">Henries</hi> Successour (which hee meaneth by mee)
+as I, I say, neuer did, nor will persume to create any Article of Faith, or to bee
+Iudge thereof; but to submit my exemplarie obedience vnto them, in as great
+humilitie as the meanest of the land: so if the Pope could bee as well able to
+prooue his either Personall or Doctrinall Succession from Saint <hi rend="italic">Peter</hi>, as I am able
+to prooue my lineall descent from the Kings of <hi rend="italic">England</hi> and <hi rend="italic">Scotland</hi>; there had
+neuer beene so long adoe, nor so much sturre kept about this question in Christen-
+dome; neither had Master <hi rend="italic">Bellarmine</hi><note anchored="true" place="foot">Bellar. de Rom. Pont. li. 4. cap. 6. Ibid. 1. 2. ca. 12.</note>  himselfe needed to haue bestowed so
+many sheetes of paper <hi rend="italic"><foreign xml:lang="lat">De summo Pontifice</foreign></hi>, in his great bookes of Controuersies:
+And when all is done, to conclude with a morall certitude, and a <hi rend="italic"><foreign xml:lang="lat">piU+00E8 credendum</foreign>;</hi>
+bringing in the Popes,<note anchored="true" place="foot">Idem ibid. lib. 2. cap. 14.</note> that are parties in this cause, to be his witnesses: and
+yet their historicall narration must bee no article of Faith. And I am without
+vanterie sure, that I doe farre more neerely imitate the worthie actions of my
+Predecessours, then the <hi rend="italic">Popes</hi> in our aage can be well proued to be <hi rend="italic"><foreign xml:lang="lat">similes Petro</foreign>,</hi>
+especially in cursing of Kings, and setting free their Subiects from their Allegiance
+vnto them.
+</p>
+<p>But now wee come to his strongest argument, which is, That he would alledge
+ vpon mee a Panicke terrour, as if I were possessed with a needlesse feare: <hi rend="italic">For,</hi>
+ saith the Cardinall, <hi rend="italic">from the beginning of the Churches first infancie, euen to this
+ day, where was it euer heard, that euer a</hi> Pope <hi rend="italic">either commaunded to bee killed, or
+ allowed the slaughter of any Prince whatsoeuer, whether hee were an Hereticke, an
+ Ethnicke, or Persecutour</hi> ? But first, wherefore doeth he here wilfully, and of
+ purpose omit the rest of the points mentioned in that Oath, for deposing, degrad-
+ ing, stirring vp of armes, or rebelling against them, which are as well mentioned
+ in that Oath, as the killing of them ? as beeing all of one consequence against a
+ King, no Subiect beeing so scrupulous, as that hee will attempt the one, and leaue
+ the other vnperformed if hee can. And yet surely I cannot blame him for passing
+ it ouer, since he could not otherwise haue eschewed the direct belying of himselfe
+ in tearmes, which hee now doeth but in substance and effect: For as for the
+ <hi rend="italic">Popes</hi> deposing and degrading of Kings, hee maketh so braue vaunts and bragges
+ of it in his former bookes, as he could neuer with, ciuill honestie haue denied it here.<note anchored="true" place="foot">Bellarm. de Rom. Pont. lib. 5. cap. 8. et lib. 3. cap. 16.
+</note>
+</p>
+<p>But to returne to the <hi rend="italic">Popes</hi> allowing of killing of Kinges, I know not with
+what face hee can set so stout a deniall vpon it against his owne knowledge. How
+many Emperours did the <hi rend="italic">Pope</hi> raise warre against in their owne bowels ? Who
+
+
+<pb n="93"/>
+ as they were ouercome in battaile, were subiect to haue beene killed therein,
+ which I hope the <hi rend="italic">Pope</hi> could not but haue allowed, when he was so farre inraged
+ at <hi rend="italic">Henry</hi><note anchored="true" place="foot">Gotfrid. Viterb. Helmod. Cuspinian.</note> the fifth for gluing buriall to his fathers dead corpes, after the <hi rend="italic">Pope</hi> <note anchored="true" place="foot">Paschal. 2.</note>
+ had stirred him vp to rebell against his father, and procured his ruine. But
+ leauing these olde Histories to <hi rend="italic">Bellarmines</hi> owne bookes, that doe most authen-
+ tically cite them, as I haue already said, let vs turne our eyes vpon our owne time,
+ and therein remember what a Panegyricke<note anchored="true" place="foot">See the Oration of Sixtus Quintus, made in the Consistory vpon the death of Henry the 3.</note> Oration was made by the <hi rend="italic">Pope</hi>, in
+ praise and approbation of the Frier and his fact, that murthered king <hi rend="italic">Henry</hi> the
+ third of <hi rend="italic">France</hi>, who was so farre from either being Hereticke, Ethnicke, or Per-
+ secutor in their account, that the said <hi rend="italic">Popes</hi> owne wordes in that Oration are,
+ <hi rend="italic">That a trew Friar hath killed a counterfeit Frier</hi>. And besides that vehement
+ Oration and congratulation for that fact, how neere it scaped, that the said Frier
+ was not canonized for that glorious act, is better knowen to <hi rend="italic">Bellarmine</hi> and his
+ followers, then to vs here.
+</p>
+<p>But sure I am, if some Cardinals had not beene more wise and circumspect in
+that errand, then the <hi rend="italic">Pope</hi> himselfe was, the <hi rend="italic">Popes</hi> owne Kalender of his Saints
+would haue sufficiently proued <hi rend="italic">Bellarmin</hi> a lier in this case. And to draw yet
+neerer vnto our selues; how many practises and attempts were made against the
+late Queenes life, which were directly enioyned to those Traitours by their Con-
+fessors, and plainly authorized by the <hi rend="italic">Popes</hi> allowance ? For verification whereof,
+there needs no more proofe, then that neuer <hi rend="italic">Pope</hi> either then or since, called any
+Church-man in question for medling in any those treasonable conspiracies; nay,
+the Cardinals owne S. <hi rend="italic">Sanderus</hi> mentioned in his Letter, could well verifie this
+trewth if, hee were aliue; and who will looke his bookes, will find them filled with
+no other doctrine then this. And what difference there is betweene the killing,
+or allowing the slaughter of Kings, and the stirring vp and approbation of prac-
+tises to kill them; I remit to <hi rend="italic">Bellarmines</hi> owne iudgement. It may then very
+clearely appeare, how strangely this Authors passion hath made him forget him-
+selfe, by implicating himselfe in so strong a contradiction against his owne knowl-
+edge and conscience, against the witnesse of his former bookes, and against the
+practise of our owne times. But who can wonder at this contradiction of himselfe
+in this point, when his owne great Volumes are so filled with contradictions ?
+which when either he, or any other shall euer bee able to reconcile, I will then
+beleeue that hee may easily reconcile this impudent strong deniall of his in his
+Letter, of any <hi rend="italic">Popes</hi> medling against Kings, with his owne former bookes, as I
+haue already said.
+</p>
+<p>And that I may not seeme to imitate him in affirming boldly that which I no
+wayes prooue; I will therefore send the Reader to looke for witnesses of his con-
+tradictions, in such places here mentioned in his owne booke. In his bookes of
+Iustification,<note anchored="true" place="foot">Bellar. de Iustif. lib. 5. cap. 7.</note>4 there he affirmeth, <hi rend="italic">That for the vncertaintie of our owne proper</hi>
+
+<pb n="94"/>
+
+<hi rend="italic">righteousness, and for auoiding of vaine-glory, it is most sure and safe, to repose our
+whole confidence in the alone mercy and goodnesse of God</hi>; Which proposition of
+his, is directly contrary to the discourse, and current of all his flue bookes <hi rend="italic">de
+Iustificatione,<note anchored="true" place="foot">Contrary to all his fiue bookes de Iustificatione.</note></hi> wherein the same is contained.</p>
+<p><hi rend="italic">God doeth not encline a man to euill, either naturally or morally.</hi><note anchored="true" place="foot">Bellar. de amis gra. &amp; stat. pecca.li. 2.c. 13.</note></p>
+<p>Presently after, hee affirmeth the contrary, <hi rend="italic">That God doeth not encline to euill
+ naturally, but morally.</hi><note anchored="true" place="foot">Ibidem paulo post.</note></p>
+<p>All the Fathers teach constantly, <hi rend="italic">That Bishops doe succeed the Apostles, and
+ Priests the seuentie disciples.</hi><note anchored="true" place="foot">Bellar. de clericis, lib. i. c. 14.</note></p>
+<p>Elsewhere he affirmeth the contrary, That <hi rend="italic">Bishops doe not properly succeede
+ the Apostles.</hi><note anchored="true" place="foot">Bellar. de Pont. 1. 4. c. 25.</note></p>
+<p><hi rend="italic">That Iudas did not beleeue.</hi><note anchored="true" place="foot">Bellar. de Pont. lib. 1. c. 12.  </note></p>
+<p>Contrary, <hi rend="italic">That Iudas was iust and certainly good.</hi><note anchored="true" place="foot">Bellar. de Iustif. lib. 3. c. 14. </note></p>
+<p><hi rend="italic">The keeping of the Law according to the substance of the worke, doeth require
+ that the Commandement be so kept, that sinne be not committed, and the man be not
+ guiltie for hauing not kept the Commandement.</hi><note anchored="true" place="foot">Bellar. de gra. &amp; lib. arbit. lib. 5. cap. 5. </note></p>
+<p>Contrary, <hi rend="italic">It is to be knowen that it is not all one, to doe a good morall worke,
+ and to keepe the Commandement according to the substance of the worke: For the
+ Commandement may be kept according to the substance of the worke, euen with sinne;
+ as if one should restore to his friend the thing committed to him of trust, to the end
+ that theeues might afterward take it from him.</hi><note anchored="true" place="foot">Eodem lib. cap. 9.</note></p>
+<p>Peter <hi rend="italic">did not loose that faith, whereby the heart beleeueth vnto iustification.</hi><note anchored="true" place="foot">Bellar. de Pont. lib. 4. c. 3.</note></p>
+<p>Contrary, Peters <hi rend="italic">sinne was deadly.</hi><note anchored="true" place="foot">Bell. de Iust. lib. 3. cap. 14.</note></p>
+<p><hi rend="italic">Antichrist shall be a Magician, and after the maner of other Magicians shall se-
+cretly worship the diuel.</hi><note anchored="true" place="foot">Bell. de Rom. Pontif. lib. 3. cap. 14.</note></p>
+<p>Contrary, <hi rend="italic">He shall not admit of idolatrie: he shall hate idoles, and reedifie the
+ Temple.</hi><note anchored="true" place="foot">Ibid. ex sentent. Hypol. &amp; Cyril. &amp; ,cap. 12.eiusdem lib i.</note></p>
+<p><hi rend="italic">By the wordes of Consecration the trew and solemne oblation is made.</hi><note anchored="true" place="foot">Bell. lib. I de missa cap. 17.</note></p>
+<p>Contrary, <hi rend="italic">The sacrifice doeth not consist in the words: but in the oblation of the
+thing it selfe.</hi><note anchored="true" place="foot">Bellar. de miss. lib. 2. cap. 12.</note></p>
+<p><hi rend="italic">That the end of the world cannot be knowne.</hi><note anchored="true" place="foot">Bellar. de anim. Christ. lib. 4. cap. 5.</note></p>
+<p>Contrary, <hi rend="italic">After the death of</hi> Antichrist, <hi rend="italic">there shall bee but fiue and fourtie dayes
+till the end of the world.</hi><note anchored="true" place="foot">Bellar. de Pont. lib. 3. cap. 17.</note>
+</p>
+<p><hi rend="italic">That the tenne Kings shall burne the scarlet Whore, that is</hi>, Rome.<note anchored="true" place="foot">Bellar. de Pont. lib. 3. cap. 13.</note>
+
+<pb n="95"/>
+
+</p>
+<p>Contrary, Antichrist <hi rend="italic">shall hate</hi> Rome, <hi rend="italic">and fight against it, and burne it.</hi><note anchored="true" place="foot">Bellar. ibid.   </note>
+</p>
+<p><hi rend="italic">The name of vniuersall Bishop may be understood two wayes; one way, that he
+which is said to be vniuersall Bishop, may bee thought to be the onely Bishop of all
+Christian Cities; so that all others are not indeed Bishops, but onely Vicars to him,
+who is called vniuersall Bishop: in which sense, the</hi> Pope <hi rend="italic">is not vniuersall Bishop.</hi><note anchored="true" place="foot">Bellar. de Pont. lib. 2. cap. 31. </note>
+</p>
+<p>Contrary, <hi rend="italic">All ordinary iurisdiction of Bishops doeth descend immediatly from
+the Pope; and is in him, and from him is deriued to others</hi>.<note anchored="true" place="foot">Bellar. de Pont. lib. 2. cap. 24. </note> Which few places I
+haue onely selected amongst many the like, that the discreet and iudicious
+Reader may discerne <hi rend="italic">ex vngue Leonem</hi>: For when euer he is pressed with a
+weighty obiection, hee neuer careth, nor remembreth how his solution and
+answere to that, may make him gainesay his owne doctrine in some other places,
+so it serue him for a shift to put off the present storme withall.
+</p>
+<p>But now to returne to our matter againe: <hi rend="italic">Since Popes</hi>, sayeth hee, <hi rend="italic">haue neuer.
+at any time medled against Kings, wherefore, I pray you, should onely the King of</hi>
+<hi rend="smallcap">England</hi> <hi rend="italic">be afraid of that, whereof neuer Christian King is, or was afraid</hi> ? Was
+neuer Christian Emperour or King afraid of the <hi rend="italic">Popes</hi> ? How then were these
+miserable Emperours tost and turmoiled, and in the end vtterly ruined by the
+<hi rend="italic">Popes</hi>: for proofe whereof I haue already cited <hi rend="italic">Bellarmines</hi> owne bookes ? Was
+not the Emperour <note anchored="true" place="foot">Henry 4.</note> afraid, who waited barefooted in the frost and snow three
+dayes at the <hi rend="italic">Popes</hi> gate, before he could get entrie? <note anchored="true" place="foot">Abbas Vrspergen. Lamb. Scaff. Anno 1077. Plat. in vit. Greg. 7.  </note> Was not the Emperour<note anchored="true" place="foot">Frederick Barbarossa </note>
+also afraid, who was driuen to lie agroofe on his belly, and suffer another <hi rend="italic">Pope</hi> to
+tread vpon his neck ? <note anchored="true" place="foot">Naucler. gener, 40. Iacob. Bergom. in Sup. plem. chron. Alfons. Clacon. in vit. Alex. 3.</note> And was not another Emperour <note anchored="true" place="foot">Henry 6.</note> afraid, who was con-
+strained in like maner to endure a third <hi rend="italic">Pope</hi> to beat off from his head the Im-
+periall Crowne with his foot ? <note anchored="true" place="foot">R. Houeden in Rich. i; Ranulph. in Polycronico. lib. 7.</note> Was not <hi rend="italic">Philip</hi><note anchored="true" place="foot">Abbas Vrsper. ad Ann. 1191.</note> afraid, being made Emperour
+against <hi rend="italic">Pope Innocentius</hi> the thirds good liking, when he brake out into these
+words, <hi rend="italic">Either the Pope shall take the Crowne from</hi> Philip, <hi rend="italic">or</hi> Philip <hi rend="italic">shall take the
+Miter from the Pope ? </hi><note anchored="true" place="foot"> Nauc. gen. 40. Cuspin. in Philippo.</note> whereupon the <hi rend="italic">Pope</hi> stirred vp <hi rend="italic">Ottho</hi> against him, who
+caused him to be slaine; and presently went to <hi rend="italic">Rome</hi>, and was crowned Em-
+perour by the <hi rend="italic">Pope</hi>, though afterward the <hi rend="italic">Pope</hi><note anchored="true" place="foot"> Abbas Vrsper.</note> deposed him too. Was not the
+Emperour <hi rend="italic">Fredericke</hi><note anchored="true" place="foot">Math. Paris. in Henr. 3; Petr. de Vineis, Epist. li. I. &amp; 2; Cuspin in Freder. 2.</note> afraid, when <hi rend="italic">Innocentius</hi> the fourth excommunicated him,
+depriued him of his crowne, absolued Princes of their Oath of fidelitie to him, and
+in <hi rend="italic">Apulia</hi> corrupted one to giue him poison ? whereof the Emperour recouering,
+hee hired his bastard sonne <hi rend="italic">Manfredus</hi> to poison him; whereof he died. What
+did <hi rend="italic">Alexander</hi><note anchored="true" place="foot">Vita Frederici Germanice conscripta.</note> the third write to the <hi rend="italic">Soldan</hi>?   That if he would liue quietly, hee
+should by some slight murther the Emperour;<note anchored="true" place="foot">Fredericke Barbarossa.</note> and to that end sent him the Em-
+
+<pb n="96"/>
+
+perours picture. And did not <hi rend="italic">Alexander</hi> <note anchored="true" place="foot">Paul. Iouius, Hist. lib. 2; Cuspinian. in Baiazet. II; Guicciard. lib. 2.</note> the sixt take of the Turke <hi rend="italic">Baiazetes</hi>
+two hundred thousand crownes to kill his brother <hi rend="italic">Gemen</hi>; or as some call him,
+<hi rend="italic">Sisimus</hi>, whom he helde captiue at <hi rend="italic">Rome</hi> ? Did hee not accept of the conditions
+to poyson the man, and had his pay ? Was not our <hi rend="italic">Henry </hi><note anchored="true" place="foot">Houeden, pag. 308; Matth. Paris. in Henric 2; Walsinga. in Hypodig. Neustriae. Ioan. Capgraue.</note>the second afraid
+after the slaughter of <hi rend="italic">Thomas Becket</hi>; that besides his going bare-footed in
+Pilgrimage, was whipped vp and down the Chapter-house like a schoole-boy, and
+glad to escape so to ? Had not this French King his great grandfather King <hi rend="italic">Iohn</hi>
+reason to be afraid, when the <hi rend="italic">Pope</hi> <note anchored="true" place="foot">Gomecius de rebus gest. Fran. Ximenij Archiepis. Tolet.lib. 5.</note> gaue away his kingdome of <hi rend="italic">Nauarre</hi> to the
+King of <hi rend="italic">Spaine</hi>, whereof he yet possesseth the best halfe ? Had not this King,
+his Successour reason to be afraid, when he was forced to begge so submissiuely
+the relaxation of his Excommunication, as he was content likewise to suffer his
+Ambassadour to be whipped at <hi rend="italic">Rome</hi> for penance ? And had not the late Queene
+reason to looke to her selfe, when she was excommunicated by <hi rend="italic">Pius Quintus</hi>, her
+Subiects loosed from their fidelitie and Allegiance toward her, her Kingdome of
+<hi rend="italic">Ireland</hi> giuen to the King of <hi rend="italic">Spaine</hi>, and that famous fugitiue diuine, honoured
+with the like degree of a redde Hat as <hi rend="italic">Bellarmine</hi> is, was not ashamed to publish
+in Print an Apologie<note anchored="true" place="foot">Card. Aliens Answere to Stan. letter, Anno 1587.</note> for <hi rend="italic">Stanleys</hi> treason, maintaining, that by reason of her
+excommunication and heresie, it was not onely lawfull for any of of her Subiects,
+but euen they were bound in conscience to depriue her of any strength, which lay
+in their power to doe ? And whether it were armies, townes, or fortresses of hers
+which they had in their hands, they were obliged to put them in the King of
+<hi rend="italic">Spaine</hi> her enemies hands, shee no more being the right owner of anything ? But
+albeit it be trew, that wise men are mooued by the examples of others dangers to
+vse prouidence and caution, according to the olde Prouerbe, <hi rend="italic"><foreign xml:lang="lat">Tum tua res agitur</foreign>,
+paries cum proximus ardet</hi>: yet was I much neerlier summoned to vse this caution,
+by the practise of it in mine owne person.
+</p>
+<p>First, by the sending foorth of these Bulles whereof I made mention already,
+ for debarring me from entrie vnto this Crowne, and Kingdome. And next after
+ my entrie, and full possession thereof, by the horrible Powder-treason, which
+ should haue bereft both me and mine, both of crowne and life. And howsoeuer
+ the Pope will seeme to cleare himselfe of any allowance of the said Powder-trea-
+ son; yet can it not be denied, that his principall ministers here, and his chiefe
+ <hi rend="italic">Mancipia</hi> the Iesuites, were the plaine practisers thereof: for which the principall
+of them hath died confessing it, and other haue fled the Countrey for the crime;
+yea, some of them gone into <hi rend="italic">Italy</hi>: and yet neither these that fled out of this
+Countrey for it, nor yet <hi rend="italic">Baldwine</hi>, who though he then remained in the Low-
+countreys, was of counsell in it, were euer called to account for it by the Pope;
+much lesse punished for medling in so' scandalous and enormous businesse. And
+
+
+<pb n="97"/>
+
+ now what needs so great wonder and exclamation, that <hi rend="italic">the onely King of</hi> England
+<hi rend="italic">feareth</hi>: And <hi rend="italic">what other Christian King doeth, or euer did feare but hee</hi> ? As if
+by the force of his rhetoricke he could make me and my good Subiects to mistrust
+our senses, deny the Sunne to shine at midday, and not with the serpent to stop
+our eares to his charming, but to the plaine and visible veritie it selfe. And yet
+for all this wonder, he can neuer prooue mee to be troubled with such a Panicke
+terrour. Haue I euer importuned the Pope with any request for my securitie ?
+Or haue I either troubled other Christian Princes my friends and allies, to intreat
+for me at the Popes hand ? Or yet haue I begged from them any aide or assist-
+ance for my farther securitie ? No. All this wondred-at feare of mine, stretcheth
+no further, then wisely to make distinction betweene the sheepe and goats in my
+owne pasture. For since, what euer the Popes part hath beene in the Powder-
+treason; yet certaine it is, that all these caitife monsters did to their death main-
+taine, that onely zeale of Religion mooued them to that horrible attempt: yea,
+some of them at their death, would not craue pardon at God or King for their
+offence; exhorting other of their followers to the like constancie. Had not wee
+then, and our Parliament great reason, by this Oath to set a marke of distinction
+betweene good Subiects, and bad ? Yea, betweene Papists, though peraduenture
+zealous in their religion, yet otherwise ciuilly honest and good Subiects, and such
+terrible firebrands of hell, as would maintaine the like maximes, which these
+Powder-men did ? Nay, could there be a more gracious part in a King, suppose I
+say it, towards Subiects of a contrary Religion, then by making them to take this
+Oath, to publish their honest fidelitie in temporal things to me their Soueraigne,
+and thereby to wipe off that imputation and great slander which was laide
+vpon the whole professours of that Religion, by the furious enterprise of these
+Powder-men ?
+</p>
+<p>And whereas for illustration of this strong argument of his, hee hath brought
+ in for a similitude the historie of <hi rend="italic">Iulian </hi><note anchored="true" place="foot">Nazianzen. in Iulian. <foreign xml:lang="lat">inuectiuU+00E2 primU+00E2.</foreign>
+</note> the <hi rend="italic">Apostata</hi> his dealing with the Chris-
+ tians, when as he straited them either to commit idolatrie, or to come within the
+ compasse of treason: I would wish the authour to remember, that although a
+ similitude may be permitted <hi rend="italic"><foreign xml:lang="lat">claudicare vno pede</foreign></hi>; yet this was a very ill chosen
+ similitude, which is lame both of feete and hands, and euery member of the body:
+ For I shall in fewe wordes prooue, that it agreeth in no one point saue one, with
+ our purpose, which is, that <hi rend="italic">Iulian</hi> was an Emperour, and I a King. First, <hi rend="italic">Iulian</hi>
+ was an <hi rend="italic">Apostata</hi>, one that had renounced the whole Christian faith, which he had
+ once professed, and became an Ethnike againe, or rather an Atheist: whereas I
+ am a Christian, who neuer changed that Religion, that I dranke in with my
+ milke: nor euer, I thanke GOD, was ashamed of my profession. <hi rend="italic">Iulian</hi> dealt
+ against Christians onely for the profession of <hi rend="smallcap">Christes</hi> cause: I deale in this
+ cause with my Subiects, onely to make a distinction betweene trew Subiects, an
+ false-hearted traitours. <hi rend="italic">Iulians</hi> end was the ouerthrow of the Christians: my
+
+<pb n="98"/>
+onely end is, to maintaine Christianitie in a peaceable gouernement. <hi rend="italic">Iulians</hi>
+drift was to make them commit Idolatrie: my purpose is, to cause my Subiects
+to make open profession of their naturall Allegiance, and ciuill Obedience. <hi rend="italic">Iulians</hi>
+meanes whereby he went about it, was by craft, and insnaring them before they
+were aware: my course in this is plaine, cleare, and voyd of all obscuritie; neuer
+refusing leaue to any that are required to take this Oath, to study it at leisure, and
+giuing them all the interpretation of it they can craue. But the greatest dissimili-
+tude of all, is in this: that <hi rend="italic">Iulian</hi> pressed them to commit idolatrie to Idoles and
+Images: but as well I, as all the Subiects of my profession are so farre from guilt
+in this point, as wee are counted heretiques by you, because we will not commit
+idolatrie. So as in the maine point of all, is the greatest contrarietie. For, <hi rend="italic">Iulian</hi>
+persecuted the Christians because they would not commit idolatrie; and ye count
+me a persecutour, because I will not admit idolatrie. So as to conclude this point,
+this old sentence may well be applied to <hi rend="italic">Bellarmine</hi>, in vsing so vnapt a similitude,
+                                <hi rend="blockquote"><hi rend="italic"><foreign xml:lang="lat">Perdere quos vult Iupiter, hos dementat.</foreign></hi></hi>
+</p>
+<p>And therefore his vncharitable conclusion doeth not rightly follow: <hi rend="italic">That it
+seemeth vnto him, that some such thing should be subtilly or fraudulently included in
+this Oath</hi>; as if no man can detest Treason against the King, or professe ciuill
+subiection, except hee renounce the Primacie of the Apostolique Sea. But how
+he hath suckt this apprehension out at his fingers ends, I cannot imagine: for
+sure I am, as I haue oft said, hee neuer goeth about to prooue it: and to answere
+an improbable imagination, is to fight against a vanishing shadow. It cannot be
+denied indeed, that many seruants of CHRIST, as well Priests, as others, haue
+endured constantly all sorts of torments, and death, for the profession of CHRIST:
+and therefore to all such his examples, as hee bringeth in for verifying the same, I
+need not to giue him any other answere, saue onely to remember him, that he
+playeth the part of a sophister in all these his examples of the constancie of
+Martyrs; euer taking <hi rend="italic">Controuersum pro confesso</hi>, as if this our case were of the
+same nature.
+</p>
+<p>But yet that the Reader may the better discouer, not onely how vnaptly his
+similitudes are applied, but likewise how dishonestly hee vseth himselfe in all his
+citations: I haue thought good to set downe the very places themselues cited by
+him, together with a short deduction of the trew state of those particular cases:
+whereby, how little these examples can touch our case; nay, by the contrary,
+how rightly their trew sense may bee vsed, as our owne weapons to be throwen
+backe vpon him that alledgeth them, shall easily appeare. And first, for <hi rend="italic">Eleazar</hi>: <note anchored="true" place="foot">2. Maccab. chap. 6. ver.18.</note>
+If the Arch-priest his ground of refusing the Oath, were as good as <hi rend="italic">Eleazars</hi> was,
+to forbeare to eate the swines flesh, it might not vnfitly be applied by the Cardinal
+to this purpose: For as <hi rend="italic">Eleazar</hi> was a principall Scribe, so is he a principall Priest:
+As <hi rend="italic">Eleazars</hi> example had a great force in it, to animate the yonger Scribes to
+
+
+<pb n="99"/>
+
+keepe the Lawe, or in his colourable eating it, to haue taught them to dissemble:
+so hath the Arch-priests, either to make the inferiour Priests to take the Oath,
+or to refuse it: but the ground failing, the building cannot stand: For what
+example is there in all the Scripture, in which disobedience to the Oath of the
+King, or want of Allegiance is allowed ? If the Cardinall would remember, that
+when the Church maketh a Lawe (suppose to forbid flesh on certaine dayes) he
+that refuseth to obey it, incurreth the iust censure of the Church: If a man then
+ought to die rather than to breake the least of Gods Ceremoniall Lawes, and to
+pine and starue his body, rather then to violate the Church his positiue Law: will
+he not giue leaue to a man to redeeme his soule from sinne, and to keepe his body
+from punishment, by keeping a Kings politike Law, and by giuing good example
+in his Person, raise vp a good opinion in me of like Allegiance in the inferiour of
+his order ? This application, as I take it, would haue better fitted this example.
+</p>
+<p>But let mee remember the Cardinall of another Oath <note anchored="true" place="foot">I. Sam. 14. 25.</note> inioyned by a King to
+his people, whereby he indangered his owne life, and hazarded the safetie of the
+whole armie, when hee made the people sweare in the morning, not to taste of any
+meate vntill night: which Oath he exacted so strictly, that his eldest sonne, and
+heire apparant, <hi rend="italic">Ionathan</hi>, for breaking of it, by tasting a little hony of the top of
+his rodde, though he heard not when the King gaue that Oath, had well-nigh
+died for it. And shall an Oath giuen vpon so vrgent an occasion as this was, for
+the apparant safetie of me and my posteritie, forbidding my people to drinke so
+deeply in the bitter cup of Antichristian fornications, but that they may keepe so
+much hony in their hearts, as may argue them still espoused to me their Sou-
+eraigne in the maine knot of trew Allegiance; shall this Law, I say, by him bee
+condemned to hell for a <hi rend="italic">stratageme of Sathan</hi> ? I say no more, but Gods lot in the
+Oath of <hi rend="italic">Sauls</hi>, and <hi rend="italic">Bellarmines</hi> verdict vpon this Oath of ours, seeme not to be
+cast out of one lap.
+</p>
+<p>Now to this example of <hi rend="italic">Basill</hi>,<note anchored="true" place="foot">Theodoret. lib. 4. cap. 19.</note> which is (as he sayth) so fit for his purpose:
+First, I must obserue, that if the Cardinall would leaue a common and ordinarie
+tricke of his in all his Citations, which is to take what makes for him, and leaue
+out what makes against him; and cite the Authours sense, as well as his Sen-
+tence, we should not be so much troubled with answering the Ancients which he
+alledgeth. To instance it in this very place: if he had continued his allegation
+one line further, hee should haue found this place out of <hi rend="italic">Theodoret</hi>, of more force
+to haue mooued <hi rend="italic">Blackwell</hi> to take the Oath, then to haue disswaded him from it:
+For in the very next words it followeth, <hi rend="italic"><foreign xml:lang="lat">Imperatoris quidem amicitiam magni se
+pendere, cum pietate; quU+00E2 remotU+00E2, perniciosam esse dicere</foreign></hi>. But that it may
+appeare, whether of vs haue greatest right to this place, I will in few words shew
+the Authours drift.
+</p>
+<p>The Emperour <hi rend="italic">Valens</hi> being an Arrian, at the perswasion of his wife, when he
+had depriued all the Churches of their Pastours, came to <hi rend="italic">Caesarea</hi>, where <hi rend="italic">S. Basil </hi><note anchored="true" place="foot">Theodoret. lib. 4. cap. 19.
+</note>
+
+<pb n="100"/>
+
+was then Bishop, who, as the historie reporteth, was accounted the <hi rend="italic">Light of the
+world</hi>. Before hee came, hee sent his deputie <note anchored="true" place="foot">Modestus as Nazianzen vpon the death of Basill calleth him in his oration.</note> to worke it, that <hi rend="italic">S. Basil</hi> should
+hold fellowship with <hi rend="italic">Eudoxius</hi><note anchored="true" place="foot">Looke cap. 12. eiusdem libri. </note> (which <hi rend="italic">Eudoxius 2 </hi>was bishop of <hi rend="italic">Constantinople,</hi>
+and the principall of the Arrian faction) or if he would not, that hee should put
+him to banishment. Now when the Emperours Deputie came to <hi rend="italic">Caesarea</hi>, he
+sent for <hi rend="italic">Basil</hi>, intreated him honourably, spake pleasingly vnto him, desired he
+would giue way to the time, neither that he would hazard the good of so many
+Churches <hi rend="italic"><foreign xml:lang="lat">tenui exquisitione dogmatis</foreign></hi>: promised him the Emperours fauour, and
+himselfe to be mediatour for his good. But <hi rend="italic">S. Basill</hi> answered, <hi rend="italic">These intising
+speeches were to fit to bee vsed to children, that vse to gape after such things: but for
+them that were throughly instructed in Gods word, they could neuer suffer any syl-
+lable thereof to be corrupted: Nay, if need required, they would for the maintenance
+thereof refuse no kind of death. Indeed the loue of the Emperour ought to bee greatly
+esteemed with pietie; but pietie taken away, it was pernicious.</hi>
+</p>
+<p>This is the trewth of the historie. Now compare the case of <hi rend="italic">Basill</hi> with the
+ Arch-priests: <hi rend="italic">Basill</hi> was sollicited to become an Arrian: the Arch-priest not once
+ touched for any article of faith. <hi rend="italic">Basill</hi> would haue obeyed the Emperour, but
+ that the word of GOD forbade him: this man is willed to obey, because the word
+ of GOD commandeth him. <hi rend="italic">Basill</hi> highly esteemed the Emperours fauour, if it
+ might haue stood with pietie: the Archi-priest is exhorted to reiect it, though it
+ stand with trew godlinesse in deed, to embrace it. But that he may lay load
+ vpon the Arch-priest, it is not sufficient to exhort him to courage and constancie
+ by <hi rend="italic">Eleazarus</hi> and <hi rend="italic">Basils</hi> examples; but he must be vtterly cast downe with the
+ comparing his fall to <hi rend="italic">S. Peter</hi>, and <hi rend="italic">Marcellinus</hi>: which two mens cases were the
+ most fearefull, considering their persons and places, that are to be found, or read
+ of, either in all the bookes of diuine Scripture, or the volumes of Ecclesiasticall
+ histories; the one denying the onely trew GOD, the other our Lord and Sauiour
+ IESVS CHRIST; the one sacrificing to Idoles, with the prophane heathen: the
+ other forswearing his Lord and Master, with the hard-hearted Iewes. Vnlesse the
+ Cardinall would driue the Arch-priest to some horrour of conscience, and pit of
+ despaire, I know not what he can meane by this comparison: For sure I am, all
+ that are not intoxicated with their cup, cannot but wonder to heare of an Oath of
+ Allegiance to a naturall Soueraigne, to be likened to an <hi rend="italic">Apostats</hi> denying of God,
+ and forswearing of his Sauiour.
+</p>
+<p>But to let passe the <hi rend="italic">Disdiapason</hi> of the cases (as his ill-fauoured coupling
+<hi rend="italic">S. Peter</hi> the head of their Church, with an apostate Pope) I marueile hee would
+remember this example of <hi rend="italic">Marcellinus</hi>,<note anchored="true" place="foot">Looke Platina in vita Marcellini.</note> since his brother Cardinall <hi rend="italic">Baronius</hi>, and
+the late Edition of the Councels by <hi rend="italic">Binnius</hi> <note anchored="true" place="foot">Concil. Tom. i. pag. 222. Looke Baronius, Ann. 302. num. 96.</note> seeme to call the credit of the whole
+historie into question, saying, <hi rend="italic">That it might plainely be refuted, and that it is prob-
+</hi>
+
+<pb n="101"/>
+
+ <hi rend="italic">ably to be shewed, that the story is but obreptious</hi>, but that he would not swarue from
+ the common receiued opinion.
+</p>
+<p>And if a man might haue leaue to coniecture; so would his Cardinalship too,
+ if it were not for one or two sentences in that Councell <note anchored="true" place="foot">See Tom. i. Concil. in Act. Concil. Sinuess.</note> of <hi rend="italic">Sinuessa</hi>, which serued
+ for his purpose; namely, that <hi rend="italic"><foreign xml:lang="lat">Prima sedes U+00E0 nemine iudicatur</foreign></hi>: And,
+ <hi rend="italic"><foreign xml:lang="lat">Iudica causam tuam: nostrU+00E2 sententiU+00E2 non condemnaberis</foreign></hi>. But to what purpose a great
+ Councell (as he termes it) of three hundred Bishops and others, should meete
+ together, who before they met, knew they could doe nothing: when they were
+ there, did nothing, but like Cuckowes, sing ouer and ouer the same song: that,
+ <hi rend="italic"><foreign xml:lang="lat">Prima sedes U+00E0 nemine iudicatur</foreign></hi>; and so after three dayes sitting (a long time in-
+ deed for a great and graue Councell) brake so bluntly vp: and yet, that there
+ should be seuentie two witnesses brought against him, and that they should
+ subscribe his excommunication, and that at his owne mouth hee tooke the
+ <hi rend="italic"><foreign xml:lang="lat">Anathema maranatha</foreign></hi>: how these vntoward contradictions shall be made to agree,
+ I must send the Cardinall to <hi rend="italic">Venice</hi>, to <hi rend="italic">Padre Paulo</hi>, who in his Apologie <note anchored="true" place="foot">Apol. Pat. Paul. aduersus opposit. Card. Bellar.</note> against
+ the Cardinals oppositions, hath handled them very learnedly.
+</p>
+<p>But from one Pope, let vs passe to another: (for, what a principall article of
+ Faith and Religion this Oath is, I haue alreadie sufficiently proued.) Why hee
+ called S. <hi rend="italic">Gregory</hi> <note anchored="true" place="foot">Greg. lib. II . cap. 42.</note> our Apostle, I know not, vnlesse perhaps it be, for that hee
+ sent <hi rend="italic">Augustine</hi> <note anchored="true" place="foot">Beda Ecclesi. Hist. gen.Ang. lib. i. cap. 25.</note> the Monke and other with him into England, to conuert vs to
+ the faith of Christ, wherein I with the <hi rend="italic">Popes</hi> his successours would follow his
+ patterne: For albeit hee sent them by diuine reuelation (as hee said) into England
+ vnto King <hi rend="italic">Ethelbert</hi>; yet when they came, they exercised no part of their func-
+ tion, but by the Kings leaue and permission. So did King <hi rend="italic">Lucius</hi><note anchored="true" place="foot">Beda Ecclesi. Hist. gen. Ang. lib. I. cap. 4.</note> send to
+ <hi rend="italic">Eleutherius</hi> his predecessour, and hee sent him diuers Bishops, who were all
+ placed by the Kings authoritie. These conuerted men to the faith, and taught
+ them to obey the King. And if the <hi rend="italic">Popes</hi> in these dayes would but insist in these
+ steppes of their fore-fathers; then would they not entertaine Princes fugitiues
+ abroad, nor send them home, not onely without my leaue, but directly against the
+ Lawes, with plots of treason and doctrine of rebellion, to draw Subiects from their
+ obedience to me their naturall King: nor be so cruell to their owne <hi rend="italic">Mancipia</hi>, as
+ returning them with these wares, put either a State in iealousie of them; or them
+ in hazard of their owne liues. Now to our Apostle (since the Cardinall will haue
+ him so called) I perswade my selfe I should doe a good seruice to the Church in
+ this my labour, if I could but reape this one fruit of it, to moue the Cardinall to
+ deale faithfully with the Fathers, &amp; neuer to alledge their opinions against their
+ own purpose: For, this letter of <hi rend="italic">Gregorius</hi> <note anchored="true" place="foot">Greg. lib. II. cap. 42.</note> was written to <hi rend="italic">Iohn</hi> Bishop of <hi rend="italic">Palermo</hi>
+in <hi rend="italic">Sicily</hi>, to whom he granted <hi rend="italic"><foreign xml:lang="lat">vsum pallij</foreign></hi>, to be worne in such times, and in such
+
+<pb n="102"/>
+
+  order as the Priests in the Ile of <hi rend="italic">Sicily</hi>, and his predecessors were wont to vse: and
+  withall giueth him a caueat, <hi rend="italic">That the reuerence to the Apostolike Sea, be not dis-
+  turbed by the presumption of any: for then the state of the members doeth remaine
+  sound, when the head of the Faith is not bruised by any iniury, and the authoritie of
+  the Canons alwayes remaine safe and sound.</hi>
+</p>
+<p>Now let vs examine the words. The Epistle was written to a Bishop, especially
+  to grant him the vse of the Pall; a ceremonie and matter indifferent. As it
+  appeareth, the Bishop of <hi rend="italic">Rome</hi> tooke it well at his hands, that he would not per-
+  sume to take it vpon him without leaue from the Apostolike Sea, giuing him that
+  admonition which followeth in the wordes alledged out of him: which doctrine
+  we are so farre from impugning, that we altogether approoue and allow of the
+  same, that whatsoeuer ceremony for order is thought meet by the Christian
+  Magistrate, and the Church, the same ought inuiolably be to kept: and where
+  the head and gouernour in matters of that nature are not obeyed, the members of
+  that Church must needs run to hellish confusion: But that <hi rend="italic">Gregory</hi> by that terme,
+  <hi rend="italic">caputfidei</hi>, held himselfe the head of our faith, and the head of all religion, cannot
+  stand with the course of his doctrine and writings: For first, when an other
+  would haue had this stile to be called <hi rend="italic">Vniuersalis Episcopus</hi>,<note anchored="true" place="foot">Iohn of Constantinople. See Greg. lib. 4. Epist. 32.</note> hee said, <hi rend="italic">I doe
+  confidently auouch, that whosoeuer called himselfe, or desireth to be called Vniuersall
+  Bishop, in this aduancing of himselfe, is the fore-runner of the Antichrist</hi>: <note anchored="true" place="foot">Lib. 6. Epist. 30.  </note> which
+  notwithstanding was a stile farre inferiour to that of <hi rend="italic"><foreign xml:lang="lat">Caput fidei</foreign></hi>. And when it
+  was offered to himselfe the wordes of S. <hi rend="italic">Gregory</hi> <note anchored="true" place="foot">Greg. lib. 4. epist. 32. &amp; 36.</note> be these, refusing that Title:
+  <hi rend="italic">None of my predecessours</hi> [Bishops of Rome,] <hi rend="italic">euer consented to vse this prophane
+  name</hi> [of vniuerfall Bishop.] <hi rend="italic">None of my predecessours euer tooke vpon him this
+  name of singulartie, neither consented to vse it, Wee the Bishops of</hi> Rome <hi rend="italic">doe not
+  seeke, nor yet accept this glorious title, being offered vnto vs</hi>. And now, I pray you,
+  would he that refused to be called Vniuersall Bishop, be stiled <hi rend="italic"><foreign xml:lang="lat">Caput fidei</foreign></hi>, vnlesse
+  it were in that sense, as I haue expressed ? which sense if he will not admit, giue
+  me leaue to say that of <hi rend="italic">Gregorie</hi>, which himselfe sayeth of <hi rend="italic">Lyra,<note anchored="true" place="foot">Bellar. de Rom. Pont. lib. 2. cap. 10.</note> <foreign xml:lang="lat">Minus cautU+00E8
+  locutus est</foreign></hi>: or which he elsewhere sayth of <hi rend="italic">Chrysostome,<note anchored="true" place="foot">Idem. lib. 2. de Missa, cap. 10.</note> <foreign xml:lang="lat">Locutus est per excessum</foreign>.</hi>
+  To redeeme therefore our Apostle out of his hands, and to let him remaine ours,
+  and not his in this case; it is very trew that he sayth in that sense he spake it.
+  When yee goe about to disturbe, diminish, or take away the authoritie or suprem-
+  acie of the Church, which resteth on the head of the King, within his dominions,
+ye cut off the head and chiefe gouernour thereof, and disturbe the state and mem-
+bers of the whole body. And for a conclusion of this point, I pray him to think,
+that we are so well perswaded of the good minde of our Apostle S. <hi rend="italic">Gregory</hi> to vs,
+that wee desire no other thing to be suggested to the Pope and his Cardinals, then
+our Apostle S. <hi rend="italic">Gregory</hi> <note anchored="true" place="foot">Greg. lib. 7. Epist. I.</note> desired <hi rend="italic">Sabinian</hi> to suggest vnto the Emperour and the
+
+<pb n="103"/>
+
+State in his time. His words be these: <hi rend="italic">One thing there is, of which I would haue
+you shortly to suggest to your most noble Lord and Master: That if I his seruant
+would haue had my hand in slaying of the Lombards, at this day the Nation of the
+Lombards had neither had King, nor Dukes, nor Earles, and had beene diuided
+asunder in vtter confusion: but because I feare God, I dread to haue my hand in the
+blood of any man.</hi>
+</p>
+<p>And thus hauing answered to S. <hi rend="italic">Gregory</hi>, I come to another Pope, his Apostle,
+<hi rend="italic">S. Leo</hi>. And that hee may see, I haue not in the former citations, quarelled him
+like a Sophister for contention sake, but for finding out of the trewth, I doe grant,
+that the authorities out of <hi rend="italic">Leo,<note anchored="true" place="foot">Leo primus in die assump. suae ad Pont. serm. 3; Leo Epist. 89. ad Episc. Vien. Idem ibid. ca. 2.</note></hi> are rightly alledged all three, the wordes trewly
+set downe, together with his trew intent and purpose: but withall, let me tell
+him, and I appeale vnto his owne conscience, whether I speake not trewly, that
+what <hi rend="italic">Tullie</hi> said to <hi rend="italic">Hortensius</hi>,<note anchored="true" place="foot">Cic. in Hort.</note> when he did immoderately praise eloquence, that
+hee would haue lift her vp to Heauen, that himselfe might haue gone vp with her;
+So his S. <hi rend="italic">Leo</hi> lift vp S. <hi rend="italic">Peter</hi> with praises to the skie, that he being his heire, might
+haue gone vp with him: <note anchored="true" place="foot">For so hee calleth himselfe in serm. I. in die assum.</note>    For his S. <hi rend="italic">Leo</hi> was a great Oratour, who by the power
+of his eloquence redeemed <hi rend="italic">Rome</hi> from fire, when both <hi rend="italic">Attilas</hi> and <hi rend="italic">Gensericus</hi>
+would haue burnt it.<note anchored="true" place="foot">Ex breuiario Romano. </note>
+</p>
+<p>Some fruites of this rhetoricke hee bestowed vpon S. <hi rend="italic">Peter</hi>, saying, <hi rend="italic">The Lord</hi> <note anchored="true" place="foot">Epist. 89.</note>
+ <hi rend="italic">did take Peter into the fellowship of the indiuisible vnitie</hi>: which wordes being
+ coupled to the sentence alledged by the Cardinall <hi rend="italic">(that he hath no part in the
+ diuine Mysterie, that dare depart from the soliditie of Peter</hi>) should haue giuen him,
+ I thinke, such a skarre, as hee should neuer haue dared to haue taken any ad-
+ uantage by the wordes immediatly preceding, for the benefite of the Church of
+ <hi rend="italic">Rome</hi>, and the head thereof; since those which immediatly follow, are so much
+ derogatorie to the diuine Maiestie. And againe, <hi rend="italic">My writings <note anchored="true" place="foot">Epist. 52.</note> be strengthened by
+ the authoritie and merit of my Lord, most blessed</hi> S. Peter. <hi rend="italic">We beseech<note anchored="true" place="foot">Epist. 89.</note> you to keepe
+ the things decreed by vs through the inspiration of God, and the Apostle most blessed</hi>
+ S. Peter. <hi rend="italic">If anything <note anchored="true" place="foot">In serm. 2 in die anniuer. assum. sum.</note> be well done, or decreed by vs; If anything be obtained of Gods
+ mercy by daily prayers, it is to be ascribed to</hi> S. Peters <hi rend="italic">workes and merits, whose
+ power doeth liue, and authoritie excell in his owne Sea. Hee was so plentifully <note anchored="true" place="foot">Serm. 3. in die anniuer. assump. sure.</note>
+ watered of the very fountaine of all graces, that whereas he receiued many things alone,
+ yet nothing passeth ouer to any other, but hee was partaker of it</hi>. And in a word, hee
+ was so desirous to extoll Saint Peter, that a messenger from him was <hi rend="italic">an embas-
+ sage<note anchored="true" place="foot">Epist. 24.</note> from</hi> Saint Peter: <hi rend="italic">any thing done in his presence,<note anchored="true" place="foot">Epist. 4.</note> was in</hi> S. Peters <hi rend="italic">presence.</hi>
+ Neither did he vse all this Rhetoricke without purpose: for at that time the
+ Patriarch of <hi rend="italic">Constantinople</hi> contended with him for Primacie. And in the Coun-
+
+<pb n="104"/>
+
+   cell of <hi rend="italic">Chalcedon,</hi><note anchored="true" place="foot">Concil. Chalcedon. Act. 16. &amp; Can. 28.</note> the Bishops, sixe hundred and more, gaue equall authoritie to
+   the Patriarch of that Sea, and would not admit any Priuiledge to the Sea of
+   <hi rend="italic">Rome</hi> aboue him; but went against him. And yet he that gaue so much to <hi rend="italic">Peter,</hi>
+   tooke nothing from <hi rend="italic">Caesar</hi>; but gaue him both his Titles and due, giuing the
+   power of calling a Councell to the Emperour; as it may appeare by these one or
+   two places following of many. <hi rend="italic">If it may please your godlinesse to vouchsafe at our
+   supplication to condiscend, that you will command a Councell of Bishops to be holden
+   within Italy</hi>.<note anchored="true" place="foot">Epist. 9. Theodosio.</note> And writing vnto the Bishop of Constantinople: <hi rend="italic">Because the most
+   clement Emperour,<note anchored="true" place="foot">Epist. 16. Flau.</note> carefull of the peace of the Church, will haue a Councell to be
+   holden; albeit it euidently appeare, the matter to be handled doeth in no case stand in
+   neede of a Councell</hi>. And againe, <hi rend="italic">Albeit my occasions will not permit me to be
+   present vpon the day of the Councell of Bishops, which your godlinesse hath appointed.</hi><note anchored="true" place="foot">Epist. 17. Theodosio.</note>
+   So as by this it may well appeare, that hee that gaue so much to <hi rend="italic">Peter</hi>, gaue also
+   to <hi rend="italic">Caesar</hi> his due and prerogatiue. But yet he playeth not faire play in this, that
+   euen in all these his wrong applied arguments and examples, hee produceth no
+   other witnesses, but the parties themselues; bringing euer the <hi rend="italic">Popes</hi> sentences for
+   approbation of their owne authoritie.
+</p>
+<p>Now indeed for one word of his in the middest of his examples, I cannot but
+  greatly commend him; that is, that Martyrs ought to endure all sorts of tortures
+  and death, before they suffer one syllable to be corrupted of the Law of God.
+  Which lesson, if hee and all the rest of his owne profession would apply to them-
+  selues, then would not the Sacrament be administred <hi rend="italic"><foreign xml:lang="lat">sub vnU+00E2 specie</foreign></hi>, directly con-
+  trary to Christs institution, the practise of the Apostles and of the whole Primitive
+  Church for many hundred yeeres: then would not the priuate Masses be in place
+  of the Lordes Supper: then would not the words of the Canon <note anchored="true" place="foot">Bellar. de sacra Eucharist. lib. 4. cap. 14.</note> of the Masse be
+  opposed to the words of S. <hi rend="italic">Paul</hi> and S. <hi rend="italic">Luke</hi>, as our Aduersarie himselfe con-
+  fesseth, and cannot reconcile them: nor then would not so many hundredths other
+  traditions of men be set vp in their Church, not onely as equall, but euen preferred
+  to the word of God. But sure in this point I feare I haue mistaken him: for I
+  thinke hee doeth not meane by his <hi rend="italic"><foreign xml:lang="lat">Diuina Dogmata</foreign></hi>, the word of the God of
+  heauen, but onely the Canons and Lawes of his <hi rend="italic"><foreign xml:lang="lat">Dominus Deus Papa</foreign></hi>: otherwise
+all his Primacie of the Apostolike Sea would not be so much sticken vpon, hauing
+so slender ground in the word of God.
+</p>
+<p>And for the great feare he hath, that the suddennes of the apprehension, the
+bitternesse of the persecution, the weaknesse of his aage, and other such in-
+firmities might haue been the cause of the Arch-priests fall; in this, I haue
+already sufficiently answered him; hauing declared, as the trewth is, and as the
+said <hi rend="italic">Blackwell</hi> himselfe will yet testifie, that he tooke this Oath freely of himselfe,
+without any inducement thereunto, either <hi rend="italic"><foreign xml:lang="lat">Precibus</foreign></hi> or <hi rend="italic"><foreign xml:lang="lat">Minis</foreign>.</hi>
+
+<pb n="105"/>
+</p>
+<p>But amongst all his citations, hee must not forget holy <hi rend="italic">Sanderus</hi> and his
+ <hi rend="italic">visibilis Monarchia</hi>, whose person and actions I did alreadie a little touch. And
+ surely who will with vnpartiall eyes reade his bookes, they may well thinke, that
+ hee hath deserued well of his English Romane-Church; but they can neuer
+ thinke, but that hee deserued very ill of his English Soueraigne and State: Wit-
+ nesse his owne books; whereout I haue made choice to set downe heere these
+ fewe sentences following, as flowers pickt out of so worthy a garland. <hi rend="italic">Elizabeth<note anchored="true" place="foot">Sand. de visib. Monar. lib. 6. cap. 4.</note>
+ Queene of</hi> ENGLAND, <hi rend="italic">doeth exercise the Priestly acte of teaching and preaching the
+ Gospel in</hi> ENGLAND, <hi rend="italic">with no lesse authority than Christ himselfe, or</hi> Moses <hi rend="italic">euer did.
+ The supremacie of a woman<note anchored="true" place="foot">Sand. de clau. Dauid. li. 6. c. i. </note> in Churchmatters is from no other, then from the Deuil.</hi>
+ And of all things in generall thus he speaketh, <hi rend="italic">The King<note anchored="true" place="foot">Sand. de visib. Monar. lib. 2 cap. 4.</note> that will not inthrall
+ himselfe to the Popes authoritie, he ought not to be tolerated; but his Subiects ought to
+ giue all diligence, that another may be chosen in his place assoone as may be. A King
+ that is an Heretike,<note anchored="true" place="foot">Ibidem.</note> ought to be remooued from the Kingdome that hee holdeth ouer
+ Christians; and the Bishops ought to endeauour to set vp another, assoone as possibly
+ they can. Wee doe constantly affirme,<note anchored="true" place="foot">Ibidem.</note> that all Christian Kings are so farre vnder
+ Bishops and Priests in all matters appertaining to faith, that if they shall continue in a
+ fault against Christian Religion, after one or two admonitions, obstinately, for that
+ cause they may and ought to be deposed by the Bishops from their temporall au-
+ thoritie they holde ouer Christians. Bishops <note anchored="true" place="foot">Ibidem.</note> are set ouer temporall kingdomes, if
+ those kingdomes doe submit themselues to the faith of Christ. We doe iustly affirme,<note anchored="true" place="foot">Sand. de clau. Dauid. li. 5. c. 2.</note>
+ that all Secular power, whether Regall, or any other, is of men. The anoynting<note anchored="true" place="foot">Ibidem.</note>
+ which is powred vpon the head of the King by the Priests, doeth declare that hee is in-
+feriour to the Priest. It is altogether against the will of Christ,<note anchored="true" place="foot">Sand. de clau. Dauid. li. 5. c. 4.</note> that Christian kings
+should haue supremacie in the Church.</hi>
+</p>
+<p>And whereas for the crowne and conclusion of all his examples, he reckoneth
+ his two English Martyrs, <hi rend="italic">Moore</hi> and <hi rend="italic">Roffensis</hi>, who died for that one most
+ weightie head of doctrine, as he alledgeth, refusing the Oath of Supremacie; I
+ must tell him, that he hath not been well informed in some materiall points, which
+ doe very neerely concerne his two said Martyrs: For it is cleare and apparantly
+ to be prooued by diuers Records, that they were both of them committed to the
+ Tower about a yeere before either of them was called in question vpon their liues,
+ for the <hi rend="italic">Popes</hi> Supremacie; And that partly for their backwardnesse in the point
+ of the establishment of the Kings succession, whereunto the whole Realme had
+ subscribed, and partly for that one of them, to wit, <hi rend="italic">Fisher</hi>, had had his hand in the
+ matter of the holy maide of <hi rend="italic">Kent;</hi><note anchored="true" place="foot">Called Elizabeth Barton. See the Act of Parliament.</note> hee being for his concealement of that false
+ prophets abuse, found guiltie of misprision of Treason. And as these were the
+ principall causes of their imprisonment (the King resting secure of his Suprem-
+
+<pb n="106"/>
+
+  acie, as the Realme stood then affected, but especially troubled for setling the
+  Crowne vpon the issue of his second mariage) so was it easily to be conceiued, that
+  being thereupon discontented, their humours were thereby made apt to draw
+  them by degrees, to further opposition against the King and his authoritie, as
+  indeede it fell out: For in the time of their being in prison, the Kings lawfull
+  authoritie in cases Ecclesiasticall being published and promulged, as well by a
+  generall decree of the Clergie in their Synode, as by an Acte of Parliament made
+  thereupon; they behaued themselues so peeuishly therein, as the olde coales of
+  the Kings anger being thereby raked vp of new, they were againe brought in
+  question; as well for this one most weighty head of doctrine of the <hi rend="italic">Pope</hi> his
+  supremacy, as for the matter of the Kings mariage and succession, as by the con-
+  fession of one of themselues, euen <hi rend="italic">Thomas Moore</hi>, is euident: For being con-
+  demned, he vsed these words at the barre before the Lords, <hi rend="italic"><foreign xml:lang="lat">Non ignoro cur me
+  morti adiudicaueritis; videlicet ob id, quU+00F2d nunquam voluerim assentiri in negotio
+  matrimonii Regis.</foreign></hi><note anchored="true" place="foot">Histor. aliquot Martyrum nostri seculi, Anno 1550.</note> That is, <hi rend="italic">I am not ignorant why you haue adiudged mee to death:
+  to wit, for that I would neuer consent in the business of the new mariage of the King.</hi>
+  By which his owne confession it is plaine, that this great martyr himselfe tooke
+  the cause of his owne death, to be onely for his being refractary to the King in
+  this said matter of Marriage and Succession; which is but a very fleshly cause of
+  Martyrdome, as I conceiue.
+</p>
+<p>And as for <hi rend="italic">Roffensis</hi> his fellow Martyr (who could haue bene content to haue
+ taken the Oath of the Kings Supremacie, with a certaine modification, which
+ <hi rend="italic">Moore</hi> refused) as his imprisonment was neither onely, nor principally for the
+ cause of Supremacie, so died hee but a halting and a singular Martyr or witnesse
+ for that most weighty head of doctrine; the whole Church of <hi rend="italic">England</hi> going at
+ that time, in one current and streame as it were against him in that Argument,
+ diuers of them being of farre greater reputation for learning and sound iudge-
+ ment, then euer he was. So as in this point we may well arme our selues with the
+ Cardinals owne reason, where he giueth amongst other notes of the trew Church,
+ <hi rend="italic">Vniuersalitie</hi> for one, wee hauing the generall and Catholique conclusion of the
+ whole Church of <hi rend="italic">England</hi>, on our side in this case, as appeareth by their booke set
+ out by the whole Conuocation of <hi rend="italic">England</hi>, called, <hi rend="italic">The Institution of a Christian
+ man</hi>; the same matter being likewise very learnedly handled by diuers particular
+ learned men of our Church, as by <hi rend="italic">Steuen Gardiner</hi> in his booke <hi rend="italic">De vera obedientia,</hi>
+ with a Preface of Bishop <hi rend="italic">Boners</hi> adioyning to it, <hi rend="italic">De summo &amp; absoluto Regis
+ Imperio</hi>, published by M. <hi rend="italic">Bekinsaw, De vera differentia Regiae Potestatis &amp;
+ Ecclesiasticae</hi>, Bishop  <hi rend="italic">Tonstals</hi> Sermon, Bishop <hi rend="italic">Longlands</hi> Sermon, the letter of
+ <hi rend="italic">Tonstall</hi> to Cardinall <hi rend="italic">Poole</hi>, and diuers other both in English and Latine. And
+ if the bitternesse of <hi rend="italic">Fishers</hi> discontentment had not bene fed with his dayly am-
+ bitious expectation of the Cardinals hat, which came so neere as <hi rend="italic">Calis</hi> before he
+lost his head to fill it with, I haue great reason to doubt, if he would haue con-
+
+
+<pb n="107"/>
+
+stanly perseuered in induring his Martyrdome for that one most waighty head of
+doctrine.
+</p>
+<p>And surely these two Captaines and ringleaders to Martyrdome were but ill
+followed by the rest of their countreymen: for I can neuer reade of any after
+them, being of any great accompt, and that not many, that euer sealed that
+weighty head of doctrine with their blood in <hi rend="italic">England</hi>. So as the trew causes of
+their first falling in trouble (whereof I haue already made mention) being rightly
+considered vpon the one part, and vpon the other the scant number of witnesses,
+that with their blood sealed it (a point so greatly accompted of by our Cardinal)
+there can but smal glory redound thereby to our English nation, these onely two
+<hi rend="italic">Enoch</hi> and <hi rend="italic">Elias</hi>, seruing for witnesses against our Antichristian doctrine.
+</p>
+<p>And I am sure the Supremacie of Kings may, &amp; wil euer be better maintained
+by the word of God (which must euer be the trew rule to discerne all waighty
+heads of doctrine by) to be the trew and proper office of Christian Kings in their
+owne dominions, then he will be euer able to maintaine his annihilating Kings,
+and their authorities, together with his base and vnreuerend speaches of them,
+wherewith both his former great Volumes, and his late Bookes against <hi rend="italic">Venice</hi>
+are filled. In the old Testament, Kings were directly<note anchored="true" place="foot">2. Chron. 19. 4.</note> Gouernours over the
+Church within their Dominions,<note anchored="true" place="foot">2. Sam. 5. 6.</note> purged their corruptions; reformed their abuses,
+brought the Arke<note anchored="true" place="foot">1. Chron. 13. 12. </note> to her resting place, the King<note anchored="true" place="foot">2. Sam. 6. 16.</note> dancing before it; <note anchored="true" place="foot">1. Chron. 28. 6. </note> built the
+Temple; <note anchored="true" place="foot">2. Chron. 6.</note> dedicated the same, assisting in their owne persons to the sanctification
+thereof; made the Booke of the Law <note anchored="true" place="foot">2. King. 22. 1.</note> new-found, to bee read to the people; <note anchored="true" place="foot">Nehe. 9.38.Dauid. Salomon.</note>
+renewed the Couenant between God and his people; <note anchored="true" place="foot">2. King. 18. 4. </note> bruised the brasen serpent
+in pieces, which was set vp by the expresse commandement of God, and was a
+figure of Christ; destroyed all Idoles,<note anchored="true" place="foot">I.King. 15.12; 2.King. 13.4.</note> and false gods; made a publike reforma-
+tion,<note anchored="true" place="foot">2. Chron. 17. 8.</note> by a Commission of Secular men and Priests mixed for that purpose; de-
+posed the high Priest,<note anchored="true" place="foot">1. King. 2. 27.</note> and set vp another in his place: and generally, ordered
+euery thing belonging to the Church-gouernment, their Titles and Prerogatiues
+giuen them by God, agreeing to these their actions. They are called <hi rend="italic">the Sonnes<note anchored="true" place="foot">2. Sam. 7. 14.</note>
+of the most High</hi>, nay, <hi rend="italic">Gods<note anchored="true" place="foot">Psal. 82. 6. &amp; exod. 22. 8.</note> themselues; The Lords<note anchored="true" place="foot">I. Sam. 24. II.</note> anoynted, Sitting in Gods<note anchored="true" place="foot">I. Chro. 9. 8.</note>
+throne; His seruants;<note anchored="true" place="foot">2. Chro. 6. 15.</note> The Angels<note anchored="true" place="foot">2. Sam. 14. 20.</note> of God; According to his hearts desire;<note anchored="true" place="foot">I. Sam. 13. 14.</note> The
+light of Israel;<note anchored="true" place="foot">2. Sam. 21. 17.</note> The nursing fathers of the Church</hi>,<note anchored="true" place="foot">Isa. 49. 23.</note> with innumerable such stiles of
+honour, wherwith the old Testament is filled; whereof our aduersary can pretend
+no ignorance. And as to the new Testament, <hi rend="italic">Euery soule</hi> is commanded <hi rend="italic">to be
+subiect vnto them, euen for conscience sake</hi>.<note anchored="true" place="foot">Rom. 13. 5.</note> All men<note anchored="true" place="foot">I. Tim. 2. 2.</note> must be prayed for; <hi rend="italic">but
+especially Kings, and those that are in Authoritie, that vnder them we may leade a
+godly, peaceable and an honest life.</hi>
+
+<pb n="108"/>
+
+      <hi rend="italic">The Magistrate <note anchored="true" place="foot">Rom. 13. 4.</note> is the minister of God, to doe vengeance on him that doeth euill,
+ and reward him that doeth well. Ye must obey all higher powers, but especially
+ Princes,<note anchored="true" place="foot">1. Pet. 2. 13.</note> and those that are supereminent. Glue euery man his due, feare <note anchored="true" place="foot">Rom. 13. 7.</note> to whom
+feare belongeth, and honour to whome honour. Giue vnto Caesar <note anchored="true" place="foot">Mat. 22. 21.</note> what is Caesars,
+and to God what is Gods.<note anchored="true" place="foot">Iohn 18. 36.</note> <foreign xml:lang="lat">Regnum meum non est huius mundi.</foreign><note anchored="true" place="foot">Luk. 12. 14.</note> <foreign xml:lang="lat">Quis me constituit
+Iudicem super vos ?</foreign> <note anchored="true" place="foot">Luk. 22. 25.</note> <foreign xml:lang="lat">Reges gentium dominantur eorum, vos autem non sic. </foreign></hi>If
+these examples, sentences, titles, and prerogatiues, and innumerable other in the
+Old and New Testament doe not warrant Christian Kings, within their owne
+dominions, to gouerne their Church, as well as the rest of their people, in being
+<hi rend="italic"><foreign xml:lang="lat">Custodes vtriusque Tabulae</foreign></hi>, not by making new Articles of Faith, (which is the
+Popes office, as I said before) but by commanding obedience to be giuen to the
+word of God, by reforming the religion according to his prescribed will, by
+assisting the spirituall power with the temporall sword, by reforming of corrup-
+tions, by procuring due obedience to the Church, by iudging, and cutting off all
+friuolous questions and schismes, as <hi rend="italic">Constantine</hi> <note anchored="true" place="foot">Euseb. lib. 3. de vita Constantini.</note> did; and finally, by making
+<hi rend="italic">decorum</hi> to be obserued in euery thing, and establishing orders to bee obserued in
+all indifferent things for that purpose, which is the onely intent of our Oath of Su-
+premacie: If this Office of a King, I say, doe not agree with the power giuen him
+by Gods word, let any indifferent man voyd of passion, iudge. But how these
+honourable offices, styles, and prerogatiues giuen by God to Kings in the Old and
+New Testament, as I haue now cited, can agree with the braue styles and titles
+that <hi rend="italic">Bellarmine</hi> giueth them, I can hardly conceiue.</p>
+<p>That <hi rend="italic">Kings are rather slaues then Lords.</hi><note anchored="true" place="foot">De laicis cap. 7. </note></p>
+<p>That <hi rend="italic">they are not onely subiects to Popes, to Bishops, to Priests, but euen to
+Deacons.</hi><note anchored="true" place="foot">De Pont. li. i. cap. 7. </note></p>
+<p>That <hi rend="italic">an Emperour must content himselfe to drinke, not onely after a Bishop, but
+after a Bishops Chaplen.</hi><note anchored="true" place="foot">Ibidem.</note></p>
+<p>That <hi rend="italic">Kings haue not their Authoritie nor Office immediatly from God, nor his
+Law, but onely from the Laws of Nations.</hi><note anchored="true" place="foot">Ibid. &amp; de Cler. cap. 28. </note></p>
+<p>That <hi rend="italic">Popes haue degraded many Emperours, but neuer Emperour degraded the
+Pope; nay, euen Bishops</hi><note anchored="true" place="foot">De Rom. Pontif. lib. 5. cap. 8.</note> that are but the Popes vassals, <hi rend="italic">may depose Kings, and
+abrogate their lawes.</hi><note anchored="true" place="foot">De Pont. lib. 3. cap. 6.</note></p>
+<p>That <hi rend="italic">Church-men are so farre aboue Kings, as the soule is aboue the body.</hi><note anchored="true" place="foot">De laicis cap. 8.</note></p>
+<p>That <hi rend="italic">Kings may be deposed by their people, for diuers respects.</hi><note anchored="true" place="foot">De Pont. li. 5. cap. 18.</note></p>
+<p>But <hi rend="italic">Popes can by no meanes be deposed: for no flesh hath power to iudge of them.</hi><note anchored="true" place="foot">De Pon. lib. 2. cap. 26.</note></p>
+<p>That <hi rend="italic">obedience due to the Pope, is for conscience sake.</hi><note anchored="true" place="foot">De Pont. lib. 4. cap. 15.</note></p>
+<p>But <hi rend="italic">the obedience due to Kings, is onely for certaine respects of order and policie.</hi><note anchored="true" place="foot">De Clericis, cap. 28.</note>
+
+<pb n="109"/>
+</p>
+<p>That <hi rend="italic">these very Church-men that are borne, and inhabite in Soueraigne Princes
+  countreys, are notwithstanding not their Subiects, and cannot bee iudged by them,
+  although they may iudge them.</hi><note anchored="true" place="foot">Ibidem. </note>
+</p>
+<p>And, that <hi rend="italic">the obedience that Church-men glue to Princes, euen in the meanest
+  and meere temporall things, is not by way of any necessarie subiection, but onely out of
+  discretion, and for obseruation of good order and custome.</hi><note anchored="true" place="foot">Ibidem.</note>
+</p>
+<p>These contrarieties betweene the Booke of God, and <hi rend="italic">Bellarmines</hi> bookes,
+ haue I heere set in opposition each to other, <hi rend="italic">Vt ex contrariis iuxta se positis,
+ veritas magis elucescere possit</hi>. And thus farre I dare boldly affirme, that who-
+ soeuer will indifferently weigh these irreconciliable contraditions here set downe,
+ will easily confesse, that CHRIST is no more contrarie to Belial, light to darknesse,
+ and heauen to hell, then <hi rend="italic">Bellarmines</hi> estimation of Kings, is to Gods.
+</p>
+<p>Now as to the conclusion of his letter, which is onely filled with strong and
+ pithie exhortations, to perswade and confirme <hi rend="italic">Blackwell</hi> to the patient and con-
+ stant induring of martyrdome, I haue nothing to answere, saue by way of regrate;
+ that so many good sentences drawen out of the Scripture, so well and so hand-
+ somely packed vp together, should be so ill and vntrewly applied: But an euill
+ cause is neuer the better for so good a cloake; and an ill matter neuer amended by
+ good wordes: And therefore I may iustly turne ouer that craft of the diuell vpon
+ himselfe, in vsing so holy-like an exhortation to so euill a purpose. Onely I could
+ haue wished him, that hee had a little better obserued his <hi rend="italic"><foreign xml:lang="lat">decorum</foreign></hi> herein, in not
+ letting slippe two or three prophane words amongst so many godly mortified
+ Scripture sentences. For in all the Scripture, especially in the New Testament, I
+ neuer read of <hi rend="italic"><foreign xml:lang="lat">Pontifex Maximus</foreign></hi>. And the Pope must be content in that style to
+ succeed according to the Law and institution of <hi rend="italic"><foreign xml:lang="lat">Numa Pompilius</foreign></hi>, and not to
+ <hi rend="italic">S. Peter</hi>, who neuer heard not dreamed of such an Office.
+</p>
+<p>And for his <hi rend="italic"><foreign xml:lang="lat">Caput fidei</foreign></hi>, which I remembred before, the Apostles (I am sure)
+ neuer gaue that style to any, but to CHRIST: So as these styles, whereof some were
+ neuer found in Scripture, and some were neuer applyed but to CHRIST in that
+ sense, as hee applieth it, had beene better to haue beene left out of so holy and
+ mortified a letter.
+</p>
+<p>To conclude then this present Discourse, I heartily with all indifferent readers
+of the <hi rend="italic">Breues</hi> and Letter, not to iudge by the speciousnesse of the wordes, but by
+the weight of the matter; not looking to that which is strongly alledged, but
+iudiciously to consider what is iustly prooued: And for all my owne good and
+naturall Subiects, that their hearts may remaine established in the trewth; that
+these forraine inticements may not seduce them from their natall and naturall
+duetie; and that all aswell strangers, as naturall subiects, to whose eyes this Dis-
+course shall come, may wisely and vnpartially iudge of the Veritie, as it is nakedly
+here set downe, for clearing these mists and cloudes of calumnies, which were
+iniustly heaped vpon me; for which end onely I heartily pray the courteous
+Reader to be perswaded, that I tooke occasion to publish this Discourse.
+
+<pb n="110"/>
+</p></div>
+   </div>
+  </body>
+ </text>
+</TEI>
