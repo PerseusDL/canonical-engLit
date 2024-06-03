@@ -3,11 +3,12 @@
   urn="urn:cts:engLit:james1.speech1605"
   xml:lang="eng">
     <ti:title xml:lang="eng">
-
+        A Speach In The Parliament Hovse, As Neere The Very Words As Covld Be Gathered At The Instant.
     </ti:title>
   <ti:edition urn="urn:cts:engLit:james1.speech1605.perseus-eng1" workUrn="urn:cts:engLit:james1.speech1605" xml:lang="eng">
-    <ti:label xml:lang="eng"></ti:label>
+    <ti:label xml:lang="eng">Speech 1605</ti:label>
     <ti:description xml:lang="eng">
+        A Speach In The Parliament Hovse, As Neere The Very Words As Covld Be Gathered At The Instant.
             </ti:description>
   </ti:edition>
 </ti:work>
