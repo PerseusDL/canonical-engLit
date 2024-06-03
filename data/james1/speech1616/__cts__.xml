@@ -1,0 +1,16 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:james1"
+  urn="urn:cts:engLit:james1.speech1616"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+        A Speach In The Starre-Chamber, The XX. Of Jvne. Anno 1616.
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:james1.speech1616.perseus-eng1" workUrn="urn:cts:engLit:james1.speech1616" xml:lang="eng">
+    <ti:label xml:lang="eng">
+        Speech 1616
+    </ti:label>
+    <ti:description xml:lang="eng">
+        A Speach In The Starre-Chamber, The XX. Of Jvne. Anno 1616.
+    </ti:description>
+  </ti:edition>
+</ti:work>
