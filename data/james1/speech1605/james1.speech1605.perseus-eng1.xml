@@ -68,10 +68,10 @@
 
   <body>
    <div type="edition" n="urn:cts:engLit:james1.speech1605.perseus-eng1" xml:lang="eng">
-    <div subtype="section" type="textpart" n="1">
+    
      <head>A Speach In The Parliament Hovse, As Neere The Very Words As Covld Be Gathered At The Instant.</head>
 
-    <div subtype="subsection" type="textpart" n="0">
+    <div subtype="section" type="textpart" n="0">
 
      <p>MY Lords Spirituall and Temporall, and you the Knights and Burgesses of this Parliament, It
       was farre from my thoughts till very lately before my comming to this place, that this Subiect
@@ -130,7 +130,7 @@
      <p>In this great and horrible attempt, whereof the like was neuer either heard or read, I
       obserue three wonderfull, or rather miraculous euents. </p>
     </div>
-    <div subtype="subsection" type="textpart" n="1">
+    <div subtype="section" type="textpart" n="1">
      <head>1</head>
 
 
@@ -160,7 +160,7 @@
       and inanimate things, and amongst them all, the most cruell are the two Elements of Water and
       Fire; and of those two, the fire most raging and mercilesse.</p>
     </div>
-    <div subtype="subsection" type="textpart" n="2">
+    <div subtype="section" type="textpart" n="2">
      <head>2</head>
 
      <p>Secondly, how wonderfull it is when you shall thinke vpon the small, or rather no ground,
@@ -177,7 +177,7 @@
       repentance, except onely that he doeth not yet stand to auow, that he repents for not being
       able to performe his intent.</p>
     </div>
-    <div subtype="subsection" type="textpart" n="3">
+    <div subtype="section" type="textpart" n="3">
      <head>3</head>
 
      <p>Thirdly, the discouery hereof is not a little wonderfull, which would bee thought the more
@@ -415,7 +415,7 @@
       are well ynough cleared, and resolued. <pb n="290"/>
      </p>
     </div>
-   </div>
+   
    </div>
   </body>
  </text>
