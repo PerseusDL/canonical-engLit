@@ -1,0 +1,14 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:james1"
+  urn="urn:cts:engLit:james1.speech1603"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+        A Remonstrance For The Right Of Kings, And The Independance Of Their Crownes.
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:james1.speech1603.perseus-eng1" workUrn="urn:cts:engLit:james1.speech1603" xml:lang="eng">
+    <ti:label xml:lang="eng">A Defence of the Right of Kings</ti:label>
+    <ti:description xml:lang="eng">
+        A Remonstrance For The Right Of Kings, And The Independance Of Their Crownes.
+    </ti:description>
+  </ti:edition>
+</ti:work>
