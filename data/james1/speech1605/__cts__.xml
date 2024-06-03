@@ -1,0 +1,13 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:james1"
+  urn="urn:cts:engLit:james1.speech1605"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:james1.speech1605.perseus-eng1" workUrn="urn:cts:engLit:james1.speech1605" xml:lang="eng">
+    <ti:label xml:lang="eng"></ti:label>
+    <ti:description xml:lang="eng">
+            </ti:description>
+  </ti:edition>
+</ti:work>
