@@ -3,12 +3,12 @@
   urn="urn:cts:engLit:james1.speech1603"
   xml:lang="eng">
     <ti:title xml:lang="eng">
-        A Remonstrance For The Right Of Kings, And The Independance Of Their Crownes.
+A Speach, As It Was Delivered In The Vpper Hovse Of The Parliament To The Lords Spiritvall And Temporall, And To The Knights, Citizens And Burgesses There Assembled,
     </ti:title>
   <ti:edition urn="urn:cts:engLit:james1.speech1603.perseus-eng1" workUrn="urn:cts:engLit:james1.speech1603" xml:lang="eng">
-    <ti:label xml:lang="eng">A Defence of the Right of Kings</ti:label>
+    <ti:label xml:lang="eng">Speech of 1603</ti:label>
     <ti:description xml:lang="eng">
-        A Remonstrance For The Right Of Kings, And The Independance Of Their Crownes.
+A Speach, As It Was Delivered In The Vpper Hovse Of The Parliament To The Lords Spiritvall And Temporall, And To The Knights, Citizens And Burgesses There Assembled,
     </ti:description>
   </ti:edition>
 </ti:work>
