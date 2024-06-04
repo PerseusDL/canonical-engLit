@@ -35,7 +35,7 @@
    <sourceDesc>
     <biblStruct>
      <monogr>
-      <title>The Politial Works of James I: Reprinted from the Edition of 1616</title>
+      <title>The Political Works of James I: Reprinted from the Edition of 1616</title>
       <author>James I</author>
       <editor role="editor">Charles Howard McIlwain</editor>
       <imprint>
@@ -69,8 +69,8 @@
 
   <body>
    <div type="edition" n="urn:cts:engLit:james1.speech1607.perseus-eng1" xml:lang="eng">
-    
-    
+
+
 
     <div subtype="section" type="textpart" n="1">
      <head>A SPEACH TO BOTH THE HOVSES OF PARLIAMENT, DELIVERED IN THE GREAT CHAMBER AT
@@ -658,7 +658,7 @@
       signe, I shall with GODS grace euer performe. <pb n="306"/>
      </p>
     </div>
-   
+
    </div>
   </body>
  </text>
