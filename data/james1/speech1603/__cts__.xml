@@ -7,8 +7,6 @@ A Speach, As It Was Delivered In The Vpper Hovse Of The Parliament To The Lords 
     </ti:title>
   <ti:edition urn="urn:cts:engLit:james1.speech1603.perseus-eng1" workUrn="urn:cts:engLit:james1.speech1603" xml:lang="eng">
     <ti:label xml:lang="eng">Speech of 1603</ti:label>
-    <ti:description xml:lang="eng">
-A Speach, As It Was Delivered In The Vpper Hovse Of The Parliament To The Lords Spiritvall And Temporall, And To The Knights, Citizens And Burgesses There Assembled,
-    </ti:description>
+    <ti:description xml:lang="eng">James I. The Political Works of James I: Reprinted from the Edition of 1616. McIlwain, Charles Howard, editor. Cambridge: Harvard University Press, 1918.</ti:description>
   </ti:edition>
 </ti:work>
