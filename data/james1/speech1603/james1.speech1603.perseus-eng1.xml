@@ -65,7 +65,7 @@
   </revisionDesc>
  </teiHeader>
  <text>
-  
+
   <body>
    <div type="edition" n="urn:cts:engLit:james1.speech1603.perseus-eng1" xml:lang="eng">
  <div subtype="section" type="textpart" n="1"><head>A SPEACH, AS IT WAS DELIVERED IN THE VPPER HOVSE OF
@@ -508,8 +508,8 @@ grace, to take account of you, which is properly my calling.
  me in good will and thankefulnesse of requitall by their alacritie and readinesse
  in declaring and receiuing mee to that place which God had prouided for mee,
  and not any particular persons: (for then it had not bene the body) So is my
- thankefulnesse due to the whole State. For euen as in matter of faults, <hi rend="italic"><foreign xml:lang="la">Quod U+00E0
- multis peccatur, impunU+00E8 peccatur</foreign></hi>: Euen so in the matter of vertuous and good
+ thankefulnesse due to the whole State. For euen as in matter of faults, <hi rend="italic"><foreign xml:lang="la">Quod à
+ multis peccatur, impunè peccatur</foreign></hi>: Euen so in the matter of vertuous and good
  deedes, what is done by the willing consent and harmonie of the whole body, no
  particular person can iustly claime thankes as proper to him for the same. And
  therefore I must heere make a little Apologie for my selfe, in that I could not
@@ -586,8 +586,8 @@ hands.
 <pb n="281"/>
 </p>
 </div>
- </div>   
-    
+ </div>
+
    </div>
   </body>
  </text>

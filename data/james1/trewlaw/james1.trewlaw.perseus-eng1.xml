@@ -49,7 +49,7 @@
    <refsDecl n="CTS">
     <cRefPattern matchPattern="(.+)" n="work" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
    </refsDecl>
-   
+
 
 
 
@@ -72,7 +72,7 @@
    <div subtype="subsection" type="textpart">
     <head>AN ADVERTISEMENT
     <lb/><hi rend="smallcap">To the Reader.</hi></head>
-    
+
     <p><hi rend="italic">ACCEPT, I pray you (my deare countreymen) as thankefully this Pamphlet
      that I offer vnto you, as louingly it is written for your weale. I would be loath
      both to be faschious, and fectlesse: And therefore, if it be not sententious, at least it is
@@ -94,7 +94,7 @@
      pleasure. But least the whole Pamphlet runne out at the gaping mouth of this Preface,
      if it were any more enlarged; I end, with committing you to God, and me to your
      charitable censures.</hi>
-    </p></div>  
+    </p></div>
   </front>
   <body>
    <div type="edition" n="urn:cts:engLit:james1.trewlaw.perseus-eng1" xml:lang="eng">
@@ -909,7 +909,7 @@ happy in ruling ouer so louing and obedient subiects.
 <pb n="71"/>
 </p>
 
-    
+
    </div>
    </div>
   </body>
