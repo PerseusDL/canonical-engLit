@@ -28,7 +28,6 @@ def convert_entities(line):
     line = re.sub('&Ocirc;', u"\u00D4", line)
     line = re.sub('&ocirc;', u"\u00F4", line)
     line = re.sub('&ucirc;', u"\u00FB", line)
-
     line = re.sub('&auml;', u"\u00E4", line)
     line = re.sub('&euml;', u"\u00EB", line)
     line = re.sub('&iuml;', u"\u00EF", line)
@@ -87,8 +86,6 @@ def convert_entities(line):
     line = line.replace('&frac12;', u"\u00BD")
     line = line.replace('&frac14;', u"\u00BC")
     line = line.replace('&frac34;', u"\u00BE")
-
-
     return line
 
 
@@ -99,7 +96,6 @@ def process_line(line):
 
 
 if __name__ == "__main__":
-
     logger = logging.getLogger(__name__)
     logging.basicConfig(filename='log.log', encoding='utf-8', level=logging.DEBUG)
     start = False
