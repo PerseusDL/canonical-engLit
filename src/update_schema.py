@@ -55,6 +55,9 @@ def convert_entities(line):
     line = re.sub('&szlig;', u"\u00DF", line)
 
     line = re.sub('&sect;', u"\u00A7", line)
+    line = line.replace('&mdash;', u"\u2014")
+    line = line.replace('&lsquo;', u"\u2018")
+    line = line.replace('&rsquo;', u"\u2019")
 
     line = line.replace('&mdash;', u"\u2014")
     line = line.replace('&ndash;', u"\u2013")
