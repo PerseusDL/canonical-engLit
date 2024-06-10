@@ -79,4 +79,45 @@
         </revisionDesc> 
     </xsl:template>
 
+    <xsl:template match="tei:reg">
+        <xsl:apply-templates />
+    </xsl:template>
+
+    <xsl:template match="tei:foreign">
+        <foreign xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:attribute name="xml:lang">
+                <xsl:value-of select="@lang"/>
+            </xsl:attribute>
+            <xsl:apply-templates />
+        </foreign>
+    </xsl:template>
+    
+    <xsl:template match="tei:castList|tei:castGroup">
+        <listPerson xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:apply-templates></xsl:apply-templates>
+        </listPerson>
+    </xsl:template>
+    
+    <xsl:template match="tei:castItem">
+        <person xmlns="http://www.tei-c.org/ns/1.0">
+            
+            <xsl:attribute name="xml:id">
+                <xsl:value-of select="tei:role/@id"/>
+            </xsl:attribute>
+            
+            <xsl:apply-templates />
+        </person>
+    </xsl:template>
+    
+    <xsl:template match="tei:role">
+        <persName xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:apply-templates />
+        </persName>
+    </xsl:template>
+    
+    <xsl:template match="tei:roleDesc">
+        <note xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:apply-templates />
+        </note>
+    </xsl:template>
 </xsl:stylesheet>
