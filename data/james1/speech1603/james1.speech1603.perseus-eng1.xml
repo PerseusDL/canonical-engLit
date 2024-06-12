@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+   <titleStmt>
+    <title type="main">A Speach, As It Was Delivered In The Vpper Hovse Of The Parliament To The Lords Spiritvall And Temporall, And To The Knights, Citizens And Burgesses There Assembled,</title>
+    <title type="sub">On Mvnday The XIX. Day Of March 1603. Being The First Day Of The First Parliament.</title>
+
+    <author>James I</author>
+    <editor role="editor">Charles Howard McIlwain</editor>
+    <respStmt>
+     <resp>Prepared under the supervision of</resp>
+     <name>Lisa Cerrato</name>
+     <name>Anne Mahoney</name>
+     <name>David Smith</name>
+     <name>Clifford Wulfman</name>
+    </respStmt>
+    <funder n="org:Tufts">Tufts University</funder>
+   </titleStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+    <date type="release" when="2001" cert="high">Perseus 3.0</date>
+    <idno type="filename">james1.speech1603.perseus-eng1.xml</idno>
+    <availability>
+     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative
+      Commons Attribution-ShareAlike 4.0 International License</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>The Political Works of James I: Reprinted from the Edition of 1616</title>
+      <author>James I</author>
+      <editor role="editor">Charles Howard McIlwain</editor>
+      <imprint>
+       <pubPlace>Cambridge</pubPlace>
+       <publisher>Harvard University Press</publisher>
+       <date>1918</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <refsDecl n="CTS">
+    <cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)"
+     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+     <p>This pointer pattern extracts section.</p>
+    </cRefPattern>
+   </refsDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="eng">English</language>
+    <language ident="lat">Latin</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2000-03-29" who="Tony Lilly">markup</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+
+  <body>
+   <div type="edition" n="urn:cts:engLit:james1.speech1603.perseus-eng1" xml:lang="eng">
+ <div subtype="section" type="textpart" n="1"><head>A SPEACH, AS IT WAS DELIVERED IN THE VPPER HOVSE OF
+THE PARLIAMENT TO THE LORDS SPIRITVALL AND
+            TEMPORALL, AND TO THE KNIGHTS, CITIZENS
+                      AND BURGESSES THERE ASSEMBLED,<lb/>
+
+ ON MVNDAY THE XIX. DAY OF MARCH 1603. BEING THE FIRST DAY OF
+                                        THE FIRST PARLIAMENT.</head>
+
+<div subtype="subsection" type="textpart" n="0"><p> IT did no sooner please God to lighten his hand, and relent the violence of his
+     deuouring Angel against the poore people of this Citie, but as soone did I
+ resolue to call this Parliament, and that for three chiefe and principall reasons:
+ The first whereof is, (and which of it selfe, although there were no more, is not
+ onely a sufficient, but a most full and necessary ground and reason for conuening
+ of this Assembly) This first reason I say is, That you who are here presently
+ assembled to represent the Body of this whole Kingdome, and of all sorts of
+ people within the same, may with your owne eares heare, and that I out of mine
+ owne mouth may deliuer vnto you the assurance of my due thankefulnes for your
+ so ioyfull and generall applause to the declaring and receiuing of mee in this
+ Seate (which GOD by my Birthright and lineall descent had in the fulnesse of
+ time prouided for me) and that, immediatly after it pleased God to call your late
+ Soueraigne of famous memory, full of dayes, but fuller of immortall trophes of
+ Honour, out of this transitorie life. Not that I am able to expresse by wordes, or
+ vtter by eloquence the viue Image of mine inward thankfulnes, but onely that
+ out of mine owne mouth you may rest assured to expect that measure of thanke-
+ fulnes at my hands, which is according to the infinitenes of your deserts, and to
+ my inclination and abilitie for requital of the same. Shall I euer ? nay, can I
+ euer be able, or rather so vnable in memorie, as to forget your vnexpected readi-
+ nesse and alacritie, your euer memorable resolution, and your most wonderfull
+ coniunction and harmonie of your hearts in declaring and embracing mee as your
+ vndoubted and lawfull King and Gouernour ? Or shall it euer bee blotted out of
+ my minde, how at my first entrie into this Kingdome, the people of all sorts rid
+ and ran, nay rather flew to meet mee ? their eyes flaming nothing but sparkles of
+ affection, their mouthes and tongues vttering nothing but sounds of ioy, their
+ hands, feete, and all the rest of their members in their gestures discouering a pas-
+ sionate longing, and earnestnesse to meete and embrace their new Soueraigne.
+ <hi rend="italic"><foreign xml:lang="la">Quid ergo retribuam</foreign></hi> ? Shall I allow in my selfe, that which I could neuer beare
+ with in another ? No I must plainely and freely confesse here in all your au-
+ diences, that I did euer naturally so farre mislike a tongue to smoothe, and diligent
+ in paying their creditors with lip payment and verball thankes, as I euer sus-
+pected that sort of people meant not to pay their debtors in more substantiall
+
+
+<pb n="270"/>
+
+sort of coyne. And therefore for expressing of my thankefulnesse, I must resort
+vnto the other two reasons of my conuening of this Parliament, by them in action
+to vtter my thankefulnesse: Both the said reasons hauing but one ground, which
+is the deedes, whereby all the dayes of my life, I am by Gods grace to expresse my
+said thankfulnesse towards you, but diuided in this, That in the first of these
+two, mine actions of thankes, are so inseparably conioyned with my Person, as
+they are in a maner become indiuidually annexed to the same: In the other reason,
+mine actions are such, as I may either doe them, or leaue them vndone, although
+by Gods grace I hope neuer to be weary of the doing of them.
+</p>
+<p>As to the first: It is the blessings which God hath in my Person bestowed vpon
+ you all, wherein I protest, I doe more glorie at the same for your weale, then for
+ any particular respect of mine owne reputation, or aduantage therein.
+
+</p></div>
+<div subtype="subsection" type="textpart" n="1"><head>1</head>
+
+<p>The first then of these blessings, which God hath ioyntly with my Person sent
+vnto you, is outward Peace: that is, peace abroad with all forreine neighbours:
+for I thanke God I may iustly say, that neuer since I was a King, I either receiued
+wrong of any other Christian Prince or State, or did wrong to any: I haue euer, I
+praise God, yet kept Peace and amitie with all, which hath bene so farre tyed to
+my person, as at my comming here you are witnesses I found the State embar-
+qued in a great and tedious warre, and onely by mine arriuall here, and by the
+Peace in my Person, is now amitie kept, where warre was before, which is no smal
+blessing to a Christian Common-wealth: for by Peace abroad with their neigh-
+bours the Townes flourish, the Merchants become rich, the Trade doeth encrease,
+and the people of all sorts of the Land enioy free libertie to exercise themselues in
+their seuerall vocations without perill or disturbance. Not that I thinke this out-
+ward Peace so vnseparably tyed to my Person, as I dare assuredly promise to my
+selfe and to you, the certaine continuance thereof: but thus farre I can very well
+assure you, and in the word of a King promise vnto you, That I shall neuer giue
+the first occasion of the breach thereof, neither shall I euer be moued for any par-
+ticular or priuate passion of mind to interrupt your publique Peace, except I be
+forced thereunto, either for reparation of the honour of the Kingdom, or else by
+necessitie for the weale and preseruation of the same: In which case, a secure and
+honourable warre must be preferred to an vnsecure and dishonourable Peace:
+yet doe I hope by my experience of the by-past blessings of Peace, which God
+hath so long euer since my Birth bestowed vpon mee, that hee wil not be weary
+to continue the same, nor repent him of his grace towards me, transferring that
+sentence of King <hi rend="italic">Dauids</hi> vpon his by-past victories of warre, to mine of Peace,
+That, <hi rend="italic">that God who preserued me from the deuouring iawes of the Beare and of the
+Lion, and deliuered them into my hands, shall also now grant me victory ouer that
+vncircumcised Philistine.</hi>
+
+<pb n="271"/>
+</p></div>
+<div subtype="subsection" type="textpart" n="2"><head>2</head>
+
+<p>But although outward Peace be a great blessing; yet is it as farre inferiour to
+peace within, as Ciuill warres are more cruell and vnnaturall then warres abroad.
+And therefore the second great blessing that GOD hath with my Person sent vnto
+you, is Peace within, and that in a double forme. First, by my descent lineally
+out of the loynes of <hi rend="italic">Henry</hi> the seuenth, is reunited and confirmed in mee the Vnion
+of the two Princely Roses of the two Houses of LANCASTER and YORKE, whereof
+that King of happy memorie was the first Vniter, as he was also the first ground-
+layer of the other Peace. The lamentable and miserable euents by the Ciuill and
+bloody dissention betwixt these two Houses was so great and so late, as it need
+not be renewed vnto your memories: which, as it was first setled and vnited in
+him, so is it now reunited and confirmed in me, being iustly and lineally descended,
+not onely of that happie coniunction, but of both the Branches thereof many
+times before. But the Vnion of these two princely Houses, is nothing comparable
+to the Vnion of two ancient and famous Kingdomes, which is the other inward
+Peace annexed to my Person.
+</p>
+<p>And here I must craue your patiences for a little space, to giue me leaue to dis-
+course more particularly of the benefits that doe arise of that Vnion which is made
+in my blood, being a matter that most properly belongeth to me to speake of, as
+the head wherein that great Body is vnited. And first, if we were to looke no
+higher then to naturall and Physicall reasons, we may easily be perswaded of the
+great benefits that by that Vnion do redound to the whole Island: for if twentie
+thousand men be a strong Armie, is not the double thereof, fourtie thousand, a
+double the stronger Armie ? If a Baron enricheth himselfe with double as many
+lands as hee had before, is he not double the greater ? Nature teacheth vs, that
+Mountaines are made of Motes, and that at the first, Kingdomes being diuided,
+and euery particular Towne or little Countie, as Tyrants or Vsurpers could ob-
+taine the possession, a Segniorie apart, many of these little Kingdomes are now in
+processe of time, by the ordinance of God, ioyned into great Monarchies, whereby
+they are become powerfull within themselues to defend themselues from all out-
+ward inuasions, and their head and gouernour thereby enabled to redeeme them
+from forreine assaults, and punish priuate transgressions within. Do we not yet
+remember, that this Kingdome was diuided into seuen little Kingdomes, besides
+Wales ? And is it not now the stronger by their vnion ? And hath not the vnion
+of Wales to England added a greater strength thereto ? Which though it was a
+great Principalitie, was nothing comparable in greatnesse and power to the
+ancient and famous Kingdome of Scotland. But what should we sticke vpon any
+naturall appearance, when it is manifest that God by his Almightie prouidence
+hath preordained it so to be ? Hath not God first vnited these two Kingdomes
+both in Language, Religion, and similitude of maners ? Yea, hath hee not made
+vs all in one Island, compassed with one Sea, and of it selfe by nature so indiuisible,
+
+<pb n="272"/>
+as almost those that were borderers themselues on the late Borders, cannot
+distinguish, nor know, or discerne their owne limits ? These two Countries being
+separated neither by Sea, nor great Riuer, Mountaine, nor other strength of
+nature, but onely by little small brookes, or demolished little walles, so as rather
+they were diuided in apprehension, then in effect; And now in the end and ful-
+nesse of time vnited, the right and title of both in my Person, alike lineally
+descended of both the Crownes, whereby it is now become like a little World
+within it selfe, being intrenched and fortified round about with a naturall, and
+yet admirable strong pond or ditch, whereby all the former feares of this Nation
+are now quite cut off: The other part of the Island being euer before now not
+onely the place of landing to all strangers, that was to make inuasion here, but
+likewise moued by the enemies of this State by vntimely incursions, to make
+inforced diuersion from their Conquests, for defending themselues at home, and
+keeping sure their backe-doore, as then it was called, which was the greatest
+hinderance and let that euer my Predecessors of this Nation gat in disturbing them
+from their many famous and glorious conquests abroad: What God hath con-
+ioyned then, let no man separate. I am the Husband, and all the whole Isle is my
+lawfull Wife; I am the Head, and it is my Body; I am the Shepherd, and it is my
+flocke: I hope therefore no man will be so vnreasonable as to thinke that I that
+am a Christian King vnder the Gospel, should be a Polygamist and husband to
+two wiues; that I being the Head, should haue a diuided and monstrous Body;
+or that being the Shepheard to so faire a Flocke (whose fold hath no wall to
+hedge it but the foure Seas) should haue my Flocke parted in two. But as I am
+assured, that no honest Subiect of whatsoeuer degree within any whole dominions,
+is lesse glad of this ioyfull Vnion then I am; So may the friuolous obiection of any
+that would bee hinderers of this worke, which God hath in my Person already
+established, bee easily answered, which can be none, except such as are either
+blinded with Ignorance, or els transported with Malice, being vnable to liue in a
+well gouerned Commonwealth, and onely delighting to fish in troubled waters.
+For if they would stand vpon their reputation and priuiledges of any of the King-
+domes, I pray you was not both the Kingdomes Monarchies from the beginning,
+and consequently could euer the Body bee counted without the Head, which was
+euer vnseparably ioyned thereunto ? So that as Honour and Priuiledges of any
+of the Kingdomes could not be diuided from their Soueraigne; So are they now
+confounded &amp; ioyned in my Person, who am equall and alike kindly Head to you
+both. When this Kingdome of <hi rend="italic">England</hi> was diuided into so many little King-
+doms as I told you before; one of them behooued to eate vp another, till they
+were all vnited in one. And yet can <hi rend="italic">Wiltshire</hi> or <hi rend="italic">Deuonshire</hi>, which were of the
+<hi rend="italic">West Saxons</hi>, although their Kingdome was of longest durance, and did by Con-
+quest ouercome diuers of the rest of the little Kingdomes, make claime to Prioritie
+of Place or Honour before <hi rend="italic">Sussex, Essex</hi>, or other Shires which were conquered by
+them ? And haue we not the like experience in the Kingdome of <hi rend="italic">France</hi>, being
+
+<pb n="273"/>
+ composed of diuers Dutchies, and one after another conquered by the sword ?
+ For euen as little brookes lose their names by their running and fall into great
+ Riuers, and the very name and memorie of the great Riuers swallowed vp in the
+ Ocean: so by the coniunction of diuers little Kingdomes in one, are all these
+ priuate differences and questions swallowed vp. And since the successe was
+ happie of the <hi rend="italic">Saxons</hi> Kingdomes being conquered by the speare of <hi rend="italic">Bellona;</hi><note anchored="true" place="foot">Mars.</note>
+ How much greater reason haue wee to expect a happie issue of this greater Vnion,
+ which is only fastened and bound vp by the wedding Ring of <hi rend="italic">Astrea</hi> ? <note anchored="true" place="foot">Loue and Peace.</note> And as
+ God hath made <hi rend="italic">Scotland</hi> the one halfe of this Isle to enioy my Birth, and the first
+ and most vnperfect halfe of my life, and you heere to enioy the perfect and the
+ last halfe thereof; so can I not thinke that any would be so iniurious to me, no
+ not in their thoughts and wishes, as to cut asunder the one halfe of me from the
+ other. But in this matter I haue farre enough insisted, resting assured that in
+ your hearts and mindes you all applaud this my discourse.
+</p></div>
+<div subtype="subsection" type="textpart" n="3"><head>3</head>
+
+<p>Now although these blessings before rehearsed of Inward and Outward peace,
+ be great: yet seeing that in all good things, a great part of their goodnesse and
+ estimation is lost, if they haue not appearance of perpetuity or long continuance;
+ so hath it pleased Almighty God to accompany my person also with that fauour,
+ hauing healthful and hopefull Issue of my body, whereof some are here present,
+ for continuance and propagation of that vndoubted right which is in my Person;
+ vnder whom I doubt not but it will please God to prosper and continue for many
+ yeeres this Vnion, and all other blessings of Inward and outward Peace, which I
+ haue brought with me.</p></div>
+<div subtype="subsection" type="textpart" n="4"><head>4</head>
+
+<p>Bvt neither Peace outward, nor Peace inward, nor any other blessings that
+can follow thereupon, nor appearance of the perpetuitie thereof, by propagation
+in the posteritie, is but a weake pillar and a rotten reed to leane vnto, if God doe
+not strengthen and by the staffe of his blessing make them durable: For in
+vaine doeth the Watchman watch the Citie, if the Lord be not the principall
+defence thereof: In vaine doeth the builder build the house, if God giue not the
+successe: And in vaine (as <hi rend="italic">Paul</hi> saith) doeth <hi rend="italic">Paul</hi> plant and <hi rend="italic">Apollo</hi> water, if God
+giue not the increase: For all worldly blessings are but like swift passing shadowes,
+fading flowers, or chaffe blowen before the wind, if by the profession of trew
+Religion, and works according thereunto, God be not moued to maintaine and
+settle the Thrones of Princes. And although that since mine entry into this
+Kingdome, I haue both by meeting with diuers of the Ecclesiastical Estate, and
+likewise by diuers Proclamations clearely declared my minde in points of Re-
+ligion, yet doe I not thinke it amisse in this so solemne an Audience, I should now
+
+
+<pb n="274"/>
+take occasion to discouer somewhat of the secrets of my heart in that matter:
+For I shall neuer (with Gods grace) bee ashamed to make publike profession
+thereof at all occasions, lest God should bee ashamed to professe and allow mee
+before men and Angels, especially lest that at this time men might presume
+further vpon the misknowledge of my meaning to trouble this Parliament of ours
+then were conuenient. At my first comming, although I found but one Religion,
+and that which by my selfe is professed, publikely allowed, and by the Law
+maintained: Yet found I another sort of Religion, besides a priuate Sect, lurking
+within the bowels of this Nation. The first is the trew Religion, which by me is
+professed, and by the Law is established: The second is the falsly called Catho-
+likes, but trewly Papists: The third, which I call a sect rather then Religion, is
+the <hi rend="italic">Puritanes</hi> and <hi rend="italic">Nouelists</hi>, who doe not so farre differ from vs in points of Re-
+ligion, as in their confused forme of Policie and Paritie, being euer discontented
+with the present gouernment, &amp; impatient to suffer any superiority, which maketh
+their sect vnable to be suffred in any wel gouerned Commonwealth. But as for
+my course toward them, I remit it to my Proclamations made vpon that Subiect.
+And now for the Papists, I must put a difference betwixt mine owne priuate pro-
+fession of mine owne saluation, and my politike gouernment of the Realme for
+the weale and quietnes thereof. As for mine owne profession, you haue me your
+Head now amongst you of the same Religion that the body is of. As I am no
+stranger to you in blood, no more am I a stranger to you in Faith, or in the mat-
+ters concerning the house of God. And although this my profession be according
+to mine education, wherein (I thanke God) I sucked the milke of Gods trewth,
+with the milke of my Nurse: yet do I here protest vnto you, that I would neuer
+for such a conceit of constancy or other preiudicate opinion, haue so firmly kept
+my first profession, if I had not found it agreeable to all reason, and to the rule
+of my Conscience. But I was neuer violent nor vnreasonable in my profession:
+I acknowledge the Romane Church to be our Mother Church, although defiled
+with some infirmities and corruptions, as the Iewes were when they crucified
+Christ: And as I am none enemie to the life of a sicke man, because I would haue
+his bodie purged of ill humours; no more am I enemie to their Church, because I
+would haue them reforme their errors, not wishing the downethrowing of the
+Temple, but that it might be purged and cleansed from corruption: otherwise
+how can they wish vs to enter, if their house be not first made cleane ? But as I
+would be loather to dispense in the least point of mine owne Conscience for any
+worldly respect, then the foolishest Precisian of them all; so would I bee as sory
+to straight the politique Gouernement of the bodies and mindes of all my Sub-
+iectes to my priuate opinions: Nay, my minde was euer so free from persecution,
+or thralling of my Subiects in matters of Conscience, as I hope that those of that
+profession within this Kingdome haue a proofe since my comming, that I was so
+farre from encreasing their burdens with <hi rend="italic">Rehoboam</hi>, as I haue so much as either
+time, occasion, or law could permit, lightened them. And euen now at this time
+
+<pb n="275"/>
+
+ haue I bene carefull to reuise and consider deepely vpon the Lawes made against
+ them, that some ouerture may be proponed to the present Parliament for clearing
+ these Lawes by reason (which is the soule of the Law) in case they haue bene in
+ times past further, or more rigorously extended by Iudges, then the meaning of
+ the Law was, or might tend to the hurt aswell of the innocent as of guiltie per-
+ sons. And as to the persons of my Subiects which are of that profession, I must
+ diuide them into two rankes, Clerickes and Layickes; for the part of the Layicks,
+ certainely I euer thought them farre more excusable then the other sort, because
+ that sort of Religion containeth such an ignorant, doubtfull, and implicit kinde
+ of faith in the Layickes grounded vpon their Church, as except they doe generally
+ beleeue whatsoeuer their Teachers please to affirme, they cannot be thought
+ guilty of these particular points of heresies and corruptions, which their Teachers
+ doe so wilfully professe. And againe I must subdiuide the same Layickes into two
+ rankes, that is, either quiet and well minded men, peaceable Subiects, who either
+ being old, haue retayned their first drunken in liquor vpon a certaine shamefast-
+ nesse to be thought curious or changeable: Or being young men, through euil
+ education haue neuer bene nursed or brought vp, but vpon such venim in place of
+ wholesome nutriment. And that sort of people I would be sorry to punish their
+ bodies for the errour of their minds, the reformation whereof must onely come of
+ God and the trew Spirit. But the other ranke of Layicks, who either through
+ Curiositie, affectation of Noueltie, or discontentment in their priuat humours,
+ haue changed their coates, onely to be factious stirrers of Sedition, and Perturb-
+ ers of the common wealth, their backwardnesse in their Religion giueth a ground
+ to me the Magistrate, to take the better heed to their proceeding, and to correct
+ their obstinacie. But for the part of the Clerickes, I must directly say and
+ affirme, that as long as they maintaine one speciall point of their doctrine, and
+ another point of their practise, they are no way sufferable to remaine in this
+ Kingdome. Their point of doctrine is that arrogant and ambitious Supremacie
+ of their Head the Pope, whereby he not onely claimes to bee Spirituall head of all
+ Christians, but also to haue an Imperiall ciuill power ouer all Kings and Em-
+ perors, dethroning and decrowning Princes with his foot as pleaseth him, and
+ dispensing and disposing of all Kingdomes and Empires at his appetite. The
+ other point which they obserue in continuall practise, is the assassinates and
+ murthers of Kings, thinking it no sinne, but rather a matter of saluation, to doe
+ all actions of rebellion and hostilitie against their naturall Soueraigne Lord, if he
+ be once cursed, his subiects discharged of their fidelitie, and his Kingdome giuen
+ a prey by that three crowned Monarch, or rather Monster their Head. And in
+ this point, I haue no occasion to speake further here, sauing that I could wish
+ from my heart, that. it would please God to make me one of the members of such
+a generall Christian vnion in Religion, as laying wilfulnesse aside on both hands,
+wee might meete in the middest, which is the Center and perfection of all things.
+For if they would leaue, and be ashamed of such new and grosse Corruptions of
+
+<pb n="276"/>
+theirs, as themselues cannot maintaine, nor denie to bee worthy of reformation,
+I would for mine owne part be content to meete them in the mid-way, so that all
+nouelties might be renounced on either side. For as my faith is the Trew, Ancient
+Catholike and Apostolike faith, grounded vpon the Scriptures and expresse word
+of God: so will I euer yeeld all reuerence to antiquitie in the points of Ecclesiasti-
+call pollicy; and by that meanes shall I euer with Gods grace keepe my selfe
+from either being an hereticke in Faith, or schismatick in matters of Pollicie.
+But of one thing would I haue the Papists of this Land to bee admonished, That
+they presume not so much vpon my Lenitie (because I would be loath to be
+thought a Persecuter) as thereupon to thinke it lawfull for them dayly to en-
+crease their number and strength in this Kingdome, whereby if not in my time,
+at least in the time of my posteritie, they might be in hope to erect their Religion
+againe. No, let them assure themselues, that as I am a friend to their persons
+if they be good subiects: so am I a vowed enemie, and doe denounce mortall
+warre to their errors: And that as I would be sory to bee driuen by their ill
+behauiour from the protection and conseruation of their bodies and liues; So
+will I neuer cease as farre as I can, to tread downe their errors and wrong opinions.
+For I could not permit the encrease and growing of their Religion, without first
+betraying of my selfe, and mine owne conscience: Secondly, this whole Isle,
+aswell the part I am come from, as the part I remaine in, in betraying their Liber-
+ties, and reducing them to the former slauish yoke, which both had casten off,
+before I came amongst them: And thirdly, the libertie of the Crowne in my
+posteritie, which I should leaue againe vnder a new slauery, hauing found it left
+free to me by my Predecessors. And therefore would I wish all good Subiects
+that are deceiued with that corruption, first if they find any beginning of instinc-
+tion in themselues of knowledge and loue to the Trewth, to foster the same by all
+lawfull meanes, and to beware of quenching the spirit that worketh within them;
+And if they can find as yet no motion tending that way, to be studious to reade
+and conferre with learned men, and to vse all such meanes as may further their
+Resolution, assuring themselues, that as long as they are disconformable in Re-
+ligion from vs, they cannot bee but halfe my Subiects, bee able to doe but halfe
+seruice, and I to want the best halfe of them, which is their soules. And here
+haue I occasion to speake to you my Lords the Bishops: For as you, my Lord of
+Durham, said very learnedly to day in your Sermon, Correction without instruc-
+tion, is but a Tyrannie: So ought you, and all the Clergie vnder you, to be more
+carefull, vigilant, and diligent then you haue bene, to winne Soules to God, aswell
+by your exemplary life, as doctrine. And since you see how carefull they are,
+sparing neither labour, paines, nor extreme perill of their persons to diuert, (the
+Deuill is so busie a Bishop) yee should bee the more carefull and wakefull in your
+charges. Follow the rule prescribed you by S. <hi rend="italic">Paul, Bee carefull to exhort and to
+instruct in season, and out of season</hi>: and where you haue beene any way sluggish
+before, now waken your selues vp againe with a new diligence in this point, re-
+
+<pb n="277"/>
+
+ mitting the successe to God, who calling them either at the second, third, tenth
+ or twelfth houre, as they are alike welcome to him, so shall they bee to mee his
+ Lieutenant here.
+</p>
+<p>The third reason of my conuening of you at this time, which conteineth such
+ actions of my thankefulnesse toward you, as I may either doe, or leaue vndone,
+ yet shall with Gods grace euer presse to performe all the dayes of my life: It
+ consists in these two points; In making of Lawes at certaine times, which is
+ onely at such times as this in Parliament; or in the carefull execution thereof at
+ all other times. As for the making of them, I will thus farre faithfully promise
+ vnto you, That I will euer preferre the weale of the body and of the whole Com-
+ mon-wealth, in making of good Lawes and constitutions, to any particular or
+ priuate ends of mine, thinking euer the wealth and weale of the Common-wealth
+ to bee my greatest weale and worldly felicitie: A point wherein a lawfull King
+ doeth directly differ from a Tyrant. But at this time I am onely thus farre to
+ forewarne you in that point, That you beware to seeke the making of too many
+ Lawes, for two especiall reasons: First, because <hi rend="italic">In corruptissima Republica
+ plurimae leges</hi>; and the execution of good Lawes is farre more profitable in a
+ Common-wealth, then to burden mens memories with the making of too many of
+ them. And next, because the making of too many Lawes in one Parliament, will
+ bring in confusion, for lacke of leisure wisely to deliberate before you conclude:
+ For the Bishop said well to day, That to Deliberation would a large time be giuen,
+ but to Execution a greater promptnesse was required. As for the execution of
+ good Lawes, it hath bene very wisely and honourably foreseene and ordered by
+ my predecessours in this Kingdome, in planting such a number of Iudges, and all
+ sorts of Magistrates in conuenient places for the execution of the same: And
+ therefore must I now turne mee to you that are Iudges and Magistrates vnder
+ mee, as mine Eyes and Eares in this case. I can say none otherwise to you, then
+ as <hi rend="italic">Ezekias</hi> the good King of Iuda said to their Iudges, <hi rend="italic">Remember that the Thrones
+ that you sit on are Gods, and neither yours nor mine</hi>: And that as you must be
+ answerable to mee, so must both you and I be answerable to GOD, for the due
+ execution of our Offices. That place is no place for you to vtter your affections
+ in, you must not there hate your foe nor loue your friend, feare the offence of the
+ greater partie or pity the miserie of the meaner; yee must be blinde and not see
+ distinctions of persons, handlesse, not to receiue bribes; but keepe that iust
+ temper and mid-course in all your proceedings, that like a iust ballance ye may
+ neither sway to the right nor left hand. Three principall qualities are required
+ in you; Knowledge, Courage, and Sinceritie: that you may discerne with knowl-
+ edge, execute with courage, and doe both in vpright sinceritie. And as for my
+part, I doe vow and protest here in the presence of God, and of this honourable
+Audience, I neuer shall be wearie, nor omit no occasion, wherein I may shew my
+carefulnesse of the execution of good Lawes. And as I wish you that are Iudges
+not to be weary in your Office in doing of it; so shall I neuer be wearie, with Gods
+grace, to take account of you, which is properly my calling.
+
+<pb n="278"/>
+</p>
+<p>And thus hauing tolde you the three causes of my conuening of this Parlia-
+  ment, all three tending onely to vtter my thankefulnesse, but in diuers formes, the
+  first by word, the other two by action; I doe confesse that when I haue done and
+  performed all that in this Speech I haue promised, <hi rend="italic"><foreign xml:lang="la">Inutilis seruus sum</foreign></hi>: Inutile,
+  because the meaning of the word <hi rend="italic"><foreign xml:lang="la">Inutilis</foreign></hi> in that place of Scripture is vnderstood,
+  that in doing all the seruice which wee can to God, it is but our due, and wee doe
+  nothing to God but that which wee are bound to doe. And in like maner, when I
+  haue done all that I can for you, I doe nothing but that which I am bound to do,
+  and am accomptable to God vpon the contrary: For I doe acknowledge, that the
+  speciall and greatest point of difference that is betwixt a rightfull King and an
+  vsurping Tyrant is in this; That whereas the proude and ambitious Tyrant doeth
+  thinke his Kingdome and people are onely ordeined for satisfaction of his desires
+  and vnreasonable appetites; The righteous and iust King doeth by the contrary
+  acknowledge himselfe to bee ordeined for the procuring of the wealth and pros-
+  peritie of his people, and that his greatest and principall worldly felicitie must
+  consist in their prosperitie. If you bee rich I cannot bee poore, if you bee happy
+  I cannot but bee fortunate, and I protest that your welfare shall euer be my
+  greatest care and contentment: And that I am a Seruant it is most trew, that as I
+  am Head and Gouernour of all the people in my Dominion who are my naturall
+  vassals and Subiects, considering them in numbers and distinct Rankes; So if
+  wee will take the whole People as one body and Masse, then as the Head is
+  ordeined for the body and not the Body for the Head; so must a righteous King
+  know himselfe to bee ordeined for his people, and not his people for him: For
+  although a King and people be <hi rend="italic"><foreign xml:lang="la">Relata</foreign></hi>; yet can hee be no King if he want people
+  and Subiects. But there be many people in the world that lacke a Head, where-
+  fore I will neuer bee ashamed to confesse it my principall Honour to bee the great
+  Seruant of the Common-wealth, and euer thinke the prosperitie thereof to be my
+  greatest felicitie, as I haue already said.
+</p>
+<p>But as it was the whole Body of thisKingdome, with an vniforme assent and
+ harmonie, as I told you in the beginning of my Speech, which did so farre oblige
+ me in good will and thankefulnesse of requitall by their alacritie and readinesse
+ in declaring and receiuing mee to that place which God had prouided for mee,
+ and not any particular persons: (for then it had not bene the body) So is my
+ thankefulnesse due to the whole State. For euen as in matter of faults, <hi rend="italic"><foreign xml:lang="la">Quod à
+ multis peccatur, impunè peccatur</foreign></hi>: Euen so in the matter of vertuous and good
+ deedes, what is done by the willing consent and harmonie of the whole body, no
+ particular person can iustly claime thankes as proper to him for the same. And
+ therefore I must heere make a little Apologie for my selfe, in that I could not
+ satisfie the particular humours of euery person, that looked for some aduance-
+ ment or reward at my hand since my entrie into this Kingdome. Three kinde of
+ things were craued of mee: Aduancement to honour, Preferment to place of
+Credit about my Person, and Reward in matters of land or profit. If I had
+
+<pb n="279"/>
+  bestowed Honour vpon all, no man could haue beene aduanced to Honour: for
+  the degrees of Honour doe consist in perferring some aboue their fellowes. If
+  euery man had the like accesse to my Priuy or Bed-chamber, then no man could
+  haue it, because it cannot containe all. And if I had bestowed Lands and Re-
+  wards vpon euery man, the fountaine of my liberalitie would be so exhausted and
+  dried, as I would lacke meanes to bee liberall to any man. And yet was I not so
+  sparing, but I may without vaunting affirme that I haue enlarged my fauour in
+  all the three degrees, towards as many and more then euer King of <hi rend="italic">England</hi> did
+  in so short a space: No, I rather craue your pardon that I haue beene so bounti-
+  full: for if the meanes of the Crowne bee wasted, I behoued then to haue recourse
+  to you my Subiects, and bee burdensome to you, which I would bee lothest to bee
+  of any King aliue. For as it is trew, that as I haue already said, it was a whole
+  Body which did deserue so well at my hand, and not euery particular person of
+  the people: yet were there some who by reason of their Office, credit with the
+  people or otherwise, tooke occasion both before, and at the time of my comming
+  amongst you, to giue proofe of their loue and affection towards me. Not that I
+  am any way in doubt, that if other of my Subiects had beene in their places, and
+  had had the like occasion, but they would haue vttered the like good effects, (so
+  generall and so great were the loue and affection of you all towards mee:) But yet
+  this hauing beene performed by some speciall persons, I could not without vn-
+  thankfulnesse but requite them accordingly. And therefore had I iust occasion to
+  aduance some in Honour, some to places of seruice about mee, and by rewarding
+  to enable some who had deserued well of mee, and were not otherwise able to
+  maintaine the rankes I thought them capable of, and others who although they
+  had not particularly deserued before, yet I found them capable and worthy of
+  place of preferment and credit, and not able to sustaine those places for which
+  I thought them fit, without my helpe. Two especiall causes moued mee to be so
+  open handed: whereof the one was reasonable and honourable; but the other
+  I will not bee ashamed to confesse vnto you, proceeded of mine owne infirmitie.
+That which was iust and honourable, was: That being so farre beholding to the
+body of the whole State, I thought I could not refuse to let runne some small
+brookes out of the fountaine of my thankefulnesse to the whole, for refreshing of
+particular persons that were members of that multitude. The other which pro-
+ceeded out of mine owne infirmitie, was the multitude and importunitie of
+Sutors. But although reason come by infusion in a maner, yet experience groweth
+with time and labour: And therefore doe I not doubt, but experience in time com-
+ming will both teach the particular Subiects of this Kingdome, not to be so im-
+portune and vndiscreete in crauing: And mee not to be so easily and lightly
+mooued, in granting that which may be harmefull to my Estate, and consequently
+to the whole Kingdome.
+</p>
+<p>And thus hauing at length declared vnto you my minde in all the points, for
+the which I called this Parliament: My conclusion shall onely now be to excuse
+
+<pb n="280"/>
+
+my selfe, in case you haue not found such Eloquence in my Speech, as peraduen-
+ture you might haue looked for at my hands. I might, if I list, alledge the great
+weight of my Affaires and my continuall businesse and distraction, that I could
+neuer haue leasure to thinke vpon what I was to speake, before I came to the
+place where I was to speak: And I might also alledge that my first sight of this
+so famous and Honourable an Assembly, might likewise breede some impedi-
+ment. But leauing these excuses, I will plainely and freely in my maner tell you
+the trew cause of it, which is; That it becommeth a King, in my opinion, to vse
+no other Eloquence then plainnesse and sinceritie. By plainenesse I meane, that
+his Speeches should be so cleare and voyd of all ambiguitie, that they may not be
+throwne, nor rent asunder in contrary sences like the old Oracles of the Pagan
+gods. And by sinceritie, I vnderstand that vprightnsse and honestie which
+ought to be in a Kings whole Speeches and actions: That as farre as a King is in
+Honour erected aboue any of his Subiects, so farre should he striue in sinceritie
+to be aboue them all, and that his tongue should be euer the trew Messenger of
+his heart: and this sort of Eloquence may you euer assuredly looke for at my
+hands.
+
+<pb n="281"/>
+</p>
+</div>
+ </div>
+
+   </div>
+  </body>
+ </text>
+</TEI>

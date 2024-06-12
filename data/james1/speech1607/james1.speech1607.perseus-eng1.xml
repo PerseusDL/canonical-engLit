@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+      <titleStmt>
+          <title>
+              A Speach To Both The Hovses Of Parliament, Delivered In The Great Chamber At White-Hall, The Last Day Of March 1607.
+          </title>
+
+    <author>James I</author>
+    <editor role="editor">Charles Howard McIlwain</editor>
+    <respStmt>
+     <resp>Prepared under the supervision of</resp>
+     <name>Lisa Cerrato</name>
+     <name>Anne Mahoney</name>
+     <name>David Smith</name>
+     <name>Clifford Wulfman</name>
+    </respStmt>
+    <funder n="org:Tufts">Tufts University</funder>
+   </titleStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+    <date type="release" when="2001" cert="high">Perseus 3.0</date>
+    <idno type="filename">james1.speech1607.perseus-eng1.xml</idno>
+    <availability>
+     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative
+      Commons Attribution-ShareAlike 4.0 International License</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>The Political Works of James I: Reprinted from the Edition of 1616</title>
+      <author>James I</author>
+      <editor role="editor">Charles Howard McIlwain</editor>
+      <imprint>
+       <pubPlace>Cambridge</pubPlace>
+       <publisher>Harvard University Press</publisher>
+       <date>1918</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <refsDecl n="CTS">
+    <cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)"
+     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+     <p>This pointer pattern extracts section.</p>
+    </cRefPattern>
+   </refsDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="eng">English</language>
+    <language ident="lat">Latin</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2000-03-29" who="Tony Lilly">markup</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+
+  <body>
+   <div type="edition" n="urn:cts:engLit:james1.speech1607.perseus-eng1" xml:lang="eng">
+
+
+
+    <div subtype="section" type="textpart" n="1">
+     <head>A SPEACH TO BOTH THE HOVSES OF PARLIAMENT, DELIVERED IN THE GREAT CHAMBER AT
+      WHITE-HALL,<lb/> THE LAST DAY OF MARCH 1607.</head>
+     <p>MY Lords of the higher House, and you Knights and Burgesses of the Lower house, All men at
+      the beginning of a Feast bring foorth good Wine first, and after, worse. This was the saying
+      of the Gouernour of the Feast at <hi rend="italic">Cana</hi> in <hi rend="italic">Galile,</hi>
+      where CHRIST wrought his first miracle by changing water into Wine. But in this case now
+      whereof I am to speake vnto you, I must follow that Gouernours rule, and not CHRISTS example,
+      in guing you the worst and sowrest Wine last. For all the time of this long Session of the
+      Parliament you haue bene so fed and cloy'd, (specially you of the Lower house) with such
+      banquets, and choise of delicate speeches, and your eares so seasoned with the sweetnesse of
+      long precogitate Orations; as this my Speach now in the breaking vp of this Assembly, cannot
+      but appeare vnto your taste as the worst Wine proposed in the end of the Banquet, since I am
+      onely to deliuer now vnto you matter without curious forme, substance without ceremonie,
+      trewth in all sinceritie. Yet considering the Person that speaketh, the parties to whom I
+      speake, the matter whereof I meane to speake; it fits better to vtter matter, rather then
+      wordes, in regard of the greatnesse of my place who am to speak to you, the grauitie of you
+      the Auditorie, which is the high Court of Parliament; the weight of the matter, which
+      concernes the securitie and establishment of this whole Empire, and litle world. Studied
+      Orations and much eloquence vpon little matter is fit for the Vniuersities, where not the
+      Subiect which is spoken of, but the triall of his wit that speaketh, is most commendable: but
+      on the contrary, in all great Councels of Parliaments, fewest wordes with most matter doeth
+      become best, where the dispatch of the great errands in hand, and not the praise of the person
+      is most to bee looked vnto: like the garment of a chaste woman, who is onely set forth by her
+      naturall beautie, which is properly her owne: other deckings are but ensignes of an harlot
+      that flies with borrowed feathers. And besides the conueniencie, I am forced hereunto by
+      necessitie, my place calling me to action, and not leauing me to the libertie of
+      contemplation, hauing alwayes my thoughts busied with the publique care of you all, where
+      euery one of you hauing but himselfe, and his owne priuate to thinke of, are at more leisure
+      to make studied speeches. And therefore the matter which I deliuer you confusedly as in a
+      sacke, I leaue it to you when you are in your chambers, and haue better leysure then I can
+      haue, to ranke them in order, euery one in their owne place. <pb n="291"/>
+     </p>
+     <p>Thus much by way of Preface. But I proceed to the matter: Whereof I might say with <hi
+       rend="italic">S. Paul</hi>, I could speake in as many tongues as you all, but I had rather
+      speake three wordes to edification, then talke all day without vnderstand- ing. In vaine
+      (saith the <hi rend="italic">Psalmist</hi>) doeth the builder build the house, or the watch-
+      man watch the Citie, vnlesse the Lord giue his blessing thereunto. And in the New Testament S.
+       <hi rend="italic">Paul</hi> saith, That hee may plant, <hi rend="italic">Apollo</hi> may
+      water, but it is GOD onely that must giue the increase. This I speake, because of the long
+      time which hath bene spent about the Treatie of the Vnion. For my selfe, I protest vnto you
+      all, When I first propounded the Vnion, I then though there could haue bene no more question
+      of it, then of your declaration and acknowledgement of my right vnto this Crowne, and that as
+      two Twinnes, they would haue growne vp together. The errour was my mistaking; I knew mine owne
+      ende, but not others feares: But now finding many crossings, long disputations, strange
+      questions, and nothing done; I must needs thinke it proceeds either of mistaking of the
+      errand, or else from some iealousie of me the Propounder, that you so adde delay vnto delay,
+      searching out as it were the very bowels of Curiositie, and conclude nothing. Neither can I
+      condemne you for being yet in some iealousie of my intention in this matter, hauing not yet
+      had so great experience of my behauiour and inclination in these few yeeres past, as you may
+      peraduenture haue in a longer time hereafter and not hauing occasion to consult dayly with my
+      selfe, and heare mine owne opinion in all those particulars which are debated among you. </p>
+     <p>But here I pray you now mistake mee not at the first, when as I seeme to finde fault with
+      your delayes and curiositie, as if I would haue you to resolue in an houres time, that which
+      will take a moneths aduisement: for you all know, that <hi rend="italic"><foreign
+        xml:lang="lat">Rex est lex loquens</foreign></hi>; And you haue oft heard mee say, That the
+      Kings will and intention being the speaking Law, ought to bee <hi rend="italic"><foreign
+        xml:lang="lat">Luce clarius</foreign></hi>: and I hope you of the Lower house haue the proofe
+      of this my clearnesse by a Bil sent you downe from the Vpper house within these few dayes, or
+      rather few houres: wherein may well appeare vnto you the care I haue to put my Subiects in
+      good securitie of their possessions for all posterities to come. And therefore that you may
+      clearely vnderstand my meaning in that point, I doe freely confesse, you had reason to aduise
+      at leasure vpon so great a cause: for great matters doe euer require great deliberation before
+      they be well concluded. <hi rend="italic"><foreign xml:lang="lat">Deliberandum est diu quod
+        statuendum est semel</foreign></hi>. Consultations must proceed <hi rend="italic"><foreign
+        xml:lang="lat">lento pede</foreign></hi>, but the execution of a sentence vpon the resolution
+      would be speedie. If you will goe on, it matters not though you goe with leaden feet, so you
+      make still some progresse, and that there be no let or needlesse delay, and doe not <hi
+       rend="italic"><foreign xml:lang="lat">Nodum in scirpo quU+00E6rere</foreign></hi>. I am euer
+      for the <hi rend="italic">Medium</hi> in euery thing. Betweene foolish rashnesse and extreame
+      length, there is a middle way. Search all that is reasonable, but omit that which is idle,
+      curious and vnnecessary; otherwise there can neuer be a resolution or end in any good worke.
+       <pb n="292"/>
+     </p>
+     <p>And now from the generall I wil descend to particulars, and wil onely for the ease of your
+      memories diuide the matter that I am to speake of, into foure heads, by opening vnto you,
+      First, what I craue: Secondly, in what maner I desire it: Thirdly, what commodities will ensue
+      to both the Kingdomes by it: Fourthly, what the supposed inconueniencie may be that giues
+      impediments thereunto. </p>
+     <p>For the first, what I craue, I protest before GOD who knowes my heart, and to you my people
+      before whom it were a shame to lie, that I claime nothing but with acknowledgement of my Bond
+      to you; that as yee owe to me subiection and obedience: So my Soueraigntie obligeth mee to
+      yeeld to you loue, gouernment and protection: Neither did I euer wish any happinesse to my
+      selfe, which was not conioyned with the happinesse of my people. I desire a perfect Vnion of
+      Lawes and persons, and such a Naturalizing as may make one body of both Kingdomes vnder mee
+      your King, That I and my posteritie (if it so please God) may rule ouer you to the worlds
+      ende; Such an Vnion as was of the Scots and Pictes in Scotland, and of the Heptarchie here in
+      England. And for Scotland I auow such an Vnion, as if you had got it by Conquest, but such a
+      Conquest as may be ce- mented by loue, the onely sure bond of subiection or friendship: that
+      as there is ouer both but <hi rend="italic">vnus Rex</hi>, so there may be in both but <hi
+       rend="italic"><foreign xml:lang="lat">vnus Grex &amp; vna Lex</foreign></hi>: For no more
+      possible is it for one King to gouerne two Countreys <hi rend="italic">Contiguous</hi>, the
+      one a great, the other a lesse, a richer and a poorer, the greater drawing like an Ada- mant
+      the lesser to the Commodities thereof, then for one head to gouerne two bodies, or one man to
+      be husband of two wiues, whereof Christ himselfe said, <hi rend="italic"><foreign
+        xml:lang="lat">Ab initio non fuit sic</foreign>.</hi>
+     </p>
+     <p>But in the generall Vnion you must obserue two things: for I will discouer my thoughts
+      plainly vnto you; I study clearenes, not eloquence, And therefore with the olde Philosophers,
+      I would heartily wish my brest were a transparent glasse for you all to see through, that you
+      might looke into my heart, and then would you be satisfied of my meaning. For when I speake of
+      a perfect Vnion, I meane not confusion of all things: you must not take from Scotland those
+      particular Priuiledges that may stand as well with this Vnion, as in England many particular
+      customes in particular Shires, (as the Customes of Kent, and the Royalties of the Countie
+      Palatine of Chester) do with the Common Law of the Kingdome: for euery particular Shire
+      almost, and much more euery Countie, haue some particu- lar customes that are as it were
+      naturally most fit for that people. But I meane of such a generall Vnion of Lawes as may
+      reduce the whole Iland, that as they liue already vnder one Monarch, so they may all bee
+      gouerned by one Law: For I must needs confesse by that little experience I haue had since my
+      comming hither, and I thinke I am able to prooue it, that the grounds of the Common Law of
+      England, are the best of any Law in the world, either Ciuil or Municipall, and the fittest for
+      this people. But as euery Law would be cleare and full, so the obscuritie in some points of
+      this our written Law, and want of fulnesse in others, the variation of Cases and mens
+      curiositie, breeding euery day new questions, <pb n="293"/> hath enforced the Iudges to iudge
+      in many Cases here, by Cases and presidents, wherein I hope Lawyers themselues will not denie
+      but that there must be a great vncertaintie, and I am sure all the rest of you that are
+      Gentlemen of other pro- fessions were long agoe wearie of it, if you could haue had it
+      amended: For where there is varietie and vncertaintie although a iust Iudge may do rightly,
+      yet an ill Iudge may take aduantage to doe wrong; and then are all honest men that succeede
+      him, tied in a maner to his vniust and partiall conclusions. Where- fore, leaue not the Law to
+      the pleasure of the Iudge, but let your Lawes be looked into: for I desire not the abolishing
+      of the Lawes, but onely the clearing and the sweeping off the rust of them, and that by
+      Parliament our Lawes might be cleared and made knowen to all the Subiects. Yea rather it were
+      lesse hurt, that all the approued Cases were set downe and allowed by Parliament for standing
+      Lawes in all time to come: For although some of them peraduenture may bee vniust as set downe
+      by corrupt Iudges; yet better it is to haue a certaine Law with some spots in it, nor liue
+      vnder such an vncertaine and arbitrarie Law, since as the prouerbe is, It is lesse harme to
+      suffer an inconuenience then a mischiefe. And now may you haue faire occasion of amending and
+      polishing your Lawes, when Scotland is to bee vnited with you vnder them: for who can blame
+      Scotland to say, If you will take away our owne Lawes, I pray you giue vs a better and cleerer
+      in place thereof. </p>
+     <p>But this is not possible to bee done without a fit preparation. Hee that buildeth a Ship,
+      must first prouide the timber; and as Christ himselfe said, No man will build an house, but he
+      will first prouide the materials: nor a wise King will not make warre against another, without
+      he first make prouision of money: and all great workes must haue their preparation: and that
+      was my end in causing the Instrument of the Vnion to be made. Vnion is a mariage: would he not
+      bee thought absurd that for furthering of a mariage betweene two friends of his, would make
+      his first motion to haue the two parties be laid in bedde together, and performe the other
+      turnes of mariage ? must there not precede the mutuall sight and acquaintance of the parties
+      one with another, the conditions of the contract, and Ioincture to be talked of and agreed
+      vpon by their friends, and such other things as in order ought to goe before the ending of
+      such a worke ? The vnion is an eternall agreement and reconciliation of many long bloody
+      warres that haue beene betweene these two ancient Kingdomes. Is it the readiest way to agree a
+      priuate quarell betweene two, to bring them at the first to shake hands, and as it were kisse
+      other, and lie vnder one roofe or rather in one bedde together, before that first the ground
+      of their quarell be communed vpon, their mindes mitigated, their affections prepared, and all
+      other circumstances first vsed, that ought to be vsed to proceed to such a finall agreement ?
+      Euery honest man desireth a perfect Vnion, but they that say so, and admit no preparation
+      thereto, haue <hi rend="italic"><foreign xml:lang="lat">mel in ore, fel in
+      corde</foreign></hi>. If after your so long talke of Vnion in all this long Session of Parlia-
+      ment, yee rise without agreeing vpon any particular; what will the neighbour <pb n="294"/>
+      Princes iudge, whose eyes are all fixed vpon the conclusion of this Action, but that the King
+      is refused in his desire, whereby the Nation should bee taxed, and the King disgraced ? And
+      what an ill preparation is it for the mindes of Scotland toward the Vnion, when they shall
+      heare that ill is spoken of their whole Nation, but nothing is done nor aduanced in the matter
+      of the Vnion it selfe ? But this I am glad was but the fault of one, and one is no number: yet
+      haue your neighbours of Scotland this aduantage of you, that none of them haue spoken ill of
+      you (nor shall as long as I am King) in Parliament, or any such publique place of Iudica-
+      ture. Consider therefore well, if the mindes of Scotland had not neede to be well prepared to
+      perswade their mutuall consent, seeing you here haue all the great aduantage by the Vnion. Is
+      not here the personall residence of the King, his whole Court and family ? Is not here the
+      seate of Iustice, and the fountaine of Gouernment ? must they not be subiected to the Lawes of
+      England, and so with time become but as Cumberland and Northumberland, and those other remote
+      and Northerne Shires ? you are to be the husband, they the wife: you con- querours, they as
+      conquered, though not by the sword, but by the sweet and sure bond. Besides that, they as
+      other Northerne Countreys will be seldome seene and saluted by their King, and that as it were
+      but in a posting or hunting iourney. </p>
+     <p>How little cause then they may haue of such a change of so ancient a Mon- archie into the
+      case of priuate Shires, iudge rightly herein. And that you may be the more vpright Iudges,
+      suppose your selues the Patients of whom such sentence should be giuen. But what preparation
+      is it which I craue ? onely such as by the entrance may shew something is done, yet more is
+      intended. There is a conceipt intertained, and a double iealousie possesseth many, wherein I
+      am misiudged. </p>
+     <p>First, that this Vnion will be the <hi rend="italic">Crisis</hi> to the ouerthrow of
+      England, and set- ting vp of Scotland: England will then bee ouerwhelmed by the swarming of
+      the Scots, who if the Vnion were effected, would raigne and rule all. </p>
+     <p>The second is, my profuse liberalitie to the Scottish men more then the English, and that
+      with this Vnion all things shalbe giuen to them, and you turned out of all: To you shall bee
+      left the sweat and labour, to them shall bee giuen the fruite and sweet; and that my
+      forbearance is but till this Vnion may be gained. How agreeable this is to the trewth, Iudge
+      you; And that not by my wordes, but by my Actions. Doe I craue the Vnion without exceptions ?
+      doe I not offer to binde my selfe and to reserue to you, as in the Instrument, all places of
+      Iudicature ? doe I intend any thing which standeth not with the equall good of both Nations ?
+      I could then haue done it, and not spoken of it: For all men of vnderstanding must agree, that
+      I might dispose without assent of Parliament, Offices of Iudica- ture, and others, both
+      Ecclesiastical and Temporall: But herein I did volun- tarily offer by my Letters from Royston
+      to the Commissioners, to bind my Prerogatiue. </p>
+     <p>Some thinke that I will draw the Scottish Nation hither, talking idlely of transporting of
+      Trees out of a barren ground into a better, and of leane cattell out <pb n="295"/> of bad
+      pasture into a more fertile soile. Can any man displant you, vnlesse you will ? or can any man
+      thinke that Scotland is so strong to pull you out of your houses ? or doe you not thinke I
+      know England hath more people, Scotland more wast ground ? So that there is roumth in Scotland
+      rather to plant your idle people that swarme in London streets, and other Townes, and
+      disburden you of them, then to bring more vnto you; And in cases of Iustice, if I bee partiall
+      to either side, let my owne mouth condemne me, as vnworthy to be your King. </p>
+     <p>I appeale to your selues, if in fauour or Iustice I haue beene partiall: Nay, my intention
+      was euer, you should then haue most cause to praise my discretion, when you saw I had most
+      power. If hitherto I haue done nothing to your pre- iudice, much lesse meane I hereafter. If
+      when I might haue done it without any breach of promise; Thinke so of mee, that much lesse I
+      will doe it, when a Law is to restraine me. I owe no more to the Scottish men then to the
+      English. I was borne there, and sworne here, and now raigne ouer both. Such particular persons
+      of the Scottish Nation, as might claime any extraordinary merit at my handes, I haue already
+      reasonably rewarded, and I can assure you that there is none left, whom for I meane
+      extraordinary to straine myselfe further, then in such ordinary benefit as I may equall bestow
+      without mine owne great hurt, vpon any Subiect of either Nation; In which case no Kings handes
+      can euer be fully closed. To both I owe Iustice and protection, which with Gods grace I shall
+      euer equally ballance. </p>
+     <p>For my Liberalitie, I haue told you of it heretofore: my three first yeeres were to me as a
+      Christmas, I could not then be miserable: should I haue bene ouer- sparing to them ? they
+      might haue thought <hi rend="italic">Ioseph</hi> had forgotten his brethren, or that the King
+      had beene drunke with his new Kingdome. But Suites goe not now so cheape as they were wont,
+      neither are there so many fees taken in the Hamper and Pettibagge for the great Seale as hath
+      beene. And if I did respect the English when I came first, of whom I was receiued with ioy,
+      and came as in a hunting iourney, what might the Scottish haue iustly said, if I had not in
+      some measure dealt bountifully with them that so long had serued me, so farre ad- uentured
+      themselues with me, and beene so faithfull to mee. I haue giuen you now foure yeeres proofe
+      since my comming, and what I might haue done more to haue raised the Scottish nation you all
+      know, and the longer I liue, the lesse cause haue I to be acquainted with them, and so the
+      lesse hope of extraordinary fauour towards them: For since my comming from them I doe not
+      alreadie know the one halfe of them by face, most of the youth being now risen vp to bee men,
+      who were but children when I was there, and more are borne since my comming thence. </p>
+     <p>Now for my lands and reuenues of my Crowne which you may thinke I haue diminished, They are
+      not yet so farre diminished, but that I thinke no prince of Christendome hath fairer
+      possessions to his Crowne then yet I haue: and in token of my care to preserue the same to my
+      posteritie for euer, the intaile of my <pb n="296"/> lands to the Crowne hath beene long agoe
+      offered vnto you: and that it is not yet done, is not my fault as you know. My Treasurer here
+      knoweth my care, and hath already in part declared it, and if I did not hope to treble my
+      Reuenue more then I haue empaired it, I should neuer rest quietly in my bed. But notwith-
+      standing my comming to the Crowne, with that extraordinarie applause which you all know, and
+      that I had two Nations to bee the obiects of my liberalitie, which neuer any Prince had here
+      before; will you compare my gifts out of mine inheritance with some Princes here that had
+      onely this Nation to respect, and whose whole time of reigne was litle longer then mine hath
+      bene already ? It will be found that their gifts haue farre surpassed mine, albeit as I haue
+      already said, they had nothing so great cause of vsing their liberalitie. </p>
+     <p>For the maner of the Vnion presently desired, It standeth in 3. parts: The first, taking
+      away of hostile Lawes: for since there can bee now no Warres be- twixt you, is it not reason
+      hostile Lawes should cease ? For, <hi rend="italic"><foreign xml:lang="lat">deficiente causa
+        deficit effectus</foreign></hi>. The King of England now cannot haue warres with the King of
+      Scotland, therefore this failes of it selfe. The second is communitie of Com- merce. I am no
+      stranger vnto you: for you all know I came from the loynes of your ancient Kings. They of
+      Scotland be my Subiects as you are. But how can I bee naturall Liege Lord to you both, and you
+      strangers one to the other ? Shall they which be of one alleagance with you, be no better
+      respected of you, nor freer amongst you, then Frenchmen and Spaniards ? Since I am Soueraigne
+      ouer both, you as Subiects to one King, it must needes follow that you conuerse and haue
+      Commerce together. There is a rumour of some ill dealings that should be vsed by the
+      Commissioners, Merchants of Scotland. They be heere in England and shall remaine till your
+      next meeting, and abide triall, to prooue themselues either honest men or knaues. </p>
+     <p>For the third point, of Naturalization, All you agree that they are no Aliens, and yet will
+      not allow them to bee naturall. What kinde of prerogatiue will you make ? But for the <hi
+       rend="italic">Post nati</hi>, your owne Lawyers and Iudges at my first com- ming to this
+      Crowne, informed me, there was a difference betweene the <hi rend="italic"><foreign
+        xml:lang="lat">Ante</foreign></hi> and the <hi rend="italic"><foreign xml:lang="lat">Post
+        nati</foreign></hi> of each Kingdome, which caused mee to publish a Proclamation, that the
+       <hi rend="italic"><foreign xml:lang="lat">Post nati</foreign></hi> were Naturalized (<hi
+       rend="italic"><foreign xml:lang="lat">Ipso facto</foreign></hi>) by my Accession to this
+      Crowne. I doe not denie but Iudges may erre as men, and therefore I doe not presse you here to
+      sweare to all their reasons. I onely vrge at this time the conueniencie for both Kingdomes,
+      neither pressing you to iudge nor to be iudged. But remember also it is as possible and likely
+      your owne Lawyers may erre as the Iudges: There- fore as I wish you to proceede herein so
+      farre as may tend to the weale of both Nations; So would I haue you on the other part to
+      beware to disgrace either my Proclamations or the Iudges, who when the Parliament is done,
+      haue power to trie your lands and liues, for so you may disgrace both your King and your
+      Lawes. For the doing of any acte that may procure lesse reuerence to the Iudges, cannot but
+      breede a loosenesse in the Gouernement, and a disgrace to the whole Nation. <pb n="297"/> The
+      reason that most mooues mee for ought I haue yet heard, that there cannot but bee a difference
+      betweene the <hi rend="italic"><foreign xml:lang="lat">Ante nati</foreign></hi> and the <hi
+       rend="italic"><foreign xml:lang="lat">Post nati</foreign></hi>, and that in the fauour of the
+      last, is that they must bee neerer vnto you being borne vnder the present Gouernement and
+      common Allegiance: but in point of conueniencie, there is no question but the <hi
+       rend="italic"><foreign xml:lang="lat">Post nati</foreign></hi> are more to bee respected: For
+      if you would haue a perfect and perpetuall Vnion, that cannot be in the <hi rend="italic"
+        ><foreign xml:lang="lat">Ante nati</foreign></hi>, who are but few in comparison of those
+      that shall be in all aages succeeding, and cannot liue long. But in the <hi rend="italic"
+        ><foreign xml:lang="lat">Post nati</foreign></hi> shall the Vnion be continued and liue euer
+      aage after aage, which wanting a difference cannot but leaue a perpetuall marke of separa-
+      tion in the worke of the Vnion: as also that argument of iealousie will be so farre remooued
+      in the case of the <hi rend="italic"><foreign xml:lang="lat">Post nati</foreign></hi> which are
+      to reape the benefit in all succeed- ing aages, as by the contrary there will then rise <hi
+       rend="italic">Pharaos</hi> which neuer knew <hi rend="italic">Ioseph</hi>. The Kings my
+      Successours, who beeing borne and bred heere, can neuer haue more occasion of acquaintance
+      with the Scottish Nation in generall, then any other English King that was before my time. Bee
+      not therefore abused with the flattering speeches of such as would haue the <hi rend="italic"
+        ><foreign xml:lang="lat">Ante nati</foreign></hi> preferred, alleadging their merit in my
+      Seruice, and such other reasons which indeed are but Soph- ismes: For, my rewarding out of my
+      Liberalitie of any particular men, hath nothing adoe with the generall acte of the Vnion,
+      which must not regard the deserts of priuate persons, but the generall weale and conioyning of
+      the Nations. Besides that, the actuall Naturalizing, which is the onely point that is in your
+      handes, is already graunted to by your selues to the most part of such particular persons as
+      can haue any vse of it heere: and if any other well deseruing men were to sue for it
+      hereafter, I doubt not but there would neuer bee question mooued among you for the granting of
+      it. And therefore it is most euident, that such dis- courses haue <hi rend="italic"><foreign
+        xml:lang="lat">mel in ore, fel in corde</foreign></hi>, as I said before; carrying an outward
+      appear- ance of loue to the Vnion, but indeed a contrary resolution in their hearts. And as
+      for limitations and restrictions, such as shall by me be agreed vpon to be rea- sonable and
+      necessary after you haue fully debated vpon them, you may assure your selues I will with
+      indifferencie grant what is requisite without partiall respect of Scotland. I am, as I haue
+      often said, borne and sworne King ouer both Kingdomes; onely this farre let me entreat you, in
+      debating the point at your next meeting. That yee be as ready to resolue doubts as to mooue
+      them, and to be satisfied when doubts are cleered. </p>
+     <p>And as for Commodities that come by the Vnion of these Kingdoms, they are great and euident;
+      Peace, Plentie, Loue, free Intercourse and common Societie of two great Nations. All forreigne
+      Kings that haue sent their Ambassadours to congratulate with me since my comming, haue saluted
+      me as Monarch of the whole Isle, and with much more respect of my greatnesse, then if I were
+      King alone of one of these Realmes: and with what comfort doe your selues behold Irish,
+      Scottish, Welsh, and English, diuers in Nation, yet all walking as Subiects and seruants
+      within my Court, and all liuing vnder the allegiance of your King, <pb n="298"/> besides the
+      honour and lustre that the encrease of gallant men in the Court of diuers Nations carries in
+      the eyes of all strangers that repaire hither ? Those confining places which were the Borders
+      of the two Kingdomes, where heretofore much blood was shed, and many of your ancestours lost
+      their liues; yea, that lay waste and desolate, and were habitations but for runnagates, are
+      now become the Nauell or Vmbilick of both Kingdomes, planted and peopled with Ciuilitie and
+      riches: their Churches begin to bee planted, their doores stand now open, they feare neither
+      robbing nor spoiling: and where there was nothing before heard nor seene in those parts but
+      bloodshed, oppressions, complaints and outcries, they now liue euery man peaceably vnder his
+      owne figgetree, and all their former cryes and complaints turned ohely into prayer to God for
+      their King, vnder whom they enioy such ease and happy quietnesse. The Marches beyond and on
+      this side Twede, are as fruitfull and as peaceable as most parts of England: If after all this
+      there shall be a Scissure, what inconuenience will follow, iudge you. </p>
+     <p>And as for the inconueniences that are feared on Englands part, It is alleadged, that the
+      Scots are a populous Nation, they shall be harboured in our nests, they shall be planted and
+      flourish in our good Soile, they shall eate our commons bare, and make vs leane: These are
+      foolish and idle surmises. That which you possesse, they are not to enioy; by Law they cannot,
+      nor by my partialitie they shall not: for set apart conscience and honour, (which if I should
+      set apart indeed, I had rather wish my selfe to bee set apart and out of all being) can any
+      man conclude either out of common reason or good policie, that I will preferre those which
+      perhaps I shall neuer see, or but by poste for a moneth, before those with whom I must alwayes
+      dwell ? Can they conquer or ouercome you with swarmes of people as the Goths and the Vandals
+      did <hi rend="italic">Italy</hi> ? Surely the world knowes they are nothing so populous as you
+      are: and although they haue had the honour and good fortune neuer to be conquered, yet were
+      they euer but vpon the defensiue part, and may in a part thanke their hilles and inaccessible
+      passages that preserued them from an vtter ouerthrow at the handes of all that pretended to
+      conquer them. Or are they so very poore and miserable in their owne habitations, that
+      necessitie should force them all to make incursions among you ? </p>
+     <p>And for my part, when I haue two Nations vnder my gouernment, can you imagine I will respect
+      the lesser, and neglect the greater ? would I not thinke it a lesse euill and hazard to mee
+      that the plague were at Northampton or Barwicke, then at London, so neere Westminister, the
+      Seat of my habitation, and of my wife and children ? will not a man bee more carefull to
+      quench the fire taken in his neerest neighbours house, then if a whole Towne were a fire farre
+      from him ? You know that I am carefull to preserue the woods and game through all England,
+      nay, through all the Isle: yet none of you doubts, but that I would be more offended with any
+      disorder in the Forrest of Waltham, for stealing of a Stagge there, which lieth as it were
+      vnder my nose, and in a maner ioyneth with my garden, then with cutting of timber, or stealing
+      of a Deare in any Forest of the <pb n="299"/> North parts of Yorkeshire or the Bishopricke.
+      Thinke you that I will preferre them that be absent, lesse powerfull, and farther off to doe
+      me good or hurt, before you, with whom my security and liuing must be, and where I desire to
+      plant my posterity ? If I might by any such fauours raise my selfe to a great- nesse, it might
+      bee probable: All I cannot draw, and to lose a whole state here to please a few there, were
+      madnesse. I neede speake no more of this with pro- testations. Speake but of wit, it is not
+      likely: and to doubt of my intention in this, were more then deuilish. </p>
+     <p>For mine owne part, I offer more then I receiue, and conueniencie I preferre before law, in
+      this point. For, three parts, wherein I might hurt this Nation, by partiality to the Scots,
+      you know doe absolutely lie in my hands and power: for either in disposition of rents, or
+      whatsoeuer benefit, or in the preferring of them to any dignitie or office, ciuill or
+      Ecclesiasticall, or in calling them to the Parlia- ment, it doeth all fully and onely lie
+      within the compasse of my Prerogatiue, which are the parts wherein the Scottish men can
+      receiue either benefite or pre- ferment by the Vnion, and wherein for the care I haue of this
+      people, I am content to binde my selfe with some reasonable restrictions. </p>
+     <p>As for the fourth part, the Naturalizing, which onely lieth in your hands; It is the point
+      wherein they receiue least benefit of any: for in that they can obteine nothing, but what they
+      buy by their purse, or acquire by the selfe same meanes that you doe. And as for the point of
+      naturalizing, which is the point thought so fit, and so precisely belonging to Parliament; not
+      to speake of the Common law, wherein as yet I can professe no great knowledge, but in the
+      Ciuill law wherein I am a little better versed, and which in the point of Coniunction of
+      Nations should beare a great sway, it being the Law of Nations; I will mainteine two
+      principles in it, which no learned and graue Ciuilian will deny, as being clearely to be
+      proued, both out of the text it selfe in many places, and also out of the best approued
+      Doctours and interpreters of that law; The one, that it is a speciall point of the Kings owne
+      Prerogatiue, to make Aliens Citizens, and <hi rend="italic"><foreign xml:lang="lat">donare
+        Ciuitate</foreign>;</hi> The other, that in any case wherein the Law is thought not to be
+      cleare (as some of your selues doe doubt, that in this case of the <hi rend="italic"><foreign
+        xml:lang="lat">post nati</foreign></hi>, the Law of England doth not clearely determine) then
+      in such a question wherein no positiue Law is resolute, <hi rend="italic"><foreign
+        xml:lang="lat">Rex est Iudex</foreign></hi>, for he is <hi rend="italic"><foreign
+        xml:lang="lat">Lex loquens</foreign></hi>, and is to supply the Law, where the Law wants, and
+      if many famous histories be to be beleeued, they giue the example for mainteining of this Law
+      in the persons of the Kings of England and France especially, whose speciall Prerogatiue they
+      alleadge it to be. But this I speake onely as knowing what belongeth to a King, although in
+      this case I presse no further then that which may agree with your loues, and stand with the
+      weale and conueniencie of both Nations. </p>
+     <p>And whereas some may thinke this Vnion will bring preiudice to some Townes and Corporations
+      within England; It may bee, a Merchant or two of Bristow, or Yarmouth, may haue an hundred
+      pounds lesse in his packe: But if the Empire <pb n="300"/> gaine, and become the greater, it
+      is no matter: You see one Corporation is euer against another, and no priuate Companie can be
+      set vp, but with some losse to another. </p>
+     <p>For the supposed inconueniences rising from Scotland, they are three. First, that there is
+      an euill affection in the Scottish Nation to the Vnion. Next, the Vnion is incompatible
+      betweene two such Nations. Thirdly, that the gaine is smal or none. If this be so, to what end
+      do we talke of an Vnion ? For proofe of the first point, there is alleadged an auersenesse in
+      the Scottish Nation expressed in the Instrument, both in the preface and body of their Acte;
+      In the preface, where they declare, That they will remaine an absolute and free Monarchie; And
+      in the body of the Acte, where they make an exception of the ancient funda- mentall Lawes of
+      that Kingdome. And first for the generall of their auersenes, All the maine current in your
+      Lower-house ranne this whole Session of Parlia- ment with that opinion, That Scotland was so
+      greedy of this Vnion, and appre- hended that they should receiue so much benefit by it, as
+      they cared not for the strictnesse of any conditions, so they might attaine to the substance:
+      And yet you now say, they are backwards and auerse from the Vnion. This is a direct
+      contradiction <hi rend="italic"><foreign xml:lang="lat">in adiecto</foreign></hi>: For how can
+      they both be beggers and backwards, in one and the selfe same thing, at the same time ? </p>
+     <p>But for answere to the particulars, It is an old Schoole point, <hi rend="italic"><foreign
+        xml:lang="lat">Eius est explicare, cuius est condere</foreign></hi>. You cannot interpret
+      their Lawes, nor they yours; I that made them with their assent, can best expound them. </p>
+     <p>And first I confesse, that the English Parliaments are so long, and the Scottish so short,
+      that a meane betweene them would doe well: For the shortnesse of their continuing together,
+      was the cause of their hastie mistaking, by setting these wordes of exception of fundamentall
+      Lawes in the body of the Acte, which they onely did in pressing to imitate word by word the
+      English Instrument, wherein the same wordes be conteined in your Preface. And as to their
+      meaning and in- terpretation of that word, I will not onely diliuer it vnto you out of mine
+      owne conceipt, but as it was deliuered vnto mee by the best Lawyers of Scotland, both
+      Counsellours and other Lawyers, who were at the making thereof in Scotland, and were
+      Commissioners here for performance of the same. </p>
+     <p>Their meaning in the word of Fundamentall Lawes, you shall perceiue more fully hereafter,
+      when I handle the obiection of the difference of Lawes: For they intend thereby onely those
+      Lawes whereby confusion is auoyded, and their Kings descent mainteined, and the heritage of
+      the succession and Monarchie, which hath bene a Kingdome, to which I am in descent, three
+      hundreth yeeres before CHRIST: Not meaning it as you doe, of their Common Law, for they haue
+      none, but that which is called IVS REGIS: and their desire of continuing a free Mon- archie,
+      was onely meant, That all such particular Priuiledges (whereof I spake before) should not bee
+      so confounded, as for want either of Magistrate, Law, or Order, they might fall in such a
+      confusion, as to become like a naked Prouince, <pb n="301"/> without Law or libertie vnder
+      this Kingdome. I hope you meane not I should set Garrisons ouer them, as the Spaniards doe
+      ouer Sicily and Naples, or gouerne them by Commissioners, which are seldome found succeedingly
+      all wise and honest men. </p>
+     <p>This I must say for Scotland, and I may trewly vaunt it; Here I sit and gouerne it with my
+      Pen, I write and it is done, and by a Clearke of the Councell I gouerne Scotland now, which
+      others could not doe by the sword. And for their auersenesse in their heart against the Vnion,
+      It is trew indeede, I protest they did neuer craue this Vnion of me, nor sought it either in
+      priuate, or the State by let- ters, nor euer once did any of that Nation presse mee forward or
+      wish mee to accelerate that businesse. But on the other part, they offered alwayes to obey mee
+      when it should come to them, and all honest men that desire my greatnesse haue beene thus
+      minded, for the personall reuerence and regard they beare vnto my Person, and any of my
+      reasonable and iust desires. </p>
+     <p>I know there are many <hi rend="italic">Piggots</hi> amongst them, I meane a number of
+      seditious and discontented particular persons, as must be in all Common-wealths, that where
+      they dare, may peraduenture talke lewdly enough: but no Scottish man euer spake dishonourably
+      of England in Parliament. For here must I note vnto you the difference of the two Parliaments
+      in these two Kingdomes, for there they must not speake without the Chauncellors leaue, and if
+      any man doe propound or vtter any seditious or vncomely speeches, he is straight interrupted
+      and silenced by the Chauncellors authoritie: where as here, the libertie for any man to speake
+      what hee list, and as long as he list, was the onely cause he was not interrupted. </p>
+     <p>It hath bin obiected that there is a great Antipathy of the Lawes and Cus- tomes of these
+      two Nations. It is much mistaken: for Scotland hath no Common Law as here, but the Law they
+      haue is of three sorts. </p>
+     <p>All the Lawe of Scotland for Tenures, Wards and Liueries, Seigniories and Lands, are drawen
+      out of the Chauncerie of England, and for matters of equitie and in many things else, differs
+      from you but in certaine termes: <hi rend="italic">Iames</hi> the first, bred here in England,
+      brought the Lawes thither in a written hand. The second is Statute Lawes, which be their Acts
+      of Parliament, wherein they haue power as you, to make and altar Lawes: and those may be
+      looked into by you, for I hope you shall be no more strangers to that Nation. And the
+      principall worke of this Vnion will be, to reconcile the Statute Lawes of both Kingdomes. The
+      third is the Ciuill Law: <hi rend="italic">lames</hi> the fift brought it out of France by
+      establishing the Session there, according to the forme of the Court of Parliament of Fraunce,
+      which he had seene in the time of his being there: who occupie there the place of Ciuill
+      Iudges in all matters of Plee or controuersie, yet not to gouerne absolutely by the Ciuill Law
+      as in Fraunce. For if a man plead that the Law of the Nation is otherwise, it is a barre to
+      the Ciuill, and a good Chauncellor or President, will oftentimes repell and put to silence an
+      Argument that the Lawyers bring out of the Ciuill Law, where they haue a cleare solution in
+      their owne Law. So as the Ciuill Law <pb n="302"/> in Scotland is admitted in no other cases,
+      but to supply such cases wherein the Municipall Law is defectiue. Then may you see it is not
+      so hard a matter as is thought, to reduce that Countrey to bee vnited with you vnder this Law,
+      which neither are subiect to the Ciuill Lawe, nor yet haue any olde Common Law of their owne,
+      but such as in effect is borrowed from yours. And for their Statute Lawes in Parliament, you
+      may alter and change them as oft as occasion shall require, as you doe here. It hath likewise
+      beene obiected as an other impediment, that in the Parliament of Scotland the King hath not a
+      negatiue voice, but must passe all the Lawes agreed on by the Lords and Commons. Of this I can
+      best resolue you: for I am the eldest Parliament man in Scotland, and haue sit in more
+      Parliaments then any of my Predecessors. I can assure you, that the forme of Parliament there,
+      is nothing inclined to popularitie. About a twentie dayes or such a time before the
+      Parliament, Proclamation is made throughout the Kingdome, to deliuer in to the Kings Clearke
+      of Register (whom you heere call the Master of the Rolles) all Bills to be exhibited that
+      Session before a certaine day. Then are they brought vnto the King, and perused and considered
+      by him, and onely such as I allowe of are put into the Chancellors handes to bee propounded to
+      the Parliament, and none others: And if any man in Parliament speake of any other matter then
+      is in this forme first allowed by mee, The Chancellor tells him there is no such Bill allowed
+      by the King. </p>
+     <p>Besides, when they haue passed them for lawes, they are presented vnto me, and I with my
+      Scepter put into my hand by the Chancellor, must say, <hi rend="italic">I ratifie and approue
+       all things done in this present Parliament</hi>. And if there bee any thing that I dislike,
+      they rase it out before. If this may bee called a negatiue voyce, then I haue one I am sure in
+      that Parliament. </p>
+     <p>The last impediment is the French liberties: which is thought so great, as except the Scots
+      forsake Fraunce England cannot bee vnited to them. If the Scottish Nation would bee so
+      vnwilling to leaue them as is said, it would not lye in their hands: For the League was neuer
+      made betweene the people, as is mis- taken, but betwixt the <hi rend="italic">Princes</hi>
+      onely and their Crownes. The beginning was by a Message from a King of Fraunce, <hi
+       rend="italic">Charlemaine</hi> I take it (but I cannot certainely remember) vnto a King of
+      Scotland, for a League defensiue and offensiue betweene vs and them against England, Fraunce
+      being at that time in Warres with England. </p>
+     <p>The like at that time was then desired by England against Fraunce who also sent their
+      Ambassadours to Scotland. At the first, the Disputation was long maintained in fauour of
+      England, that they being our neerest Neighbours ioyned in one continent, and a strong and
+      powerfull Nation, it was more fitte for the weale and securitie of the State of Scotland, to
+      be in League and Amitie with them, then with a Countrey, though neuer so strong, yet diuided
+      by Sea from vs: especially England lying betwixt vs and them, where we might be sure of a sud-
+      daine mischiefe, but behooued to abide the hazard of wind and weather, and other accidents
+      that might hinder our reliefe. <pb n="303"/>
+     </p>
+     <p>But after, when the contrary part of the Argument was maintained: wherein allegation was
+      made, that England euer sought to conquer Scotland, and there- fore in regarde of their
+      pretended interest in the Kingdome, would neuer keepe any sound Amitie with them longer, then
+      they saw their aduantage; whereas France lying more remote and clayming no interest in the
+      Kingdome, would therefore bee found a more constant and faithfull friend: It was vnhappily
+      con- cluded in fauour of the last partie, through which occasion Scotland gate many mischiefes
+      after: And it is by the very tenour thereof ordered, to bee renewed and confirmed from King to
+      King successiuely, which accordingly was euer per- formed by the mediation of their
+      Ambassadours, and therefore meerely personall, and so was it renewed in the Queene my mothers
+      time, onely betweene the two Kings, and not by assent of Parliament or conuention of the three
+      Estates, which it could neuer haue wanted if it had beene a League betweene the people. And in
+      my time when it came to be ratified, because it appeared to be in <hi rend="italic">odium
+       tertii,</hi> it was by me left vnrenewed or confirmed as a thing incompatible to my Person,
+      in consideration of my Title to this Crowne. Some Priuiledges indeede in the Merchants fauour
+      for point of Commerce, were renewed and confirmed in my time: wherein for my part of it, there
+      was scarce three Counsellours more then my Secretarie, to whose place it belonged, that medled
+      in that matter. </p>
+     <p>It is trew, that it behooued to be enterteined, as they call it, in the Court of Parliament
+      of <hi rend="italic">Paris</hi>: but that onely serues for publication, and not to giue it
+      Authoritie: That Parliament (as you know) being but a Iudiciall Seate of Iudges and Lawyers,
+      and nothing agreeing with the definition or office of our Parlia- ments in this Isle. And
+      therefore that any fruites or Priuiledges possessed by the League with Fraunce is able now to
+      remaine in Scotland, is impossible: For ye may be sure, that the French King stayes onely vpon
+      the sight of the ending of this Vnion, to cut it off himselfe. Otherwise when this great worke
+      were at an end, I would be forced for the generall care I owe to all my Subiects, to craue of
+      France like Priuiledge to them all as Scotland alreadie enioyes, seeing the per- sonall
+      friendship remaines as great betweene vs as betweene our Progenitors; and all my Subiects must
+      be alike deare vnto me: which either hee will neuer grant, and so all will fall to the ground;
+      or else it will turne to the benefite of the whole Island: and so the Scottish Priuiledges
+      cannot hold longer then my League with France lasteth. </p>
+     <p>And for another Argument to prooue that this league is only betweene the Kings, and not
+      betweene the people: They which haue Pensions, or are priuie Intelligence giuers in France
+      without my leaue, are in no better case by the Law of Scotland, then if they were Pensioners
+      to Spaine. </p>
+     <p>As for the Scottish Guard in France, the beginning thereof was, when an Earle of <hi
+       rend="italic">Boghan</hi> was sent in aide of the French with tenne thousand men, and there
+      being made Constable, and hauing obtained a victorie, was murthered with the most of the
+      Scottish Armie. In recompense whereof, and for a future securitie to <pb n="304"/> the
+      Scottish Nation, the Scottish Guard was ordeined to haue the priuiledge and prerogatiue before
+      all other Guards in guarding the Kings person. </p>
+     <p>And as for the last point of this subdiuision concerning the gaine that England may make by
+      this Vnion, I thinke no wise nor honest man will aske any such question. For who is so
+      ignorant, that doeth not know the gaine will bee great ? Doe you not gaine by the Vnion of
+      Wales ? And is not Scotland greater then Wales ? Shall not your Dominions bee encreased of
+      Landes, Seas, and persons added to your greatnesse ? And are not your Landes and Seas
+      adioyning ? For who can set downe the limits of Borders, but as a Mathematicall line or <hi
+       rend="italic">Idaea ?</hi> Then will that backe doore bee shut, and those portes of <hi
+       rend="italic">Ianus</hi> be for euer closed: you shall haue them that were your enemies to
+      molest you, a sure backe to defend you: their bodies shall bee your aides, and they must bee
+      partners in all your quarrels: Two snow-balls put together, make one the greater: Two houses
+      ioyned, and make one the larger: two Castle walles made in one, makes one as thicke and strong
+      as both. And doe you not see in the Low countreys how auaileable the English and the Scottish
+      are being ioyned together ? This is a point so plaine, as no man that hath wit or honestie,
+      but must acknowledge it feelingly. </p>
+     <p>And where it is obiected that the Scottishmen are not tyed to the seruice of the King in the
+      warres aboue forty dayes; It is an ignorant mistaking. For the trewth is, That in respect the
+      Kings of Scotland did not so abound in Treasure and money to take vp an Armie vnder pay, as
+      the Kings of England did; There- fore was the Scottish Army wont to be raysed onely by
+      Proclamation, vpon the penaltie of their breach of alleageance; So as they were all forced to
+      come to the Warre like Snailes who carry their house about with them; Euery Nobleman and
+      Gentleman bringing with him their Tents, money, prouision for their house, victuals of all
+      sorts, and all other necessaries, the King supplying them of nothing: Necessitie thereupon
+      enforcing a warning to be giuen by the Proclamation of the space of their attendance, without
+      which they could not make their prouision accordingly, especially as long as they were within
+      the bounds of Scotland, where it was not lawfull for them to helpe themselues by the spoile or
+      wasting of the Countrey. But neither is there any Law Prescribing precisely such a certaine
+      number of dayes, nor yet is it without the limits of the Kings power to keepe them together,
+      as many more dayes as hee list, to renew his Proclamations from time to time some reasonable
+      number of dayes, before the expiring of the former, they being euer bound to serue and waite
+      vpon him, though it were an hundreth yeere if need were. </p>
+     <p>Now to conclude, I am glad of this occasion, that I might <hi rend="italic"><foreign
+        xml:lang="lat">Liberare animam meam</foreign></hi>; You are now to recede: when you meete
+      againe, remember I pray you, the trewth and sincerity of my meaning, which in seeking Vnion,
+      is onely to aduance the greatnesse of your Empire seated here in England; And yet with such
+      caution I wish it, as may stand with the weale of both States. What is now <pb n="305"/>
+      desired, hath oft before bene sought when it could not bee obteined: To refuse it now then,
+      were double iniquitie. Strengthen your owne felicitie, <hi rend="italic">London</hi> must bee
+      the Seate of your King, and Scotland ioyned to this kingdome by a Golden con- quest, but
+      cymented with loue, (as I said before) which within will make you strong against all Ciuill
+      and intestine Rebellion, as without wee will bee com- passed and guarded with our walles of
+      brasse. Iudge mee charitably, since in this I seeke your equall good, that so both of you
+      might bee made fearefull to your Enemies, powerfull in your selues, and auaileable to your
+      friendes. Studie therefore hereafter to make a good Conclusion, auoyd all delayes, cut off all
+      vaine questions, that your King may haue his lawfull desire, and be not disgraced in his iust
+      endes. And for your securitie in such reasonable points of restrictions, whereunto I am to
+      agree, yee need neuer doubt of my inclination: For I will not say anything which I will not
+      promise, nor promise any thing which I will not sweare; What I sweare I will signe, and what I
+      signe, I shall with GODS grace euer performe. <pb n="306"/>
+     </p>
+    </div>
+
+   </div>
+  </body>
+ </text>
+</TEI>

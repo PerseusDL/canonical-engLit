@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+   <titleStmt>
+    <title> The Trew Law Of Free Monarchies: Or The Reciprock And Mvtvall Dvetie Betwixt A Free
+     King, And His Naturall Subjects. </title>
+    <author>James I</author>
+    <editor role="editor">Charles Howard McIlwain</editor>
+    <respStmt>
+     <resp>Prepared under the supervision of</resp>
+     <name>Lisa Cerrato</name>
+     <name>Anne Mahoney</name>
+     <name>David Smith</name>
+     <name>Clifford Wulfman</name>
+    </respStmt>
+    <funder n="org:Tufts">Tufts University</funder>
+   </titleStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+    <date type="release" when="2001" cert="high">Perseus 3.0</date>
+    <idno type="filename">james1.trewlaw.perseus-eng1.xml</idno>
+    <availability>
+     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative
+      Commons Attribution-ShareAlike 4.0 International License</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>The Political Works of James I: Reprinted from the Edition of 1616</title>
+      <author>James I</author>
+      <editor role="editor">Charles Howard McIlwain</editor>
+      <imprint>
+       <pubPlace>Cambridge</pubPlace>
+       <publisher>Harvard University Press</publisher>
+       <date>1918</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <refsDecl n="CTS">
+    <cRefPattern matchPattern="(.+)" n="work" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+   </refsDecl>
+
+
+
+
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="eng">English</language>
+    <language ident="lat">Latin</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2000-03-29" who="Tony Lilly">markup</change>
+
+  </revisionDesc>
+
+ </teiHeader>
+
+ <text>
+  <front>
+   <div subtype="subsection" type="textpart">
+    <head>AN ADVERTISEMENT
+    <lb/><hi rend="smallcap">To the Reader.</hi></head>
+
+    <p><hi rend="italic">ACCEPT, I pray you (my deare countreymen) as thankefully this Pamphlet
+     that I offer vnto you, as louingly it is written for your weale. I would be loath
+     both to be faschious, and fectlesse: And therefore, if it be not sententious, at least it is
+     short. It may be yee misse many things that yee looke for in it: But for excuse thereof,
+     consider rightly that I onely lay downe herein the trew grounds, to teach you the right-
+     way, without wasting time vpon refuting the aduersaries. And yet I trust, if ye will
+     take narrow tent, ye shall finde most of their great gunnes payed home againe, either
+     with contrary conclusions, or tacite obiections, suppose in a dairned forme, and in-
+     directly: For my intention is to instruct, and not irritat, if I may eschew it. The
+     profite I would wish you to make of it, is, as well so to frame all your actions accord-
+     ing to these grounds, as may confirme you in the course of honest and obedient Sub-
+     iects to your King in all times comming, as also, when ye shall fall in purpose with
+     any that shall praise or excuse the by-past rebellions that brake foorth either in this
+     countrey, or in any other, ye shall herewith bee armed against their Sirene songs,
+     laying their particular examples to the square of these grounds. Whereby yee shall
+     soundly keepe the course of righteous Iudgement, decerning wisely of euery action
+     onely according to the qualitie thereof, and not according to your pre-iudged conceits
+     of the committers: So shall ye, by reaping profit to your selues, turne my paine into
+     pleasure. But least the whole Pamphlet runne out at the gaping mouth of this Preface,
+     if it were any more enlarged; I end, with committing you to God, and me to your
+     charitable censures.</hi>
+    </p></div>
+  </front>
+  <body>
+   <div type="edition" n="urn:cts:engLit:james1.trewlaw.perseus-eng1" xml:lang="eng">
+    <div type="textpart" subtype="work" n="1">
+     <head>THE TREW LAW OF FREE MONARCHIES: OR THE RECIPROCK
+AND MVTVALL DVETIE BETWIXT A FREE KING AND HIS NATURALL SUBJECTS.</head>
+
+<p>As there is not a thing so necessarie to be knowne by the people of any land, next
+the knowledge of their God, as the right knowledge of their alleageance, according
+to the forme of gouernement established among them, especially in a <hi rend="italic">Monarchie</hi>
+(which forme of gouernment, as resembling the Diuinitie, approacheth nearest to
+perfection, as all the learned and wise men from the beginning haue agreed vpon;
+Vnitie being the perfection of all things,) So hath the ignorance, and (which is
+worse) the seduced opinion of the multitude blinded by them, who thinke them-
+selues able to teach and instruct the ignorants, procured the wracke and ouer-
+
+<pb n="54"/>
+
+throw of sundry flourishing Common-wealths; and heaped heauy calamities,
+threatning vtter destruction vpon others. And the smiling successe, that vnlaw-
+full rebellions haue oftentimes had against Princes in aages past (such hath bene
+the misery, and iniquitie of the time) hath by way of practise strengthned many
+in their errour: albeit there cannot be a more deceiueable argument; then to
+iudge ay the iustnesse of the cause by the euent thereof; as hereafter shall be
+proued more at length. And among others, no Commonwealth, that euer hath
+bene since the beginning, hath had greater need of the trew knowledge of this
+ground, then this our so long disordered, and distracted Common-wealth hath:
+the misknowledge hereof being the onely spring, from whence haue flowed so
+many endlesse calamities, miseries, and confusions, as is better felt by many,
+then the cause thereof well knowne, and deepely considered. The naturall zeale
+therefore, that I beare to this my natiue countrie, with the great pittie I haue to
+see the so-long disturbance thereof for lacke of the trew knowledge of this ground
+(as I haue said before) hath compelled me at last to breake silence, to discharge
+my conscience to you my deare country men herein, that knowing the ground
+from whence these your many endlesse troubles haue proceeded, as well as ye
+haue already too-long tasted the bitter fruites thereof, ye may by knowledge,
+and eschewing of the cause escape, and diuert the lamentable effects that euer
+necessarily follow thereupon. I haue chosen then onely to set downe in this short
+Treatise, the trew grounds of the mutuall duetie, and alleageance betwixt a free
+and absolute <hi rend="italic">Monarche</hi>, and his people; not to trouble your patience with answer-
+ing the contrary propositions, which some haue not bene ashamed to set downe
+in writ, to the poysoning of infinite number of simple soules, and their owne per-
+petuall, and well deserued infamie: For by answering them, I could not haue
+eschewed whiles to pick, and byte wel saltly their persons; which would rather
+haue bred contentiousnesse among the readers (as they had liked or misliked)
+then sound instruction of the trewth: Which I protest to him that is the searcher
+of all hearts, is the onely marke that I shoot at herein.
+</p>
+<p>First then, I will set downe the trew grounds, whereupon I am to build, out
+of the Scriptures, since <hi rend="italic">Monarchie</hi> is the trew paterne of Diuinitie, as I haue
+already said: next, from the fundamental Lawes of our owne Kingdome, which
+nearest must concerne vs: thirdly, from the law of Nature, by diuers similitudes
+drawne out of the same: and will conclude syne by answering the most waighty
+and appearing incommodities that can be obiected.
+</p>
+<p>The Princes duetie to his Subiects is so clearely set downe in many places of
+the Scriptures, and so openly confessed by all the good Princes, according to their
+oath in their Coronation, as not needing to be long therein, I shall as shortly
+as I can runne through it.
+</p>
+<p>Kings are called Gods <note anchored="true" place="foot">Psal. 82. 6.</note> by the propheticall King <hi rend="italic">Dauid</hi>, because they sit vpon
+GOD his Throne in the earth, and haue the count of their administration to giue
+
+
+<pb n="55"/>
+ vnto him. Their office is, <hi rend="italic">To minister Iustice and Iudgement to the people,</hi><note anchored="true" place="foot">Psal. 101.</note> as the
+ same <hi rend="italic">Dauid</hi> saith: <hi rend="italic">To aduance the good, and punish the euill</hi>,<note anchored="true" place="foot">Psal. 101.</note> as he likewise saith:
+ <hi rend="italic">To establish good Lawes to his people, and procure obedience to the same</hi>,<note anchored="true" place="foot">2. King. 18.</note> as diuers
+ good Kings of <hi rend="italic">Iudah</hi><note anchored="true" place="foot">2. Chron. 29; 2. King. 22; and 23. 2; chro. 34, &amp; 35.</note> did: <hi rend="italic">To procure the peace of the people</hi>, as the same <hi rend="italic">Dauid</hi>
+ saith:<note anchored="true" place="foot">Psal. 72.</note> <hi rend="italic">To decide all controuersies that can arise among them <note anchored="true" place="foot">I. King 3.</note> as Salomon</hi> did: <hi rend="italic">To
+ be the Minister of God for the weale of them that doe well, and as the minister of God,
+ to take vengeance vpon them that doe euill</hi>,<note anchored="true" place="foot">Rom. 13.</note> as S. <hi rend="italic">Paul</hi> saith. And finally, <hi rend="italic">As a good
+ Pastour, to goe out and in before his people</hi> <note anchored="true" place="foot">I. Sam. 8.</note> as is said in the first of <hi rend="italic">Samuel: That
+ through the Princes prosperitie, the peoples peace may be procured</hi><note anchored="true" place="foot">Ierem. 29.</note>, as <hi rend="italic">Ieremie</hi>
+ saith.
+</p>
+<p>And therefore in the Coronation of our owne Kings, as well as of euery Chris-
+ tian <hi rend="italic">Monarche</hi> they giue their Oath, first to maintaine the Religion presently
+ professed within their countrie, according to their lawes, whereby it is established,
+ and to punish all those that should presse to alter, or disturbe the profession
+ thereof; And next to maintaine all the lowable and good Lawes made by their
+ predecessours: to see them put in execution, and the breakers and violaters
+ thereof, to be punished, according to the tenour of the same: And lastly, to main-
+ taine the whole countrey, and euery state therein, in all their ancient Priuiledges
+ and Liberties, as well against all forreine enemies, as among themselues: And
+ shortly to procure the weale and flourishing of his people, not onely in maintain-
+ ing and putting to execution the olde lowable lawes of the countrey, and by estab-
+ lishing of new (as necessitie and euill maners will require) but by all other meanes
+ possible to fore-see and preuent all dangers, that are likely to fall vpon them, and
+ to maintaine concord, wealth, and ciuilitie among them, as a louing Father, and
+ careful watchman, caring for them more then for himselfe, knowing himselfe to
+ be ordained for them, and they not for him; and therefore countable to that great
+ God, who placed him as his lieutenant ouer them, vpon the perill of his soule to
+ procure the weale of both soules and bodies, as farre as in him lieth, of all them
+ that are committed to his charge. And this oath in the Coronation is the clearest,
+ ciuill, and fundamentall Law, whereby the Kings office is properly defined.
+</p>
+<p>By the Law of Nature the King becomes a naturall Father to all his Lieges at
+his Coronation: And as the Father of his fatherly duty is bound to care for the
+nourishing, education, and vertuous gouernment of his children; euen so is the
+king bound to care for all his subiects. As all the toile and paine that the father
+can take for his children, will be thought light and well bestowed by him, so that
+the effect thereof redound to their profite and weale; so ought the Prince to doe
+towards his people. As the kindly father ought to foresee all inconuenients and
+dangers that may arise towards his children, and though with the hazard of his
+owne person presse to preuent the same; so ought the King towards his people.
+As the fathers wrath and correction vpon any of his children that offendeth, ought
+
+<pb n="56"/>
+to be by a fatherly chastisement seasoned with pitie, as long as there is any hope
+of amendment in them; so ought the King towards any of his Lieges that offend
+in that measure. And shortly, as the Fathers chiefe ioy ought to be in procuring
+his childrens welfare, reioycing at their weale, sorrowing and pitying at their
+euill, to hazard for their safetie, trauell for their rest, wake for their sleepe; and
+in a word, to thinke that his earthly felicitie and life standeth and liueth more in
+them, nor in himselfe; so ought a good Prince thinke of his people.
+</p>
+<p>As to the other branch of this mutuall and reciprock band, is the duety and
+alleageance that the Lieges owe to their King: the ground whereof, I take out
+of the words of <hi rend="italic">Samuel</hi>, dited by Gods Spirit, when God had giuen him com-
+mandement to heare the peoples voice in choosing and annointing them a King.
+And because that place of Scripture being well understood, is so pertinent for
+our purpose, I haue insert herein the very words of the Text.
+<list type="simple">
+<item>      9<hi rend="italic"> Now therefore hearken to their voice: howbeit yet testifie vnto them, and shew
+          them the maner of the King, that shall raigne ouer them.</hi></item>
+<item>     10 <hi rend="italic">So</hi> Samuel <hi rend="italic">tolde all the wordes of the Lord vnto the people that asked a King of
+          him.</hi></item>
+<item>      11   <hi rend="italic">And he said, This shall be the maner of the King that shall raigne ouer you: he
+          will take your sonnes, and appoint them to his Charets, and to be his horsemen,
+          and some shall runne before his Charet.</hi></item>
+<item>      12 <hi rend="italic">Also, hee will make them his captaines ouer thousands, and captaines ouer fif-
+          ties, and to eare his ground, and to reape his haruest, and to make instruments
+          of warre and the things that serue for his charets:</hi></item>
+<item>      13 <hi rend="italic">Hee will also take your daughters, and make them Apothicaries, and Cookes,
+          and Bakers.</hi></item>
+<item>      14 <hi rend="italic">And hee will take your fields, and your vineyards, and your best Oliue trees,
+          and giue them to his seruants.</hi></item>
+<item>      15 <hi rend="italic">And he will take the tenth of your seed, and of your Vineyards, and giue it to his
+          Eunuches, and to his seruants.</hi></item>
+<item>      16 <hi rend="italic">And he will take your men seruants, and your maid-seruants, and the chiefe of
+          your young men, and your asses, and put them to his worke.</hi></item>
+<item>      17 <hi rend="italic">He will take the tenth of your sheepe: and ye shall be his seruants.</hi></item>
+<item>      18 <hi rend="italic">And ye shall cry out at that day, because of your King, whom ye haue chosen
+          you: and the Lord God will not heare you at that day.</hi></item>
+<item>      19 <hi rend="italic">But the people would not heare the voice of</hi> Samuel, <hi rend="italic">but did say: Nay, but
+          there shalbe a King ouer vs.</hi></item>
+<item>      20 <hi rend="italic">And we also willbe all like other Nations, and our King shall iudge vs, and
+          goe out before vs, and fight our battels.</hi></item>
+</list></p>
+<p>That these words, and discourses of <hi rend="italic">Samuel</hi> were dited by Gods Spirit, it
+needs no further probation, but that it is a place of Scripture; since the whole
+Scripture is dited by that inspiration, as <hi rend="italic">Paul</hi> saith: which ground no good
+
+<pb n="57"/>
+Christian will, or dare denie. Whereupon it must necessarily follow, that these
+speeches proceeded not from any ambition in <hi rend="italic">Samuel</hi>, as one loath to quite the
+reines that he so long had ruled, and therefore desirous, by making odious the
+gouernment of a King, to disswade the people from their farther importunate
+crauing of one: For, as the text proueth it plainly, he then conueened them to giue
+them a resolute grant of their demand, as God by his owne mouth commanded
+him, saying,
+         <hi rend="blockquote"> <hi rend="italic">Hearken to the voice of the people.</hi></hi>
+And to presse to disswade them from that, which he then came to grant vnto them,
+were a thing very impertinent in a wise man; much more in the Prophet of the
+most high God. And likewise, it well appeared in all the course of his life after,
+that so long refusing of their sute before came not of any ambition in him: which
+he well proued in praying, &amp; as it were importuning God for the weale of <hi rend="italic">Saul.</hi>
+Yea, after God had declared his reprobation vnto him, yet he desisted not, while
+God himselfe was wrath at his praying, and discharged his fathers suit in that
+errand. And that these words of <hi rend="italic">Samuel</hi> were not vttered as a prophecie of <hi rend="italic">Saul</hi>
+their first Kings defection, it well appeareth, as well because we heare no mention
+made in the Scripture of any his tyrannie and oppression, (which, if it had beene,
+would not haue been left vnpainted out therein, as well as his other faults were,
+as in a trew mirrour of all the Kings behauiours, whom it describeth) as likewise
+in respect that <hi rend="italic">Saul</hi> was chosen by God for his vertue, and meet qualities to
+gouerne his people: whereas his defection sprung after-hand from the corruption
+of his owne nature, &amp; not through any default in God, whom they that thinke so,
+would make as a step-father to his people, in making wilfully a choise of the
+vnmeetest for gouerning them, since the election of that King lay absolutely and
+immediatly in Gods hand. But by the contrary it is plaine, and euident, that this
+speech of <hi rend="italic">Samuel</hi> to the people, was to prepare their hearts before the hand to the
+due obedience of that King, which God was to giue vnto them; and therefore
+opened vp vnto them, what might be the intollerable qualities that might fall in
+some of their kings, thereby preparing them to patience, not to resist to Gods
+ordinance: but as he would haue said; Since God hath granted your importunate
+suit in giuing you a king, as yee haue else committed an errour in shaking off Gods
+yoke, and ouer-hastie seeking of a King; so beware yee fall not into the next, in
+casting off also rashly that yoke, which God at your earnest suite hath laid vpon
+you, how hard that euer it seeme to be: For as ye could not haue obtained one
+without the permission and ordinance of God, so may yee no more, fro hee be
+once set ouer you, shake him off without the same warrant. And therefore in
+time arme your selues with patience and humilitie, since he that hath the only
+power to make him, hath the onely power to vnmake him; and ye onely to obey,
+bearing with these straits that I now foreshew you, as with the finger of God,
+which lieth not in you to take off.
+
+<pb n="58"/>
+</p>
+<p>And will ye consider the very wordes of the text in order, as they are set downe,
+it shall plainely declare the obedience that the people owe to their King in all
+respects.
+</p>
+<p>First, God commandeth <hi rend="italic">Samuel</hi> to doe two things: the one, to grant the people
+their suit in giuing them a king; the other, to forewarne them, what some kings
+will doe vnto them, that they may not thereafter in their grudging and murmur-
+ing say, when they shal feele the snares here fore-spoken; We would neuer haue
+had a king of God, in case when we craued him, hee had let vs know how wee
+would haue beene vsed by him, as now we finde but ouer-late. And this is meant
+by these words:
+     </p><p><hi rend="italic">Now therefore hearken vnto their voice: howbeit yet testifie vnto them, and shew
+them the maner of the King that shall rule ouer them.</hi>
+</p>
+<p>And next, <hi rend="italic">Samuel</hi> in execution of this commandement of God, hee likewise
+doeth two things.
+</p>
+<p>First, hee declares vnto them, what points of iustice and equitie their king will
+breake in his behauiour vnto them: And next he putteth them out of hope, that
+wearie as they will, they shall not haue leaue to shake off that yoke, which God
+through their importunitie hath laide vpon them. The points of equitie that the
+King shall breake vnto them, are expressed in these words:
+     <list type="simple"><item>11<hi rend="italic"> He will take your sonnes, and appoint them to his Charets, and to be his horse-
+          men, and some shall run before his Charet.</hi>
+     </item><item>12 <hi rend="italic">Also he will make them his captaines ouer thousands, and captaines ouerfifties,
+          and to eare his ground, and to reape his haruest, and to make instruments of
+          warre, and the things that serue for his charets.</hi>
+     </item><item>13 <hi rend="italic">He will also take your daughters, and make them Apothecaries, and Cookes,
+          and Bakers.</hi></item>
+</list></p>
+<p>The points of Iustice, that hee shall breake vnto them, are expressed in these
+wordes:
+     <list type="simple"><item>14 <hi rend="italic">Hee will take your fields, and your vineyards, and your best Oliue trees, and
+          giue them to his seruants.</hi></item>
+<item>     15 <hi rend="italic">And he will take the tenth of your seede, and of your vineyards, and giue it to
+          his Eunuches and to his seruants: and also the tenth of your sheepe.</hi></item>
+</list></p>
+<p>As if he would say; The best and noblest of your blood shall be compelled in
+slauish and seruile offices to serue him: and not content of his owne patrimonie,
+will make vp a rent to his owne vse out of your best lands, vineyards, orchards,
+and store of cattell: So as inuerting the Law of nature, and office of a King, your
+persons and the persons of your posteritie, together with your lands, and all that
+ye possesse shall serue his priuate vse, and inordinate appetite.
+</p>
+<p>And as vnto the next point (which is his fore-warning them, that, weary as
+ they will, they shall not haue leaue to shake off the yoke, which God thorow their
+ importunity hath laid vpon them) it is expressed in these words:
+
+<pb n="59"/>
+ <list type="simple"><item>    18 <hi rend="italic">And yee shall crie out at that day, because of your King whom yee haue chosen
+          you: and the Lord will not heare you at that day.</hi></item>
+</list></p>
+<p>As he would say; When ye shall finde these things in proofe that now I fore-
+warne you of, although you shall grudge and murmure, yet it shal not be lawful
+to you to cast it off, in respect it is not only the ordinance of God, but also your
+selues haue chosen him vnto you, thereby renouncing for euer all priuiledges, by
+your willing consent out of your hands, whereby in any time hereafter ye would
+claime, and call backe vnto your selues againe that power, which God shall not
+permit you to doe. And for further taking away of all excuse, and retraction of
+this their contract, after their consent to vnder-lie this yoke with all the burthens
+that hee hath declared vnto them, he craues their answere, and consent to his
+proposition: which appeareth by their answere, as it is expressed in these words:
+     <list type="simple"><item>19 <hi rend="italic">Nay, but there shall be a King ouer vs. 20 And we also will be like all other
+          nations: and our king shall iudge vs, and goe out before vs and fight our battels.</hi></item></list>
+</p>
+<p>As if they would haue said; All your speeches and hard conditions shall not
+skarre vs, but we will take the good and euill of it vpon vs, and we will be content
+to beare whatsoeuer burthen it shal please our King to lay vpon vs, aswell as other
+nations doe. And for the good we will get of him in fighting our battels, we will
+more patiently beare any burden that shall please him to lay on vs.
+</p>
+<p>Now then, since the erection of this Kingdome and Monarchie among the
+Iewes, and the law thereof may, and ought to bee a paterne to all Christian and
+well founded Monarchies, as beeing founded by God himselfe, who by his Oracle,
+and out of his owne mouth gaue the law thereof: what liberty can broiling spirits,
+and rebellious minds claime iustly to against any Christian Monarchie; since
+they can claime to no greater libertie on their part, nor the people of God might
+haue done, and no greater tyranny was euer executed by any Prince or tyrant,
+whom they can obiect, nor was here fore-warned to the people of God, (and yet
+all rebellion countermanded vnto them) if tyrannizing ouer mens persons, sonnes,
+daughters and seruants; redacting noble houses, and men, and women of noble
+blood, to slauish and seruile offices; and extortion, and spoile of their lands and
+goods to the princes owne priuate vse and commoditie, and of his courteours, and
+seruants, may be called a tyrannie ?
+</p>
+<p>And that this proposition grounded vpon the Scripture, may the more clearly
+ appeare to be trew by the practise oft prooued in the same booke, we neuer reade,
+ that euer the Prophets perswaded the people to rebell against the Prince, how
+ wicked soeuer he was.
+</p>
+<p>When <hi rend="italic">Samuel</hi> by Gods command pronounced to the same king <hi rend="italic">Saul</hi>, that his
+ kingdome was rent from him, and giuen to another (which in effect was a degrad-
+ ing of him) yet his next action following that, was peaceably to turne home, and
+ with floods of teares to pray to God to haue some compassion vpon him.<note anchored="true" place="foot">I. Sam. 15.</note>
+
+
+<pb n="60"/>
+
+</p>
+<p>And <hi rend="italic">David</hi>, notwithstanding hee was inaugurate in that same degraded Kings
+ roome, not onely (when he was cruelly persecuted, for no offence; but good
+ seruice done vnto him) would not presume, hauing him in his power, skantly, but
+ with great reuerence, to touch the garment of the annoynted of the Lord, and in
+ his words blessed him:<note anchored="true" place="foot"> I. Sam. 24.</note>  but likewise, when one came to him vanting himselfe
+ vntrewly to haue slaine <hi rend="italic">Saul</hi>, hee, without forme of proces, or triall of his guilt,
+ caused onely for guiltinesse of his tongue, put him to sodaine death.<note anchored="true" place="foot">2. Sam. 1 </note>
+</p>
+<p>And although there was neuer a more monstrous persecutor, and tyrant nor
+ <hi rend="italic">Achab</hi> was: yet all the rebellion, that <hi rend="italic">Elias</hi> euer raised against him, was to flie to
+ the wildernes: where for fault of sustentation, he was fed with the Corbies. And
+ I thinke no man will doubt but <hi rend="italic">Samuel, Dauid</hi>, and <hi rend="italic">Elias</hi>, had as great power to
+ perswade the people, if they had like to haue employed their credite to vproares
+ &amp; rebellions against these wicked kings, as any of our seditious preachers in these
+ daies of whatsoeuer religion, either in this countrey or in France, had, that busied
+ themselues most to stir vp rebellion vnder cloake of religion. This farre the only
+ loue of veritie, I protest, without hatred at their persons, haue mooued me to
+ be somewhat satyricke.
+</p>
+<p>And if any will leane to the extraordinarie examples of degrading or killing of
+ kings in the Scriptures, thereby to cloake the peoples rebellion, as by the deed of
+ <hi rend="italic">Iehu</hi>, and such like extraordinaries: I answere, besides that they want the like
+ warrant that they had, if extraordinarie examples of the Scripture shall bee
+ drawne in daily practise; murther vnder traist as in the persons of <hi rend="italic">Ahud</hi>, and
+ <hi rend="italic">Iael</hi>; theft, as in the persons of the <hi rend="italic">Israelites</hi> comming out of <hi rend="italic">Egypt</hi>; lying to their
+ parents to the hurt of their brother, as in the person of Iacob, shall all be counted
+ as lawfull and allowable vertues, as rebellion against Princes. And to conclude,
+ the practise through the whole Scripture prooueth the peoples obedience giuen
+ to that sentence in the law of God:
+          <hi rend="blockquote"><hi rend="italic">Thou shalt not rayle vpon the Iudges, neither speake euill of the ruler of
+                  thy people.</hi></hi>
+</p>
+<p>To end then the ground of my proposition taken out of the Scripture, let two
+ speciall, and notable examples, one vnder the law, another vnder the Euangel,
+ conclude this part of my alleageance. Vnder the lawe, Ieremie threatneth the
+ people of God with vtter destruction for rebellion to <hi rend="italic">Nabuchadnezar</hi> the king of
+ Babel:<note anchored="true" place="foot">Ier. 27.</note> who although he was an idolatrous persecuter, a forraine King, a Tyrant,
+ and vsurper of their liberties; yet in respect they had once receiued and acknowl-
+ edged him for their king, he not only commandeth them to obey him, but euen
+ to pray for his prosperitie, adioyning the reason to it; because in his prosperitie
+ stood their peace.<note anchored="true" place="foot">Iere. 29.</note>
+</p>
+<p>And vnder the Euangel, that king, whom <hi rend="italic">Paul</hi> bids the <hi rend="italic">Romanes obey</hi> and
+<hi rend="italic">serue for conscience sake</hi>, was <hi rend="italic">Nero</hi> that bloody tyrant, an infamie to his aage, and
+
+ <pb n="61"/>
+
+ a monster to the world, being also an idolatrous persecuter, as the King of <hi rend="italic">Babel</hi>
+ was. If then Idolatrie and defection from God, tyranny ouer their people, and
+ persecution of the Saints, for their profession sake, hindred not the Spirit of God
+ to command his people vnder all highest paine to giue them all due and heartie
+ obedience for conscience sake, giuing to <hi rend="italic">Caesar</hi> that which was <hi rend="italic">Caesars</hi>, and to God
+ that which was Gods, as Christ saith; and that this practise throughout the booke
+ of God agreeth with this lawe, which he made in the erection of that Monarchie
+ (as is at length before deduced) what shamelesse presumption is it to any Chris-
+ tian people now adayes to claime to that vnlawfull libertie, which God refused to
+ his owne peculiar and chosen people ? <note anchored="true" place="foot">Iere. 13.</note> Shortly then to take vp in two or three
+ sentences, grounded vpon all these arguments, out of the lawe of God, the duetie,
+ and alleageance of the people to their lawfull king, their obedience, I say, ought
+ to be to him, as to Gods Lieutenant in earth, obeying his commands in all thing,
+ except directly against God, as the commands of Gods Minister, acknowledging
+ him a Iudge set by GOD ouer them, hauing power to iudge them, but to be iudged
+ onely by GOD, whom to onely hee must giue count of his iudgement; fearing him
+ as their Iudge, louing him as their father; praying for him as their protectour;
+ for his continuance, if he be good; for his amendement, if he be wicked; following
+ and obeying his lawfull commands, eschewing and flying his fury in his vnlawfull,
+ without resistance, but by sobbes and teares to God, according to that sentence
+ vsed in the primitiue Church in the time of the persecution.
+                            <hi rend="blockquote"><hi rend="italic"><foreign xml:lang="lat">Preces, &amp; Lachrymae sunt arma Ecclesiae.</foreign></hi></hi>
+</p>
+<p>Now, as for the describing the allegeance, that the lieges owe to their natiue
+ King, out of the fundamentall and ciuill Lawe, especially of this contrey, as I
+ promised, the ground must first be set downe of the first maner of establishing the
+ Lawes and forme of gouernement among vs; that the ground being first right
+ laide, we may thereafter build rightly thereupon. Although it be trew (according
+ to the affirmation of those that pryde themselues to be the scourges of Tyrants)
+ that in the first beginning of Kings rising among the Gentiles, in the time of the
+ first aage, diuers commonwealths and societies of men choosed out one among
+ themselues, who for his vertues and valour, being more eminent then the rest, was
+ chosen out by them, and set vp in that roome, to maintaine the weakest in their
+ right, to throw downe oppressours, and to foster and continue the societie among
+ men; which could not otherwise, but by vertue of that vnitie be wel done: yet
+ these examples are nothing pertinent to vs; because our Kingdome and diuers
+ other Monarchies are not in that case, but had their beginning in a farre contrary
+ fashion.
+</p>
+<p>For as our Chronicles beare witnesse, this Ile, and especially our part of it,
+being scantly inhabited, but by very few, and they as barbarous and scant of
+ciuilitie, as number, there comes our first King <hi rend="italic">Fergus</hi>, with a great number with
+
+<pb n="62"/>
+
+him, out of <hi rend="italic">Ireland</hi>, which was long inhabited before vs, and making himself
+master of the countrey, by his owne friendship, and force, as well of the <hi rend="italic">Ireland-
+men</hi> that came with him, as of the countrey-men that willingly fell to him, hee
+made himselfe King and Lord, as well of the whole landes, as of the whole inhabi-
+tants within the same. Thereafter he and his successours, a long while after their
+being Kinges, made and established their lawes from time to time, and as the
+occasion required. So the trewth is directly contrarie in our state to the false
+affirmation of such seditious writers, as would perswade vs, that the Lawes and
+state of our countrey were established before the admitting of a king: where by
+the countrarie ye see it plainely prooued, that a wise king comming in among
+barbares, first established the estate and forme of gouernement, and thereafter
+made lawes by himselfe, and his successours according thereto.
+</p>
+<p>The kings therefore in <hi rend="italic">Scotland</hi> were before any estates or rankes of men within
+the same, before any Parliaments were holden, or lawes made: and by them was
+the land distributed (which at the first was whole theirs) states erected and
+decerned, and formes of gouernement deuised and established: And so it followes
+of necessitie, that the kings were the authors and makers of the Lawes, and not
+the Lawes of the kings. And to prooue this my assertion more clearly, it is eui-
+dent by the rolles of our Chancellery (which containe our eldest and fundamentall
+Lawes) that the King is <hi rend="italic"><foreign xml:lang="lat">Dominus omnium bonorum</foreign></hi>, and <hi rend="italic"><foreign xml:lang="lat">Dominus directus totius
+Dominij</foreign></hi>, the whole subiects being but his vassals, and from him holding all their
+lands as their ouer-lord, who according to good seruices done vnto him, chaungeth
+their holdings from tacke to few, from ward to blanch, erecteth new Baronies,
+and vniteth olde, without aduice or authoritie of either Parliament or any other
+subalterin iudiciall seate: So as if wrong might bee admitted in play (albeit I
+grant wrong should be wrong in all persons) the King might haue a better colour
+for his pleasure, without further reason, to take the land from his lieges, as ouer-
+lord of the whole, and doe with it as pleaseth him, since all that they hold is of
+him, then, as foolish writers say, the people might vnmake the king, and put an
+other in his roome: But either of them as vnlawful, and against the ordinance of
+God, ought to be alike odious to be thought, much lesse put in practise.
+</p>
+<p>And according to these fundamentall Lawes already alledged, we daily see
+that in the Parliament (which is nothing else but the head Court of the king and
+his vassals) the lawes are but craued by his subiects, and onely made by him at
+their rogation, and with their aduice: For albeit the king make daily statutes and
+ordinances, enioyning such paines thereto as hee thinkes meet, without any
+aduice of Parliament or estates; yet it lies in the power of no Parliament, to make
+any kinde of Lawe or Statute, without his Scepter be to it, for giuing it the force
+of a Law: And although diuers changes haue beene in other countries of the blood
+Royall, and kingly house, the kingdome being reft by conquest from one to
+another, as in our neighbour countrey in <hi rend="italic">England</hi>, (which was neuer in ours) yet
+the same ground of the kings right ouer all the land, and subiects thereof re-
+
+<pb n="63"/>
+
+ maineth alike in all other free Monarchies, as well as in this: For when the
+ Bastard of <hi rend="italic">Normandie</hi> came into <hi rend="italic">England</hi>, and made himselfe king, was it not by
+ force, and with a mighty army ? Where he gaue the Law, and tooke none,
+ changed the Lawes, inuerted the order of gouernement, set downe the strangers
+ his followers in many of the old possessours roomes, as at this day well appeareth
+ a great part of the Gentlemen in <hi rend="italic">England</hi>, beeing come of the <hi rend="italic">Norman</hi> blood, and
+ their old Lawes, which to this day they are ruled by, are written in his language,
+ and not in theirs: And yet his successours haue with great happinesse enioyed the
+ Crowne to this day; Whereof the like was also done by all them that conquested
+ them before.
+</p>
+<p>And for conclusion of this point, that the king is ouer-lord ouer the whole
+lands, it is likewise daily proued by the Law of our hoordes, of want of Heires,
+and of Bastardies: For if a hoord be found vnder the earth, because it is no more
+in the keeping or vse of any person, it of the law pertains to the king. If a person,
+inheritour of any lands or goods, dye without any sort of heires, all his landes and
+goods returne to the king. And if a bastard die vnrehabled without heires of his
+bodie (which rehabling onely lyes in the kings hands) all that hee hath likewise
+returnes to the king. And as ye see it manifest, that the King is ouer-Lord of the
+whole land: so is he Master ouer euery person that inhabiteth the same, hauing
+power ouer the life and death of euery one of them: For although a iust Prince
+will not take the life of any of his subiects without a cleare law; yet the same
+lawes whereby he taketh them, are made by himselfe, or his predecessours; and
+so the power flowes alwaies from him selfe; as by daily experience we see, good
+and iust Princes will from time to time make new lawes and statutes, adioyning
+the penalties to the breakers thereof, which before the law was made, had beene
+no crime to the subiect to haue committed. Not that I deny the old definition of
+a King, and of a law; which makes the king to bee a speaking law, and the Law a
+dumbe king: for certainely a king that gouernes not by his lawe, can neither be
+countable to God for his administration, nor haue a happy and established raigne:
+For albeit it be trew that I haue at length prooued, that the King is aboue the
+law, as both the author and giuer of strength thereto; yet a good king will not
+onely delight to rule his subiects by the lawe, but euen will conforme himselfe in
+his owne actions thereuneto, alwaies keeping that ground, that the health of the
+common-wealth be his chiefe lawe: And where he sees the lawe doubtsome or
+rigorous, hee may interpret or mitigate the same, lest otherwise <hi rend="italic"><foreign xml:lang="lat">Summum ius</foreign></hi> bee
+<hi rend="italic"><foreign xml:lang="lat">summa iniuria</foreign></hi>: And therefore generall lawes, made publikely in Parliament, may
+vpon knowen respects to the King by his authoritie bee mitigated, and suspended
+vpon causes onely knowen to him.
+</p>
+<p>As likewise, although I haue said, a good king will frame all his actions to be
+according to the Law; yet is hee not bound thereto but of his good will, and for
+good example-giuing to his subiects: For as in the law of abstaining from eating
+of flesh in <hi rend="italic">Lenton</hi>, the king will, for examples sake, make his owne house to obserue
+
+<pb n="64"/>
+the Law; yet no man will thinke he needs to take a licence to eate flesh. And
+although by our Lawes, the bearing and wearing of hag-buts, and pistolets be
+forbidden, yet no man can find any fault in the King, for causing his traine vse
+them in any raide vpon the Borderers, or other malefactours or rebellious subiects.
+So as I haue alreadie said, a good King, although hee be aboue the Law, will subiect
+and frame his actions thereto, for examples sake to his subiects, and of his owne
+free-will, but not as subiect or bound thereto.
+</p>
+<p>Since I haue so clearly prooued then out of the fundamentall lawes and prac-
+tise of this country, what right &amp; power a king hath ouer his land and subiects, it
+is easie to be vnderstood, what allegeance &amp; obedience his lieges owe vnto him;
+I meane alwaies of such free Monarchies as our king is, and not of electiue kings,
+and much lesse of such sort of gouernors, as the dukes of <hi rend="italic">Venice</hi> are, whose
+Aristocratick and limited gouernment, is nothing like to free Monarchies; al-
+though the malice of some writers hath not beene ashamed to mis-know any
+difference to be betwixt them. And if it be not lawfull to any particular Lordes
+tenants or vassals, vpon whatsoeuer pretext, to controll and displace their Master,
+and ouer-lord (as is clearer nor the Sunne by all Lawes of the world) how much lesse
+may the subiects and vassals of the great ouer-lord the KING controll or displace
+him ? And since in all inferiour iudgements in the land, the people may not vpon
+any respects displace their Magistrates, although but subaltern: for the people
+of a borough, cannot displace their Prouost before the time of their election: nor
+in Ecclesiasticall policie the flocke can vpon any pretence displace the Pastor, nor
+iudge of him: yea euen the poore Schoolemaster cannot be displaced by his
+schollers: If these, I say (whereof some are but inferiour, subaltern, and tem-
+porall Magistrates, and none of them equall in any sort to the dignitie of a King)
+cannot be displaced for any occasion or pretext by them that are ruled by them:
+how much lesse is it lawfull vpon any pretext to controll or displace the great
+Prouost, and great Schoole-master of the whole land: except by inuerting the
+order of all Law and reason, the commanded may be made to command their
+commander, the iudged to iudge their Iudge, and they that are gouerned, to
+gouerne their time about their Lord and gouernour.
+</p>
+<p>And the agreement of the Law of nature in this our ground with the Lawes
+and constitutions of God, and man, already alledged, will by two similitudes
+easily appeare. The King towards his people is rightly compared to a father of
+children, and to a head of a body composed of diuers members: For as fathers,
+the good Princes, and Magistrates of the people of God acknowledged themselues
+to their subiects. And for all other well ruled Common-wealths, the stile of <hi rend="italic"><foreign xml:lang="lat">Pater
+patriae</foreign></hi> was euer, and is commonly vsed to Kings. And the proper office of a King
+towards his Subiects, agrees very wel with the office of the head towards the body,
+and all members thereof: For from the head, being the seate of Iudgement, pro-
+ceedeth the care and foresight of guiding, and preuenting all euill that may come
+to the body or any part thereof. The head cares for the body, so doeth the King
+
+<pb n="65"/>
+
+for his people. As the discourse and direction flowes from the head, and the
+execution according thereunto belongs to the rest of the members, euery one
+according to their office: so it is betwixt a wise Prince, and his people. As the
+iudgement comming from the head may not onely imploy the members, euery one
+in their owne office, as long as they are able for it; but likewise in case any of them
+be affected with any infirmitie must care and prouide for their remedy, in-case it
+be curable, and if otherwise, gar cut them off for feare of infecting of the rest:
+euen so is it betwixt the Prince, and his people. And as there is euer hope of
+curing any diseased member by the direction of the head, as long as it is whole;
+but by the contrary, if it be troubled, all the members are partakers of that paine,
+so is it betwixt the Prince and his people.
+</p>
+<p>And now first for the fathers part (whose naturall loue to his children I
+described in the first part of this my discourse, speaking of the dutie that Kings
+owe to their Subiects) consider, I pray you what duetie his children owe to him, &amp;
+whether vpon any pretext whatsoeuer, it wil not be thought monstrous and vn-
+naturall to his sons, to rise vp against him, to control him at their appetite, and
+when they thinke good to sley him, or to cut him off, and adopt to themselues
+any other they please in his roome: Or can any pretence of wickednes or rigor on
+his part be a iust excuse for his children to put hand into him ? And although
+wee see by the course of nature, that loue vseth to descend more then to ascend,
+in case it were trew, that the father hated and wronged the children neuer so
+much, will any man, endued with the least sponke of reason, thinke it lawfull for
+them to meet him with the line ? Yea, suppose the father were furiously follow-
+ing his sonnes with a drawen sword, is it lawfull for them to turne and strike
+againe, or make any resistance but by flight ? I thinke surely, if there were no
+more but the example of bruit beasts &amp; vnreasonable creatures, it may serue well
+enough to qualifie and proue this my argument. We reade often the pietie that
+the Storkes haue to their olde and decayed parents: And generally wee know,
+that there are many sorts of beasts and fowles, that with violence and many
+bloody strokes will beat and banish their yong ones from them, how soone they
+perceiue them to be able to fend themselues; but wee neuer read or heard of any
+resistance on their part, except among the vipers; which prooues such persons, as
+ought to be reasonable creatures, and yet vnnaturally follow this example, to be
+endued with their viperous nature.
+</p>
+
+<p>And for the similitude of the head and the body, it may very well fall out that
+ the head will be forced to garre cut off some rotten members (as I haue already
+ said) to keep the rest of the body in integritie: but what state the body can be in,
+ if the head, for any infirmitie that can fall to it, be cut off, I leaue it to the readers
+ iudgement.
+</p>
+<p>So as (to conclude this part) if the children may vpon any pretext that can be
+ imagined, lawfully rise vp against their Father, cut him off, &amp; choose any other
+ whom they please in his roome; and if the body for the weale of it, may for any
+
+<pb n="66"/>
+
+infirmitie that can be in the head, strike it off, then I cannot deny that the people
+may rebell, controll, and displace, or cut off their king at their owne pleasure, and
+vpon respects moouing them. And whether these similitudes represent better the
+office of a King, or the offices of Masters or Deacons of crafts, or Doctors in
+Physicke (which iolly comparisons are vsed by such writers as maintaine the
+contrary proposition) I leaue it also to the readers discretion.
+</p>
+<p>And in case any doubts might arise in any part of this treatise, I wil (according
+ to my promise) with the solution of foure principall and most weightie doubts,
+ that the aduersaries may obiect, conclude this discourse. And first it is casten vp
+ by diuers, that employ their pennes vpon Apologies for rebellions and treasons,
+ that euery man is borne to carry such a naturall zeale and duety to his common-
+ wealth, as to his mother; that seeing it so rent and deadly wounded, as whiles it
+ will be by wicked and tyrannous Kings, good Citizens will be forced, for the
+ naturall zeale and duety they owe to their owne natiue countrey, to put their
+ hand to worke for freeing their common-wealth from such a pest.
+</p>
+<p>Whereunto I giue two answeres: First, it is a sure Axiome in <hi rend="italic">Theologie</hi>, that
+euill should not be done, that good may come of it: The wickednesse therefore of
+the King can neuer make them that are ordained to be iudged by him, to become
+his Iudges. And if it be not lawfull to a priuate man to reuenge his priuate iniury
+vpon his priuate aduersary (since God hath onely giuen the sword to the Magis-
+trate) how much lesse is it lawfull to the people, or any part of them (who all are
+but priuate men, the authoritie being alwayes with the Magistrate, as I haue
+already proued) to take vpon them the vse of the sword, whom to it belongs not,
+against the publicke Magistrate, whom to onely it belongeth.
+</p>
+<p>Next, in place of relieuing the common-wealth out of distresse (which is their
+onely excuse and colour) they shall heape double distresse and desolation vpon it;
+and so their rebellion shall procure the contrary effects that they pretend it for:
+For a king cannot be imagined to be so vnruly and tyrannous, but the common-
+wealth will be kept in better order, notwithstanding thereof, by him, then it can
+be by his way-taking. For first, all sudden mutations are perillous in common-
+wealths, hope being thereby giuen to all bare men to set vp themselues, and flie
+with other mens feathers, the reines being loosed to all the insolencies that dis-
+ordered people can commit by hope of impunitie, because of the loosenesse of
+all things.
+</p>
+<p>And next, it is certaine that a king can neuer be so monstrously vicious, but
+hee will generally fauour iustice, and maintaine some order, except in the par-
+ticulars, wherein his inordinate lustes and passions cary him away; where by the
+contrary, no King being, nothing is vnlawfull to none: And so the olde opinion
+of the Philosophers prooues trew, That better it is to liue in a Common-wealth,
+where nothing is lawfull, then where all things are lawfull to all men; the Com-
+mon-wealth at that time resembling an vndanted young horse that hath casten
+his rider: For as the diuine Poet <hi rend="smallcap">Dv Bartas</hi> sayth, <hi rend="italic">Better it were to suffer some</hi>
+
+<pb n="67"/>
+<hi rend="italic">disorder in the estate, and some spots in the Common-wealth, then in pretending to
+reforme, vtterly to ouerthrow the Republicke.</hi>
+</p>
+<p>The second obiection they ground vpon the curse that hangs ouer the common-
+wealth, where a wicked king reigneth: and, say they, there cannot be a more
+acceptable deed in the sight of God, nor more dutiful to their common-weale,
+then to free the countrey of such a curse, and vindicate to them their libertie,
+which is naturall to all creatures to craue.
+</p>
+<p>Whereunto for answere, I grant indeed, that a wicked king is sent by God for
+a curse to his people, and a plague for their sinnes: but that it is lawfull to them
+to shake off that curse at their owne hand, which God hath laid on them, that I
+deny, and may so do iustly. Will any deny that the king of <hi rend="italic">Babel</hi> was a curse to
+the people of God, as was plainly fore-spoken and threatned vnto them in the
+prophecie of their captiutie ? And what was <hi rend="italic">Nero</hi> to the Christian Church in his
+time ? And yet <hi rend="italic">Ieremy</hi> and <hi rend="italic">Paul</hi> (as yee haue else heard) commanded them not
+onely to obey them, but heartily to pray for their welfare.
+</p>
+<p>It is certaine then (as I haue already by the Law of God sufficiently proued)
+that patience, earnest prayers to God, and amendment of their liues, are the
+onely lawful means to moue God to relieue them of that heauie curse. As for
+vindicating to themselues their owne libertie, what lawfull power haue they to
+reuoke to themselues againe those priuiledges, which by their owne consent before
+were so fully put out of their hands ? for if a Prince cannot iustly bring backe
+againe to himself the priuiledges once bestowed by him or his predecessors vpon
+any state or ranke of his subiects; how much lesse may the subiects reaue out of
+the princes hand that superioritie, which he and his Predecessors haue so long
+brooked ouer them ?
+</p>
+<p>But the vnhappy iniquitie of the time, which hath oft times giuen ouer good
+successe to their treasonable attempts, furnisheth them the ground of their third
+obiection: For, say they, the fortunate successe that God hath so oft giuen to
+such enterprises, prooueth plainely by the practise, that God fauoured the
+iustnesse of their quarrell.
+</p>
+<p>To the which I answere, that it is trew indeed, that all the successe of battels,
+as well as other wordly things, lyeth onely in Gods hand: And therefore it is that
+in the Scripture he takes to himselfe the style of God of Hosts. But vpon that
+generall to conclude, that hee euer giues victory to the iust quarrell, would prooue
+the <hi rend="italic">Philistims</hi>, and diuers other neighbour enemies of the people of God to haue
+oft times had the iust quarrel against the people of God, in respect of the many
+victories they obtained against them. And by that same argument they had also
+iust quarrell against the Arke of God: For they wan it in the field, and kept it
+long prisoner in their countrey. As likewise by all good Writers, as well Theo-
+logues, as other, the Duels and singular combats are disallowed; which are onely
+made vpon pretence, that GOD will kith thereby the iustice of the quarrell: For
+wee must consider that the innocent partie is not innocent before God: And
+
+<pb n="68"/>
+  therefore God will make oft times them that haue the wrong side reuenge iustly
+  his quarrell; and when he hath done, cast his scourge in the fire; as he oft times
+  did to his owne people, stirring vp and strengthening their enemies, while they
+  were humbled in his sight, and then deliuered them in their hands. So God, as
+  the great Iudge may iustly punish his Deputie, and for his rebellion against him
+  stir vp his rebels to meet him with the like: And when it is done, the part of the
+  instrument is no better then the diuels part is in tempting and torturing such as
+  God committeth to him as his hangman to doe: Therefore, as I said in the begin-
+  ning, it is oft times a very deceiueable argument, to iudge of the cause by the euent.
+</p>
+<p>And the last obiection is grounded vpon the mutuall paction and adstipulation
+  (as they call it) betwixt the King and his people, at the time of his coronation:
+  For there, say they, there is a mutuall paction, and contract bound vp, and
+  sworne betwixt the king, and the people: Whereupon it followeth, that if the one
+  part of the contract or the Indent bee broken vpon the Kings side, the people are
+  no longer bound to keep their part of it, but are thereby freed of their oath: For
+  (say they) a contract betwixt two parties, of all Law frees the one partie, if the
+  other breake vnto him.
+</p>
+<p>As to this contract alledged made at the coronation of a King, although I deny
+ any such contract to bee made then, especially containing such a clause irritant
+ as they alledge; yet I confesse, that a king at his coronation, or at the entry to his
+ kingdome, willingly promiseth to his people, to discharge honorably and trewly
+ the office giuen him by God ouer them: But presuming that thereafter he breaks
+ his promise vnto them neuer so inexcusable; the question is, who should bee
+ iudge of the breake, giuing vnto them, this contract were made vnto them neuer
+ so sicker, according to their alleageance. I thinke no man that hath but the
+ smallest entrance into the ciuill Law, will doubt that of all Law, either ciuil or
+ municipal of any nation, a contract cannot be thought broken by the one partie,
+ and so the other likewise to be freed therefro, except that first a lawfull triall and
+ cognition be had by the ordinary Iudge of the breakers thereof: Or else euery
+ man may be both party and Iudge in his owne cause; which is absurd once to be
+ thought. Now in this contract (I say) betwixt the king and his people, God is
+ doubtles the only Iudge, both because to him onely the king must make count of
+ his administration (as is oft said before) as likewise by the oath in the coronation,
+ God is made iudge and reuenger of the breakers: For in his presence, as only
+ iudge of oaths, all oaths ought to be made. Then since God is the onely Iudge
+ betwixt the two parties contractors, the cognition and reuenge must onely apper-
+ taine to him: It followes therefore of necessitie, that God must first giue sentence
+ vpon the King that breaketh, before the people can thinke themselues freed of
+ their oath. What iustice then is it, that the partie shall be both iudge and partie,
+ vsurping vpon himselfe the office of God, may by this argument easily appeare:
+ And shall it lie in the hands of headlesse multitude, when they please to weary off
+subiection, to cast off the yoake of gouernement that God hath laid vpon them, to
+
+<pb n="69"/>
+  iudge and punish him, whom-by they should be iudged and punished, and in that
+  case, wherein by their violence they kythe themselues to be most passionate
+  parties, to vse the office of an vngracious Iudge or Arbiter ? Nay, to speak
+  trewly of that case, as it stands betwixt the king and his people, none of them
+  ought to iudge of the others break: For considering rightly the two parties at the
+  time of their mutuall promise, the king is the one party, and the whole people in
+  one body are the other party. And therfore since it is certaine, that a king, in
+  case so it should fal out, that his people in one body had rebelled against him, hee
+  should not in that case, as thinking himselfe free of his promise and oath, become
+  an vtter enemy, and practise the wreake of his whole people and natiue country:
+  although he ought iustly to punish the principall authours and bellowes of that
+  vniuersall rebellion: how much lesse then ought the people (that are alwaies
+  subiect vnto him, and naked of all authoritie on their part) presse to iudge and
+  ouer-throw him ? otherwise the people, as the one partie contracters, shall no
+  sooner challenge the king as breaker, but hee assoone shall iudge them as breakers:
+  so as the victors making the tyners the traitors (as our prouerbe is) the partie
+  shall aye become both iudge and partie in his owne particular, as I haue alreadie
+  said.
+</p>
+<p>And it is here likewise to be noted, that the duty and alleageance, which the
+ people sweareth to their prince, is not only bound to themselues, but likewise to
+ their lawfull heires and posterity, the lineall succession of crowns being begun
+ among the people of God, and happily continued in diuers christian common-
+ wealths: So as no obiection either of heresie, or whatsoeuer priuate statute or
+ law may free the people from their oath-giuing to their king, and his succession,
+ established by the old fundamentall lawes of the kingdome: For, as hee is their
+ heritable ouer-lord, and so by birth, not by any right in the coronation, commeth
+ to his crowne; it is a like vnlawful (the crowne euer standing full) to displace
+ him that succeedeth thereto, as to eiect the former: For at the very moment of
+ the expiring of the king reigning, the nearest and lawful heire entreth in his place:
+ And so to refuse him, or intrude another, is not to holde out vncomming in, but to
+ expell and put out their righteous King. And I trust at this time whole <hi rend="italic">France</hi>
+ acknowledgeth the superstitious rebellion of the liguers, who vpon pretence of
+ heresie, by force of armes held so long out, to the great desolation of their whole
+ countrey, their natiue and righteous king from possessing of his owne crowne and
+ naturall kingdome.
+</p>
+<p>Not that by all this former discourse of mine, and Apologie for kings, I meane
+that whatsoeuer errors and intollerable abominations a souereigne prince commit,
+hee ought to escape all punishment, as if thereby the world were only ordained for
+kings, &amp; they without controlment to turne it vpside down at their pleasure: but
+by the contrary, by remitting them to God (who is their onely ordinary Iudge)
+I remit them to the sorest and sharpest schoolemaster that can be deuised for
+them: for the further a king is preferred by God aboue all other ranks &amp; degrees
+
+<pb n="70"/>
+of men, and the higher that his seat is aboue theirs, the greater is his obligation
+to his maker. And therfore in case he forget himselfe (his vnthankfulnes being
+in the same measure of height) the sadder and sharper will his correction be; and
+according to the greatnes of the height he is in, the weight of his fall wil recompense
+the same: for the further that any person is obliged to God, his offence becomes
+and growes so much the greater, then it would be in any other. <hi rend="italic">Ioues</hi> thunder-
+claps light oftner and sorer vpon the high &amp; stately oakes, then on the low and
+supple willow trees: and the highest bench is sliddriest to sit vpon. Neither is it
+euer heard that any king forgets himselfe towards God, or in his vocation; but
+God with the greatnesse of the plague reuengeth the greatnes of his ingratitude:
+Neither thinke I by the force and argument of this my discourse so to perswade
+the people, that none will hereafter be raised vp, and rebell against wicked Princes.
+But remitting to the iustice and prouidence of God to stirre vp such scourges as
+pleaseth him, for punishment of wicked kings (who made the very vermine and
+filthy dust of the earth to bridle the insolencie of proud <hi rend="italic">Pharaoh</hi>) my onely pur-
+pose and intention in this treatise is to perswade, as farre as lieth in me, by these
+sure and infallible grounds, all such good Christian readers, as beare not onely
+the naked name of a Christian, but kith the fruites thereof in their daily forme of
+life, to keep their hearts and hands free from such monstrous and vnnaturall
+rebellions, whensoeuer the wickednesse of a Prince shall procure the same at Gods
+hands: that, when it shall please God to cast such scourges of princes, and in-
+struments of his fury in the fire, ye may stand vp with cleane handes, and vn-
+spotted consciences, hauing prooued your selues in all your actions trew Chris-
+tians toward God, and dutifull subiects towards your King, hauing remitted the
+judgement and punishment of all his wrongs to him, whom to onely of right it
+appertaineth.
+</p>
+<p>But crauing at God, and hoping that God shall continue his blessing with vs,
+in not sending such fearefull desolation, I heartily wish our kings behauiour so to
+be, and continue among vs, as our God in earth, and louing Father, endued with
+such properties as I described a King in the first part of this Treatise. And that
+ye (my deare countreymen, and charitable readers) may presse by all means to
+procure the prosperitie and welfare of your King; that as hee must on the one
+part thinke all his earthly felicitie and happinesse grounded vpon your weale,
+caring more for himselfe for your sake then for his owne, thinking himselfe onely
+ordained for your weale; such holy and happy emulation may arise betwixt him
+and you, as his care for your quietnes, and your care for his honour and preserua-
+tion, may in all your actions daily striue together, that the Land may thinke
+themselues blessed with such a King, and the king may thinke himselfe most
+happy in ruling ouer so louing and obedient subiects.
+
+                                                      FINIS.
+
+<pb n="71"/>
+</p>
+
+
+   </div>
+   </div>
+  </body>
+ </text>
+</TEI>

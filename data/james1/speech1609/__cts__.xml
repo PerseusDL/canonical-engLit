@@ -1,0 +1,14 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:james1"
+  urn="urn:cts:engLit:james1.speech1609"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+        A Speach To The Lords And Commons Of The Parliament At White-Hall, On Wednesday The Xxi. Of March. Anno 1609.
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:james1.speech1609.perseus-eng1" workUrn="urn:cts:engLit:james1.speech1609" xml:lang="eng">
+    <ti:label xml:lang="eng">
+        Speech 1609
+    </ti:label>
+        <ti:description xml:lang="eng">James I. The Political Works of James I: Reprinted from the Edition of 1616. McIlwain, Charles Howard, editor. Cambridge: Harvard University Press, 1918.</ti:description>
+  </ti:edition>
+</ti:work>

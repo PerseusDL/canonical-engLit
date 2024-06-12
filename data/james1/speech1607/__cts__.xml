@@ -1,0 +1,14 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:james1"
+  urn="urn:cts:engLit:james1.speech1607"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+        A Speach To Both The Hovses Of Parliament, Delivered In The Great Chamber At White-Hall, The Last Day Of March 1607.
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:james1.speech1607.perseus-eng1" workUrn="urn:cts:engLit:james1.speech1607" xml:lang="eng">
+    <ti:label xml:lang="eng">
+        Speech 1607
+    </ti:label>
+    <ti:description xml:lang="eng">James I. The Political Works of James I: Reprinted from the Edition of 1616. McIlwain, Charles Howard, editor. Cambridge: Harvard University Press, 1918.</ti:description>
+  </ti:edition>
+</ti:work>
