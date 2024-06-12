@@ -5,11 +5,10 @@
  <teiHeader xml:lang="eng">
   <fileDesc>
    <titleStmt>
-    <title> A Speach To The Lords And Commons Of The Parliament At White-Hall, On Wednesday The Xxi.
-     Of March. Anno 1609. </title>
-
+    <title>A Speach To The Lords And Commons Of The Parliament At White-Hall, On Wednesday The Xxi.
+     Of March. Anno 1609</title>
     <author>James I</author>
-    <editor role="editor">Charles Howard McIlwain</editor>
+    <editor>Charles Howard McIlwain</editor>
     <respStmt>
      <resp>Prepared under the supervision of</resp>
      <name>Lisa Cerrato</name>
@@ -36,13 +35,14 @@
      <monogr>
       <title>The Political Works of James I: Reprinted from the Edition of 1616</title>
       <author>James I</author>
-      <editor role="editor">Charles Howard McIlwain</editor>
+      <editor>Charles Howard McIlwain</editor>
       <imprint>
        <pubPlace>Cambridge</pubPlace>
        <publisher>Harvard University Press</publisher>
        <date>1918</date>
       </imprint>
      </monogr>
+     <ref target="https://archive.org/details/politicalworksj00mcilgoog/page/n423/mode/2up">Internet Archive</ref>
     </biblStruct>
    </sourceDesc>
   </fileDesc>
@@ -61,6 +61,7 @@
    </langUsage>
   </profileDesc>
   <revisionDesc>
+   <change when="2024-06-03" who="Cliff Wulfman">Epidoc conversion and all matter of changes</change>
    <change when="2000-03-29" who="Tony Lilly">markup</change>
   </revisionDesc>
  </teiHeader>
