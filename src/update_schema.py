@@ -5,6 +5,7 @@ import logging
 def convert_entities(line):
     line = re.sub('&agrave;', u"\u00E0", line)
     line = re.sub('&egrave;', u"\u00E8", line)
+    line = re.sub('&igrave;', u"\u00EC", line)
     line = re.sub('&ograve;', u"\u00F2", line)
     line = re.sub('&ugrave;', u"\u00F9", line)
 
@@ -34,6 +35,8 @@ def convert_entities(line):
     line = re.sub('&imacr;', u"\u012B", line)
     line = re.sub('&omacr;', u"\u014C", line)
     line = re.sub('&umacr;', u"\u016B", line)
+
+    line = re.sub('&Amacr;', u"\u0100", line)
 
 
     line = re.sub('&ccedil;', u"\u1DD7", line)
