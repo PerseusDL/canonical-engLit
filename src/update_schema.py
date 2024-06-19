@@ -11,16 +11,19 @@ def convert_entities(line):
 
     line = line.replace('&aacute;', u"\u00E1")
     line = line.replace('&cacute;', u"\u0107")
+    line = line.replace('&Eacute;', u"\u00C9")
     line = line.replace('&eacute;', u"\u00E9")
     line = line.replace('&iacute;', u"\u00ED")
     line = line.replace('&nacute;', u"\u0144")
     line = line.replace('&oacute;', u"\u00F3")
     line = line.replace('&uacute;', u"\u00FA")
+    line = line.replace('&racute;', u"\u0155")
     line = line.replace('&sacute;', u"\u015B")
 
     line = re.sub('&acirc;', u"\u00E2", line)
     line = re.sub('&ecirc;', u"\u00EA", line)
     line = re.sub('&icirc;', u"\u00EE", line)
+    line = re.sub('&Ocirc;', u"\u00D4", line)
     line = re.sub('&ocirc;', u"\u00F4", line)
     line = re.sub('&ucirc;', u"\u00FB", line)
 
@@ -28,6 +31,7 @@ def convert_entities(line):
     line = re.sub('&euml;', u"\u00EB", line)
     line = re.sub('&iuml;', u"\u00EF", line)
     line = re.sub('&ouml;', u"\u00F6", line)
+    line = re.sub('&uuml;', u"\u00FC", line)
     line = re.sub('&yuml;', u"\u00FF", line)
 
     line = re.sub('&amacr;', u"\u0101", line)
@@ -43,11 +47,19 @@ def convert_entities(line):
     line = re.sub('&pound;', u"\u00A3", line)
     line = re.sub('&aelig;', u"\u00E6", line)
     line = re.sub('&oelig;', u"\u0153", line)
+    line = re.sub('&OElig;', u"\u0152", line)
     line = re.sub('&AElig;', u"\u00C6", line)
+    line = re.sub('&szlig;', u"\u00DF", line)
+
     line = re.sub('&sect;', u"\u00A7", line)
+
     line = line.replace('&mdash;', u"\u2014")
+    line = line.replace('&ndash;', u"\u2013")
     line = line.replace('&lsquo;', u"\u2018")
+    line = line.replace('&ldquo;', u"\u201C")
     line = line.replace('&rsquo;', u"\u2019")
+    line = line.replace('&rdquo;', u"\u201D")
+
     line = line.replace('&para;', u"\u00B6")
     line = line.replace('&nbsp;', ' ')
 
@@ -55,6 +67,10 @@ def convert_entities(line):
     line = line.replace('&ntilde;', u"\u00F1")
     line = line.replace('&otilde;', u"\u00F5")
     line = line.replace('&utilde;', u"\u0169")
+
+    line = line.replace('&ecaron;', u"\u011B")
+
+    line = line.replace('&dagger;', u"\u2020")
 
     line = re.sub('&responsibility;', '', line)
     line = re.sub('&fund.DLI2;', '', line)

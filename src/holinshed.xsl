@@ -46,7 +46,7 @@
         </body>
     </xsl:template>
 
-    <xsl:template match="tei:div1 | tei:div2 | tei:div3 | tei:div4">
+    <xsl:template match="tei:div1 | tei:div2 | tei:div3 | tei:div4 | tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart">
             <xsl:attribute name="subtype">
                 <xsl:value-of select="@type"/>
@@ -57,7 +57,7 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    
+<!--  
     <xsl:template match="tei:div[@type='dedication']">
         <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="dedication">
             <xsl:apply-templates />
@@ -70,7 +70,7 @@
             <xsl:apply-templates />
         </div>
     </xsl:template>
-
+  -->  
     <xsl:template match="tei:refsDecl">
         <refsDecl xmlns="http://www.tei-c.org/ns/1.0" n="CTS">
             <cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)"
@@ -107,6 +107,21 @@
                 </xsl:when>
                 <xsl:when test="@id = 'en'">
                     <xsl:attribute name="ident">eng</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@id = 'fr'">
+                    <xsl:attribute name="ident">fra</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@id = 'dan'">
+                    <xsl:attribute name="ident">dan</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@id = 'cy'">
+                    <xsl:attribute name="ident">cym</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@id = 'it'">
+                    <xsl:attribute name="ident">ita</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@id = 'nl'">
+                    <xsl:attribute name="ident">nld</xsl:attribute>
                 </xsl:when>
             </xsl:choose>
             <xsl:apply-templates/>
@@ -201,6 +216,12 @@
             </xsl:attribute>
             <xsl:value-of select="./tei:foreign"/>
         </unclear>
+    </xsl:template>
+    
+    <xsl:template match="tei:foreName">
+        <forename xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:apply-templates />
+        </forename>
     </xsl:template>
     
 </xsl:stylesheet>
