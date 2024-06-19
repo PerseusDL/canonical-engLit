@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-    This stylesheet processes history2.xml, the chronicle part
+    This stylesheet processes history2_src.xml, the chronicle part
     of the English volume
 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
