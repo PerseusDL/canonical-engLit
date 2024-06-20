@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../../schemas/perseus_holinshed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -4804,48 +4803,45 @@ Britains the rather forward.   For the image of the goddesse Victoria in the tem
 <note place="marg"><emph>Diuid Pow. pag.</emph> 238, 239.</note>
 
  féet towards the west part. ¶ The writer of the historie of Cambria now called Wales saith that the bones of the said Arthur, and Gueneuer his wife were found in the Ile of Aualon (that is, the Ile of Alpes) without the abbeie of Glastenbury, fiftéene féet within the ground, &amp; that his graue was found by the meanes of a Bardh, whome the king heard at Penbroke singing the acts of prince Arthur, and the place of his buriall.</p>
-<p>
-<text><front><head>Iohn Leland In His Booke Intituled Assertio Arthuri, Hath For The Woorthie Memorie Of So Noble A Prince, Honored Him With A Learned Epitaph, As Heere Followeth.</head>
-</front>
-<body><div1 type="poem">
-<lg>
-<l lang="la">SAXONICAS toties qui fudit Marte cruento</l>
-<l>Who vanquisht Saxon troops so oft, with battels bloudie broiles,</l>
-<l lang="la">Turmas, &amp; peperit spolijs sibi nomen opimis,</l>
-<l>And purchast to himselfe a name with warlike wealthie spoiles,</l>
-<l lang="la">Fulmineo toties Pictos qui contudit ense,</l>
-<l>Who hat with shiuering shining swoord, the Picts so oft dismaid,</l>
-<l lang="la">Imposuítque iugum Scoti ceruicibus ingens:</l>
-<l>And eke vnweldie seruile yoke on necke of Scots hath laid:</l>
-<l lang="la">Qui tumidos Gallos, Germanos quíque feroces</l>
-<l>Who Frenchmen puft with pride, and who the Germans fierce in fight</l>
-<l lang="la">Perculit, &amp; Dacos bello confregit aperto:</l>
-<l>Discomfited, and danted Danes with maine and martiall might:</l>
-<l lang="la">Denique Mordredum è medio qui sustulit illud</l>
-<l>Who of that murdring Mordred did the vitall breath expell,</l>
-<l lang="la">Monstrum, horrendum, ingens, dirum, sæuúmque tyrannum,</l>
-<l>That monster grislie, lothsome, huge, that diresome tyrant fell,</l>
-<l lang="la">Hoc iacet extinctus monumento Arthurius alto,</l>
-<l>Heere liuelesse Arthur lies intoomd, within this statelie hearse,</l>
-<l lang="la">Militiæ clarum decus, &amp; virtutis alumnus:</l>
-<l>Of chiualrie the bright renowme, and vertues nursling fearse:</l>
-<l lang="la">Gloria nunc cuius terram circumuolat omnem,</l>
-<l>Whose glorie great now ouer all the world dooth compasse flie,</l>
-<l lang="la">Aetherijque petit sublimia tecta Tonantis.</l>
-<l>And of the airie thunder skales the loftie building hie.</l>
-<l lang="la">Vos igitur gentis proles generosa Britannæ,</l>
-<l>Therefore you noble progenie of Britaine line and race,</l>
-<l lang="la">Induperatori ter magno assurgite vestro,</l>
-<l>Arise vnto your emperour great, of thrice renowmed grace,</l>
-<l lang="la">Et tumulo sacro roseas inferte corollas,</l>
-<l>And cast upon his sacred toome the roseall garlands gaie,</l>
-<l lang="la">Officij testes redolentia munera vestri.</l>
-<l>That fragrant smell may witnesse well, your duties you displaie.</l>
-</lg>
-		</div1>
-</body>
-<back><div1 type="section"><p>¶ These verses I haue the more willinglie inserted, for that I had the same deliuered to me turned into English by maister Nicholas Roscarocke, both right aptlie yeelding the sense, and also properlie answering the Latine, verse for verse.</p>
-		</div1></back></text></p>
+<div type="epitaph">
+ <head>Iohn Leland In His Booke Intituled Assertio Arthuri, Hath For The Woorthie Memorie Of So Noble A Prince, Honored Him With A Learned Epitaph, As Heere Followeth.</head>
+ <lg>
+  <l lang="la">SAXONICAS toties qui fudit Marte cruento</l>
+  <l>Who vanquisht Saxon troops so oft, with battels bloudie broiles,</l>
+  <l lang="la">Turmas, &amp; peperit spolijs sibi nomen opimis,</l>
+  <l>And purchast to himselfe a name with warlike wealthie spoiles,</l>
+  <l lang="la">Fulmineo toties Pictos qui contudit ense,</l>
+  <l>Who hat with shiuering shining swoord, the Picts so oft dismaid,</l>
+  <l lang="la">Imposuítque iugum Scoti ceruicibus ingens:</l>
+  <l>And eke vnweldie seruile yoke on necke of Scots hath laid:</l>
+  <l lang="la">Qui tumidos Gallos, Germanos quíque feroces</l>
+  <l>Who Frenchmen puft with pride, and who the Germans fierce in fight</l>
+  <l lang="la">Perculit, &amp; Dacos bello confregit aperto:</l>
+  <l>Discomfited, and danted Danes with maine and martiall might:</l>
+  <l lang="la">Denique Mordredum è medio qui sustulit illud</l>
+  <l>Who of that murdring Mordred did the vitall breath expell,</l>
+  <l lang="la">Monstrum, horrendum, ingens, dirum, sæuúmque tyrannum,</l>
+  <l>That monster grislie, lothsome, huge, that diresome tyrant fell,</l>
+  <l lang="la">Hoc iacet extinctus monumento Arthurius alto,</l>
+  <l>Heere liuelesse Arthur lies intoomd, within this statelie hearse,</l>
+  <l lang="la">Militiæ clarum decus, &amp; virtutis alumnus:</l>
+  <l>Of chiualrie the bright renowme, and vertues nursling fearse:</l>
+  <l lang="la">Gloria nunc cuius terram circumuolat omnem,</l>
+  <l>Whose glorie great now ouer all the world dooth compasse flie,</l>
+  <l lang="la">Aetherijque petit sublimia tecta Tonantis.</l>
+  <l>And of the airie thunder skales the loftie building hie.</l>
+  <l lang="la">Vos igitur gentis proles generosa Britannæ,</l>
+  <l>Therefore you noble progenie of Britaine line and race,</l>
+  <l lang="la">Induperatori ter magno assurgite vestro,</l>
+  <l>Arise vnto your emperour great, of thrice renowmed grace,</l>
+  <l lang="la">Et tumulo sacro roseas inferte corollas,</l>
+  <l>And cast upon his sacred toome the roseall garlands gaie,</l>
+  <l lang="la">Officij testes redolentia munera vestri.</l>
+  <l>That fragrant smell may witnesse well, your duties you displaie.</l>
+ </lg>
+ <p>¶ These verses I haue the more willinglie inserted, for that I had the same deliuered to me turned into English by maister Nicholas Roscarocke, both right aptlie yeelding the sense, and also properlie answering the Latine, verse for verse.</p>
+</div>
+ 
 	</div2>
 <pb n="579"/>
 
@@ -11486,47 +11482,45 @@ the sixt yéere of Edelred king of Mercia, the 17 of Aldvulfe king of Eastangles
  returne aske after me, tell them that thou sawest their lord carried to heauen by diuels. The Norman nobilitie during duke Roberts life, did their dutie to the yoong prince faithfullie, but after they heard of his fathers death, they slackened apace, euerie one shifting for himselfe as he list, without anie regard either of oth or obedience toward the pupill their souereigne. Whereby not manie yéeres after, as Gilbert the gouernour, by Rafe the childes coosine germane, was slaine; the dukedome anon, by murther and fighting among themselues was sore troubled in all parts. Thus much a little of duke Robert the father, and of prince William his sonne for part of his tender yéeres.</p>
 	</div2>
       </div1>
+ <div1 type="section">
+  
+  <head rend="italics">A Notable Aduertisement Touching The Summe Of All
+   The Foresaid Historie, Wherin The Foure Great And Notable Conquests Of
+   This Land Are Brieflie Touched, Being A Conchlusion Introductorie, As
+   Is Said In The Argument.</head>
+  
+  <note place="marg">Britaine inhabited by Brute.</note>
+  <p>IN the former part of this historie it is manifest to the heedful reader, that (after the opinion of most writers) Brute did first inhabit this land, and called it then after his owne name,
+   
+   
+   Britaine, in the yéere after the creation of the world 2855, and in the yéere before the incarnation of Christ 1108.
+   
+   <note place="marg">1 Britaine conquered by the Romans.</note>
+   
+   ¶ Furthermore the said land of Britaine was conquered by C. Iulius Cesar, and made tributarie to the Romans in the 50 yéere before the natiuitie of Christ, and
+   
+   
+   so continued 483 yéeres. So that the Britains reigned without tribute and vnder tribute, from Brute, vntill the fourth yeere of the reigne of king Cadwalladar, which was in the yéere of our Lord 686. And so the Britains had continuance of the gouernement of this land the space of 1794 yéeres. Then was the realme of Britaine an heptarchie, that is, diuided into seuen kingdoms. And Britaine receiued the faith of Christ in the 7 yéere of the reigne of king Lucius, which was in the 187 yéere after the birth of Christ.
+   
+   <note place="marg">2 Britaine conquered and ouercome by the Saxons.</note>
+   ¶ Next after the Britains entered the Saxons, in the third yéere of king Vortiger; and in the yéere of our Lord 450,
+   and they gouerned vntill the last yéere of king Athelstane, which was in the yéere of Christ 938. So that the time of the Saxons first entrance into this realme, and the time of their regiment was the space of 487 yéeres.
+   
+   <note place="marg">3 Britaine conquered and ouercome by the Danes.</note>
+   
+   ¶ Howbeit, in the time of their gouernement, that is to say, in the 9 yéere of king Britricus, which was in the yéere of our Lord 387, the Danes entred into this land, spoiling and persecuting the people therin most gréeuouslie. At the
+   last, Sweno or Swaine the Dane obteined possession roiall, in the yéere of Grace 1012, whose time of regiment lasted about three yéeres. After whom his sonne Canutus succeeded, and reigned 19 yéeres. After him Harold his sonne, who ruled thrée yeeres: and after him Hardicnute the sonne of Canutus, whose gouernement continued but thrée yeeres. This Hardicnute was the last king of the Danes, at which time the Danes were expelled and hunted out of the realme, which was in the yéere of our Lord 1042. So that it may appeare by this collection, that the Danes ruled as kings in this land by the space of 28 yéeres. Hereby also it is euident, that from the time of the first entrance of the Danes into this realme, vntill their last <pb n="766"/>
+   expulsion &amp; riddance was 255 yéeres.
+   
+   <note place="marg">4 Britaine conquered and possessed by the Normans.</note>
+   
+   ¶ Finallie the Normans entred this land likewise, and conquered the same as before is expressed, in the yéere of our Lord 1067, which is since, vntill this present yéere of our Lord 1585, drawing néere to the number of 600 and od yéeres.</p>
+  
+  <p>Now let these alterations of regiments be remembred [touching the which read a notable animaduersion in the description of Britaine, pag. 49,50,51] and teach vs that therein the iudgements of God reuealed themselues to speciall purposes. And whatsoeuer hath béene mentioned before either concerning the subuersion of people, the desolation of prouinces, the ouerthrow of nobles, the ruine of princes, and other lamentable accidents diuerslie happening vpon sundrie occasions let vs (I say) as manie as will reape fruit by the reading of chroncles, imagine the matters which were so manie yéeres past to be present, and applie the profit and commoditie of the same vnto our selues: knowing (as one wisely said) <quote lang="la">Post sacram paginam chronica viuum veritatis typum gerere,</quote> that next vnto the holie scripture, chronicles doo carie credit. But now to the sequele, and first to duke William of Normandie.</p>
+  
+  <closer rend="italics">
+   Thus farre the historie of England from Noah and his sonnes, &amp;c: to William duke of Normandie. Hereafter followeth a chronologicall continuation beginning at the first yeere of the said dukes reigne ouer this land, vntill the 25 yeere of the Queenes most excellent maiestie Elizabeth, &amp;c: whose daies God in mercie prolong (like the daies of heauen) in peace and prosperitie, &amp;c.</closer>
+ </div1>
     </body>
-    <back>
-<div1 type="section">
-
-<head rend="italics">A Notable Aduertisement Touching The Summe Of All
-The Foresaid Historie, Wherin The Foure Great And Notable Conquests Of
-This Land Are Brieflie Touched, Being A Conchlusion Introductorie, As
-Is Said In The Argument.</head>
-
-<note place="marg">Britaine inhabited by Brute.</note>
-<p>IN the former part of this historie it is manifest to the heedful reader, that (after the opinion of most writers) Brute did first inhabit this land, and called it then after his owne name,
-
-
- Britaine, in the yéere after the creation of the world 2855, and in the yéere before the incarnation of Christ 1108.
-
-<note place="marg">1 Britaine conquered by the Romans.</note>
-
-¶ Furthermore the said land of Britaine was conquered by C. Iulius Cesar, and made tributarie to the Romans in the 50 yéere before the natiuitie of Christ, and
-
-
- so continued 483 yéeres. So that the Britains reigned without tribute and vnder tribute, from Brute, vntill the fourth yeere of the reigne of king Cadwalladar, which was in the yéere of our Lord 686. And so the Britains had continuance of the gouernement of this land the space of 1794 yéeres. Then was the realme of Britaine an heptarchie, that is, diuided into seuen kingdoms. And Britaine receiued the faith of Christ in the 7 yéere of the reigne of king Lucius, which was in the 187 yéere after the birth of Christ.
-
-<note place="marg">2 Britaine conquered and ouercome by the Saxons.</note>
-¶ Next after the Britains entered the Saxons, in the third yéere of king Vortiger; and in the yéere of our Lord 450,
- and they gouerned vntill the last yéere of king Athelstane, which was in the yéere of Christ 938. So that the time of the Saxons first entrance into this realme, and the time of their regiment was the space of 487 yéeres.
-
-<note place="marg">3 Britaine conquered and ouercome by the Danes.</note>
-
-¶ Howbeit, in the time of their gouernement, that is to say, in the 9 yéere of king Britricus, which was in the yéere of our Lord 387, the Danes entred into this land, spoiling and persecuting the people therin most gréeuouslie. At the
-last, Sweno or Swaine the Dane obteined possession roiall, in the yéere of Grace 1012, whose time of regiment lasted about three yéeres. After whom his sonne Canutus succeeded, and reigned 19 yéeres. After him Harold his sonne, who ruled thrée yeeres: and after him Hardicnute the sonne of Canutus, whose gouernement continued but thrée yeeres. This Hardicnute was the last king of the Danes, at which time the Danes were expelled and hunted out of the realme, which was in the yéere of our Lord 1042. So that it may appeare by this collection, that the Danes ruled as kings in this land by the space of 28 yéeres. Hereby also it is euident, that from the time of the first entrance of the Danes into this realme, vntill their last <pb n="766"/>
- expulsion &amp; riddance was 255 yéeres.
-
-<note place="marg">4 Britaine conquered and possessed by the Normans.</note>
-
-¶ Finallie the Normans entred this land likewise, and conquered the same as before is expressed, in the yéere of our Lord 1067, which is since, vntill this present yéere of our Lord 1585, drawing néere to the number of 600 and od yéeres.</p>
-
-<p>Now let these alterations of regiments be remembred [touching the which read a notable animaduersion in the description of Britaine, pag. 49,50,51] and teach vs that therein the iudgements of God reuealed themselues to speciall purposes. And whatsoeuer hath béene mentioned before either concerning the subuersion of people, the desolation of prouinces, the ouerthrow of nobles, the ruine of princes, and other lamentable accidents diuerslie happening vpon sundrie occasions let vs (I say) as manie as will reape fruit by the reading of chroncles, imagine the matters which were so manie yéeres past to be present, and applie the profit and commoditie of the same vnto our selues: knowing (as one wisely said) <quote lang="la">Post sacram paginam chronica viuum veritatis typum gerere,</quote> that next vnto the holie scripture, chronicles doo carie credit. But now to the sequele, and first to duke William of Normandie.</p>
-
-	<closer rend="italics">
-Thus farre the historie of England from Noah and his sonnes, &amp;c: to William duke of Normandie. Hereafter followeth a chronologicall continuation beginning at the first yeere of the said dukes reigne ouer this land, vntill the 25 yeere of the Queenes most excellent maiestie Elizabeth, &amp;c: whose daies God in mercie prolong (like the daies of heauen) in peace and prosperitie, &amp;c.</closer>
-      </div1>
-</back>
 </text>
 </TEI>
