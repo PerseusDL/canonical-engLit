@@ -22,7 +22,7 @@ the old Holinshed Project, to be very useful.
    - The Epistle Dedicatorie
    - The Authors Names
    - Regum Angliae
-     - Series and Catalogus
+     - Series and Catalogs
    - Carmen Chronologicon
      - Thomae Newtoni Cestreshyrij
 
