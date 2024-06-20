@@ -48,15 +48,25 @@
 
     <xsl:template match="tei:div1 | tei:div2 | tei:div3 | tei:div4 | tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart">
-            <xsl:attribute name="subtype">
-                <xsl:value-of select="@type"/>
-            </xsl:attribute>
-            <xsl:attribute name="n">
-                <xsl:value-of select="@n"/>
-            </xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="@type">
+                    <xsl:attribute name="subtype">
+                        <xsl:value-of select="@type"/>
+                    </xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="@n">
+                    <xsl:attribute name="n">
+                        <xsl:value-of select="@n"/>
+                    </xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
+            
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    
 <!--  
     <xsl:template match="tei:div[@type='dedication']">
         <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="dedication">
@@ -135,7 +145,7 @@
             titlePage removed
         </xsl:comment>
     </xsl:template>
-    
+ <!--   
     <xsl:template match="tei:trailer">
         <xsl:comment>trailer omitted</xsl:comment>
     </xsl:template>
@@ -173,7 +183,7 @@
             <xsl:apply-templates />
         </div>
     </xsl:template>
-    
+-->    
     <xsl:template match="tei:quote">
         <quote xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:apply-templates select="@lang" />
