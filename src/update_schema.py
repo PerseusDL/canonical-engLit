@@ -3,6 +3,7 @@ from sys import stdin
 import logging
 
 def convert_entities(line):
+    line = re.sub('&Agrave;', u"\u00C0", line)
     line = re.sub('&agrave;', u"\u00E0", line)
     line = re.sub('&egrave;', u"\u00E8", line)
     line = re.sub('&igrave;', u"\u00EC", line)
