@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../../schemas/perseus_holinshed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -27,20 +27,25 @@
   <text xml:lang="eng"><!-- Description of England -->
     <front n="frontmatter">
       <pb n="1"/>
-      <!--
-            titlePage removed
-        -->
-<div type="textpart" subtype="dedication" n="">
+      <titlePage>
+	<docTitle>
+	  <titlePart type="main">An Historicall Description of the Iland of Britaine</titlePart>
+	  <titlePart type="sub">with a Briefe Rehersall of the Nature and Qualities of the People of England, and such Commodities as are to be Found in the Same.</titlePart>
+	  <titlePart>Comprehended in Three Bookes,</titlePart>
+	</docTitle>
+	<byline>and Written by <docAuthor>W. H.</docAuthor></byline>
+      </titlePage>
+<div type="textpart" subtype="dedication">
 	<pb n="1.v" ed="Ellis"/>
 	<head>The Epistle Dedicatorie</head>
-	<ab type="opener">
-<ab type="salute">To the Right Honorable, and his Singular Good Lord and
+	<opener>
+<salute>To the Right Honorable, and his Singular Good Lord and
 Maister, <name full="yes" instant="false">S. William Brooke Knight, Lord Warden of the Cinque
 Ports, and Baron of Cobham</name>, All Increase of the Feare and
 Knowledge of God, Firme Obedience Toward His Prince, Infallible Loue
 to the Common Wealth, and Commendable Renowme Here in this World, and
-in the World to Come Life Euerlasting.</ab>
-</ab>
+in the World to Come Life Euerlasting.</salute>
+</opener>
 
 	<p part="N">HAUING had iust occasion, Right Honorable, to remaine in
 London, during the time of Trinitie terme last passed, and being
@@ -162,10 +167,10 @@ vnto whom I wish farder increase of his holie spirit, vnderstanding of
 his word, augmentation of honor, and continuance of zeale to follow
 his commandements.</p>
 
-	<note type="closer">
-<ab type="salute">Your Lordships humble seruant and houshold Chaplein.</ab>
-<ab type="signed">W. H.</ab>
-</note>
+	<closer>
+<salute>Your Lordships humble seruant and houshold Chaplein.</salute>
+<signed>W. H.</signed>
+</closer>
       </div>
 
 
@@ -173,7 +178,7 @@ his commandements.</p>
     <body><div type="edition" n="urn:cts:engLit:holinshed.v1.perseus-eng1" xml:lang="eng">
 
 <div type="textpart" subtype="book" n="1"><head>Book 1</head> <!-- added head to book; not in original. -cew -->
-	  <div type="textpart" subtype="argument">
+	  <argument>
 
 <head rend="smallcaps">A Table of such Chapiters as Are Conteined in
 the First Booke of this Description.</head>
@@ -265,7 +270,7 @@ the First Booke of this Description.</head>
 	    England.</ref></item>
 
 	  </list>
-	</div>
+	</argument>
 
 
 	<div type="textpart" subtype="chapter" n="1">
@@ -1946,9 +1951,9 @@ sort) Cornewall and Wales were orderlie assigned. The fift and last part was the
 	</div>
 
 <div type="textpart" subtype="chapter" n="8"><head>A Catalog of the kings and princes of this Iland.</head> <!--in 1577 et al this is a table -->
-<div type="textpart" subtype="argument"><p part="N">A Catalog of the kings and princes of this Iland, first from Samothes vnto the birth of our sauiour Christ, or rather the comming of the Romans: secondlie of their Legates: thirdlie of the Saxon princes according to their seuerall kingdomes: fourthlie of the Danes, and lastlie of the Normans and English princes, according to the truth conteined in our Histories.</p></div>
+<argument><p part="N">A Catalog of the kings and princes of this Iland, first from Samothes vnto the birth of our sauiour Christ, or rather the comming of the Romans: secondlie of their Legates: thirdlie of the Saxon princes according to their seuerall kingdomes: fourthlie of the Danes, and lastlie of the Normans and English princes, according to the truth conteined in our Histories.</p></argument>
 
-<div type="textpart" subtype="section" n=""><head>Of the Kings of Britaine, from Samothes to Brute.</head>
+<div type="textpart" subtype="section"><head>Of the Kings of Britaine, from Samothes to Brute.</head>
 <list>
 <item>Samothes.</item>
 <item>Magus.</item>
@@ -1980,7 +1985,7 @@ sort) Cornewall and Wales were orderlie assigned. The fift and last part was the
 <item>Pictus.</item>
 </list>
 </div>
-<div type="textpart" subtype="section" n="">
+<div type="textpart" subtype="section">
 <p part="N">After whom Brute entreth into the Iland, either neglected by the
 Celts, or otherwise by conquest, and reigned therein with his
 posteritie by the space of 636. yeares, in such order as foloweth.</p>
@@ -2008,7 +2013,7 @@ posteritie by the space of 636. yeares, in such order as foloweth.</p>
 <item>Ferres and Porrex.</item>
 </list>
 </div>
-<div type="textpart" subtype="section" n="">
+<div type="textpart" subtype="section">
 <p part="N">These 2. being slaine, the princes of the land straue for the
 superioritie and regiment of the same, by the space of
 50. yéeres (after the race of Brute was decaied) vntill
@@ -2076,7 +2081,7 @@ being their chéefe and onelie souereigne.</p>
 <item>Lucius.</item>
 </list>
 </div>
-<div type="textpart" subtype="section" n="">
+<div type="textpart" subtype="section">
 <p part="N">Hitherto I haue set foorth the catalog of the kings of Britaine, in
 such sort as it is to be collected out of the most ancient histories,
 monuments and records of the land. Now I will set foorth the order and
@@ -2964,7 +2969,7 @@ they will not giue eare vnto the truth, but rather shut their eares
 and their eies from hearing and reading of the scriptures, bicause
 they will not be drawne out of his snares and bondage.</p>
 
-<div type="textpart" subtype="section" n=""><head rend="smallcaps">Of the Manifold Conuersions and Alterations of the Estate of the Common-Wealth of Britaine, Sithens the Time of Samothes.</head>
+<div type="textpart" subtype="section"><head rend="smallcaps">Of the Manifold Conuersions and Alterations of the Estate of the Common-Wealth of Britaine, Sithens the Time of Samothes.</head>
 <p part="N">THERE is a certeine period of kingdsmes, of 430. yeares, in which commonlie they suffer some notable alteration. And as in the aforesaid season there is set a time of increase and decaie, so we find that before the execution of Gods purpose dooth come to passe, in changing the estate of things, sundrie tokens are sent, whereby warning is giuen, that without repentance he will come and visit our offenses. This is partlie verified by Ioachimus Came-rarius, who in his first booke De ostentis intreating of the same argument, telleth of a strange earthquake felt in Delus, which was neuer touched with any such plague before or after the ouerthrow of the Persians, giuen vato them by the Grecians; also of the beard that suddenlie grew out of the face of the Pedacien prophetesse, so often as the citie was to be touched with any alteration and change. "Nam (saith he) descriptas esse diuinitùs ætates quibus idem humanarum rerum status duraret, quibus finitis, prædici prius quàm existeret nouationem in deterius euenturam rerum, quæque indies minùs ac minùs numini cordi essent. Emittuntur igitur cometæ diuinitus, &amp; reuocantur dum supra nos conspecti quamdiu placuit Deo inferuntur, &amp;c." Plato referreth such changes as happen in common-wealths to a certeime diuine force that resteth hidden in sundrie od numbers, whereof their periods do consist. True it is that God created all things in number, weight &amp; measures, &amp; that after an incomprehensible maner vnto our fraile &amp; humane capacitie. Neuertheresse, he appointed not these three to haue the rule of his works, wherefore we must not ascribe these changes to the force of number with Plato, much lesse then vnto destinie with the Peripatetiks, but vnto the diuine prouidence d appointment of God, which onelie may be called destinie as S. Augustine saith, for of other destinie it is impietie to dreame. Aristotle ascribing all euents vnto manifest causes precedent, dooth scoffe at Plato and his numbers in his booke of common-wealths, and bringeth in sundrie causes of the alteration of the state of things which we may referre vnto principals, as iniurie, oppression, ambition, treason, rebellion, contempt of religion and lawes, and therevnto abundance of wealth in few, and great necessitie and miserie in manie. But whatsoeuer Aristotle gesseth at these things by humane reason as at the first causes, yet we acknowledge other beyond them, as sinne, which being suffered and come to the full, is cut downe by the iustice of the high God, the cheefe cause of all, who foreseeing the wickednesse of such as dwell on earth, dooth constitute such a reuolution of things in their begnnings, as best standeth with the execution of his purpose, and correction of our errors. The causes therefore that Aristotle dooth deliuer, are nothing else but the meanes which God vseth to bring his purposes to passe; and yet they deserue the name of causes, in that they preceed those effects which follow them immediatlie. But in truth other than secondarie or third causes no man can iustlie call them. Bodinus in his historicall method cap. 6. making a large discourse of the conuersions of commonwealths, dooth séeme at the first to denie the force of number, but after a while he maruelleth that no Grecian or Latine Academike, hath hitherto made any discourse of the excellencie of such numbers as apperteine to the estate of empires ad kingdomes by exemplification in any one citie or other. Hereby he sheweth himselfe vpon the sudden to alter his iudgement, so that he setteth downe certeine numbers as fatall; to wit, sixe vnto women, and seauen and e vnto men, which
 
 <note place="marg" anchored="false">Fatal numbers.</note>
@@ -8968,7 +8973,7 @@ downe. The like fond imagination haue they of a kind of lunarie, which is to be 
 
 
 <div type="textpart" subtype="book" n="2"><head>Book 2</head>
-<div type="textpart" subtype="argument"><head>The Contents of the Second Booke.</head>
+<argument><head>The Contents of the Second Booke.</head>
 
 <list type="ordered">
 <item n="1"><ref target="de.2.1">Of the ancient and present estate of the church of England.</ref></item>
@@ -8996,7 +9001,7 @@ downe. The like fond imagination haue they of a kind of lunarie, which is to be 
 <item n="23"><ref target="de.2.23">Of baths and hot welles.</ref></item>
 <item n="24"><ref target="de.2.24">Of antiquities found.</ref></item>
 <item n="25"><ref target="de.2.25">Of the coines of England.</ref></item>
-</list></div>
+</list></argument>
 <div type="textpart" subtype="chapter" n="1"><head rend="smallcaps">Chap. I. Of The Ancient And Present Estate Of The Church Of England.</head>
 
 <p part="N">THERE are now two prouinces onelie in England, of which the first and greatest is subiect to the sée of Canturburie, comprehending a parte of Lhoegres, whole Cambria, &amp; also Ireland, which in time past were seuerall, &amp; brought into one by the archbishop of the said sée &amp; assistance of the pope; who in respect of méed, did yéeld vnto the ambitious desires of sundrie archbishops of Canturburie, as I haue elsewhere declared. The second prouince is vnder the sée of Yorke, and of these; either hath hir archbishop resident commonlie within hir owne limits, who hath not onelie the cheefe dealing in matters apperteining to the hierarchie and iurisdiction of the church; but also great authoritie in ciuill affaires touching the gouernement of the common wealth: so far foorth as their commissions and seuerall circuits doo extend,</p>
@@ -9390,9 +9395,9 @@ pence farthing, and yet of lesse countenance than hir prouinciall, neuertheles t
 <pb n="247"/>
 
 
-<div type="textpart" subtype="section" n=""><head rend="smallcaps">THE NAMES AND SUCCESSIONS OF SO MANIE ARCHBISHOPS AND BISHOPS OF LONDON, AS ARE EXTANT, AND TO BE HAD, FROM THE FAITH FIRST RECEIUED.</head>
+<div type="textpart" subtype="section"><head rend="smallcaps">THE NAMES AND SUCCESSIONS OF SO MANIE ARCHBISHOPS AND BISHOPS OF LONDON, AS ARE EXTANT, AND TO BE HAD, FROM THE FAITH FIRST RECEIUED.</head>
 
-<div type="textpart" subtype="subsection" n=""><head>Archbishops</head>
+<div type="textpart" subtype="subsection"><head>Archbishops</head>
 <p part="N"><table>
 <row role="data" rows="1" cols="1">
 <cell role="data" rows="1" cols="1">Theon.</cell>
@@ -9433,7 +9438,7 @@ pence farthing, and yet of lesse countenance than hir prouinciall, neuertheles t
 <p part="N">Augustine the moonke, sent ouer by Gregorie the great, till he remooued his sée to Canturburie, to the intent he might the sooner flée, if persecution should be raised by the infidels, or heare from, or send more spéedilie vnto Rome, without anie great feare of the interception of his letters.</p>
 	    </div>
 
-<div type="textpart" subtype="subsection" n=""><head>Bishops.</head>
+<div type="textpart" subtype="subsection"><head>Bishops.</head>
 <p part="N"><table>
 <row role="data" rows="1" cols="1">
 <cell role="data" rows="1" cols="1">Melitus.</cell>
@@ -9632,7 +9637,7 @@ pence farthing, and yet of lesse countenance than hir prouinciall, neuertheles t
 
 <p part="N">Hauing gotten and set downe thus much of the bishops, I will deliuer in like sort the names of the deanes, vntill I come to the time of mine old master now liuing in this present yeare 1586, who is none of the least ornaments that haue béene in that seat.</p>
 	    </div>
-<div type="textpart" subtype="subsection" n=""><head>Deanes.</head>
+<div type="textpart" subtype="subsection"><head>Deanes.</head>
 <p part="N"><table>
 <row role="data" rows="1" cols="1">
 <cell role="data" rows="1" cols="1">1</cell>
@@ -9916,7 +9921,7 @@ art, after foure yeares of their entrance into their sophistrie. From thence als
 <pb n="255"/>
 
 
-<div type="textpart" subtype="section" n=""><head rend="smallcaps">OF THE COLLEGES IN CAMBRIDGE WITH THEIR FOUNDERS,</head>
+<div type="textpart" subtype="section"><head rend="smallcaps">OF THE COLLEGES IN CAMBRIDGE WITH THEIR FOUNDERS,</head>
 <p part="N"><table>
 <row role="data" rows="1" cols="1">
 <cell role="data" rows="1" cols="1"><emph>Yeares of the foundations.</emph></cell>
@@ -10021,7 +10026,7 @@ art, after foure yeares of their entrance into their sophistrie. From thence als
 </row>
 </table></p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="smallcaps">OF COLLEGES IN OXFORD.</head>
+<div type="textpart" subtype="section"><head rend="smallcaps">OF COLLEGES IN OXFORD.</head>
 <p part="N"><table>
 <row role="data" rows="1" cols="1">
 <cell role="data" rows="1" cols="1"><emph>Yeares.</emph></cell>
@@ -10900,7 +10905,7 @@ yeoman, &amp;c: by which addition they are exempt from the vulgar and common sor
 <p part="N">And these six, the lord great Chamberleine of England: the lord high Constable of England: the lord Marshall of England: the lord Admirall of England: the lord great master or Steward of the kings house: and the lord Chamberleine: by that act are to be placed in all assemblies of councell, after the lord priuie seale, according to their degrées and estats: so that if he be a baron, then he is to sit aboue all barons: or an earle, aboue all earles.</p>
 <p part="N">And so likewise the kings secretarie, being a baron of the parlement, hath place aboue all barons, and if he be a man of higher degrée, he shall sit and be placed according therevnto.</p>
 
-<div type="textpart" subtype="section" n=""><head rend="italics">The rehearsall of the temporall nobilitie of England, according to the anciencie of their creations, or first calling to their degrees, as they are to be found at this present.</head>
+<div type="textpart" subtype="section"><head rend="italics">The rehearsall of the temporall nobilitie of England, according to the anciencie of their creations, or first calling to their degrees, as they are to be found at this present.</head>
 
 <note place="marg" anchored="false">No duke in England. Earles.</note>
 
@@ -10957,7 +10962,7 @@ yeoman, &amp;c: by which addition they are exempt from the vulgar and common sor
 </table></p>
 	  </div>
 
-<div type="textpart" subtype="section" n=""><head rend="italics">Bishops in their anciencie, as they sat in parlement, in the fift of the Queenes maiestics reigne that now is.</head>
+<div type="textpart" subtype="section"><head rend="italics">Bishops in their anciencie, as they sat in parlement, in the fift of the Queenes maiestics reigne that now is.</head>
 
 <note place="marg" anchored="false">Cleargie.</note>
 
@@ -11286,7 +11291,7 @@ are continued. But as the partie confuted may not replie on that daie, so one ma
 
 <pb n="294"/>
 
-<div type="textpart" subtype="section" n=""><head rend="smallcaps">THE NAMES OF COUNTIES, CITIES, BOROUGHS, AND PORTS, SENDING KNIGHTS, CITIZENS, BURGESSES, AND DARONS TO THE PARLEMENT OF ENGLAND.</head>
+<div type="textpart" subtype="section"><head rend="smallcaps">THE NAMES OF COUNTIES, CITIES, BOROUGHS, AND PORTS, SENDING KNIGHTS, CITIZENS, BURGESSES, AND DARONS TO THE PARLEMENT OF ENGLAND.</head>
 <p part="N"><table>
 <row role="data" rows="1" cols="1"><cell role="data" rows="1" cols="1"><emph>Bedford.</emph></cell></row>
 <row role="data" rows="1" cols="1"><cell role="data" rows="1" cols="1">Knights.</cell><cell role="data" rows="1" cols="1">2</cell></row>
@@ -11577,7 +11582,7 @@ are continued. But as the partie confuted may not replie on that daie, so one ma
 
 <pb n="297"/>
 
-<div type="textpart" subtype="section" n=""><head>¶ <emph>The summe of the foresaid number of the common house</emph> videlicet, <emph>of</emph></head>
+<div type="textpart" subtype="section"><head>¶ <emph>The summe of the foresaid number of the common house</emph> videlicet, <emph>of</emph></head>
 <p part="N"><table>
 <row role="data" rows="1" cols="1"><cell role="data" rows="1" cols="1">Knights.</cell><cell role="data" rows="1" cols="1">90.</cell></row>
 <row role="data" rows="1" cols="1"><cell role="data" rows="1" cols="1">Citizens.</cell><cell role="data" rows="1" cols="1">46.</cell></row>
@@ -11658,13 +11663,13 @@ spiritui sancto. Hæc benedictio sit super hunc locum, &amp; super omnes habitan
 <p part="N"><emph>" The praier.</emph> Benedic Domine sancte pater, omnipotens Deus, per inuocationem sanctissimi nominis tui, &amp; per aduenrum filij tui, atque per donum spiritus paracleti, ad manifestandum verum iudicium tuum, hoc genus metalli, vt sit sanctificatum, &amp; omni dæmonum falsitate procul remota, veritas veri iudicij tui fidelibus tuis manifesta fiat, per eundemn Dominum, &amp;c. <emph>In English:</emph> Blesse we beséech thee O Lord, holie tather, euerlasting God, through the inuocation of thy most holie name, by the comming of thy sonne, and gift of the holie ghost, and to the manifestation of thy true iudgement, this kind of mettall, that being hallowed, and all fraudulent practises of the diuels vtterlie remnoued, the manifest truth of thy true iudgement may be reuealed, by the same Lord lesus, &amp;c.</p>
 <p part="N"><emph>" After this, let the iron be laid into the fire, and sprinkled with holie water, and witlest it heateth, let the priest go to masse, and doo as order reqiireth: and when he halt receiued the host, he shall call the man that is to be purged (as it is written hereafter) first adiurirng him, and then permzitting him to communicate according to the maner.</emph></p>
 
-<div type="textpart" subtype="section" n=""><head rend="italics">The office of the masse.</head>
+<div type="textpart" subtype="section"><head rend="italics">The office of the masse.</head>
 <epigraph xml:lang="la"><p part="N">Iustus es Domine, &amp;c. O Lord thou art iust, &amp;c.</p></epigraph>
-<div type="textpart" subtype="subsection" n=""><head rend="italics">The Praier.</head>
+<div type="textpart" subtype="subsection"><head rend="italics">The Praier.</head>
 <p part="N">"<hi rend="smallcaps">ABSOLUE</hi> quæsumus Domine delicta famuli tui, vt à peccatorum suorum nexibus, quæ pro sua fragilitate contraxit, tua benignitate liberetur, &amp; in hoc iudicio quoad meruit, iustitia tua præueniente, ad veritatis censuram peruenire mereatur, per Christum Dominum, &amp;c. <emph>That is:</emph> Pardon we beséech thée O Lord, the sinnes of thy seruant, that being deliuered from the burden of his offenses, wherewith he is intangled, he may be cleared by thy benignitie, and in this his triail (so far as he hath deserued thy mnrcie prcuenting him) he may come to the knowledge of the truth, by Chnist our Lord, &amp;c.</p>
 	    </div>
 
-<div type="textpart" subtype="subsection" n=""><head><emph>The Gospell.</emph> Mar. 10.</head>
+<div type="textpart" subtype="subsection"><head><emph>The Gospell.</emph> Mar. 10.</head>
 <p part="N">"<hi rend="smallcaps">IN</hi> illo tempore, cúm egressus esset Iesus in via, procurrens quidam genu flexo ante eum, rogabat eutn dicens, Magister bone, quid faciam vt vitam æternam percipiam? Iesus autem dixit ei, Quid ine dicis bonrum? &amp;c. In those daies when Iesus went foorth toward his iourneie, and one méeting him in the waie ruiming, and knéeling vnto him, asked him
 
 <pb n="301"/>
@@ -11767,7 +11772,7 @@ vndoone, by sundrie varlets that go about the countiie, as promoters or brokers 
 	    </div>
 	  </div>
 
-<div type="textpart" subtype="section" n=""><head rend="italics">A perfect rule to know the beginning and ending of euerie terme, with their returnes.</head>
+<div type="textpart" subtype="section"><head rend="italics">A perfect rule to know the beginning and ending of euerie terme, with their returnes.</head>
 <p part="N">Hilarie terme begineth the three and twentith daie of lanuarie (if it be not sundaie) otherwise the next daie after, and is finished the twelfe of Februarie, it hath foure returnes.</p>
 <p part="N"><table>
 <row role="data" rows="1" cols="1"><cell role="data" rows="1" cols="1">Octabis Hilarij.</cell><cell role="data" rows="1" cols="1">Crastino Purific.</cell></row>
@@ -12493,7 +12498,7 @@ or Don is for an hill or hillie soile. Certes if it be so, then Walden taketh hi
  signifieth Leaning or hanging, and may verie well be applied therevnto, sith the whole towne hangeth as it were vpon the sides of two hils, wherof the lesser runneth quite through the middest of the same. I might here for further confirmation of these things bring in mention of the Wald of Kent: but this may suffice for the vse of the word Wald, which now differeth much from Wold. For as that signifieth a woodie soile, so this betokeneth a soile without wood, or plaine champaine countrie, without anie store of trées, as may be seene in Cotswold, Porkewold, &amp;c. Beside this I could saie more of our forrests, and the aforesaid inclosures also, &amp; therein to prooue by the booke of forrest law, that the whole countie of Lancaster hath likewise beene forrest heretofore. Also how William the Bastard made a law, that whosoeuer did take anie wild beast within the kings forrest should lose an eare; as Henrin the first did punish them either by life or lim: which ordinance was confirmed by Henrie the second and his péeres at Woodstocke, wherevpon great trouble insued vnder king Iohn and Henrie the third, as appeareth by the chronicles: but it shall suffice to haue said so much as is set downe alreadie.</p>
 <p part="N">Howbeit, that I may restore one antiquitie to light, which hath hitherto lien as it were raked vp in the embers of obliuion, I will giue out those laws that Canutus made for his forrest: whereby manie things shall be disclosed concerning the same (wherof peraduenture some lawiers haue no knowledge) and diuerse other notes gathered touching the ancient estate of the realme not to be found in other. But before I deale with the great charter (which as you may perceiue, is in manie places vnperfect by reason of corruption, and want also of congruitie, crept in by length of time, not by me to be restored) I will note another breefe law, which he made in the first yeare of his reigne at Winchester, afterward inserted into these his later constitutions, canon 32, &amp; beginneth thus in his owne Saxon tong; "Ic will that elc one," &amp;c: I will and grant that ech one shall be worthie of such venerie as he by hunting can take either in the plaines or in the woods, within his owne fée or dominion; but ech man shall abstaine from my venerie in euerie place, where I will that my beasts shall haue firme peace and quietnesse, vpon paine to forfet so much as a man may forfet. Hitherto the statute made by the aforesaid Canutus, which was afterward confirmed by king Edward surnamed the Confessor; &amp; ratified by the Bastard in the fourth yeare of his reigne. Now followeth the great charter it selfe in such rude order and Latine as I find it word for word, and which I would gladlie haue turned into English, if it might haue sounded to anie benefit of the vnskilfull and vnlearned.
 
-<floatingText><body><div type="textpart" subtype="unknown" n="">
+<floatingText><body><div type="textpart" subtype="unknown">
 <head rend="italics">Incipiunt constitutiones Canuti regis de foresta.</head>
 <p part="N">"HÆ sunt sanctiones de foresta, quas ego Canutus rex cum consilio primariorum hominum meorum condo &amp; facio, vt cunctis regni nostri Angliæ ecclesijs &amp; pax &amp; iustitia fiat, &amp; vt omnis delinquens secundum modum delicti, &amp; delinquentis fortunam patiatur.</p>
 <list type="ordered">
@@ -12828,7 +12833,7 @@ Hailestone, Trurie, and Lostwithiell. Howbeit, vpon further examination of the m
 
 <div type="textpart" subtype="book" n="3"><head>Book 3</head>
 
-<div type="textpart" subtype="argument"><head>The Contents of the Third Booke.</head>
+<argument><head>The Contents of the Third Booke.</head>
 <list type="ordered">
 <item n="1"><ref target="de.3.1">Of cattell kept for profit.</ref></item>
 <item n="2"><ref target="de.3.2">Of wild and tame foules.</ref></item>
@@ -12846,7 +12851,7 @@ Hailestone, Trurie, and Lostwithiell. Howbeit, vpon further examination of the m
 <item n="14"><ref target="de.3.14">Of our accompt of time and hir parts.</ref></item>
 <item n="15"><ref target="de.3.15">Of principall faires and markets.</ref></item>
 <item n="16"><ref target="de.3.16">Of our innes and thorowfaires.</ref></item>
-</list></div>
+</list></argument>
 <div type="textpart" subtype="chapter" n="1"><head rend="smallcaps">CHAP. I. OF CATTELL KEPT FOR PROFIT.</head>
 
 <p part="N">THERE is no kind of tame cattell vsually to be seene in these parts of the world, wherof we haue not some ad that great sore in England; as horsses, oxen, shéepe, goats, swine, and fr surmounting the like in other countries, as may be prooued with ease. For where are oxen commonlie more large of bone, horsses more decent and pleasant in pase, kine more commodious for the pale, shéepe more profitable for wooll, swine more wholesome of flesh, and goates more gainefull to their kéepers, than here with vs in England? But to speke of them peculiarlie, I suppose that our kine are so abundant in yéeld of milke, wherof we make our butter &amp; chéese as the like anie where else, and so apt for the plough in diuerse places as either our horsses or oxen. And albeit they now and then twin, yet herein they séeme to come short of that commoditie which is looked for in other countries, to wit, in that they bring foorth most commonlie but one calfe at once. The gaines also gotten by a cow (all charges borne) hath beene valued at twentie shillings yearelie: but now as land is inhanced, this proportion of gaine is much abated, and likelie to decaie more and more, if ground arise to be yet déerer, which God forbid, if it be his will and pleasure. I heard of late of a cow in Warwikshire, belonging to Thomas Bruer of Studleie, which in six yéeres had sixtéene calfes, that is, foure at once in thrée caluings and twise twins, which vnto manie may séeme a thing incredible. In like maner our oxen are such as the like are
@@ -13563,48 +13568,48 @@ last so long, and then may our calender also stand without anie alteration as it
 <pb n="412"/>
 
 dwell néere hand to the places where they be holden and kept, by pilferers that resort vnto the same.</p>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in Ianuarie.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in Ianuarie.</head>
 <p part="N"><hi rend="smallcaps">THE</hi> sixt day being Twelfe day at Salisburie, the fiue and twentith being saint Paules day, at Bristow, at Grauesend, at Churchingford, at Northalerton in Yorkeshire, where is kept a faire euerie wednesday from Christmasse vntill Iune.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in Februarie.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in Februarie.</head>
 <p part="N"><hi rend="smallcaps">THE</hi> first day at Bromleie. The second at Lin, at Bath, at Maidstone, at Bickleswoorth, at Budwoorth. The fourtéenth at Feuersham. On Ashwednesday at Lichfield, at Tamwoorth, at Roiston, at Excester, at Abington, at Cicester. The foure and twentith at Henlie vpon Thames, at Tewkesburie.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in March.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in March.</head>
 <p part="N"><hi rend="smallcaps">ON</hi> the twelth day, at Stamford, Sappesford, and at Sudburie. The thirtéenth day at Wie, at the Mount, &amp; at Bodmin in Cornewall. The fift sunday in Lent, at Grantham, at Salisburie. On monday before our ladie day in Lent, at Wisbich, at Kendall, Denbigh in Wales. On palmesunday éeuen, at Pumfret. On palmesunday, at Worcester. The twentith day at Durham. On our ladie day in Lent at Northamton, at Maiden, at great Chart, at Newcastell. And all the ladie daies at Huntington. And at Saffron Walden on midlentsunday.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in Aprill.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in Aprill.</head>
 <p part="N"><hi rend="smallcaps">THE</hi> fift day at Wallingford. The seuenth at Darbie. The ninth at Bickleswoorth, at Belinswoorth, On monday after, at Euesham in Worcestershire. On tuesday in Easter wéeke at Northfléet, at Rochford, at Hitchin. The third sunday after Easter, at Louth. The two and twentith at Stabford. On saint Georges day, at Charing, at Ipswich, at Tamworth, at Ampthill, at Htinninham, at Gilford, at saint Pombes in Cornewall. On sant Markes day at Darbie, at Dunmow in Essex. The six and twentith at Tenderden in Kent.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in Maie.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in Maie.</head>
 <p part="N"><hi rend="smallcaps">ON</hi> Maie daie at Rippon, at Perin in Cornwall, at Osestrie in Wales, at Lexfield in Suffolke, at Stow the old, at Reading, at Leicester, at Chensford, at Maidstone, at Brickehill, at Blackeborne, at Cogilton, at Stokeneie land. The third at Bramyard, at Henningham, at Elstow, Waltham, Holicrosse, and Hedningham castell. The seuenth at Beuerleie, at Newton, at Oxford. On Ascension day at Newcastell, at Yerne, at Brimechame, at saint Edes, at Bishopstratford, at Wicham, at Middlewich, at Stopford, at Chappell frith. On Whitsunéeuen, at Skipton vpon Crauen. On Whitsunday, at Richell, at Gribbie, and euerie wednesday fortnight at Kingston vpon Thames, at Ratesdale, at Kirbistephin in Westmerland. On monday in Whitsunwéeke, at Darington, at Excester, at Bradford, at Rigate, at Burton, at Salforth, at Whitechurch, at Cockermouth, at Applebie, at Bicklesworth, at Stokeclare. On tuesday in Whitsunwéeke, at Lewse, at Rochford, at Canturburie, at Ormeskirke, at Perith, at long Milford. On wednesday in Whitsunweeke, at Sandbarre, at Raiston. On Trinitie sunday, at Kendall, and at Rowell. On thursday after Trinitie sunday, at Prescote, at Stapford, at saint Annes, at Newburie, at Couentrie, at saint Edes, at Bishop. storford, at Rosse. The ninth at Lochester, at Dunstable. The twentie seuenth day, at Lenham. The twentie ninth at Crambrooke. On monday in Rogation weeke at Rech, and sunday after Ascension day, at Thaxsted.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in Iune.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in Iune.</head>
 <p part="N"><hi rend="smallcaps">THE</hi> ninth day at Maidstone. The xj, at Okingham, at Newbourgh, at Bardfield, at Maxfield, &amp; Holt. The seuenteenth at Hadstocke. The twentie thrée at Shrewsburie, at saint Albans. The twentie fourth day, at Horsham, at Bedell, at Strackstocke, at saint Annes, at Wakefield, at Colchester, at Reading, at Bedford, at Barnewell beside Cambridge,
 
 <pb n="413"/>
 
 at Woollerhampton, at Crambrooke, at Gloceste at Lincolne, at Peterborow, at Windsor, at Harstone, at Lancaster, at Westchester, at Halifax at Ashborne. The twentie seuenth, at Folkestone. The twentie eight, at Hetcorne, at saint Pombes. The twentie ninth, at Woodhurst, at Marleborough, at Hollesworth at Woollerhampton, at Peterfield, at Lempster, at Sudburie, at Gargrainge, at Bromleie.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in Iulie </head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in Iulie </head>
 <p part="N"><hi rend="smallcaps">THE</hi> second at Congreton, at Ashton vnder line. The sunday after the third of Iulie, at Raiston, The eleuenth at Partneie, and at Lid. he fiftéenth at Pichbacke. The seuentéenth, at Winchcombe. The twentith, at Vxbridge, at Catesbie, at Bolton. The twentie two, at Marleborow, at Winchester, at Colchester, at Tetburie, at Cooling, at Yealdon, at Bridgenorth, at Clitherall, at Norwich in Cheshire, at Cheswike, at Battelfield, at Bicklewoorth. The twentie fift, at Bristow, at Douer, at Chilham, at Darbie, at Ipswich, at Northampton, at Dudleie in Staffordshire, at saint lames beside London, at Reading, at Ereth in the Ile, at Walden, at Thremhall, at Baldocke, at Louth, at Malmesburie, at Bromeleie, at Chichester, at Liuerpoole, at Altergam, at Rauenglasse in the north. The twentie sixt, at Tiptrie. The twentie seuenth at Canturburie, at Horsham, at Richmund in the north, at Warington, at Chappell Frith.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in August.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in August.</head>
 <p part="N"><hi rend="smallcaps">THE</hi> first day at Excester, at Feuersham, at Dunstable, at saint Edes, at Bedford, at Northam church, at Wisbich, at Yorke, at Rumneie, at Newton, at Yeland. The fourth at Linton. The tenth at Waltham, at Thaxsted, at Blackemoore, at Hungerford, at Bedford, at Stroides, at Fernam, at S. Laurence by Bodmin, at Walton, at Croileie, at Seddell, at new Brainford. The xv, at Cambridge, at Dunmow, at Caerleill, at Preston in Andall, at Wakefield on the two ladie daies, and vpon the sunday after the fiftéenth day of August, at Hauerhull. On Bartholomew day, at London, at Beggers bush beside Rie, at Teukesburie, at Sudburie, at Rie, at Nantwich, at Pagets, at Bromleie, at Norwich, at Northalerton, at Douer. On the sunday after Bartholomew day, at Sandwich. The twentie seuenth, and at Ashford.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in September.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in September.</head>
 <p part="N"><hi rend="smallcaps">THE</hi> first day at S. Giles at the Bush. The eight day at Woolfpit, at Wakefield, at Sturbridge, in Southwarke at London, at Snide, at Recoluer, at Gisbourgh both the ladie dales, at Partneie. The thrée ladie daies at Blackeburne, at Gisborne in Yorkeshire, at Chalton, at Vtcester. On Holiroode day, at Richmond in Yorkeshire, at Rippond a horse faire, at Penhad, at Bersleie, at Waltam abbeie, at Wotton vnder hedge, at Smalding, at Chesterfield, at Denbigh in Wales. On saint Mathies day, at Marleborough, at Bedford, at Croidon, at Holden in Holdernes, at saint Edmundsburie, at Malton, at saint lues, at Shrewesburie, at Laneham, at Witnall, at Sittingborne, at Brainetrie, at Baldocke, at Katharine hill beside Gilford, at Douer, at Eastrie. The twentie ninth day being Michaelmas day, at Canturburie, at Malton a noble horsse faire, at Lancaster, at Blackeborne, at Westchester, at Cokermouth, at Ashborne, at Hadleie, at Maiden an horsse faire, at Waie hill, at Newburie, and at Leicester.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in October.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in October.</head>
 <p part="N"><hi rend="smallcaps">THE</hi> fourth day at Michell. The sixt day at saint Faiths beside Norwich, at Maidstone. The eight at Harborough, at Hereford, at Bishop, Storford. On S. Edwards day, at Roiston, at Grauesend, at Windsor, at Marshfield. The ninth day at Colchester.. On saint Lukes eeuen, at Elie, at Wrickle, at Vpane, at Thirst, at Bridgenorth, at Stanton, at Charing, at Burton vpon Trent, at Charleton, at Wigan, at Friswides in Oxford, at Tisdale, at Middlewich, at Holt in Wales. The twentie one day at Saffron Walden, at Newmarket, at Hertford, at Cicester, at Stokesleie. The twentie third, at Preston, at Bikelsworth, at Ritchdale,
 
 <pb n="414"/>
 
 at Whitechurch. The twentie eight, at Newmarket, and Hertford. On all saints eeuen at Wakefield, and at Rithen.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in Nouember.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in Nouember.</head>
 <p part="N"><hi rend="smallcaps">THE</hi> second at Blechinglie, at Kingston, at Maxfield, at Epping. The sixt day at Newport pond, at Stanleie, at Tregnie, at Salford, at Lesford, and Wetshod faire at Hertford, The tenth, at Leuton. The eleuenth, at Marleborough, at Douer. The thirtenth, at saint Edmundsburie, at Gilford. The seuenteenth day, at Low, at Hide. The ninetéenth, at Horsham. On saint Edmunds day, at Hith, at Ingerstone. The twentie third day, at Sandwich. On saint Andrews day at Colingbourgh, at Rochester, at Peterfield, at Maidenhed, at Bewdleie, at Warington in Lancashire, at Bedford in Yorkeshire, at Osestrie in Wales, and at Powles Belcham.</p>
 	  </div>
-<div type="textpart" subtype="section" n=""><head rend="italics">Faires in December.</head>
+<div type="textpart" subtype="section"><head rend="italics">Faires in December.</head>
 <p part="N"><hi rend="smallcaps">ON</hi> the fift day, at Pluckeleie. On the sixt, at Cased, at Hedningham, at Spalding, at Excester, at Sinocke, at Arnedale, and at Northwich in Chesshire. The seuenth day at Sandhurst. The eight day being the conception of our ladie, at Clitherall in Lancashire, at Malpas in Cheshire. The twentie ninth, at Canturburie, and at Salisburie.</p>
 	  </div>
 	</div>
@@ -14259,7 +14264,7 @@ the ghest hath taken vp his chamber, the chamberleine that looketh to the making
 </table></p>
 
 
-<div type="textpart" subtype="section" n=""><head>OF CERTEINE WAIES IN SCOTLAND, OUT OF REGINALD WOLFES HIS ANNOTATIONS.</head>
+<div type="textpart" subtype="section"><head>OF CERTEINE WAIES IN SCOTLAND, OUT OF REGINALD WOLFES HIS ANNOTATIONS.</head>
 
 <p part="N"><table><head>From Barwijc to Edenborow.</head>
 
@@ -14480,7 +14485,7 @@ the ghest hath taken vp his chamber, the chamberleine that looketh to the making
 <p part="N">Hitherto of the common waies of England and Scotland, wherevnto I will adioine the old thorowfaires ascribed to Antoninus, to the end that by their conference the diligent reader may haue further consideration of the same than my leisure will permit me. In setting foorth also thereof, I haue noted such diuersitie of reading, as hath happened in the sight of such written and printed copies, as I haue séene in my time. Notwithstanding I must confesse the same to be much corrupted in the rehearsall of the miles.</p>
 	  </div>
 
-<div type="textpart" subtype="section" n=""><head>ITER BRITANNIARUM.<lb/><emph>A GESSORIACO.</emph><lb/>De Gallis Ritupis in portu Britanniarum stadia numero. CCCCL.</head>
+<div type="textpart" subtype="section"><head>ITER BRITANNIARUM.<lb/><emph>A GESSORIACO.</emph><lb/>De Gallis Ritupis in portu Britanniarum stadia numero. CCCCL.</head>
 
 
 <note place="marg" anchored="false">Aritannia.</note>
@@ -15189,7 +15194,7 @@ the ghest hath taken vp his chamber, the chamberleine that looketh to the making
 	  </div>
 	</div>
       </div><!-- end of Book 3 -->
-	  <!--trailer omitted-->
+	  <trailer>Finis</trailer>
     </div></body>
   </text>
       <!-- Description of England end -->

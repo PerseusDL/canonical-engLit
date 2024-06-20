@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../../schemas/perseus_holinshed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader xml:lang="eng">
   <fileDesc>
@@ -42,11 +42,31 @@
  </teiHeader>
  <text xml:lang="eng">
   <front>
-   <!--
-            titlePage removed
-        -->
+   <titlePage>
+    <docTitle>
+     <titlePart type="main">The<lb/> Historie Of England,<lb/> From The Time That It Was First
+      Inhabited,<lb/> Vntill The Time That It Was Last Conquered:</titlePart>
+     <titlePart type="sub">Wherein The Sundrie Alterations Of The State Vnder Forren People Is
+      Declared;<lb/> And Other Manifold Obseruations Remembred:</titlePart>
+    </docTitle>
+    <byline>By Raphael Holinshed.</byline>
+
+    <docEdition>Now Newlie Read Ouer, And Diligentlie Digested Into Bookes And Chapters, With Their
+     Seuerall Arguments Prefixed, Conteining An Abridgement Of The Whole Historie, For The Helpe Of
+     The Readers Iudgement And Memorie:<lb/> With Two Tables Of Particulars, The One Seruing The
+     Description, The Other The Historie: </docEdition>
+    <byline>By Abraham Fleming.</byline>
+
+    <epigraph xml:lang="la">
+     <p part="N">Laus Historiæ ex I. Lelando.</p>
+    </epigraph>
+    <epigraph xml:lang="la">
+     <p part="N"> Quod Sol Æthereo præstat pulcherrimus Orbi,<lb/> Historia Humanis Vsibus hoc
+      Tribuit.</p>
+    </epigraph>
+   </titlePage>
    <pb/>
-   <div type="textpart" subtype="epistle" n="">
+   <div type="textpart" subtype="epistle">
     <head>To The Readers Studious In Histories.</head>
 
     <p part="N">THE order obserued in the description of Britaine, by reason of the necessarie
@@ -89,7 +109,7 @@
      be looked for than may be performed: and further to inquire as it is against reason, so to
      vndertake more than may commendablie be atchiued, were fowle follie.</p>
 
-    <note type="closer"><name full="yes" instant="false">Abraham Fleming.</name></note>
+    <closer><name full="yes" instant="false">Abraham Fleming.</name></closer>
    </div>
   </front>
 
@@ -397,7 +417,7 @@
        of Humfrey Llhoyd, there is an Iland néere vnto Wales, called Insula Bardorum, and Bardsey,
        whereof the one name in Latine, and the other in Saxon or old English, signifieth the Iland
        of the Bardes or Barthes.</p>
-      <note type="closer">Thus farre the gouernement of the Celts in this Ile.</note>
+      <closer>Thus farre the gouernement of the Celts in this Ile.</closer>
      </div>
 
      <div type="textpart" subtype="chapter" n="2a">
@@ -820,7 +840,7 @@
        with such assistance, by consultation had with then that were of most authoritie about him,
        wrote vnto the king of that countrie called Pandrasus, in forme as followeth. <floatingText>
         <body>
-         <div type="textpart" subtype="letter" n="">
+         <div type="textpart" subtype="letter">
           <head rend="italic">A Letter Of Brute To Pandrasus, As I Find It Set Downe In Galfride
            Monumetensis.</head>
           <p part="N">"<hi rend="smallcap">BRUTE</hi> leader of the remnant of the Troian people, to
@@ -1636,7 +1656,7 @@
        </table>
       </p>
      </div>
-     <!--trailer omitted-->
+     <trailer>The end of the Second Booke.</trailer>
     </div>
     <pb n="451"/>
     <div type="textpart" subtype="book" n="3">
@@ -3432,7 +3452,7 @@
        the Romans would be constreined to depart, as it had chanced in time past to Iulius Cesar
        aforesaid,</p>
      </div>
-     <note type="closer">THE END OF THE THIRD BOOKE.</note>
+     <closer>THE END OF THE THIRD BOOKE.</closer>
     </div>
 
     <div type="textpart" subtype="book" n="4">
@@ -6869,8 +6889,8 @@
        called Gallia, gouerning the same as lieutenant vnder the emperor Honorius: and herevpon
        taking counsell togither, they wrote a letter to him, the tenor whereof insueth. <floatingText>
         <body>
-         <div type="textpart" subtype="letter" n="">
-          <ab type="opener"><ab type="salute">To Actius thrise consull.</ab></ab>
+         <div type="textpart" subtype="letter">
+          <opener><salute>To Actius thrise consull.</salute></opener>
           <p part="N"><quote>THE lamentable request of vs the Britains, beseeching you of aid to bee
             ministred vnto the prouince of the Romane empire, vnto our countrie, vnto our wiues and
             children at this present, which stand in most extreame perill. For the barbarous people
@@ -9000,58 +9020,48 @@
        Ile of Aualon (that is, the Ile of Alpes) without the abbeie of Glastenbury, fiftéene féet
        within the ground, &amp; that his graue was found by the meanes of a Bardh, whome the king
        heard at Penbroke singing the acts of prince Arthur, and the place of his buriall.</p>
-      <p part="N">
-       <floatingText>
-        <front>
-         <head>Iohn Leland In His Booke Intituled Assertio Arthuri, Hath For The Woorthie Memorie Of
-          So Noble A Prince, Honored Him With A Learned Epitaph, As Heere Followeth.</head>
-        </front>
-        <body>
-         <div type="textpart" subtype="poem" n="">
-          <lg part="N" org="uniform" sample="complete">
-           <l xml:lang="la" part="N">SAXONICAS toties qui fudit Marte cruento</l>
-           <l part="N">Who vanquisht Saxon troops so oft, with battels bloudie broiles,</l>
-           <l xml:lang="la" part="N">Turmas, &amp; peperit spolijs sibi nomen opimis,</l>
-           <l part="N">And purchast to himselfe a name with warlike wealthie spoiles,</l>
-           <l xml:lang="la" part="N">Fulmineo toties Pictos qui contudit ense,</l>
-           <l part="N">Who hat with shiuering shining swoord, the Picts so oft dismaid,</l>
-           <l xml:lang="la" part="N">Imposuítque iugum Scoti ceruicibus ingens:</l>
-           <l part="N">And eke vnweldie seruile yoke on necke of Scots hath laid:</l>
-           <l xml:lang="la" part="N">Qui tumidos Gallos, Germanos quíque feroces</l>
-           <l part="N">Who Frenchmen puft with pride, and who the Germans fierce in fight</l>
-           <l xml:lang="la" part="N">Perculit, &amp; Dacos bello confregit aperto:</l>
-           <l part="N">Discomfited, and danted Danes with maine and martiall might:</l>
-           <l xml:lang="la" part="N">Denique Mordredum è medio qui sustulit illud</l>
-           <l part="N">Who of that murdring Mordred did the vitall breath expell,</l>
-           <l xml:lang="la" part="N">Monstrum, horrendum, ingens, dirum, sæuúmque tyrannum,</l>
-           <l part="N">That monster grislie, lothsome, huge, that diresome tyrant fell,</l>
-           <l xml:lang="la" part="N">Hoc iacet extinctus monumento Arthurius alto,</l>
-           <l part="N">Heere liuelesse Arthur lies intoomd, within this statelie hearse,</l>
-           <l xml:lang="la" part="N">Militiæ clarum decus, &amp; virtutis alumnus:</l>
-           <l part="N">Of chiualrie the bright renowme, and vertues nursling fearse:</l>
-           <l xml:lang="la" part="N">Gloria nunc cuius terram circumuolat omnem,</l>
-           <l part="N">Whose glorie great now ouer all the world dooth compasse flie,</l>
-           <l xml:lang="la" part="N">Aetherijque petit sublimia tecta Tonantis.</l>
-           <l part="N">And of the airie thunder skales the loftie building hie.</l>
-           <l xml:lang="la" part="N">Vos igitur gentis proles generosa Britannæ,</l>
-           <l part="N">Therefore you noble progenie of Britaine line and race,</l>
-           <l xml:lang="la" part="N">Induperatori ter magno assurgite vestro,</l>
-           <l part="N">Arise vnto your emperour great, of thrice renowmed grace,</l>
-           <l xml:lang="la" part="N">Et tumulo sacro roseas inferte corollas,</l>
-           <l part="N">And cast upon his sacred toome the roseall garlands gaie,</l>
-           <l xml:lang="la" part="N">Officij testes redolentia munera vestri.</l>
-           <l part="N">That fragrant smell may witnesse well, your duties you displaie.</l>
-          </lg>
-         </div>
-        </body>
-        <back>
-         <div type="textpart" subtype="section" n="">
-          <p part="N">¶ These verses I haue the more willinglie inserted, for that I had the same
-           deliuered to me turned into English by maister Nicholas Roscarocke, both right aptlie
-           yeelding the sense, and also properlie answering the Latine, verse for verse.</p>
-         </div>
-        </back>
-       </floatingText></p>
+      <div type="textpart" subtype="epitaph">
+       <head>Iohn Leland In His Booke Intituled Assertio Arthuri, Hath For The Woorthie Memorie Of
+        So Noble A Prince, Honored Him With A Learned Epitaph, As Heere Followeth.</head>
+       <lg part="N" org="uniform" sample="complete">
+        <l xml:lang="la" part="N">SAXONICAS toties qui fudit Marte cruento</l>
+        <l part="N">Who vanquisht Saxon troops so oft, with battels bloudie broiles,</l>
+        <l xml:lang="la" part="N">Turmas, &amp; peperit spolijs sibi nomen opimis,</l>
+        <l part="N">And purchast to himselfe a name with warlike wealthie spoiles,</l>
+        <l xml:lang="la" part="N">Fulmineo toties Pictos qui contudit ense,</l>
+        <l part="N">Who hat with shiuering shining swoord, the Picts so oft dismaid,</l>
+        <l xml:lang="la" part="N">Imposuítque iugum Scoti ceruicibus ingens:</l>
+        <l part="N">And eke vnweldie seruile yoke on necke of Scots hath laid:</l>
+        <l xml:lang="la" part="N">Qui tumidos Gallos, Germanos quíque feroces</l>
+        <l part="N">Who Frenchmen puft with pride, and who the Germans fierce in fight</l>
+        <l xml:lang="la" part="N">Perculit, &amp; Dacos bello confregit aperto:</l>
+        <l part="N">Discomfited, and danted Danes with maine and martiall might:</l>
+        <l xml:lang="la" part="N">Denique Mordredum è medio qui sustulit illud</l>
+        <l part="N">Who of that murdring Mordred did the vitall breath expell,</l>
+        <l xml:lang="la" part="N">Monstrum, horrendum, ingens, dirum, sæuúmque tyrannum,</l>
+        <l part="N">That monster grislie, lothsome, huge, that diresome tyrant fell,</l>
+        <l xml:lang="la" part="N">Hoc iacet extinctus monumento Arthurius alto,</l>
+        <l part="N">Heere liuelesse Arthur lies intoomd, within this statelie hearse,</l>
+        <l xml:lang="la" part="N">Militiæ clarum decus, &amp; virtutis alumnus:</l>
+        <l part="N">Of chiualrie the bright renowme, and vertues nursling fearse:</l>
+        <l xml:lang="la" part="N">Gloria nunc cuius terram circumuolat omnem,</l>
+        <l part="N">Whose glorie great now ouer all the world dooth compasse flie,</l>
+        <l xml:lang="la" part="N">Aetherijque petit sublimia tecta Tonantis.</l>
+        <l part="N">And of the airie thunder skales the loftie building hie.</l>
+        <l xml:lang="la" part="N">Vos igitur gentis proles generosa Britannæ,</l>
+        <l part="N">Therefore you noble progenie of Britaine line and race,</l>
+        <l xml:lang="la" part="N">Induperatori ter magno assurgite vestro,</l>
+        <l part="N">Arise vnto your emperour great, of thrice renowmed grace,</l>
+        <l xml:lang="la" part="N">Et tumulo sacro roseas inferte corollas,</l>
+        <l part="N">And cast upon his sacred toome the roseall garlands gaie,</l>
+        <l xml:lang="la" part="N">Officij testes redolentia munera vestri.</l>
+        <l part="N">That fragrant smell may witnesse well, your duties you displaie.</l>
+       </lg>
+       <p part="N">¶ These verses I haue the more willinglie inserted, for that I had the same
+        deliuered to me turned into English by maister Nicholas Roscarocke, both right aptlie
+        yeelding the sense, and also properlie answering the Latine, verse for verse.</p>
+      </div>
+
      </div>
      <pb n="579"/>
 
@@ -10326,10 +10336,10 @@
        were not written onelie in his owne name, but iointlie togither in the name of the bishops
        Melitius and Iustus, (as followeth.) <floatingText>
         <body>
-         <div type="textpart" subtype="letter" n="">
-          <ab type="opener"><ab type="salute">"To our deare brethren the bishops and abbats through
-            all Scotland, Laurence, Melitus and Iustus bishops, the seruants of the seruants of God
-            wish health.</ab></ab>
+         <div type="textpart" subtype="letter">
+          <opener><salute>"To our deare brethren the bishops and abbats through all Scotland,
+            Laurence, Melitus and Iustus bishops, the seruants of the seruants of God wish
+            health.</salute></opener>
           <p part="N"><quote><hi rend="smallcap">WHEREAS</hi> the apostolike see (according to hir
             maner) had sent vs to preach vnto the heathen people in these west parts, as otherwise
             throgh the world, and that it chanced to vs to enter into this Ile which is called
@@ -12509,8 +12519,8 @@
        world 4647. So that (as Fabian saith) the Britains had the greater part of this land in rule
        (reckoning from Brute till this time) 1822 yeares. Which terme being expired, the whole
        dominion of this realme was Saxonish.</p>
-      <note type="closer">Thus farre the interrupted regiment of the Britains, ending at the fift
-       booke.</note>
+      <closer>Thus farre the interrupted regiment of the Britains, ending at the fift
+       booke.</closer>
      </div>
     </div>
 
@@ -16480,9 +16490,9 @@
        woorthilie allowed, nor throughlie excused, although those that occasioned the mischiefe by
        aduancing hir stepsonne to an other mans right, deserued most blame in this matter.</p>
      </div>
-     <note type="closer">Thus farre the sixt booke comprising the first arriuall of the Danes in
-      this land, which was in king Britricus his reigne, pag. 652, at which time the most miserable
-      state of England tooke beginning.</note>
+     <closer>Thus farre the sixt booke comprising the first arriuall of the Danes in this land,
+      which was in king Britricus his reigne, pag. 652, at which time the most miserable state of
+      England tooke beginning.</closer>
     </div>
 
     <pb n="702"/>
@@ -17319,7 +17329,7 @@
        escaped, and spake vnto them after this manner.</p>
       <p part="N"><floatingText>
         <body>
-         <div type="textpart" subtype="oration" n="">
+         <div type="textpart" subtype="oration">
           <head>The Oration Of King Egelred To The Remanent Of His Souldiers.</head>
           <p part="N"><quote><hi rend="smallcap">I SHULD</hi> for euer be put to silence, if there
             wanted in vs the vertue of a fatherlie mind, in giuing good aduise &amp; counsel for the
@@ -17874,7 +17884,7 @@
        might be heard of both the princes, &amp; boldlie vttered his mind in forme following.</p>
       <p part="N"><floatingText>
         <body>
-         <div type="textpart" subtype="oration" n="">
+         <div type="textpart" subtype="oration">
           <head>The Oration Of A Capteine In The Audience Of The English And Danish Armie.</head>
           <p part="N"><quote><hi rend="smallcap">WE</hi> haue, most woorthie capteins, fought long
             inough one against another, there hath beene but too much bloud shed betweene both the
@@ -18483,7 +18493,7 @@
 
       <p part="N"><floatingText>
         <body>
-         <div type="textpart" subtype="letter" n="">
+         <div type="textpart" subtype="letter">
           <head xml:lang="en">The Tenour Of A Letter Forged And Sent In Queene Emmas Name To Hir Two
            Sonnes.</head>
           <p part="N"><hi rend="smallcap">EMMA</hi> tantùm nomine regina filijs Edwardo &amp;
@@ -18497,7 +18507,7 @@
            pacto hoc negotium quod volo fieri debeat, per præsentem quóque internuncium quid super
            his facturi estis remandate. Valete cordis mei viscera.</p>
          </div>
-         <div type="textpart" subtype="letter" n="">
+         <div type="textpart" subtype="letter">
           <head>The Same In English.</head>
           <p part="N"><quote><hi rend="smallcap">EMMA</hi> in name onelie queene to hir sons Edward
             and Alfred sendeth motherlie greeting. Whilest we separatelie bewaile the death of our
@@ -18748,9 +18758,8 @@
        flame; and the swoord of whose vengeance being sharpened with the whetstone of mens
        wickednesse, shall hew them in péeces as wood for the fornace.</p>
      </div>
-     <note type="closer">Thus farre the tumultuous and tyrannicall regiment of the Danes, inferring
-      fulnesse of afflictions to the English people, wherewith likewise the seuenth booke is shut
-      vp.</note>
+     <closer>Thus farre the tumultuous and tyrannicall regiment of the Danes, inferring fulnesse of
+      afflictions to the English people, wherewith likewise the seuenth booke is shut vp.</closer>
     </div>
 
     <pb n="739"/>
@@ -20354,67 +20363,66 @@
        father, and of prince William his sonne for part of his tender yéeres.</p>
      </div>
     </div>
+    <div type="textpart" subtype="section">
+
+     <head rend="italics">A Notable Aduertisement Touching The Summe Of All The Foresaid Historie,
+      Wherin The Foure Great And Notable Conquests Of This Land Are Brieflie Touched, Being A
+      Conchlusion Introductorie, As Is Said In The Argument.</head>
+
+     <note place="marg" anchored="false">Britaine inhabited by Brute.</note>
+     <p part="N">IN the former part of this historie it is manifest to the heedful reader, that
+      (after the opinion of most writers) Brute did first inhabit this land, and called it then
+      after his owne name, Britaine, in the yéere after the creation of the world 2855, and in the
+      yéere before the incarnation of Christ 1108. <note place="marg" anchored="false">1 Britaine
+       conquered by the Romans.</note> ¶ Furthermore the said land of Britaine was conquered by C.
+      Iulius Cesar, and made tributarie to the Romans in the 50 yéere before the natiuitie of
+      Christ, and so continued 483 yéeres. So that the Britains reigned without tribute and vnder
+      tribute, from Brute, vntill the fourth yeere of the reigne of king Cadwalladar, which was in
+      the yéere of our Lord 686. And so the Britains had continuance of the gouernement of this land
+      the space of 1794 yéeres. Then was the realme of Britaine an heptarchie, that is, diuided into
+      seuen kingdoms. And Britaine receiued the faith of Christ in the 7 yéere of the reigne of king
+      Lucius, which was in the 187 yéere after the birth of Christ. <note place="marg"
+       anchored="false">2 Britaine conquered and ouercome by the Saxons.</note> ¶ Next after the
+      Britains entered the Saxons, in the third yéere of king Vortiger; and in the yéere of our Lord
+      450, and they gouerned vntill the last yéere of king Athelstane, which was in the yéere of
+      Christ 938. So that the time of the Saxons first entrance into this realme, and the time of
+      their regiment was the space of 487 yéeres. <note place="marg" anchored="false">3 Britaine
+       conquered and ouercome by the Danes.</note> ¶ Howbeit, in the time of their gouernement, that
+      is to say, in the 9 yéere of king Britricus, which was in the yéere of our Lord 387, the Danes
+      entred into this land, spoiling and persecuting the people therin most gréeuouslie. At the
+      last, Sweno or Swaine the Dane obteined possession roiall, in the yéere of Grace 1012, whose
+      time of regiment lasted about three yéeres. After whom his sonne Canutus succeeded, and
+      reigned 19 yéeres. After him Harold his sonne, who ruled thrée yeeres: and after him
+      Hardicnute the sonne of Canutus, whose gouernement continued but thrée yeeres. This Hardicnute
+      was the last king of the Danes, at which time the Danes were expelled and hunted out of the
+      realme, which was in the yéere of our Lord 1042. So that it may appeare by this collection,
+      that the Danes ruled as kings in this land by the space of 28 yéeres. Hereby also it is
+      euident, that from the time of the first entrance of the Danes into this realme, vntill their
+      last <pb n="766"/> expulsion &amp; riddance was 255 yéeres. <note place="marg"
+       anchored="false">4 Britaine conquered and possessed by the Normans.</note> ¶ Finallie the
+      Normans entred this land likewise, and conquered the same as before is expressed, in the yéere
+      of our Lord 1067, which is since, vntill this present yéere of our Lord 1585, drawing néere to
+      the number of 600 and od yéeres.</p>
+
+     <p part="N">Now let these alterations of regiments be remembred [touching the which read a
+      notable animaduersion in the description of Britaine, pag. 49,50,51] and teach vs that therein
+      the iudgements of God reuealed themselues to speciall purposes. And whatsoeuer hath béene
+      mentioned before either concerning the subuersion of people, the desolation of prouinces, the
+      ouerthrow of nobles, the ruine of princes, and other lamentable accidents diuerslie happening
+      vpon sundrie occasions let vs (I say) as manie as will reape fruit by the reading of
+      chroncles, imagine the matters which were so manie yéeres past to be present, and applie the
+      profit and commoditie of the same vnto our selues: knowing (as one wisely said) <quote
+       xml:lang="la">Post sacram paginam chronica viuum veritatis typum gerere,</quote> that next
+      vnto the holie scripture, chronicles doo carie credit. But now to the sequele, and first to
+      duke William of Normandie.</p>
+
+     <closer rend="italics"> Thus farre the historie of England from Noah and his sonnes, &amp;c: to
+      William duke of Normandie. Hereafter followeth a chronologicall continuation beginning at the
+      first yeere of the said dukes reigne ouer this land, vntill the 25 yeere of the Queenes most
+      excellent maiestie Elizabeth, &amp;c: whose daies God in mercie prolong (like the daies of
+      heauen) in peace and prosperitie, &amp;c.</closer>
+    </div>
    </div>
   </body>
-  <back>
-   <div type="textpart" subtype="section" n="">
-
-    <head rend="italics">A Notable Aduertisement Touching The Summe Of All The Foresaid Historie,
-     Wherin The Foure Great And Notable Conquests Of This Land Are Brieflie Touched, Being A
-     Conchlusion Introductorie, As Is Said In The Argument.</head>
-
-    <note place="marg" anchored="false">Britaine inhabited by Brute.</note>
-    <p part="N">IN the former part of this historie it is manifest to the heedful reader, that
-     (after the opinion of most writers) Brute did first inhabit this land, and called it then after
-     his owne name, Britaine, in the yéere after the creation of the world 2855, and in the yéere
-     before the incarnation of Christ 1108. <note place="marg" anchored="false">1 Britaine conquered
-      by the Romans.</note> ¶ Furthermore the said land of Britaine was conquered by C. Iulius
-     Cesar, and made tributarie to the Romans in the 50 yéere before the natiuitie of Christ, and so
-     continued 483 yéeres. So that the Britains reigned without tribute and vnder tribute, from
-     Brute, vntill the fourth yeere of the reigne of king Cadwalladar, which was in the yéere of our
-     Lord 686. And so the Britains had continuance of the gouernement of this land the space of 1794
-     yéeres. Then was the realme of Britaine an heptarchie, that is, diuided into seuen kingdoms.
-     And Britaine receiued the faith of Christ in the 7 yéere of the reigne of king Lucius, which
-     was in the 187 yéere after the birth of Christ. <note place="marg" anchored="false">2 Britaine
-      conquered and ouercome by the Saxons.</note> ¶ Next after the Britains entered the Saxons, in
-     the third yéere of king Vortiger; and in the yéere of our Lord 450, and they gouerned vntill
-     the last yéere of king Athelstane, which was in the yéere of Christ 938. So that the time of
-     the Saxons first entrance into this realme, and the time of their regiment was the space of 487
-     yéeres. <note place="marg" anchored="false">3 Britaine conquered and ouercome by the
-      Danes.</note> ¶ Howbeit, in the time of their gouernement, that is to say, in the 9 yéere of
-     king Britricus, which was in the yéere of our Lord 387, the Danes entred into this land,
-     spoiling and persecuting the people therin most gréeuouslie. At the last, Sweno or Swaine the
-     Dane obteined possession roiall, in the yéere of Grace 1012, whose time of regiment lasted
-     about three yéeres. After whom his sonne Canutus succeeded, and reigned 19 yéeres. After him
-     Harold his sonne, who ruled thrée yeeres: and after him Hardicnute the sonne of Canutus, whose
-     gouernement continued but thrée yeeres. This Hardicnute was the last king of the Danes, at
-     which time the Danes were expelled and hunted out of the realme, which was in the yéere of our
-     Lord 1042. So that it may appeare by this collection, that the Danes ruled as kings in this
-     land by the space of 28 yéeres. Hereby also it is euident, that from the time of the first
-     entrance of the Danes into this realme, vntill their last <pb n="766"/> expulsion &amp;
-     riddance was 255 yéeres. <note place="marg" anchored="false">4 Britaine conquered and possessed
-      by the Normans.</note> ¶ Finallie the Normans entred this land likewise, and conquered the
-     same as before is expressed, in the yéere of our Lord 1067, which is since, vntill this present
-     yéere of our Lord 1585, drawing néere to the number of 600 and od yéeres.</p>
-
-    <p part="N">Now let these alterations of regiments be remembred [touching the which read a
-     notable animaduersion in the description of Britaine, pag. 49,50,51] and teach vs that therein
-     the iudgements of God reuealed themselues to speciall purposes. And whatsoeuer hath béene
-     mentioned before either concerning the subuersion of people, the desolation of prouinces, the
-     ouerthrow of nobles, the ruine of princes, and other lamentable accidents diuerslie happening
-     vpon sundrie occasions let vs (I say) as manie as will reape fruit by the reading of chroncles,
-     imagine the matters which were so manie yéeres past to be present, and applie the profit and
-     commoditie of the same vnto our selues: knowing (as one wisely said) <quote xml:lang="la">Post
-      sacram paginam chronica viuum veritatis typum gerere,</quote> that next vnto the holie
-     scripture, chronicles doo carie credit. But now to the sequele, and first to duke William of
-     Normandie.</p>
-
-    <note type="closer"> Thus farre the historie of England from Noah and his sonnes, &amp;c: to
-     William duke of Normandie. Hereafter followeth a chronologicall continuation beginning at the
-     first yeere of the said dukes reigne ouer this land, vntill the 25 yeere of the Queenes most
-     excellent maiestie Elizabeth, &amp;c: whose daies God in mercie prolong (like the daies of
-     heauen) in peace and prosperitie, &amp;c.</note>
-   </div>
-  </back>
  </text>
 </TEI>
