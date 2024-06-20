@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-06-20T15:28:22Z. . 
+Schema generated from ODD source 2024-06-20T20:14:18Z. . 
 TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
   
@@ -4374,6 +4374,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       <choice>
          <ref name="tei_surname"/>
          <ref name="tei_forename"/>
+         <ref name="tei_addName"/>
          <ref name="tei_roleName"/>
       </choice>
    </define>
@@ -4381,12 +4382,14 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       <choice>
          <ref name="tei_surname"/>
          <ref name="tei_forename"/>
+         <ref name="tei_addName"/>
          <ref name="tei_roleName"/>
       </choice>
    </define>
    <define name="tei_model.persNamePart_sequence">
       <ref name="tei_surname"/>
       <ref name="tei_forename"/>
+      <ref name="tei_addName"/>
       <ref name="tei_roleName"/>
    </define>
    <define name="tei_model.persNamePart_sequenceOptional">
@@ -4395,6 +4398,9 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       </optional>
       <optional>
          <ref name="tei_forename"/>
+      </optional>
+      <optional>
+         <ref name="tei_addName"/>
       </optional>
       <optional>
          <ref name="tei_roleName"/>
@@ -4408,6 +4414,9 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <ref name="tei_forename"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="tei_addName"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="tei_roleName"/>
       </zeroOrMore>
    </define>
@@ -4417,6 +4426,9 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_forename"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_addName"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_roleName"/>
@@ -4614,6 +4626,16 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
    <define name="tei_forename">
       <element name="forename">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_addName">
+      <element name="addName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.personal.attributes"/>

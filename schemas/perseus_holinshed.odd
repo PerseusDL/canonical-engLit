@@ -96,7 +96,7 @@
 
 
         <moduleRef key="namesdates"
-          include="persName forename surname placeName orgName geogName roleName"/>
+          include="persName forename surname placeName orgName addName geogName roleName"/>
         <moduleRef key="linking" include="anchor seg"/>
         <moduleRef key="figures" include="table row cell"/>
       </schemaSpec>
