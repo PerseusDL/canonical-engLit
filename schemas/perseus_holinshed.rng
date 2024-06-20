@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-06-20T20:14:18Z. . 
+Schema generated from ODD source 2024-06-20T20:25:10Z. . 
 TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
   
@@ -1707,6 +1707,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_milestone"/>
          <ref name="tei_pb"/>
          <ref name="tei_lb"/>
+         <ref name="tei_cb"/>
          <ref name="tei_anchor"/>
       </choice>
    </define>
@@ -1715,6 +1716,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_milestone"/>
          <ref name="tei_pb"/>
          <ref name="tei_lb"/>
+         <ref name="tei_cb"/>
          <ref name="tei_anchor"/>
       </choice>
    </define>
@@ -1722,6 +1724,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <ref name="tei_milestone"/>
       <ref name="tei_pb"/>
       <ref name="tei_lb"/>
+      <ref name="tei_cb"/>
       <ref name="tei_anchor"/>
    </define>
    <define name="tei_model.milestoneLike_sequenceOptional">
@@ -1733,6 +1736,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </optional>
       <optional>
          <ref name="tei_lb"/>
+      </optional>
+      <optional>
+         <ref name="tei_cb"/>
       </optional>
       <optional>
          <ref name="tei_anchor"/>
@@ -1749,6 +1755,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_lb"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="tei_cb"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="tei_anchor"/>
       </zeroOrMore>
    </define>
@@ -1761,6 +1770,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_lb"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_cb"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_anchor"/>
@@ -3105,6 +3117,9 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
                   </group>
                </oneOrMore>
                <group>
+                  <optional>
+                     <ref name="tei_headLabel"/>
+                  </optional>
                   <oneOrMore>
                      <group>
                         <ref name="tei_label"/>
@@ -3205,6 +3220,14 @@ Suggested values include: 1] gloss (gloss); 2] index (index); 3] instructions (i
          <empty/>
       </element>
    </define>
+   <define name="tei_headLabel">
+      <element name="headLabel">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading for list labels) contains the heading for the label or term column in a glossary list or similar structured list. [3.8. Lists]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="tei_note">
       <element name="note">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
@@ -3249,6 +3272,19 @@ Elements]</a:documentation>
       <element name="lb">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. [3.11.3. Milestone
 Elements 7.2.5. Speech Contents]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.edition.attributes"/>
+         <ref name="tei_att.spanning.attributes"/>
+         <ref name="tei_att.breaking.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_cb">
+      <element name="cb">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(column beginning) marks the beginning of a new column of a text on a multi-column page. [3.11.3. Milestone
+Elements]</a:documentation>
          <empty/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.typed.attributes"/>
@@ -3741,6 +3777,14 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <zeroOrMore>
                <ref name="tei_model.global"/>
             </zeroOrMore>
+            <optional>
+               <group>
+                  <ref name="tei_back"/>
+                  <zeroOrMore>
+                     <ref name="tei_model.global"/>
+                  </zeroOrMore>
+               </group>
+            </optional>
          </group>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
@@ -3875,6 +3919,14 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <zeroOrMore>
                <ref name="tei_model.global"/>
             </zeroOrMore>
+            <optional>
+               <group>
+                  <ref name="tei_back"/>
+                  <zeroOrMore>
+                     <ref name="tei_model.global"/>
+                  </zeroOrMore>
+               </group>
+            </optional>
          </group>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
@@ -4263,6 +4315,60 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                         </zeroOrMore>
                      </group>
                   </optional>
+               </group>
+            </optional>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.declaring.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_back">
+      <element name="back">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.frontPart"/>
+                  <ref name="tei_model.pLike.front"/>
+                  <ref name="tei_model.pLike"/>
+                  <ref name="tei_model.listLike"/>
+                  <ref name="tei_model.global"/>
+               </choice>
+            </zeroOrMore>
+            <optional>
+               <choice>
+                  <group>
+                     <ref name="tei_model.div1Like"/>
+                     <zeroOrMore>
+                        <choice>
+                           <ref name="tei_model.frontPart"/>
+                           <ref name="tei_model.div1Like"/>
+                           <ref name="tei_model.global"/>
+                        </choice>
+                     </zeroOrMore>
+                  </group>
+                  <group>
+                     <ref name="tei_model.divLike"/>
+                     <zeroOrMore>
+                        <choice>
+                           <ref name="tei_model.frontPart"/>
+                           <ref name="tei_model.divLike"/>
+                           <ref name="tei_model.global"/>
+                        </choice>
+                     </zeroOrMore>
+                  </group>
+               </choice>
+            </optional>
+            <optional>
+               <group>
+                  <ref name="tei_model.divBottomPart"/>
+                  <zeroOrMore>
+                     <choice>
+                        <ref name="tei_model.divBottomPart"/>
+                        <ref name="tei_model.global"/>
+                     </choice>
+                  </zeroOrMore>
                </group>
             </optional>
          </group>
