@@ -13,6 +13,7 @@ def convert_entities(line):
     line = line.replace('&cacute;', u"\u0107")
     line = line.replace('&Eacute;', u"\u00C9")
     line = line.replace('&eacute;', u"\u00E9")
+    line = line.replace('&gacute;', u"\u01F5")
     line = line.replace('&iacute;', u"\u00ED")
     line = line.replace('&nacute;', u"\u0144")
     line = line.replace('&oacute;', u"\u00F3")
@@ -68,9 +69,14 @@ def convert_entities(line):
     line = line.replace('&otilde;', u"\u00F5")
     line = line.replace('&utilde;', u"\u0169")
 
+    line = line.replace('&aring;', u"\u00E5")
+    line = line.replace('&uring;', u"\u016F")
+
     line = line.replace('&ecaron;', u"\u011B")
 
     line = line.replace('&dagger;', u"\u2020")
+
+    line = line.replace('&thorn;', u"\u00FE")
 
     line = re.sub('&responsibility;', '', line)
     line = re.sub('&fund.DLI2;', '', line)
@@ -107,8 +113,7 @@ if __name__ == "__main__":
                 start = True
                 logger.debug('found TEI.2 element')
                 print("""<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>""")
+<?xml-model href="../../../../schemas/perseus_holinshed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>""")
                 print("<TEI xmlns=\"http://www.tei-c.org/ns/1.0\">")
 
         elif re.match(r'^.*</TEI.2>', line):
