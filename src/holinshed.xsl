@@ -65,6 +65,11 @@
     </xsl:template>
 
 
+    <xsl:template match="tei:div[@type='epistle']">
+        <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="epistle">
+            <xsl:apply-templates />
+        </div>
+    </xsl:template>
 
     <xsl:template match="tei:refsDecl">
         <refsDecl xmlns="http://www.tei-c.org/ns/1.0" n="CTS">
@@ -128,9 +133,9 @@
 
 
     <xsl:template match="tei:closer">
-        <ab xmlns="http://www.tei-c.org/ns/1.0" type='closer'>
+        <note xmlns="http://www.tei-c.org/ns/1.0" type='closer'>
             <xsl:apply-templates />
-        </ab>
+        </note>
     </xsl:template>
     
     
@@ -171,7 +176,7 @@
     <xsl:template match="@anchored">
         <xsl:attribute name="anchored">
             <xsl:choose>
-                <xsl:when test="yes|true">true</xsl:when>
+                <xsl:when test="yes">true</xsl:when>
                 <xsl:otherwise>false</xsl:otherwise>
             </xsl:choose>
         </xsl:attribute>
@@ -181,6 +186,21 @@
         <gap xmlns="http://www.tei-c.org/ns/1.0" reason="undefined">
             <xsl:apply-templates />
         </gap>
+    </xsl:template>
+    
+    <xsl:template match="tei:xref">
+        <ref xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:apply-templates />
+        </ref>
+    </xsl:template>
+    
+    <xsl:template match="tei:unclear[tei:foreign]">
+        <unclear xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:attribute name="xml:lang">
+                <xsl:apply-templates select="./tei:foreign/@lang" />
+            </xsl:attribute>
+            <xsl:value-of select="./tei:foreign"/>
+        </unclear>
     </xsl:template>
     
 </xsl:stylesheet>

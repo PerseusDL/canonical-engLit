@@ -41,6 +41,7 @@ def convert_entities(line):
     line = re.sub('&imacr;', u"\u012B", line)
     line = re.sub('&omacr;', u"\u014C", line)
     line = re.sub('&umacr;', u"\u016B", line)
+
     line = re.sub('&Amacr;', u"\u0100", line)
     line = re.sub('&ccedil;', u"\u1DD7", line)
     line = re.sub('&pound;', u"\u00A3", line)
