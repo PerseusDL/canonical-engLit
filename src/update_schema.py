@@ -33,7 +33,6 @@ def convert_entities(line):
     line = re.sub('&euml;', u"\u00EB", line)
     line = re.sub('&iuml;', u"\u00EF", line)
     line = re.sub('&ouml;', u"\u00F6", line)
-<<<<<<< HEAD
     line = re.sub('&uuml;', u"\u00FC", line)
     line = re.sub('&yuml;', u"\u00FF", line)
 
@@ -42,13 +41,10 @@ def convert_entities(line):
     line = re.sub('&imacr;', u"\u012B", line)
     line = re.sub('&omacr;', u"\u014C", line)
     line = re.sub('&umacr;', u"\u016B", line)
-
     line = re.sub('&Amacr;', u"\u0100", line)
-
     line = re.sub('&ccedil;', u"\u1DD7", line)
     line = re.sub('&pound;', u"\u00A3", line)
     line = re.sub('&aelig;', u"\u00E6", line)
-
     line = re.sub('&oelig;', u"\u0153", line)
     line = re.sub('&OElig;', u"\u0152", line)
     line = re.sub('&AElig;', u"\u00C6", line)
@@ -58,6 +54,13 @@ def convert_entities(line):
     line = line.replace('&mdash;', u"\u2014")
     line = line.replace('&lsquo;', u"\u2018")
     line = line.replace('&rsquo;', u"\u2019")
+    line = line.replace('&para;', u"\u00B6")
+    line = line.replace('&nbsp;', ' ')
+
+    line = line.replace('&atilde;', u"\u00E3")
+    line = line.replace('&ntilde;', u"\u00F1")
+    line = line.replace('&otilde;', u"\u00F5")
+    line = line.replace('&utilde;', u"\u0169")
 
     line = line.replace('&mdash;', u"\u2014")
     line = line.replace('&ndash;', u"\u2013")
