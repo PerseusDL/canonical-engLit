@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <grammar xmlns="http://relaxng.org/ns/structure/1.0"
          xmlns:tei="http://www.tei-c.org/ns/1.0"
          xmlns:teix="http://www.tei-c.org/ns/Examples"
@@ -6,6 +7,15 @@
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
 Schema generated from ODD source 2024-06-20T20:25:10Z. . 
+=======
+<grammar xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:teix="http://www.tei-c.org/ns/Examples"
+         xmlns="http://relaxng.org/ns/structure/1.0"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+         ns="http://www.tei-c.org/ns/1.0"><!--
+Schema generated from ODD source 2024-06-18T20:37:21Z. . 
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
 TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
   
@@ -423,32 +433,59 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="perseus_holinshed-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
+<<<<<<< HEAD
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@when]">
          <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
+=======
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                context="tei:*[@when]">
+        <sch:report role="nonfatal" test="@notBefore|@notAfter|@from|@to">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="perseus_holinshed-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
+<<<<<<< HEAD
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@from]">
          <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
+=======
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                context="tei:*[@from]">
+        <sch:report role="nonfatal" test="@notBefore">The @from and @notBefore attributes cannot be used together.</sch:report>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="perseus_holinshed-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
+<<<<<<< HEAD
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@to]">
          <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
+=======
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                context="tei:*[@to]">
+        <sch:report role="nonfatal" test="@notAfter">The @to and @notAfter attributes cannot be used together.</sch:report>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       </sch:rule>
    </pattern>
    <define name="tei_att.datable.attributes">
@@ -777,6 +814,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="perseus_holinshed-att.global.source-source-only_1_ODD_source-constraint-rule-4">
+<<<<<<< HEAD
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -784,11 +822,24 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
                 context="tei:*[@source]">
          <sch:let name="srcs" value="tokenize( normalize-space(@source),' ')"/>
          <sch:report test="( self::tei:classRef               | self::tei:dataRef               | self::tei:elementRef               | self::tei:macroRef               | self::tei:moduleRef               | self::tei:schemaSpec )               and               $srcs[2]">
+=======
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                context="tei:*[@source]">
+            <sch:let name="srcs" value="tokenize( normalize-space(@source),' ')"/>
+            <sch:report test="( self::tei:classRef               | self::tei:dataRef               | self::tei:elementRef               | self::tei:macroRef               | self::tei:moduleRef               | self::tei:schemaSpec )               and               $srcs[2]">
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
               When used on a schema description element (like
               <sch:value-of select="name(.)"/>), the @source attribute
               should have only 1 value. (This one has <sch:value-of select="count($srcs)"/>.)
             </sch:report>
+<<<<<<< HEAD
       </sch:rule>
+=======
+          </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    </pattern>
    <define name="tei_att.global.attributes">
       <ref name="tei_att.global.rendition.attributes"/>
@@ -988,12 +1039,21 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="perseus_holinshed-att.typed-subtypeTyped-constraint-rule-5">
+<<<<<<< HEAD
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@subtype]">
          <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
+=======
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                context="tei:*[@subtype]">
+        <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       </sch:rule>
    </pattern>
    <define name="tei_att.pointing.attributes">
@@ -1018,6 +1078,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="perseus_holinshed-att.pointing-targetLang-targetLang-constraint-rule-6">
+<<<<<<< HEAD
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -1025,6 +1086,15 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
                 context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
          <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
       </sch:rule>
+=======
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
+            <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
+          </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    </pattern>
    <define name="tei_att.pointing.attribute.target">
       <optional>
@@ -1130,6 +1200,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="perseus_holinshed-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-7">
+<<<<<<< HEAD
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -1139,6 +1210,17 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
 The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
          </sch:assert>
       </sch:rule>
+=======
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                context="tei:*[@spanTo]">
+            <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
+The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
+            </sch:assert>
+          </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    </pattern>
    <define name="tei_att.timed.attributes">
       <ref name="tei_att.timed.attribute.start"/>
@@ -1706,8 +1788,11 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <choice>
          <ref name="tei_milestone"/>
          <ref name="tei_pb"/>
+<<<<<<< HEAD
          <ref name="tei_lb"/>
          <ref name="tei_cb"/>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_anchor"/>
       </choice>
    </define>
@@ -1715,16 +1800,22 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <choice>
          <ref name="tei_milestone"/>
          <ref name="tei_pb"/>
+<<<<<<< HEAD
          <ref name="tei_lb"/>
          <ref name="tei_cb"/>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_anchor"/>
       </choice>
    </define>
    <define name="tei_model.milestoneLike_sequence">
       <ref name="tei_milestone"/>
       <ref name="tei_pb"/>
+<<<<<<< HEAD
       <ref name="tei_lb"/>
       <ref name="tei_cb"/>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       <ref name="tei_anchor"/>
    </define>
    <define name="tei_model.milestoneLike_sequenceOptional">
@@ -1735,12 +1826,15 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_pb"/>
       </optional>
       <optional>
+<<<<<<< HEAD
          <ref name="tei_lb"/>
       </optional>
       <optional>
          <ref name="tei_cb"/>
       </optional>
       <optional>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_anchor"/>
       </optional>
    </define>
@@ -1752,12 +1846,15 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_pb"/>
       </zeroOrMore>
       <zeroOrMore>
+<<<<<<< HEAD
          <ref name="tei_lb"/>
       </zeroOrMore>
       <zeroOrMore>
          <ref name="tei_cb"/>
       </zeroOrMore>
       <zeroOrMore>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_anchor"/>
       </zeroOrMore>
    </define>
@@ -1769,12 +1866,15 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_pb"/>
       </oneOrMore>
       <oneOrMore>
+<<<<<<< HEAD
          <ref name="tei_lb"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_cb"/>
       </oneOrMore>
       <oneOrMore>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_anchor"/>
       </oneOrMore>
    </define>
@@ -2272,9 +2372,13 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_byline"/>
          <ref name="tei_dateline"/>
          <ref name="tei_argument"/>
+<<<<<<< HEAD
          <ref name="tei_epigraph"/>
          <ref name="tei_salute"/>
          <ref name="tei_docAuthor"/>
+=======
+         <ref name="tei_salute"/>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       </choice>
    </define>
    <define name="tei_model.divTopPart">
@@ -2299,11 +2403,14 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_byline"/>
          <ref name="tei_dateline"/>
          <ref name="tei_argument"/>
+<<<<<<< HEAD
          <ref name="tei_epigraph"/>
          <ref name="tei_docTitle"/>
          <ref name="tei_titlePart"/>
          <ref name="tei_docAuthor"/>
          <ref name="tei_docEdition"/>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       </choice>
    </define>
    <define name="tei_model.divBottomPart">
@@ -2319,6 +2426,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_model.divBottomPart"/>
       </choice>
    </define>
+<<<<<<< HEAD
    <define name="tei_model.titlepagePart">
       <choice>
          <ref name="tei_byline"/>
@@ -2330,6 +2438,8 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_docEdition"/>
       </choice>
    </define>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    <define name="tei_model.imprintPart">
       <notAllowed/>
    </define>
@@ -2445,7 +2555,10 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.frontPart">
       <choice>
          <ref name="tei_model.frontPart.drama"/>
+<<<<<<< HEAD
          <ref name="tei_titlePage"/>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       </choice>
    </define>
    <define name="tei_model.pPart.data">
@@ -2649,6 +2762,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="perseus_holinshed-att.calendarSystem-calendar-calendar-constraint-rule-8">
+<<<<<<< HEAD
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -2658,6 +2772,17 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
               systems or calendars to which the date represented by the content of this element belongs,
               but this <sch:name/> element has no textual content.</sch:assert>
       </sch:rule>
+=======
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                context="tei:*[@calendar]">
+            <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+              systems or calendars to which the date represented by the content of this element belongs,
+              but this <sch:name/> element has no textual content.</sch:assert>
+          </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    </pattern>
    <define name="tei_att.milestoneUnit.attributes">
       <ref name="tei_att.milestoneUnit.attribute.unit"/>
@@ -2706,9 +2831,15 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-p-abstractModel-structure-p-in-ab-or-p-constraint-report-5">
             <rule context="tei:p">
+<<<<<<< HEAD
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+=======
+               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                            test="(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </sch:report>
@@ -2717,9 +2848,15 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-p-abstractModel-structure-p-in-l-or-lg-constraint-report-6">
             <rule context="tei:p">
+<<<<<<< HEAD
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+=======
+               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                            test="(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.
       </sch:report>
@@ -2817,6 +2954,10 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
                <ref name="tei_model.graphicLike"/>
                <ref name="tei_model.ptrLike"/>
                <ref name="tei_model.attributable"/>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                <ref name="tei_q"/>
             </choice>
          </oneOrMore>
@@ -2991,6 +3132,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-name-calendar-calendar-check-name-constraint-rule-9">
+<<<<<<< HEAD
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -2999,6 +3141,16 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                         systems or calendars to which the date represented by the content of this element belongs,
                         but this <sch:name/> element has no textual content.</sch:assert>
             </sch:rule>
+=======
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:*[@calendar]">
+                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+                        systems or calendars to which the date represented by the content of this element belongs,
+                        but this <sch:name/> element has no textual content.</sch:assert>
+                </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </pattern>
          <empty/>
       </element>
@@ -3101,16 +3253,30 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
       <element name="list">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list) contains any sequence of items organized as a list. [3.8. Lists]</a:documentation>
          <group>
+<<<<<<< HEAD
             <zeroOrMore>
                <choice>
                   <ref name="tei_model.divTop"/>
                   <ref name="tei_model.global"/>
                </choice>
             </zeroOrMore>
+=======
+      
+            <zeroOrMore>
+               <choice>
+          
+                  <ref name="tei_model.divTop"/>
+                  <ref name="tei_model.global"/>
+                      
+               </choice>
+            </zeroOrMore>
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <choice>
                <oneOrMore>
                   <group>
                      <ref name="tei_item"/>
+<<<<<<< HEAD
                      <zeroOrMore>
                         <ref name="tei_model.global"/>
                      </zeroOrMore>
@@ -3130,10 +3296,41 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
                         <zeroOrMore>
                            <ref name="tei_model.global"/>
                         </zeroOrMore>
+=======
+          
+                     <zeroOrMore>
+                        <ref name="tei_model.global"/>
+                     </zeroOrMore>
+          
+                  </group>
+               </oneOrMore>
+               <group>
+          
+            
+          
+          
+            
+          
+                  <oneOrMore>
+                     <group>
+                        <ref name="tei_label"/>
+            
+                        <zeroOrMore>
+                           <ref name="tei_model.global"/>
+                        </zeroOrMore>
+            
+                        <ref name="tei_item"/>
+            
+                        <zeroOrMore>
+                           <ref name="tei_model.global"/>
+                        </zeroOrMore>
+            
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                      </group>
                   </oneOrMore>
                </group>
             </choice>
+<<<<<<< HEAD
             <zeroOrMore>
                <group>
                   <ref name="tei_model.divBottom"/>
@@ -3150,6 +3347,30 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:list[@type='gloss']">
                <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
+=======
+      
+            <zeroOrMore>
+               <group>
+          
+                  <ref name="tei_model.divBottom"/>
+          
+          
+                  <zeroOrMore>
+                     <ref name="tei_model.global"/>
+                  </zeroOrMore>
+          
+               </group>
+            </zeroOrMore>
+      
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="perseus_holinshed-list-gloss-list-must-have-labels-constraint-rule-10">
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:list[@type='gloss']">
+	              <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
@@ -3220,6 +3441,7 @@ Suggested values include: 1] gloss (gloss); 2] index (index); 3] instructions (i
          <empty/>
       </element>
    </define>
+<<<<<<< HEAD
    <define name="tei_headLabel">
       <element name="headLabel">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading for list labels) contains the heading for the label or term column in a glossary list or similar structured list. [3.8. Lists]</a:documentation>
@@ -3228,6 +3450,8 @@ Suggested values include: 1] gloss (gloss); 2] index (index); 3] instructions (i
          <empty/>
       </element>
    </define>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    <define name="tei_note">
       <element name="note">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
@@ -3268,6 +3492,7 @@ Elements]</a:documentation>
          <empty/>
       </element>
    </define>
+<<<<<<< HEAD
    <define name="tei_lb">
       <element name="lb">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. [3.11.3. Milestone
@@ -3294,6 +3519,8 @@ Elements]</a:documentation>
          <empty/>
       </element>
    </define>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    <define name="tei_author">
       <element name="author">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(author) in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]</a:documentation>
@@ -3315,6 +3542,7 @@ Elements]</a:documentation>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-author-calendar-calendar-check-author-constraint-rule-11">
+<<<<<<< HEAD
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -3323,6 +3551,16 @@ Elements]</a:documentation>
                         systems or calendars to which the date represented by the content of this element belongs,
                         but this <sch:name/> element has no textual content.</sch:assert>
             </sch:rule>
+=======
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:*[@calendar]">
+                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+                        systems or calendars to which the date represented by the content of this element belongs,
+                        but this <sch:name/> element has no textual content.</sch:assert>
+                </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </pattern>
          <empty/>
       </element>
@@ -3358,6 +3596,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-title-calendar-calendar-check-title-constraint-rule-12">
+<<<<<<< HEAD
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -3366,6 +3605,16 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                         systems or calendars to which the date represented by the content of this element belongs,
                         but this <sch:name/> element has no textual content.</sch:assert>
             </sch:rule>
+=======
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:*[@calendar]">
+                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+                        systems or calendars to which the date represented by the content of this element belongs,
+                        but this <sch:name/> element has no textual content.</sch:assert>
+                </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </pattern>
          <optional>
             <attribute name="level">
@@ -3426,9 +3675,15 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-l-abstractModel-structure-l-in-l-constraint-report-8">
             <rule context="tei:l">
+<<<<<<< HEAD
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+=======
+               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                            test="ancestor::tei:l[not(.//tei:note//tei:l[. = current()])]">
         Abstract model violation: Lines may not contain lines or lg elements.
       </sch:report>
@@ -3448,7 +3703,11 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                   <ref name="tei_model.divTop"/>
                   <ref name="tei_model.global"/>
                </choice>
+<<<<<<< HEAD
             </zeroOrMore>
+=======
+            </zeroOrMore>      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <choice>
                <ref name="tei_model.lLike"/>
                <ref name="tei_model.stageLike"/>
@@ -3467,7 +3726,11 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                </choice>
             </zeroOrMore>
             <zeroOrMore>
+<<<<<<< HEAD
                <group>
+=======
+               <group>        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                   <ref name="tei_model.divBottom"/>
                   <zeroOrMore>
                      <ref name="tei_model.global"/>
@@ -3478,9 +3741,15 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-lg-atleast1oflggapl-constraint-assert-9">
             <rule context="tei:lg">
+<<<<<<< HEAD
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+=======
+               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                            test="count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) &gt; 0">An lg element
         must contain at least one child l, lg, or gap element.</sch:assert>
             </rule>
@@ -3488,9 +3757,15 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-lg-abstractModel-structure-lg-in-l-constraint-report-9">
             <rule context="tei:lg">
+<<<<<<< HEAD
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+=======
+               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                            test="ancestor::tei:l[not(.//tei:note//tei:lg[. = current()])]">
         Abstract model violation: Lines may not contain line groups.
       </sch:report>
@@ -3527,6 +3802,10 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <zeroOrMore>
                <ref name="tei_model.teiHeaderPart"/>
             </zeroOrMore>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </group>
          <ref name="tei_att.global.attributes"/>
          <empty/>
@@ -3538,11 +3817,33 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <group>
             <group>
                <ref name="tei_titleStmt"/>
+<<<<<<< HEAD
                <ref name="tei_publicationStmt"/>
             </group>
             <oneOrMore>
                <ref name="tei_sourceDesc"/>
             </oneOrMore>
+=======
+        
+          
+        
+        
+          
+        
+               <ref name="tei_publicationStmt"/>
+        
+          
+        
+        
+          
+        
+            </group>
+      
+            <oneOrMore>
+               <ref name="tei_sourceDesc"/>
+            </oneOrMore>
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </group>
          <ref name="tei_att.global.attributes"/>
          <empty/>
@@ -3567,6 +3868,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <element name="publicationStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]</a:documentation>
          <choice>
+<<<<<<< HEAD
             <oneOrMore>
                <group>
                   <ref name="tei_model.publicationStmtPart.agency"/>
@@ -3578,6 +3880,27 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <oneOrMore>
                <ref name="tei_model.pLike"/>
             </oneOrMore>
+=======
+      
+	           <oneOrMore>
+               <group>
+	  
+	                 <ref name="tei_model.publicationStmtPart.agency"/>
+	  
+	  
+	                 <zeroOrMore>
+                     <ref name="tei_model.publicationStmtPart.detail"/>
+                  </zeroOrMore>
+	  
+	              </group>
+            </oneOrMore>
+      
+      
+	           <oneOrMore>
+               <ref name="tei_model.pLike"/>
+            </oneOrMore>
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </choice>
          <ref name="tei_att.global.attributes"/>
          <empty/>
@@ -3623,9 +3946,17 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <oneOrMore>
                <ref name="tei_model.pLike"/>
             </oneOrMore>
+<<<<<<< HEAD
             <oneOrMore>
                <ref name="tei_cRefPattern"/>
             </oneOrMore>
+=======
+      
+            <oneOrMore>
+               <ref name="tei_cRefPattern"/>
+            </oneOrMore>
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </choice>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declarable.attributes"/>
@@ -3657,12 +3988,25 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <element name="langUsage">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. [2.4.2. Language Usage 2.4. The Profile Description 15.3.2. Declarable Elements]</a:documentation>
          <choice>
+<<<<<<< HEAD
             <oneOrMore>
                <ref name="tei_model.pLike"/>
             </oneOrMore>
             <oneOrMore>
                <ref name="tei_language"/>
             </oneOrMore>
+=======
+        
+            <oneOrMore>
+               <ref name="tei_model.pLike"/>
+            </oneOrMore>
+         
+          
+            <oneOrMore>
+               <ref name="tei_language"/>
+            </oneOrMore>
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </choice>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declarable.attributes"/>
@@ -3713,6 +4057,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                </oneOrMore>
             </choice>
          </group>
+<<<<<<< HEAD
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -3741,6 +4086,36 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+=======
+         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 prefix="tei"
+                 uri="http://www.tei-c.org/ns/1.0"/>
+         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 prefix="xs"
+                 uri="http://www.w3.org/2001/XMLSchema"/>
+         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 prefix="rng"
+                 uri="http://relaxng.org/ns/structure/1.0"/>
+         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 prefix="rna"
+                 uri="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 prefix="sch"
+                 uri="http://purl.oclc.org/dsdl/schematron"/>
+         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                  prefix="sch1x"
                  uri="http://www.ascc.net/xml/schematron"/>
          <ref name="tei_att.global.attributes"/>
@@ -3766,13 +4141,18 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <optional>
                <group>
                   <ref name="tei_front"/>
+<<<<<<< HEAD
                   <zeroOrMore>
+=======
+	                 <zeroOrMore>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                      <ref name="tei_model.global"/>
                   </zeroOrMore>
                </group>
             </optional>
             <choice>
                <ref name="tei_body"/>
+<<<<<<< HEAD
             </choice>
             <zeroOrMore>
                <ref name="tei_model.global"/>
@@ -3785,6 +4165,17 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                   </zeroOrMore>
                </group>
             </optional>
+=======
+        
+            </choice>
+      
+      
+        
+	           <zeroOrMore>
+               <ref name="tei_model.global"/>
+            </zeroOrMore>
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </group>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
@@ -3797,9 +4188,17 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <element name="body">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</a:documentation>
          <group>
+<<<<<<< HEAD
             <zeroOrMore>
                <ref name="tei_model.global"/>
             </zeroOrMore>
+=======
+            
+            <zeroOrMore>
+               <ref name="tei_model.global"/>
+            </zeroOrMore>
+            
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <optional>
                <group>
                   <ref name="tei_model.divTop"/>
@@ -3808,9 +4207,16 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                         <ref name="tei_model.global"/>
                         <ref name="tei_model.divTop"/>
                      </choice>
+<<<<<<< HEAD
                   </zeroOrMore>
                </group>
             </optional>
+=======
+                  </zeroOrMore>          
+               </group>
+            </optional>
+            
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <optional>
                <group>
                   <ref name="tei_model.divGenLike"/>
@@ -3819,10 +4225,19 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                         <ref name="tei_model.global"/>
                         <ref name="tei_model.divGenLike"/>
                      </choice>
+<<<<<<< HEAD
                   </zeroOrMore>
                </group>
             </optional>
             <choice>
+=======
+                  </zeroOrMore>          
+               </group>
+            </optional>
+      
+            <choice>
+                  
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                <oneOrMore>
                   <group>
                      <ref name="tei_model.divLike"/>
@@ -3834,6 +4249,10 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                      </zeroOrMore>
                   </group>
                </oneOrMore>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                <oneOrMore>
                   <group>
                      <ref name="tei_model.div1Like"/>
@@ -3845,10 +4264,18 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                      </zeroOrMore>
                   </group>
                </oneOrMore>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                <group>
                   <oneOrMore>
                      <group>
                         <choice>
+<<<<<<< HEAD
+=======
+              
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                            <ref name="tei_model.common"/>
                         </choice>
                         <zeroOrMore>
@@ -3858,6 +4285,10 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                   </oneOrMore>
                   <optional>
                      <choice>
+<<<<<<< HEAD
+=======
+            
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                         <oneOrMore>
                            <group>
                               <ref name="tei_model.divLike"/>
@@ -3869,6 +4300,10 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                               </zeroOrMore>
                            </group>
                         </oneOrMore>
+<<<<<<< HEAD
+=======
+            
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                         <oneOrMore>
                            <group>
                               <ref name="tei_model.div1Like"/>
@@ -3884,6 +4319,11 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                   </optional>
                </group>
             </choice>
+<<<<<<< HEAD
+=======
+      
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <zeroOrMore>
                <group>
                   <ref name="tei_model.divBottom"/>
@@ -3902,6 +4342,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <element name="floatingText">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(floating text) contains a single text of any kind, whether unitary or composite, which interrupts the text containing it at any point and after which the surrounding text resumes. [4.3.2. Floating Texts]</a:documentation>
          <group>
+<<<<<<< HEAD
             <zeroOrMore>
                <ref name="tei_model.global"/>
             </zeroOrMore>
@@ -3911,10 +4352,26 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                   <zeroOrMore>
                      <ref name="tei_model.global"/>
                   </zeroOrMore>
+=======
+      
+            <zeroOrMore>
+               <ref name="tei_model.global"/>
+            </zeroOrMore>
+      
+            <optional>
+               <group>
+                  <ref name="tei_front"/>
+        
+                  <zeroOrMore>
+                     <ref name="tei_model.global"/>
+                  </zeroOrMore>
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                </group>
             </optional>
             <choice>
                <ref name="tei_body"/>
+<<<<<<< HEAD
             </choice>
             <zeroOrMore>
                <ref name="tei_model.global"/>
@@ -3927,6 +4384,21 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                   </zeroOrMore>
                </group>
             </optional>
+=======
+        
+            </choice>
+      
+        
+      
+      
+        
+        
+            <zeroOrMore>
+               <ref name="tei_model.global"/>
+            </zeroOrMore>
+        
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </group>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
@@ -3941,6 +4413,10 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
             <zeroOrMore>
                <choice>
                   <ref name="tei_model.divTop"/>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                   <ref name="tei_model.global"/>
                </choice>
             </zeroOrMore>
@@ -3962,6 +4438,10 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                         <oneOrMore>
                            <group>
                               <choice>
+<<<<<<< HEAD
+=======
+                
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                                  <ref name="tei_model.common"/>
                               </choice>
                               <zeroOrMore>
@@ -3996,9 +4476,15 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-div-abstractModel-structure-div-in-l-or-lg-constraint-report-10">
             <rule context="tei:div">
+<<<<<<< HEAD
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+=======
+               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                            test="(ancestor::tei:l or ancestor::tei:lg) and not(ancestor::tei:floatingText)">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
       </sch:report>
@@ -4007,9 +4493,15 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-div-abstractModel-structure-div-in-ab-or-p-constraint-report-11">
             <rule context="tei:div">
+<<<<<<< HEAD
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+=======
+               <sch:report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                            test="(ancestor::tei:p or ancestor::tei:ab) and not(ancestor::tei:floatingText)">
         Abstract model violation: p and ab may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
       </sch:report>
@@ -4028,6 +4520,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a closing title or footer appearing at the end of a division of a text. [4.2.4. Content of Textual Divisions 4.2. Elements Common to All Divisions]</a:documentation>
          <zeroOrMore>
             <choice>
+<<<<<<< HEAD
                <text/>
                <ref name="tei_lg"/>
                <ref name="tei_model.gLike"/>
@@ -4035,6 +4528,15 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                <ref name="tei_model.inter"/>
                <ref name="tei_model.lLike"/>
                <ref name="tei_model.global"/>
+=======
+	              <text/>
+	              <ref name="tei_lg"/>
+	              <ref name="tei_model.gLike"/>
+	              <ref name="tei_model.phrase"/>
+	              <ref name="tei_model.inter"/>
+	              <ref name="tei_model.lLike"/>
+	              <ref name="tei_model.global"/>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             </choice>
          </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
@@ -4052,7 +4554,11 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                <text/>
                <ref name="tei_model.gLike"/>
                <ref name="tei_model.phrase"/>
+<<<<<<< HEAD
                <ref name="tei_docAuthor"/>
+=======
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                <ref name="tei_model.global"/>
             </choice>
          </zeroOrMore>
@@ -4069,6 +4575,10 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                <ref name="tei_model.gLike"/>
                <ref name="tei_model.phrase"/>
                <ref name="tei_model.global"/>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             </choice>
          </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
@@ -4079,18 +4589,36 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
       <element name="argument">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(argument) contains a formal list or prose description of the topics addressed by a subdivision of a text. [4.2. Elements Common to All Divisions 4.6. Title Pages]</a:documentation>
          <group>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <zeroOrMore>
                <choice>
                   <ref name="tei_model.global"/>
                   <ref name="tei_model.headLike"/>
                </choice>
             </zeroOrMore>
+<<<<<<< HEAD
             <oneOrMore>
                <group>
                   <ref name="tei_model.common"/>
                   <zeroOrMore>
                      <ref name="tei_model.global"/>
                   </zeroOrMore>
+=======
+      
+            <oneOrMore>
+               <group>
+        
+                  <ref name="tei_model.common"/>
+        
+        
+                  <zeroOrMore>
+                     <ref name="tei_model.global"/>
+                  </zeroOrMore>
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                </group>
             </oneOrMore>
          </group>
@@ -4098,6 +4626,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <empty/>
       </element>
    </define>
+<<<<<<< HEAD
    <define name="tei_epigraph">
       <element name="epigraph">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(epigraph) contains a quotation, anonymous or attributed, appearing at the start or end of a section or on a title page. [4.2.3. Arguments, Epigraphs, and Postscripts 4.2. Elements Common to All Divisions 4.6. Title Pages]</a:documentation>
@@ -4111,6 +4640,8 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <empty/>
       </element>
    </define>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    <define name="tei_opener">
       <element name="opener">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(opener) groups together dateline, byline, salutation, and similar phrases appearing as a preliminary group at the start of a division, especially of a letter. [4.2. Elements Common to All Divisions]</a:documentation>
@@ -4119,10 +4650,18 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                <text/>
                <ref name="tei_model.gLike"/>
                <ref name="tei_model.phrase"/>
+<<<<<<< HEAD
                <ref name="tei_argument"/>
                <ref name="tei_byline"/>
                <ref name="tei_dateline"/>
                <ref name="tei_epigraph"/>
+=======
+        
+               <ref name="tei_argument"/>
+               <ref name="tei_byline"/>
+               <ref name="tei_dateline"/>
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                <ref name="tei_salute"/>
                <ref name="tei_signed"/>
                <ref name="tei_model.global"/>
@@ -4170,6 +4709,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <empty/>
       </element>
    </define>
+<<<<<<< HEAD
    <define name="tei_titlePage">
       <element name="titlePage">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title page) contains the title page of a text, appearing within the front or back matter. [4.6. Title Pages]</a:documentation>
@@ -4268,10 +4808,16 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <empty/>
       </element>
    </define>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    <define name="tei_front">
       <element name="front">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(front matter) contains any prefatory matter (headers, abstracts, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. [4.6. Title Pages 4. Default Text Structure]</a:documentation>
          <group>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <zeroOrMore>
                <choice>
                   <ref name="tei_model.frontPart"/>
@@ -4283,6 +4829,10 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
             <optional>
                <group>
                   <choice>
+<<<<<<< HEAD
+=======
+          
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                      <group>
                         <ref name="tei_model.div1Like"/>
                         <zeroOrMore>
@@ -4293,6 +4843,10 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                            </choice>
                         </zeroOrMore>
                      </group>
+<<<<<<< HEAD
+=======
+          
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                      <group>
                         <ref name="tei_model.divLike"/>
                         <zeroOrMore>
@@ -4304,6 +4858,10 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                         </zeroOrMore>
                      </group>
                   </choice>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                   <optional>
                      <group>
                         <ref name="tei_model.divBottom"/>
@@ -4323,6 +4881,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <empty/>
       </element>
    </define>
+<<<<<<< HEAD
    <define name="tei_back">
       <element name="back">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]</a:documentation>
@@ -4377,6 +4936,8 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <empty/>
       </element>
    </define>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    <define name="tei_att.datable.custom.attributes">
       <ref name="tei_att.datable.custom.attribute.when-custom"/>
       <ref name="tei_att.datable.custom.attribute.notBefore-custom"/>
@@ -4480,7 +5041,10 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       <choice>
          <ref name="tei_surname"/>
          <ref name="tei_forename"/>
+<<<<<<< HEAD
          <ref name="tei_addName"/>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_roleName"/>
       </choice>
    </define>
@@ -4488,14 +5052,20 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       <choice>
          <ref name="tei_surname"/>
          <ref name="tei_forename"/>
+<<<<<<< HEAD
          <ref name="tei_addName"/>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_roleName"/>
       </choice>
    </define>
    <define name="tei_model.persNamePart_sequence">
       <ref name="tei_surname"/>
       <ref name="tei_forename"/>
+<<<<<<< HEAD
       <ref name="tei_addName"/>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
       <ref name="tei_roleName"/>
    </define>
    <define name="tei_model.persNamePart_sequenceOptional">
@@ -4506,9 +5076,12 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <ref name="tei_forename"/>
       </optional>
       <optional>
+<<<<<<< HEAD
          <ref name="tei_addName"/>
       </optional>
       <optional>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_roleName"/>
       </optional>
    </define>
@@ -4520,9 +5093,12 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <ref name="tei_forename"/>
       </zeroOrMore>
       <zeroOrMore>
+<<<<<<< HEAD
          <ref name="tei_addName"/>
       </zeroOrMore>
       <zeroOrMore>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_roleName"/>
       </zeroOrMore>
    </define>
@@ -4534,9 +5110,12 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <ref name="tei_forename"/>
       </oneOrMore>
       <oneOrMore>
+<<<<<<< HEAD
          <ref name="tei_addName"/>
       </oneOrMore>
       <oneOrMore>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          <ref name="tei_roleName"/>
       </oneOrMore>
    </define>
@@ -4670,6 +5249,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-orgName-calendar-calendar-check-orgName-constraint-rule-13">
+<<<<<<< HEAD
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -4679,6 +5259,17 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                         systems or calendars to which the date represented by the content of this element belongs,
                         but this <sch:name/> element has no textual content.</sch:assert>
             </sch:rule>
+=======
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:*[@calendar]">
+                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+                        systems or calendars to which the date represented by the content of this element belongs,
+                        but this <sch:name/> element has no textual content.</sch:assert>
+                </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </pattern>
          <empty/>
       </element>
@@ -4706,6 +5297,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-persName-calendar-calendar-check-persName-constraint-rule-14">
+<<<<<<< HEAD
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -4715,6 +5307,17 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                         systems or calendars to which the date represented by the content of this element belongs,
                         but this <sch:name/> element has no textual content.</sch:assert>
             </sch:rule>
+=======
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:*[@calendar]">
+                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+                        systems or calendars to which the date represented by the content of this element belongs,
+                        but this <sch:name/> element has no textual content.</sch:assert>
+                </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </pattern>
          <empty/>
       </element>
@@ -4739,6 +5342,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <empty/>
       </element>
    </define>
+<<<<<<< HEAD
    <define name="tei_addName">
       <element name="addName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]</a:documentation>
@@ -4749,6 +5353,8 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <empty/>
       </element>
    </define>
+=======
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
    <define name="tei_roleName">
       <element name="roleName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]</a:documentation>
@@ -4782,6 +5388,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-placeName-calendar-calendar-check-placeName-constraint-rule-15">
+<<<<<<< HEAD
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -4791,6 +5398,17 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                         systems or calendars to which the date represented by the content of this element belongs,
                         but this <sch:name/> element has no textual content.</sch:assert>
             </sch:rule>
+=======
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:*[@calendar]">
+                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+                        systems or calendars to which the date represented by the content of this element belongs,
+                        but this <sch:name/> element has no textual content.</sch:assert>
+                </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </pattern>
          <empty/>
       </element>
@@ -4818,6 +5436,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="perseus_holinshed-geogName-calendar-calendar-check-geogName-constraint-rule-16">
+<<<<<<< HEAD
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -4827,6 +5446,17 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                         systems or calendars to which the date represented by the content of this element belongs,
                         but this <sch:name/> element has no textual content.</sch:assert>
             </sch:rule>
+=======
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:*[@calendar]">
+                    <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
+                        systems or calendars to which the date represented by the content of this element belongs,
+                        but this <sch:name/> element has no textual content.</sch:assert>
+                </sch:rule>
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
          </pattern>
          <empty/>
       </element>
@@ -5006,36 +5636,74 @@ Suggested values include: 1] label; 2] data</a:documentation>
       <element name="table">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(table) contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]</a:documentation>
          <group>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <zeroOrMore>
                <choice>
                   <ref name="tei_model.headLike"/>
                   <ref name="tei_model.global"/>
                </choice>
             </zeroOrMore>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
             <choice>
                <oneOrMore>
                   <group>
                      <ref name="tei_row"/>
+<<<<<<< HEAD
                      <zeroOrMore>
                         <ref name="tei_model.global"/>
                      </zeroOrMore>
+=======
+          
+                     <zeroOrMore>
+                        <ref name="tei_model.global"/>
+                     </zeroOrMore>
+          
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                   </group>
                </oneOrMore>
                <oneOrMore>
                   <group>
+<<<<<<< HEAD
                      <ref name="tei_model.graphicLike"/>
                      <zeroOrMore>
                         <ref name="tei_model.global"/>
                      </zeroOrMore>
+=======
+          
+                     <ref name="tei_model.graphicLike"/>
+          
+          
+                     <zeroOrMore>
+                        <ref name="tei_model.global"/>
+                     </zeroOrMore>
+          
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                   </group>
                </oneOrMore>
             </choice>
             <zeroOrMore>
                <group>
+<<<<<<< HEAD
                   <ref name="tei_model.divBottom"/>
                   <zeroOrMore>
                      <ref name="tei_model.global"/>
                   </zeroOrMore>
+=======
+        
+                  <ref name="tei_model.divBottom"/>
+        
+        
+                  <zeroOrMore>
+                     <ref name="tei_model.global"/>
+                  </zeroOrMore>
+        
+>>>>>>> b91a639 (all holinshed volumes passed through schema updater)
                </group>
             </zeroOrMore>
          </group>

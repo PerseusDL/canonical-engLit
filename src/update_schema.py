@@ -52,9 +52,14 @@ def convert_entities(line):
     line = re.sub('&szlig;', u"\u00DF", line)
 
     line = re.sub('&sect;', u"\u00A7", line)
+
     line = line.replace('&mdash;', u"\u2014")
+    line = line.replace('&ndash;', u"\u2013")
     line = line.replace('&lsquo;', u"\u2018")
+    line = line.replace('&ldquo;', u"\u201C")
     line = line.replace('&rsquo;', u"\u2019")
+    line = line.replace('&rdquo;', u"\u201D")
+
     line = line.replace('&para;', u"\u00B6")
     line = line.replace('&nbsp;', ' ')
 
@@ -62,6 +67,7 @@ def convert_entities(line):
     line = line.replace('&ntilde;', u"\u00F1")
     line = line.replace('&otilde;', u"\u00F5")
     line = line.replace('&utilde;', u"\u0169")
+
 
     line = line.replace('&mdash;', u"\u2014")
     line = line.replace('&ndash;', u"\u2013")
@@ -84,6 +90,7 @@ def convert_entities(line):
     line = line.replace('&ecaron;', u"\u011B")
 
     line = line.replace('&dagger;', u"\u2020")
+
 
     line = line.replace('&thorn;', u"\u00FE")
 

@@ -1,0 +1,380 @@
+* Old Structure and 1587 Volumes
+In old Perseus, we divided the texts strangely, not following the
+volumes of the 1587 edition.  Why?
+
+I am finding
+https://web.archive.org/web/20150906124136/http://www.english.ox.ac.uk/holinshed/toc.php?edition=1587#vol-1587_3,
+the old Holinshed Project, to be very useful.
+
+
+* Structure of the 1587 Edition from holinshed project
+- Volume 1 :: An Historicall description of the Iland of Britaine,
+  with a briefe rehersall of the nature and qualities of the people of
+  England and such commodities as are to be found in the
+  same. Comprehended in three bookes, and written by W. H.
+- Volume 2 ::
+
+* Structure from volumes downloaded from HathiTrust
+
+** Volume 1
+ - Volume 1
+   - Advertisement
+   - The Epistle Dedicatorie
+   - The Authors Names
+   - Regum Angliae
+     - Series and Catalogus
+   - Carmen Chronologicon
+     - Thomae Newtoni Cestreshyrij
+
+   - An Historical Description of the Island of Britaine
+     - First Book (No heading)
+       - Table of Chapters
+       - Chapter I.
+       - Cap . II.
+       - Cap. III.
+       - Cap. IV.
+       - Cap. V.
+       - Cap. VI.
+       - Cap. VII.
+       - NB: there is no Chapter 8, but there is a Catalog of
+         kings and princes, printed in 4 columns over 3 pages
+       - Cap. IX.
+       - Cap. X.
+       - Cap. XI.
+       - Chap. XII.
+       - Chap. XIII.
+       - Chap. XIV.
+       - Chap. XV.
+       - Chap. XVI.
+       - Chap. XVII.
+       - Chap. XVIII.
+       - Cap. IX.
+       - Chap. XX.
+       - Cap. XXI.
+       - Chap. XXII.
+       - Chap. XXIII.
+       - Chap. XXIV.
+     - Second Booke
+       - Table of Contents
+       - Chap. I.
+       - Chap. II.
+       - Chap. III.
+       - Chap. IV.
+       - Chap. V.
+       - Chap. VI.
+       - Chap. VII.
+       - NB again, no Chapter 8, but a two-column table of counties,
+         cities, boroughs, and ports
+       - Chap. IX.
+       - Chap. X.
+       - Chap. XI.
+       - Chap. XII.
+       - Cap. XIII.
+       - Chap. XIV.
+       - Chap. XV.
+       - Chap. XVI.
+       - Chap. XVII.
+       - Chap. XVIII.
+       - Chap. XIX. Of Parks and Warrens
+       - Chap. XIX. Of Gardens and Orchards [should be headed Chap. XX]
+       - Chap. XXI.
+       - Chap. XXII.
+       - Chap. XXIII.
+       - Chap. XXIV.
+       - Chap. XXV.
+     - The Third Booke
+       - table of contents
+       - Chap. I.
+       - Chap. II.
+       - Chap. III.
+       - Chap. IV.
+       - Chap. V.
+       - Chap. VI.
+       - Chap. VII.
+       - Chap. VIII.
+       - Chap. IX.
+       - Chap. X.
+       - Chap. XI.
+       - Chap. XII.
+       - Chap. XIII.
+       - Chap. XIV.
+       - Chap. XV.
+       - Chap. XVI.
+       - Iter Britanniarum a Gessoriaco
+
+   - The Historie of England from the time that it was first inhabited...
+     - To Readers Studious in Histories
+     - The First Booke of the Historie of England
+       - The First Chapter
+       - The Second Chapter
+         - An Appendix to the Former Chapter
+       - The Third Chapter
+     - The Second Booke of the Historie of England
+       - The First Chapter
+       - The Second Chapter
+       - The Third Chapter
+       - The Fourth Chapter
+       - The Fift Chapter
+       - The Sixt Chapter
+       - The Seuenth Chapter
+     - The Third Booke of the Historie of England
+       - The First Chapter
+       - The Second Chapter
+       - The Third Chapter
+       - The Fourth Chapter
+       - The Fift Chapter
+       - The Sixt Chapter
+       - The Seuenth Chapter
+       - The Eight Chapter
+       - The Ninth Chapter
+       - The Tenth Chapter
+       - The Eleuenth Chapter
+       - The Twelfe Chapter
+       - The XIIJ Chapter
+       - The XIIIJ Chapter
+       - The XV Chapter
+       - The XVJ Chapter
+       - The XVIJ Chapter
+       - The XVIIJ Chapter
+       - The XIX Chapter
+     - The Fovrth Booke of the Historie of England
+       - The First Chapter
+       - The Second Chapter
+       - The Third Chapter
+       - The Fourth Chapter
+       - The Fift Chapter
+       - The Sixt Chapter
+       - The Seuenth Chapter
+       - The Eight Chapter
+       - The Ninth Chapter
+       - The Tenth Chapter
+       - The Eleuenth Chapter
+       - The Twelfe Chapter
+       - The XIIJ Chapter
+       - The XIIIJ Chapter
+       - The XV Chapter
+       - The 16 Chapter
+       - The XVIJ Chapter
+       - The XVIIJ Chapter
+       - The 19 Chapter
+       - The XX Chapter
+       - The XXJ Chapter
+       - The XXIJ Chapter
+       - The XXIIJ Chapter
+       - The XXIIIJ Chapter
+       - The XXV Chapter
+       - The XXVJ Chapter
+       - The XXVIJ Chapter
+       - The XXVIIJ Chapter
+       - The XXIX Chapter
+       - The XXX Chapter
+       - The XXXJ Chapter
+       - The XXXIJ Chapter
+       - The XXXIIJ Chapter
+       - The XXXIIIJ Chapter
+       - The XXXV Chapter
+     - The Fift Booke of the Historie of England
+       - The First Chapter
+       - The Second Chapter
+       - The Third Chapter
+       - The Fourth Chapter
+       - The Fift Chapter
+       - The VJ Chapter
+       - The Seuenth Chapter
+       - The Eight Chapter
+       - The Ninth Chapter
+       - The Tenth Chapter
+       - The Eleuenth Chapter
+       - The Twelfe Chapter
+       - The XIIJ Chapter
+       - The XIIIJ Chapter
+       - The XV Chapter
+       - The XVJ Chapter
+       - The XVIJ Chapter
+       - The XVIIJ Chapter
+       - The XIX Chapter
+       - The XX Chapter
+       - The XXJ Chapter
+       - The XXIJ Chapter
+       - The XXIIJ Chapter
+       - The XXIIIJ Chapter
+       - The XXV Chapter
+       - The XXVJ Chapter
+       - The XXVIJ Chapter
+       - The XXVIIJ Chapter
+       - The XXIX Chapter
+       - The XXX Chapter
+       - The XXXJ Chapter
+       - The XXXIJ Chapter
+       - The XXXIIJ Chapter
+       - The XXXIIIJ Chapter
+       - The XXXV Chapter
+       - The XXXVJ Chapter
+       - The XXXVIJ Chapter
+     - The Sixt Booke of the Historie of England
+       - The First Chapter
+       - The Second Chapter
+       - The Third Chapter
+       - The Fourth Chapter
+       - The Fift Chapter
+       - The Sixt Chapter
+       - The Seuenth Chapter
+       - The Eight Chapter
+       - The Ninth Chapter
+       - The Tenth Chapter
+       - The Eleuenth Chapter
+       - The Twelft Chapter
+       - The XIIJ Chapter
+       - The XIIIJ Chapter
+       - The XV Chapter
+       - The XVJ Chapter
+       - The XVIJ Chapter
+       - The XVIIJ Chapter
+       - The XIX Chapter
+       - The XX Chapter
+       - The XXJ Chapter
+       - The XXIJ Chapter
+       - The XXIIJ Chapter
+       - The XXIIIJ Chapter
+       - The XXV Chapter
+     - The Seventh Boke of the Historie of England
+       - The First Chapter
+       - The Second Chapter
+       - The Third Chapter
+       - The Fourth Chapter
+       - The Fift Chapter
+       - The Sixt Chapter
+       - The Seuenth Chapter
+       - The Eight Chapter
+       - The Ninth Chapter
+       - The Tenth Chapter
+       - The XJ Chapter
+       - The Twelfth Chapter
+       - The XIIJ Chapter
+       - The XIIIJ Chapter
+       - The XV Chapter
+     - The Eight Booke of the Historie of England
+       - The First Chapter
+       - The Second Chapter
+       - The Third Chapter
+       - The Fourth Chapter
+       - The Fift Chapter
+       - The Sixt Chapter
+       - The Seuenth Chapter
+       - The Eight Chapter
+       - The Ninth Chapter
+       - The Tenth Chapter
+       - The Eleuenth Chapter
+       - The Twelfe Chapter
+       - Advertisement
+ - Volume 2
+   Volume 2 is organized, beyond the prefatory material,  in several ways:
+   - By King and Regnal Year
+   - By Anno Domini
+** Volume 2
+  - The Epistle Dedicatorie
+  - Preface to the Reader
+  - The Politike Conquest of William the First
+    - Catalog of Noblemen (embedded text)
+    - The Roll of Battell Abbeie (embedded text)
+  - William Rufus, or William the Red
+  - Henry the First, Yoongest Sonne to William the Conqueror
+  - Stephan Earle of Bullongne
+    - The charter of king Stephan (embedded text)
+  - Henrie the Second
+    - A letter of the king (embedded text)
+    - A breefe extract or clause of a letter from the pope (embedded text)
+    - A letter of yoong king Henrie (embedded text)
+    - The charter conteining the articles of peace (embedded text)
+    - The charter of the agreement (embedded text)
+    - The tenour of the French kings letters of protection (embedded text)
+    - A letter of Geffrey the kings base sonne (embedded text)
+    - Epitaphium in Henricum secundum (embedded text)
+    - An epitaph vpon king Henrie the second (embedded text)
+  - Richard the First
+    - The lord chancellours letter to the shiriffe of Kent (embedded text)
+    - A letter of king Richard
+    - A letter directed to the duke of Austrich (embedded text)
+    - The same in English (embedded text)
+    - The tenour of king Richards letters to the said archbishop
+      (embedded text)
+    - The tenour of the emperours letters (embedded text)
+    - The tenour of the charter concerning turnements (embedded text)
+  - Iohn the yongest sonne of Henrie the second
+    - Hubert the archbishop of Canturburies oration (embedded text)
+    - King Iohn hauing gotten this victorie (embedded text)
+    - The sawcie speech of proud Pandulph (embedded text)
+    - The charter of king Iohn (embedded text)
+    - The words of fealtie made by king Iohn to the pope (embedded text)
+    - In English thus (embedded text)
+  - Henrie the Third
+    - The earle of Penbroks short and sweet oration (embedded text)
+    - The confirmation of the charters (embedded text)
+    - The true genealogie of the earles of Chester (embedded text)
+    - Conuenit inter dominum Henricum ... & Senenain vxorem Griffini
+      (embedded text)
+    - The charter of the articles of Dauids submission to the king
+      (embedded text)
+    - The charter of Alexander king of Scotland made to Henrie the
+      third (embedded text)
+    - The same in English (embedded text)
+    - A request made to the pope (embedded text)
+    - In English thus (embedded text)
+    - The tenor of the Popes grant (embedded text)
+  - Edward the First
+    - The copie of the Charter in French (embedded text)
+    - In English thus (embedded text)
+    - The copie of the second charter, in French (embedded text)
+    - The same in English (embedded text)
+    - The forme and tenor of the homage doone by the Scots (embedded text)
+    - The copie of the writ for the deliuerie of the castels (embedded
+      text)
+    - In English thus (embedded text)
+    - The forme of the fealtie of Iohn Balioll (embedded text)
+    - The forme of the king of Scots homage (embedded text)
+    - The instrument of the said submission (embedded text)
+    - The instrument of the homages of the lords of Scotland (embedded text)
+
+    - An extract of the foresaid writ (embedded text)
+  - Edward the Second
+    - The tenour of the kings letters patents (embedded text)
+    - The tenour of the said sixt letter (embedded text)
+  - Edward the Third
+    - the articles of agreement (embedded text)
+    - A letter of W. Northbourgh (embedded text)
+    - The copie of sir Iohn Winkefields letters (embedded text)
+    - The tenor of another letter written by sir Iohn Wingfield
+      (embedded text)
+    - The meeke and comfortablre oration of the English prince
+      (embedded text)
+    - The tenor of the said prince of Wales his appeale (embedded text)
+  - Richard the Second
+    - The forme of the kings charter of Manumission (embedded text)
+    - The tenor of the said seditious preests letter (embedded text)
+    - An act of councell touching this matter (embedded text)
+    - A proclamation clearing the lords of treason (embedded text)
+    - The grant of Henrie the third (embedded text)
+    - The record by which Henrie Hastings executed the office
+      (embedded text)
+    - The order and number of clothes laied at the kings table
+      (embedded text)
+    - The record whereby dame Anne Hastings clameth (embedded text)
+    - The petition for the second sword (embedded text)
+    - The other bill exhibited for the golden spurs (embedded text)
+    - The tenor of the said dukes letter to king Richard (embedded text)
+    - The same letter in plain phrase (embedded text)
+    - Copia regiae commisssionis (embedded text)
+    - Copy of the kings commission (embedded text)
+    - The articles obiected to king Richard (embedded text)
+    - A copie of the instrument (embedded text)
+    - The tenor of the text whereby king Richard resigneth (embedded text)
+    - The publication of king Richards deposing (embedded text)
+    - The duke of Lancaster... (embedded text)
+    - The archbishop of Canturburie his oration (embedded text)
+** Volume 3
+- Henrie the Fourth
+  ...
+- Edward the Sixt
+** Volume 4
+- Marie Eldest Daughter of Henrie the Eight
+- Queene Elisabeth
