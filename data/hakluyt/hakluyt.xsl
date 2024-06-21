@@ -120,6 +120,9 @@
                 <xsl:when test="@id = 'nl'">
                     <xsl:attribute name="ident">nld</xsl:attribute>
                 </xsl:when>
+                <xsl:when test="@id = 'de'">
+                    <xsl:attribute name="ident">deu</xsl:attribute>
+                </xsl:when>
             </xsl:choose>
             <xsl:apply-templates/>
         </language>
@@ -174,6 +177,48 @@
         <forename xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:apply-templates />
         </forename>
+    </xsl:template>
+    
+    <xsl:template match="tei:name">
+        <name xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:choose>
+                <xsl:when test="@type">
+                    <xsl:attribute name="type">
+                        <xsl:value-of select="@type"/>
+                    </xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:choose>
+                <xsl:when test="@key">
+                    <xsl:attribute name="key">
+                        <xsl:value-of select="@key"/>
+                    </xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:apply-templates />
+        </name>
+    </xsl:template>
+    
+    <xsl:template match="tei:date">
+        <date xmlns="http://www.tei-c.org/ns/1.0">
+            <xsl:choose>
+                <xsl:when test="value">
+                    <xsl:attribute name="when">
+                        <xsl:value-of select="@value"/>
+                    </xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
+        </date>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref">
+        <xsl:apply-templates />
+    </xsl:template>
+    
+    <xsl:template match="tei:div5">
+        <div xmlns="http://www.tei-c.org/ns/1.0" type="narrative">
+            <xsl:apply-templates />
+        </div>
     </xsl:template>
     
 </xsl:stylesheet>
