@@ -85,12 +85,13 @@
         
         <!-- required core elements (p and title for use in titleStmt) -->
         <moduleRef key="core"
-          include="p title milestone pb rs foreign head note date ref quote q list headLabel item emph bibl biblStruct monogr lg unclear cit mentioned gloss label l hi name reg author num term gap lb cb title author imprint pubPlace publisher sp speaker speech sic"/>
-        
+
+          include="p title milestone pb rs foreign head note date ref quote q list headLabel item emph bibl lg unclear cit mentioned gloss label l hi name reg author num term gap lb cb"/>
+
         <!-- required textstructure elements (TEI, text, and body) -->
         <moduleRef key="textstructure"
-          include="TEI text body front back div opener closer argument salute signed floatingText dateline trailer byline epigraph titlePage docTitle docAuthor docEdition docImprint titlePart"/>
-        
+          include="TEI text body front back div opener closer argument salute signed floatingText dateline trailer byline epigraph titlePage docTitle docAuthor docEdition titlePart"/>
+
         <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
         <moduleRef key="tei"/>
         
