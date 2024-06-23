@@ -50,18 +50,20 @@
         </div>
     </xsl:template>
 
+
+
     <xsl:template match="tei:refsDecl">
         <refsDecl xmlns="http://www.tei-c.org/ns/1.0" n="CTS">
             <cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" 
-                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])">
+                replacementPattern="#xpath((//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2']//lb[@ed='G'])[$3]/parent::*)">
                 <p>This pointer pattern extracts act, scene, and line.</p></cRefPattern>
             
             <cRefPattern n="as" matchPattern="(\w+).(\w+)" 
-                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                replacementPattern="#xpath(//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2'])">
                 <p>This pointer pattern extracts act and scene.</p></cRefPattern>
             
             <cRefPattern n="a" matchPattern="(\w+)"
-                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                replacementPattern="#xpath(//div[@subtype='act' and @n='$1'])">
                 <p>This pointer pattern extracts act.</p>
             </cRefPattern>
         </refsDecl>
