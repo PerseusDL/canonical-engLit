@@ -23,7 +23,7 @@
     </fileDesc>
 
     <encodingDesc>
-      <refsDecl n="CTS"><cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"><p>This pointer pattern extracts act and scene and line.</p></cRefPattern><cRefPattern n="chapter" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts book and chapter.</p></cRefPattern><cRefPattern n="book" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts book.</p></cRefPattern></refsDecl>
+      <refsDecl n="CTS"><cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"><p>This pointer pattern extracts act, scene, and line.</p></cRefPattern><cRefPattern n="as" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts act and scene.</p></cRefPattern><cRefPattern n="a" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts act.</p></cRefPattern></refsDecl>
     </encodingDesc>
 
     <profileDesc>
@@ -33,7 +33,7 @@
       </langUsage>
     </profileDesc>
 
-    <revisionDesc><change><ab>converted to EpiDoc</ab></change></revisionDesc>
+    <revisionDesc><change><ab>converted to TEI P5</ab></change></revisionDesc>
   </teiHeader>
 
   <text xml:lang="eng">

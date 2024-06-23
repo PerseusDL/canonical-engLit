@@ -50,21 +50,19 @@
         </div>
     </xsl:template>
 
-
-
     <xsl:template match="tei:refsDecl">
         <refsDecl xmlns="http://www.tei-c.org/ns/1.0" n="CTS">
-            <cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)"
+            <cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" 
                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])">
-                <p>This pointer pattern extracts act and scene and line.</p>
-            </cRefPattern>
-            <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
+                <p>This pointer pattern extracts act, scene, and line.</p></cRefPattern>
+            
+            <cRefPattern n="as" matchPattern="(\w+).(\w+)" 
                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-                <p>This pointer pattern extracts book and chapter.</p>
-            </cRefPattern>
-            <cRefPattern n="book" matchPattern="(\w+)"
+                <p>This pointer pattern extracts act and scene.</p></cRefPattern>
+            
+            <cRefPattern n="a" matchPattern="(\w+)"
                 replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-                <p>This pointer pattern extracts book.</p>
+                <p>This pointer pattern extracts act.</p>
             </cRefPattern>
         </refsDecl>
     </xsl:template>
@@ -72,7 +70,7 @@
     <xsl:template match="tei:revisionDesc">
         <revisionDesc xmlns="http://www.tei-c.org/ns/1.0">
             <change>
-                <ab>converted to EpiDoc</ab>
+                <ab>converted to TEI P5</ab>
             </change>
         </revisionDesc>
     </xsl:template>
@@ -89,32 +87,6 @@
             <xsl:apply-templates/>
         </foreign>
     </xsl:template>
-
-    <!--   
-    <xsl:template match="tei:castList|tei:castGroup">
-        <listPerson xmlns="http://www.tei-c.org/ns/1.0">
-            <xsl:apply-templates></xsl:apply-templates>
-        </listPerson>
-    </xsl:template>
-    
-    <xsl:template match="tei:castItem">
-        <person xmlns="http://www.tei-c.org/ns/1.0">
-            
-            <xsl:attribute name="xml:id">
-                <xsl:value-of select="tei:role/@id"/>
-            </xsl:attribute>
-            
-            <xsl:apply-templates />
-        </person>
-    </xsl:template>
-
-    <xsl:template match="tei:roleDesc">
-        <note xmlns="http://www.tei-c.org/ns/1.0">
-            <xsl:apply-templates />
-        </note>
-    </xsl:template>
- -->
-
 
     <xsl:template match="tei:role">
         <role xmlns="http://www.tei-c.org/ns/1.0">
