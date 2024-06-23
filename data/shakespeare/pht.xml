@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>The Phoenix and the Turtle</title>
+        <author>William Shakespeare</author>
+        <editor>W. G. Clark</editor>
+        <editor>W. Aldis Wright</editor>   </titleStmt>
+      <publicationStmt><p part="N">later</p></publicationStmt> <sourceDesc default="false">
+        <biblStruct default="false" status="draft">
+          <monogr>
+            <author>William Shakespeare</author>
+            <editor>W. G. Clark</editor>
+            <editor>W. Aldis Wright</editor>
+            <title>The Globe Shakespeare</title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <publisher>Nelson Doubleday, Inc.</publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <refsDecl n="CTS"><cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"><p>This pointer pattern extracts act and scene and line.</p></cRefPattern><cRefPattern n="chapter" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"><p>This pointer pattern extracts book and chapter.</p></cRefPattern><cRefPattern n="book" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"><p>This pointer pattern extracts book.</p></cRefPattern></refsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage default="false">
+        <tei:language xmlns:tei="http://www.tei-c.org/ns/1.0" ident="eng"> English </tei:language>
+      </langUsage>
+    </profileDesc>
+
+    <revisionDesc><change><ab>converted to EpiDoc</ab></change></revisionDesc>
+  </teiHeader>
+
+  <text xml:lang="eng">
+    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+      <div type="textpart" subtype="section" n="1">
+        <head>THE PHOENIX AND THE TURTLE</head>
+        <lg n="1" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">LET the bird of loudest lay,</l>
+          <l part="N">On the sole Arabian tree,</l>
+          <l part="N">Herald sad and trumpet be,</l>
+          <l part="N">To whose sound chaste wings obey.</l>
+        </lg>
+        <lg n="2" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">But thou shrieking harbinger,</l>
+          <l part="N">Foul precurrer of the fiend,</l>
+          <l part="N">Augur of the fever's end,</l>
+          <l part="N">To this troop come thou not near!</l>
+        </lg>
+        <lg n="3" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">From this session interdict</l>
+          <l n="10" part="N">Every fowl of tyrant wing,</l>
+          <l part="N">Save the eagle, feather'd king:</l>
+          <l part="N">Keep the obsequy so strict.</l>
+        </lg>
+        <lg n="4" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Let the priest in surplice white,</l>
+          <l part="N">That defunctive music can,</l>
+          <l part="N">Be the death-divining swan,</l>
+          <l part="N">Lest the requiem lack his right.</l>
+        </lg>
+        <lg n="5" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">And thou treble-dated crow,</l>
+          <l part="N">That thy sable gender makest</l>
+          <l part="N">With the breath thou givest and takest,</l>
+          <l n="20" part="N">'Mongst our mourners shalt thou go.</l>
+        </lg>
+        <lg n="6" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Here the anthem doth commence:</l>
+          <l part="N">Love and Constancy is dead;</l>
+          <l part="N">Phoenix and the turtle fled</l>
+          <l part="N">In a mutual flame from hence.</l>
+        </lg>
+        <lg n="7" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">So they lov'd, as love in twain</l>
+          <l part="N">Had the essence but in one;</l>
+          <l part="N">Two distincts, division none:</l>
+          <l part="N">Number there in love was slain.</l>
+        </lg>
+        <lg n="8" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Hearts remote, yet not asunder;</l>
+          <l n="30" part="N">Distance, and no space was seen</l>
+          <l part="N">'Twixt the turtle and his queen:</l>
+          <l part="N">But in them it were a wonder.</l>
+        </lg>
+        <lg n="9" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">So between them love did shine,</l>
+          <l part="N">That the turtle saw his right</l>
+          <l part="N">Flaming in the phoenix' sight;</l>
+          <l part="N">Either was the other's mine.</l>
+        </lg>
+        <lg n="10" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Property was thus appalled,</l>
+          <l part="N">That the self was not the same;</l>
+          <l part="N">Single nature's double name</l>
+          <l n="40" part="N">Neither two nor one was called.</l>
+        </lg>
+        <lg n="11" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Reason, in itself confounded,</l>
+          <l part="N">Saw division grow together,</l>
+          <l part="N">To themselves yet either neither,</l>
+          <l part="N">Simple were so well compounded,</l>
+        </lg>
+        <lg n="12" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">That it cried, How true a twain</l>
+          <l part="N">Seemeth this concordant one!</l>
+          <l part="N">Love hath reason, reason none,</l>
+          <l part="N">If what parts can so remain.</l>
+        </lg>
+        <lg n="13" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Whereupon it made this threne</l>
+          <l n="50" part="N">To the phoenix and the dove,</l>
+          <l part="N">Co-supremes and stars of love,</l>
+          <l part="N">As chorus to their tragic scene.</l>
+        </lg>
+      </div>
+
+      <div type="textpart" subtype="section" n="2">
+        <head>THRENOS</head>
+        <lg n="14" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Beauty, truth, and rarity,</l>
+          <l part="N">Grace in all simplicity,</l>
+          <l part="N">Here enclosed in cinders lie.</l>
+        </lg>
+        <lg n="15" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Death is now the phoenix' nest;</l>
+          <l part="N">And the turtle's loyal breast</l>
+          <l part="N">To eternity doth rest,</l>
+        </lg>
+        <lg n="16" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Leaving no posterity:</l>
+          <l n="60" part="N">'T was not their infirmity,</l>
+          <l part="N">It was married chastity.</l>
+        </lg>
+        <lg n="17" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">Truth may seem, but cannot be:</l>
+          <l part="N">Beauty brag, but 'tis not she;</l>
+          <l part="N">Truth and beauty buried be.</l>
+        </lg>
+        <lg n="18" type="stanza" part="N" org="uniform" sample="complete">
+          <l part="N">To this urn let those repair</l>
+          <l part="N">That are either true or fair;</l>
+          <l part="N">For these dead birds sigh a prayer.</l>
+        </lg>
+      </div>
+    </div></body>
+  </text>
+</TEI>
