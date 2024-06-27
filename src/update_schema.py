@@ -66,6 +66,7 @@ def convert_entities(line):
     line = line.replace('&rdquo;', u"\u201D")
 
     line = line.replace('&para;', u"\u00B6")
+    line = line.replace('&par;', u"\u00B6")
     line = line.replace('&nbsp;', ' ')
 
     line = line.replace('&atilde;', u"\u00E3")
