@@ -36,7 +36,7 @@
     <state n="chunk" unit="entry"/>
    </refsDecl>
    <refsDecl doctype="tei.2">
-    <state unit="alphabetic letter"/>
+    <state unit="alpha"/>
     <state unit="entry"/>
    </refsDecl>
   </encodingDesc>
@@ -103,7 +103,7 @@
     <body>
      <div0 n="1" type="glossary" org="uniform" sample="complete">
       <pb n="1"/>
-      <div1 n="A" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="A" type="alpha" org="uniform" sample="complete">
        <head>
         <title>A</title>
        </head>
@@ -3269,7 +3269,7 @@
          <bibl> Inferno, C. xvi. 10).</bibl>
        </entryFree>
       </div1>
-      <div1 n="B" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="B" type="alpha" org="uniform" sample="complete">
        <head>
         <title>B</title>
        </head>
@@ -7789,7 +7789,7 @@
         </cit><bibl>A MIDSUMMER-NIGHT'S DREAM, iii. 1. 12.</bibl> By our
         Ladykin, by our little Lady. </entryFree>
       </div1>
-      <div1 n="C" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="C" type="alpha" org="uniform" sample="complete">
        <head>
         <title>C</title>
        </head>
@@ -15017,7 +15017,7 @@
           ed. Cunningham.</bibl>
         </cit>) </entryFree>
       </div1>
-      <div1 n="D" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="D" type="alpha" org="uniform" sample="complete">
        <head>
         <title>D</title>
        </head>
@@ -18067,7 +18067,7 @@
          , <lb/> I was not aware that Mr. Collier had already made the same
         quotation in the first edition of his <mentioned>Shakespeare</mentioned>. </entryFree>
       </div1>
-      <div1 n="E" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="E" type="alpha" org="uniform" sample="complete">
        <head>
         <title>E</title>
        </head>
@@ -19888,7 +19888,7 @@
          opt="n" extent="full">eyrie</orth>See second <mentioned>aery.</mentioned>
        </entryFree>
       </div1>
-      <div1 n="F" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="F" type="alpha" org="uniform" sample="complete">
        <head>
         <title>F</title>
        </head>
@@ -23789,7 +23789,7 @@
          n="shak. 2h4 2.1.57">2 HENRY IV, ii. 1. 57</bibl>
        </entryFree>
       </div1>
-      <div1 n="G" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="G" type="alpha" org="uniform" sample="complete">
        <head>
         <title>G</title>
        </head>
@@ -26417,7 +26417,7 @@
          <bibl n="shak. h8 5.4.20">HENRY VIII, v. 4. 20.</bibl>
         </cit>Guy of Warwick, a well-known hero of romance. </entryFree>
       </div1>
-      <div1 n="H" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="H" type="alpha" org="uniform" sample="complete">
        <head>
         <title>H</title>
        </head>
@@ -29058,7 +29058,7 @@
          <bibl n="shak. mac 3.4.101">MACBETH, iii. 4. 101</bibl>
         </cit>. </entryFree>
       </div1>
-      <div1 n="I" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="I" type="alpha" org="uniform" sample="complete">
        <head>
         <title>I</title>
        </head>
@@ -30708,7 +30708,7 @@
         Fancies</title>, where we have the spelling <quote>"I <mentioned>wisse.</mentioned>"</quote>
        </entryFree>
       </div1>
-      <div1 n="J" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="J" type="alpha" org="uniform" sample="complete">
        <head>
         <title>J</title>
        </head>
@@ -31345,7 +31345,7 @@
          18</bibl>
        </entryFree>
       </div1>
-      <div1 n="K" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="K" type="alpha" org="uniform" sample="complete">
        <head>
         <title>K</title>
        </head>
@@ -32114,7 +32114,7 @@
         </cit>
        </entryFree>
       </div1>
-      <div1 n="L" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="L" type="alpha" org="uniform" sample="complete">
        <head>
         <title>L</title>
        </head>
@@ -34784,7 +34784,7 @@
     <body>
      <div0 n="1" type="glossary" org="uniform" sample="complete">
       <pb n="1"/>
-      <div1 n="M" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="M" type="alpha" org="uniform" sample="complete">
        <head>
         <title>M</title>
        </head>
@@ -38277,7 +38277,7 @@
         </cit>
        </entryFree>
       </div1>
-      <div1 n="N" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="N" type="alpha" org="uniform" sample="complete">
        <head>
         <title>N</title>
        </head>
@@ -39353,7 +39353,7 @@
         1115.</bibl>
        </entryFree>
       </div1>
-      <div1 n="O" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="O" type="alpha" org="uniform" sample="complete">
        <head>
         <title>O</title>
        </head>
@@ -40621,7 +40621,7 @@
          AND CRESSIDA, iv. 5. 143</bibl>
        </entryFree>
       </div1>
-      <div1 n="P" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="P" type="alpha" org="uniform" sample="complete">
        <head>
         <title>P</title>
        </head>
@@ -46455,7 +46455,7 @@
         </cit>
        </entryFree>
       </div1>
-      <div1 n="Q" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="Q" type="alpha" org="uniform" sample="complete">
        <head>
         <title>Q</title>
        </head>
@@ -47335,7 +47335,7 @@
         </cit>
        </entryFree>
       </div1>
-      <div1 n="R" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="R" type="alpha" org="uniform" sample="complete">
        <head>
         <title>R</title>
        </head>
@@ -50588,7 +50588,7 @@
          <bibl n="shak. rom 3.3.26">ROMEO AND JULIET, iii. 3. 26</bibl>
         </cit> Hath pushed, thrust, aside the law. </entryFree>
       </div1>
-      <div1 n="S" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="S" type="alpha" org="uniform" sample="complete">
        <head>
         <title>S</title>
        </head>
@@ -58270,7 +58270,7 @@
         </cit>
        </entryFree>
       </div1>
-      <div1 n="T" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="T" type="alpha" org="uniform" sample="complete">
        <head>
         <title>T</title>
        </head>
@@ -62518,7 +62518,7 @@
         </cit>
        </entryFree>
       </div1>
-      <div1 n="U" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="U" type="alpha" org="uniform" sample="complete">
        <head>
         <title>U</title>
        </head>
@@ -64098,7 +64098,7 @@
         </cit>Here <mentioned>to the uttermost</mentioned>has the same meaning
          as<mentioned>to the utterance</mentioned> . See <mentioned>utterance</mentioned>, etc. </entryFree>
       </div1>
-      <div1 n="V" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="V" type="alpha" org="uniform" sample="complete">
        <head>
         <title>V</title>
        </head>
@@ -64982,7 +64982,7 @@
          <bibl>(JOHNSON)</bibl>
         </cit>. </entryFree>
       </div1>
-      <div1 n="W" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="W" type="alpha" org="uniform" sample="complete">
        <head>
         <title>W</title>
        </head>
@@ -68259,7 +68259,7 @@
          astray.<bibl n="shak. cym 5.1.5">CYMBELINE, v. 1. 5</bibl>
        </entryFree>
       </div1>
-      <div1 n="Y" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="Y" type="alpha" org="uniform" sample="complete">
        <head>
         <title>Y</title>
        </head>
@@ -68459,7 +68459,7 @@
          <bibl n="shak. oth 3.1.42">OTHELLO, iii. 1. 42</bibl>
         </cit> I am sorry for the displeasure you have incurred. </entryFree>
       </div1>
-      <div1 n="Z" type="alphabetic letter" org="uniform" sample="complete">
+      <div1 n="Z" type="alpha" org="uniform" sample="complete">
        <head>
         <title>Z</title>
        </head>
