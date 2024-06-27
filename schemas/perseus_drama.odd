@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TEI with Drama</title>
+        <title>Perseus drama</title>
         <author>Cliff Wulfman</author>
         <author>Sebastian Rahtz</author>
       </titleStmt>
@@ -22,7 +22,7 @@
         <p>No source; this was originally written from scratch in digital
         form.</p>
       </sourceDesc>
-    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.1.0" when="2024-06-18T16:49:40.958Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.1.0" when="2024-06-22T17:41:46.298Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -39,13 +39,13 @@
       normally provided by this module have been deleted from this
       customization. In addition the global <att>xml:base</att> and
       <att>xml:space</att> attributes have been removed.</p>
-      <schemaSpec ident="perseus_drama" start="TEI" prefix="tei_" targetLang="en" docLang="en">
-        <moduleRef key="header" except="cRefPattern calendar calendarDesc catDesc catRef category citeData citeStructure classCode classDecl conversion correction correspAction correspContext correspDesc creation distributor edition editionStmt editorialDecl geoDecl handNote hyphenation interpretation keywords licence listChange listPrefixDef namespace normalization notesStmt prefixDef principal projectDesc publicationStmt punctuation quotation refState rendition samplingDecl schemaRef scriptNote segmentation seriesStmt sponsor stdVals styleDefDecl tagUsage tagsDecl taxonomy textClass unitDecl unitDef xenoData"/>
-        <moduleRef key="core" except="addrLine address binaryObject cb cit citedRange corr del desc distinct divGen ellipsis email emph expan gb gloss graphic headItem headLabel index label list listBibl measure measureGrp media meeting mentioned milestone note noteGrp num orig pb postBox postCode ptr rb ref relatedItem rs rt ruby said series sic soCalled street teiCorpus term textLang time unit"/>
+      <schemaSpec ident="perseus_drama" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
         <moduleRef key="tei"/>
-        <moduleRef key="textstructure" except="byline dateline div1 div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText group imprimatur postscript trailer"/>
-        <moduleRef key="linking" except="altGrp join joinGrp link linkGrp listAnnotation standOff timeline when"/>
-        <moduleRef key="drama" except="actor camera caption epilogue move performance spGrp tech view"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="drama"/>
         <classSpec predeclare="true" module="linking" xml:id="CLLINK" type="atts" ident="att.global.linking" mode="change">
           <desc xml:lang="en" versionDate="2014-01-12">defines the
           attributes used for aggregating partial elements into a
