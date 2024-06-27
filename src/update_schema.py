@@ -82,6 +82,7 @@ def convert_entities(line):
     line = line.replace('&dagger;', u"\u2020")
     line = line.replace('&thorn;', u"\u00FE")
 
+    line = line.replace('&abreve;', u"\u0103")
     line = line.replace('&ebreve;', u"\u0115")
     line = line.replace('&ibreve;', u"\u012D")
     line = line.replace('&obreve;', u"\u014F")
