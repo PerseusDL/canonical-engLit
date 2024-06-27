@@ -202,17 +202,8 @@
         </orth>
     </xsl:template>
     
-    
-    <!-- Template to handle adjacent <quote> and <bibl> -->
-    <xsl:template match="tei:quote[following-sibling::*[1][self::tei:bibl]]">
-        <cit xmlns="http://www.tei-c.org/ns/1.0">
-            <xsl:copy-of select="."/>
-            <xsl:copy-of select="following-sibling::*[1][self::tei:bibl]"/>
-        </cit>
-        <xsl:apply-templates select="following-sibling::*[2]"/>
+    <xsl:template match="tei:reg">
     </xsl:template>
-    
-    <!-- Suppress the original <bibl> if it's been enclosed in <cit> -->
-    <xsl:template match="tei:bibl[preceding-sibling::*[1][self::tei:quote]]"/>
+  
     
 </xsl:stylesheet>
