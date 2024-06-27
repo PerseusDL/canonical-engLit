@@ -60,12 +60,15 @@
                 <xsl:when test="@id = 'de'">
                     <xsl:attribute name="ident">deu</xsl:attribute>
                 </xsl:when>
+                <xsl:when test="@id = 'anglosaxon'">
+                    <xsl:attribute name="ident">ang</xsl:attribute>
+                </xsl:when>
             </xsl:choose>
             <xsl:apply-templates/>
         </language>
     </xsl:template>
 
-    <xsl:template match="tei:div1 | tei:div2 | tei:div3 | tei:div4 | tei:div">
+    <xsl:template match="tei:div0 | tei:div1 | tei:div2 | tei:div3 | tei:div4 | tei:div">
         <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart">
             <xsl:choose>
                 <xsl:when test="@type">
@@ -157,7 +160,7 @@
         </note>
     </xsl:template>
     
-    <xsl:template match="@targOrder | @default | @status">
+    <xsl:template match="@targOrder | @default | @status | @opt">
         
     </xsl:template>
     
