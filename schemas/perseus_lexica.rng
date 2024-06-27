@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-06-27T20:03:38Z. . 
+Schema generated from ODD source 2024-06-27T22:04:01Z. . 
 TEI Edition: P5 Version 4.7.0. Last updated on 16th November 2023, revision e5dd73ed0 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.7.0/ 
   
@@ -1218,6 +1218,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_emph"/>
          <ref name="tei_mentioned"/>
          <ref name="tei_gloss"/>
+         <ref name="tei_term"/>
          <ref name="tei_title"/>
       </choice>
    </define>
@@ -1227,6 +1228,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_emph"/>
          <ref name="tei_mentioned"/>
          <ref name="tei_gloss"/>
+         <ref name="tei_term"/>
          <ref name="tei_title"/>
       </choice>
    </define>
@@ -1235,6 +1237,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <ref name="tei_emph"/>
       <ref name="tei_mentioned"/>
       <ref name="tei_gloss"/>
+      <ref name="tei_term"/>
       <ref name="tei_title"/>
    </define>
    <define name="tei_model.emphLike_sequenceOptional">
@@ -1249,6 +1252,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </optional>
       <optional>
          <ref name="tei_gloss"/>
+      </optional>
+      <optional>
+         <ref name="tei_term"/>
       </optional>
       <optional>
          <ref name="tei_title"/>
@@ -1268,6 +1274,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_gloss"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="tei_term"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="tei_title"/>
       </zeroOrMore>
    </define>
@@ -1283,6 +1292,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_gloss"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_term"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_title"/>
@@ -2637,6 +2649,20 @@ Suggested values include: 1] full (full form); 2] pref (prefix); 3] suff (suffix
          <ref name="tei_att.declaring.attributes"/>
          <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.pointing.attributes"/>
+         <ref name="tei_att.cReferencing.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_term">
+      <element name="term">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(term) contains a single-word, multi-word, or symbolic designation which is regarded as a technical term. [3.4.1. Terms and Glosses]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.declaring.attributes"/>
+         <ref name="tei_att.pointing.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.canonical.attributes"/>
+         <ref name="tei_att.sortable.attributes"/>
          <ref name="tei_att.cReferencing.attributes"/>
          <empty/>
       </element>
