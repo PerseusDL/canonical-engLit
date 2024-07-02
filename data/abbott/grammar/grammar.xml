@@ -3,7 +3,7 @@
 	<teiHeader xml:lang="eng">
 		<fileDesc>
 			<titleStmt>
-				<title>A Shakespearean Grammar</title>
+				<title>A Shakespearian Grammar</title>
 				<author>E. A. Abbott</author>
 			</titleStmt>
 			<extent/>
@@ -13,7 +13,7 @@
 			<sourceDesc>
 				<biblStruct>
 					<monogr>
-						<title>A Shakespearean Grammar</title>
+						<title>A Shakespearian Grammar</title>
 						<author>Edwin Abbott Abbott</author>
 						<imprint>
 							<pubPlace>London and New York</pubPlace>
@@ -57,7 +57,7 @@
 		<front>
 			<titlePage>
 				<docTitle>
-					<titlePart type="main">A Shakespearean Grammar</titlePart>
+					<titlePart type="main">A Shakespearian Grammar</titlePart>
 					<titlePart type="main">An Attempt to Illustrate Some of the Differences between
 						Elizabethan and Modern English</titlePart>
 				</docTitle>
