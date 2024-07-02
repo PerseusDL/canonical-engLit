@@ -41,8 +41,12 @@
 				</correction>
 			</editorialDecl>
 			<refsDecl n="CTS">
-				<cRefPattern matchPattern="(\w+)"
-					replacementPattern="//tei:div[@subtype='paragraph' and @n=$1">
+				<cRefPattern matchPattern="(\w).(\w+).(\w+)"
+					replacementPattern="//tei:div[@subtype='section' and @n=$1]/tei:div[@subtype='subsection and @n=$2]/tei:div[@subtype='paragraph' and @n=$3]">
+					<p>This pointer extracts paragraph number.</p>
+				</cRefPattern>
+				<cRefPattern matchPattern="para (\w+)"
+					replacementPattern="//tei:div[@subtype='paragraph' and @n=$1]">
 					<p>This pointer extracts paragraph number.</p>
 				</cRefPattern>
 			</refsDecl>
