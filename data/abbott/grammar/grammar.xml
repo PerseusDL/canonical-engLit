@@ -64,16 +64,7 @@
 	</teiHeader>
 	<text xml:lang="eng">
 		<front>
-			<titlePage>
-				<docTitle>
-					<titlePart type="main">A Shakespearian Grammar</titlePart>
-					<titlePart type="main">An Attempt to Illustrate Some of the Differences between
-						Elizabethan and Modern English</titlePart>
-				</docTitle>
-				<byline>By E. A. Abbott</byline>
-				<docImprint>MacMillan and Company<pubPlace>New York</pubPlace>,
-					<date>1870</date></docImprint>
-			</titlePage>
+			
 			<pb/>
 
 			<div type="textpart" subtype="section" n="1">
