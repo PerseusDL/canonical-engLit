@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:peachum"
+  urn="urn:cts:engLit:peachum.garden"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">Garden of Eloquence</ti:title>
+  <ti:edition urn="urn:cts:engLit:peachum.garden.perseus-eng1" workUrn="urn:cts:engLit:peachum.garden" xml:lang="eng">
+    <ti:label xml:lang="eng">The Garden of Eloquence</ti:label>
+    <ti:description xml:lang="eng">
+      Peachum, Henry. The Garden of Eloquence. (1593) 
+    </ti:description>
+  </ti:edition>
+</ti:work>
