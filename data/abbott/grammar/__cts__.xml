@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:abbott"
+  urn="urn:cts:engLit:abbott.grammar"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+      A Shakespearean Grammar
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:abbott.grammar.perseus-eng1" workUrn="urn:cts:engLit:abbott.grammar" xml:lang="eng">
+    <ti:label xml:lang="eng">A Shakespearean Grammar</ti:label>
+    <ti:description xml:lang="eng">Edwin Abbott Abbott. A Shakespearian Grammar.  London and New York: Macmillan and Company, 1870.</ti:description>
+  </ti:edition>
+</ti:work>

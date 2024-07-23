@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schemas/perseus_holinshed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>The First Inhabitation of Ireland</title>
+	<title>An Electronic Edition</title>
+      </titleStmt>
+      <publicationStmt>
+	<p>later</p>
+      </publicationStmt>
+      <sourceDesc>
+	<p>later</p>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <refsDecl>
+	<state unit="section"/>
+      </refsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+	<language id="en">English</language>
+	<language id="la">Latin</language>
+	<language id="greek">Greek</language>
+      </langUsage>
+    </profileDesc>
+    
+  </teiHeader>
+      <text>
+	<front>
+      <pb n="70"/> <!-- Blank verso page -->
+	  <pb n="71"/>
+	  <titlePage><docTitle><titlePart>The First Inhabitation of Ireland,</titlePart>
+	    <titlePart>by Whome it was Instructed in the Faith,
+with the Seuerall Inuasions of the Same, &amp;c.</titlePart></docTitle>
+	  </titlePage>
+	  <div n="1" type="preface">
+<head>The Authors Preface or Introduction to the Sequele of the Historie.</head>
+
+<p>ALTHOUGH (vndoutedlie) the originali of all nations for the more part
+is so vncerteine, that who soeuer shall enter into the search thereof, further
+than he findeth in the holie scriptures, may seeme as it were rather to talke
+with men that dreame, than to gather authorities sufficient wherevpon to
+ground anie warranted opinion: yet for as much as the authors (whom in
+this Irish historie we chieflie follow) haue set downe what they haue found
+in the Irish antiquities, concerning the first inhabitation of this countrie of
+Ireland, and because the reader also may be peraduenture desirous to vnderstand
+the same, we haue thought good to recite what they haue written
+thereof, leauing the credit vnto the due consideration of the circumspect
+reader; and where the errors are too grosse, giuing by the way some cautions,
+in like sort as our authors themselues haue doone. According therefore
+to the order of all other nations and people that seeke to aduance the
+glorie of their countries, in fetching their beginning with the furthest from
+some one of ancient antiquitie: so likewise the Irishmen haue registred in
+their chronicles, that their countrie was first inhabited by one of Noahs
+neeces, after the manner following.</p>
+</div>
+      </front>
+	<body>
+
+<pb n="72"/> <!-- blank verso page -->
+
+	    <pb n="73"/>
+
+<div n="1" type="section">
+<head>The First Inhabitation of Ireland.</head>
+<!-- The First Inhabitation of Ireland -->
+<p>IN the yeare of the world, 1525: the patriarch Noah began to admonish the
+people of vengeance to followe for their wickeduesse and detestable sins, to
+build his arke to foreshew his kinsfolkes and friends of that vniuersall floud which
+was to come, wherewith the whole face of the earth should be couered with water;
+&amp; that within few yeares, except they amended in time. This did he before the
+generall floud, one hundred &amp; fiue and twentie yeares. But when euerie man
+séemed to neglect this wholesome admonition, one Cesara that was néece to Noah,
+<note place="marg">Cesara néece to Noah.</note>
+hearing hir vncles prophesie, doubted least the same should come to passe; and
+therefore determined with certeine hir adherents to séeke aduentures in some forren
+region, persuading hir selfe, that if she might find a countrie neuer yet inhabited,
+and so with sin vnspotted, the generall sentence of Gods wrath should not there
+take effect. Wherevpon rigging a nauie, she committed hir selfe to the seas,
+sailing foorth, till at length she arriued in Ireland onelie with three men, &amp; fiftie
+women, hauing lost the residue of hir companie by misfortune of sundrie shipwracks
+made in that hir long &amp; troublesome iourneie. The names of the men were these,
+Bithi, Laigria, and Fintan. The coast where she first set foot on land, and where
+also she lieth buried, is called <emph>Nauiculare littus,</emph> that is, the shipping riuage or shore.
+The stones wherein the memorie hereof was preserued from violence of waters,
+<note place="marg">An. mundi.</note>
+
+<note place="marg"><date>1556</date></note>
+haue béene seene of some (as they themselues haue reported) but how trulie I haue
+not to say: within fortie daies after hir comming on land there, the vniuersall floud
+came &amp; ouerflowed all that coast as well as all other parts of the world. But where
+as this tale bewraieth it selfe too manifestlie to be a meere vntruth, if the time and
+other circumstances be throughlie examined, I will not stand longer about the
+proofe or disproofe thereof; sauing that it is sufficient (as I thinke) to bring it out of
+credit, to consider, how that the art of sailing was vnknowne to the world before the
+vniuersall floud, and no part inhabited except the continent of Syria, and thereabouts.
+But to passe such a forged fable, with the record thereof grauen in a stone
+<note place="marg"><emph>Rob. Isaac in Gene.</emph> 5.</note>
+(a deuice borowed from Iosephus, as some thinke) it shall be sufficient for the
+glorie of the Irish antiquitie to grant that Ireland was discouered and peopled by
+some of Noahs kinred, euen with the first Ilands of the world (it they will needs
+haue it so, as the likelihood is great) according to that which is set foorth in their
+<note place="marg">An. mundi.</note>
+
+<note place="marg"><date>1557</date></note>
+
+<note place="marg">After the best authors make 300 yeares, and not 100 betwéene Noahs floud and Babell.</note>
+histories, when about thrée hundred yeares after the generall floud immediatlie
+vpon the confusion of toongs, Iaphet &amp; his posteritie imboldeued by Noahs
+example, aduentured to commit themselues by ship to passe the seas, &amp; to search
+out the vnknowne corners of the world, and so finding out diuerse Iles in these
+west parts of the world.</p>
+<p>There was (saie they) in that retinue one of the same progenie named Bartolenus
+<note place="marg">Bartolenus, or Bastolenus.</note>
+
+<note place="marg"><emph>Clem. lib.</emph> 4.</note>
+
+<note place="marg"><emph>Cambried. lib.</emph> 3.</note>
+or Bastolenus, who incouraged with the late attempt and successe of Nimrod kinsman
+to Ninus (then newlie intruded vpon the monarchie of Assyria) searched so far
+west, intending to atteine to some gouernement, where he might rule without anie
+
+<!--<fw place="bot-left">"VOL. VI."</fw>--><!--<fw place="bot-center">"L"</fw>--><!--<fw place="bot-right">"partner"</fw>-->
+
+
+<pb n="74"/>
+
+<!--<fw place="top-left">"74"</fw>--><!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>-->
+
+
+partner in authoritie, till at length fortune brought him and his people vpon the
+coast of Ireland. Here he settled himselfe with his three sonnes Languina, Salamis,
+and Ruthurgus, right actiue and stout gentlemen, who searching the land
+from side to side, and from end to end, left remembrances of their names in certeine
+notable places named after them; as Languinie, Stragruus, and mount Salanga,
+since named saint Dominiks hill, and Ruthurgus his poole. Little is remembred of
+<note place="marg">Ruthurgi stagnum.</note>
+Bartolenus, sauing that in short space with manie hands working at once, he rid
+and made plaine a great part of the countrie ouergrowen with woods and thickets.</p>
+<p>Thus was Ireland inhabited by this people vnder the gouernment of those thrée
+<note place="marg">Ireland first inhabited.</note>
+sons of Bartolenus and their offspring, about the space of thrée hundred yeares.
+Togither with Bartolenus arriued Ireland certeine godles people of Nimrods stocke,
+woorthilie termed giants, as those that in bodilie shape excéeded the common proportion
+<note place="marg">Giants.</note>
+of others, and vsed their strength to gaine souereigntie, and to oppresse the
+weake with rapine and violence. That linage (Chams brood) did grow in short
+<note place="marg">Bergon the sonne of Neptune and brother to Allion (as Iohn Bale hath) conquered Ireland and the Orkneis.</note>
+
+<note place="marg">Euill examples soone followed.</note>
+while to great numbers, and alwaie indeuored themselues where soeuer they came
+to beare the rule ouer others. One cause hereof was their bodilie strength, answerable
+to their hugenesse of stature; another, the examples of Cham or Zoroastres
+the magician, and Nimrod grandfather to Ninus. Which two persons in
+themselues and their progenies were renowmed through the world as victorious
+princes, ruling ouer two mightie kingdoms Egypt and Assvria. A third cause there
+was, as this: they repined at the blessings bestowed vpon Sem and Iaphet, thinking
+it necessarie to withstand and preuent all lawfull rule and dominion, least the cursse
+of slauerie prophesied by Noah should light vpon them, as at length it did. Herevpon
+rebelliouslie withdrawing their due obedience from their lawfull gouernors
+here in Ireland, and taking head, set vp a king of their owne faction, and mainteining
+<note place="marg">Rebellion against gouernors.</note>
+his estate to the oppression of the subiects, by bringing them into continuall
+bondage. The successe was variable on both sides betwixt the lawfull gouernors
+&amp; these vsurpers, with dailie raises and skirmishes, so much to the griefe of them
+that coueted to liue in quiet vnder their rightfull princes, that they determined
+with the chance of one generall battell, either wholie to subdue those proud rebellious
+<note place="marg">A woorthie resolution.</note>
+tyrants, or else to end to end their liues in fréedome, and so to be rid of further
+miserie. But first, where there had growen certeine debates and enimitie among
+themselues, whereby they had infeebled their owne forces, they thought good to
+make peace togither, before they put their whole state in hazard of one battell
+against the giants, concluding therefore an agréement, and ioining in league with
+promise to assist ech other to subdue their common enimies, they assemble their
+power foorth of all parts of the land, and comming to ioine battell with the giants,
+after they had fought right fiercelie togither for the space of certeine houres, the
+victorie inclined to the rigthfull part; so that the lawfull kings preuailing against
+the wicked tyrants, great slaughter was made on the whole brood of that mischeefous
+generation. For the kings meaning to deliuer themselues of all danger
+<note place="marg">Victorie too cruellie vsed.</note>
+in time to come, vsed their happie victorie with great crueltie, which turned to
+their owne confusion: for where they neither spared man, woman, nor child that
+came in the waie for more despite, &amp; fuller satisfieng of their whole reuenge, they
+did not vouchsafe to hurie the carcasses of their slaine enimies; but cast them out
+<note place="marg">Anno mundi.</note>
+
+<note place="marg"><date>2257</date></note>
+like a sort of dead dogs; where of through stench of the same, such an infectiue
+pestilence insued in all places through corruption of aire, that few escaped with life,
+beside those that got them awaie by sea.</p>
+<p>And hereby lieth a vaine tale among the Irishmen, that one of the giants named
+<note place="marg">Ruanus how long he liued.</note>
+Ruanus, chancing to be preserued from this mortalitie, liued forsooth two thousand
+and one and fortie yeares, which is more than twise the age of Methusalem. By
+this man (saie they) saint Patrike was informed of all the estate of the countrie:
+
+<!--<fw place="bot-right">"and"</fw>-->
+
+
+<pb n="75"/>
+
+<!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>--><!--<fw place="top-right">"75"</fw>-->
+
+
+and after that vpon request he had receiued baptisme of the said Patrike, he
+deceassed in the yeare after the birth of our sauior foure hundred and thirtie, as in
+the Irish histories hath bin vnaduisedlie registred. But such foolish tales and vaine
+narrations may warne the aduised reader how to beware of yéelding credit vnto the
+like idle fantasies and forged tales, when they hap to light vpon such blind legends.
+For where some of the poets vsed for inuention sake to faine such dreaming fables
+<note place="marg">Forged tales and fables win credit in time, to passe among the vnskilfull people for true histories.</note>
+for exercise of their stiles and wits: afterwards through error and lacke of knowledge,
+they haue béene taken with the ignorant for verie true and most assured
+histories. But now to the matter, as we find it recorded of an inflnit number of
+giants slaine and made awaie in manner afore rehearsed, certeine there were that
+got them into some lurking dens or canes, and there kept them till lacke of vittels
+inforced them to come foorth, and make shift for sustenance; and perceiuing no
+resistance because the land was in manner left desolat, they waxed bolder; and
+when they vnderstood how things had passed, they settled themselues in the best
+part of the countrie, easilie subduing the poore séelie soules that remained, and so
+reuiuing their linage, they became lords of the whole Iland, kéeping the same in
+subiection for the space of three score yeares togither.</p>
+<p>Among Iaphets sons we read in Genesis that Magog was one, who planted his
+<note place="marg"><emph>Gen.</emph> 20.</note>
+people in Scythia nere Tanais, from whense about the yeare of the world two thousand
+<note place="marg">Anno mundi.</note>
+
+<note place="marg"><date>2317</date></note>
+
+<note place="marg">Nemodus with his foure sonnes.</note>
+thrée hundred &amp; seuenteene. Nemodus with his foure sonnes, Starius, Garbaneles,
+Anuinus, Fergusius, capteins ouer a faire companie of people, were sent
+into Ireland, who passing by Grecia, and taking there such as were desirous to
+séeke aduentures with them, at length they landed in Ireland, inhabited the
+<note place="marg">Ireland eftsoones inhabited by the offspring of Iaphet.</note>
+
+<note place="marg">The giants preuaile.</note>
+
+<note place="marg"><date>2533</date></note>
+countrie, and multiplied therein, although not without continuall warre, which they
+held with the giants for the space of two hundred and sixteene yeares, in the end
+of which terme the giants preuailing chased them thense againe, so that they
+retired into Syria. This was about the yeare after the creation (as by their account
+it should séeme) two thousand fiue hundred thirtie and thrée, from which time the
+giants kept possession of the land without forren inuasion, till the yeare two
+thousand seauen hundred and fouretéene; but yet in all that space they were not
+able to frame a common-welth: for falling at variance among themsleues, and measuring
+all things by might, seditiouslie they vexed ech other. Which thing comming
+<note place="marg">The sonnes of Dela a Grecian skilfull in the art of sailing.</note>
+to the knowledge of the Grecians mooued fiue brethren, sonnes to one Dela,
+being notable seamen and skilfull pilots to rig a nauie, and to attempt the conquest
+of this Iland. These were of the posteritie of Nemodus, and named Gandius, Genandius,
+Sagandus, Rutheranius, &amp; Slanius. When all things were readie, and
+<note place="marg">They passe into Ireland, and destroied the giants.</note>
+their companies assembled, they tooke the sea, and finallie arriuing here in Ireland,
+found the puissance of the giants sore weakened through their owne ciuill dissention:
+so that with more ease they atchiued their purpose, and wan the whole
+countrie, vtterlie destroieng and rooting out that wicked generation enimies to
+mankind; and after diuided the Iland into fiue parts, and in each of them they
+<note place="marg">They diuide the countrie into foure parts.</note>
+seuerallie reigned. Furthermore, to satisfie all sides, and auoid contention, they
+concluded to fix a mere-stone in the middle point of Ireland, to the which ech of
+their kingdoms should reach, so as they might be equallie partakers of the commodities
+found within that countrie soile.</p>
+<p>These are also supposed to haue inuented the distribution of shires into cantreds,
+<note place="marg">A cantred.</note>
+euerie cantred or baronie conteining one hundred towneships. At length desire of
+<note place="marg">Desire of souereigntie causo of variance.</note>
+souereigntie set the fiue brethren at variance, &amp; greatlie hindred their growing
+wealths. But Slanius getting the vpper hand, and bringing his foure brethren to a
+low eb, tooke on him as cheefe aboue his other brethren, incroching round about
+the midle stone for the space of certeine miles, which plot in time obteined the priuilege
+&amp; name of one entier part, &amp; now maketh vp the number of fiue parts
+
+<!--<fw place="bot-center">"L 2"</fw>--><!--<fw place="bot-right">"(into"</fw>-->
+
+
+<pb n="76"/>
+
+<!--<fw place="top-left">"76"</fw>--><!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>-->
+
+
+(into the which Ireland is said to be diuided) and is called Meth, and in Latine <emph>Media,</emph>
+taking that name (as some haue gessed) for that in respect of the other, it conteined
+but the moitie of cantreds, that is, sixtéene (where ech of the other comprehended
+two and thirtie a péece) or else for that it lieth in the middest of the land. This
+part Slanius ioined as a surplusage ouer and aboue his inheritance, to the monarchie:
+which part notwithstanding grew to a seuerall kingdome. Thirtie yeares
+the monarchie yet continued in this order, but finallie Slanius departed this life,
+<note place="marg">Slanius departed this life.</note>
+and was buried in a mounteine of Meth, that beareth hitherto (as they saie) the
+name after him. Then the princes subiect to him, began to stomach the matter, and
+denied their obeisance to his successor: wherevpon insued continuall wars betwixt
+them, falling still at debat for the land of Meth, which strife of long time might
+neuer fullie be appeased. In the necke of these troubles also there arriued in Ireland
+<note place="marg">A new armie of Scythians land in Ireland.</note>
+
+<note place="marg">Partakings.</note>
+a new armie of Scythians, who made claime to the land by a title of right
+which they pretended from their forefather Nemodus: and so taking &amp; making
+parts, they set all in an vprore, that hauocke was made on each side with fire and
+sword in most miserable maner.</p>
+<p>To be short, they spent themselues in pursuing one an other with such outrage,
+that now they cared not what nation or what souldier they receiued to their aid,
+to kéepe vp or beat downe a side. By which occasion the Britons also put in a foot
+<note place="marg">Brennus called into Ireland to aid one part of the factious people.</note>
+among them, who procured Brennus the brother of Belinus to direct his course
+thithel, with the same nauie which he had made readie to passe ouer into Gallia,
+now called France, to the aid of Segwin then king of the Allobroges that inhabited
+<note place="marg">Segwin.</note>
+
+<note place="marg">Allobroges.</note>
+the countries called Sauoie and the Delphinat. But his enterprise into Ireland
+tooke small effect, though there were other kings of the Britons that gat dominion
+there, in so much that Gurguntius, or Gurgwintius, the sonne of Belinus, accompted
+Ireland among other his dominions to belong to him by lineall descent: notwithstanding
+the British princes neuer inioied the quiet possession thereof, longer than
+they held it by maine force, but were often repelled and put to the worsse with
+séeking after it, finding there small gaine other than stripes, whereof they bare
+awaie great plentie. But now to come to the Spaniards, that lastlie (vnder the conduct
+of foure capteins) passed into Ireland from Biscaie, and inhabited that Iland,
+it shall not be impertinent in following the order which our author kéepeth, to
+speake somewhat of their originall, that it may appéere from whense the Irish nation
+had their first beginning.</p>
+<p>In the yeare of the world 2436, after the vniuersall floud 780, whilest the Israelits
+<note place="marg"><date>2436</date></note>
+serued in Egypt, Gathelus the sonne of one Neale, a great lord in Grecia, was vpon
+disfauor exiled his countrie with a number of his factious adherents and friends.
+This noble gentleman being right wise, valiant, and well spoken, comming into
+<note place="marg">Sée more of this matter in the beginning of the Scotish historie.</note>
+Egypt, got honorable interteinment of Pharao surnamed Orus, as in the Scotish
+historie more plainelie appeereth. And afterwards departing that countrie, trauersed
+the seas, and landing first in Portingall, after some bickering with the inhabitants:
+at length yet he got by their consent a portion of the countrie, lieng by
+the banks of the riuer ancientlie called Munda, &amp; now Mondego, where shortlie
+<note place="marg">The riuer of Munda, now Mondego.</note>
+
+<note place="marg">Brachara now Braga.</note>
+after he began to build a citie first named Brachara, but now Barsalo, as Hector
+Boetius bath. After this, when Gathelus his people began to increase in power,
+through persuasion of the Spaniards their neighbors, they remooued into Galicia,
+where they also builded a citie named Brigantium, which is now called Coruna.
+<note place="marg">Brigantium.</note>
+
+<note place="marg">See more hereof in Scotland.</note>
+
+<note place="marg">Gathelus passeth into Ireland.</note>
+Finallie, when they grew into such an huge multitude, that Galicia was not able to
+susteine them, Gathelus with a certeine number of them passed ouer into Ireland,
+and there grew into such estimation with the barbarous people, that for his knowledge
+speciallie in all languages, he was highlie honored: for he not onelie inriched
+and beautified the Irish toong, but also taught them letters, sought vp their anti
+<!--<fw
+place="bot-right">"quities,"</fw>-->
+
+
+<pb n="77"/>
+
+<!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>--><!--<fw place="top-right">"77"</fw>-->
+
+
+quities, practised their youth in warlike feats after the maner of the Greekes and
+Egyptians, from whense he descended.</p>
+<p>To conclude, he was so acceptable to them, that to gratifie such a benefactor,
+<note place="marg">The names of Ireland, &amp; whereof the same were deriued, as they hold opinion.</note>
+they agreed to name the Iland after him Gathelia, and after his wife Scotia. This
+is one opinion but yet incredible, not onelie to Humfreie Lhuid, but also to other
+learned men, and diligent searchers of antiquities, by reason of the sundrie arguments
+of improbabilitie, aswell in the miscount of yeares as other vnlikelihoods
+found therein, when the circumstances come to be dulie examined, throughlie
+weied, and well considered. Yet certeine it is, that Ireland was ancientlie named
+Scotia, and the people Scots, as by diuerse old writers it may be sufficientlie prooued;
+albeit by what occasion it first tooke that name, or from whense they came, it is as
+yet doubted. But to proceed with the historic as we find it. The residue of Gathelus
+his people, which remained in Spaine, founded the citie of Baion in the
+confines of Gascoigne, and replenished the seacoasts of Spaine with store of inhabitants,
+and welnéere about two hundred yeares after their first arriuall there (when
+they were eftsoones pestered with multitude of people) they began to fansie a new
+voiage, but whether at that time they passed ouer into Ireland, or some whither
+else, it is vncerteine.</p>
+<p>Notwithstanding sure it is, that in the daies of Gurguntius king of the Britons, the
+chiefe gouernour of Baion with foure brethren Spaniards, of the which two are said
+to be Hiberus and Hermion, not the sonnes (some thine) of Gathelus (as Hector
+Boetius affirmeth) but some other perhaps that were desconded from him, who
+vnderstanding that diuerse of the westerne Iles were emptie of inhabitants, assembling
+a great number of men, women, and children, imbarked with the same in
+thrée score great vessels, and directing their course westward, houered a long time
+in the sea about the Iles of Orkeneie, vntill by good hap they met with Gurguntius
+<note place="marg">Gurguntius.</note>
+then returning from the conquest of Denmarke (as in the British historie
+it appéereth) whom they besought in consideration of their want of vittels and
+other necessaries, being such as they were not able longer to abide the seas, incumbred
+with a sort of women and children, to direct and appoint them to some place
+where to inhabit; promising to hold the same of him, and to become liege people
+to him and his heires for euer.</p>
+<p>Gurguntius aduising himselfe hereof, remembred with what trouble he held the
+<note place="marg">Gurguntius appointeth the Spaniards seats in Ireland to liue vnder his subiection.</note>
+Irish in subiection, and conceiuing hope that those strangers should either subdue
+or wholie destroie that vnrulie generation, tooke the othes of those Spaniards with
+hostages; and furnishing them and their ships with all things néedfull, set them
+ouer into Ireland, where assisted with such Britons as Gurguntius had appointed to
+<note place="marg">The arriuall of the Spaniards in Ireland.</note>
+
+<note place="marg"><emph>Geffreie Mon.</emph></note>
+go with them for their guids, they made a conquest of the whole countrie, &amp; setled
+themselues in the same. Some write, that Ireland was before that present void of
+all inhabitants: but yet they agrée that these Spaniards were guided thither by the
+Britons, &amp; that vnder such conditions as before is recited. So that it appéereth the
+kings of this our Britain had an elder right to the realme of Ireland, than by
+the conquest of Henrie the second, which title they euer mainteined, and sometimes
+preuailed in pursuing thereof, as in the daies of king Arthur, to whom the Irish (as
+<note place="marg">The Irish were subiect to K. Arthur.</note>
+
+<note place="marg">Westchester.</note>
+in some histories is remembred) acknowledged their due subiection with paiement of
+their tribute, and making their appéerance at the citie called in the British toong
+Caer Lheon. Wherevnto when their frée assent, the submission of their princes
+with lawfull conquest and prescription are adioined, an inuincible title must néeds
+be inforced.</p>
+<p>But now to our purpose. The Spaniards substantiallie aided by the Britons, setled
+themselues, and diuided their seats in quarters, the foure brethren reigning seuerallie
+<note place="marg">Dissention betwixt the brethren.</note>
+apart in foure sundrie portions in good quiet and increase of welth, vntill their
+
+<!--<fw place="bot-right">"pride"</fw>-->
+
+
+<pb n="78"/>
+
+<!--<fw place="top-left">"78"</fw>--><!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>-->
+
+
+pride and ambition armed two of them against the other two: as Hiberus and one
+<note place="marg">Such are the fruits of ambition.</note>
+of his brethren against Hermion and the other brother. In this dissention Hermion
+slue his brother Hiberus. Of whom at the same time the countrie (as some hold)
+was named Hibernia, as in the description further appeareth: although some rather
+<note place="marg">See more hereof in the description.</note>
+hold, that it tooke the name of iron, of the plentifull mines of that kind of mettall
+where with that land aboundeth: and so those ancient writers which name it Ierna,
+named it more aptlie after the spéech of the inhabitants than others, which name it
+Hibernia. But to procéed. Hermion herevpon to auoid the ill opinion of men,
+for that he had thus atteined to the souereignetie by the vnnaturall slaughter of his
+<note place="marg">No crime so manifest or detestable that wanteth a colourable pretense to excuse it.</note>
+brother, in that vnhappie ciuill warre, purged himselfe to his subiects, that neither
+maliciouslie nor contentiouslie, but for his necessarie defense and safetie he had
+borne armes against his brethren: and to witnesse how farre he was from all desire
+to rule alone, he appointed certeine capteins as kings, to rule vnder him seuerall
+countries, reseruing to himselfe but one fourth part, and the portion of Meth
+allotted to the monarchie for the better maintenance of his estate.</p>
+<p>These parts appointed foorth in this wise at length grew to fiue kingdomes,
+<note place="marg">Ireland diuided into fiue kingdomes.</note>
+
+<note place="marg">One souereigne ruler ouer the rest.</note>
+Leinster, Connagh, Vlster, and Mounster diuided into two parts, and sometime to
+more, by vsurping or compounding among themselues: but euer one was chosen
+to be chiefe souereigne monarch ouer them all. Thus it séemeth that certeinelie
+the Spaniards of the north parts of Spaine, inhabiting the countries about Biscaie
+and Galicia, came and peopled Ireland (as both their owne histories and the British
+doo wholie agrée:) but from whense they came first to inhabit those countries of
+Spaine, verelie I haue not otherwise to auouch: for no other writers that I can
+remember, but (such as haue registred the Scotish chronicles) make mention of the
+comming thither of Gathelus with his wife Scota and their people, in maner as by
+the said chronicles is pretended. But now to our purpose. An hundred and thirtie
+chiefe kings are reckoned of this nation from Hermion to Laogirius, the sonne of
+Nealus Magnus, in whose time that holie estéemed man Patrike conuerted them to
+christianitie. But now in the meane time whilest the Irishmen liued in some tollerable
+order and rest vnder their seuerall kings, one Rodorike a Scithian prince with
+a small companie of men, being weather driuen round about the coasts of Britaine,
+was by chance cast vpon the shore of Ireland.</p>
+<p>These were Picts, and the first that had béen heard of in these parties (as some
+<note place="marg">Picts arriue in Ireland.</note>
+authors haue recorded) a people from their verie cradle giuen to dissention, landleapers,
+mercilesse, fierce and hardie. They being brought and presented to the
+Irish king, craued interpretors, which granted, Rodorike their cheefeteine made
+this request for him and his, as followeth: Not as denegrate from the courage of
+<note place="marg">The oration of Rodrike king of the Picts king of Ireland.</note>
+our ancestours, but fashioning our selues to fortunes course, we are become to
+craue of Ireland, as humble supplicants that neuer before this present haue so embased
+our selues to anie other nation. Behold sir king, and regard vs well, no light
+occasion causeth these Iustie valiant bodies to stoope. Scithians we are, &amp; Picts of
+Scithia, no small portion of glorie resteth in these two names. What shall I speake
+of the ciuill warre that hath expelled vs from our natiue homes, or rip vp old histories
+to mooue strangers to bemone vs? Let our seruants and children discourse
+therof at leisure, if perhaps you will vouchsafe to grant vs some time of abode in
+your land, to the which effect and purpose our vrgent necessitie beséecheth your
+fauors, a king of a king and men of men are to craue assistance. Princes can well
+discerne and consider how néere it toucheth their honour and suertie, to vphold
+and releeue the state of a king, by treason decaied. And manifest it is to all men
+of reasonable consideration, that nothing more beseemeth the nature of man, than
+to be mooued with compassion, and as it were to féele themselues hurt, when they
+heare and vnderstand of other mens calamities. Admit (we beseech you) and
+
+<!--<fw place="bot-right">"receiue"</fw>-->
+
+
+<pb n="79"/>
+
+<!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>--><!--<fw place="top-right">"79"</fw>-->
+
+
+receiue amongst you these few scattered remnants of Scithia: if your roomes be
+narrow, we are not manie: if the soile of your countrie be barren, we are borne and
+enured to hardnesse: if you liue in peace, we are at commandement as subiects: if
+you warre, we are readie to serue you as souldiours: we demand no kingdome, no
+state, no pompous triumph in Ireland: we are héere alone, and haue left such
+things behind vs with our enimies: howsoeuer you estéeme of vs, we shall content
+our selues therewith, and learne to frame our liking to yours, calling to mind not
+what we haue beene, but what we are.</p>
+<p>Great consultation was had about this request of these strangers, and manie things
+<note place="marg">Doubtfull consultation.</note>
+debated to and fro. In conclusion, the Irish laid foorth for answer the opinions of
+their antiquaries; that is, such as were skilfull in old histories and saiengs of their
+<note place="marg">The answer of the Irish to the request of the Picts.</note>
+elders, wherevnto they gaue credit, and therefore they gathered it could not be
+expedient to accept the Scithians into the land, for that mingling of nations in one
+realme bréedeth quarels: moreouer, that the multitude of the inhabitants was such,
+as roome in the whole Ile was vneth able to receiue them, and therefore those few
+new commers, being placed among so manie old inhabitants, might bréed quicklie
+some disturbance to bring all out of ioint. But (said they) though we may not
+conuenientlie receiue you among vs, yet shall you find vs readie to further you to
+be our neighbours.</p>
+<p>Not far hense there lieth the great Ile of Britaine, in the north part whereof, being
+<note place="marg">The Irish persuadeth the Picts to place themselues in Britaine.</note>
+void of inhabitants, your manhoods and policies may purchase for you roomes to
+place your selues at ease: we shall appoint you capteins to guide you thither, we
+shall assist to settle you with our forces in that countrie, make readie your ships
+that yée may passe thither with all conuenient spéed. Incouraged with this persuasion,
+they tooke their course towards the north parts of Britaine now called
+Scotland, where contrarie to their expectation Marius king of Britaine was readie
+<note place="marg">Marius otherwise called Aruiragus king of Britons.</note>
+to await their comming, and with sharpe battell vanquishing them in field, slue
+Rodorike with a great number of his retinues. Those that escaped with life, and
+sought to him for grace, he licenced to inhabit the vttermost end of Scotland. This
+Marius Humfrie Lhuid taketh to be the same, whome the Romane writers name
+Aruiragus, who reigned about the yere of our Lord seuentie, a prince of a noble
+courage and of no small estimation in his daies (as should séeme by that which is
+written of him.) His right name (as the said Humfreie Lhuid auoucheth) was
+Meurig.</p>
+<p>But now concerning the Picts, whether that those that escaped with life, got
+seats by king Meurigs grant (as aboue is specified) or that getting to their ships,
+they withdrew into the Iles of Orkeneie, and there remained. Wiues they wanted
+also to increase their issue: and bicause the Britons thought scorne to match their
+daughters with such an vnknowne and new come nation, the Picts continued
+their first acquaintance with the Irish, and by intreatie obteined wines from them,
+<note place="marg">Picts marieng with the Irish doo couenant the succession of their kings.</note>
+with condition, that if the crowne should hap to fall in contention, they should
+yéeld thus much to the prerogatine of the woman, that the prince should be elected
+rather of the bloud roiall of the female kind than of the male. Which order (saith
+Beda) the Picts were well known to kéepe vnto his time.</p>
+<p>But howsoeuer we shall giue credit to this historie of the first comming of Picts
+into this land, if we grant that to be true which Geffreie of Monmouth reporteth
+of this victorie obteined by Marius against the Picts: yet haue I thought good to
+aduertise the reader, that the Britons of this Ile were disquieted by that nation
+long before the supposed time of the said king Marius. For Mamertinus in his
+oration intituled "Panegyricus, Max. Dictus" hath these words (speaking of the
+conquest which Iulius Cesar had héere against the Britons.) But in that age (saith
+he) Britaine was neither furnished with anie ships of warre for battell on the sea, and
+
+<!--<fw place="bot-right">"the"</fw>-->
+
+
+<pb n="80"/>
+
+<!--<fw place="top-left">"80"</fw>--><!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>-->
+
+
+the Romans after the warres of Affrike and Asia, were well practised with the late
+warres against the pirats, and after that against Mithridates, in which they were
+exercised as well by sea as land. Moreouer, the British nation was then vnskilfull,
+and not trained to feats of war, for the Britons then being onelie vsed to the Picts
+end Irish enimies people halfe naked through lacke of skill, easilie gaue place to
+the Romans force, so that Cesar might onelie as it were glorie in this, to haue
+passed in that iourneie ouer the ocean sea.</p>
+<p>Héereby it should séeme that the Picts and Irish did disquiet the Britons, before
+the comming of Iulius Cesar into this Ile of Britaine. But whether they inhabited
+<note place="marg">Sée <emph>Diodorus Siculus lib.</emph> 6. <emph>cap.</emph> 9. who saith they should inhabit a portion of Britaine.</note>
+at that time in some part of Ireland, or in some of the out Iles by Scotland, either
+in anie part of Germanie, or Scandinauia; or else whether they were alreadie
+setteled in the furthest parts of Scotland, as in Cathnesse, towards Dungesbie head:
+we haue not to affirme, other than that which in Scotland we haue written, in following
+Hector Boetius, whose opinion how farre it is to be suspected in matters of
+<note place="marg"><emph>Hect. Boetius.</emph></note>
+antiquitie, I leaue to the consideration of others. But for the first comming as well
+of the Picts as Scots (whom he maketh inhabitants within this Ile so long before)
+either the name of the one nation or the other is remembred to haue had anie
+gouernement heere, by anie ancient or approoued writer. I cannot persuade my
+selfe, that either Scots or Picts had anie setteled seats within the bounds of this Ile
+of Britaine, till after the birth of our sauiour: but that rather the Scots, as yet
+inhabiting in Ireland, and in the westerne Iles called by the Romane writers Hebrides,
+and the Picts, in the Iles of Orkneie called in Latine <emph>Orchades,</emph> did vse to
+make often inuasions vpon the Britons, dwelling vpon the coasts that lie néere to
+the sea side ouer against those Iles.</p>
+<p>From whense they comming ouer in such vessels or boats, as the fishermen doo
+yet vse, at length the Picts first about the yere of our Lord 290, as Humfreie Lhuid
+<note place="marg">Sée more héereof in England.</note>
+hath noted, entred generallie into Cathnesse, and other the north parts of Britaine,
+where they setteled themselues, and remooued the Britons that there inhabited before
+that time: and shortlie the Scots likewise came ouer and got seats in the west parts
+<note place="marg">The Picts when they first inhabited Britaine.</note>
+ouer against the north of Ireland, and in those westerne Iles, which Iles they
+first got into their possession. And in this sort those nations Picts and Scots came
+<note place="marg">The Scots in Britaine.</note>
+
+<note place="marg"><emph>Hum. Lhuid.</emph></note>
+first to inhabit héere in this our Ile of Britaine, as the said Humfreie Lhuid, not
+without aduised coniectures grounded vpon good reason and sufficient authoritie
+to lead him so to estéeme, hath written in his short commentaries of the description
+of Britaine.</p>
+<p>And verelie I thinke we may more safelie beléeue that which he auoucheth in
+this behalfe, than that which Hector Boetius setteth downe, sith for anie thing I
+can perceiue, his authorities bring no such warrant with them, but we may with
+good reason suspect them. But for the man himselfe, euen as he hath verie orderlie,
+and with no lesse cunning than eloquence set downe diuerse things incredible, and
+reported some other contrarie to the truth of the historie for the glorie of his
+nation, as we may take it; so in his excuse it may be alledged, that he was not the
+author of those matters, but wrote what he found in Cambell, Veremound, Cornelius
+<note place="marg">Gefferie Monmouth the translator not the author of the British historie.</note>
+Hibernensis, and such other, in like case as Gefferie of Monmouth wrote
+what he found in old ancient British monuments, &amp; was not the deuiser himselfe
+(as some haue suspected) of such things as in his booke are by him expressed. But
+now to returne to the Picts. It may be that they came at seuerall times in like
+<note place="marg">The doubt of the time of the comming of Picts and Scots into Britaine.</note>
+
+<note place="marg">Ferguse king of Scots.</note>
+
+<note place="marg">The marble stone.</note>
+manner as the Scots did out of Ireland, of whome the first is remembred to be
+Ferguse, the son of Ferquhard, a man right skilfull in blasoning of armorie, himselfe
+bare a lion gules in a field of gold. The marble stone wherof in the Scotish historie
+is mentioned, brought into Ireland by Simon Brechus, and kept till those daies as a
+pretious iewell, this Ferguse obteined towards the prospering of his iourneie: for
+
+<!--<fw place="bot-right">"that"</fw>-->
+
+
+<pb n="81"/>
+
+<!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>--><!--<fw place="top-right">"81"</fw>-->
+
+
+that it was thought, who so had the same in possession, could not but obteine souereigntie
+and rule ouer others as a king, namelie those of the Scotish nation. This
+stone Ferguse bringing into Scotland, left it there. But although that Ferguse be
+put in ranke among those Scotish kings that should reigne in Britaine, yet he bare
+small rule there, &amp; was diuers times beaten backe into Ireland, where finallie he
+was drowned by misfortune in the créeke of Knockfergus.</p>
+<note place="marg">Knockfergus.</note>
+<p>That he incountred with Coilus king of the Britons (as the Scots write) is not
+possible, as our author hath verie well noted; except they mistake the name of
+Coilus for Cailus, with whome the age of Ferguse might well méet: the rather, for
+that in the first yeare of Cailus reigne the Picts entered, Ferguse immediatlie after
+them, 330 yeares yer Christ was borne; where Coilus reigned in the yeare after the
+incarnation 124, about which time befell the second arriuall of the Picts in Britaine.
+<note place="marg"><date>124</date></note>
+And thus it may be they mistake, by errour of the name, Coilus for Cailus, and the
+second arriuall of the Picts for the first. But now to the course of the historie.
+Whilest the Picts were seated in the north of Britaine, and grew to a great multitude;
+the Irish made sundrie errands ouer to visit their daughters, nephues, and
+kinsfolks, and by their often comming and going they were aware of certeine
+waste corners, and small Ilands void of inhabitants, as that which seemed rather
+neglected and suffered to lie waste.</p>
+<p>Hereof they aduertised their princes, namelie Reuther or Reuda, who being descended
+<note place="marg">Reuther or Reuda.</note>
+of Ferguse, determined to inuest himselfe in certeine portions of land
+beside the Picts. He therefore well appointed passed ouer, and partlie by composition,
+and partlie by force, got possession of those quarters which were desolate,
+&amp; began to erect a kingdome there, by little and little increasing his limits: and
+finallie got betwixt the Picts and Britons, possessing that countrie which tooke the
+name of him called Reudersdahall, and now Riddesdale (as you would saie) Rheudas
+part; for Dahall in the Scotish toong signifieth a part. In these quarters he could
+not setle himselfe, but that he was oftentimes assailed by the Britons that bordered
+next vnto him, and at length his chance was to be slaine, but the kingdome continued
+still in the hands of his successors: and the Picts and Scots grew in friendship
+<note place="marg">The amitie betwixt Scots and Picts.</note>
+togither, permitting ech other to liue in quiet.</p>
+<p>The Scots nestled themselues in the Iles and coasts alongst the sea side. The
+Picts held the middle part. But shortlie after, the peace began to hang doubtfull
+betwixt them: for the diuersitie of people, place, custome and language, togither
+with the memorie of old grudges, mooued such gelousie and inward hate betwixt
+<note place="marg">Their falling out.</note>
+those nations, that it seemed they were readie to breake out into open dissention
+vpon the first occasion. And as in such cases there neuer wanteth one deuise or
+other to raise tumults: it chanced that certeine of the Scotish nobilitie had got
+out of Greece (as some write) a Molossian hound, which both in swiftnesse of foot,
+and pleasantnesse of mouth, was accounted peerlesse. This hound being stollen by
+<note place="marg">Strife about dog.</note>
+a Pict, was cause of the breach of peace; so that cruell wars thereof insued, as in
+the Scotish historie more at large appéereth. But where some write, that Eugenius
+should reigne ouer the Scots when this quarell fell out for stealing of this hound,
+Hector Boetius saith, it was in king Crathlinths daies. Morouer it shuld séeme by
+that which the same Boetius writeth, that the hound or greihound for the which
+this trouble rose, was not fetched so far as out of Grecia, but rather bred in Scotland:
+notwithstanding bicause the Latinists call such kind of dogs <emph>Molossi</emph> for
+that the first generation of them, or the like, came from a citie of Grecia called
+Molosse; it may be, that some haue thought that this greihound came from
+thense, for that he was so called after the name of that place from whense the bréed
+of him first came. But to returne to the historie.</p>
+
+<!--<fw place="bot-left">"VOL. VI."</fw>--><!--<fw place="bot-center">"M"</fw>--><!--<fw place="bot-right">"After"</fw>-->
+
+
+<pb n="82"/>
+
+<!--<fw place="top-left">"82"</fw>--><!--<fw place="top-center">"THE FIRST INHABITATION OF IRELAND."</fw>-->
+
+
+<p>After the Scots and Picts had tugged togither a while, at length one Carausius a
+<note place="marg">Carausius agréeth them.</note>
+
+<note place="marg">Anno Christi.</note>
+
+<note place="marg"><date>288</date></note>
+Briton laboured a friendship betwixt them, and bringing his purpose to passe, persuaded
+them to lend him their helpe to expell the Romans out of Britaine; but his
+hap was shortlie after to be slaine by the Romane capteine Alectus. And so new
+sturs were in hand betwixt the Britons and Romans, the Scots &amp; Picts for the most
+part taking part with the Britons, till at length Maximus the Romane lieutenant
+found means to set the Scots and Picts at variance, and ioining with the Picts in
+league, vsed their aid against the Scots, whome he so earnestlie pursued with all
+the power he might make, that in the end they were vtterlie expelled out of all the
+<note place="marg">The Scots expelled.</note>
+
+<note place="marg">See more of this matter in Scotland.</note>
+
+<note place="marg"><date>326</date></note>
+coasts of Britaine, so that they fled some into onè part, some into another, but the
+most number got them ouer into Ireland, and the Iles, where they remained for
+the space of fourtie thrée yeares, and then at length returned thither, vnder the
+leading of their prince Ferguse, being the second of that name, as they account
+him. From thensefoorth the Scots kept such foot in Britaine, that they incroched
+vpon their neighbors, in such wise as they waxed stronger than the Picts, whome
+in the end they quite rooted forth, and nestled themselues in their seats, although
+<note place="marg">The Picts rooted foorth by the Scots.</note>
+now at their first returne they concluded a firme amitie with the same Picts, that
+ioining their forces togither, they might the better make head against both Romans
+and Britons, whome they reputed as common enimies to them both.</p>
+<p>Thus the Scots a liuelie, cruell, vnquiet, ancient and victorious people, got place
+within this Ile of Britaine, mixed first with Britons, secondlie with Picts, thirdlie
+and chieflie with the Irish, which after this time left their name of Scots vnto those
+in Britaine, and chose rather to be called Irish: and then came vp the distinction
+of the name, as <emph>Scotia maior</emph> for Ireland, <emph>Scotia minor</emph> for the countrie inhabited
+<note place="marg"><emph>Giraldus Cambrensis.</emph></note>
+by the Scots within Britaine. But Cambrensis saith, that the Scots chieflie preuailed
+vnder the leading of six valiant gentlemen, sons to Muridus king of Vlster,
+who in the time of Neale, surnamed the great that inioied the nonarchie of Ireland,
+passing ouer into Scotland to succour their countriemen there, at length
+tooke vp for themselues certeine parcels of ground, which their posteritie were
+owners of in the time that Cambrensis liued, to wit, about the yeare of our Lord
+1200, who treateth hereof more largelie in his booke intituled "Topographia Britanniæ."
+Since which time they haue béene euer taken, reputed and named Scots,
+the Pictish nation being driuen into corners, albeit the mounteine parts and out Iles
+euen vnto this daie are inhabited with a wild kind of people called Redshanks,
+estéemed by some to be mingled of Scots and Picts.</p>
+<p>The Scots write, that their king Gregorie the sonne of Dongall, who began his
+<note place="marg">Gregorie king of Scots subdueth Ireland.</note>
+
+<note place="marg"><date>875</date></note>
+reigne in the yeare of our Lord 875, pretending a title to Ireland, as belonging to
+him by right of lawfull succession, made a iourneie thither, and within a small
+time made a conquest of the countrie. This Gregorie lieth buried in one of the
+out Iles called Iona, or Colmekill, where they speake naturallie Irish: and therefore
+some of the Scots would séeme to make the conquest of Henrie the second in
+Ireland, a reuolting from the right inheritors: although they doo confesse they
+can not tell how they came from the possession of it, otherwise than by forging a
+tale that they willinglie forewent it, as reaping lesse by reteining it, than they laid
+foorth, and so not able to discharge that which was to be defraied about the kéeping
+of it they gaue it ouer, persuading themselues that the kings of England haue
+gained little or nothing by the hauing of Ireland. And yet in the time whilest sir
+Henrie Sidneie was gouernour there, when the countie of Vlster was auouched to
+<note place="marg">Sir Henrie Sidneie.</note>
+belong vnto the crowne: it was prooued in open parlement, that the reuenues of
+that earledome, in the daies of Edward the third were reckoned, and found to
+amount vnto the summe of one and thirtie thousand marks yearelie, the same being
+
+<!--<fw place="bot-right">"but"</fw>-->
+
+
+<pb n="83"/>
+
+<!--<fw place="top-center">"THE FIRST INSTRUCTION OF IRELAND, &amp;c."</fw>--><!--<fw place="top-right">"81"</fw>-->
+
+
+but a fift part of Ireland: so that if things were well looked vnto, and such improuement
+made as might be, Ireland would suffice to beare the necessarie charges,
+and yéeld no small surplusage vnto the princes coffers.</p>
+</div>
+
+<div n="2" type="section">
+<head>The First Instruction of Ireland in the Christian Faith and Religion.</head>
+
+<p>But now as it falleth foorth in the historie. We haue thought good here to shew
+in what sort Ireland came to receiue the christian faith. We find in deed that immediatlie
+after Christes time, saint lames the apostle, &amp; other trauelling into these
+<note place="marg">Ireland instructed in the faith by saint Iames the apostle.</note>
+west parts, did first instruct the Irish people, and teach them the glad tidings
+the gospell, so that diuerse amongst them euen then were christened, and beléeued,
+but not in such numbers (as may be thought) whereby it should be said, that the
+countrie was generallie conuerted. Notwithstanding, the Scotish chronicles auouch,
+that in the daies of their king Fincomarke, who departed this life in the yeare of
+our redemption thrée hundred fiftie and eight, Ireland was conuerted to the faith
+by this meanes.</p>
+<p>A woman of the Pictish bloud chanced (saie they) to serue in those daies the
+queene of Ireland, which woman being a christian hir selfe, first instructed hir
+mistresse in the faith and true points of christianitie; and the quéene hir husband,
+who conuerted the whole Irish nation. Howbeit, by the report of the Irish writers
+themselues, this should not seeme altogither true: for they affirme, that their
+countrie was rather still esteemed as one of the vnchristened lies, till about the
+yeare foure hundred twentie and six, whilest Celestine the first of that name gouerned
+the sée of Rome, who vpon conference had with his cleargie, touching the
+restoring of the christian faith in the west parts of the world, greatlie decaied there
+by the heresie of Pelagius, vnderstood that Ireland also by reason of distance from
+the hart of christendome, and rudenesse of the nation, had receiued little fruit at
+all of true religion, a thing much to be lamented.</p>
+<p>Among other that then were assembled to treat of those matters was one Paladins
+<note place="marg">Paladius offereth to go into Ireland.</note>
+archdeacon of Rome, who offered his charitable trauell towards the conuersion of
+anie of those lands whither it shuld please them to appoint him to go. Celestine
+<note place="marg">He is consecrated bishop.</note>
+knowing the sufficiencie of the man consecrated him bishop, authorised his iourneie
+by letters vnder his seale, furnished his wants, and associating to him such religious
+persons and others as were thought necessarie to assist him, deliuered to him the
+bible with great solemnitie, &amp; other monuments in furtherance of his good spéed.
+At length he landed in the north of Ireland, from whense he escaped right hardlie
+<note place="marg">Paiadius landed in Ireland.</note>
+with his life into the lies adioining, where he preached he gospell, and conuerted
+no small number of Scots to the christian beliefe, and purged that part that was
+christened from the infection of the Pelagians, as in the Scotish historie more at
+large appéereth. He was required by the Scots that inhabited here in Britaine, to
+leaue the Iles and come ouer vnto them, there to instruct the people in the waie of
+true saluation, to the which with the popes licence he séemed willing enough: and the
+bishop of Rome the more readilie condescended thereto for that in the instant time,
+when Paladius was to depart, one Patrike attended at Rome, suing for licence to be
+sent into Ireland.</p>
+<p>The pope therefore granted that Paladius might passe ouer to the Scots in
+<note place="marg">Patrike sent into Ireland.</note>
+
+<note place="marg">Paladius appointed to go into Scotland.</note>
+
+<note place="marg">The towardnesse of the Irishmen to heare Patrikes preaching.</note>
+Britaine, and appointed Patrike to go with authoritie from him into Ireland; where,
+vpon his arriuall he found the people so well bent to heare his admonitions, contrarie
+to their accustomed frowardnesse, that a man would haue thought that had
+séene their readines, how that the land had béene reserued for him to conuert. And
+bicause it pleased God to bestow such an vniuersall benefit to this land by his
+meanes, we haue thought good in following our author herein, to touch some part
+of the course of hislfe. This Patrike in Latine called <emph>Patricius,</emph> was borne in the
+<note place="marg">Where saint Patrike was borne.</note>
+marches betwixt England and Scotland, in a towne by the sea side called Eiburne,
+
+<!--<fw place="bot-center">"M 2"</fw>--><!--<fw place="bot-right">"whose"</fw>-->
+
+
+<pb n="84"/>
+
+<!--<fw place="top-left">"84"</fw>--><!--<fw place="top-center">"THE FIRST INSTRUCTION OF IRELAND"</fw>-->
+
+
+whose father hight Calphurnius, a deacon and sonne to a priest: his mother named
+Conches, was sister to saint Martine that famous bishop of Towers in France.</p>
+<p>Patrike of a child was brought vp in learning and well instructed in the faith,
+<note place="marg">The life of saint Patrike in briefe.</note>
+and much giuen to deuotion. The Irishmen in those daies assisted with Scots and
+Picts were become archpirats, sore disquieting the seas about the coasts of Britaine,
+and vsed to sacke litle small villages that laie scattered along the shore, and would
+often lead awaie captiue the inhabitants home into their countrie. And as it
+<note place="marg">S. Patrike was takē prisoner when he was yoong.</note>
+chanced. Patrike being a lad of sixtéene yeares old, and a scholer then in secular
+learning, was taken among other, and became slaue to an Irish lord called Macbuaine,
+from whome after six yeares terme he redéemed himself with a peece of
+gold which he found in a clod of earth, that the swine had newlie turned vp as he
+followed them in that time of his captiuitie, being appointed by his maister to kéepe
+them. And as affliction commonlie maketh men religious, the regard of his former
+<note place="marg">Afffiction maketh men religious.</note>
+education printed in him such remorse and humilitie, that being thensefoorth weaned
+from the world, he betooke himselfe to contemplation, euer lamenting the
+lacke of grace and truth in that land: and herewith not despairing, but that in
+continuance some good might be wrought vpon them, he learned their toong perfectlie.
+And alluring one of that nation to beare him companie for exercise sake,
+he departed from thense, and got him into France, euer hauing in his mind a desire
+to sée the conuersion of the Irish people, whose babes yet unborne séemed to him in
+his dreames (from out of their mothers wombs) to call for cl ristendome.</p>
+<p>In this purpose he sought out his vncle Martine, by whose means he was placed
+<note place="marg">He passeth into France.</note>
+with Germanus the bishop of Auxerre, continuing with him as scholer or disciple
+for the space of fortie yeares: all which time he bestowed in like studie of the holie
+scriptures, praiers, and such godlie exercises. Then at the age of threescore and
+two yeares, being renowmed through the Latine church for his wisedome, vertue
+and skill, he came to Rome, bringing letters with him in his commendation from
+the French bishops vnto pope Celestine, to whom he vttered his full mind and secret
+vow, which long since he had conceiued touching Ireland. Celestine inuested
+him archbishop and primat of the whole Iland, set him forward with all fauour he
+<note place="marg">Patrike is inuested archbishop of Ireland.</note>
+could deuise, and brought him and his disciples onward to their countrie.</p>
+<p>In the thrée and twentith yeare therefore of the emperor Theodosius the yoonger,
+being the yeare of our Lord 430, Patrike landed in Ireland, &amp; bicause he spake
+<note place="marg"><date>430</date></note>
+the toong perfectlie, and withall being a reuerend personage in the eies of all men,
+manie listened and gaue good eare to his preaching, the rather for that (as writers
+haue recorded) he confirmed his doctrine with dluerse miracles : but speciallie those
+regarded his words before all others, they had some tast of the christian faith
+aforehand, either by the comming into those parties of Paladius, and his disciple
+one Albius an Irish bishop, or otherwise by some other: for it is to be thought,
+<note place="marg">Albius an Irish bishop, disciple to Paladius.</note>
+that continuallie there remained some sparke of knowledge of christianitie euer
+since the first preaching of the gospell (which was shortlie after the ascension of
+our sauiour) by saint lames (as before is mentioned.) In continuance of time Patrike
+wan the better part of that kingdome to the faith.</p>
+<p>Laigerius sonne of Neale the great monarch, although he receiued not the gospell
+<note place="marg">Laigerius son to Neale the great monarch of Ireland, permitteth the Irishmen to become christians.</note>
+himselfe, yet permitted all that would to imbrace it. But sith he refused to be
+baptised, &amp; applie to his doctrine; the bishop denounced against him a curse from
+God accordinglie, but tempered yet with mercie and iudgement, as thus: That
+during his life he should be victorious, but after him neither the kingdome should
+stand, nor his linage inherit. From thense he tooke his waie vnto Conill lord of
+<note place="marg">Conill lord of Connagh.</note>
+Connagh, who honourablie receiued him, and was conuerted with all his people;
+and after sent him vnto his brother Logan king of Leinster, whome he likewise conuerted.
+<note place="marg">Logan king of Leinster.</note>
+In Mounster he found great friendship and fauour by means of an earle
+
+<!--<fw place="bot-right">"there,"</fw>-->
+
+
+<pb n="85"/>
+
+<!--<fw place="top-center">"IN THE CHRISTIAN FAITH AND RELIGION"</fw>--><!--<fw place="top-right">"85"</fw>-->
+
+
+there, called the earle of Daris, who honoured him highlie, and gaue him a dwelling
+<note place="marg">The earle of Daris.</note>
+place in the east angle of Armagh called Sorta, where he erected manie celles
+and monasteries, both for religious men and women. He trauelled thirtie yeares
+in preaching through the land, planting in places conuenient bishops and priests,
+whose learning and vertuous conuersation by the speciall grace and fauor of God,
+established the faith in that rude nation. Other thirtie years he spent in his prouince
+of Armagh among his brethren, placed in those of religion, which
+by his meanes were founded, and so he liued in the whole about one hundred
+twentie two yeares, and lieth buried in Downe.</p>
+<p>Of saint Patrikes purgatorie ye shall find in the description of the countrie, and
+<note place="marg">S. Patrikes purgatorie.</note>
+therefore we doo here omit it. But yet bicause we are entered to speake of the firs
+foundation of churches and religious houses here in Ireland, in following our author
+<note place="marg">Religious houses &amp; churches founded.</note>
+in that behalfe: we will speake somewhat of such other holie men and women
+as are renowmed to haue liued in Ireland, as ornaments to that lie, more glorious
+than all the triumphs &amp; victories of the world, if their zeal had béene seasoned
+with true knowledge of the scriptures: as it maie well be that in some of
+them it was, howsoeuer mistaken by the iudgement and report of the simple, which
+<note place="marg">Mens doings mistaken.</note>
+hath raised not onelie of these persons, but also of the verie apostles themselues,
+certeine fantasticall tales, which with the learned are out of all credit. But this
+matter I will leaue to diuines to discusse, trusting that the reader will content himselfe
+to heare what we find recorded by old writers, which we shall set downe, and
+offer to their considerations to thinke thereof as reason maie best mooue them.</p>
+<p>Giraldus Cambrensis telleth, that in saint Patrike time florished saint Bride the
+<note place="marg"><emph>Giral. Camb.</emph></note>
+virgine, and saint Colme, which two, with the same Patrike, were buried in Downe
+(as in the Scotish historie ye maie find) and (as the same Giraldus saith) their three
+bodies were found there shortlie after the conquest. Sir Iohn Conweie being president
+<note place="marg">Sir Iohn Conweie president of Vlster.</note>
+of Vlster, in viewing the sepulture, testified to haue séene thrée principall
+iewels, which were then translated, as honourable monuments woorthie to be preserued.
+Of saint Colme it is doubted in what age he liued. Briget, otherwise
+<note place="marg">S. Colme.</note>
+called Bride, was base daughter to one Dabtactius, a càpteine in Leinster, who
+perceiuing the mother with child, sold hir secretlie (fearing the gealousie of his
+wife) to an Irish Peet, reseruing to himselfe the fruit of hir wombe. She was
+<note place="marg">Péet, that is, Magus in Latine, or (as we may say) a magician or soothsaier in English.</note>
+
+<note place="marg">An. Dom. 439.</note>
+there deliuered of this Briget, whome the Péet trained vp in learning, and vertuous
+education, and at length brought hir home to hir father.</p>
+<p>The damsell also was instructed in the faith by saint Patrike, that preached then
+in those quarters, whervpon she became so religious and in iudgement, that
+not onlie the multitude of people, but also a whole synod of bishops assembled
+<note place="marg">The estimatiŌ wherein she was had.</note>
+néere to Dublin to heare hir aduise in weightie causes, such estimation they had of
+hir. One fact of hir being yet a child, made hir famous. The king of Leinster
+<note place="marg">The king of Leinster.</note>
+had giuen to hir father Dubtactius as a token of his good liking towards him for his
+valiant seruice, a rich sword, the furniture whereof was garnished with manie
+costlie iewels.And as it chanced, the damsell visiting the sicke neighbours diuerslie
+distressed for want of necessarie reliefe (hir father being a sterne man, and
+his ladie a cruell shrew) she could deuise no other shift to helpe to reléeue the want
+of those poore and needic people, but to impart the same iewels of that idle swoord
+among them. This matter was heinouslie taken, and being brought to the kings
+eares, it chanced that shortlie after he came to a banket in hir fathers house, and
+calling the maid afore him that was not yet past nine yeres of age, he asked hir how
+she durst presume to deface the gift of a king in such wise as she had doon his ? She
+answered that the same was bestowed vpon a better king than he was, whom (quoth
+she) finding in such extremitie, I would haue giuen all that my father hath, and all
+that you haue yea your selues too &amp; all, were yee in my power to giue, rather
+
+<!--<fw place="bot-right">"than"</fw>-->
+
+
+<pb n="86"/>
+
+<!--<fw place="top-left">"86"</fw>--><!--<fw place="top-center">"THE FIRST INSTRUCTION OF IRELAND"</fw>-->
+
+
+than Christ should starue. She professed virginitie, and allured other noble yoong
+<note place="marg">She professed virginitie.</note>
+damsels vnto hir fellowship, with whome she continued in hir owne monasterie,
+where she was first professed, vntill the yeare of our Lord 500, and then departing
+<note place="marg">An. Dom. 500.</note>
+
+<note place="marg">Briget departed this life.</note>
+this life, shee was buried in Downe in saint Patriks toome.</p>
+<p>Giraldus Cambrensis reporteth of his owne knowledge, that among other monuments
+<note place="marg">A cŌcordance of the foure euangelists.</note>
+of hirs, there was found a concordance of the foure euangelsts, séeming to
+be written with no mortall hand, beautified with mystical pictures in the margent,
+the colours and cunning workemanship whereof at the first blush appeared darke
+and nothing delectable, but in the héedful view of the diligent beholder verie
+liuelie and woonderfull artificiall. Cenanus that was first a souldier, succéeded
+<note place="marg">Cenanus first a man of war, and after a bishop.</note>
+saint Patrike in the see of Armagh, after he had certeine yeares followed the
+warres. Brendan abbat at the age of ten yeares was of such incomparable holinesse
+<note place="marg">Abbat Brendan.</note>
+(as they saie) and therwith so wise and learned, that his father and mother,
+thinking themselues to haue gained the most worthie fruit that might insue of their
+mariage, by mutuall consent professed continencie, and abandoned matrimoniall
+companie. He flourished in the daies of saint Briget, and liued in familiar societie
+with saint Arons the bishop, and Fintan the abbat.</p>
+<p>Madoc <emph>aliâs</emph> Edan of noble parentage taken prisoner by the king of Temore,
+<note place="marg">Madoc.</note>
+and kept in his court with diuerse yoong men his schoolefellowes, openlie adiured
+the king to licence him and them to depart, that they might serue God as they were
+accustomed, the which being now kept in sunder and restreined of libertie, they were
+forced to discontinue. Hervpon immediatlie they were dismissed. He died bishop
+of Fernes, and laid the foundation of that burrow. His successor Melingus, although
+<note place="marg">Melingus.</note>
+he was bishop, gaue himselfe yet to voluntarie labour, and with his owne
+hands deriued and brought a running spring to his monasterie, induring that trauell
+daily after praier and studie for the space of eight yeares togither.</p>
+<p>Fintan abbat was had in such reuerence, that whereas Colme king of Leinster
+<note place="marg">Colme king of Leinster.</note>
+kept Cormake the kings son of Tensill prisoner, he went boldlie with twelue of his
+disciples through the prease of all the souldiors, and in sight of the king was suffered
+to borow the yoong prince. For the Irish are not sterne against those of whom
+they haue conceiued an opinion of holinesse. I remember (saith our author) that
+Cambrensis writeth himselfe merilie to haue obiected to Morice then archbishop of
+Cashill, that Ireland in so manie hundred yeares had not brought foorth one martyr.
+The bishop answered pleasantlie (alluding to the late dispatching of Thomas archbishop
+<note place="marg">The answer of the archbishop of Cashill to Giraldus Cambrensis.</note>
+of Canturburie) Our people (quoth he) notwithstanding their other enormities,
+yet haue spared euer the bloud of vertuous men. Marie now we are deliuered
+to such a nation that is well acquainted with making martyrs, so that from
+hensefoorth I trust no complaint shall néed for want of martyrs. Malachias was
+<note place="marg">Malachias.</note>
+borne in Armagh of a noble progenie, brought vp in vertue by the example of his
+mother, and trained foorth in learning, profited greatlie in deuotion: so that being
+yet but a verie babe, he was espied diuerse times to steale awaie from his companions
+to praie in secret. He was so graue and modest, that of himselfe he chose the
+most graue and seuere schoolemaister, refusing an excellent clearke, because he
+saw him somewhat lightlie demeaning himselfe at game. In the beginning of his
+youthfull yeares, he became the disciple of Imarius an old recluse, whose austeritie
+of conuersation the whole towne had in great reuerence. There he became a deacon,
+and at fiue and twentie yeares a priest.</p>
+<p>The archbishop, for the fame and the opinion of his woorthinesse, receiued him to
+be assistant to him in office, in the which he so behaued himselfe, that he reformed
+superstitions, and reuiued the force of religion, namelie in the vniformitie of their
+church seruice, wherin before time they iarred. The famous monasterie of Banchor
+<note place="marg">The monasterie of Banchor repared.</note>
+he reedified of the patrimonie and legacies by his vncle left him. The same
+
+<!--<fw place="bot-right">"monasterie"</fw>-->
+
+
+<pb n="87"/>
+
+<!--<fw place="top-center">"IN THE CHRISTIAN FAITH AND RELIGION."</fw>--><!--<fw place="top-right">"87"</fw>-->
+
+
+monasterie was of old time gouerned by Congellus, and after him by Columbanus
+the father of manie religious houses in France. This abbeie being spoiled and
+nintie of his brethren murdered in one day by the prior, the possessions whereof
+being come to the hands of Malachias by his vncles assignement, he restored foorthwith,
+and aduanced the foundation. At the age of thirtie yeares he was by canonicall
+election forced to accept the bishoprike of Conereth, a people of all the
+Irish then most sauage and wild, whome with inestimable trauell he reclamed from
+their beastlie maners. In the meane while died Celsus bishop of Armagh, after
+whome succéeded Malachias, at the age of eight and thirtie yeares. But before
+this, neere hand the space of two hundred yeares togither, a custome had crept
+into the countrie, that the metropolitane sée was conferred vpon such bishops as
+<note place="marg">Maried bishops held the see successiuelie and of one familie, neither would the Irish haue had anie other than of the house.</note>
+
+<note place="marg">See saint Barnard <emph>In vita Malachiœ. Bale, &amp;c.</emph></note>
+
+<note place="marg">The bible and staffe.</note>
+were maried, and were of the bloud roiall, in maner by way of inheritance.
+Wherefore Nigellus or Neale the next of kinred, animated by the parcialitie of
+some princes, and getting into his custodie the bible and staffe, and other monuments
+of saint Patrike, wherevnto opinion of the common people tied the prelacie,
+came to his palace with a band of souldiors to haue slaine the bishop. When all
+the people wept and houled for his perill, he alone stepped into the bosome of his
+enimies, demanding what was their purpose? The bloudie souldiors letting fall
+their weapons, in stead of executing the pretensed murtherer, fell to reuerence him,
+and at length departed from him as friends.</p>
+<p>Thrée yeares he sat in the primasie rather to discontinue the horrible corruption
+<note place="marg">For lineall descent of bishops.</note>
+before vsed, than with intent to settle himselfe there. After he had remoued the
+abuse, he procured Orlasius to succéed him in the archbishops sée, and he returned
+to his former see of Downe, to the which as then was annexed the bishoprike of
+Coner. But Malachius vnderstanding that in times past they were six seuerall sées,
+he diuided them againe, and ordeined an other to the bishoprike of Coner, desirous
+rather to lessen his eure than to inlarge the fruits by taking more charge vpon him.
+Malachias being demanded of his brethren the monkes of Benchor, where and
+when he would wish to die and to be buried, if it laie in his choise? He answered:
+If in Ireland, beside the bodie of saint Patrike: if beyond the seas, at Clareuale
+where saint Barnard was then resiant, and in the feast of Alsoules. He purposed
+within few daies to sue to pope Eugenius for increase of the number of metropolitans,
+which request was shortlie after accomplished. And in this viage which he
+thus made, he staied at Clareuaie, and there diuerse times openlie foreshewed, that
+the yeare of his departure foorth of this world was come; and accordinglie when
+he had taken leaue of sant Barnard and the brethren, he went downe from his
+chamber to the church and there did communicat. Which doone, he returned to
+his lodging, and there on Alsouls daie in the yeare of his age 54, he gaue vp the
+ghost, so mildlie and quietlie, that it séemed rather a sléepe than a death.</p>
+<p>Malchus, though borne in Ireland, yet he spent the most part of his time in the
+<note place="marg">Malchus.</note>
+monasterie of Winchester in England, and from thense was taken and admitted
+bishop of Lismore. Saint Barnard remembreth of him, by occasion he cured a lunatike
+child in confirming, else as they termed it) in bishopping him. This miracle
+séene and confessed by manie hundreds of people, was blowen through the world.
+The same time happened discord betwixt the king of Mounster and his brother, and
+<note place="marg">Discord betwéene the king of Mounster and his brother.</note>
+as the matter was handled, the king was ouermatched and fled into England, where
+he visited Malchus in his abbeie, and would by no meanes depart from him; but
+remaine there vnder his rule and gouernment, so long as it pleased God to denie
+him quiet returne into his countrie: he contented himselfe with a poore cell, vsed
+dailie to bath himselfe in cold water, to asswage the wanton motions of his flesh,
+and for his diet receiued none other delicats than bread, water, and salt, day and
+night, sobbing and bewailing with great remorse of conscience his former misde
+<!--<fw
+place="bot-right">"mened"</fw>-->
+
+
+<pb n="88"/>
+
+<!--<fw place="top-left">"88"</fw>--><!--<fw place="top-center">"THE SUNDRIE INUASIONS OF IRELAND."</fw>-->
+
+
+mened life. At length the other kings and people of Ireland began to repine at
+the vsurper, set vpon him with open war, vanquished him in a pitcht field, and
+called home the rightfull prince his brother againe, to resume his kingdome, who
+with manie earnest persuasions of Malchus and of Malachias could vneth be brought
+to forsake that trade of life and companie, the which he had with such delectation
+inured himselfe vnto.</p>
+</div>
+
+<div n="3" type="section">
+<head>The Sundrie Inuasions of Ireland.</head>
+
+<p>Thus far of the Irish saints. Of the which, as some of them are to be estéemed
+right vertuous and godlie men, so other of them are to be suspected as persons
+rather holie by the superstitious opinion of the people, than indued with anie such
+knowledge of true godlinesse and sincere religion, as are woorthie to be registred in
+the number of those that of right ought to passe for saints, as by certeine late
+writers may appeare. But this we leaue to the iudgement of the aduised reader,
+<note place="marg"><emph>Fox.</emph></note>
+
+<note place="marg"><emph>Bale.</emph></note>
+for that in such matters we mind not to preiudice anie mans opinion, but onelie
+wish the reader to take héed how he giueth credit to that which oftentimes is found
+written by authors touching feigned miracles, and other vaine superstitious dealings,
+wherethrough manie zealous persons haue often beene deceiued. Now therefore to
+leaue saints, and returne to other matters touching the Irish historie. In the yeare
+<note place="marg"><date>586</date></note>
+
+<note place="marg">The Norwegians scowre the seas, and inuade the Iles of Orkeneie.</note>
+586; the Norwegians had got dominion ouer the Ilands in the northwest ocean
+called the lies of Orkeneie, and scowred the seas, that none other nation durst
+vnneth appeare in sight for dread of them. A people giuen greatlie to séeke the
+conquests of other realmes, as they that could not faile to find more warme and
+fruitfull places for to inhabit than their owne. These hot fellowes chanced to
+<note place="marg">They inuade Ireland.</note>
+light into Ireland by this meanes. Careticus the king of Britaine ran into such hatred
+of his people, that they raised warres against him. The Saxons that possessed
+now six seuerall kingdomes in the lie of Britaine, reioised not a litle at this ciuill
+discord betwixt the Britaine king and his subiects.</p>
+<p>Wherevpon meaning to make a full conquest of the Britains, &amp; vtterlie to expell
+them foorth of all the lie, he assembled their powers, &amp; ioined to the same Gurmundus,
+a notable rouer of the Norwegians, who hauing at all times a nauie in
+<note place="marg">Gurmundus an archpirat of the nat on of Norwaie.</note>
+a readinesse, and men to furnish it, holpe the Saxons to chase the Britains into the
+marches of Wales. For from thense (being retired into the mounteins and woods)
+they could not driue them. This Gurmound (as some thiuke) builded at the same
+time the towne of Gurmondchester, and after being assisted by the Saxons, made
+a viage into Ireland, where he sped not greatlie to his desire, and therefore the
+Irish account not this for anie of their conquests, as some of their antiquaries informed
+our author. Gurmound therefore finding but sorrie successe, built a few
+<note place="marg"><emph>Campion.</emph></note>
+slight castels and forts in the frontiers, and so left the land, and sailed from thence
+into France, where at length he was slaine. Our chronicles in déed name him king
+of Ireland; but the Irish affirme that before Turgesius, there was none of the
+<note place="marg">Turgesius.</note>
+easterne people that obteined dominion in their countrie.</p>
+<p>Giraldus Cambrensis to make the matter whole (a Gods name) thinketh Turgesius
+to haue conquered the land, as lieutenant or deputie vnder Gurmundus.
+But this being granted, there ariseth a more manifest contiadiction than the former:
+for he himselfe numbreth betwixt Laogirius king of Ireland that liued in the yéere
+<note place="marg">Laogirius.</note>
+
+<note place="marg"><date>430</date></note>
+foure hundred and thirtie, and Edlumding, whome Turgesius vanquished, 33 monarchs,
+whose reigns compreheuded foure hundred yeares, so that Turgesius liued
+in the yeare after the incarnation eight hundred and thirtie. Then it is too plaine
+that he could not haue anie dooings with Gurmundus, who ioined with the Saxons
+against Careticus, in the yeare fiue hundred foure score and six. This knot (saith
+<note place="marg">The doubt resolued.</note>
+our author) might be vntwined with more facilitie thus. Gurmundus made much
+of that little he got, and wrote himselfe king, which title our histories doo allow
+him, because he made the waie plaine, inioied it a while, and set open the gate
+
+<!--<fw place="bot-right">"vnto"</fw>-->
+
+
+<pb n="89"/>
+
+<!--<fw place="top-center">"THE SUNDRIE INUASIONS OF IRELAND."</fw>--><!--<fw place="top-right">"89"</fw>-->
+
+
+vnto his countrimen. Turgesius atchiued the whole exploit, and brought it to perfection,
+and in these respects either of them may be called king and conqueror of
+Ireland.</p>
+<p>Turgesius therefore with his Norwegians the second time inuaded Ireland, susteined
+<note place="marg">Turgesius what he did.</note>
+diuerse losses and ouerthrowes: but in the end fortifieng himselfe by the sea coasts,
+&amp; receiuing thereby his fréends at his pleasure, waxed so strong that he subdued
+the whole Ile, still erecting castels and fortresses as he wan ground, so to maister
+<note place="marg">He buildeth fortresses.</note>
+the Irish that with such manner of strengths of wals and rampires had not as yet
+béene acquainted: for till those daies they knew no defense but woods, bogs, or
+strokes. Turgesius so brideled the Irish kings, and kept them in awe, that without
+<note place="marg">Turgesius reigned in Ireland thirtie yeares.</note>
+interruption he reigned like a conqueror thirtie yeares. He cried hauocke &amp; spoile
+where anie rich preie was to be had, sparing neither those of the laitie nor of the
+clergie, neither church nor chappell, abusing his victorie verie insolentlie. Omalaghlilen
+<note place="marg">Omalaghlilen king of Meth.</note>
+king of Meth was in some trust with the tyrant. His onelie daughter
+Turgesius craued for his concubine. The father hauing a readie wit, and watching
+his time, began to breake with Turgesius in this wise: Sauing your fansie my lord
+(quoth he) there are diuerse ladies of bloud in this countrie méeter bedfellows for
+a king than that browne gristle: and therewith he began to reckon vp a number of
+his néeces and cousines, indowed (as he set them foorth) with such singular beautie,
+as they séemed rather angels than mortall creatures. The tyrant as it were rauished,
+and doting in loue of those peereles péeces before he saw them, by reason
+of such excéeding praises as he thus heard of them, doubted yet least Omalaghlilen
+<note place="marg">The policie of Omalaghlilen.</note>
+extolled them to preserue his daughter out of his hands: and the subtill father
+cloked his drift with modest behauior, lingering time to inflame the leachers follie,
+as he that wished anie thing more to be suspected, than that which he meant most
+earnestlie to bring to passe.</p>
+<p>At length, when Turgesius séemed to take his delaieng thus of time somewhat
+displeasantlie, he vsed this or the like speech: "If I should sale (quoth he) that I
+gaue you my sole daughter with goodwill to be defloured, your high wisdome would
+soone ghesse that I did but flatter you; and yet if ten daughters were déeret to
+me than your good pleasure and contentation, by whose bountifull goodnes both
+she, &amp; I, and we all are supported, I were vnwoorthie that secret and nere fréendship
+wherin it liketh you to vse me. As for the wench, it will be in part honorable
+for hir to be required to the bed of such a prince, sith quéenes haue not sticked to
+come from farre, and yeeld the vse of their bodies to noble conquerors, in hope by
+them to haue issue. And howsoeuer it be taken, time will weare it out, and
+redéeme it; but such a fréend as you are to me and mine, neither I nor mine shall
+liue to see. And verelie I meane not to hazard your displeasure, if it were for a
+greater matter than the value of twentie maidenheads; séeing fathers haue not
+sticked to giue vp their owne wiues to quench the lusts of their sons. Therefore
+am I thus agréed, name the daie and place, separat your selfe from the view of
+your court, conferre with those that haue a deintie iusight, &amp; skilfull eies in discerning
+beuties; I will send you my daughter, &amp; with hir the choise of twelue or
+sixteene gentlewomen, the meanest of the which may be an empresse in comparison.
+When they are before you, make your game as you like, and then if my
+child please your fantasie best, she is not too good to be at your commandement:
+onelie my request is, that if anie other shall presume vpon your leauings, your
+maiestie will remember whose child she is."</p>
+<p>The liberall proffer was of Turgesius accepted (whose desire was most iusatiable)
+with manie good words, thanks, &amp; faire promises. To be short, the same daie
+Omalaghlilen put his daughter in prince-like apparell, attired after the trimmest
+wise, and with hir sixteene proper yoong men beautifull and amiable to behold:
+<note place="marg">The like was practised by Alexander son to Amyntas king of Macedon against the Persian ambassadors.</note>
+
+<note place="marg"><emph>Carian lib.</emph> 3. <emph>fol.</emph> 109.</note>
+
+<!--<fw place="bot-left">"VOL. VI."</fw>--><!--<fw place="bot-center">"N"</fw>--><!--<fw place="bot-right">"and"</fw>-->
+
+
+<pb n="90"/>
+
+<!--<fw place="top-left">"90"</fw>--><!--<fw place="top-center">"THE SUNDRIE INUASION OF IRELAND."</fw>-->
+
+
+and so being sent to the king were presented vnto him in his priuie chamber, hauing
+none about him but a few dissolute youthfull persons; whervpon those disguised
+yoong striplings drew foorth from vnder their long womanish garments their skeins,
+and valiantlie bestierring themselues, first stabbed their weapons points through the
+bodie of the tyrant, and then serued all those youths that were about him with the
+like sawce, they making small or no resistance at all. The brute of this murther
+was quicklie blowne abrode through all Ireland: and the princes readie to catch
+hold on such aduantage, rose in armes with one assent, in purpose to deliuer themselues
+from bondage, and recouer libertie.</p>
+<p>All Meth and Leinster were speedilie got togither, resorting vnto Omalaghlilen
+<note place="marg">The persuasion of Omalaghlilen.</note>
+the author of this practise, who lightlie leapt to horsse, and commending their
+forward redinesse in so naturall a quarell, said: "My lords and fréends, this case
+neither admitteth delaie, nor requireth policie; hart and hast is all in all. Whilest
+the matter is fresh and greene, and that some of our enimies lie still and sléepe,
+some lament, some cursse, some are togither in councell, and all the whole number
+dismaied: let vs preuent their furie, dismember their force, cut off their flight,
+seize vpon their places of refuge and succour. It is no victorie to plucke their
+feathers, but to breake their necks; not to chase them in, but to rowse them out;
+to weed them, not to rake them; not to tread them downe, but to root them vp.
+This lesson the tyrant himselfe did teach me. I once demanded of him as it were
+in a parable, by what good husbandrie the land might be rid of certeine rauening
+foules that annoied it. He aduised vs to watch where they bred, and to fire their
+nests about their eares. Go we then vpon these coruorants which shrowd themselues
+in our possessions, and let vs so destroie them, that neither nest nor root,
+neither séed nor stalke, neither branch nor stumpe shall remaine of this vngratious
+generation." Scarse had he ended his tale, but that with great showts and clamors
+they extolled the king, as defendor of their liues and liberties; assuring them both
+of their bold and hardie stomachs and speedfull expedition ioined with their confederats,
+and with a running camp swept euerie corner of the land, rased the castels
+to the ground, chased awaie the strangers, slue all that abode battell, ech man recouering
+his owne, with the state of gouernment.</p>
+<p>Thus in effect haue the Irish writers reported of Turgesius a Norwegian, whether
+he did reigne before the supposed time of Gurmond, or whether that he came
+thither as lieutenant to him: which if it shuld be true, no doubt the same Gurmond
+<note place="marg">Gurmond.</note>
+was some king of the Danes, or Norwegians, and not of the Affricans (as some of
+our countrimen name him.) Which error is soone committed, in taking one heathenish
+nation for another, as those men haue doone that haue named the Hungarians
+(when they did inuade Gallia before they were christians) Saraceus. And
+so likewise might that author (whosoeuer he was) whome Geffreie of Monmouth
+followeth, finding Gurmond written to be a king of the miscreants, mistake the
+Norwegians for Affricans, because both those nations were infidels: and therfore
+sith happilie the Affricans in the daies when that author liued, bare all the brute
+aboue other heathenish nations then, as the Turks doo now, he named them Affricans.
+Howsoeuer it was, certeine it is that the Danes or Norwegians made sundrie
+inuanious into Ireland, and that at seuerall times. But for Turgesius, whether he
+were an absolute king, or but a lieutenant of some armie, vnder some other king
+named Gurmound, or peraduenture Gormo, (as such names are soon corrupted) I
+cannot affirme, bicause that no certeine time is set downe in the chronicles which
+are written of those nations, whereby they may be so reconciled togither, as suffieeth
+to warrant anie likelie coniecture in this behalfe.</p>
+<p>But if I should saie (with the readers licence) what I thinke, this Gurmound
+whatsoeuer he was, made no such conquest of Ireland, nor of this our Ile of Bri
+<!--<fw
+place="bot-right">"taine"</fw>-->
+
+
+<pb n="91"/>
+
+<!--<fw place="top-center">"THE SUNDRIE INUASIONS OF IRELAND."</fw>--><!--<fw place="top-right">"91"</fw>-->
+
+
+taine (as by some writers is supposed) but yet might he peraduenture land in Wales,
+and either in fauor of the Saxons then enimies to the Britons, or in hatred of the
+christian name persecute by cruell wars the British nation, and vse such crueltie as
+the heathenish nations then were accustomed to practise against the christians in
+all places where they came, and chanced to haue the vpper hand. The chiefest
+cause that mooueth me to doubt thereof, is for that I find not in anie of our
+approoued ancient English writers, as Beda, Malmesburie, Huntington, Houeden,
+or such like, anie plaine mention made of him; whereby I may be throughlie induced
+to credit that which I find in Geffrie Monmouth and others recorded of him,
+except his name be mistaken, and so thereby some error crept in, which I am not
+able to resolue.</p>
+<p>But sith we are entred to speake thus farre of the Norwegians, here by the waie
+I haue thought it not impertinent to the purpose of this Irish historie, to write
+what we find recorded in the chronicles of those northernlie regions, Denmarke,
+Norweie, and Sweden, written by Saxo Grammaticus, Albertus Crantz, and others,
+<note place="marg"><emph>Saxo Gram.</emph></note>
+
+<note place="marg"><emph>Alber. Crantz.</emph></note>
+concerning the sundrie inuasions made by the Danes, Norwegians, or Normans
+(whether we list to call them) into Ireland. Fridleie or Fridlenus king of Denmarke
+<note place="marg">Fridlenus.</note>
+that succeeded Dan the third of that name, surnamed the Swift, arriuing in
+Ireland, besieged the citie of Dublin, &amp; perceiuing by the strength of the walles,
+<note place="marg">Dublin besieged.</note>
+that it would be an hard matter to win it by plaine force of hand without some
+cunning policie, he deuised to catch a sort of swallowes that had made their nests
+in the houses within the towne, tied wild fier to their wings, and therewith cast
+them vp, and suffered them to flie their waies, wherevpon they comming to their
+<note place="marg">Dublin set on fire, and won by the Danes.</note>
+nests, set the houses on fier, which whiles the citizens went about to quench, the
+Danes entred the citie and wan it.</p>
+<p>Secondlie, Frotho king of Denmarke, the third of that name, after he had subdued
+<note place="marg">Frotho the third.</note>
+the Britons here in this Ile, made a voiage into Ireland also, where he landed
+with some danger: for the Irishmen had strawed all alongest the shore a great
+<note place="marg">Caltrops strawed by the Irish to annoie the Danes.</note>
+number of caltrops of iron, with sharpe pricks standing vp, to wound the Danes in
+the féet, as they should come foorth of their ships to follow them, for they meant
+to flee ofa pretensed policie for that purpose. But Frotho perceiuing their deceitfull
+craft, followed them more aduisedlie than rashlie, and so put their capteine
+named Keruill to fight, and slue him in the field; whose brother remaining in life,
+<note place="marg">Keruill gouernour of Irishmen slaine.</note>
+&amp; mistrting his owne puissance, yéelded himselfe to Frotho, who diuiding the
+preie amongst his souldiers and men of warre, shewed thereby that he onelie sought
+for glore and not for gaine, reseruing not a pennie of all the spoile to his owne vse.
+After this, in the daies of king Frotho the fourth of that name, which reigned ouer
+<note place="marg">Frotho the fourth.</note>
+
+<note place="marg">Starcater a giant.</note>
+the Danes, one Starcater a giant, in companie of Haco a Danish capteine, made a
+iournie likewise into Ireland, where in the same season, one Huglet reigned as
+<note place="marg">Huglet king of Ireland.</note>
+monarch ouer that lie: who hauing plentie of treasure, was yet so giuen to couetousnesse;
+that by such vnprincelie parts as he plaid, to satisfie his greedie desire to
+fill his coffers, he became right odious, and farre out of all fauor with his subjects.
+Yet there were of his nobles, verie valiant and worthie men, namelie two, Gegathus,
+<note place="marg">Gegathus &amp; Suibdauus.</note>
+&amp; Suibdauus: wherevpon, when it came to passe that he should ioine in battell
+with his enimies the Danes, the most part of all his people fled out of the field, so
+that Gegath and Suibdaue were in maner left alone. For they regarding their
+honors and dutie that apperteined to men of their calling, would not flie, but manfullie
+did what laie in their powers to beat backe the enimies, insomuch that
+Gegathus raught Haco such a wound, that the vpper part of his liuer appeared
+<note place="marg">Haco wounded.</note>
+bare. He also wounded Starcater in the head right sore, so that in all his life daies,
+<note place="marg">Starcater wounded.</note>
+
+<note place="marg">Huglet slaine.</note>
+he had not before that time reoeiued the like hurt: in the end yet Huglet the monarch
+of Ireland was slaine, and Starcater obteining the victorie, did make great
+
+<!--<fw place="bot-center">"N 2"</fw>--><!--<fw place="bot-right">"slaughter"</fw>-->
+
+
+<pb n="92"/>
+
+<!--<fw place="top-left">"92"</fw>--><!--<fw place="top-center">"THE SUNDRIE INUASIONS OF IRELAND."</fw>-->
+
+
+slaughter of the Irish subiects, the which had followed their king to this battell,
+being men (thorough his corrupt example and slouthfull trade of life) degenerat
+from all warlike order and vse of manlike exercise.</p>
+<p>After this, the Danes went vnto Dublin, which towne they easilie tooke, and
+<note place="marg">Dublin woon.</note>
+found such store of riches and treasure therein, that euerie man had so much as he
+could wish or desire; so as they needed not to fall out among themselues for the
+partition, sith there was so much for each mans share as he could conuenientlie
+carrie awaie. Thus hath Saxo Grammaticus written in effect of Starcaters comming
+into Ireland: of whome the Danish writers make such mention, both for his huge
+stature and great manhood. Some haue thought, that Starcater was the verie same
+man which the Scots name Finmaccole, of whome in the Scotish historie we haue
+made mention: but whereas the Scotish writers affirme that he was a Scotish man
+borne, the Danish writers report that he was borne in Eastland, among the people
+called Estones. Reignirus the sonne of Siwardus the second king of Denmarke,
+<note place="marg">Reignirus.</note>
+hauing atchiued sundrie victories in England and Scotland, and subdued the Iles
+of Orkneie, he passed likewise into Ireland, slue Melbricke king of that land, and
+<note place="marg">Melbricke king of Ireland slaine.</note>
+tooke the citie of Dublin by siege, where he remained the whole tearme of twelue
+moneths before he departed from thense.</p>
+<p>After this, Gurmo the third of that name king of Denmarke, although an infidell
+<note place="marg">Gurmo the third of that name king of Denmarke.</note>
+
+<note place="marg">He marrieth Thira daughter to Etheldred king of England.</note>
+
+<note place="marg">Canute and Harold.</note>
+himselfe, and a cruell persecutor of the christian religion, yet tooke to wife a
+christian ladie named Thira, daughter to Etheldred king of England, who had issue
+by him two sonnes Knauht, or Canute, and Harold, proouing men of high
+valiancie and notable prowesse, insomuch that after the atchiuing of diuerse worthie
+victories against the enimies néere home, they made a voiage into England, not
+sparing to inuade the dominions of their grandfather king Etheldred: who rather
+reioising, than séeming to be offended with those manlike enterprises of his cousins,
+proclamed them his heires to sucéed after him in all his lands and dominions, although
+of right the same were to descend first vnto their moother Thira. The
+yoong men being incouraged with their grandfather his bountifull magnificence,
+<note place="marg">They inuade Ireland.</note>
+
+<note place="marg">Canute is slaine.</note>
+attempted the inuasion of Ireland, where at the siege of Dublin, Canute or
+Knaught the elder brother was shot into the bodie with an arrow, and died of the
+wound: howbeit his death was kept close by his owne commandement giuen before
+he died, till his people had got the citie into their possession. But the gaine was
+small in respect of the losse, which was thought to redound vnto the whole Danish
+nation by the death of that noble yoong gentleman Canute, who for his high
+prowesse and valiancie was most tenderlie beloued of all men: but namelie of his
+father king Gormo, insomuch that he sware to kill him with his owne hands, whosoeuer
+should first tell him newes of his death.</p>
+<p>This Gormo was now a man far striken in age, and blind, hauing small ioie of
+anie worldlie pleasures, otherwise than to heare of the welfare and prosperous proceedings
+of his sonnes. When therefore his wife quéene Thira had perfect aduertisement
+of hir sonnes death, and that neither she nor anie other durst breake the
+matter vnto hir husband, she deuised a shift how to signifie that vnto him by outward
+signes, which by word of mouth she was afraid to expresse, as thus. She
+<note place="marg">The policie of Thira to signifie to hir husband the death of their sonne Canute.</note>
+caused moorning apparell to be made for hir husband, &amp; putting off his roiall
+robes, clad him therewith, and other things apperteining to moorners she also put
+about him, and prepared all such furniture and necessaries as were vsed for funerall
+exequies, witnessing the lamentable griefe conceiued for the losse of some friend,
+with that kind of moorning wéed and funerall ceremonies. Which when Gormo
+perceiued: Wo is me (saith he) you then signifie the death of my sonne Canute.
+Whereto she made answer, that he and not she did discouer the truth of that which
+was meant by those moorning garments; and with that spéech ministred cause of
+
+<!--<fw place="bot-right">"hir"</fw>-->
+
+
+<pb n="93"/>
+
+<!--<fw place="top-center">"THE SUNDRIE INUASIONS OF IRELAND."</fw>--><!--<fw place="top-right">"93"</fw>-->
+
+
+hir husbands death, whereby she became presentlie a widow, not openlie moorning
+for hir sonne, before she moorned likewise for hir husband: for he tooke such
+griefe for Canutes death, that immediatlie he died thorough sorow and dolor: so
+<note place="marg">Gormo dieth of sorrow.</note>
+as Thira was thus driuen to lament, as well the death of hir sonne, as of hir husband
+both at once. But now to the purpose of the Irish historie.</p>
+<p>Ye haue thus partlie heard what the Danish writers doo record in their histories,
+touching the conquests which their people made in Ireland; but whether the same
+be meant of that which goeth before, or rather of that which followeth, touching
+the trade which the Norwegian merchants vsed thither; or whether the Irish
+writers haue passed these iournies ouer with silence, which the Danish writers in
+forme (as before is touched) doo make mention of, I cannot affirme. But like it is
+that as the Danes, or Normans, whether you will call them, did inuade Ireland as
+well as England, France, and Scotland, in those daies according to the report of
+their writers, and that by waie of open warre as well to conquer the countrie, as to
+take preies, prisoners, and booties, and not for trade of merchandize onelie; albeit
+that they might peraduenture so get entrie at the first, as by the Irish histories it
+should seeme they did shortlie after the slaughter of Turgesius. And afterwards
+when they saw themselues setled, and perceiued that they began to grow to be
+enuied of their Irish neighbours, who therevpon would not sticke to molest them
+as occasions serued, they saw no better meane to assure themselues against their aduersaries,
+than to send vnto their countriemen, which in those daies roued abroad
+(as before I haue said) in euerie quarter of this our west ocean, waiting for opportunitie
+to aduance their conquests in each countrie where anie thing might be
+gotten. And so this maie agrée verie well with the Irish writers, whom as I doo
+not take upon me to controll, but rather to report the storie as I find it by them
+written, I will procéed with the order which they follow. After the countrie was
+deliuered of the tyrannie wherewith it was oppressed by the same Turgesius &amp; his
+people, Danes or Norwegians whether they were (for so Cambrensis estéemeth
+them) the Irish deliuered of seruile bondage, fell to their old woonted vomit, in
+persecuting each other: and hauing latelie defaced their fortified townes and castels,
+as receptacles and couerts for the enimie, all sides laie more open to receiue harme.</p>
+<p>This being perceiued and thoroughlie considered, the princes that in the late rule
+of Turgesius had espied some towardnesse to wealth &amp; ease, fell in hand to discourse
+the madnesse &amp; follie of their ancestors, which saw not the vse of that
+which their enimies abused: they begun to loth their vnquiet trade of life, to wish
+either lesse discord, or more strength in each mans dominion; to cast the danger
+of naked countries, readie to call in the enimies, as the strength of forts &amp; castels
+was a meane to preserue them from losse. Faine would they haue prouided remedie
+in this case, if they had knowne how. The former subiection, though it seemed
+intollerable, yet they felt therein procéeding steps towards peace. The gaine that
+rose of merchandize, rest and suertie to the whole estate of the countrie. For the
+difference was great betwixt the indeuours of the two nations, Norwegians and
+Irish. The first knew the waie to thriue, might they get some commodious seats
+and soile. The other had commodities plentie, and cared not for them.</p>
+<p>While the princes and potentats staied vpon such a good consideration, certeine
+<note place="marg">Easterlings began to trade into Ireland.</note>
+merchants of Norwaie, Denmarke, and of other those parties, called <emph>Ostomanni,</emph> or
+(as in our vulgar language we tearme them) Easterlings, bicause they lie East in
+respect of vs, although indéed they are by other named properlie Normans, and
+partlie Saxos, obteined licence safelie to arriue here in Ireland with their wares,
+and to vtter the same. Herevpon the Irish, thorough traffike &amp; bartering with
+these Normans or Daues (for so they are called also in our English chronicle) by
+exchanging of wares and monie, finding them ciuill and tractable, and deliting also
+
+<!--<fw place="bot-right">"with"</fw>-->
+
+
+<pb n="94"/>
+
+<!--<fw place="top-left">"94"</fw>--><!--<fw place="top-center">"THE SUNDRIE INUASIONS OF IRELAND."</fw>-->
+
+
+with gaie conceipts, brought into them by those merchants (such as till they saw
+them they neuer estéemed néedfull) they began to enter into a desire that a trade
+might be open betwixt them &amp; the other nations, wherevpon to allure other, they
+licenced these merchant strangers to build (if they thought good) hauen townes in
+<note place="marg">They build townes on the sea coasts.</note>
+places most commodious. This was no sooner granted, than begun, and with spéed
+finished.</p>
+<p>Anilanus founded Waterford; Sutaricus, Limerike; Iuorus, Dublin; and so by
+<note place="marg">Waterford, Limerike, Dublin.</note>
+others diuerse other townes were built as leisure serued. Then by the helpe and
+counsell of these men, manie castles, forts, steeples, and churches, euerie where
+were repared. And thus are the Irish mingled also with the bloud of the Danes,
+Norwegians, or Normans, who from thensefoorth continuallie flocked into Ireland,
+to the great commoditie of the inhabitants, liuing amongst them obedientlie, till
+wealth pricked and mooued them to raise rebellion: but they could not haue
+holden out, had not the conquest insuing determined both their quarrels. In the
+<note place="marg">The merchant strangers mooue rebellion.</note>
+meane while they became lords of the hauens and burrow townes, planted men of
+warre in the same, and oftentimes skirmished with their aduersaries; but yet measured
+their fortune with indifferent gaines, and crept no higher than the same
+would giue them leaue. Onelie a memorie is left of their field in Clontars, where
+<note place="marg">The field of Clontars.</note>
+diuerse of the Irish nobilitie were slaine, that lie buried before the crosse of Kilmainam.
+These are by our author, not without good iudgement, reported to be
+Danes, which people then being pagans, sore afflicted England, and after that
+<note place="marg">The seuerall names of the strangers which in these daies afflicted France, England, Scotland and Ireland.</note>
+France, from whense they came againe into England with William Conqueror.
+So that those people called <emph>Ostomanni,</emph> Esterlings, Normans, Danes, Norwegians, &amp;
+Suedeners, are in effect all one nation, borne in that huge region called Scandinauia;
+and as it appeareth by conference of times and chronicles, muchwhat about
+one season, vexed the Frenchmen, afflicted Scotland, subdued England, and multiplied
+in Ireland. But in the yeare of Christ 1095, perceiuing great enuie to remaine
+<note place="marg"><date>1095</date></note>
+and lurke in the distinction of the names Easterlings and Irish, that were altogither
+westerne; and the Easterlings not easterne indéed, but rather simplie northerne: in
+consideration whereof, and bicause they magnified themselues in the late conquest of
+their countriemen, who from Normandie comming ouer into England ruled there at
+<note place="marg">The Easterlings will be called Normans.</note>
+their pleasure, these strangers in Ireland would algate now be also called and
+accompted Normans.</p>
+<p>Long before this time (as yée haue heard) Ireland was bestowed into two principall
+kingdomes, and sometime into more, whereof one was euer elected and
+reputed to be cheefe, and as it were a monarch, whome in their histories they name
+<emph>Maximum regem,</emph> that is, the greatest king, or else without addition, <emph>Regem Hiberniœ</emph>
+<note place="marg">Maximus Rex the great king or monarch of Ireland.</note>
+the king of Ireland: the other they name <emph>Reguli</emph> or <emph>Reges,</emph> that is to wit,
+small kings or else kings, by limiting the places whereof they were to be reputed
+kings, as of Leinster, Connagh, Vlster, Mounster, or Meth. To the monarch, besides
+his allowance of dominion, titles of honor, and other priuileges in iurisdiction,
+there was granted to him a negatiue in nomination of bishops, when they were
+vacant: for the cleargie and laietie of the diocesse commended one, whom they
+<note place="marg">The power of the monarch in election of bishops.</note>
+thought conuenient vnto their king, the king to the monarch, the monarch to the
+archbishop of Canturburie: for that as yet the metropolitans of Ireland had not
+receiued their palles.</p>
+<p>In this sort was nominated to the bishoprike of Dubline then void, in the yeare
+<note place="marg">Goderius king of Leinster.</note>
+
+<note place="marg">Terdienatus the monarch.</note>
+
+<note place="marg">Patricius consecrated bishop of Dublin by Lanfranke.</note>
+
+<note place="marg"><date>1152</date></note>
+
+<note place="marg">Christian bishop of Lismore.</note>
+of Christ 1074, at the petition of Goderius king of Leinster, by sufferance of the
+cleargie and people there, with the assent of Terdienatus the monarch, a learned
+prelat called Patricius, whome Lantranke of Canturburie consecrated in Paules
+church at London, and sware him to obedience after the manner of his ancestors.
+Christian bishop of Lismore, legat to Eugenius the third, summoned a prouinciall
+
+<!--<fw place="bot-right">"councell"</fw>-->
+
+
+<pb n="95"/>
+
+<!--<fw place="top-center">"THE SUNDRIE INUASIONS OF IRELAND."</fw>--><!--<fw place="top-right">"95"</fw>-->
+
+
+councell in Ireland, wherein were authorised foure metropolitan seas, Armagh,
+<note place="marg">Foure metropolitan sées in Ireland.</note>
+Dublin, Cashill, and Tuen; of the which places were bishops at that present,
+Gelasius, Gregorius, Donatus, Edonius. For hitherto though they yéelded a primasie
+to the bishop of Armagh in reuerence of saint Patrike the first bishop there:
+<note place="marg">The bishop of Armagh.</note>
+yet the same was but of good will, and confirmed rather by custome than by sufficient
+decree; neither did that archbishop take vpon him to inuest other bishops,
+but sent them to Canturburie (as before is mentioned) which from hensefoorth they
+vsed not to doo, insomuch that the next bishop named Laurence, sometime archbishop
+<note place="marg">Laurence archbishop of S. Keuins.</note>
+
+<note place="marg"><date>1162</date></note>
+of saint Keuins in Golandilagh, was ordered and installed at home by
+Gelasius primat of Armagh.</p>
+</div>
+	  <trailer>FINIS.</trailer>
+
+	  <trailer>Not well vnderstanding what the writer of this part of the Irish historie ment to
+fall vpon so blunt a conclusion; but supposing it was vpon some reasonable inducement:
+we thought it conuenient to leaue it as we found it: intending (without
+anie addition herevnto) to set downe the conquest of Ireland, as the same was left
+recorded by Girald of Cambria: whose prefaces and historie, right worthie the
+reading, doo immediatlie follow.</trailer>
+
+	</body>
+
+	<back>
+<pb n="96"/>
+<div n="1" type="appendix">
+<head>
+<!--<fw place="top-center">"96"</fw>-->
+The Names of the Gouernors, Lieutenants, Lord Iustices, and Deputies of Ireland, Since the Conquest Thereof by King Henrie the Second.</head>
+	    <list type="ordered">
+	      <headLabel>The yeere of our Lord.</headLabel>
+
+	      <label><date>1174</date></label>
+	      <item>RICHARD Strangbow earle of Penbroke gouernor, hauing Reimond is Grace ioined in commission with him.</item>
+
+	      <label><date>1177</date></label>
+	      <item><list>
+		  <item>Reimond le Grace lieutenant by himselfe.</item>
+		  <item>William Fitz Aldelme lieutenant, hauing Iohn de Curcie, Robert Fitz Stephans, and Miles Cogan Ioined in Commission with him.</item>
+		  <item>Hugh Lacie lieutenant.</item>
+		  </list>
+</item>
+
+	      <label><date>1182</date></label>
+	      <item><list>
+		  <item><list><head>gouernors</head>
+		      <item>Iohn Lacie constable of Chesten</item>
+		      <item>and Richard de Peche.</item>
+		    </list></item>
+		  <item>Hugh Lacie againe lieutenant.</item>
+		  <item>Hugh Lacie the yoonger, lord iustice.</item>
+		</list>
+</item>
+
+	      <label><date>1227</date></label>
+	      <item>Henrie Loandoris archbishop of Dublin, lord iustice.</item>
+
+	      <label><date>1228</date></label>
+	      <item>Maurice Fitzgirald lord iustice.</item>
+
+<label><date>1253</date></label>
+	      <item><list>
+		  <item>Iohn Fitzgeffreie knight, lord iustice.</item>
+		  <item>Alan de la Zouch lord iustice.</item>
+		</list>
+</item>
+
+<label><date>1258</date></label>
+<item><list>
+<item>Stephan de Long Espe lord iustice.</item>
+<item>William Deane lord iustice.</item>
+</list></item>
+
+<label><date>1261</date></label>
+<item>Sir Richard Rochell or Capell lord iustice.</item>
+
+<label><date>1267</date></label>
+<item>Dauid Barrie lord iustice.</item>
+
+<label><date>1268</date></label>
+<item>Robert Vfford lord iustice.</item>
+
+<label><date>1269</date></label>
+<item>Richard de Execster lord iustice.</item>
+
+<label><date>1270</date></label>
+<item>Iames lord Audieie lord iustice.</item>
+
+<label><date>1272</date></label>
+<item><list>
+<item>Maurice Fitzmaurice lord iustice.</item>
+<item>Walter lord Genuille lord iustice.</item>
+<item>Robert Vfford againe lord iustice.</item>
+</list></item>
+
+<label><date>1281</date></label>
+<item><list>
+<item>Fulborne bishop of Waterford lord iustice.</item>
+<item>Iohn Samford the archbishop of Dublin, lord iustice.</item>
+<item>William Vescie lord iustice.</item>
+</list></item>
+
+<label><date>1295</date></label>
+<item><list>
+<item>William Dodingsels lord iustice.</item>
+<item>Thomas Fitzmaurice lord iustice.</item>
+</list></item>
+
+<label><date>1298</date></label>
+<item>Iohn Wogan lord iustice.</item>
+
+<label><date>1314</date></label>
+<item>Theobald Verdon lord iustice.</item>
+
+<label><date>1315</date></label>
+<item>Edmund Butler lord iustice.</item>
+
+<label><date>1317</date></label>
+<item><list>
+<item>Roger lord Mortimer lord iustice.</item>
+<item>Alexander Bignor archbishop of Dublin lord iustice.</item>
+</list></item>
+
+
+<cb/>
+
+<label><date>1319</date></label>
+<item>Roger lord Mortimer second time lord iustice.</item>
+
+
+<label><date>1320</date></label>
+<item>Thomas Fitziohn earle of Kildare lord iustice.</item>
+
+<label><date>1321</date></label>
+<item>Iohn Birmingham earle of Louth lord iustice.</item>
+
+<label><date>1323</date></label>
+<item>Iohn lord Dareie lord iustice.</item>
+
+<label><date>1327</date></label>
+<item><list>
+<item>Roger Outlaw prior of Kilmanian lord iustice.</item>
+<item>Anthonie lord Lucie lord iustice.</item>
+</list></item>
+
+<label><date>1332</date></label>
+<item>Iohn lord Darcie second time lord iustice.</item>
+
+<label><date>1337</date></label>
+<item>Iohn lord Charleton lord iustice.</item>
+
+<label><date>1338</date></label>
+<item>Thomas bishop of Hereford lord iustice.</item>
+
+<label><date>1339</date></label>
+<item><list>
+<item>Iohn lord Darcie ordeined lord iustice by patent during his life, by Edwawrd the third.</item>
+<item>Rafe Vfford lord iustice.</item>
+</list></item>
+
+<label><date>1346</date></label>
+<item><list>
+<item>Robert Darcie lord iustice.</item>
+<item>Iohn Fitzmaurice lord iustice.</item>
+<item>Walter lord Bermingham lord iustice, his deputies were Iohn Archer, prior of Kilmanian &amp; Baron Carew, with sir Thomas Rokesbie.</item>
+<item>Maurice Fitzthomas earle of Desmond had the office of lord iustice for terme of his life, of king Edward the third his grant.</item>
+</list></item>
+
+<label><date>1355</date></label>
+<item>Thomas Rokesbie knight lord iustice.</item>
+
+<label><date>1357</date></label>
+<item><list><head>appointed L. I. by turnes.</head>
+<item>Almericke de saint Amand</item>
+<item>Iohn Butler earle of Ormond</item>
+<item>Maurice Fitzth. earle of Kild.</item>
+</list></item>
+
+<label><date>1361</date></label>
+<item>Lionell duke of Clarence lord iustice.</item>
+
+<label><date>1367</date></label>
+<item>Gerald Fitzmaurice earle of Desmond L. I.</item>
+
+<label><date>1369</date></label>
+<item>William lord Windsor the first lieutenant in Ireland.</item>
+
+<label><date>1372</date></label>
+<item>Richard Ashton lord iustice.</item>
+
+<label><date>1381</date></label>
+<item><list>
+<item><list><head>Iustice and lieutenants speciallie recorded in Richard the seconds daies.</head>
+<item>Roger Mortimer</item>
+<item>Philip Courtneie</item>
+<item>Iames erle of Orm.</item>
+</list></item>
+<item>Robert Vere earle of Oxford marques of Dublin ereated duke of Ireland.</item>
+</list></item>
+
+
+<pb n="97"/>
+
+
+<label><date>1394</date></label>
+<item><list>
+<item>Roger Mortimer earle of March lieutenant.</item>
+<item>Roger Mortimer earle of March and Vlster lieutenant.</item>
+<item>Roger Greie lord iustice.</item>
+<item>Iohn Stanleie knight lord lieutenant.</item>
+</list></item>
+
+<label><date>1401</date></label>
+<item>Thomas of Lancaster brother to king Henrie the fourth lord lieutenant, whose deputies at sundrie times were Alexander bishop of Meth, Stephan Scrope knight, and the prior of Kilmainan.</item>
+
+<label><date>1403</date></label>
+<item><list>
+<item>Iames Butler earle of Ormond lord iustice.</item>
+<item>Girald earle of Kildare lord iustice.</item>
+</list></item>
+
+<label><date>1407</date></label>
+<item>Iames Butler earle of Ormond, sonne to the foresaid Iames, lord iustice.</item>
+
+<label><date>1413</date></label>
+<item><list>
+<item>Iohn Stanleie againe lord lieutenant.</item>
+<item>Thomas Crauleie archbishop of Dublin lord iustice.</item>
+</list></item>
+
+<label><date>1414</date></label>
+<item>Iohn lord Talbot of Shefield lieutenant.</item>
+
+<label><date>1420</date></label>
+<item><list>
+<item>Iames Butler erle of Ormond the second time lieutenant.</item>
+<item><list><head>Lieutenants to king Henrie the sixt.</head>
+<item>Edmund earle of March, Iames earle of Ormond his deputie.</item>
+<item>Iohn Sutton lord Duddleie, sir Thomas Strange knight his deputie.</item>
+<item>Sir Thomas Stanieie, sir Christopher Plunket his deputie.</item>
+<item>Lion lord Welles, the earle of Ormond his deputie.</item>
+<item>Iames erie of Ormond by himselfe.</item>
+<item>Iohn earle of Shrewesburie, the archbishop of Dublin in his absence lord iustice.</item>
+</list></item>
+<item>Richard Piantagenet duke of Yorke, father to king Edward the fourth, had the office of lieutenant by king Henrie the sixt his letters patents for ten yeares. His deputies at sundrie times were, the baron of Deluin, Richard Fitzeustace knight, Iames earle of Ormond, and Thomas Fitzmoris earle of Kildare.</item>
+
+<cb/>
+<item>Thomas Fitzmoris earle of Kildare, lord iustice in king Edward the fourth his daies, vntill the third yeare of his reigne. After which George duke of Clarence brother to the K. had the office of Lieutenant during his life, &amp; made his deputies by sundrie times these:</item>
+<item><list>
+<item>Thomas earle of Desmond.  Deputies to the duke of Clarence.</item>
+<item>Iohn Tiptoft erle of Worceter.</item>
+<item>Thomas erle of Kildare.</item>
+</list></item>
+</list></item>
+
+<label><date>1470</date></label>
+<item><list>
+<item>Henrie lord Graie of Ruthine.</item>
+<item>Sir Rouland Eustace lord deputie.</item>
+<item>Richard duke of Yorke, yoonger sonne to king Edward the fourth, lieutenant.</item>
+<item>Edward sonne to Richard the third lieutenant, his deputie was Girald earle of Kildare.</item>
+<item>Iasper duke of Bedford and earle of Penbroke, lieutenant, his deputie was Walter archbishop of Dublin.</item>
+</list></item>
+
+<label><date>1494</date></label>
+<item>Edward Poinings knight, lord deputie.</item>
+
+<label><date>1501</date></label>
+<item><list>
+<item>Henrie duke of Yorke, after king by the name of Henrie the eight, lieutenant, his deputie Girald earle of Kildare.</item>
+<item>Girald Fitzgirald earle of Kildare, lord deputie.</item>
+</list></item>
+
+<label><date>1520</date></label>
+<item>Thomas Howard earle of Surrcie, after duke of Norfolke, lieutenant.</item>
+
+
+<label><date>1523</date></label>
+<item><list>
+<item>Piers Butler earle of Ossorie, lord deputie.</item>
+<item>Girald Fitzgirald earle of Kildare againe lord deputie.</item>
+<item>The baron of Deluin lord deputie.</item>
+</list></item>
+
+<label><date>1529</date></label>
+<item><list>
+<item>Piers Butler earle of Ossorie againe lord deputie.</item>
+<item>William Skeffington knight, lord deputie.</item>
+<item>Girald Fitzgirald earie of Kildare, againe lord deputie.</item>
+<item>William Skeffington againe lord deputie.</item>
+</list></item>
+
+<label><date>1534</date></label>
+<item>Leonard lord Graie, lord deputie.</item>
+
+<label><date>1540</date></label>
+<item>Sir William Brereton knight, lord iustice.</item>
+
+<label><date>1541</date></label>
+<item>Sir Anthonie Sentleger knight, lord deputie.</item>
+</list>
+</div>
+
+<pb n="98"/>
+
+<div n="2" type="appendix">
+<head>The Names of All the Lords Deputies and Iustice in Ireland, Since the Death of King Henrie the Eight 1546, Who Died in Januarie.</head>
+	    <list type="ordered">
+	      <headLabel>The yeare of our Lord.</headLabel>
+
+<label><date>1546</date></label>
+<item>SIR Anthonie Sentleger knight by patent, dated <date lang="la">24 Martij, Anno primo Edw.  6.</date></item>
+
+<label><dateRange from="1546" to="1547">1546-1547</dateRange></label>
+<item>Sir Edward Bellingham lord deputie, <date lang="la">22 Aprilis, Anno eodem.</date></item>
+
+<label><date>1548</date></label>
+<item>Sir Francis Brian lord iustice.</item>
+
+<label><date>1549</date></label>
+<item>Sir William Brabeston lord iustice.</item>
+
+<label><date>1550</date></label>
+<item>Sir Anthonie Sentleger lord deputie, <date lang="la">3. 4 Augusti.</date></item>
+
+<label><date>1551</date></label>
+<item>Sir Iames Crofts lord deputie, <date lang="la">29 Aprilis.</date></item>
+
+<label><date>1553</date></label>
+<item>Sir Anthonie Sentleger lord deputie, <date lang="la">1 Sept. 4.</date></item>
+
+<label><date>1555</date></label>
+<item>Thomas lord Fitzwalter lord deputie, <date lang="la">27 April.</date></item>
+
+<label><date>1556</date></label>
+<item><list><head>Lords iustices.</head>
+<item>Sir Henrie Sidncie</item>
+<item>Doctor Coren</item>
+</list></item>
+
+<label><date>1556</date></label>
+<item>Sir Henrie Sidneie lord iustice alone, <date lang="la">18 Ianuarij.</date></item>
+
+<label><date>1557</date></label>
+<item>Thomas erle of Sussex L. lieutenant, <date lang="la">19 >Martij.</date></item>
+
+<label><date>1558</date></label>
+<item>Sir William Fitzwilliams lord iustice.</item>
+
+
+<cb/>
+
+<label><date>1559</date></label>
+<item>Thomas earle of Sussex lord deputie, <date lang="la">6 Maij.</date></item>
+
+<label><date>1564</date></label>
+<item>Sir Nicholas Arnold lord iustice.</item>
+
+<label><date>1565</date></label>
+<item>Sir Henrie Sidneie lord deputie.</item>
+
+<label><date>1567</date></label>
+<item><list>
+<item>Doctor Weston lord chancellor</item>
+<item>Sir William Fitzwilliams</item>
+</list></item>
+
+<label><date>1568</date></label>
+<item>Sir Henrie Sidneie lord deputie.</item>
+
+<label><date>1570</date></label>
+<item>Sir William Fitzwilliams lord iustice.</item>
+
+<label><date>1571</date></label>
+<item>Sir William Fitzwilliams lord deputie, <date lang="la">11, Decemb. Anno 14 Elisab.</date></item>
+
+<label><date>1572</date></label>
+<item>Sir Henrie Sidneie lord deputie <date lang="la">3. 5 Augusti 3.</date></item>
+
+<label><date>1579</date></label>
+<item>Sir William Drurie lord iustice, <date lang="la">14 Septemb.</date> by patent, <date lang="la">18 Maij.</date></item>
+
+<label><date>1580</date></label>
+<item>Sir William Pelham lord iustice.</item>
+
+<label><date>1580</date></label>
+<item>The lord Arthur Graie.</item>
+
+<label><date>1582</date></label>
+<item><list><head>Lord iustices.</head>
+<item>Adam archbishop of Dublin</item>
+<item>Sir Henrie Wallop</item>
+</list></item>
+
+<label><date>1584</date></label>
+<item>Sir Iohn Perot lord deputie.</item>
+</list>
+
+</div>
+	</back>
+      </text> <!--  End of First Inhabitation, etc. -->
+</TEI>
