@@ -62,7 +62,7 @@
 
     <text xml:lang="eng">
         <front>
-            <div type="textpart" subtype="section" n="1">
+            <div type="commentary" subtype="section" n="1">
 
                 <ab type="opener">TO THE RIGHT HONORABLE SIR JOHN Puckering Knight, Lord keeper of the great
                     seale of England.</ab>
@@ -221,8 +221,8 @@
 
         <body> <head>The Garden of Eloquence</head>
 
-            <div type="textpart" subtype="part" n="1">
-                <div type="textpart" subtype="subpart" n="1"> <head>The Names of figures.</head>
+            <div type="commentary" subtype="part" n="0">
+                <div type="commentary" subtype="subpart" n="1"> <head>The Names of figures.</head>
 
                     <p>Figure of the Grecians are called Tropes and Schemates, and of the Latines,
                         figures, exornations, lights, colours and ornaments. Cicero who supposing
@@ -232,28 +232,28 @@
                         ornaments under one name.</p>
                 </div>
 
-                <div type="textpart" subtype="subpart" n="2"> <head>A Figure what it is.</head>
+                <div type="commentary" subtype="subpart" n="2"> <head>A Figure what it is.</head>
 
                     <p>A Figure is a forme of words, oration, or sentence, made new by art,
                         differing from the vulgar maner and custome of writing or speaking.</p>
                 </div>
 
-                <div type="textpart" subtype="subpart" n="3"> <head>A Figure how it is devided.</head>
+                <div type="commentary" subtype="subpart" n="3"> <head>A Figure how it is devided.</head>
 
                     <p>A figure is either A <term>Trope</term> or A <term>Schemate</term>.</p>
                 </div>
             </div>
             <!-- of part "Figures" -->
 
-            <div type="textpart" subtype="part" n="2"> <!-- Tropes -->
-                <div type="textpart" subtype="subpart" n="1"> <head>A <term>Trope</term> what it is.</head>
+            <div type="commentary" subtype="part" n="1"> <!-- Tropes -->
+                <div type="commentary" subtype="subpart" n="1"> <head>A <term>Trope</term> what it is.</head>
 
                     <p>A <term>Trope</term> is an artificall alteration of a word, or a sentence,
                         from the proper and natural signification to another not proper, but yet
                         nigh, and likely.</p>
                 </div>
 
-                <div type="textpart" subtype="subpart" n="2"> <head>The beginning, and causes of <term>Tropes</term>.</head>
+                <div type="commentary" subtype="subpart" n="2"> <head>The beginning, and causes of <term>Tropes</term>.</head>
 
                     <p>The causes of <term>Tropes</term> are three, neccessitie will and arte, &amp;
                         of these three necessity was the first, for where there wanted words <note place="marg" anchored="false">1. Necessity.</note> to expresse the nature
@@ -298,12 +298,12 @@
                             <term>Trope</term>.</p>
                 </div>
 
-                <div type="textpart" subtype="subpart" n="3"> <head>The division of <term>Tropes</term>.</head>
+                <div type="commentary" subtype="subpart" n="3"> <head>The division of <term>Tropes</term>.</head>
 
                     <p>Tropes are either of Words or Sentences.</p>
                 </div>
 
-                <div type="textpart" subtype="subsubpart" n="4"> <head>Tropes of words are these.</head>
+                <div type="commentary" subtype="subsubpart" n="4"> <head>Tropes of words are these.</head>
 
                     <list type="ordered">
                         <item n="1"><term>Metaphora.</term></item>
@@ -318,15 +318,15 @@
 
 
 
-                    <div type="textpart" subtype="subpart" n="1"> <head>Metaphora</head>
+                    <div type="commentary" subtype="subpart" n="1"> <head>Metaphora</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
                             <p><term>Metaphora</term> is artifical translation of one word, from the
                                 proper signification, to another not proper, but yet nigh and
                                 like.</p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The efficient cause of a <term>Metaphore</term>.</head>
+                        <div type="commentary" subtype="subsubpart" n="2"> <head>The efficient cause of a <term>Metaphore</term>.</head>
 
                             <p>It is apparant that memorie is the principall efficient of a
                                     <term>Metaphore</term>, for being the retentive power of the
@@ -361,8 +361,8 @@
                                 as most apt, most usual, &amp; most commendable, which are these
                                 following.</p>
 
-                            <div type="textpart" subtype="subsubpart" n="1"> <head>From man him selfe, and first from his senses.</head>
-                                <div type="textpart" subtype="subsubpart" n="1"> <head>1. From the sight.</head>
+                            <div type="commentary" subtype="subsubpart" n="1"> <head>From man him selfe, and first from his senses.</head>
+                                <div type="commentary" subtype="subsubpart" n="1"> <head>1. From the sight.</head>
 
                                     <p>As the sight among the rest of the senses is most sharpe, and
                                         pierceth furthest, so is it proved most sure, and least
@@ -429,7 +429,7 @@
                                         knowledge. </p>
                                 </div>
 
-                                <div type="textpart" subtype="subsubpart" n="2"> <head>From the hearing.</head>
+                                <div type="commentary" subtype="subsubpart" n="2"> <head>From the hearing.</head>
 
                                     <p>From the hearing are diverse translations taken, not so much
                                         serving to signifie the powers of the mind, as to expresse
@@ -473,7 +473,7 @@
                                         obstinate, and hardened against all good counsell. </p>
                                 </div>
 
-                                <div type="textpart" subtype="subsubpart" n="3"> <head>From the smelling.</head>
+                                <div type="commentary" subtype="subsubpart" n="3"> <head>From the smelling.</head>
 
                                     <p>From smelling these translations and such like may be taken.
                                         Being wise &amp; provident, by his singular foresight did
@@ -499,7 +499,7 @@
                                     </p>
                                 </div>
 
-                                <div type="textpart" subtype="subsubpart" n="4"> <head>From feeling or touching.</head>
+                                <div type="commentary" subtype="subsubpart" n="4"> <head>From feeling or touching.</head>
 
                                     <p><note place="marg" anchored="false">Job.1.</note> From this
                                         sense are sundrie Metaphors taken. An example of the holy
@@ -528,7 +528,7 @@
                                         defect, by embracing love or possession of pleasure. </p>
                                 </div>
 
-                                <div type="textpart" subtype="subsubpart" n="5"> <head>From the tasting.</head>
+                                <div type="commentary" subtype="subsubpart" n="5"> <head>From the tasting.</head>
 
                                     <p>From this sense and his subjects, these kinds of translations
                                         are taken. Cicero to Atticus: you may tast that man, that
@@ -563,7 +563,7 @@
                                 </div>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="2"> <head>From the mind to the bodie.</head>
+                            <div type="commentary" subtype="subsubpart" n="2"> <head>From the mind to the bodie.</head>
 
                                 <p>From things in the minde to the parts of the bodie, as to call a
                                     wound angrie, or wofull: a tongue malicious, and also when we
@@ -589,7 +589,7 @@
 
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="3"> <head>From living creatures without reason, to man partaker of
+                            <div type="commentary" subtype="subsubpart" n="3"> <head>From living creatures without reason, to man partaker of
                                     reason.</head>
 
                                 <p>From the creatures without reason <term>Metaphors</term> are
@@ -611,7 +611,7 @@
                                     flatterie.</p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="4"> <head>From man to the brute creature.</head>
+                            <div type="commentary" subtype="subsubpart" n="4"> <head>From man to the brute creature.</head>
 
                                 <p>From the reasonable to the unreasonable the usuall translations
                                     are these and such like, as to say, the mourning dove, the
@@ -623,7 +623,7 @@
                                     man in these rehearsed properties. </p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="5"> <head>From the living to things without life.</head>
+                            <div type="commentary" subtype="subsubpart" n="5"> <head>From the living to things without life.</head>
 
                                 <p>This part of translation is also very apt and significant, by
                                     this place the sea is sayd to swallow, the wind or tempests to
@@ -645,7 +645,7 @@
                                     reason, and affection to things which are voyd of them all. </p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="6"> <head>From things without life to things having life.</head>
+                            <div type="commentary" subtype="subsubpart" n="6"> <head>From things without life to things having life.</head>
 
                                 <p>From this place <term>Metaphors</term> of this sort are taken as
                                     to say, that men of famous renowne do shine, which is onely
@@ -659,7 +659,7 @@
                                     serveth much to perspecuitie. </p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="7"> <head>From things senslesse to things senslesse.</head>
+                            <div type="commentary" subtype="subsubpart" n="7"> <head>From things senslesse to things senslesse.</head>
 
                                 <p>By this place vices are layd to bud, desires to burne, beautie to
                                     wither, anger to boile, &amp; sometime to flame. In like forme
@@ -674,7 +674,7 @@
                                     inough, and therefore I omit their interpretations.</p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="8"> <head>From the offices and actions of men.</head>
+                            <div type="commentary" subtype="subsubpart" n="8"> <head>From the offices and actions of men.</head>
 
                                 <p>From the offices and actions of men are very usuall translations,
                                     and apt for description. 1. From the Magistrate. Example of holy
@@ -747,7 +747,7 @@
                                     to digge, to frame, &amp; c. </p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="9"> <head>From certain Substantives very much used in
+                            <div type="commentary" subtype="subsubpart" n="9"> <head>From certain Substantives very much used in
                                     translation.</head>
 
                                 <p>From certain Substantives, very apt and pleasant
@@ -783,7 +783,7 @@
                                     pleasant. </p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="10"> <head>From the four Elements.</head>
+                            <div type="commentary" subtype="subsubpart" n="10"> <head>From the four Elements.</head>
 
                                 <p>First to begin with translations taken from the nature and
                                     propertie of fire we say a man of an inflamed mind, the flaming
@@ -823,7 +823,7 @@
                                     a vale of miserie. </p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="11"> <head>From men to God.</head>
+                            <div type="commentary" subtype="subsubpart" n="11"> <head>From men to God.</head>
 
                                 <p>So infinite and incomprehensible is the nature of Almightie God,
                                     and mans capacitie of so small a compasse, that no one attribute
@@ -854,7 +854,7 @@
                                     is, an attributing to God humane affections. </p>
                             </div>
 
-                            <div type="textpart" subtype="subsubpart" n="12"> <head>From God to men.</head>
+                            <div type="commentary" subtype="subsubpart" n="12"> <head>From God to men.</head>
 
                                 <p>By this place we give the titles of highnesse an dmajestie to
                                     PRinces, which are proper to God, yet meete for them in respect
@@ -874,7 +874,7 @@
                         </div>
                         <!-- End of efficient cause -->
 
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The use of <term>Metaphors</term>.</head>
+                        <div type="commentary"><head>The use of <term>Metaphors</term>.</head>
 
                             <p>All <term>Metaphors</term> have their maniforld trutes, and the same
                                 both profitable and pleasant, which is a thing well known to men of
@@ -894,7 +894,7 @@
                             </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="4"> <head>The comparison of <term>Metaphors</term>.</head>
+                        <div type="commentary" subtype="subsubpart" n="4"> <head>The comparison of <term>Metaphors</term>.</head>
 
                             <p>Metaphors in respect of their perspecuitie, &amp; light which they
                                 give, may well be compared to the starres of the skie, which <note place="marg" anchored="false">Compared to the stars.</note> are
@@ -909,7 +909,7 @@
                                 or as deep stamps in long lasting metal. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="5"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>In the choise and use of translation heed ought to be taken, that
                                     <note place="marg" anchored="false">1. Unlikenesse</note> these
@@ -930,9 +930,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="2"> <head><term>Onomatopeia</term>.</head>
+                    <div type="commentary" subtype="subpart" n="2"> <head><term>Onomatopeia</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Onomatopeia</term>, this figure of the Latines is diversly
                                 named, as <term>Nominatio</term>, <term>Nominis fictia</term>,
@@ -976,7 +976,7 @@
                                 an Italian. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this Figure.</head>
+                        <div type="commentary"><head>The use of this Figure.</head>
 
                             <p>This figure serveth fitly to make description of an action, as much
                                 as may be signified by noise or found. Also it pretendeth <note place="marg" anchored="false">1. To describe.</note> to the hearer
@@ -987,7 +987,7 @@
                                 of ancient speech and antiquitie.<note place="marg" anchored="false">4. To retaine antiquitie.</note>
                             </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>As the use of this figure is both profitable &amp; pleasant, being
                                 artificially framed: so is it very unseemely and ridiculous,<note place="marg" anchored="false">1. Unlike, or unequall in
@@ -1006,9 +1006,9 @@
                     <!-- end of Onomatopeia -->
 
 
-                    <div type="textpart" subtype="subpart" n="3"> <head><term>Catachresis</term>.</head>
+                    <div type="commentary" subtype="subpart" n="3"> <head><term>Catachresis</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Catachresis</term> in Latine is called <term>Abusio</term>, and
                                 it is a forme of speech wherby the speaker or writer wanting a
@@ -1043,7 +1043,7 @@
                                 word. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1. Not to far fetcht.</note>This
                                 observation is to be regarded, that we fetch not the <note place="marg" anchored="false">2. Not to be used too
@@ -1052,9 +1052,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="4"> <head><term>Synecdoche</term>.</head>
+                    <div type="commentary" subtype="subpart" n="4"> <head><term>Synecdoche</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Synecdoche</term> in Latine called <term>Intellectio</term>,
                                 that is, an understanding, and it is a forme of speech by which the
@@ -1123,7 +1123,7 @@
                                 consideration of the sense and meaning. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>These observations concerning this figure ought to be thought upon.
                                     <note place="marg" anchored="false">1. Apt choice of the
@@ -1148,9 +1148,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="5"> <head><term>Metonimia</term>.</head>
+                    <div type="commentary" subtype="subpart" n="5"> <head><term>Metonimia</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Metonimia</term>, called of the Latines
                                     <term>Transnominatio</term>, and of some <term>Hypallage</term>,
@@ -1290,7 +1290,7 @@
                                 Here the flood being an Adjunk, signifieth time the subject. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p>The use of this figure is very great and very pleasant, it <note place="marg" anchored="false">1.Varietie.</note>yieldeth great
                                 varietie of speech, and serveth aptly to brevity, it <note place="marg" anchored="false">2.Veritie.</note>is of large and
@@ -1299,7 +1299,7 @@
                                 <note place="marg" anchored="false">5.Signficiation.</note>more
                                 significant then this. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>As there are many particular places of this figure: so there may be
                                 many faults committed, &amp; therefore especial regard ought to be
@@ -1317,9 +1317,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="6"> <head><term>Antonomasia</term>.</head>
+                    <div type="commentary" subtype="subpart" n="6"> <head><term>Antonomasia</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Antonomasia</term>, of the Latines called
                                     <term>Nominatio</term> and <term>Nominis permutatio</term>, that
@@ -1351,7 +1351,7 @@
                                 a Nero, a voluptuous liver an Epicure. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure</head>
+                        <div type="commentary"><head>The use of this figure</head>
 
                             <p>The use of this figure is both necessary &amp; profitable, for the by
                                 forme the orator when he speaketh to high dignities, he boweth <note place="marg" anchored="false">1.Gravitie.</note>(as it were) the
@@ -1363,7 +1363,7 @@
                             </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>The faultes that may be committed in this figure are these, To give a
                                 lesse name then the dignitie requireth, as speaking to a king to
@@ -1376,9 +1376,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="7"> <head><term>Metalepsis</term>.</head>
+                    <div type="commentary" subtype="subpart" n="7"> <head><term>Metalepsis</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
                             <p><term>Metalepsis</term>, called of the Latines
                                     <term>Transumptio</term>, it is a forme of speech by which the
                                 Orator in one word expressed, signifieth another word or thing
@@ -1406,7 +1406,7 @@
                                 till it discerneth the thing that is looked for. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1.Too farre removed.</note> The
                                 faultes which may be committed in this figure are these, when the
@@ -1417,9 +1417,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="8"> <head><term>Antiphrasis</term>.</head>
+                    <div type="commentary" subtype="subpart" n="8"> <head><term>Antiphrasis</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Antiphrasis</term> is a forme of speech which by a word exprest
                                 doth signifie the contrary: as when the speaker sayth, wisely, or
@@ -1428,7 +1428,7 @@
                                 signfying unapt and unable to judge. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p>The especiall use of this figure is to reprehend vice, and mock
                                 folly: for by expressing a vertue, and signifying a vice, it <note place="marg" anchored="false">1.Sharpe rebuke.</note>striketh the
@@ -1439,7 +1439,7 @@
                                 ashamed of his foule face, I meane his souls face. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>This figure ought not be used without some urgent cause, <note place="marg" anchored="false">1.Not to be used without great
                                     cause.</note> neither is it seemely to be used of all person in
@@ -1459,7 +1459,7 @@
                 </div>
                 <!-- end of Tropes of Words -->
 
-                <div type="textpart" subtype="subsubpart" n="5"> <head><term>Tropes</term> of Sentences.</head>
+                <div type="commentary" subtype="subsubpart" n="5"> <head><term>Tropes</term> of Sentences.</head>
 
                     <list type="ordered">
                         <item n="1"><term>Allegoria</term></item>
@@ -1474,9 +1474,9 @@
                         <item n="10"><term>Diasiriuus</term></item>
                     </list>
 
-                    <div type="textpart" subtype="subpart" n="1"> <head><term>Allegoria</term>.</head>
+                    <div type="commentary" subtype="subpart" n="1"> <head><term>Allegoria</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Allegoria</term>, called of Quintilian, <term>Inversio</term>,
                                 is a <term>Trope</term> of a sentence, or forme of speech which
@@ -1547,7 +1547,7 @@
                                 their proper sense are these, covet, consider, and forethinke, which
                                 words do make it a mixt <term>Allegorie</term>. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure</head>
+                        <div type="commentary"><head>The use of this figure</head>
 
                             <p>The use of an <term>Allegorie</term> serveth most aptly to ingrave
                                 the lively images of things, and to present them under deepe
@@ -1563,7 +1563,7 @@
                                 call a constellation, that is, a company or conjunction of many
                                 starres. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>In speaking by <term>Allegories</term> strange similitudes and
                                     unknowne<note place="marg" anchored="false">Similitudes.</note>
@@ -1574,9 +1574,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="2"> <head><term>AEnigma</term></head>
+                    <div type="commentary" subtype="subpart" n="2"> <head><term>AEnigma</term></head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>AEnigma</term> a kind of <term>Allegorie</term>, differeing
                                 onely in obscuritie,<note place="marg" anchored="false">1.A kinde of
@@ -1634,7 +1634,7 @@
                                 meaning whereof Daniel by divine grace expounded. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p>This figure is more convenient to Poets then to Orators, and<note place="marg" anchored="false">1.Most meet for Poets.</note> more
                                 agreeable to high and heavenly visions, that to the forme of
@@ -1653,7 +1653,7 @@
                                 cloudes. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>In this figure regard ought to be had, that the similitudes be
                                     not<note place="marg" anchored="false">1.Unfit.</note> unfit,
@@ -1672,9 +1672,9 @@
                     </div>
 
 
-                    <div type="textpart" subtype="subpart" n="3"> <head><term>Paroemia</term></head>
+                    <div type="commentary" subtype="subpart" n="3"> <head><term>Paroemia</term></head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Paroemia</term>, called of us a <term>Proverbe</term>, is a
                                 sentence or forme of speech much used, and commonly knowen, and also
@@ -1706,7 +1706,7 @@
                                 continuance. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p>Amongst all the excellent formes of speech there are none other more
                                 briefe, more significant, more evident or more excellent, then apt
@@ -1734,7 +1734,7 @@
                                 grace, and the oration his strength. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution</head>
+                        <div type="commentary"><head>The Caution</head>
 
                             <p>There are diverse vices which ought to be avoyded &amp; banished out
                                 of <term>Proverbs</term>, strangenesse, unlikenesse, uncomelinesse,
@@ -1758,9 +1758,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="4"> <head><term>Hyperbole</term>.</head>
+                    <div type="commentary" subtype="subpart" n="4"> <head><term>Hyperbole</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Hyperbole</term> of Cicero called <term>Superlatio</term>, of
                                 Quintilian <term>Superiectio</term>, and it is a sentence or saying
@@ -1838,7 +1838,7 @@
                                 then a swineheard, more vaine then a vice, more hated then a
                                 hangman. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p>The use hereof serveth most fitly for amplification, and that<note place="marg" anchored="false">1.To amplify.</note> especially when
                                 matter require either to be amplified in the greatest degree, or
@@ -1849,7 +1849,7 @@
                                 mounteth to the highest things, compasseth the widest, and
                                 comprehendeth the greatest. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="3">
+                        <div type="commentary" subtype="subsubpart" n="3">
  <head>The Caution.</head>
 
                             <p>Two things especially are here to be noted and avoyded, the one, that
@@ -1865,9 +1865,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="5"> <head><term>Asteismus</term>.</head>
+                    <div type="commentary" subtype="subpart" n="5"> <head><term>Asteismus</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Asteisimus</term>, in Latine <term>Urbanitas</term>, is a
                                 wittie jesting in civill maner, and gracing of speech with some
@@ -1903,7 +1903,7 @@
                                 argument. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p>The use hereof is pleasant and commendable, especially among good
                                 wittes, and men of merrie and delightful natures, but yet more meete
@@ -1914,7 +1914,7 @@
                                 the dull and wearisome minds of men are much refreshed. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>Heede in the use of this figure ought to be taken, that it offend not
                                 against charitie, chastitie, nor pietie. It offendeth <note place="marg" anchored="false">1.Against charitie.</note>against
@@ -1934,9 +1934,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="6"> <head><term>Ironia</term></head>
+                    <div type="commentary" subtype="subpart" n="6"> <head><term>Ironia</term></head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Ironia</term> called of the Latines <term>Dissimulatio</term>
                                 and <term>Irriso</term>, and of some Illusio, it is a Trope in which
@@ -1983,7 +1983,7 @@
                             </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p><note place="marg" anchored="false">1.To reprove and rebuke.</note>
                                 This figure pertaineth chiefly to reprove by derision and illusion,
@@ -1991,7 +1991,7 @@
                                 jest and move mirth by opposing contraries. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1.Not to be used without urgent
                                     cause.</note>It ought to be foreseene, that this figure be not
@@ -2008,9 +2008,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="7"> <head><term>Charientismus</term>.</head>
+                    <div type="commentary" subtype="subpart" n="7"> <head><term>Charientismus</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
                             <p><term>Charientismus</term> is a trope of speech which mitigateth hard
                                 matters with pleasant words. </p>
                             <p>An example: A certaine man being apprehended, and brought before
@@ -2028,7 +2028,7 @@
                             </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="2">
+                        <div type="commentary" subtype="subsubpart" n="2">
 
                             <p>The benefit of this figure is great and necessaire, for it <note place="marg" anchored="false">1.Compared to a salve, &amp; to a
                                     medicin.</note> standeth as it were in sted of a salve to heale
@@ -2042,7 +2042,7 @@
                                 bitter blastes from the contrary coast called Subsolanus. </p>
                         </div>
 
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>Two great faults may be committed in this figure, the one is<note place="marg" anchored="false">1.A base submission.</note> a base
                                 and vile submission, the other is open flatterie; the one is a
@@ -2051,9 +2051,9 @@
                             </p>
                         </div>
                     </div>
-                    <div type="textpart" subtype="subpart" n="8"> <head><term>Sarcasmus</term>.</head>
+                    <div type="commentary" subtype="subpart" n="8"> <head><term>Sarcasmus</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p>Sarcasmus is a bitter kind of derision, most commonly used of an
                                 enemie. An example: Demothenes taketh upon him (quoth Demades) to
@@ -2084,7 +2084,7 @@
                                 Christ are here set down to teach the forme of this figure, and not
                                 to confirme the abuse. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p><note place="marg" anchored="false">1.To represse pride, follie, &amp;
                                     rudenesse.</note>The best &amp; most lawfull use of this
@@ -2097,7 +2097,7 @@
                                 health: even so the benefit of an enemies mocke to a wise man, is
                                 the knowledge of his fault, and the amending of it. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1.Not to be used without a needful
                                     cause.</note>Let it be first provided that this figure be not
@@ -2113,9 +2113,9 @@
                                 and common mocker becommeth odious to all men. </p>
                         </div>
                     </div>
-                    <div type="textpart" subtype="subpart" n="9"> <head><term>Mycterismus</term>.</head>
+                    <div type="commentary" subtype="subpart" n="9"> <head><term>Mycterismus</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Mycterismus</term> is a privie kind of mocke, or maner of
                                 jesting, yet not so privie but that it may well be perceived. </p>
@@ -2130,7 +2130,7 @@
                                 Doest thou think (quoth he) that bees gather their hony for fooles
                                 onely? </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure</head>
+                        <div type="commentary"><head>The use of this figure</head>
 
                             <p>The use hereof differeth not much from the use of
                                     <term>Sarcasmus</term>,<note place="marg" anchored="false">1.The
@@ -2144,7 +2144,7 @@
                                 nose, before he<note place="marg" anchored="false">3.Compared to the
                                     frost.</note> can discerne it with his eye. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p>This figure must not be too obscure and darke, for by that it may
                                 loose the vertue and use, if it be not perceived, and<note place="marg" anchored="false">1.Not too obscure.</note> therefore
@@ -2154,9 +2154,9 @@
                         </div>
                     </div>
 
-                    <div type="textpart" subtype="subpart" n="10"> <head><term>Diasyrmus</term>.</head>
+                    <div type="commentary" subtype="subpart" n="10"> <head><term>Diasyrmus</term>.</head>
 
-                        <div type="textpart" subtype="subsubpart" n="1">
+                        <div type="commentary" subtype="subsubpart" n="1">
 
                             <p><term>Dyasyrmus</term> is a Trope by which the arguments of an
                                 adversarie are either deraved or rejected. Cicero for Murena against
@@ -2171,7 +2171,7 @@
                                 where, both private and publike: and therefore it may suffise to
                                 shew the use, and forewarne the abuse of it. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="2"> <head>The use of this figure.</head>
+                        <div type="commentary"><head>The use of this figure.</head>
 
                             <p><note place="marg" anchored="false">1.To make an evasion.</note>The
                                 most lawfull and commendable use of this <term>Trope</term>, is
@@ -2181,7 +2181,7 @@
                                     proud adversarie.</note> obscure, or to abate the pride and
                                 arrogancie of a proude and insolent disputer. </p>
                         </div>
-                        <div type="textpart" subtype="subsubpart" n="3"> <head>The Caution.</head>
+                        <div type="commentary"><head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1.Where it ought not to be
                                     used.</note>The especiall warning that is to be observed in this
