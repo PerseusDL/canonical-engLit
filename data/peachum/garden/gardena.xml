@@ -10,7 +10,14 @@
             </titleStmt>
             <extent/>
             <publicationStmt>
-                <p>later</p>
+                <publisher>Trustees of Tufts University</publisher>
+                <pubPlace>Medford, MA</pubPlace>
+                <authority>Perseus Project</authority>
+                <date type="release" when="2001" cert="high">Perseus 3.0</date>
+                <idno type="filename">peachum.garden.perseus-eng1.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+                </availability>
             </publicationStmt>
 
             <sourceDesc>
@@ -32,18 +39,12 @@
         <encodingDesc>
 
             <refsDecl n="CTS">
-                <cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])">
-                    <p>This pointer pattern extracts act and scene and line.</p>
+                <cRefPattern n="trope"
+                    matchPattern="trope:(\w+)" 
+                    replacementPattern="#xpath(//div[@subtype='trope' and @n='$1'])">
+                    <p>for example, "trope:Antonomasia"</p>
                 </cRefPattern>
-                <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-                    <p>This pointer pattern extracts book and chapter.</p>
-                </cRefPattern>
-                <cRefPattern n="book" matchPattern="(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-                    <p>This pointer pattern extracts book.</p>
-                </cRefPattern>
+                
             </refsDecl>
         </encodingDesc>
 
@@ -253,7 +254,7 @@
             </div>
             <!-- of part "Figures" -->
 
-            <div type="commentary" subtype="part" n="1">
+            <div type="commentary" subtype="part" n="tropes">
                 <!-- Tropes -->
                 <div type="commentary">
                     <div type="commentary">

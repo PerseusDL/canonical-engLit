@@ -40,18 +40,20 @@
     <encodingDesc>
 
       <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)"
-          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])">
-          <p>This pointer pattern extracts act and scene and line.</p>
+        <cRefPattern n="figure"
+          matchPattern="figure:(\w+)" 
+          replacementPattern="#xpath(//div[@subtype='figure' and @n='$1'])">
+          <p>for example, "figure:Antonomasia"</p>
         </cRefPattern>
-        <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
-          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-          <p>This pointer pattern extracts book and chapter.</p>
+        <cRefPattern n="figures"
+          matchPattern="figures:(\w+)" 
+          replacementPattern="#xpath(//div[@subtype='figures' and @n='$1'])">
+          <p>for example, "figures:Omission"</p>
         </cRefPattern>
-        <cRefPattern n="book" matchPattern="(\w+)"
-          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pointer pattern extracts book.</p>
-        </cRefPattern>
+        
+        
+        
+        
       </refsDecl>
     </encodingDesc>
 
@@ -74,7 +76,7 @@
 
   <text xml:lang="eng">
     <body>
-      <div type="commentary" subtype="part" n="2"><head><term>SCHEMATES RHETORICAL</term></head>
+      <div type="commentary" subtype="part" n="schemas"><head><term>SCHEMATES RHETORICAL</term></head>
 
         <p>Schemates Rhetorical be those figures or forms of speaking, which do take away the
           wearisomnesse of our common speech, and do fashion a pleasant, sharpe, and evident kind of
@@ -90,7 +92,7 @@
               <term>Repetition,</term> the second of <term>Omission</term>, the third of
               <term>conjunction</term>, the fourth of <term>separation</term>.</p>
 
-          <div type="commentary" subtype="figures" n="repetition"> <head>Figures of Repetition.</head>
+          <div type="commentary" subtype="figures" n="Repetition"> <head>Figures of Repetition.</head>
 
             <list>
               <item n="1"><term>Epanaphora</term></item>
@@ -577,7 +579,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="figures" n="omission"> <head><term>FIGURES OF OMISSION</term></head>
+          <div type="commentary" subtype="figures" n="Omission"> <head><term>FIGURES OF OMISSION</term></head>
 
             <p><term>Zeugma</term> threefold. 1. <term>Prozeugma</term>. 2, <term>Mezozeugma</term>,
               3. <term>Hypozeugma</term>, <term>Asyndeton</term>. In these figures there is some
@@ -669,7 +671,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="figures" n="conjunction"> <head><term>FIGURES OF CONJUNCTION</term>.</head>
+          <div type="commentary" subtype="figures" n="Conjunction"> <head><term>FIGURES OF CONJUNCTION</term>.</head>
 
             <p><term>Figures of Conjunction</term> are these, <term>Polysindeton</term>,
                 <term>Homeoptoton</term>, <term>Homeoteleuton</term>, <term>Paregmemon</term>: these
@@ -825,7 +827,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="figures" n="separation"> <head><term>FIGURES OF SEPARATION</term></head>
+          <div type="commentary" subtype="figures" n="Separation"> <head><term>FIGURES OF SEPARATION</term></head>
 
             <p><term>Paranomasia</term>,<term>Antanaclasis</term>,<term>Articulus</term>,<term>Membrum</term>,
                 <term>Compar</term>,<term>Hypozeuxis</term>, <term>Taxis</term>. </p>
@@ -1115,7 +1117,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="figures" n="sentences"> <head><term>FIGURES OF SENTENCES</term></head>
+          <div type="commentary" subtype="figures" n="Sentences"> <head><term>FIGURES OF SENTENCES</term></head>
 
             <p><term>Figures of Sentences</term> are those by which either our affections are
               elegantly expressed, or matters mightily magnified. The difference between the figures
@@ -1135,7 +1137,7 @@
             passions of the minde are properly and elegantly uttered, and the either by the figures
             of Exclamation, Moderation, Consultation, or Permission. </p>
           
-          <div type="commentary" subtype="figures" n="exclamation"><head><term>FIGURES OF EXCLAMATION</term></head>
+          <div type="commentary" subtype="figures" n="Exclamation"><head><term>FIGURES OF EXCLAMATION</term></head>
 
             <p>Under the name of Exclamation I do comprehend all those figures which are used most
               commonly to utter vehement affections in vhement formes, not only such as do expresse
@@ -2287,7 +2289,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="figures" n="moderation"><head><term>FIGURES OF MODERATION</term>.</head>
+          <div type="commentary" subtype="figures" n="Moderation"><head><term>FIGURES OF MODERATION</term>.</head>
 
             <p><term>Figures of Moderation</term> are such, as are lesse vehement then those which I
               have alreadie spoken of under the name and title of <term>Exclamation</term>. These
@@ -3235,7 +3237,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="figures" n="consultation"><head><term>FIGURES OF CONSULTATION</term>.</head>
+          <div type="commentary" subtype="figures" n="Consultation"><head><term>FIGURES OF CONSULTATION</term>.</head>
 
             <p><term>Figures of consultation</term> I call such, which by reason of their forme and
               interrogation seeme to consult and deliberate with the hearers, the figures of this
@@ -3522,7 +3524,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="figures" n="permission"><head><term>FIGURES OF PERMISSION</term>.</head>
+          <div type="commentary" subtype="figures" n="Permission"><head><term>FIGURES OF PERMISSION</term>.</head>
 
             <p><term>Figures of Permission</term>, or <term>Concession</term>, are such formes of
               speech as do after a sort commit the cause in hand, or matter in controversie to the
@@ -3959,7 +3961,7 @@
             matters and causes are meetest for it, and after I will proceede to the particular
             treatise of every figure in their severall orders. </p>
 
-          <div type="commentary"><head><term>Amplification</term> what it is.</head>
+          <div type="commentary" subtype="figure" n="Amplification"><head><term>Amplification</term> what it is.</head>
 
             <p><term>Amplification</term> is a certaine affirmation very great and weighty, which by
               large and plentifull speech moveth the mindes of the hearers, and causeth them to
@@ -4044,7 +4046,7 @@
                 excellent and apt examples of <term>Amplification</term>. </p>
             </div>
           </div>
-          <div type="commentary" subtype="order" n="1"><head><term>Distributio</term>.</head>
+          <div type="commentary" subtype="figure" n="Distributio"><head><term>Distributio</term>.</head>
 
             
 
