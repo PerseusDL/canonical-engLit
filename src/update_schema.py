@@ -21,6 +21,7 @@ def convert_entities(line):
     line = line.replace('&uacute;', u"\u00FA")
     line = line.replace('&racute;', u"\u0155")
     line = line.replace('&sacute;', u"\u015B")
+    line = line.replace('&yacute;', u"\u00FD")
 
     line = re.sub('&acirc;', u"\u00E2", line)
     line = re.sub('&ecirc;', u"\u00EA", line)
@@ -28,6 +29,8 @@ def convert_entities(line):
     line = re.sub('&Ocirc;', u"\u00D4", line)
     line = re.sub('&ocirc;', u"\u00F4", line)
     line = re.sub('&ucirc;', u"\u00FB", line)
+
+    line = re.sub('&Auml;', u"\u00C4", line)
     line = re.sub('&auml;', u"\u00E4", line)
     line = re.sub('&euml;', u"\u00EB", line)
     line = re.sub('&iuml;', u"\u00EF", line)
@@ -63,6 +66,7 @@ def convert_entities(line):
     line = line.replace('&rdquo;', u"\u201D")
 
     line = line.replace('&para;', u"\u00B6")
+    line = line.replace('&par;', u"\u00B6")
     line = line.replace('&nbsp;', ' ')
 
     line = line.replace('&atilde;', u"\u00E3")
@@ -78,11 +82,19 @@ def convert_entities(line):
     line = line.replace('&dagger;', u"\u2020")
     line = line.replace('&thorn;', u"\u00FE")
 
+    line = line.replace('&abreve;', u"\u0103")
+    line = line.replace('&ebreve;', u"\u0115")
+    line = line.replace('&ibreve;', u"\u012D")
+    line = line.replace('&obreve;', u"\u014F")
+    line = line.replace('&ubreve;', u"\u016D")
+    
+
     line = re.sub('&responsibility;', '', line)
     line = re.sub('&fund.DLI2;', '', line)
     line = re.sub('&Perseus.publish;', '<publicationStmt><p>later</p></publicationStmt>', line)
     line = re.sub('&Holinshed.publicationStmt;', '<p>later</p>', line)
     line = re.sub('&Ellis.sourceDesc;', '<p>later</p>', line)
+    line = re.sub('&Perseus.DE;', '<p>later</p>', line)
 
 
     # fractions
