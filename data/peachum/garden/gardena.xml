@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
@@ -28,7 +30,7 @@
         </fileDesc>
 
         <encodingDesc>
-            
+
             <refsDecl n="CTS">
                 <cRefPattern n="section" matchPattern="(\w+).(\w+).(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])">
@@ -56,7 +58,9 @@
             </langUsage>
         </profileDesc>
 
-        <revisionDesc><change><ab>converted to EpiDoc</ab></change></revisionDesc>
+        <revisionDesc>
+            <change><ab>converted to EpiDoc</ab></change>
+        </revisionDesc>
 
     </teiHeader>
 
@@ -64,8 +68,8 @@
         <front>
             <div type="commentary" subtype="section" n="1">
 
-                <ab type="opener">TO THE RIGHT HONORABLE SIR JOHN Puckering Knight, Lord keeper of the great
-                    seale of England.</ab>
+                <ab type="opener">TO THE RIGHT HONORABLE SIR JOHN Puckering Knight, Lord keeper of
+                    the great seale of England.</ab>
 
                 <p>Albeit (Right Honorable) it may seeme to some men at the first sight, a matter
                     importunate to interrupt your Lordships grave, deep, and weightie
@@ -86,13 +90,13 @@
                     doth mightily support, and defend it against all objections, as we may plainly
                     see in one short sentence of his (among many other tending to this purpose)
                     where he saith: Ut hominis decus est ingenium, sic ingenii lumen, est
-                    eloquentia: <note place="marg" anchored="false">De claris oratoribum.</note> that
-                    is, as wit is mans worship, or wisedome man honor, so eloquence is the light and
-                    brightnesse of wisedome, in which sentence, he both expresseth the singular
-                    praises of two most worthie vertues, and also enforceth the necessitie, and
-                    commendeth the utilitie of their excellent conjunction. And true it is that if
-                    we joine with this prudent Orator in a diligent inquisition and contemplation of
-                    wisedome, and in a deliberate consideration of art, we shal see that verified
+                    eloquentia: <note place="marg" anchored="false">De claris oratoribum.</note>
+                    that is, as wit is mans worship, or wisedome man honor, so eloquence is the
+                    light and brightnesse of wisedome, in which sentence, he both expresseth the
+                    singular praises of two most worthie vertues, and also enforceth the necessitie,
+                    and commendeth the utilitie of their excellent conjunction. And true it is that
+                    if we joine with this prudent Orator in a diligent inquisition and contemplation
+                    of wisedome, and in a deliberate consideration of art, we shal see that verified
                     which he hath here affirmed. For if we enquire what wisedome is, we shall find
                     that it is the knowledge of divine and humane thinges, if whose gift it is, we
                     shall find that it is the knowledge of divine and humane thinges, if whose gift
@@ -219,10 +223,12 @@
             </div>
         </front>
 
-        <body> <head>The Garden of Eloquence</head>
+        <body>
+            <head>The Garden of Eloquence</head>
 
             <div type="commentary" subtype="part" n="0">
-                <div type="commentary" subtype="subpart" n="1"> <head>The Names of figures.</head>
+                <div type="commentary" subtype="subpart" n="1">
+                    <head>The Names of figures.</head>
 
                     <p>Figure of the Grecians are called Tropes and Schemates, and of the Latines,
                         figures, exornations, lights, colours and ornaments. Cicero who supposing
@@ -232,78 +238,91 @@
                         ornaments under one name.</p>
                 </div>
 
-                <div type="commentary" subtype="subpart" n="2"> <head>A Figure what it is.</head>
+                <div type="commentary" subtype="subpart" n="2">
+                    <head>A Figure what it is.</head>
 
                     <p>A Figure is a forme of words, oration, or sentence, made new by art,
                         differing from the vulgar maner and custome of writing or speaking.</p>
                 </div>
 
-                <div type="commentary" subtype="subpart" n="3"> <head>A Figure how it is devided.</head>
+                <div type="commentary" subtype="subpart" n="3">
+                    <head>A Figure how it is devided.</head>
 
                     <p>A figure is either A <term>Trope</term> or A <term>Schemate</term>.</p>
                 </div>
             </div>
             <!-- of part "Figures" -->
 
-            <div type="commentary" subtype="part" n="1"> <!-- Tropes -->
-                <div type="commentary" subtype="subpart" n="1"> <head>A <term>Trope</term> what it is.</head>
+            <div type="commentary" subtype="part" n="1">
+                <!-- Tropes -->
+                <div type="commentary">
+                    <div type="commentary">
+                        <head>A <term>Trope</term> what it is.</head>
 
-                    <p>A <term>Trope</term> is an artificall alteration of a word, or a sentence,
-                        from the proper and natural signification to another not proper, but yet
-                        nigh, and likely.</p>
+                        <p>A <term>Trope</term> is an artificall alteration of a word, or a
+                            sentence, from the proper and natural signification to another not
+                            proper, but yet nigh, and likely.</p>
+                    </div>
+
+                    <div type="commentary">
+                        <head>The beginning, and causes of <term>Tropes</term>.</head>
+
+                        <p>The causes of <term>Tropes</term> are three, neccessitie will and arte,
+                            &amp; of these three necessity was the first, for where there wanted
+                            words <note place="marg" anchored="false">1. Necessity.</note> to
+                            expresse the nature and propertie of diverse things, men were urged and
+                            constrained to seeke remedie for the supply of so great a want,
+                            whereupon wise men calling to remembrance that many things were verie
+                            like one to another in some respect of nature though it good to borow ye
+                            name of one thing, to signifie another, which did in some part or
+                            property of nature resemble it, &amp; thus began they to use translated
+                            speech: declaring their meaning by similitudes and compared
+                            significations. Ant then, seeing that by this meanes matter were well
+                            expressed, their meanings more largely uttered, and their invention well
+                            commended, men in their private speech, and Orators <note place="marg"
+                                anchored="false">2. Will</note> in their publike orations, refused
+                            such words as were proper, and had litle sweetnesse, or could not
+                            declare the nature of the thing so well, and used other wordes borrowed
+                            from like things, both for the grace sake of the similitude, and also
+                            for the cause of perspicuitie of the thing expressed.</p>
+
+                        <p>Since upon good liking, and confirmed judgement, the wisdome of man hath
+                            invented and found out an Art, not onely teaching where apt translations
+                            may be found, but also giving excellent rules and certaine directions,
+                            how they should be most aptly and properly applyed.</p>
+
+                        <p>The places from whence translations may be taken, are infinite, not
+                            withstanding there be certaine that be verie usuall, readie, apt and
+                            pleasant, which I purpose hereafter to observe and note, as the most
+                            plentifull fields, yeeldinrg such proffitable and pleasant flowers.</p>
+
+                        <p>This excellent Art of translating, among other profitable rules
+                            commendeth to us this necessarie observation to begin with, that is to
+                            say, that those things ought to be equal in proportion, which we purpose
+                            to compare by translation, that is, of foure things two ought always to
+                            be compared to two, as for example, we say the flower of age, here in
+                            this translation the herbe and the flower is compared to man and his
+                            youth, for the same that the flower is in the herbe, the same is youth
+                            in man. By the same proportion the Poet saith, unhappy Dido enflamed is,
+                            in this example Dido and her love is compared to the wood and the
+                            fire.</p>
+
+                        <p>This rule is alwayes most diligently observed of wise and learned men,
+                            whose words and works are by this singular forme of speech both
+                            pleasantly beautified, and brightly adorned. The special commendation of
+                            translated speech I will referre it to the proper use of everie singular
+                                <term>Trope</term>.</p>
+                    </div>
+
+                    <div type="commentary">
+                        <head>The division of <term>Tropes</term>.</head>
+
+                        <p>Tropes are either of Words or Sentences.</p>
+                    </div>
+
                 </div>
-
-                <div type="commentary" subtype="subpart" n="2"> <head>The beginning, and causes of <term>Tropes</term>.</head>
-
-                    <p>The causes of <term>Tropes</term> are three, neccessitie will and arte, &amp;
-                        of these three necessity was the first, for where there wanted words <note place="marg" anchored="false">1. Necessity.</note> to expresse the nature
-                        and propertie of diverse things, men were urged and constrained to seeke
-                        remedie for the supply of so great a want, whereupon wise men calling to
-                        remembrance that many things were verie like one to another in some respect
-                        of nature though it good to borow ye name of one thing, to signifie another,
-                        which did in some part or property of nature resemble it, &amp; thus began
-                        they to use translated speech: declaring their meaning by similitudes and
-                        compared significations. Ant then, seeing that by this meanes matter were
-                        well expressed, their meanings more largely uttered, and their invention
-                        well commended, men in their private speech, and Orators <note place="marg" anchored="false">2. Will</note> in their publike orations, refused such
-                        words as were proper, and had litle sweetnesse, or could not declare the
-                        nature of the thing so well, and used other wordes borrowed from like
-                        things, both for the grace sake of the similitude, and also for the cause of
-                        perspicuitie of the thing expressed.</p>
-
-                    <p>Since upon good liking, and confirmed judgement, the wisdome of man hath
-                        invented and found out an Art, not onely teaching where apt translations may
-                        be found, but also giving excellent rules and certaine directions, how they
-                        should be most aptly and properly applyed.</p>
-
-                    <p>The places from whence translations may be taken, are infinite, not
-                        withstanding there be certaine that be verie usuall, readie, apt and
-                        pleasant, which I purpose hereafter to observe and note, as the most
-                        plentifull fields, yeeldinrg such proffitable and pleasant flowers.</p>
-
-                    <p>This excellent Art of translating, among other profitable rules commendeth to
-                        us this necessarie observation to begin with, that is to say, that those
-                        things ought to be equal in proportion, which we purpose to compare by
-                        translation, that is, of foure things two ought always to be compared to
-                        two, as for example, we say the flower of age, here in this translation the
-                        herbe and the flower is compared to man and his youth, for the same that the
-                        flower is in the herbe, the same is youth in man. By the same proportion the
-                        Poet saith, unhappy Dido enflamed is, in this example Dido and her love is
-                        compared to the wood and the fire.</p>
-
-                    <p>This rule is alwayes most diligently observed of wise and learned men, whose
-                        words and works are by this singular forme of speech both pleasantly
-                        beautified, and brightly adorned. The special commendation of translated
-                        speech I will referre it to the proper use of everie singular
-                            <term>Trope</term>.</p>
-                </div>
-
-                <div type="commentary" subtype="subpart" n="3"> <head>The division of <term>Tropes</term>.</head>
-
-                    <p>Tropes are either of Words or Sentences.</p>
-                </div>
-
-                <div type="commentary" subtype="subsubpart" n="4"> <head>Tropes of words are these.</head>
+                <div type="commentary" subtype="tropes" n="words">
+                    <head>Tropes of words are these.</head>
 
                     <list type="ordered">
                         <item n="1"><term>Metaphora.</term></item>
@@ -318,15 +337,13 @@
 
 
 
-                    <div type="commentary" subtype="subpart" n="1"> <head>Metaphora</head>
+                    <div type="commentary" subtype="trope" n="Metaphora">
+                        <head>Metaphora</head>
+                        <p><term>Metaphora</term> is artifical translation of one word, from the
+                            proper signification, to another not proper, but yet nigh and like.</p>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
-                            <p><term>Metaphora</term> is artifical translation of one word, from the
-                                proper signification, to another not proper, but yet nigh and
-                                like.</p>
-                        </div>
-
-                        <div type="commentary" subtype="subsubpart" n="2"> <head>The efficient cause of a <term>Metaphore</term>.</head>
+                        <div type="commentary">
+                            <head>The efficient cause of a <term>Metaphore</term>.</head>
 
                             <p>It is apparant that memorie is the principall efficient of a
                                     <term>Metaphore</term>, for being the retentive power of the
@@ -361,8 +378,10 @@
                                 as most apt, most usual, &amp; most commendable, which are these
                                 following.</p>
 
-                            <div type="commentary" subtype="subsubpart" n="1"> <head>From man him selfe, and first from his senses.</head>
-                                <div type="commentary" subtype="subsubpart" n="1"> <head>1. From the sight.</head>
+                            <div type="commentary" subtype="subsubpart" n="1">
+                                <head>From man him selfe, and first from his senses.</head>
+                                <div type="commentary" subtype="subsubpart" n="1">
+                                    <head>1. From the sight.</head>
 
                                     <p>As the sight among the rest of the senses is most sharpe, and
                                         pierceth furthest, so is it proved most sure, and least
@@ -429,7 +448,8 @@
                                         knowledge. </p>
                                 </div>
 
-                                <div type="commentary" subtype="subsubpart" n="2"> <head>From the hearing.</head>
+                                <div type="commentary" subtype="subsubpart" n="2">
+                                    <head>From the hearing.</head>
 
                                     <p>From the hearing are diverse translations taken, not so much
                                         serving to signifie the powers of the mind, as to expresse
@@ -473,7 +493,8 @@
                                         obstinate, and hardened against all good counsell. </p>
                                 </div>
 
-                                <div type="commentary" subtype="subsubpart" n="3"> <head>From the smelling.</head>
+                                <div type="commentary" subtype="subsubpart" n="3">
+                                    <head>From the smelling.</head>
 
                                     <p>From smelling these translations and such like may be taken.
                                         Being wise &amp; provident, by his singular foresight did
@@ -499,7 +520,8 @@
                                     </p>
                                 </div>
 
-                                <div type="commentary" subtype="subsubpart" n="4"> <head>From feeling or touching.</head>
+                                <div type="commentary" subtype="subsubpart" n="4">
+                                    <head>From feeling or touching.</head>
 
                                     <p><note place="marg" anchored="false">Job.1.</note> From this
                                         sense are sundrie Metaphors taken. An example of the holy
@@ -528,7 +550,8 @@
                                         defect, by embracing love or possession of pleasure. </p>
                                 </div>
 
-                                <div type="commentary" subtype="subsubpart" n="5"> <head>From the tasting.</head>
+                                <div type="commentary" subtype="subsubpart" n="5">
+                                    <head>From the tasting.</head>
 
                                     <p>From this sense and his subjects, these kinds of translations
                                         are taken. Cicero to Atticus: you may tast that man, that
@@ -563,7 +586,8 @@
                                 </div>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="2"> <head>From the mind to the bodie.</head>
+                            <div type="commentary" subtype="subsubpart" n="2">
+                                <head>From the mind to the bodie.</head>
 
                                 <p>From things in the minde to the parts of the bodie, as to call a
                                     wound angrie, or wofull: a tongue malicious, and also when we
@@ -589,7 +613,8 @@
 
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="3"> <head>From living creatures without reason, to man partaker of
+                            <div type="commentary" subtype="subsubpart" n="3">
+                                <head>From living creatures without reason, to man partaker of
                                     reason.</head>
 
                                 <p>From the creatures without reason <term>Metaphors</term> are
@@ -611,7 +636,8 @@
                                     flatterie.</p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="4"> <head>From man to the brute creature.</head>
+                            <div type="commentary" subtype="subsubpart" n="4">
+                                <head>From man to the brute creature.</head>
 
                                 <p>From the reasonable to the unreasonable the usuall translations
                                     are these and such like, as to say, the mourning dove, the
@@ -623,7 +649,8 @@
                                     man in these rehearsed properties. </p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="5"> <head>From the living to things without life.</head>
+                            <div type="commentary" subtype="subsubpart" n="5">
+                                <head>From the living to things without life.</head>
 
                                 <p>This part of translation is also very apt and significant, by
                                     this place the sea is sayd to swallow, the wind or tempests to
@@ -645,7 +672,8 @@
                                     reason, and affection to things which are voyd of them all. </p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="6"> <head>From things without life to things having life.</head>
+                            <div type="commentary" subtype="subsubpart" n="6">
+                                <head>From things without life to things having life.</head>
 
                                 <p>From this place <term>Metaphors</term> of this sort are taken as
                                     to say, that men of famous renowne do shine, which is onely
@@ -659,7 +687,8 @@
                                     serveth much to perspecuitie. </p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="7"> <head>From things senslesse to things senslesse.</head>
+                            <div type="commentary" subtype="subsubpart" n="7">
+                                <head>From things senslesse to things senslesse.</head>
 
                                 <p>By this place vices are layd to bud, desires to burne, beautie to
                                     wither, anger to boile, &amp; sometime to flame. In like forme
@@ -674,7 +703,8 @@
                                     inough, and therefore I omit their interpretations.</p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="8"> <head>From the offices and actions of men.</head>
+                            <div type="commentary" subtype="subsubpart" n="8">
+                                <head>From the offices and actions of men.</head>
 
                                 <p>From the offices and actions of men are very usuall translations,
                                     and apt for description. 1. From the Magistrate. Example of holy
@@ -747,7 +777,8 @@
                                     to digge, to frame, &amp; c. </p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="9"> <head>From certain Substantives very much used in
+                            <div type="commentary" subtype="subsubpart" n="9">
+                                <head>From certain Substantives very much used in
                                     translation.</head>
 
                                 <p>From certain Substantives, very apt and pleasant
@@ -769,7 +800,8 @@
                                 </p>
                                 <p>They have stumbled against the stumbling stone. They are fallen
                                     into the same pit they made for others. </p>
-                                <p>The way of sinners, and the chaire of scorners. <note place="marg" anchored="false">Psal.1.</note>
+                                <p>The way of sinners, and the chaire of scorners. <note
+                                        place="marg" anchored="false">Psal.1.</note>
                                 </p>
                                 <p>Also we say by this place, that impunitie is a gate to all
                                     mischiefe, that hypocrisie is covered under the cloke of
@@ -783,7 +815,8 @@
                                     pleasant. </p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="10"> <head>From the four Elements.</head>
+                            <div type="commentary" subtype="subsubpart" n="10">
+                                <head>From the four Elements.</head>
 
                                 <p>First to begin with translations taken from the nature and
                                     propertie of fire we say a man of an inflamed mind, the flaming
@@ -823,7 +856,8 @@
                                     a vale of miserie. </p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="11"> <head>From men to God.</head>
+                            <div type="commentary" subtype="subsubpart" n="11">
+                                <head>From men to God.</head>
 
                                 <p>So infinite and incomprehensible is the nature of Almightie God,
                                     and mans capacitie of so small a compasse, that no one attribute
@@ -854,7 +888,8 @@
                                     is, an attributing to God humane affections. </p>
                             </div>
 
-                            <div type="commentary" subtype="subsubpart" n="12"> <head>From God to men.</head>
+                            <div type="commentary" subtype="subsubpart" n="12">
+                                <head>From God to men.</head>
 
                                 <p>By this place we give the titles of highnesse an dmajestie to
                                     PRinces, which are proper to God, yet meete for them in respect
@@ -874,19 +909,24 @@
                         </div>
                         <!-- End of efficient cause -->
 
-                        <div type="commentary"><head>The use of <term>Metaphors</term>.</head>
+                        <div type="commentary">
+                            <head>The use of <term>Metaphors</term>.</head>
 
                             <p>All <term>Metaphors</term> have their maniforld trutes, and the same
                                 both profitable and pleasant, which is a thing well known to men of
                                 learning and wisedome. First, they give pleasant light to darke
-                                things, tereby removing unprofitable and odious obscurite. <note place="marg" anchored="false">They give light.</note>
+                                things, tereby removing unprofitable and odious obscurite. <note
+                                    place="marg" anchored="false">They give light.</note>
                             </p>
                             <p>Secondly, by the aptnesse of thier proportion, and nearenesse of
-                                affinitie, they worke in the hearer many effects, they obtaine <note place="marg" anchored="false">2. They move
+                                affinitie, they worke in the hearer many effects, they obtaine <note
+                                    place="marg" anchored="false">2. They move
                                 affections.</note>allowance of his judgement, they move his
-                                affections, and minister a pleasure to his wit.<note place="marg" anchored="false">3. They are pleasant.</note>
+                                affections, and minister a pleasure to his wit.<note place="marg"
+                                    anchored="false">3. They are pleasant.</note>
                             </p>
-                            <p>Thirdly, they are forcible to perswade. Fourthly to commend <note place="marg" anchored="false">4. They are forcible to
+                            <p>Thirdly, they are forcible to perswade. Fourthly to commend <note
+                                    place="marg" anchored="false">4. They are forcible to
                                     perswade.</note> or dispraise. </p>
                             <p>Fifthly, they leave such a firme impression in the momory, as is not
                                 lightly forgotten.<note place="marg" anchored="false">They are well
@@ -894,29 +934,33 @@
                             </p>
                         </div>
 
-                        <div type="commentary" subtype="subsubpart" n="4"> <head>The comparison of <term>Metaphors</term>.</head>
+                        <div type="commentary">
+                            <head>The comparison of <term>Metaphors</term>.</head>
 
                             <p>Metaphors in respect of their perspecuitie, &amp; light which they
-                                give, may well be compared to the starres of the skie, which <note place="marg" anchored="false">Compared to the stars.</note> are
+                                give, may well be compared to the starres of the skie, which <note
+                                    place="marg" anchored="false">Compared to the stars.</note> are
                                 both the comfort of the night, &amp; the beautie of the firmament.
                                     <note place="marg" anchored="false">2. To colours.</note> 2. In
                                 respect of their aptnesse to make descriptions, they are not onely
                                 as pleasant colours of all kinds, but also as readie pensils pliable
-                                    <note place="marg" anchored="false">3. To pensils. </note>to lure
-                                out and shadow any maner of proportion in narture. 3. In respect of
-                                thier firme impression in the mind &amp; remembrance <note place="marg" anchored="false">4. To seales, To stamps in
+                                    <note place="marg" anchored="false">3. To pensils. </note>to
+                                lure out and shadow any maner of proportion in narture. 3. In
+                                respect of thier firme impression in the mind &amp; remembrance
+                                    <note place="marg" anchored="false">4. To seales, To stamps in
                                     mettall.</note>of the hearer, they are as seales upon soft ware,
                                 or as deep stamps in long lasting metal. </p>
                         </div>
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>In the choise and use of translation heed ought to be taken, that
                                     <note place="marg" anchored="false">1. Unlikenesse</note> these
                                 faults be not found in <term>Metaphors</term>. First, that there be
                                 not an unlikenesse in stead of a likenesse, as if one should say,
-                                the bull barketh, <note place="marg" anchored="false">2. Far fetcht or
-                                    strange.</note>which is very unlike, Secondly, that the
+                                the bull barketh, <note place="marg" anchored="false">2. Far fetcht
+                                    or strange.</note>which is very unlike, Secondly, that the
                                 similitude be not farre fetcht, as from strange things unknowne to
                                 the hearer, as if one should take <term>Metaphors</term> from the
                                 parts of a ship, and apply them among husbandmen which never came at
@@ -924,73 +968,80 @@
                                 evident. Thirdly, <note place="marg" anchored="false">3. Unchast
                                     signification.</note> that there be no uncleane or unchast
                                 signification contained in the <term>Metaphore</term>, which may
-                                offend against modest and reverend minds. <note place="marg" anchored="false">4, Excesse, or defect in the
+                                offend against modest and reverend minds. <note place="marg"
+                                    anchored="false">4, Excesse, or defect in the
                                 similitude.</note>Fourthly, that the similitude be not greater then
                                 the matter requireth, or contrariwise lesse.</p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="2"> <head><term>Onomatopeia</term>.</head>
+                    <div type="commentary" subtype="trope" n="Onomatopeia">
+                        <head><term>Onomatopeia</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
+                        <p><term>Onomatopeia</term>, this figure of the Latines is diversly named,
+                            as <term>Nominatio</term>, <term>Nominis fictia</term>,
+                                <term>Procreatio</term>. It is a forme of speech whereby the Orator
+                            or speaker maketh and faineth a name to some thing, imitating the sound
+                            or voyce of that it signifieth, or else whereby he affecteth a word
+                            derived from the name of a person, or from the originall of ye thing
+                            which it doth expresse. And this form of fayning, &amp; framing names is
+                            used diverse wayes. First, by imitation of sounds, as to <note
+                                place="marg" anchored="false">1. By imitation of sound.</note> say,
+                            a hurliburly, signifying a tumult or uprore: likewise, rushing,
+                            lumbring, ratling, blustring, creking, and may such like. <note
+                                place="marg" anchored="false">2. By imitation of voyces.</note>
+                            Secondly, by imitation of voyces, as the roaring of Lyons, the bellowing
+                            of buls, the blating of sheepe, the grunting of swine, the croking of
+                            frogs, the chattering of Pies, the chirping of sparrows, the howling of
+                            dogs, the neighing of horses, ye hissing of serpents. Thirdly, by the
+                            derivation from the original, as the citie Troy was so called by
+                            derivation from king Troc, &amp; before that it was <note place="marg"
+                                anchored="false">3. By derivation from the originall.</note> called
+                            Teucria, from Teucrus and first of all Dardania from Dardanus, so
+                            Ninivie of Ninus, so Luds-towne of Lud, and now London. Fourthly, by
+                            composition, as when we put two words together <note place="marg"
+                                anchored="false">4. By composition of two words.</note> and make of
+                            them but one, as to say, Oratorlike, scholerlike: also to call a churle
+                            thickskin, a niggard a pinchpeny, a flattere a pickthanke, a glutton a
+                            bellygod. Fifthly, by reviving antiquity. <note place="marg"
+                                anchored="false">5. Imitating antiquitie.</note> Touching this part
+                            I will refer the Reader to Chaucer &amp; Gower, and to the new Shepherds
+                            Calendar, a most singular imitation of ancient speech. The sixt maner of
+                            speaking or writing by this figure is, when we signifie the imitation of
+                            another mans property or fashion: this forme of speaking is very usual
+                            in the Greeke tongue, and somewaht it is used in the Latine, as when
+                            they say, Patrissare, matrissare, Platonissare, that is to say, to
+                            imitate his father, to imitate his mother, to imitate Plato, which forme
+                            our tongue can hardly imitate, except we should say, he doth fatherize,
+                            Platonize, temporize, which is not much in use. Yet the English tongue
+                            endevoreth what it can so speake by this part, as where it saith, I can
+                            not court it, I can not Italian it, that is, I can not performe the
+                            dutie or manners of a courtier, I can not imitate the fashion of an
+                            Italian. </p>
 
-                            <p><term>Onomatopeia</term>, this figure of the Latines is diversly
-                                named, as <term>Nominatio</term>, <term>Nominis fictia</term>,
-                                    <term>Procreatio</term>. It is a forme of speech whereby the
-                                Orator or speaker maketh and faineth a name to some thing, imitating
-                                the sound or voyce of that it signifieth, or else whereby he
-                                affecteth a word derived from the name of a person, or from the
-                                originall of ye thing which it doth expresse. And this form of
-                                fayning, &amp; framing names is used diverse wayes. First, by
-                                imitation of sounds, as to <note place="marg" anchored="false">1. By
-                                    imitation of sound.</note> say, a hurliburly, signifying a
-                                tumult or uprore: likewise, rushing, lumbring, ratling, blustring,
-                                creking, and may such like. <note place="marg" anchored="false">2. By
-                                    imitation of voyces.</note> Secondly, by imitation of voyces, as
-                                the roaring of Lyons, the bellowing of buls, the blating of sheepe,
-                                the grunting of swine, the croking of frogs, the chattering of Pies,
-                                the chirping of sparrows, the howling of dogs, the neighing of
-                                horses, ye hissing of serpents. Thirdly, by the derivation from the
-                                original, as the citie Troy was so called by derivation from king
-                                Troc, &amp; before that it was <note place="marg" anchored="false">3.
-                                    By derivation from the originall.</note> called Teucria, from
-                                Teucrus and first of all Dardania from Dardanus, so Ninivie of
-                                Ninus, so Luds-towne of Lud, and now London. Fourthly, by
-                                composition, as when we put two words together <note place="marg" anchored="false">4. By composition of two words.</note> and make
-                                of them but one, as to say, Oratorlike, scholerlike: also to call a
-                                churle thickskin, a niggard a pinchpeny, a flattere a pickthanke, a
-                                glutton a bellygod. Fifthly, by reviving antiquity. <note place="marg" anchored="false">5. Imitating antiquitie.</note>
-                                Touching this part I will refer the Reader to Chaucer &amp; Gower,
-                                and to the new Shepherds Calendar, a most singular imitation of
-                                ancient speech. The sixt maner of speaking or writing by this figure
-                                is, when we signifie the imitation of another mans property or
-                                fashion: this forme of speaking is very usual in the Greeke tongue,
-                                and somewaht it is used in the Latine, as when they say, Patrissare,
-                                matrissare, Platonissare, that is to say, to imitate his father, to
-                                imitate his mother, to imitate Plato, which forme our tongue can
-                                hardly imitate, except we should say, he doth fatherize, Platonize,
-                                temporize, which is not much in use. Yet the English tongue
-                                endevoreth what it can so speake by this part, as where it saith, I
-                                can not court it, I can not Italian it, that is, I can not performe
-                                the dutie or manners of a courtier, I can not imitate the fashion of
-                                an Italian. </p>
-                        </div>
 
-                        <div type="commentary"><head>The use of this Figure.</head>
+                        <div type="commentary">
+                            <head>The use of this Figure.</head>
 
                             <p>This figure serveth fitly to make description of an action, as much
-                                as may be signified by noise or found. Also it pretendeth <note place="marg" anchored="false">1. To describe.</note> to the hearer
-                                the nature of beasts, birds and other things, by the proper
+                                as may be signified by noise or found. Also it pretendeth <note
+                                    place="marg" anchored="false">1. To describe.</note> to the
+                                hearer the nature of beasts, birds and other things, by the proper
                                 imitation of their voyces. By derivation from the originall, it
-                                recordeth a perpetuall memorie of the first founders <note place="marg" anchored="false">2. To record.</note>of great workes:
-                                it serveth to brevitie by the apt composition, it is <note place="marg" anchored="false">3. To brevity.</note> the register
-                                of ancient speech and antiquitie.<note place="marg" anchored="false">4. To retaine antiquitie.</note>
+                                recordeth a perpetuall memorie of the first founders <note
+                                    place="marg" anchored="false">2. To record.</note>of great
+                                workes: it serveth to brevitie by the apt composition, it is <note
+                                    place="marg" anchored="false">3. To brevity.</note> the register
+                                of ancient speech and antiquitie.<note place="marg" anchored="false"
+                                    >4. To retaine antiquitie.</note>
                             </p>
                         </div>
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>As the use of this figure is both profitable &amp; pleasant, being
-                                artificially framed: so is it very unseemely and ridiculous,<note place="marg" anchored="false">1. Unlike, or unequall in
+                                artificially framed: so is it very unseemely and ridiculous,<note
+                                    place="marg" anchored="false">1. Unlike, or unequall in
                                     proportion.</note> if Art be neglected, and therefore these
                                 observations ought to be regarded. First, concerning the imitation
                                 of sound, that it be somwhat like to the thing it signifieth, and
@@ -1003,12 +1054,11 @@
                                 shunned, and alwayes a discreet regard to be observed. </p>
                         </div>
                     </div>
-                    <!-- end of Onomatopeia -->
 
+                    <div type="commentary" subtype="trope" n="Catachresis">
+                        <head><term>Catachresis</term>.</head>
 
-                    <div type="commentary" subtype="subpart" n="3"> <head><term>Catachresis</term>.</head>
-
-                        <div type="commentary" subtype="subsubpart" n="1">
+                        
 
                             <p><term>Catachresis</term> in Latine is called <term>Abusio</term>, and
                                 it is a forme of speech wherby the speaker or writer wanting a
@@ -1041,20 +1091,23 @@
                                     wasteth</note>The use of this figure is chiefly to serve in time
                                 of neede, as to yeeld a necessarie supply for the want of a proper
                                 word. </p>
-                        </div>
+                        
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1. Not to far fetcht.</note>This
-                                observation is to be regarded, that we fetch not the <note place="marg" anchored="false">2. Not to be used too
+                                observation is to be regarded, that we fetch not the <note
+                                    place="marg" anchored="false">2. Not to be used too
                                 oft.</note>translation too farre off, or that which is much unlike.
                                 Secondly that we use it not oft. </p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="4"> <head><term>Synecdoche</term>.</head>
+                    <div type="commentary" subtype="trope" n="Synecdoche">
+                        <head><term>Synecdoche</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
+                        
 
                             <p><term>Synecdoche</term> in Latine called <term>Intellectio</term>,
                                 that is, an understanding, and it is a forme of speech by which the
@@ -1121,9 +1174,10 @@
                                     consideration of the sense.</note>grace which otherwise it
                                 should want, forcing the understanding of his hearer to a deeper
                                 consideration of the sense and meaning. </p>
-                        </div>
+                        
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>These observations concerning this figure ought to be thought upon.
                                     <note place="marg" anchored="false">1. Apt choice of the
@@ -1141,16 +1195,17 @@
                             <p><note place="marg" anchored="false">4. Unfit among ignorant
                                     persons.</note>4 Lastly the use of this figure is very unfit
                                 among ignorant hearers which for lacke of knowledge may mistake it,
-                                and likewise <note place="marg" anchored="false">5. Captious cavillers
-                                    may abuse it.</note>among cavilling and captious persons, which
-                                of wilfull perversenesse may canily pervert the true meaning, either
-                                by malice or mockerie. </p>
+                                and likewise <note place="marg" anchored="false">5. Captious
+                                    cavillers may abuse it.</note>among cavilling and captious
+                                persons, which of wilfull perversenesse may canily pervert the true
+                                meaning, either by malice or mockerie. </p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="5"> <head><term>Metonimia</term>.</head>
+                    <div type="commentary" subtype="trope" n="Metonimia">
+                        <head><term>Metonimia</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
+                        
 
                             <p><term>Metonimia</term>, called of the Latines
                                     <term>Transnominatio</term>, and of some <term>Hypallage</term>,
@@ -1173,8 +1228,9 @@
                                 fruit, Bacchus for wine, Vulcane for fire, Mercurie for eloquence,
                                 ye author for his work thus, He learned his argumented of Aristotle,
                                 &amp; his eloquence of Tullie, he esseemed much of Livius, and tooke
-                                great delight in Plato; signifying by these Authors their <note place="marg" anchored="false">Luc.16.</note> workes. An example of
-                                the holy Scripture: <cit>
+                                great delight in Plato; signifying by these Authors their <note
+                                    place="marg" anchored="false">Luc.16.</note> workes. An example
+                                of the holy Scripture: <cit>
                                     <quote>They have Moses and the Prophets</quote>
                                     <bibl>Luc.16.</bibl>
                                 </cit>: that is, their bookes and volumes. </p>
@@ -1249,12 +1305,15 @@
                             <p>3 Place put for the things it containeth. An example: <cit>
                                     <quote>I call heaven and earth to record.</quote>
                                     <bibl>Deu.30.</bibl>
-                                </cit> Here Moses by heaven and earth <note place="marg" anchored="false">1. The world.</note> understandeth the creatures
-                                of heaven and earth, which he caleth to witnesse with him. </p>
-                            <p>Another, Italie can not be overcome by warre, nor Greece by <note place="marg" anchored="false">2. Countreys.</note> learning,
+                                </cit> Here Moses by heaven and earth <note place="marg"
+                                    anchored="false">1. The world.</note> understandeth the
+                                creatures of heaven and earth, which he caleth to witnesse with him. </p>
+                            <p>Another, Italie can not be overcome by warre, nor Greece by <note
+                                    place="marg" anchored="false">2. Countreys.</note> learning,
                                 meaning the people in those countreys. </p>
-                            <p>They invade the citie opprest with sleepe. By the city is meant<note place="marg" anchored="false">3. Cities.</note> the Troyans being
-                                in their dead sleepe and midnight. </p>
+                            <p>They invade the citie opprest with sleepe. By the city is meant<note
+                                    place="marg" anchored="false">3. Cities.</note> the Troyans
+                                being in their dead sleepe and midnight. </p>
                             <p>An example of the holy Scripture, O Jerulalem, Jerusalem, thou which
                                 killest the Prophets. By Jerusalem Christ signifieth the Rulers and
                                 the people of that citie. </p>
@@ -1263,8 +1322,9 @@
                                     <bibl>Gen.39.4.</bibl>
                                 </cit> that is, of all his servants treasures, and goods within his
                                 house. </p>
-                            <p>4 The container for the thing contained: Is not the cup of<note place="marg" anchored="false">4. Houses.</note> blessing, which we
-                                blesse the communion of the blood of Christ? In this example ye
+                            <p>4 The container for the thing contained: Is not the cup of<note
+                                    place="marg" anchored="false">4. Houses.</note> blessing, which
+                                we blesse the communion of the blood of Christ? In this example ye
                                 Apostle putteth the cup for the contents of the cup. Another: <cit>
                                     <quote>There shall be one fold, and one shepherd,</quote>
                                     <bibl>Joh.70.</bibl>
@@ -1288,47 +1348,56 @@
                                 or at least very fewe, in whome these vertues may be found. </p>
                             <p>Another: Noah lived after the flood three hundred and fifteen yeares.
                                 Here the flood being an Adjunk, signifieth time the subject. </p>
-                        </div>
+                        
 
-                        <div type="commentary"><head>The use of this figure.</head>
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
 
-                            <p>The use of this figure is very great and very pleasant, it <note place="marg" anchored="false">1.Varietie.</note>yieldeth great
-                                varietie of speech, and serveth aptly to brevity, it <note place="marg" anchored="false">2.Veritie.</note>is of large and
-                                ample capactitie to containe matters of great signification, <note place="marg" anchored="false">3.Ample capacitie.</note>and of many
-                                figures there are none more pleasant or <note place="marg" anchored="false">4.Delectatio.</note>
+                            <p>The use of this figure is very great and very pleasant, it <note
+                                    place="marg" anchored="false">1.Varietie.</note>yieldeth great
+                                varietie of speech, and serveth aptly to brevity, it <note
+                                    place="marg" anchored="false">2.Veritie.</note>is of large and
+                                ample capactitie to containe matters of great signification, <note
+                                    place="marg" anchored="false">3.Ample capacitie.</note>and of
+                                many figures there are none more pleasant or <note place="marg"
+                                    anchored="false">4.Delectatio.</note>
                                 <note place="marg" anchored="false">5.Signficiation.</note>more
                                 significant then this. </p>
                         </div>
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>As there are many particular places of this figure: so there may be
                                 many faults committed, &amp; therefore especial regard ought to be
-                                had that they may be avoyded. <note place="marg" anchored="false">1.Not in use.</note>The most generall fault of all, is, when
+                                had that they may be avoyded. <note place="marg" anchored="false"
+                                    >1.Not in use.</note>The most generall fault of all, is, when
                                 the <term>Metonimie</term> is not taken from the common use, and
                                 knowne custome of the word. As for example, if you should put
                                 Neptune for the skill of riding, who is reported to be the inventer
                                 of that art, you should make the <term>Metonimie</term> faultie,
                                     <note place="marg" anchored="false">2.Obscurity.</note> your
-                                speech obscure, if not absurd. Therfore every inventer <note place="marg" anchored="false">3.Everie inventor, or cause, may not
-                                    be put for their effects, &amp; c.</note> may not be put for the
-                                thing invented, nor every cause for the effect, nor every subject
-                                for the Adjunct, but such as are in knowne use, and may aptly be put
-                                for the things which they signifie. </p>
+                                speech obscure, if not absurd. Therfore every inventer <note
+                                    place="marg" anchored="false">3.Everie inventor, or cause, may
+                                    not be put for their effects, &amp; c.</note> may not be put for
+                                the thing invented, nor every cause for the effect, nor every
+                                subject for the Adjunct, but such as are in knowne use, and may
+                                aptly be put for the things which they signifie. </p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="6"> <head><term>Antonomasia</term>.</head>
+                    <div type="commentary" subtype="trope" n="Antonomasia">
+                        <head><term>Antonomasia</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
+                        
 
                             <p><term>Antonomasia</term>, of the Latines called
                                     <term>Nominatio</term> and <term>Nominis permutatio</term>, that
                                 is, a naming, or the changing of a name, it is a forme of speech by
                                 which the Orator for a proper name putteth another, as some name of
                                 dignity, office, profession, science or trade. </p>
-                            <p><note place="marg" anchored="false">1.Dignitie.</note>1 By this figure
-                                when the Orator speaketh to a king or a Prince, he saith, your
-                                Grace, your Highnesse, or your Majestie: to a Noble man, your
+                            <p><note place="marg" anchored="false">1.Dignitie.</note>1 By this
+                                figure when the Orator speaketh to a king or a Prince, he saith,
+                                your Grace, your Highnesse, or your Majestie: to a Noble man, your
                                 Lordship, your Honor. </p>
                             <p>2 Also in sted of a name or title, he useth a decent and due Epithite
                                 thus, Reverend Father, honorable Judge. In this forme speaketh the
@@ -1349,36 +1418,45 @@
                                 Salomon. In dispraise, to call a glorious boaster a Thraso, an
                                 envious detracter a Zoilus, a captious reprehender a Momus, a tyrant
                                 a Nero, a voluptuous liver an Epicure. </p>
-                        </div>
+                        
 
-                        <div type="commentary"><head>The use of this figure</head>
+                        <div type="commentary">
+                            <head>The use of this figure</head>
 
                             <p>The use of this figure is both necessary &amp; profitable, for the by
-                                forme the orator when he speaketh to high dignities, he boweth <note place="marg" anchored="false">1.Gravitie.</note>(as it were) the
+                                forme the orator when he speaketh to high dignities, he boweth <note
+                                    place="marg" anchored="false">1.Gravitie.</note>(as it were) the
                                 knee of his speech, and lifteth up the eye of his phrase to the
                                 bright beames of earthly glory, therby declaring his due reverence,
-                                and their high dignitie. It helpeth much in praising <note place="marg" anchored="false">2.Amplification.</note> or
+                                and their high dignitie. It helpeth much in praising <note
+                                    place="marg" anchored="false">2.Amplification.</note> or
                                 dispraising, by the equall comparison, it serveth readily for copie
                                 and varietie.<note place="marg" anchored="false">3.Varietie.</note>
                             </p>
                         </div>
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>The faultes that may be committed in this figure are these, To give a
                                 lesse name then the dignitie requireth, as speaking to a king to
-                                say, Your worship, or in sted of a name of reverence <note place="marg" anchored="false">1.Names debasing.</note> to use
+                                say, Your worship, or in sted of a name of reverence <note
+                                    place="marg" anchored="false">1.Names debasing.</note> to use
                                 another that is base or ridiculous, as speaking to a grave father,
-                                to call him gray beard: or to use amorous termes, as <note place="marg" anchored="false">2.Ridiculous.</note>sweete heart,
-                                and finally to use any name which is unfit for the <note place="marg" anchored="false">3.Amorous.</note> person to whom it
-                                is attributed or undecent and unchast, either <note place="marg" anchored="false">4.Unchast.</note>in open apparance, or in
+                                to call him gray beard: or to use amorous termes, as <note
+                                    place="marg" anchored="false">2.Ridiculous.</note>sweete heart,
+                                and finally to use any name which is unfit for the <note
+                                    place="marg" anchored="false">3.Amorous.</note> person to whom
+                                it is attributed or undecent and unchast, either <note place="marg"
+                                    anchored="false">4.Unchast.</note>in open apparance, or in
                                 shadowed signification. </p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="7"> <head><term>Metalepsis</term>.</head>
+                    <div type="commentary" subtype="trope" n="Metalepsis">
+                        <head><term>Metalepsis</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
+                        
                             <p><term>Metalepsis</term>, called of the Latines
                                     <term>Transumptio</term>, it is a forme of speech by which the
                                 Orator in one word expressed, signifieth another word or thing
@@ -1391,57 +1469,68 @@
                                 </cit> Here by the extreme thirst of the sucking babes, the Prophet
                                 signifieth the barraine and drie breasts of the mothers, by the drie
                                 breasts the extreame hunger and famine, and by the famine the wofull
-                                affliction and great miserie of the people.<note place="marg" anchored="false">1.This figure is a kind of
-                                    <term>Metonimye</term>.</note> This figure is a kind of
+                                affliction and great miserie of the people.<note place="marg"
+                                    anchored="false">1.This figure is a kind of
+                                        <term>Metonimye</term>.</note> This figure is a kind of
                                     <term>Metonimie</term>, signifying by the effect a cause far off
                                 by an effect nigh at hand: yet it is a forme of speech selcome used
-                                of Orators and not oft of Poets, yet is it not voyd <note place="marg" anchored="false">2.Seldome used of Orators.</note>of
-                                profit &amp; utility, for it teacheth the understanding to dive down
-                                to the bottom of the sense, and instructeth the eye of the wit,
-                                    to<note place="marg" anchored="false">3.The use &amp; utilitie of
-                                    this figure.</note> discerne a meaning farre off. For which
-                                property it may well be compare to an high prospect, which
-                                presenteth to the viewe of the beholder an object far distant by
-                                leading the eye from one marke to another by a lineall direction,
-                                till it discerneth the thing that is looked for. </p>
-                        </div>
+                                of Orators and not oft of Poets, yet is it not voyd <note
+                                    place="marg" anchored="false">2.Seldome used of
+                                Orators.</note>of profit &amp; utility, for it teacheth the
+                                understanding to dive down to the bottom of the sense, and
+                                instructeth the eye of the wit, to<note place="marg"
+                                    anchored="false">3.The use &amp; utilitie of this figure.</note>
+                                discerne a meaning farre off. For which property it may well be
+                                compare to an high prospect, which presenteth to the viewe of the
+                                beholder an object far distant by leading the eye from one marke to
+                                another by a lineall direction, till it discerneth the thing that is
+                                looked for. </p>
+                        
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1.Too farre removed.</note> The
                                 faultes which may be committed in this figure are these, when the
-                                word expressed and the thing signified stand too far <note place="marg" anchored="false">2.Not to be used in matters
+                                word expressed and the thing signified stand too far <note
+                                    place="marg" anchored="false">2.Not to be used in matters
                                     requiring perspicutie.</note>asunder, that is so many degrees,
                                 as the meaning can not be understood. Secondly, when it is used in a
                                 cause which requireth perspicuitie. </p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="8"> <head><term>Antiphrasis</term>.</head>
+                    <div type="commentary" subtype="trope" n="Antiphrasis">
+                        <head><term>Antiphrasis</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
+                        
 
                             <p><term>Antiphrasis</term> is a forme of speech which by a word exprest
                                 doth signifie the contrary: as when the speaker sayth, wisely, or
                                 wittily, understanding the contrary. Also to say You are alwayes my
                                 friend, meaning, mine enemie. You are a man of great judgement,
                                 signfying unapt and unable to judge. </p>
-                        </div>
+                        
 
-                        <div type="commentary"><head>The use of this figure.</head>
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
 
                             <p>The especiall use of this figure is to reprehend vice, and mock
-                                folly: for by expressing a vertue, and signifying a vice, it <note place="marg" anchored="false">1.Sharpe rebuke.</note>striketh the
-                                mind of the offender with the sharpe edge of contrarie comparison,
-                                whereby he is compelled to see the great difference between what he
-                                is, and what he ought to be, betweene what he hath done, and what he
-                                ought to have done, and so by looking in the cleare glasse he may be
-                                ashamed of his foule face, I meane his souls face. </p>
+                                folly: for by expressing a vertue, and signifying a vice, it <note
+                                    place="marg" anchored="false">1.Sharpe rebuke.</note>striketh
+                                the mind of the offender with the sharpe edge of contrarie
+                                comparison, whereby he is compelled to see the great difference
+                                between what he is, and what he ought to be, betweene what he hath
+                                done, and what he ought to have done, and so by looking in the
+                                cleare glasse he may be ashamed of his foule face, I meane his souls
+                                face. </p>
                         </div>
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
-                            <p>This figure ought not be used without some urgent cause, <note place="marg" anchored="false">1.Not to be used without great
+                            <p>This figure ought not be used without some urgent cause, <note
+                                    place="marg" anchored="false">1.Not to be used without great
                                     cause.</note> neither is it seemely to be used of all person in
                                 respect of the breach of duty: it were unmeete for the sonne to say,
                                 wisely spoken <note place="marg" anchored="false">2.Not of all
@@ -1459,7 +1548,8 @@
                 </div>
                 <!-- end of Tropes of Words -->
 
-                <div type="commentary" subtype="subsubpart" n="5"> <head><term>Tropes</term> of Sentences.</head>
+                <div type="commentary" subtype="tropes" n="sentences">
+                    <head><term>Tropes</term> of Sentences.</head>
 
                     <list type="ordered">
                         <item n="1"><term>Allegoria</term></item>
@@ -1474,80 +1564,79 @@
                         <item n="10"><term>Diasiriuus</term></item>
                     </list>
 
-                    <div type="commentary" subtype="subpart" n="1"> <head><term>Allegoria</term>.</head>
+                    <div type="commentary" subtype="trope" n="Allegoria">
+                        <head><term>Allegoria</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p><term>Allegoria</term>, called of Quintilian, <term>Inversio</term>,
-                                is a <term>Trope</term> of a sentence, or forme of speech which
-                                expresseth one thing in words, and another in sense. In a
-                                    <term>Metaphore</term> there is a translation of one word onely,
-                                in an <term>Allegorie</term> of many, and for that cause an
-                                    <term>Allegorie</term> is called a continued
-                                    <term>Metaphore</term>. </p>
-                            <p>An example: Rubbe not the scarre, lest you open againe the wound that
-                                is healed, and so cause it to bleed afresh. The signification hereof
-                                is, Renue not by rehearsall the sorrow which time hath made forgot. </p>
-                            <p>Another: Shall we suffer the monstrous Crocodile to come out of Nilus
-                                and to breake into our fold, to overcome our shepherd, to rent off
-                                our skins with his griping pawes, to crash our carkasses with his
-                                veimous teeth, to fill his insatiable panch with our flesh, and to
-                                wallow at his pleasure in our wooll? </p>
-                            <p>Another like unto this: Shall we sit aloofe amazed among boughes and
-                                suffer the serpent to climbe our tree, to thrust us out of our
-                                nests, to sucke our blood, to devour our birds, and to sleepe among
-                                our feathers? By these two <term>Allegories,</term> as well by the
-                                one as by the other, one enemies are described, who either by open
-                                force or secret conspiracie, are prepared and fully bent to make
-                                conquest of our countrey, to murder and destroy us people, to
-                                possesse our dwellings, and enjoy our wealth. </p>
-                            <p>Examples of Poetical <term>Allegories</term>: O ship shal new flouds
-                                carie thee again into the sea? What doest thou nowe? strive manfully
-                                to keepe the port alway. </p>
-                            <p>Another: Thou Licinie mayst live full well, if wisely evermore. Thou
-                                doest not thrust into the deepe, nor presse too nigh the shore: for
-                                feare of stormes </p>
-                            <p>In the former verse Horace by Ship understandeth Sextus Popeius
-                                making incursions, and troubling the sea with navall war, whom he
-                                exhorteth to make peace with Augustus. By flouds he signifieth
-                                civill battell, and by Port peace and concord. In the later he much
-                                commendeth mediocritie. Horace was much delighted in this kind of
-                                speech, as may appeare by many of his verses which he wrote
-                                Allegorically. </p>
-                            <p>Examples of the holy Scriptures: <cit>
-                                    <quote>Whose fan is in his hand, and he shall purge his floore,
-                                        and gather his wheate into his barn, but will burne the
-                                        chaffe with unquenchable fire.</quote>
-                                    <bibl>Mat.3.</bibl>
-                                </cit>
-                            </p>
-                            <p>Another: <cit>
-                                    <quote>A brused reede shal he not breake, and smoking flare
-                                        shall he not quench, till he bring forth judgement unto
-                                        venorie.</quote>
-                                    <bibl>Esa.4.3.</bibl>
-                                </cit>
-                            </p>
-                            <p>Another: <cit>
-                                    <quote>Give ye not that which is holy to dogs, neither cast ye
-                                        your pearles before swine, lest they tread them under their
-                                        feete, and turning againe all to rent you.</quote>
-                                    <bibl>Mat.7.</bibl>
-                                </cit>
-                            </p>
-                            <p>Sometime an <term>Allegorie</term> is mixt with some words retaining
-                                their proper and usuall signification, whereof this may be an
-                                example: Why doest thou covet the frute, and not consider the height
-                                of the tree whereon it groweth? thou doest not forethinke of the
-                                difficultie in climbing, nor danger in reaching, wherby it cometh to
-                                passe that while thou endevorest to climbe to the top, thou fallest
-                                with the bough which thou doest embrace. This <term>Allegorie</term>
-                                describeth although somewhat obscurely, yet verie aptly, the danger,
-                                vanitie, and common reward of ambition. The words which retaine
-                                their proper sense are these, covet, consider, and forethinke, which
-                                words do make it a mixt <term>Allegorie</term>. </p>
-                        </div>
-                        <div type="commentary"><head>The use of this figure</head>
+
+                        <p><term>Allegoria</term>, called of Quintilian, <term>Inversio</term>, is a
+                                <term>Trope</term> of a sentence, or forme of speech which
+                            expresseth one thing in words, and another in sense. In a
+                                <term>Metaphore</term> there is a translation of one word onely, in
+                            an <term>Allegorie</term> of many, and for that cause an
+                                <term>Allegorie</term> is called a continued <term>Metaphore</term>. </p>
+                        <p>An example: Rubbe not the scarre, lest you open againe the wound that is
+                            healed, and so cause it to bleed afresh. The signification hereof is,
+                            Renue not by rehearsall the sorrow which time hath made forgot. </p>
+                        <p>Another: Shall we suffer the monstrous Crocodile to come out of Nilus and
+                            to breake into our fold, to overcome our shepherd, to rent off our skins
+                            with his griping pawes, to crash our carkasses with his veimous teeth,
+                            to fill his insatiable panch with our flesh, and to wallow at his
+                            pleasure in our wooll? </p>
+                        <p>Another like unto this: Shall we sit aloofe amazed among boughes and
+                            suffer the serpent to climbe our tree, to thrust us out of our nests, to
+                            sucke our blood, to devour our birds, and to sleepe among our feathers?
+                            By these two <term>Allegories,</term> as well by the one as by the
+                            other, one enemies are described, who either by open force or secret
+                            conspiracie, are prepared and fully bent to make conquest of our
+                            countrey, to murder and destroy us people, to possesse our dwellings,
+                            and enjoy our wealth. </p>
+                        <p>Examples of Poetical <term>Allegories</term>: O ship shal new flouds
+                            carie thee again into the sea? What doest thou nowe? strive manfully to
+                            keepe the port alway. </p>
+                        <p>Another: Thou Licinie mayst live full well, if wisely evermore. Thou
+                            doest not thrust into the deepe, nor presse too nigh the shore: for
+                            feare of stormes </p>
+                        <p>In the former verse Horace by Ship understandeth Sextus Popeius making
+                            incursions, and troubling the sea with navall war, whom he exhorteth to
+                            make peace with Augustus. By flouds he signifieth civill battell, and by
+                            Port peace and concord. In the later he much commendeth mediocritie.
+                            Horace was much delighted in this kind of speech, as may appeare by many
+                            of his verses which he wrote Allegorically. </p>
+                        <p>Examples of the holy Scriptures: <cit>
+                                <quote>Whose fan is in his hand, and he shall purge his floore, and
+                                    gather his wheate into his barn, but will burne the chaffe with
+                                    unquenchable fire.</quote>
+                                <bibl>Mat.3.</bibl>
+                            </cit>
+                        </p>
+                        <p>Another: <cit>
+                                <quote>A brused reede shal he not breake, and smoking flare shall he
+                                    not quench, till he bring forth judgement unto venorie.</quote>
+                                <bibl>Esa.4.3.</bibl>
+                            </cit>
+                        </p>
+                        <p>Another: <cit>
+                                <quote>Give ye not that which is holy to dogs, neither cast ye your
+                                    pearles before swine, lest they tread them under their feete,
+                                    and turning againe all to rent you.</quote>
+                                <bibl>Mat.7.</bibl>
+                            </cit>
+                        </p>
+                        <p>Sometime an <term>Allegorie</term> is mixt with some words retaining
+                            their proper and usuall signification, whereof this may be an example:
+                            Why doest thou covet the frute, and not consider the height of the tree
+                            whereon it groweth? thou doest not forethinke of the difficultie in
+                            climbing, nor danger in reaching, wherby it cometh to passe that while
+                            thou endevorest to climbe to the top, thou fallest with the bough which
+                            thou doest embrace. This <term>Allegorie</term> describeth although
+                            somewhat obscurely, yet verie aptly, the danger, vanitie, and common
+                            reward of ambition. The words which retaine their proper sense are
+                            these, covet, consider, and forethinke, which words do make it a mixt
+                                <term>Allegorie</term>. </p>
+
+                        <div type="commentary">
+                            <head>The use of this figure</head>
 
                             <p>The use of an <term>Allegorie</term> serveth most aptly to ingrave
                                 the lively images of things, and to present them under deepe
@@ -1563,150 +1652,167 @@
                                 call a constellation, that is, a company or conjunction of many
                                 starres. </p>
                         </div>
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>In speaking by <term>Allegories</term> strange similitudes and
                                     unknowne<note place="marg" anchored="false">Similitudes.</note>
                                 translations ought to be avoyded, lest the <term>Allegorie</term>
                                 which should<note place="marg" anchored="false">1.Strange.</note> be
-                                pleasant, become peevish and altogether unprofitable: also <note place="marg" anchored="false">2.Unlike.</note> unlikenesse of the
-                                comparisons do make the <term>Allegorie</term> absurd. </p>
+                                pleasant, become peevish and altogether unprofitable: also <note
+                                    place="marg" anchored="false">2.Unlike.</note> unlikenesse of
+                                the comparisons do make the <term>Allegorie</term> absurd. </p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="2"> <head><term>AEnigma</term></head>
+                    <div type="commentary" subtype="trope" n="AEnigma">
+                        <head><term>AEnigma</term></head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p><term>AEnigma</term> a kind of <term>Allegorie</term>, differeing
-                                onely in obscuritie,<note place="marg" anchored="false">1.A kinde of
-                                        <term>Allegorie</term>.</note> for <term>AEnigma</term> is a
-                                sentence or forme of speech, which for the darknesse, the sense may
-                                hardly be gathered. </p>
-                            <p>Examples: I consume my mother that bare me I eat up my nurse that fed
-                                me, then I die leaving them all blind that saw me. Meant of the
-                                fleame of a candle, which when it hath consumed both ware and weeke,
-                                goeth out, leaving them in the darke which saw by it. </p>
-                            <p>Another: As long as I live I eate, but when I drinke I die, I
-                                understood of the fire, which continueth so long as it hath matter
-                                to burne upon, except it be quenched with fire, which may be tearmed
-                                the death of that nature. </p>
-                            <p><note place="marg" anchored="false">1.A tree the mother.</note>{Ten
-                                thousand children beautifull, of this my body bred, {Both sonnes and
-                                daughters finely deckt, I live, &amp; they are dead: <note place="marg" anchored="false">2.Fruite the sonnes.</note>{My
-                                sonnes were put to extreme death by such as lov'd thee well, <note place="marg" anchored="false">3.Leaves the daughters.</note>{My
-                                daughters died in extreme age, but where I cannot tell. </p>
-                            <p>Another. </p>
-                            <p><note place="marg" anchored="false">1.A book the
-                                anatomie.</note>{Anatomie of wonder great I speake, and yet am dead,
-                                    <note place="marg" anchored="false">2.Wisedome the
-                                ivyee.</note>{Men sucke sweet juyce, from thse blacke veines, which
-                                mother wisdome bred. <note place="marg" anchored="false">3.Black veins
-                                    the letters &amp; lines.</note>
-                            </p>
 
-                            <p>This figure although it be full of obscuritie, and darknesse yet it
-                                is found in the sacred Scriptures both in speech and in visions, the
-                                dreames of Pharaos chiefe Butler, and chief Baker, and also Pharaos
-                                owne dreames were <term>AEnigmatical</term>, whose signification
-                                Joseph expounded. </p>
-                            <p>Also the vision of Nabuchodonozor was <term>AEnigmatical</term>,
-                                &amp; most aptly proportioned in the similitudes, for under the
-                                forme of a goodly tree, both him selfe and all the parts of his
-                                prosperitie are most excellently described. By the place where it
-                                was planted, were described his seate and kingdome: by the height,
-                                his dignitie: by the ample aspect, his great glory, and dread of
-                                nations toward him: by the strength of that tree, his great power:
-                                by the beautifull leaves, his gorgeous apparell and glorious pompe:
-                                by the frute, his wonderfull rents, tributes, and revenues: by the
-                                meate of that tree, the wealth and prosperitie of his people: by the
-                                shadow, the safe protection of his subjects: by the birds among the
-                                branches, his prudent counsellers, and mightie princes: and by that,
-                                that it is said, that all flesh did eate of it, is understood the
-                                great plentie of all necessaries, hitherto is described the
-                                wonderfull felicitie and glorie of this mightie Monarch. </p>
+                        <p><term>AEnigma</term> a kind of <term>Allegorie</term>, differeing onely
+                            in obscuritie,<note place="marg" anchored="false">1.A kinde of
+                                    <term>Allegorie</term>.</note> for <term>AEnigma</term> is a
+                            sentence or forme of speech, which for the darknesse, the sense may
+                            hardly be gathered. </p>
+                        <p>Examples: I consume my mother that bare me I eat up my nurse that fed me,
+                            then I die leaving them all blind that saw me. Meant of the fleame of a
+                            candle, which when it hath consumed both ware and weeke, goeth out,
+                            leaving them in the darke which saw by it. </p>
+                        <p>Another: As long as I live I eate, but when I drinke I die, I understood
+                            of the fire, which continueth so long as it hath matter to burne upon,
+                            except it be quenched with fire, which may be tearmed the death of that
+                            nature. </p>
+                        <p><note place="marg" anchored="false">1.A tree the mother.</note>{Ten
+                            thousand children beautifull, of this my body bred, {Both sonnes and
+                            daughters finely deckt, I live, &amp; they are dead: <note place="marg"
+                                anchored="false">2.Fruite the sonnes.</note>{My sonnes were put to
+                            extreme death by such as lov'd thee well, <note place="marg"
+                                anchored="false">3.Leaves the daughters.</note>{My daughters died in
+                            extreme age, but where I cannot tell. </p>
+                        <p>Another. </p>
+                        <p><note place="marg" anchored="false">1.A book the
+                            anatomie.</note>{Anatomie of wonder great I speake, and yet am dead,
+                                <note place="marg" anchored="false">2.Wisedome the ivyee.</note>{Men
+                            sucke sweet juyce, from thse blacke veines, which mother wisdome bred.
+                                <note place="marg" anchored="false">3.Black veins the letters &amp;
+                                lines.</note>
+                        </p>
 
-                            <p>And now in like manner, the overthrow and confusion of all this is
-                                proclaimed by the Angel, saying as followeth, Hew down the tree,
-                                breake off his brances, and scatter his frute abrode, that the
-                                beasts may get them away from udner his, &amp; the birds from his
-                                brancees, nevertheless leave the stumpe in the earth, &amp; c. The
-                                meaning whereof Daniel by divine grace expounded. </p>
-                        </div>
+                        <p>This figure although it be full of obscuritie, and darknesse yet it is
+                            found in the sacred Scriptures both in speech and in visions, the
+                            dreames of Pharaos chiefe Butler, and chief Baker, and also Pharaos owne
+                            dreames were <term>AEnigmatical</term>, whose signification Joseph
+                            expounded. </p>
+                        <p>Also the vision of Nabuchodonozor was <term>AEnigmatical</term>, &amp;
+                            most aptly proportioned in the similitudes, for under the forme of a
+                            goodly tree, both him selfe and all the parts of his prosperitie are
+                            most excellently described. By the place where it was planted, were
+                            described his seate and kingdome: by the height, his dignitie: by the
+                            ample aspect, his great glory, and dread of nations toward him: by the
+                            strength of that tree, his great power: by the beautifull leaves, his
+                            gorgeous apparell and glorious pompe: by the frute, his wonderfull
+                            rents, tributes, and revenues: by the meate of that tree, the wealth and
+                            prosperitie of his people: by the shadow, the safe protection of his
+                            subjects: by the birds among the branches, his prudent counsellers, and
+                            mightie princes: and by that, that it is said, that all flesh did eate
+                            of it, is understood the great plentie of all necessaries, hitherto is
+                            described the wonderfull felicitie and glorie of this mightie Monarch. </p>
 
-                        <div type="commentary"><head>The use of this figure.</head>
+                        <p>And now in like manner, the overthrow and confusion of all this is
+                            proclaimed by the Angel, saying as followeth, Hew down the tree, breake
+                            off his brances, and scatter his frute abrode, that the beasts may get
+                            them away from udner his, &amp; the birds from his brancees,
+                            nevertheless leave the stumpe in the earth, &amp; c. The meaning whereof
+                            Daniel by divine grace expounded. </p>
 
-                            <p>This figure is more convenient to Poets then to Orators, and<note place="marg" anchored="false">1.Most meet for Poets.</note> more
+
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
+
+                            <p>This figure is more convenient to Poets then to Orators, and<note
+                                    place="marg" anchored="false">1.Most meet for Poets.</note> more
                                 agreeable to high and heavenly visions, that to the forme of
-                                familiar and proper speech. For being a figure of deepe<note place="marg" anchored="false">2.Used in heavenly visions.</note>
+                                familiar and proper speech. For being a figure of deepe<note
+                                    place="marg" anchored="false">2.Used in heavenly visions.</note>
                                 obscuritie, is is opposed to perspecuitie, the principall vertue of
                                 an Orator.<note place="marg" anchored="false">3.Opposed to
                                     perspicuitie.</note>
                             </p>
                             <p>Sometime notwithstanding darknesse of speech causeth delectation, as
-                                that which is wittily invented, and aptly applyed, and<note place="marg" anchored="false">4.Being wittie it delighteth.</note>
-                                apt capacities, who are best able to find out the sense of a
-                                similitude, and to uncover the darked vaile of
-                                    <term>AEnigmatical</term> speech. For <note place="marg" anchored="false">5.Compared to a mine.</note> in deede this figure
-                                is like a deepe mine, the obtaining of whose mettall requireth deepe
-                                digging, or to a darke night, whose stars<note place="marg" anchored="false">6.To hidde starres.</note> he hid with thicke
-                                cloudes. </p>
+                                that which is wittily invented, and aptly applyed, and<note
+                                    place="marg" anchored="false">4.Being wittie it
+                                    delighteth.</note> apt capacities, who are best able to find out
+                                the sense of a similitude, and to uncover the darked vaile of
+                                    <term>AEnigmatical</term> speech. For <note place="marg"
+                                    anchored="false">5.Compared to a mine.</note> in deede this
+                                figure is like a deepe mine, the obtaining of whose mettall
+                                requireth deepe digging, or to a darke night, whose stars<note
+                                    place="marg" anchored="false">6.To hidde starres.</note> he hid
+                                with thicke cloudes. </p>
                         </div>
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>In this figure regard ought to be had, that the similitudes be
                                     not<note place="marg" anchored="false">1.Unfit.</note> unfit,
-                                strange, or unchast. If they be unfit, or unlike, they make<note place="marg" anchored="false">2.Strange.</note> it absurd, if
-                                strange, they make it obscure and unpossible to be<note place="marg" anchored="false">3.Unchast.</note> interpreted, if unchast or
-                                uncleane, they make it odious, by leading<note place="marg" anchored="false">1.Absurd.</note> of the minde to undecent things,
-                                of which sort there be many of <note place="marg" anchored="false">2.Obscure.</note> our English riddles.<note place="marg" anchored="false">3.Odious.</note>
+                                strange, or unchast. If they be unfit, or unlike, they make<note
+                                    place="marg" anchored="false">2.Strange.</note> it absurd, if
+                                strange, they make it obscure and unpossible to be<note place="marg"
+                                    anchored="false">3.Unchast.</note> interpreted, if unchast or
+                                uncleane, they make it odious, by leading<note place="marg"
+                                    anchored="false">1.Absurd.</note> of the minde to undecent
+                                things, of which sort there be many of <note place="marg"
+                                    anchored="false">2.Obscure.</note> our English riddles.<note
+                                    place="marg" anchored="false">3.Odious.</note>
                             </p>
                             <p>Lastly, that this figure be not used to seduce by obscure prophecie,
-                                    <note place="marg" anchored="false">4.Not to seduce.</note> as of
-                                it hath bene to many a mans destruction, nor amongst<note place="marg" anchored="false">5.Used among ignorant person a
+                                    <note place="marg" anchored="false">4.Not to seduce.</note> as
+                                of it hath bene to many a mans destruction, nor amongst<note
+                                    place="marg" anchored="false">5.Used among ignorant person a
                                     vanitie.</note> simple and silly persons, which are unapt and
                                 unable to conceive the meaning of darke speech, and therefore a
                                 vanitie. </p>
                         </div>
                     </div>
 
+                    <div type="commentary" subtype="trope" n="Paroemia">
+                        <head><term>Paroemia</term></head>
 
-                    <div type="commentary" subtype="subpart" n="3"> <head><term>Paroemia</term></head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p><term>Paroemia</term>, called of us a <term>Proverbe</term>, is a
-                                sentence or forme of speech much used, and commonly knowen, and also
-                                excellent for the similitude and signification: to which two things
-                                are necessarily required, the one, that it be renowned, and much
-                                spoken off, as a sentence in everie mans mouth. The other, that it
-                                be witty, and well proportioned, whereby it may be discerned by some
-                                speciall marke and note from common speech, and be commended by
-                                antiquitie and learning. </p>
-                            <p>Examples. </p>
-                            <p>The tumbling stone doth seldome gather mosse: teaching that riches
-                                and wealth are not gathered by wandering. </p>
-                            <p>He that maketh his fire with hay, hath much smoke and litle heate:
-                                meaning that many words and litle matter, make men wearie but never
-                                the iser. </p>
-                            <p>All are not theeves that dogges barke at: declaring that ill tongues
-                                do as well slander good men, as speake truth of the evil. </p>
-                            <p>One swallow maketh no sommer, that is, one uncertaine conjecture
-                                proveth no veritie. </p>
-                            <p>While the grasse groweth the steed starveth: signifying that present
-                                neede requireth present helpe. </p>
-                            <p>The sweetest rose hath his thorne, meaning the best man is not
-                                without his fault. </p>
-                            <p>It is good to strike with the hammer while the iron is hote: a
-                                    <term>proverbe</term> commending the benefit and goodnesse of
-                                oportunitie. </p>
-                            <p>Many drops do pierce the marble stone: a singular
-                                    <term>proverbe</term> declaring the vertue of constancie and
-                                continuance. </p>
-                        </div>
+                        <p><term>Paroemia</term>, called of us a <term>Proverbe</term>, is a
+                            sentence or forme of speech much used, and commonly knowen, and also
+                            excellent for the similitude and signification: to which two things are
+                            necessarily required, the one, that it be renowned, and much spoken off,
+                            as a sentence in everie mans mouth. The other, that it be witty, and
+                            well proportioned, whereby it may be discerned by some speciall marke
+                            and note from common speech, and be commended by antiquitie and
+                            learning. </p>
+                        <p>Examples. </p>
+                        <p>The tumbling stone doth seldome gather mosse: teaching that riches and
+                            wealth are not gathered by wandering. </p>
+                        <p>He that maketh his fire with hay, hath much smoke and litle heate:
+                            meaning that many words and litle matter, make men wearie but never the
+                            iser. </p>
+                        <p>All are not theeves that dogges barke at: declaring that ill tongues do
+                            as well slander good men, as speake truth of the evil. </p>
+                        <p>One swallow maketh no sommer, that is, one uncertaine conjecture proveth
+                            no veritie. </p>
+                        <p>While the grasse groweth the steed starveth: signifying that present
+                            neede requireth present helpe. </p>
+                        <p>The sweetest rose hath his thorne, meaning the best man is not without
+                            his fault. </p>
+                        <p>It is good to strike with the hammer while the iron is hote: a
+                                <term>proverbe</term> commending the benefit and goodnesse of
+                            oportunitie. </p>
+                        <p>Many drops do pierce the marble stone: a singular <term>proverbe</term>
+                            declaring the vertue of constancie and continuance. </p>
 
-                        <div type="commentary"><head>The use of this figure.</head>
+
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
 
                             <p>Amongst all the excellent formes of speech there are none other more
                                 briefe, more significant, more evident or more excellent, then apt
@@ -1719,13 +1825,15 @@
                                 Summaries of maners, or The Images of humane life: for in them there
                                 is contained a generall doctrine of direction, and particular rules
                                 for all duties in all persons. Finally, for thier perspecuitie they
-                                are like the most bright <note place="marg" anchored="false">2.Compared to the brightest starres.</note> and glorious
+                                are like the most bright <note place="marg" anchored="false"
+                                    >2.Compared to the brightest starres.</note> and glorious
                                 starres of the firmament, which as they are more excellent then
                                 others in brightnesse and glorie, so are they more loelied upon,
                                 more admired, and more beloved, and as they excell others in the
                                 dignitie of light, so are they more distantly removed and more
                                 thinly dispersed. In like maner ought <term>Proverbes</term> to be
-                                sparingly sprinkled, both in private speech, and in publicke<note place="marg" anchored="false">To be sparingly used.</note>
+                                sparingly sprinkled, both in private speech, and in publicke<note
+                                    place="marg" anchored="false">To be sparingly used.</note>
                                 orations, and then not without some fit occasion to use them, for
                                     <note place="marg" anchored="false">Too often used looseth their
                                     grace.</note>
@@ -1734,21 +1842,22 @@
                                 grace, and the oration his strength. </p>
                         </div>
 
-                        <div type="commentary"><head>The Caution</head>
+                        <div type="commentary">
+                            <head>The Caution</head>
 
                             <p>There are diverse vices which ought to be avoyded &amp; banished out
                                 of <term>Proverbs</term>, strangenesse, unlikenesse, uncomelinesse,
                                 barrennesse, and untruth. Strange <term>Proverbes</term> are those
-                                which <note place="marg" anchored="false">1.Strange.</note>are either
-                                framed by similitudes of strange things little known or taken from
-                                strange tongues disagreeing to ours, when the <term>Proverbes</term>
-                                be translated. </p>
+                                which <note place="marg" anchored="false">1.Strange.</note>are
+                                either framed by similitudes of strange things little known or taken
+                                from strange tongues disagreeing to ours, when the
+                                    <term>Proverbes</term> be translated. </p>
                             <p>Unlike <term>Proverbs</term> be those which are made of unfit
-                                    similitudes.<note place="marg" anchored="false">2.Unlikke.</note>
-                                Uncomely <term>Proverbs</term> are such as consist of wanton,
-                                unchast, and <note place="marg" anchored="false">3.Uncomely.</note>
-                                vile similitudes, which proceed for the most part from unchast minds
-                                and polluted mouthes. </p>
+                                    similitudes.<note place="marg" anchored="false"
+                                    >2.Unlikke.</note> Uncomely <term>Proverbs</term> are such as
+                                consist of wanton, unchast, and <note place="marg" anchored="false"
+                                    >3.Uncomely.</note> vile similitudes, which proceed for the most
+                                part from unchast minds and polluted mouthes. </p>
                             <p>Barren <term>Proverbs</term> are those which containe no pith or
                                     virtue,<note place="marg" anchored="false">4.Barren.</note>
                                 whereby they should teach and delight. </p>
@@ -1758,152 +1867,158 @@
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="4"> <head><term>Hyperbole</term>.</head>
+                    <div type="commentary" subtype="trope" n="Hyperbole">
+                        <head><term>Hyperbole</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p><term>Hyperbole</term> of Cicero called <term>Superlatio</term>, of
-                                Quintilian <term>Superiectio</term>, and it is a sentence or saying
-                                surimounting the truth onely for the cause of increasing or
-                                diminishing, not with purpose to deceive by speaking untruly, but
-                                with desire to amplifie the greatnesse or smalnesse of things by the
-                                exceeding similitude. </p>
-                            <p>This figure Cicero useth much in the praises of Pompey, He hath made
-                                saith he (meaning Pompey) moe battels then others have read, and
-                                conquered moe provinces then others have desired. Now in this
-                                excesse of his praise, Cicero meant not so much as he spake, but by
-                                making an incredible report, he doth signifie that the noble actes
-                                of Pompey were so worthy, and his victories so many, that they were
-                                almost incredible. </p>
-                            <p>This figure is either simple or compared. Simple, as to call the
-                                belly of a great glutton bottomlesse him that is most hastie in his
-                                furie braineless, a notable coward hearlesse: who knoweth not that
-                                the meaning of thse sayings is otherwise than the words do properly
-                                expresse? For by this kinde of large speech the excesse of those
-                                vices are aptly signfified. </p>
-                            <p>Another example: Streames of teares gushed out of her eyes, and the
-                                greatnesse of her griefe rent her heart in sunder. Here by these
-                                incredible reports, her incredible lamentation and sorrow is
-                                signified. </p>
-                            <p>This forme of speech is found in the sacred Scriptures, and that in
-                                many places. Examples: <cit>
-                                    <quote>David saith, that his eye is consumed for very
-                                        heavinesse, and that his bones are putrified for the sorrow
-                                        of his sinne.</quote>
-                                    <bibl>Psal.31.10.11.</bibl>
-                                </cit>
-                            </p>
-                            <p>Job saith, that <cit>
-                                    <quote>his feare was so great, that it did terrifie his <note place="marg" anchored="false">Job.4.14.</note> bones, and
-                                        made them to tremble.</quote>
-                                    <bibl>Job.4.14.</bibl>
-                                </cit>
-                            </p>
-                            <p>And in another place, he saith ye <cit>
-                                    <quote>his bones did cleane to the skin.</quote>
-                                    <bibl>Job.19.20.</bibl>
-                                </cit>
-                            </p>
-                            <p>Also Paule saith to the Galathians, <cit>
-                                    <quote>If it had bene possible you would have plucked out your
-                                        own eyes &amp; given them to me.</quote>
-                                    <bibl>Gal.4.15.</bibl>
-                                </cit>
-                            </p>
-                            <p><term>Hyperbole</term> is compared two maner of wayes. First by
-                                equalitie of comparison, as, to call a beautifull virgine an Angell,
-                                a good man a Saint, a shrew a devill, a drunkard a swine, an
-                                executioner a wolfe. </p>
-                            <p>Secondly by the comparative degree, &amp; that from many places. </p>
 
-                            <p>1 First from like things, as sweeter then hony, whiter then snow,
-                                lighter then smoke, heavier then lead. </p>
-                            <p>2 Secondly from living creatures, as swifter then the swallow, slower
-                                then the snaile, more loving then the turtle, more odious then the
-                                toade. </p>
-                            <p>3 Thirdly from fained and false gods, as, mightier then Mars, fairer
-                                then Venus, wiser then Pallas, more eloquent then Mercurie. </p>
-                            <p>4 Fourthly from persons fained in fables, as wearier then Sisiphus,
-                                thirstier then Tantalus, more chast then Penelope, more foolish then
-                                Grillus. </p>
-                            <p>5 Fiftly from persons in Comedies, as, more glorious then Thraso,
-                                more covetous then Mitio. </p>
-                            <p>6 Sixtly from persons in histories, as, more envious then Zoilus,
-                                more unkind then Timon, richer Craesus, poorer then Codrus, stronger
-                                then Milo. </p>
-                            <p>7 Seventhly from Nations, as more cruell then a Scithian, more false
-                                then a Cretian, more wanton then a Miletian. </p>
-                            <p>8 Eightly from dignities, offices, and conditions of life, as, more
-                                stately then an Emperour, more vigilant then the watchman, more base
-                                then a swineheard, more vaine then a vice, more hated then a
-                                hangman. </p>
-                        </div>
-                        <div type="commentary"><head>The use of this figure.</head>
+                        <p><term>Hyperbole</term> of Cicero called <term>Superlatio</term>, of
+                            Quintilian <term>Superiectio</term>, and it is a sentence or saying
+                            surimounting the truth onely for the cause of increasing or diminishing,
+                            not with purpose to deceive by speaking untruly, but with desire to
+                            amplifie the greatnesse or smalnesse of things by the exceeding
+                            similitude. </p>
+                        <p>This figure Cicero useth much in the praises of Pompey, He hath made
+                            saith he (meaning Pompey) moe battels then others have read, and
+                            conquered moe provinces then others have desired. Now in this excesse of
+                            his praise, Cicero meant not so much as he spake, but by making an
+                            incredible report, he doth signifie that the noble actes of Pompey were
+                            so worthy, and his victories so many, that they were almost incredible. </p>
+                        <p>This figure is either simple or compared. Simple, as to call the belly of
+                            a great glutton bottomlesse him that is most hastie in his furie
+                            braineless, a notable coward hearlesse: who knoweth not that the meaning
+                            of thse sayings is otherwise than the words do properly expresse? For by
+                            this kinde of large speech the excesse of those vices are aptly
+                            signfified. </p>
+                        <p>Another example: Streames of teares gushed out of her eyes, and the
+                            greatnesse of her griefe rent her heart in sunder. Here by these
+                            incredible reports, her incredible lamentation and sorrow is signified. </p>
+                        <p>This forme of speech is found in the sacred Scriptures, and that in many
+                            places. Examples: <cit>
+                                <quote>David saith, that his eye is consumed for very heavinesse,
+                                    and that his bones are putrified for the sorrow of his
+                                    sinne.</quote>
+                                <bibl>Psal.31.10.11.</bibl>
+                            </cit>
+                        </p>
+                        <p>Job saith, that <cit>
+                                <quote>his feare was so great, that it did terrifie his <note
+                                        place="marg" anchored="false">Job.4.14.</note> bones, and
+                                    made them to tremble.</quote>
+                                <bibl>Job.4.14.</bibl>
+                            </cit>
+                        </p>
+                        <p>And in another place, he saith ye <cit>
+                                <quote>his bones did cleane to the skin.</quote>
+                                <bibl>Job.19.20.</bibl>
+                            </cit>
+                        </p>
+                        <p>Also Paule saith to the Galathians, <cit>
+                                <quote>If it had bene possible you would have plucked out your own
+                                    eyes &amp; given them to me.</quote>
+                                <bibl>Gal.4.15.</bibl>
+                            </cit>
+                        </p>
+                        <p><term>Hyperbole</term> is compared two maner of wayes. First by equalitie
+                            of comparison, as, to call a beautifull virgine an Angell, a good man a
+                            Saint, a shrew a devill, a drunkard a swine, an executioner a wolfe. </p>
+                        <p>Secondly by the comparative degree, &amp; that from many places. </p>
 
-                            <p>The use hereof serveth most fitly for amplification, and that<note place="marg" anchored="false">1.To amplify.</note> especially when
-                                matter require either to be amplified in the greatest degree, or
-                                diminished in the least: by this figure the <note place="marg" anchored="false">2.To diminish.</note>Orator either lifteth up
+                        <p>1 First from like things, as sweeter then hony, whiter then snow, lighter
+                            then smoke, heavier then lead. </p>
+                        <p>2 Secondly from living creatures, as swifter then the swallow, slower
+                            then the snaile, more loving then the turtle, more odious then the
+                            toade. </p>
+                        <p>3 Thirdly from fained and false gods, as, mightier then Mars, fairer then
+                            Venus, wiser then Pallas, more eloquent then Mercurie. </p>
+                        <p>4 Fourthly from persons fained in fables, as wearier then Sisiphus,
+                            thirstier then Tantalus, more chast then Penelope, more foolish then
+                            Grillus. </p>
+                        <p>5 Fiftly from persons in Comedies, as, more glorious then Thraso, more
+                            covetous then Mitio. </p>
+                        <p>6 Sixtly from persons in histories, as, more envious then Zoilus, more
+                            unkind then Timon, richer Craesus, poorer then Codrus, stronger then
+                            Milo. </p>
+                        <p>7 Seventhly from Nations, as more cruell then a Scithian, more false then
+                            a Cretian, more wanton then a Miletian. </p>
+                        <p>8 Eightly from dignities, offices, and conditions of life, as, more
+                            stately then an Emperour, more vigilant then the watchman, more base
+                            then a swineheard, more vaine then a vice, more hated then a hangman. </p>
+
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
+
+                            <p>The use hereof serveth most fitly for amplification, and that<note
+                                    place="marg" anchored="false">1.To amplify.</note> especially
+                                when matter require either to be amplified in the greatest degree,
+                                or diminished in the least: by this figure the <note place="marg"
+                                    anchored="false">2.To diminish.</note>Orator either lifteth up
                                 high or calleth downe low, either stretcheth things to the uttermost
                                 length, or presseth them to the least quantitie: so high is the
-                                reach, &amp; so wide is the compasse of this figure, <note place="marg" anchored="false">3. Of large capacitie</note> that it
-                                mounteth to the highest things, compasseth the widest, and
+                                reach, &amp; so wide is the compasse of this figure, <note
+                                    place="marg" anchored="false">3. Of large capacitie</note> that
+                                it mounteth to the highest things, compasseth the widest, and
                                 comprehendeth the greatest. </p>
                         </div>
                         <div type="commentary" subtype="subsubpart" n="3">
- <head>The Caution.</head>
+                            <head>The Caution.</head>
 
                             <p>Two things especially are here to be noted and avoyded, the one, that
-                                this figure be not used to amplifie trifles, or <note place="marg" anchored="false">1.Amplifying of trifles.</note> diminish the
+                                this figure be not used to amplifie trifles, or <note place="marg"
+                                    anchored="false">1.Amplifying of trifles.</note> diminish the
                                 estimation of good things, by the one it becometh a vice of speech
                                 called <term>Bomphiologia</term>, by the other it is turned into
                                     <note place="marg" anchored="false">2.Defacing of good
                                     things.</note><term>Tapinosis</term>: for these two are faults
                                 of speech offending in contrary extremities. The other, that albeit
                                 matters require (and that worthily) to be amplified, that yet there
-                                be not too great an excesse in the <note place="marg" anchored="false">3.Excesse of comparison.</note> comparison: but that it may be
-                                discreetly moderated, ut nequid nimis. </p>
+                                be not too great an excesse in the <note place="marg"
+                                    anchored="false">3.Excesse of comparison.</note> comparison: but
+                                that it may be discreetly moderated, ut nequid nimis. </p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="5"> <head><term>Asteismus</term>.</head>
+                    <div type="commentary" subtype="trope" n="Asteismus">
+                        <head><term>Asteismus</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p><term>Asteisimus</term>, in Latine <term>Urbanitas</term>, is a
-                                wittie jesting in civill maner, and gracing of speech with some
-                                merie conceipt: it is usually taken for any mirth or pleasant speech
-                                which is voyd of rusticall simplicitie &amp; rudenesse, and the
-                                merie &amp; pleasant sayings of this figure are called
-                                    <term>facetiae</term> that is to say, the pleasures and delights
-                                of speech: which are taken <note place="marg" anchored="false">1.<term>AEquivocation</term>.</note> from diverse places,
-                                but chiefly from these, from <term>Equivocation</term>, as when a
-                                word having two significations, is expressed in the one, and
-                                understood in the other, either contrary, or at least much
-                                differing, which as it is most wittie, so is it most pleasant.
-                                Secondly the occasion of mirth may be taken from a
-                                    <term>fallace</term> in sophistrie <note place="marg" anchored="false">2.<term>Secundum quid, ad dictum
-                                        simpliciter</term>.</note> called <term>Secundum quid ad
-                                    dictum simpliciter</term>, that is, when a saying is captiously
-                                taken, and turned to another sense, contrary or much differing from
-                                the meaning of the speaker, as in this example: To one demanding of
-                                Diogenes what he would take for<note place="marg" anchored="false">Diogenes answer.</note> a knocke upon his pate, he made this
-                                answer, that he would take an helmet. Now he that made the demand,
-                                meant, what hire, and not what defence. To one that said, he knew
-                                not if he should be put out of his house where to hid his head:
-                                another made him answer, that he might hide it in his cap. </p>
-                            <p>There are many and sundry other places from whence wittie mirth may
-                                be fitty taken, as from pleasant imitation of mens speech and
-                                fashions, from similitudes and comparisons, from pleasant reports of
-                                merrie actions and accidents, and from anie moe which I shall not
-                                here meede to rehearse. Now for to give to every particular place an
-                                example, it would be too tedious, and peradventure to some
-                                offensive. He that desireth further examples of this figure, let him
-                                reade Facetias Brusonii, Poggii, Bebelii, and Apophthegmata Erasmi
-                                Roterodami, Licosthenis, and other moe authors handling the like
-                                argument. </p>
-                        </div>
 
-                        <div type="commentary"><head>The use of this figure.</head>
+                        <p><term>Asteisimus</term>, in Latine <term>Urbanitas</term>, is a wittie
+                            jesting in civill maner, and gracing of speech with some merie conceipt:
+                            it is usually taken for any mirth or pleasant speech which is voyd of
+                            rusticall simplicitie &amp; rudenesse, and the merie &amp; pleasant
+                            sayings of this figure are called <term>facetiae</term> that is to say,
+                            the pleasures and delights of speech: which are taken <note place="marg"
+                                anchored="false">1.<term>AEquivocation</term>.</note> from diverse
+                            places, but chiefly from these, from <term>Equivocation</term>, as when
+                            a word having two significations, is expressed in the one, and
+                            understood in the other, either contrary, or at least much differing,
+                            which as it is most wittie, so is it most pleasant. Secondly the
+                            occasion of mirth may be taken from a <term>fallace</term> in sophistrie
+                                <note place="marg" anchored="false">2.<term>Secundum quid, ad dictum
+                                    simpliciter</term>.</note> called <term>Secundum quid ad dictum
+                                simpliciter</term>, that is, when a saying is captiously taken, and
+                            turned to another sense, contrary or much differing from the meaning of
+                            the speaker, as in this example: To one demanding of Diogenes what he
+                            would take for<note place="marg" anchored="false">Diogenes
+                                answer.</note> a knocke upon his pate, he made this answer, that he
+                            would take an helmet. Now he that made the demand, meant, what hire, and
+                            not what defence. To one that said, he knew not if he should be put out
+                            of his house where to hid his head: another made him answer, that he
+                            might hide it in his cap. </p>
+                        <p>There are many and sundry other places from whence wittie mirth may be
+                            fitty taken, as from pleasant imitation of mens speech and fashions,
+                            from similitudes and comparisons, from pleasant reports of merrie
+                            actions and accidents, and from anie moe which I shall not here meede to
+                            rehearse. Now for to give to every particular place an example, it would
+                            be too tedious, and peradventure to some offensive. He that desireth
+                            further examples of this figure, let him reade Facetias Brusonii,
+                            Poggii, Bebelii, and Apophthegmata Erasmi Roterodami, Licosthenis, and
+                            other moe authors handling the like argument. </p>
+
+
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
 
                             <p>The use hereof is pleasant and commendable, especially among good
                                 wittes, and men of merrie and delightful natures, but yet more meete
@@ -1914,19 +2029,22 @@
                                 the dull and wearisome minds of men are much refreshed. </p>
                         </div>
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>Heede in the use of this figure ought to be taken, that it offend not
-                                against charitie, chastitie, nor pietie. It offendeth <note place="marg" anchored="false">1.Against charitie.</note>against
+                                against charitie, chastitie, nor pietie. It offendeth <note
+                                    place="marg" anchored="false">1.Against charitie.</note>against
                                 charitie, when the mirth toucheth some person to his griefe or
-                                shame, whereby he is moved to take it in evill part. It <note place="marg" anchored="false">2.Against Chastitie.</note>
+                                shame, whereby he is moved to take it in evill part. It <note
+                                    place="marg" anchored="false">2.Against Chastitie.</note>
                                 offendeth against chastity, when the testing consisteth of unchast
                                 speech, or containeth uncchast significations, which albeit it may
                                 move laughter, yet it offendeth modest and chast minds: it
                                 committeth a great offence against pietie, when the occasion of
                                 mirth &amp; laughter is taken from ye abuse of reverend matters, as
                                 the holy <note place="marg" anchored="false">3.Against
-                                pietie.</note>scriptures, the judgements of God, magistrates,
+                                    pietie.</note>scriptures, the judgements of God, magistrates,
                                 parents, &amp; such like, or when sport is made at the miseries and
                                 calamities of men: by all which abuses Almightie God is provoked to
                                 displeasure and wrath, which in justice is wont to revenge al
@@ -1934,56 +2052,58 @@
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="6"> <head><term>Ironia</term></head>
+                    <div type="commentary" subtype="trope" n="Ironia">
+                        <head><term>Ironia</term></head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p><term>Ironia</term> called of the Latines <term>Dissimulatio</term>
-                                and <term>Irriso</term>, and of some Illusio, it is a Trope in which
-                                one contrarie is understood by another, not so well perceived by the
-                                words, as either by the pronunciation, by the person, or by the
-                                nature of the thing. <term>Antiphrasis</term> and this are of very
-                                nigh affinitie, onely differing in this, that
-                                    <term>Antiphrasis</term> consisteth in the contrarie sense of a
-                                word, and <term>Ironia</term>of a sentence. </p>
-                            <p>An example from a Poet: Gnato speaketh thus to Thraso, what <note place="marg" anchored="false">Teren.Andr.</note>(quoth he) they
-                                knew not you after I had shewed them your good conditicions, and
-                                made mention of your vertues. Then answered Thraso. You did like an
-                                honest man, I thanke you with all my heart. Here both the saying of
-                                Gnato, and the answer of Thraso, hath a contrary signification. </p>
-                            <p>This figure of some is devided to be godly, and wicked, that is,
-                                according to the matter or end, not according to the forme, for the
-                                forme remaineth the same. </p>
-                            <p>Of a godly vertuous <term>Ironia</term>, they give these examples:
-                                And the Lord God said, <cit>
-                                    <quote>Behold, the man is become as one of us, to know good and
-                                        evill</quote>
-                                    <bibl>Gen.3.12.</bibl>
-                                </cit>: by this derision the Lord God reprocheth Admans miserie,
-                                whereinto he was fallen by ambition. </p>
-                            <p>Another: <cit>
-                                    <quote>Go and crie unto the gods which you have chosen, let them
-                                        save you in the time of your tribulation.</quote>
-                                    <bibl>Iudic.10.14</bibl>
-                                </cit>
-                            </p>
-                            <p>Another: <cit>
-                                    <quote>Sleepe on and take your rest.</quote>
-                                    <bibl>Mat.26.45.</bibl>
-                                </cit> This saying Christ speaketh in a contrary sense, meaning that
-                                trouble was nigh at hand to waken them out of their securitie. </p>
-                            <p>The <term>Ironia</term> of Elias is commonly knowne and most evident.
-                                    <bibl>1.Reg.18.27.</bibl>
-                            </p>
-                            <p>Of a wicked <term>Ironia</term>there is an example of Michol saying
-                                to David. <cit>
-                                    <quote>O how glorious was the king of Israell this day.</quote>
-                                    <bibl>2.Sam.6.20.</bibl>
-                                </cit>
-                            </p>
-                        </div>
 
-                        <div type="commentary"><head>The use of this figure.</head>
+                        <p><term>Ironia</term> called of the Latines <term>Dissimulatio</term> and
+                                <term>Irriso</term>, and of some Illusio, it is a Trope in which one
+                            contrarie is understood by another, not so well perceived by the words,
+                            as either by the pronunciation, by the person, or by the nature of the
+                            thing. <term>Antiphrasis</term> and this are of very nigh affinitie,
+                            onely differing in this, that <term>Antiphrasis</term> consisteth in the
+                            contrarie sense of a word, and <term>Ironia</term>of a sentence. </p>
+                        <p>An example from a Poet: Gnato speaketh thus to Thraso, what <note
+                                place="marg" anchored="false">Teren.Andr.</note>(quoth he) they knew
+                            not you after I had shewed them your good conditicions, and made mention
+                            of your vertues. Then answered Thraso. You did like an honest man, I
+                            thanke you with all my heart. Here both the saying of Gnato, and the
+                            answer of Thraso, hath a contrary signification. </p>
+                        <p>This figure of some is devided to be godly, and wicked, that is,
+                            according to the matter or end, not according to the forme, for the
+                            forme remaineth the same. </p>
+                        <p>Of a godly vertuous <term>Ironia</term>, they give these examples: And
+                            the Lord God said, <cit>
+                                <quote>Behold, the man is become as one of us, to know good and
+                                    evill</quote>
+                                <bibl>Gen.3.12.</bibl>
+                            </cit>: by this derision the Lord God reprocheth Admans miserie,
+                            whereinto he was fallen by ambition. </p>
+                        <p>Another: <cit>
+                                <quote>Go and crie unto the gods which you have chosen, let them
+                                    save you in the time of your tribulation.</quote>
+                                <bibl>Iudic.10.14</bibl>
+                            </cit>
+                        </p>
+                        <p>Another: <cit>
+                                <quote>Sleepe on and take your rest.</quote>
+                                <bibl>Mat.26.45.</bibl>
+                            </cit> This saying Christ speaketh in a contrary sense, meaning that
+                            trouble was nigh at hand to waken them out of their securitie. </p>
+                        <p>The <term>Ironia</term> of Elias is commonly knowne and most evident.
+                                <bibl>1.Reg.18.27.</bibl>
+                        </p>
+                        <p>Of a wicked <term>Ironia</term>there is an example of Michol saying to
+                            David. <cit>
+                                <quote>O how glorious was the king of Israell this day.</quote>
+                                <bibl>2.Sam.6.20.</bibl>
+                            </cit>
+                        </p>
+
+
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
 
                             <p><note place="marg" anchored="false">1.To reprove and rebuke.</note>
                                 This figure pertaineth chiefly to reprove by derision and illusion,
@@ -1991,7 +2111,8 @@
                                 jest and move mirth by opposing contraries. </p>
                         </div>
 
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1.Not to be used without urgent
                                     cause.</note>It ought to be foreseene, that this figure be not
@@ -2008,129 +2129,137 @@
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="7"> <head><term>Charientismus</term>.</head>
+                    <div type="commentary" subtype="trope" n="Charientismus">
+                        <head><term>Charientismus</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
-                            <p><term>Charientismus</term> is a trope of speech which mitigateth hard
-                                matters with pleasant words. </p>
-                            <p>An example: A certaine man being apprehended, and brought before
-                                Alexander the Great king of Macedonia, for rayling aginst him, and
-                                being demanded of Alexander why he and his companie had so done,
-                                made this answer, had not the fayled (sayth he) we had spoken much
-                                worse. By which answer he signified, that those words proceeded
-                                rather from wine then malice: by which free and pleasant confession,
-                                he asswaged Alexanders great displeasure, and obtained forgivenesse. </p>
-                            <p>Salomon commendeth that <cit>
-                                    <quote>answer which may turne away displeasure, and pacifie
-                                        wrath.</quote>
-                                    <bibl>Prov.15.</bibl>
-                                </cit>
-                            </p>
-                        </div>
 
-                        <div type="commentary" subtype="subsubpart" n="2">
+                        <p><term>Charientismus</term> is a trope of speech which mitigateth hard
+                            matters with pleasant words. </p>
+                        <p>An example: A certaine man being apprehended, and brought before
+                            Alexander the Great king of Macedonia, for rayling aginst him, and being
+                            demanded of Alexander why he and his companie had so done, made this
+                            answer, had not the fayled (sayth he) we had spoken much worse. By which
+                            answer he signified, that those words proceeded rather from wine then
+                            malice: by which free and pleasant confession, he asswaged Alexanders
+                            great displeasure, and obtained forgivenesse. </p>
+                        <p>Salomon commendeth that <cit>
+                                <quote>answer which may turne away displeasure, and pacifie
+                                    wrath.</quote>
+                                <bibl>Prov.15.</bibl>
+                            </cit>
+                        </p>
 
-                            <p>The benefit of this figure is great and necessaire, for it <note place="marg" anchored="false">1.Compared to a salve, &amp; to a
-                                    medicin.</note> standeth as it were in sted of a salve to heale
-                                the wounds of displeasure, or in place of a vertuous medicine to
-                                stanch the bleeding vaines of unkindness, or to coole the boyling
-                                inflammation of revenge, for which respects it may well be compared
-                                to the wind called Favonius, which by his warme and nourishing
-                                breath, <note place="marg" anchored="false">2.Compared to the West
-                                    Wind.</note> appeaseth the displeasure of all creatures,
-                                conceived against ye same Element, when it puffed out his cold and
-                                bitter blastes from the contrary coast called Subsolanus. </p>
-                        </div>
 
-                        <div type="commentary"><head>The Caution.</head>
 
-                            <p>Two great faults may be committed in this figure, the one is<note place="marg" anchored="false">1.A base submission.</note> a base
+
+                        <p>The benefit of this figure is great and necessaire, for it <note
+                                place="marg" anchored="false">1.Compared to a salve, &amp; to a
+                                medicin.</note> standeth as it were in sted of a salve to heale the
+                            wounds of displeasure, or in place of a vertuous medicine to stanch the
+                            bleeding vaines of unkindness, or to coole the boyling inflammation of
+                            revenge, for which respects it may well be compared to the wind called
+                            Favonius, which by his warme and nourishing breath, <note place="marg"
+                                anchored="false">2.Compared to the West Wind.</note> appeaseth the
+                            displeasure of all creatures, conceived against ye same Element, when it
+                            puffed out his cold and bitter blastes from the contrary coast called
+                            Subsolanus. </p>
+
+
+                        <div type="commentary">
+                            <head>The Caution.</head>
+
+                            <p>Two great faults may be committed in this figure, the one is<note
+                                    place="marg" anchored="false">1.A base submission.</note> a base
                                 and vile submission, the other is open flatterie; the one is a
                                 shame, the other a sinne.<note place="marg" anchored="false">2.Open
                                     flatterie.</note>
                             </p>
                         </div>
                     </div>
-                    <div type="commentary" subtype="subpart" n="8"> <head><term>Sarcasmus</term>.</head>
+                    <div type="commentary" subtype="trope" n="Sarcasmus">
+                        <head><term>Sarcasmus</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p>Sarcasmus is a bitter kind of derision, most commonly used of an
-                                enemie. An example: Demothenes taketh upon him (quoth Demades) to
-                                correct me, what? Sus Mineruam? That same Minerva (quoth
-                                Demosthenes) was the last yeare taken in adulterie. He objecteth
-                                adulterie to Demades forasmuch as the Poets make Minerva a virgine. </p>
-                            <p>Another: When M. Appius in his prooeme declared that he was earnestly
-                                intreated of a friend, that he should use his didligence eloquence
-                                and fedeltitie in the cause of his client. After all the plea ended,
-                                Cicero comming to Appius, sayd thus unto him, Are you so hard a man
-                                (saith he) that of so many things which your friend did request, you
-                                would performe none? </p>
-                            <p>An example of the holy Scripture: <cit>
-                                    <quote>Sing us one of your songs of Sion.</quote>
-                                    <bibl>Psal. 137.</bibl>
-                                </cit> This saying was uttered in scornful and insulting manner
-                                against the poore Israelites being captives in Babylon. </p>
-                            <p>Another: <cit>
-                                    <quote>Thou which doest destroy the Temple, and build it againe
-                                        in three dayes, save thy self and come down from ye
-                                        crosse.</quote>
-                                    <bibl>Mar.15.</bibl>
-                                </cit>
-                            </p>
-                            <p>Another: He saved other, him selfe he cannot save. </p>
-                            <p>Let that Christ the king of Israell come downe now from the crosse,
-                                that we may see and beleeve him. These examples of the Jewes against
-                                Christ are here set down to teach the forme of this figure, and not
-                                to confirme the abuse. </p>
-                        </div>
-                        <div type="commentary"><head>The use of this figure.</head>
 
-                            <p><note place="marg" anchored="false">1.To represse pride, follie, &amp;
-                                    rudenesse.</note>The best &amp; most lawfull use of this
+                        <p>Sarcasmus is a bitter kind of derision, most commonly used of an enemie.
+                            An example: Demothenes taketh upon him (quoth Demades) to correct me,
+                            what? Sus Mineruam? That same Minerva (quoth Demosthenes) was the last
+                            yeare taken in adulterie. He objecteth adulterie to Demades forasmuch as
+                            the Poets make Minerva a virgine. </p>
+                        <p>Another: When M. Appius in his prooeme declared that he was earnestly
+                            intreated of a friend, that he should use his didligence eloquence and
+                            fedeltitie in the cause of his client. After all the plea ended, Cicero
+                            comming to Appius, sayd thus unto him, Are you so hard a man (saith he)
+                            that of so many things which your friend did request, you would performe
+                            none? </p>
+                        <p>An example of the holy Scripture: <cit>
+                                <quote>Sing us one of your songs of Sion.</quote>
+                                <bibl>Psal. 137.</bibl>
+                            </cit> This saying was uttered in scornful and insulting manner against
+                            the poore Israelites being captives in Babylon. </p>
+                        <p>Another: <cit>
+                                <quote>Thou which doest destroy the Temple, and build it againe in
+                                    three dayes, save thy self and come down from ye crosse.</quote>
+                                <bibl>Mar.15.</bibl>
+                            </cit>
+                        </p>
+                        <p>Another: He saved other, him selfe he cannot save. </p>
+                        <p>Let that Christ the king of Israell come downe now from the crosse, that
+                            we may see and beleeve him. These examples of the Jewes against Christ
+                            are here set down to teach the forme of this figure, and not to confirme
+                            the abuse. </p>
+
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
+
+                            <p><note place="marg" anchored="false">1.To represse pride, follie,
+                                    &amp; rudenesse.</note>The best &amp; most lawfull use of this
                                     <term>Trope</term> is to represse proud folly and wicked
                                 insolencie, and sometime leud miserie: for indeed this figure is
-                                like to most bitter corrections in Phisicke,<note place="marg" anchored="false">2.Compared to bitter corrections.</note> which
+                                like to most bitter corrections in Phisicke,<note place="marg"
+                                    anchored="false">2.Compared to bitter corrections.</note> which
                                 are seldome or never applyed, but to vehement and desperat diseases,
                                 which although they be painfull and bitter, yet for the most part
                                 they bring profit, as by removing the diseases, and restoring
                                 health: even so the benefit of an enemies mocke to a wise man, is
                                 the knowledge of his fault, and the amending of it. </p>
                         </div>
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
-                            <p><note place="marg" anchored="false">1.Not to be used without a needful
-                                    cause.</note>Let it be first provided that this figure be not
-                                used without some great cause which may well deserve it, as
+                            <p><note place="marg" anchored="false">1.Not to be used without a
+                                    needful cause.</note>Let it be first provided that this figure
+                                be not used without some great cause which may well deserve it, as
                                 arrogancie, insolent pride, wilfull folly, shamefull lecherie,
                                 ridiculous avarice, or such like, for it is both folly and rudenesse
                                 to use derision <note place="marg" anchored="false">2.Folly and
                                     rudenesse.</note> without cause: but to mocke silly people,
                                 innocents, or men in misery, or the poore in distresse, argueth both
-                                the pride of the mind,<note place="marg" anchored="false">3.Pride and
-                                    crueltie.</note> and the crueltie of the heart: which evils and
-                                wicked properties, being mae knowne by wicked practise, the scorner
-                                and common mocker becommeth odious to all men. </p>
+                                the pride of the mind,<note place="marg" anchored="false">3.Pride
+                                    and crueltie.</note> and the crueltie of the heart: which evils
+                                and wicked properties, being mae knowne by wicked practise, the
+                                scorner and common mocker becommeth odious to all men. </p>
                         </div>
                     </div>
-                    <div type="commentary" subtype="subpart" n="9"> <head><term>Mycterismus</term>.</head>
+                    <div type="commentary" subtype="trope" n="Mycterismus">
+                        <head><term>Mycterismus</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p><term>Mycterismus</term> is a privie kind of mocke, or maner of
-                                jesting, yet not so privie but that it may well be perceived. </p>
-                            <p>An example: When a certaine man which was bald had spitefully rayled
-                                against Diogenes, after a litle pawse Diogenes answered him thus: My
-                                friend, farther I have done thee no harme, but this I must say to
-                                thee, I do much commend the haires that are fallen from thy head,
-                                for I suppose they were wise, in that they made hast to leave the
-                                companie of so foolilsh a scull. </p>
-                            <p>Another: To one that demanded of Demonax the philosopher, if
-                                Philosophers did use to eate sweet cakes, Demonax made this answer,
-                                Doest thou think (quoth he) that bees gather their hony for fooles
-                                onely? </p>
-                        </div>
-                        <div type="commentary"><head>The use of this figure</head>
+
+                        <p><term>Mycterismus</term> is a privie kind of mocke, or maner of jesting,
+                            yet not so privie but that it may well be perceived. </p>
+                        <p>An example: When a certaine man which was bald had spitefully rayled
+                            against Diogenes, after a litle pawse Diogenes answered him thus: My
+                            friend, farther I have done thee no harme, but this I must say to thee,
+                            I do much commend the haires that are fallen from thy head, for I
+                            suppose they were wise, in that they made hast to leave the companie of
+                            so foolilsh a scull. </p>
+                        <p>Another: To one that demanded of Demonax the philosopher, if Philosophers
+                            did use to eate sweet cakes, Demonax made this answer, Doest thou think
+                            (quoth he) that bees gather their hony for fooles onely? </p>
+
+                        <div type="commentary">
+                            <head>The use of this figure</head>
 
                             <p>The use hereof differeth not much from the use of
                                     <term>Sarcasmus</term>,<note place="marg" anchored="false">1.The
@@ -2138,40 +2267,46 @@
                                     <term>Sarcasmus</term>.</note> but in this, that
                                     <term>Sarcasmus</term> is more manifest, and this more privie,
                                 that more generall, and this more speciall, that more easie, and
-                                this more hard. The chiefe use of this figure serveth to <note place="marg" anchored="false">2.To represse pride, folly, and
+                                this more hard. The chiefe use of this figure serveth to <note
+                                    place="marg" anchored="false">2.To represse pride, folly, and
                                     vice.</note>represse pride, rebuke folly, and taunt vice: and
                                 may be likened to a black frost, which is wont to nip a man by the
                                 nose, before he<note place="marg" anchored="false">3.Compared to the
                                     frost.</note> can discerne it with his eye. </p>
                         </div>
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p>This figure must not be too obscure and darke, for by that it may
-                                loose the vertue and use, if it be not perceived, and<note place="marg" anchored="false">1.Not too obscure.</note> therefore
-                                it is not to be used to simple and ignorant persons, which do <note place="marg" anchored="false">2.Not rusticall.</note>want the
-                                capacitie &amp; subtlety of wit to perceive it. Neither must it be
-                                rude or rusticall, which is the utter disgrace of it. </p>
+                                loose the vertue and use, if it be not perceived, and<note
+                                    place="marg" anchored="false">1.Not too obscure.</note>
+                                therefore it is not to be used to simple and ignorant persons, which
+                                do <note place="marg" anchored="false">2.Not rusticall.</note>want
+                                the capacitie &amp; subtlety of wit to perceive it. Neither must it
+                                be rude or rusticall, which is the utter disgrace of it. </p>
                         </div>
                     </div>
 
-                    <div type="commentary" subtype="subpart" n="10"> <head><term>Diasyrmus</term>.</head>
+                    <div type="commentary" subtype="trope" n="Diasyrmus">
+                        <head><term>Diasyrmus</term>.</head>
 
-                        <div type="commentary" subtype="subsubpart" n="1">
 
-                            <p><term>Dyasyrmus</term> is a Trope by which the arguments of an
-                                adversarie are either deraved or rejected. Cicero for Murena against
-                                Cato, speaketh much in this manner, and also against Sulpitius
-                                disputing in the Civill law. </p>
-                            <p>This figure is for the most part made either by some base similitude,
-                                or by some ridiculous example, to which the adversaries objection or
-                                argument is compared, whereby it is either made ridiculous, or at
-                                least much disgraced. </p>
-                            <p>As for to shew examples of this figure I judge it needlesse and
-                                superfluous, considering the dayly plentie of them almost everie
-                                where, both private and publike: and therefore it may suffise to
-                                shew the use, and forewarne the abuse of it. </p>
-                        </div>
-                        <div type="commentary"><head>The use of this figure.</head>
+
+                        <p><term>Dyasyrmus</term> is a Trope by which the arguments of an adversarie
+                            are either deraved or rejected. Cicero for Murena against Cato, speaketh
+                            much in this manner, and also against Sulpitius disputing in the Civill
+                            law. </p>
+                        <p>This figure is for the most part made either by some base similitude, or
+                            by some ridiculous example, to which the adversaries objection or
+                            argument is compared, whereby it is either made ridiculous, or at least
+                            much disgraced. </p>
+                        <p>As for to shew examples of this figure I judge it needlesse and
+                            superfluous, considering the dayly plentie of them almost everie where,
+                            both private and publike: and therefore it may suffise to shew the use,
+                            and forewarne the abuse of it. </p>
+
+                        <div type="commentary">
+                            <head>The use of this figure.</head>
 
                             <p><note place="marg" anchored="false">1.To make an evasion.</note>The
                                 most lawfull and commendable use of this <term>Trope</term>, is
@@ -2181,7 +2316,8 @@
                                     proud adversarie.</note> obscure, or to abate the pride and
                                 arrogancie of a proude and insolent disputer. </p>
                         </div>
-                        <div type="commentary"><head>The Caution.</head>
+                        <div type="commentary">
+                            <head>The Caution.</head>
 
                             <p><note place="marg" anchored="false">1.Where it ought not to be
                                     used.</note>The especiall warning that is to be observed in this
@@ -2201,8 +2337,8 @@
                     </div>
                 </div>
             </div>
-  
-        
+
+
         </body>
     </text>
 </TEI>

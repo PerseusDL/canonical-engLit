@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -75,7 +74,7 @@
 
   <text xml:lang="eng">
     <body>
-      <div type="commentary" subtype="part" n="1"><head><term>SCHEMATES RHETORICAL</term></head>
+      <div type="commentary" subtype="part" n="2"><head><term>SCHEMATES RHETORICAL</term></head>
 
         <p>Schemates Rhetorical be those figures or forms of speaking, which do take away the
           wearisomnesse of our common speech, and do fashion a pleasant, sharpe, and evident kind of
@@ -91,7 +90,7 @@
               <term>Repetition,</term> the second of <term>Omission</term>, the third of
               <term>conjunction</term>, the fourth of <term>separation</term>.</p>
 
-          <div type="commentary" subtype="kind" n="1"> <head>Figures of Repetition.</head>
+          <div type="commentary" subtype="figures" n="repetition"> <head>Figures of Repetition.</head>
 
             <list>
               <item n="1"><term>Epanaphora</term></item>
@@ -112,7 +111,7 @@
               pleasantly repeated: and likewise one and the same letter by <term>Paroemion</term>
               may be repeaated in the beginning of diverse words.</p>
 
-            <div type="commentary" subtype="figure" n="1"> <head><term>Epanaphora</term>.</head>
+            <div type="commentary" subtype="figure" n="Epanaphora"><head><term>Epanaphora</term>.</head>
                 <p><term>Epanaphora</term>, or <term>Anaphora</term>, is a forme of speech which
                   beginneth diverse members, still with one and the same word.</p>
               
@@ -179,7 +178,7 @@
               </div>
             </div>
 
-            <div type="commentary" subtype="figure" n="2"> <head><term>Epiphora</term>.</head>
+            <div type="commentary" subtype="figure" n="Epiphora"><head><term>Epiphora</term>.</head>
                 <p><term>Epiphora</term> is a figure which endeth diverse members or clauses still
                   with one and the same word. </p>
                 <p>An example: Since the tiem that concord was taken from the citie, libertie was
@@ -219,8 +218,8 @@
               </div>
             </div>
 
-            <div type="commentary" subtype="figure" n="3"><head><term>Symploce</term>.</head>
-              <div type="commentary" subtype="subsubpart" n="1">
+            <div type="commentary" subtype="figure" n="Symploce"><head><term>Symploce</term>.</head>
+              
 
                 <p><term>Symploce</term> is a forme of speech which maketh many members or clauses
                   following to have the same beginning &amp; the same ending which the first had
@@ -237,7 +236,7 @@
                 <p>By the increase of a word in diverse clauses: O cruell death, why hast thou taken
                   away my father, my deare father, my deare and most loving father , and hid him in
                   the darke, where I cannot find him? </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1.Meete for any affection.</note>This figure
@@ -256,9 +255,9 @@
                   tenters of foolish fancie, as oft it is, and likewise many others. </p>
               </div>
             </div>
-            <div type="commentary" subtype="figure" n="4"><head><term>Ploce</term>.</head>
+            <div type="commentary" subtype="figure" n="Ploce"><head><term>Ploce</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Ploce</term> is a forme of speech by which a proper name being repeated,
                   signifieth another thing. </p>
@@ -269,7 +268,7 @@
                   conquerer. </p>
                 <p>Another: Cicero continued Cicero unto the day of his death, meaning, a lover of
                   his countrey, and a most faithfull patrone of the common wealth. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This exornation serveth aptly to signifie the constant nature or permanent
@@ -289,9 +288,9 @@
                   repetition without sense. </p>
               </div>
             </div>
-            <div type="commentary" subtype="figure" n="5"><head><term>Diaphora</term>.</head>
+            <div type="commentary" subtype="figure" n="Diaphora"><head><term>Diaphora</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Diaphora</term> is much like to <term>Ploce</term>, but yet they differ,
                   onely in this, that <term>Ploce</term> repeateth a proper name, and this a common
@@ -303,7 +302,7 @@
                   the later, the consideration and speciall end of possessing that authoritie. </p>
                 <p>Another: Phisition heale thy selfe if thoug beest a Phisition, that is, if thou
                   hast the skill and science of Phisicke. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure like as <term>Ploce</term>, serveth both to the pleasure of the<note
@@ -320,9 +319,9 @@
                   signification. </p>
               </div>
             </div>
-            <div type="commentary" subtype="figure" n="6"><head><term>Epanalepsis</term>.</head>
+            <div type="commentary" subtype="figure" n="Epanalepsis"><head><term>Epanalepsis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epanalepsis</term> is a forme of speech which doth both begin and also ende
                   a sentence with one and the same word. </p>
@@ -342,7 +341,7 @@
                     <bibl>JPhilip.4.4.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1.To be considered.</note>The chiefe use of
@@ -362,9 +361,9 @@
                     >2.Too fewe have no grace.</note> and emptie. </p>
               </div>
             </div>
-            <div type="commentary" subtype="figure" n="7"><head><term>Anadiplosis</term>.</head>
+            <div type="commentary" subtype="figure" n="Anadiplosis"><head><term>Anadiplosis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Anadiplosis</term> is a figure by which the lat word of the first clause is
                   the beginning of the second. </p>
@@ -385,7 +384,7 @@
                 </p>
                 <p>Another of Paule: If we live, we live unto the Lord, if we die, we die unto the
                   Lord. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This exornation doth not onely serve to the pleasantnesse of <note place="marg"
@@ -405,9 +404,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="figure" n="8"><head><term>Epizeuxis</term>.</head>
+            <div type="commentary" subtype="figure" n="Epizeuxis"><head><term>Epizeuxis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epizeuxis</term> is a figure whereby a word is repeated, for the greater
                   vehemencie, and nothing put betweene: and it is used commonly with a swift
@@ -422,7 +421,7 @@
                 <p>This figure may also be joyned with other repetitions, as in this example of king
                   David bewailing the death of his sonne Absolom, O my sonne Absolom, my sonne, my
                   sonne Absolom, would God I had died for thee, O Absolom my sonne my sonne. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure may serve aptly to expresse the vehemncie of any<note place="marg"
@@ -446,9 +445,9 @@
                   deformitie. </p>
               </div>
             </div>
-            <div type="commentary" subtype="figure" n="9"><head><term>Diacope</term>.</head>
+            <div type="commentary" subtype="figure" n="Diacope"><head><term>Diacope</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Diacope</term> is a figure which repeateth a word putting but one word
                   betweene, or at least verie few. </p>
@@ -458,7 +457,7 @@
                     <bibl>Psal.57.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure may be used to expresse any affection, but it is most <note
@@ -482,9 +481,9 @@
                   offend the eare then please it. </p>
               </div>
             </div>
-            <div type="commentary" subtype="figure" n="10"><head><term>Traductio</term>.</head>
+            <div type="commentary" subtype="figure" n="Traductio"><head><term>Traductio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Traductio</term> is a forme of speech which repeateth one word often times
                   in one sentence, making the oration more pleasant to the eare. </p>
@@ -506,7 +505,7 @@
                     <bibl>1.Cor 9.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This exornation is compared to pleasant repetitions and <note place="marg"
@@ -528,9 +527,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="figure" n="11"><head><term>Paroemion</term>.</head>
+            <div type="commentary" subtype="figure" n="Paroemion"><head><term>Paroemion</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paroemion</term> is a figure of speech which beginneth diverse words with
                   one and the same letter, making the sentence more readie for the tongue, and more
@@ -552,7 +551,7 @@
                   faine, and many other such like: which facilitie and pleasantnesse of sound, do
                   cause such proverbes and sentences to be the better esteemed, and the oftner used.
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1.Facilitie to the tongue.</note>The use
@@ -578,16 +577,16 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="kind" n="2"> <head><term>FIGURES OF OMISSION</term></head>
+          <div type="commentary" subtype="figures" n="omission"> <head><term>FIGURES OF OMISSION</term></head>
 
             <p><term>Zeugma</term> threefold. 1. <term>Prozeugma</term>. 2, <term>Mezozeugma</term>,
               3. <term>Hypozeugma</term>, <term>Asyndeton</term>. In these figures there is some
               word omitted, which a full construction doth require, which notwithstanding hath by
               the omission a pleasant grace of brevitie.</p>
 
-            <div type="commentary" subtype="figure" n="1"><head><term>Zeugma</term>.</head>
+            <div type="commentary" subtype="figure" n="Zeugma"><head><term>Zeugma</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p>1 <term>Prozeugma</term> the first kind, is a figure of speech which putteth some
                   word in the first clause, and omitteth it in the other following. An example of
@@ -607,7 +606,7 @@
                 <p>3 <term>Hypozeugma</term> the third kind, when the common word is put in the last
                   clause. An example: The foundation of freedome, the fountaine of equitie, the
                   safegard of wealth, and custodie of life, is preserved by lawes. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This is a very pleasant exorantion, serving as well to the delight<note
@@ -635,9 +634,9 @@
             </div>
             
             
-            <div type="commentary" subtype="figure" n="2"><head><term>Ayndeton</term>.</head>
+            <div type="commentary" subtype="figure" n="Ayndeton"><head><term>Ayndeton</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Asyndeton</term> is a figure which keepeth the parts of speech together
                   without the helpe of any conjunction. </p>
@@ -652,7 +651,7 @@
                     <bibl>Sapien.7.22.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1.To avoyd often repetition of one
@@ -670,15 +669,15 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="kind" n="3"> <head><term>FIGURES OF CONJUNCTION</term>.</head>
+          <div type="commentary" subtype="figures" n="conjunction"> <head><term>FIGURES OF CONJUNCTION</term>.</head>
 
             <p><term>Figures of Conjunction</term> are these, <term>Polysindeton</term>,
                 <term>Homeoptoton</term>, <term>Homeoteleuton</term>, <term>Paregmemon</term>: these
               figures do joyne the parts of our speech together, either by conjunction of Grammer,
               or by similitude of sound. </p>
-            <div type="commentary" subtype="subsubpart" n="1"><head><term>Polysindeton</term>.</head>
+            <div type="commentary" subtype="figure" n="Polysindeton"><head><term>Polysindeton</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Polysindeton</term> is a figure which knitteth together the parts of an
                   oration with may conjunctions, contrarily to that above. </p>
@@ -695,7 +694,7 @@
                       separate us from the love of God.</quote>
                     <bibl>Rom.8.</bibl>
                   </cit> Another: Ye observe dayes, and moneths, and times, and yeares. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure hath the msot speciall respect to knit many things<note place="marg"
@@ -712,9 +711,9 @@
                   figure, and therefore ought to be avoyded. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="2"><head><term>Homeoptoton</term>.</head>
+            <div type="commentary" subtype="figure" n="Homeoptoton"><head><term>Homeoptoton</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Homeoptoton</term> of the Latines is called <term>Similiter cadens</term>,
                   and it is a figure which endeth diverse clauses with like cases, but in respect of
@@ -733,7 +732,7 @@
                   sentences, as to these and such like: Foolish pitie undoeth many a citie, A friend
                   in neede is a friend in deede, In space commeth grace. These &amp; many other of
                   this forme are very ancient, and may be used in grave causes. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -753,9 +752,9 @@
                   into a rime, or verse in meeter. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="3"><head><term>Homeoteleuton</term>.</head>
+            <div type="commentary" subtype="figure" n="Homeoteleuton"><head><term>Homeoteleuton</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Homeoteleuton</term> called of the Latines <term>similiter definens</term>
                   is a figure which endeth diverse members alike in such partes of speech, which
@@ -766,7 +765,7 @@
                 <p>Another: No marvell though wisedome complaineth that shee is either wilfully
                   despised, or carelesly neglected, either openly scorned, or secretely abhorred.
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This exornation like as the former pertaineth to the delectation<note
@@ -782,9 +781,9 @@
                   be shunned. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="4"><head><term>Paregmenon</term>.</head>
+            <div type="commentary" subtype="figure" n="Paregmenon"><head><term>Paregmenon</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paregmenon</term> is a figure which of the word going before deriveth the
                   word following. </p>
@@ -805,7 +804,7 @@
                 <p>Sometime there is a double <term>Paregmenon</term> in one sentence whereof this
                   may be an example: He wished rather to a die a present death, then to live in the
                   misery of life. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use hereof is twofold, to delight the eare by the derived<note place="marg"
@@ -826,7 +825,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="kind" n="4"> <head><term>FIGURES OF SEPARATION</term></head>
+          <div type="commentary" subtype="figures" n="separation"> <head><term>FIGURES OF SEPARATION</term></head>
 
             <p><term>Paranomasia</term>,<term>Antanaclasis</term>,<term>Articulus</term>,<term>Membrum</term>,
                 <term>Compar</term>,<term>Hypozeuxis</term>, <term>Taxis</term>. </p>
@@ -835,9 +834,9 @@
               words &amp; clauses one from another, either by distinguishing the sound, or by
               separating the sense. </p>
 
-            <div type="commentary" subtype="subsubpart" n="1"><head><term>Paranomasia</term>.</head>
+            <div type="commentary" subtype="figure" n="Paranomasia"><head><term>Paranomasia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paranomasia</term> is a figure which declineth into a contrarie by a
                   likelihood of letters, either added, changed, or taken away. Added thus, be sure
@@ -845,8 +844,8 @@
                   should not be a slanderer. Changed thus, More bold in a butterie then in a
                   batterie. A fit witnesse, a fit witlesse. Taken away, thus, This is not stumbling,
                   but plaine tumbling. </p>
-              </div>
-              <div type="commentary" subtype="subsubpart" n="2">
+              
+              
 
                 <p><note place="marg" anchored="false">1.To allude.</note>This figure is commonly
                   used to illude by the Addition, change <note place="marg" anchored="false">2.To be
@@ -854,7 +853,7 @@
                   and especially in grave and weightie causes, both in the respect of the light and
                   illuding forme, and also forasmuch as it seemeth not to be found without
                   meditation and affected labor. </p>
-              </div>
+              
               <div type="commentary"><head>The Caution.</head>
 
                 <p><note place="marg" anchored="false">1.Discretion required in using it.</note>As
@@ -863,9 +862,9 @@
                   applied. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="2"><head><term>Antanaclasis</term>.</head>
+            <div type="commentary" subtype="figure" n="Antanaclasis"><head><term>Antanaclasis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Antanaclasis</term> is a figure which repeateth a word that hath two
                   significations, and the one of them contrary, or at least, unlike to the other. An
@@ -874,7 +873,7 @@
                   minde. Another: In thy youth learne some craft, that in thy age thou mayst get thy
                   living without craft. In this example craft in the first place signifieth science,
                   occupation or trade; in the second, deceit and subtiltie. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure as it uniteth two words of one sound, so it distinguisheth them
@@ -895,9 +894,9 @@
                   equivocation. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="3"><head><term>Articulus</term>.</head>
+            <div type="commentary" subtype="figure" n="Articulus"><head><term>Articulus</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Articulus</term> is a figure which setteth one word from another by cutting
                   the oration thus: By thy follie and wickednesse thou hast lost thy substance, thy
@@ -912,7 +911,7 @@
                     <bibl>Jerem.5.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure serveth to pleasant brevitie, and also is very convenient <note
@@ -935,9 +934,9 @@
               </div>
             </div>
 
-            <div type="commentary" subtype="subsubpart" n="4"><head><term>Membrum</term>.</head>
+            <div type="commentary" subtype="figure" n="Membrum"><head><term>Membrum</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Membrum</term> is a figure which in few words endeth the construction, but
                   not the sense. </p>
@@ -952,7 +951,7 @@
                     <bibl>2.Tim.3.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1.Brevitie.</note>This figure is a pleasant
@@ -970,9 +969,9 @@
                   the sence is obscured. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="5"><head><term>Compar</term>.</head>
+            <div type="commentary" subtype="figure" n="Compar"><head><term>Compar</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Compar</term>, of the Grecians called <term>Isocolon</term>, and
                     <term>Parison</term> is a figure or forme of speech which maketh the members of
@@ -1005,7 +1004,7 @@
                   their antecedents, habite privation: also contrariwis, and that by a very pleasant
                   forme and proportion. This ornament is very often used of Solomon in his Proverbs,
                   and of Esay in his Prophesies. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure of all others is most straightly tied to number and proportion, and
@@ -1028,9 +1027,9 @@
                   may bewray affectation, which in gravitie is misliked. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="6"><head><term>Hypozeuxis</term>.</head>
+            <div type="commentary" subtype="figure" n="Hypozeuxis"><head><term>Hypozeuxis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Hypozeuxis</term> is a figure or forme of speech which joineth to everie
                   thing a due verbe, which is the contrarie to <term>Zeugma</term>. </p>
@@ -1043,7 +1042,7 @@
                   murdered, virgins defloured, holy places polluted, houses burned, cities defeaced,
                   lawes despised, the whole earth confounded, and the omnipotent power of God either
                   little regarded or utterly forgotten. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1.Pleasant in brevitie.</note>This figure is
@@ -1063,9 +1062,9 @@
                   repeated. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="7"><head><term>Taxis</term>.</head>
+            <div type="commentary" subtype="figure" n="Taxis"><head><term>Taxis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Taxis</term> is a figure or forme of speech, which distributeth to every
                   subject his most proper &amp; naturall adjunct. </p>
@@ -1089,7 +1088,7 @@
                     anchored="false">4.</note>Judges to heare causes &amp; give sentence, Advocates
                   to plead, subjects to obey, the wise to give counsell, and the rich to give almes.
                 </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -1116,7 +1115,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="kind" n="5"> <head><term>FIGURES OF SENTENCES</term></head>
+          <div type="commentary" subtype="figures" n="sentences"> <head><term>FIGURES OF SENTENCES</term></head>
 
             <p><term>Figures of Sentences</term> are those by which either our affections are
               elegantly expressed, or matters mightily magnified. The difference between the figures
@@ -1127,6 +1126,8 @@
               figures of affection, and figures of Amplication. </p>
           </div>
         </div>
+        
+        
         <div type="commentary" subtype="order" n="2"> <head>The second order.</head>
 
           <p>Figures of the second order are such as do make the oration not onely pleasant and
@@ -1134,14 +1135,14 @@
             passions of the minde are properly and elegantly uttered, and the either by the figures
             of Exclamation, Moderation, Consultation, or Permission. </p>
           
-          <div type="commentary" subtype="kind" n="1"><head><term>FIGURES OF EXCLAMATION</term></head>
+          <div type="commentary" subtype="figures" n="exclamation"><head><term>FIGURES OF EXCLAMATION</term></head>
 
             <p>Under the name of Exclamation I do comprehend all those figures which are used most
               commonly to utter vehement affections in vhement formes, not only such as do expresse
               the passions of the mind by a forme of outcrie, but also all those which are of a
               vehement and sharpe kind, and of nigh affinitie to Exclamation. </p>
             
-            <div type="commentary" subtype="figure" n="1"><head><term>Ecphonsis.</term>.</head>
+            <div type="commentary" subtype="figure" n="Ecphonsis."><head><term>Ecphonsis.</term>.</head>
                 <p><term>Ecphonesis</term> of the Latines called <term>Exclamatio</term>, is a forme
                   of speech by which the orator through some vehement affection, as either of love,
                   hatred, gladnesse, sorrow, anger, marvelling, admiration, feare, or such like,
@@ -1236,7 +1237,7 @@
               </div>
             </div>
             
-            <div type="commentary" subtype="figure" n="2"><head><term>Ara</term>.</head>
+            <div type="commentary" subtype="figure" n="Ara"><head><term>Ara</term>.</head>
 
                 <p><term>Ara</term> called of the Latins <term>Imprecatio</term>, is a forme of
                   speech by which the Orator detesteth, and curseth some person or thing, for the
@@ -1275,10 +1276,7 @@
                   to signifie whom God doth curse, as doth the Prophets and Apostles. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="3"><head><term>Eulogia</term>.</head>
-
-              <div type="commentary" subtype="subsubpart" n="1">
-
+            <div type="commentary" subtype="figure" n="Eulogia"><head><term>Eulogia</term>.</head>
                 <p><term>Eulogia</term>, in Latine <term>Benedictio</term>, is a forme of speech by
                   which the Orator pronounceth a blessing uppon some person for the goodnesse that
                   is in him or her. </p>
@@ -1311,7 +1309,7 @@
                     <bibl>Psal.144.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use hereof. tendeth to the extolling and praise of the thing <note
@@ -1337,9 +1335,7 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="4"><head><term>Mempsis</term>.</head>
-
-              <div type="commentary" subtype="subsubpart" n="1">
+            <div type="commentary" subtype="figure" n="Mempsis"><head><term>Mempsis</term>.</head>
 
                 <p><term>Mempsis</term>, in Latine <term>Querimonia</term>, is a forme of speech by
                   which the Orator maketh a complaint, and craveth helpe. </p>
@@ -1361,7 +1357,7 @@
                     <bibl>Psal.44.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To move compassion.</note>This forme of
@@ -1382,7 +1378,7 @@
                   nothing, a hue and crie and no robbery. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="5"><head><term>Threnos</term>.</head>
+            <div type="commentary" subtype="figure" n="Threnos"><head><term>Threnos</term>.</head>
 
               <div type="commentary" subtype="subsubpart" n="1">
 
@@ -1429,9 +1425,9 @@
                   lamenting for litle losses, the other in stoicall nature or carelesse people. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="6"><head><term>Euche</term>.</head>
+            <div type="commentary" subtype="figure" n="Euche"><head><term>Euche</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Euche</term>, in latine <term>Votum</term>, is a forme of speech by which
                   the Orator or speaker expresseth a solemne promise or vow; either made with
@@ -1448,7 +1444,7 @@
                   the Lords, and I will offer it for a burnt offring. </p>
                 <p>An example of a vow rising from affection, and without condition, is expressed in
                   the Psalme 132. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">An effect of gratitude.</note>This forme of
@@ -1465,9 +1461,9 @@
                   Paule. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="7"><head><term>Asphalia</term>.</head>
+            <div type="commentary" subtype="figure" n="Asphalia"><head><term>Asphalia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Asphalia</term>, in Latine <term>Securitas</term> and
                     <term>Certitudo</term>, is a forme of speech by which the speaker persuadeth a
@@ -1484,7 +1480,7 @@
                 </p>
                 <p>Also it is made in a mightie forme thus: My blood for thy blood, my life for thy
                   life, my soule for thy soule. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To incourage.</note>This figure or forme
@@ -1504,9 +1500,9 @@
                   life, when his death is neerest at hand. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="8"><head><term>Eustathia</term>.</head>
+            <div type="commentary" subtype="figure" n="Eustathia"><head><term>Eustathia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Eustathia</term> in Latine <term>Constantia</term>, is a forme of speech by
                   which the oratior or speaker promiseth and protesteth his constancie concerning
@@ -1532,7 +1528,7 @@
                 <p>Another of Poetrie. </p>
                 <p>{The fish shall flie the floud, the serpent bide the fire,</p>
                 <p>Ere ever I for game or good will altar my desire. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To manifest the secret affection of the
@@ -1552,9 +1548,9 @@
                   evill thing, looseth the vertue and dignity of the figure. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="9"><head><term>Epimone</term>.</head>
+            <div type="commentary" subtype="figure" n="Epimone"><head><term>Epimone</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epimone</term> in Latine <term>Perseverantia</term>, is a form of speech,
                   by which the speaker continueth and persisteth in the same cause, much after one
@@ -1571,7 +1567,7 @@
                     <quote>Simon Joanna lovest thou me more then these? feede my sheepe</quote>
                     <bibl>Joh.21.</bibl>
                   </cit>: which saying he repeateth three times, one shortly after another. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To signifie the greatnesse of the
@@ -1595,9 +1591,9 @@
                   forth by long custome. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="10"><head><term>Obtestatio</term>.</head>
+            <div type="commentary" subtype="figure" n="Obtestatio"><head><term>Obtestatio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Obtestatio</term> is a forme of speech, by which the Orator expresseth his
                   most earnest request, petition, or praier. </p>
@@ -1613,7 +1609,7 @@
                 <p>Another: If innocency may deserve favour, if misery may move to pittie, or
                   praiers prevaile with me: let your mercy for Gods sake relieve misery, and your
                   compassion extend to us that are ready to perish. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This is that forme of speech, which men in necessitie and distresse<note
@@ -1632,9 +1628,9 @@
                   men to give them. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="11"><head><term>Optatio</term>.</head>
+            <div type="commentary" subtype="figure" n="Optatio"><head><term>Optatio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Optatio</term> is a forme of speech, by which the speaker expresseth his
                   desire by wishing to God or Men. </p>
@@ -1652,7 +1648,7 @@
                     <bibl>Gal.5.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To signify a desire.</note>The use hereof
@@ -1668,9 +1664,9 @@
                   thinges.</note>corruption of will, nor the other without vanity of minde. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="12"><head><term>Thaumasmus</term>.</head>
+            <div type="commentary" subtype="figure" n="Thaumasmus"><head><term>Thaumasmus</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Thaumasmus</term> in Latine <term>Admiratio</term>, is a forme of speech,
                   by which the Orator declareth how much hee marvelleth at something as either why a
@@ -1698,7 +1694,7 @@
                 <p>Sometime at impunitie, when he seeth great wickednesse pass free without
                   punishment or rebuke. </p>
                 <p>Sometime at the accusation of some person, in whom he hath a good opinion. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The vertue of this Figure is very great and Emphaticall in a prudent Orator, and
@@ -1728,9 +1724,9 @@
                   neceire videtur. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="13"><head><term>Onedismus</term>.</head>
+            <div type="commentary" subtype="figure" n="Onedismus"><head><term>Onedismus</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Onedismus</term> called of the Latines <term>Exprobratio</term>, is a form
                   of speech by which the speaker upbraideth his adversary of ingratitude, and
@@ -1754,7 +1750,7 @@
                   doth set before the peoples eies, Gods goodnesse and mercy towards them. And by
                   the wild and evill frute, which that vineyard brought forth, he accuseth them of
                   most sinful ingratitude. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To rebuke ingratitude.</note>The use hereof
@@ -1774,9 +1770,9 @@
                   effect of mallice opposed against charitie. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="14"><head><term>Orcos</term>.</head>
+            <div type="commentary" subtype="figure" n="Orcos"><head><term>Orcos</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Orcos</term>, in Latine <term>Jusiurandum</term>, is a forme of speech by
                   which the speaker expresseth an oath for the better confirmation of something
@@ -1805,7 +1801,7 @@
                 </p>
                 <p>Somtime the speaker useth to confirme his saying by swearing by his faith,
                   credit, and truth, or such like formes of confirmation. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of this forme of speech serveth most aptly &amp; properly<note
@@ -1838,9 +1834,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="15"><head><term>Anamnesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Anamnesis"><head><term>Anamnesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Anamnesis</term> in Latine <term>Recordatio</term> is a forme of speech by
                   which the Speaker calling to remembrance matters past, doth make recitall of them
@@ -1880,7 +1876,7 @@
                     <bibl>Prou.5.12.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To make mention of time past.</note>The use
@@ -1899,9 +1895,9 @@
                   lye buried than to be revived. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="16"><head><term>Protrope</term>.</head>
+            <div type="commentary" subtype="figure" n="Protrope"><head><term>Protrope</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Protrope</term> in Latine <term>Adhortatio</term>, is a forme of speech, by
                   which the Orator exhorteth and perswadeth his hearers to do some thing. </p>
@@ -1922,7 +1918,7 @@
 
                 <p>Examples in the holie scripture are most plentiful, and may everie where be
                   found. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of this figure is great, and often necessarie and needfull to be used,
@@ -1960,21 +1956,21 @@
                   power. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="17"><head><term>Dehortio</term>.</head>
+            <div type="commentary" subtype="figure" n="Dehortio"><head><term>Dehortio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Dehortio</term>, is a forme of speech opposed to <term>Adhortatio</term>,
                   in respect of the use and end, and therefore the contrarie being explicated and
                   knowne, it shall not be needfull to make any further declaration of this,
                   considering it may be understood by the examples, use &amp; Caution of the other
                   contrary. </p>
-              </div>
+              
             </div>
 
-            <div type="commentary" subtype="subsubpart" n="18"><head><term>Paronesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Paronesis"><head><term>Paronesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paronesis</term> in latine <term>Admonitio</term>, is a forme of speech by
                   which the speaker expresseth an admonition, or warning to his hearers. </p>
@@ -1999,7 +1995,7 @@
                     <bibl>Prov.1.10.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This forme of speech doth properly belong to reveale dangers, <note place="marg"
@@ -2022,9 +2018,9 @@
                     anchored="false">2. Importunitie.</note> admonition commeth too late. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="19"><head><term>Cataplexis</term>.</head>
+            <div type="commentary" subtype="figure" n="Cataplexis"><head><term>Cataplexis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Cataplexis</term> in latine <term>Comminatio</term>, is a forme of speech,
                   by which the Orator denounceth a threatening agasinst some person, people, citie,
@@ -2036,7 +2032,7 @@
                   Aegypt, the Philistines and Moabites, with many other moe. </p>
                 <p>Another example is to be seen, Mat. 23.37.38. And another in Jonas. 3. Yet fortie
                   daies, and Ninivy shall be destroyed. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To deterre.</note>This figure pertaineth
@@ -2072,9 +2068,9 @@
                   Antipodes or by a people either unknowne or far distant. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="20"><head><term>Categoria</term>.</head>
+            <div type="commentary" subtype="figure" n="Categoria"><head><term>Categoria</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Categoria</term>, in Latine <term>Accusatio</term>, or <term>Criminis
                     reprehensio</term>, is a forme of speech by which the speaker openeth and
@@ -2096,7 +2092,7 @@
                   wickednes, but chiefly of the mischiefe of his toong. </p>
                 <p>Christ accuseth the Scribes and Pharisies of hypcrisie and <note place="marg"
                     anchored="false">Luc.11.</note>corruption. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use hereof is chiefly required to accuse and reprehend hypocrisie, and
@@ -2117,9 +2113,9 @@
                   place. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="21"><head><term>Paeanismus</term>.</head>
+            <div type="commentary" subtype="figure" n="Paeanismus"><head><term>Paeanismus</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paeanismus</term> is a forme of speech which the Orator, or speaker useth
                   to expresse his joy, either for the cause of some good thing obtained, or some
@@ -2149,7 +2145,7 @@
                     <bibl>Cor.15.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of this figure hath his principall place in triumphs and <note
@@ -2169,9 +2165,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="22"><head><term>Bdelygmia</term>.</head>
+            <div type="commentary" subtype="figure" n="Bdelygmia"><head><term>Bdelygmia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Bdelygmia</term>, in latine <term>Abominatio</term>, and
                     <term>Fastidium</term>, is a forme of speech which the speaker useth to signifie
@@ -2183,7 +2179,7 @@
                 <p>Sometime with mo words, thus: No more for shame, bury it in silence, whose eyes
                   can looke upon it, and not loath it, or whose eares can heare it, and not abhore
                   it? </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To make odius. Not against good
@@ -2193,9 +2189,9 @@
                   it be not used either against things worthie of love, or things indifferent. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="23"><head><term>Proclees</term>.</head>
+            <div type="commentary" subtype="figure" n="Proclees"><head><term>Proclees</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Proclesis</term> in latine <term>Provocatio</term>, is a forme of speech by
                   which the Orator provoketh his adversary to the conflict of the controversie, and
@@ -2226,7 +2222,7 @@
                     <bibl>Gen.44.9.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The right use of this figure doth most effectually serve, to commend &amp;
@@ -2238,9 +2234,9 @@
                   brasse. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="24"><head><term>Apocarteresis</term>.</head>
+            <div type="commentary" subtype="figure" n="Apocarteresis"><head><term>Apocarteresis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Apocarteresis</term> in latine <term>Tollerantia</term>, is a forme of
                   speech by which the speaker signifieth that he calleth away all hope concerning
@@ -2266,7 +2262,7 @@
                   cannot be called againe, his absence must needs be suffered, when his presence
                   cannot be redeemed, and therefore thinke on men that live, and let the dead rest.
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. A similitude.</note>As the sicke patient
@@ -2291,16 +2287,16 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="subsubpart" n="2"><head><term>FIGURES OF MODERATION</term>.</head>
+          <div type="commentary" subtype="figures" n="moderation"><head><term>FIGURES OF MODERATION</term>.</head>
 
             <p><term>Figures of Moderation</term> are such, as are lesse vehement then those which I
               have alreadie spoken of under the name and title of <term>Exclamation</term>. These
               following pertaine to more milde affections, and do require a more moderate forme of
               pronuntiation and utterance then those above rehearsed, which are proper to vehement
               affections and mightie possessions. </p>
-            <div type="commentary" subtype="subsubpart" n="1"><head><term>Martyria</term>.</head>
+            <div type="commentary" subtype="figure" n="Martyria"><head><term>Martyria</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Martyria</term> in Latine <term>Testatio</term>, is a forme of speech by
                   which the Orator or Speaker confirmeth some thign by his owne experience. </p>
@@ -2346,7 +2342,7 @@
                 <p>The traveller maketh descriptions of Citties and Countries, <note place="marg"
                     anchored="false">Travellers.</note>where hee hath beene, and declareth the
                   sundry fashions, and strange manners of far nations and people. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To confirm.</note>This forme of speech is
@@ -2369,9 +2365,9 @@
                   whereby the practise thereof may be further increased. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="2"><head><term>Apodixis</term>.</head>
+            <div type="commentary" subtype="figure" n="Apodixis"><head><term>Apodixis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Apodixi</term> in Latine <term>Experientia</term>, and <term>evidens
                     probatio</term>, is a forme of speech by which the Orator groundeth his saying
@@ -2403,7 +2399,7 @@
                   mother sing. </p>
                 <p>There is no fishing to the sea, nor service to the king. Which saying is proved
                   most true by the experiene of all time. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>Of all the formes of speech there is not one more apt, or more<note place="marg"
@@ -2424,9 +2420,9 @@
                   saying is partly true and partly false, then is it no good maxime. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="3"><head><term>Apomnemonsysis</term>.</head>
+            <div type="commentary" subtype="figure" n="Apomnemonsysis"><head><term>Apomnemonsysis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Apomnemonsysis</term>, called of some <term>Dieu commemoratio</term>, that
                   is, the rehearsal of a saying: It is a forme of speech by which the Orator
@@ -2446,7 +2442,7 @@
                     <bibl>Act.17.8.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To confirm.</note>By this place it is,
@@ -2489,9 +2485,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="4"><head><term>Antirrhesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Antirrhesis"><head><term>Antirrhesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Antirrhesis</term> is a forme of speech by which the Orator rejecteth the
                   authority, opinion or sentence of some person: for the error or wickednesse in it. </p>
@@ -2511,7 +2507,7 @@
                 <p>This same forme of speech Christ useth against Satan Mat.4. where he rejecteth
                   the subtil attempts and false allegations of Satan by the mightie power and truth
                   of his answeres. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This forme of speech doth specially belong to confutation and<note place="marg"
@@ -2531,9 +2527,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="5"><head><term>Euphemismus</term>.</head>
+            <div type="commentary" subtype="figure" n="Euphemismus"><head><term>Euphemismus</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Euphemismus</term> in Latine <term>boni ominis captatio</term>, that is, a
                   Prognostication of good, and it is a forme of speech, by which the Orator either
@@ -2552,7 +2548,7 @@
                   beginning doth promise a good end, a good cause a good effect, a holy life a happy
                   death, whereupon I may say mentioning some good man, and now dead, I speake of him
                   that is in heaven. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To plant hope.</note>This figure
@@ -2575,9 +2571,9 @@
                   avoided. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="6"><head><term>Ominasio</term>.</head>
+            <div type="commentary" subtype="figure" n="Ominasio"><head><term>Ominasio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Ominasio</term> is sometime taken in good part and then is it
                     <term>Euphemismus</term> last spoken of, but it is more oft put for the
@@ -2592,7 +2588,7 @@
                   that travelleth by the way, &amp; thy necessity like an armed amn. By this figure
                   the Orator foresheweth beggery to the slothfull, shame to the proud, mischiefe to
                   the quareller, and the gallowes to the thiefe. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -2636,9 +2632,9 @@
               </div>
             </div>
 
-            <div type="commentary" subtype="subsubpart" n="7"><head><term>Diatyposis</term>.</head>
+            <div type="commentary" subtype="figure" n="Diatyposis"><head><term>Diatyposis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Diatyposis</term> is called in Latine <term>Informatio</term> &amp;
                     <term>Testamentum</term>: In Rhetorick it is a forme of speech, by which the
@@ -2669,7 +2665,7 @@
                     <bibl>Exodus 18, 21, 22.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The practice and use of this forme doth necessarily require gravity<note
@@ -2698,9 +2694,9 @@
                   counsellers. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="8"><head><term>Antisagoge</term>.</head>
+            <div type="commentary" subtype="figure" n="Antisagoge"><head><term>Antisagoge</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Antisagoge</term> is a forme of speech by which the Orator joyneth to a
                   precept, of vertue, a promise of reward, and to the contempt of a precept, he
@@ -2719,7 +2715,7 @@
                     <bibl>Vers.15.16.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This forme of speaking doth alwaies carry with it a mightie power<note
@@ -2747,9 +2743,9 @@
                   excellent forme of perswasion. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="9"><head><term>Paradiogesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Paradiogesis"><head><term>Paradiogesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paradiegesis</term> is called in Latine <term>Narratio quae sit obiter
                     atque in transitu</term>, and properly in Rhetoricke it is called a form of
@@ -2768,7 +2764,7 @@
                   hands, as though he needed any thing, seeing he giveth to all life and breath and
                   all things, and so consequently, he proceedeth to the full declaration of his
                   purpose. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -2796,9 +2792,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="10"><head><term>Pareuresis</term>.</head>
+            <div type="commentary" subtype="figure" n="Pareuresis"><head><term>Pareuresis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Pareuresis</term>, in latine <term>Admuentio</term>, and <term>Excoritata
                     excusatio</term> is a forme of speech by which the speaker alledgeth a
@@ -2836,7 +2832,7 @@
                   eyes and sounding in his eares, he is commanded to remove and depart from thence,
                   and therfore wisheth her to content her selfe, and cease her wailing for his love
                   which might not prevaile, and therefore in vaine. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To repel surmised accusations.</note>This
@@ -2854,9 +2850,9 @@
                   to put an example. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="11"><head><term>Philophronesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Philophronesis"><head><term>Philophronesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Philophronesis</term> in latin <term>Benevolentia</term> and <term>Exceptio
                     benigna</term>, is a forme of speech by which the speaker perceiving the might
@@ -2879,7 +2875,7 @@
                   pleaseth thee. Behold, even our Citties and the inhabitants thereof are thy
                   servants: come and take them as it seemeth good to thee. So the men came to
                   Olophernes and declared them unto him after the same maner. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of this figure is of a singular vertue, both in respect <note
@@ -2912,9 +2908,9 @@
                   him. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="12"><head><term>Syngnome</term>.</head>
+            <div type="commentary" subtype="figure" n="Syngnome"><head><term>Syngnome</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Syngnome</term> in latin called <term>Ignocentia</term>, is a form of
                   speech by which the Orator or speaker being a patient of many and great injuries,
@@ -2931,7 +2927,7 @@
                   </cit>
                 </p>
                 <p>Another of Paul: To whom ye forgive anything, I forgive also. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To commend the charme of the
@@ -2959,9 +2955,9 @@
                   to raise a suspition, and yet expresseth nothing. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="13"><head><term>Epicrisis</term>.</head>
+            <div type="commentary" subtype="figure" n="Epicrisis"><head><term>Epicrisis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epicrisis</term> in latine <term>Adjudicatio</term>, is a forme of speech
                   by which the Orator reciting a sentence or saying of some Authour, addeth and
@@ -2987,7 +2983,7 @@
                   </cit>
                 </p>
                 <p>Philip enterpreteth a place of Esay to the Eunuch. Act.8.35. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure in respect of the praise which it giveth to a sentence or a doctrine,
@@ -3010,9 +3006,9 @@
                   lead the judgement into errors. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="14"><head><term>Paramythia</term>.</head>
+            <div type="commentary" subtype="figure" n="Paramythia"><head><term>Paramythia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paramythia</term>, in latine <term>Consolatio</term>, is a forme of speech
                   which the Orator useth to take away, or diminish a sorrow conceived in the minde
@@ -3031,7 +3027,7 @@
                   children, and thereupon concludeth that Job ought to apply all these
                   considerations to himselfe, as most precious medicines able to minister
                   consolation and strength to his fainting spirit. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of this figure is great, and most necessarily required in this vale of
@@ -3070,9 +3066,9 @@
                   use of consolation shall take small effect. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="15"><head><term>Eucharistia</term>.</head>
+            <div type="commentary" subtype="figure" n="Eucharistia"><head><term>Eucharistia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Eucharistia</term> in Latine <term>Gratiarum actio</term>, is a forme of
                   speech, bu which the speaker geveth thankes for benefites received. </p>
@@ -3095,7 +3091,7 @@
                     <bibl>Psal.16.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To extoll the goodnes of the
@@ -3122,9 +3118,9 @@
                   accuse the receiver either of ingratitude, or of forgetfulnesse. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="16"><head><term>Proecthesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Proecthesis"><head><term>Proecthesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Proecthesis</term> is a forme of speech by which the speaker defendeth by
                   his answere, conteining a reason of that which he hath said or done, proving
@@ -3163,7 +3159,7 @@
                     <bibl>Math.12.13.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is a forme of confutation, and is commonly used in <note place="marg"
@@ -3190,9 +3186,9 @@
                   his superscription, that I have written (saith he) I have written. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="17"><head><term>Epiphonema</term>.</head>
+            <div type="commentary" subtype="figure" n="Epiphonema"><head><term>Epiphonema</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epiphonema</term> is an exclamation of a matter uttered, or approved,
                   conteining the summe and conclusion thereof: And first of a matter uttered. </p>
@@ -3213,7 +3209,7 @@
                     <bibl>Mar.7.37.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To admire &amp; commend.</note>The use
@@ -3239,7 +3235,7 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="subsubpart" n="3"><head><term>FIGURES OF CONSULTATION</term>.</head>
+          <div type="commentary" subtype="figures" n="consultation"><head><term>FIGURES OF CONSULTATION</term>.</head>
 
             <p><term>Figures of consultation</term> I call such, which by reason of their forme and
               interrogation seeme to consult and deliberate with the hearers, the figures of this
@@ -3249,7 +3245,7 @@
               expectation thereof: they are mighty, and also most apt to confirme or confute, to
               praise or dispraise, to accuse or defend, and briefly they are most fit formes for a
               most earnest and vehement oration. </p>
-            <div type="commentary" subtype="subsubpart" n="1"><head><term>Interrogatio</term>.</head>
+            <div type="commentary" subtype="figure" n="Interrogatio"><head><term>Interrogatio</term>.</head>
 
               <div type="commentary" subtype="subsubpart" n="1">
 
@@ -3298,7 +3294,7 @@
                   as their descriptions and examples shall declare. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="2"><head><term>Erotema</term>.</head>
+            <div type="commentary" subtype="figure" n="Erotema"><head><term>Erotema</term>.</head>
 
               <div type="commentary" subtype="subsubpart" n="1">
 
@@ -3339,7 +3335,7 @@
                   in denying shamelesly. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="3"><head><term>Pysma</term>.</head>
+            <div type="commentary" subtype="figure" n="Pysma"><head><term>Pysma</term>.</head>
 
               <div type="commentary" subtype="subsubpart" n="1">
 
@@ -3385,7 +3381,7 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="4"><head><term>Hypophora</term>.</head>
+            <div type="commentary" subtype="figure" n="Hypophora"><head><term>Hypophora</term>.</head>
 
               <div type="commentary" subtype="subsubpart" n="1">
 
@@ -3448,7 +3444,7 @@
                   barennesse of matter, and want of due forme. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="5"><head><term>Aporia</term>.</head>
+            <div type="commentary" subtype="figure" n="Aporia"><head><term>Aporia</term>.</head>
 
               <div type="commentary" subtype="subsubpart" n="1">
 
@@ -3485,7 +3481,7 @@
                   aut miratur, nescire videtur. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="6"><head><term>Anacenosis</term>.</head>
+            <div type="commentary" subtype="figure" n="Anacenosis"><head><term>Anacenosis</term>.</head>
 
               <div type="commentary" subtype="subsubpart" n="1">
 
@@ -3526,15 +3522,16 @@
               </div>
             </div>
           </div>
-          <div type="commentary" subtype="subsubpart" n="4"><head><term>FIGURES OF PERMISSION</term>.</head>
+          <div type="commentary" subtype="figures" n="permission"><head><term>FIGURES OF PERMISSION</term>.</head>
 
             <p><term>Figures of Permission</term>, or <term>Concession</term>, are such formes of
               speech as do after a sort commit the cause in hand, or matter in controversie to the
               consideration and judgements of others, as either of the judges or of the adversaries,
               and these formes do serve most specially to confirmation. </p>
-            <div type="commentary" subtype="subsubpart" n="1"><head><term>Synchoresis</term>.</head>
+            
+            <div type="commentary" subtype="figure" n="Synchoresis"><head><term>Synchoresis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Synchoresis</term>, is a forme of speech by which the Orator trusting
                   strongly to his cause, giveth leave to the Judges or his adversaries, to consider
@@ -3559,7 +3556,7 @@
                     <bibl>Acts. 4.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is most excellent to justifie a good cause, and may fitly be compared
@@ -3582,9 +3579,9 @@
               </div>
             </div>
 
-            <div type="commentary" subtype="subsubpart" n="2"><head><term>Epitrope</term>.</head>
+            <div type="commentary" subtype="figure" n="Epitrope"><head><term>Epitrope</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epitrope</term> is a forme of speech by which the speaker granteth to some
                   thing ironically, as much in meaning as an earnest forbidding, although the wordes
@@ -3603,7 +3600,7 @@
                       litle</quote>
                     <bibl>Prov.6.10.</bibl>
                   </cit>: but he addeth to expound his mind in the next verse. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To forbid.</note>The use hereof,
@@ -3621,9 +3618,9 @@
                   that as it were by leave and licence, which is most earnestly forbidden. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="3"><head><term>Paradoxon</term>.</head>
+            <div type="commentary" subtype="figure" n="Paradoxon"><head><term>Paradoxon</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paradoxon</term>, is a forme of speech by which the Orator affirmeth some
                   thing to be true, by saying he would not have beleeved it, or that it is so
@@ -3640,7 +3637,7 @@
                   </cit> Here Paul sheweth, that not long before he was of the same opinion that his
                   adversaries and the judge were now of, and was in the like maner an open enemy to
                   the professor of that name. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is then to be used, when the thing which is to be<note place="marg"
@@ -3666,9 +3663,9 @@
                   and false traditions behind him. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="4"><head><term>Parrhesia</term>.</head>
+            <div type="commentary" subtype="figure" n="Parrhesia"><head><term>Parrhesia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Parrhesia</term>, is a forme of speech by which the Orator speaking before
                   those whom he feareth, or ought to reverence, &amp; having somewhat to say that
@@ -3711,7 +3708,7 @@
                     <bibl>Gal.1.10.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To insinuate.</note>This figure serveth to
@@ -3739,9 +3736,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="5"><head><term>Dicaeologia</term>.</head>
+            <div type="commentary" subtype="figure" n="Dicaeologia"><head><term>Dicaeologia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Dicaeologia</term>, is a forme of speech by which the Orator either
                   defendeth his cause by equitie, or excuseth it by necessitie, or else doth
@@ -3755,7 +3752,7 @@
                 <p>Another: I forsooke my friend, bu tthe lawes compelled me: I kept friendship most
                   faithfully, as long as the lawes permitted me, and now I am not cast off by will,
                   but by the force of law. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure doth pertaine properly to defend, to excuse, and to<note place="marg"
@@ -3774,9 +3771,9 @@
                   excuse false, nor the extenuation excessive or wicked. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="6"><head><term>Apostrophe</term>.</head>
+            <div type="commentary" subtype="figure" n="Apostrophe"><head><term>Apostrophe</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Apostrophe</term>, is a forme of speech by which the Orator turneth
                   suddenly from the former frame of his speech to another, that is, when he hath
@@ -3791,7 +3788,7 @@
                 <p>When the LORD by his Prophet Ofe had long complained of Israel, he leaveth
                   speaking of Israel and speaketh to Israel saying: O Israel thine iniquitie hath
                   undone thee. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">?? object.</note>This forme of speech serveth
@@ -3812,9 +3809,9 @@
                   backe, then before the face, I meane in the speech of an adversary. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="7"><head><term>Apoplanesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Apoplanesis"><head><term>Apoplanesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Apoplansis</term> is also another kind of aversion or turning away, and it
                   is when the speaker leadeth away the mind of his hearer, from the matter
@@ -3829,7 +3826,7 @@
                   him, and to be striken (as it were) with the same wound, and so by his vehement
                   and forcible perswasion turneth the mindes of the Judges from the cogitation of
                   the fact, now and then touching it a little, and slipping from it again. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -3856,9 +3853,9 @@
                   abuse God knoweth too common. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="8"><head><term>Aposiopesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Aposiopesis"><head><term>Aposiopesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Aposiopesis</term> is a forme of speech by which the Orator through some
                   affection, as either of feare, anger, sorrow, bashfulnesse or such like, breaketh
@@ -3869,7 +3866,7 @@
                 <p>Another: I am loth to utter that with my mouth which is now in my minde, staying
                   from further provocation. </p>
                 <p>Modesty bids me stay, here bashfulnesse is the cause of silence. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To restrain vehement speech.</note>The use of
@@ -3892,9 +3889,9 @@
                     anchored="false">3. The effect of malice.</note>charity to be eschewed. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="9"><head><term>Catacosmesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Catacosmesis"><head><term>Catacosmesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Catacosmesis</term>, in Latine <term>ordo</term>, is a meete placing of
                   words among themselves, wherof there be two kinds, the one when the worthiest word
@@ -3905,7 +3902,7 @@
                   the worthiest or weightiest word is set last: for the cause of amplifying, which
                   the Rhetoricians cal <term>Incrementum</term>,: the description whereof shalbe set
                   downe among the <term>figures of Amplication</term>. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of this first kind of order, doth most properly serve to the propertie
@@ -4047,9 +4044,9 @@
                 excellent and apt examples of <term>Amplification</term>. </p>
             </div>
           </div>
-          <div type="commentary" subtype="order" n="1">            <head><term>Distributio</term>.</head>
+          <div type="commentary" subtype="order" n="1"><head><term>Distributio</term>.</head>
 
-            <div type="commentary" subtype="subsubpart" n="1">
+            
 
               <p><term>Distributio</term> is a generall word, comprehending diverse special kindes,
                 by which we dilate and spread abroad the generall kinde, by reckoning by the
@@ -4059,12 +4056,12 @@
                 divers other figures which are kinds of distribution, but yet differing from these
                 three: for I conteine all those figures under the name of <term>Distribution</term>,
                 which do consist either in number or distribution. </p>
-            </div>
+            
 
 
-            <div type="commentary" subtype="subsubpart" n="5"><head><term>Diaeresis</term>.</head>
+            <div type="commentary" subtype="figure" n="Diaeresis"><head><term>Diaeresis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Diaeresis</term> in Latine <term>Divisio</term>, is a forme of speech which
                   divideth the generall kind into special kinds, yet not in a dialecticall forme,
@@ -4082,7 +4079,7 @@
                   other such like may be divided into their several kinds, whereby the large and
                   bountifull worke of nature is spread abroad, and many secret causes are plainly
                   discovered and brought into open light. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -4107,9 +4104,9 @@
                   kinds together it falleth in an odious confusion. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="6"><head><term>Partitio</term>.</head>
+            <div type="commentary" subtype="figure" n="Partitio"><head><term>Partitio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Partitio</term>, is a form of speech by which the orator divideth ye whole
                   into parts. Salomon divideth his whole knowledge thus: <cit>
@@ -4130,7 +4127,7 @@
                   far off, &amp; his speare to wound him nigh at hand, mourning at burials, mirth at
                   mariages, &amp; religious worship in their Temples. here the generall custome of
                   nations is the whole, which as you see is divided into certaine partes. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -4151,9 +4148,9 @@
                   difference. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="7"><head><term>Enumeratio</term>.</head>
+            <div type="commentary" subtype="figure" n="Enumeratio"><head><term>Enumeratio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Enumeratio</term>, when the subject is divided into the accidents, the
                   matter into the antecedents, the effect into the causes, and into things annexed
@@ -4203,7 +4200,7 @@
                   octavius? in law more learned, in faith, religion, and office more diligent, more
                   devout, and who in praising more pithie than he? more bitter in blaming? more
                   wittie in sentence? more subtle in speaking and disputing? </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. Varietie.</note>The use of this exornation
@@ -4220,9 +4217,9 @@
                   maketh ye distribution absurd. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="8"><head><term>Dilemma</term>.</head>
+            <div type="commentary" subtype="figure" n="Dilemma"><head><term>Dilemma</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Dilemma</term> this figure differeth from <term>Diaeresis</term> or
                     <term>Division</term>, for that divideth the generall into the specials, but
@@ -4249,7 +4246,7 @@
                     <bibl>Joh.18.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure pertaineth properly to confirme or confute, and<note place="marg"
@@ -4265,9 +4262,9 @@
                     reasons.</note> this a frome of speech. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="9"><head><term>Horysmos</term>.</head>
+            <div type="commentary" subtype="figure" n="Horysmos"><head><term>Horysmos</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Horysmos</term> is a forme of speech by which the Orator declareth the
                   proper pith of some thing, and it is chiefly used, when there is a difference
@@ -4294,7 +4291,7 @@
                   against God blasphemie. </p>
                 <p>Another example: To refute good counsell is folly, to contemne it is wickednesse,
                   to scorne it is madnesse. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To teach.</note>This figure is most apt
@@ -4306,9 +4303,9 @@
                   beames of glorious eloquence. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="10"><head><term>Epanados</term>.</head>
+            <div type="commentary" subtype="figure" n="Epanados"><head><term>Epanados</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epanados</term>, is a figure which iterateth by parts, the whole spoken
                   before, signifying a certaine diversitie in the parts which are divided. </p>
@@ -4332,7 +4329,7 @@
                     <bibl>2. Cor. 2. 15.16.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure serveth to enrich the Oration by partition of them<note place="marg"
@@ -4348,9 +4345,9 @@
                   it confoundeth the partition with obscuritie and darknesse. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="11"><head><term>Eutrepismus</term>.</head>
+            <div type="commentary" subtype="figure" n="Eutrepismus"><head><term>Eutrepismus</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Eutrepismus</term>, in latine called <term>Bonus ordo</term>, and
                     <term>Ordinatio</term>, it is a forme of speech, which doth not only number the
@@ -4381,7 +4378,7 @@
                     <bibl>Eccle.25.1.2.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. Plentie.</note>The use hereof is both
@@ -4397,9 +4394,9 @@
                   articles of the Creed, and after could remember but nine. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="12"><head><term>Paralepsis</term>.</head>
+            <div type="commentary" subtype="figure" n="Paralepsis"><head><term>Paralepsis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paralepsis</term>, of some called <term>Praeteritio</term>, of others
                     <term>Occupatio</term>, and it is when the Orator faineth and maketh as though
@@ -4420,7 +4417,7 @@
                     <bibl>Paul to Philemon.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is most fit to accuse and reprehend, and most usually<note
@@ -4439,9 +4436,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="13"><head><term>Restrictio</term>.</head>
+            <div type="commentary" subtype="figure" n="Restrictio"><head><term>Restrictio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Restrictio</term>, when of the generall word going before, a part afterward
                   is excepted, or when of things first expressed, some alteration is noted. </p>
@@ -4465,7 +4462,7 @@
                     <bibl>Psal.37.35.36.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To moderate.</note>This exornation is
@@ -4486,9 +4483,9 @@
                   they are envied, this abateth nothing of the former praise. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="14"><head><term>Symphoresis</term>.</head>
+            <div type="commentary" subtype="figure" n="Symphoresis"><head><term>Symphoresis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Symphoresis</term>, otherwise <term>Congeries</term>, is a forme of speech
                   by which the Orator doth multiply and heape manie words togither, signifying
@@ -4511,7 +4508,7 @@
                     <bibl>Galat. 5.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure may be applyed to many purposes, as to praise, dispraise, accuse,
@@ -4525,9 +4522,9 @@
                   heape, and that of the same heape nothing be contrary one to another. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="15"><head><term>Climax</term>.</head>
+            <div type="commentary" subtype="figure" n="Climax"><head><term>Climax</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Climax</term> is a figure which so distinguisheth the oration by degrees,
                   that the word which endeth the clause going before, beginneth ye next following,
@@ -4567,7 +4564,7 @@
                     <bibl>1. Cor. 3.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This exornation hath much pleasantnesse, and is chiefly applied for the
@@ -4588,9 +4585,9 @@
             </div>
           </div>
 
-          <div type="commentary" subtype="order" n="2">            <head><term>Descriptio</term>.</head>
+          <div type="commentary" subtype="order" n="2"><head><term>Descriptio</term>.</head>
 
-            <div type="commentary" subtype="subsubpart" n="1">
+            
               <p><term>Descriptio</term> is a generall name of many and sundry kindes of
                 descriptions, and a description is when the Orator by a diligent gatherin together
                 of circumstances, and by a fit and naturall application of them, doth expresse and
@@ -4620,11 +4617,11 @@
                 of description, but also all other figures, which do chiefly respect circumstances
                 and adjuncts without form of comparison serving onely to make matters evident and
                 lightsome. </p>
-            </div>
+            
 
-            <div type="commentary" subtype="subsubpart" n="17"><head><term>Prosographia</term>.</head>
+            <div type="commentary" subtype="figure" n="Prosographia"><head><term>Prosographia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Prosographia</term> is a forme of speech by which as well the very person
                   of a man as of a fained, is by his form, stature, maners, studies, doings,
@@ -4653,7 +4650,7 @@
                   properly belong to poets, &amp; is seldom or never used of orators: by this figure
                   diverse historiographers do most lively describe noble captains, Kinges &amp;
                   Emperours to looke upon. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -4670,9 +4667,9 @@
                     Truth.</note> and truth of the circumstances. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="18"><head><term>Prosopopoeia</term>.</head>
+            <div type="commentary" subtype="figure" n="Prosopopoeia"><head><term>Prosopopoeia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Prosopopoeia</term>, the faining of a person, that is, when to a thing
                   sencelesse and dumbe we faine a fit person, or attribute a person to a
@@ -4698,7 +4695,7 @@
                   also he may cause her to accuse flatterie and detraction, theft, violence, and
                   fraude, and to make a most true and long complaint, as well against persons that
                   be her enemies, as against vices which do oppose and oppresse her. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is an apt forme of speech to complaine, to accuse, <note place="marg"
@@ -4727,9 +4724,9 @@
                     without profit, and be applied without pleasure. </note></p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="19"><head><term>Sermocinatio</term>.</head>
+            <div type="commentary" subtype="figure" n="Sermocinatio"><head><term>Sermocinatio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Sermocinatio</term>, a forme of speech by which the Orator faineth a person
                   and maketh him speake much or litle according to comelinesse, much like to the
@@ -4765,7 +4762,7 @@
                   person whom he fained to speake, whether he were his adversary or his friend: he
                   brought in Milo speaking valiently, Antony arrogantly, Nevius wickedly, Erutrius
                   impudently, ever framing their speech according to their nature. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -4779,9 +4776,9 @@
                   noted. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="20"><head><term>Mimesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Mimesis"><head><term>Mimesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Mimesis</term> is an imitation of speech whereby the Orator counterfaiteth
                   not onely what one said, but also his utterance, pronunciation and gesture,
@@ -4793,7 +4790,7 @@
                   the hearer in a diligent attention, and that for a threefold utilitie, in the
                   imitated gesture a pleasure to the eie, in the voice a delight to the eare, and in
                   the sense, a proft to the wit and understanding. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use hereof serveth properly to commend and deprave, but<note place="marg"
@@ -4819,9 +4816,9 @@
                   fawning dog. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="21"><head><term>Pragmatographia</term>.</head>
+            <div type="commentary" subtype="figure" n="Pragmatographia"><head><term>Pragmatographia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Pragmatographia</term> is a description of things whereby ye Orator by
                   gathering together all circumstances belonging to them, doth as plainly portray
@@ -4856,7 +4853,7 @@
                 <p>And in the 11. of a cruell tempest. </p>
                 <p>Many like descriptions are in Virgils Aeneiados: Cicero describeth the murdering
                   of Roscius, the luxuritie and riots of Antony with many other more. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To present things or actions to the minde of
@@ -4878,9 +4875,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="22"><head><term>Topographia</term>.</head>
+            <div type="commentary" subtype="figure" n="Topographia"><head><term>Topographia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Topographia</term> is an evident and true description of a place, like as
                   Cicero describeth Syracusae a Citie in Cicilia, and that excellently. In Plinie
@@ -4888,7 +4885,7 @@
                   Citie in Aegyt, Arabia, Armenia, Asia, Athens, Bithinia, Cipres, Creta, Dalmatia,
                   Gallatia, Hispania, Italia, the River Nilus, Pamphilia, the Ile of Rhodes, the
                   Citie Rome, Sardinia, Cicilia, Thessalia, and many others. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>To this figure refer Cosmography, by which is described <cit>
@@ -4906,9 +4903,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="23"><head><term>Topothesia</term>.</head>
+            <div type="commentary" subtype="figure" n="Topothesia"><head><term>Topothesia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Topothesia</term>, a fained description of a place, that is, when the
                   Orator describeth a place, and yet no such place: As is the house of envy, in the
@@ -4917,11 +4914,11 @@
                   fourth booke of Aeneidos. This figure is proper to Poets, and is seldom used of
                   Orators: and because the use hereof is rare and of small utilitie in Rhetorike, I
                   do omit both the observation of the use, and Caution. </p>
-              </div>
+              
             </div>
-            <div type="commentary" subtype="subsubpart" n="24"><head><term>Cronographia</term>.</head>
+            <div type="commentary" subtype="figure" n="Cronographia"><head><term>Cronographia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Cronographia</term>, when the Orator describeth anie time for delectations
                   sake, as the morning, ye evening, midnight, the dawning and breake of the day, the
@@ -4964,7 +4961,7 @@
                 <p>There is another kinde of describing things and times, which is by making Images
                   of them, which forme of description is called <term>Icon</term>, whereof shall be
                   spoken hereafter. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of this figure ministreth plentie of matter for this purpose, <note
@@ -4980,9 +4977,9 @@
                   for otherwise the description will be both unperfect and unpleasant. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="25"><head><term>Pathopeia</term>.</head>
+            <div type="commentary" subtype="figure" n="Pathopeia"><head><term>Pathopeia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Pathopeia</term>, is a forme of speech by which the Orator moveth the minds
                   of his hearers to some vehemency of affection, as of indignation, feare, envy,
@@ -5012,7 +5009,7 @@
                   pronunctiation. For true it is, that the apt bending of ye voice to the qualitie
                   and nature of the cause, is not only a necessary dutie in an Orator, but also an
                   excellent ornament. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure pertaineth properly to move affections, which is a principall and
@@ -5044,9 +5041,9 @@
                   hated and avoyded. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="26"><head><term>Icon</term>.</head>
+            <div type="commentary" subtype="figure" n="Icon"><head><term>Icon</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Icon</term>, is a forme of speech which painteth out the image of a person
                   or thing, by comparing forme with forme, qualitie with qualitie, and one likenesse
@@ -5064,7 +5061,7 @@
                   encreasing. This driver to move speedelie forward, useth two sharpe whippes:
                   Greedinesse of getting, and Feare of loosing. This vice as you see, hath but one
                   servant, because he is loth to hire many. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To praise.</note>The use hereof pertaineth
@@ -5086,9 +5083,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="27"><head><term>Epitheton</term>.</head>
+            <div type="commentary" subtype="figure" n="Epitheton"><head><term>Epitheton</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epitheton</term>, called of Quintillian <term>Appositum</term>, of others
                     <term>Adjectiuum</term>: Is a figure ofr forme of speech, which joyneth
@@ -5127,7 +5124,7 @@
                   time. Lot useth this figure where he saith to the Angels: See now this cittie
                   hereby to flie unto which is a litle one: he calleth it a litle one, that by
                   extenuating the thing he desired, he might the sooner obtaine it. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>Among all the forms of eloquution, there is no one exornation<note place="marg"
@@ -5146,9 +5143,9 @@
                   of speech very unproper and also very absurd. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="28"><head><term>Periphrasis</term>.</head>
+            <div type="commentary" subtype="figure" n="Periphrasis"><head><term>Periphrasis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Periphrasis</term>, is a forme of speech wherby that which might be said
                   with one word, or at the least with verie few, is declared and expounded with
@@ -5164,7 +5161,7 @@
 
                 <p>Thirdly by definition: For man, a living creature endued with reason, for a
                   tyrant, an oppresor of the lawes and liberties of the common wealth. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. Necessitie.</note>There be three causes to
@@ -5194,9 +5191,9 @@
                     used.</note> then manifested. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="29"><head><term>Synonimia</term>.</head>
+            <div type="commentary" subtype="figure" n="Synonimia"><head><term>Synonimia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Synonimia</term>, when by a variation and change of words that be of like
                   signification, we iterat one thing diverse times. </p>
@@ -5227,7 +5224,7 @@
                     <bibl>Eccles.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure delighteth much both for the plenty of wordes and<note place="marg"
@@ -5252,9 +5249,9 @@
                   themselves. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="30"><head><term>Leptotes</term>.</head>
+            <div type="commentary" subtype="figure" n="Leptotes"><head><term>Leptotes</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Leptotes</term> is when ye speaker by a negation Equipollent doth seeme to
                   extenuat ye which he expresseth: by this Job saith, that <cit>
@@ -5279,7 +5276,7 @@
                   was first or one of the formost in the field, I have been best esteemed or equal
                   with the best, it would have favoured of arrogancie and boasting, although he had
                   said never so truely, yet is there enough said to get praise. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -5295,9 +5292,9 @@
                   the forme of speech never so modest. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="31"><head><term>Frequentatio</term>.</head>
+            <div type="commentary" subtype="figure" n="Frequentatio"><head><term>Frequentatio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Frequentatio</term>, a figure by which matter being dispersed throughout
                   the whole oration are gathered together into one place, whereby the oration is
@@ -5326,7 +5323,7 @@
                   might not mitigate their madenesse, they burned the domesticall lawes, whatsoever
                   any had which liked them this yeare they thought should have been theirs, no man
                   staid their purposes, but Milo himselfe. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">Manifold uses.</note>This figure is an
@@ -5340,9 +5337,9 @@
                   truth. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="32"><head><term>Commoratio</term>.</head>
+            <div type="commentary" subtype="figure" n="Commoratio"><head><term>Commoratio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Commoratio</term> is a forme of speech, by which the Orator knowing whereon
                   the whole waight of his cause doth depend, maketh often recourse thither, and
@@ -5363,7 +5360,7 @@
                   horrible wickednesse, of so shameful a deed, he often amplifieth the greatnesse of
                   the fact, and that which is great indeede, he maketh by his eloquence and
                   vehemencie of his speech wonderfull great. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -5376,9 +5373,9 @@
                   fraudulently, but where craft and ill conscience beare the sway it doth both. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="33"><head><term>Systrophe</term>.</head>
+            <div type="commentary" subtype="figure" n="Systrophe"><head><term>Systrophe</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Systrophe</term> of some called <term>Conglobatio</term>, of other
                     <term>convolutio</term>, and it is when the Orator bringeth in many definitions
@@ -5394,7 +5391,7 @@
                   confident castell of sudden ruine. </p>
                 <p>Pleasures are the enimies of chastitie, guides to povertie, daughters of
                   dishonestie, and sweete baites of extreame miserie. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is an ornament of singular grace and eloquence,<note place="marg"
@@ -5413,16 +5410,16 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="34"><head><term>Digressio</term>.</head>
+            <div type="commentary" subtype="figure" n="Digressio"><head><term>Digressio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Digressio</term> is the handling of some matter going out from order, but
                   yet for profit of some pertinent cause, we may digresse for the cause of praising,
                   dispraising, delighting or preparing. <term>Digressons</term> are taken either
                   from the declaration of deeds, the descriptions of persons, places and times, the
                   reporting of Apollogies and similltudes, &amp; likewise from common places. </p>
-              </div>
+              
 
               <div type="commentary"><head>The Caution.</head>
 
@@ -5450,7 +5447,7 @@
                   broken peeces. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="35"><head><term>Encomion</term>.</head>
+            <div type="commentary" subtype="figure" n="Encomion"><head><term>Encomion</term>.</head>
 
               <div type="commentary" subtype="subsubpart" n="1">
 
@@ -5503,7 +5500,7 @@
             </div>
           </div>
 
-          <div type="commentary" subtype="order" n="3">            <head><term>Comparatio</term>.</head>
+          <div type="commentary" subtype="order" n="3"><head><term>Comparatio</term>.</head>
 
             <p><term>Comparatio</term> is a word of large and ample comprehension, and therefore it
               may stand as a generall head and principall of many figures, but namely of those which
@@ -5511,9 +5508,9 @@
               the greater to the lesse, from the lesse to the greater, from equall to equall, or by
               opposition of contraries, I will first begin with <term>Comparison</term>, as it is
               usually and specially taken. </p>
-            <div type="commentary" subtype="subsubpart" n="1"><head><term>Comparatio</term>.</head>
+            <div type="commentary" subtype="figure" n="Comparatio"><head><term>Comparatio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Comparatio</term> is forme of speech, which by apt similitude sheweth ye
                   the example brought in, is either like, unlike or contrarie: like things are
@@ -5575,7 +5572,7 @@
                 <p>If the shepheard be not able to resist the wolfe, much lesse are the sheepe able:
                   If the mightie mountaines be not able to stand against the wrath of God, much
                   lesse man, which is the image of weaknesse. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This forme of speech of mightie force and power both to move by example, &amp; to
@@ -5602,9 +5599,9 @@
               </div>
             </div>
 
-            <div type="commentary" subtype="subsubpart" n="2"><head><term>Similitudo</term>.</head>
+            <div type="commentary" subtype="figure" n="Similitudo"><head><term>Similitudo</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Similitudo</term>, is a forme of speech by which the Orator compareth one
                   thing with the other by a <term>similitude</term> fit to his purpose Cicero: Even
@@ -5631,7 +5628,7 @@
                 <p>As the lion become sometime a praie to smal birds, and as thin rust consumes
                   thicke yron, lo is there nothing so sure, what is<note place="marg"
                     anchored="false">5 Quint.</note> not subject to his inferiour. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of <term>Similitudes</term> is verie great, yelding both profite<note
@@ -5652,9 +5649,9 @@
                   absurditie, by the other obscuritie. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="3"><head><term>Dissimilitudo</term>.</head>
+            <div type="commentary" subtype="figure" n="Dissimilitudo"><head><term>Dissimilitudo</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Dissimilitudo</term>, is a forme of speech which compareth diverse things
                   in a diverse qualitie. </p>
@@ -5677,7 +5674,7 @@
                     <bibl>Luc.9.58.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">Mightie in amplification.</note>This forme of
@@ -5692,9 +5689,9 @@
                   compared. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="4"><head><term>Antithesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Antithesis"><head><term>Antithesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Antithesis</term>, a figure which Quntilian calleth
                   <term>contention</term>, and it is a proper coupling together of contraries, and
@@ -5715,7 +5712,7 @@
                   publike by authoritie, oppresse not him that is private. </p>
                 <p>Another: What is more odious then labour to the idle, fasting to the glutton,
                   want to the covetous, shame to the proude, &amp; good lawes to the wicked. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -5738,9 +5735,9 @@
                   figure by opposing things differing, in stead of contraries. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="5"><head><term>Syncrisis</term>.</head>
+            <div type="commentary" subtype="figure" n="Syncrisis"><head><term>Syncrisis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Syncrisis</term>, is a comparison of contrary things, &amp; diverse persons
                   in one sentence. </p>
@@ -5784,11 +5781,11 @@
                     <bibl/>
                   </cit>
                 </p>
-              </div>
+              
             </div>
-            <div type="commentary" subtype="subsubpart" n="6"><head><term>Enthimema</term>.</head>
+            <div type="commentary" subtype="figure" n="Enthimema"><head><term>Enthimema</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Enimema</term>, is a forme of speech which Quintillian enterpreteth a
                   comment, forasmuch as it may wel be called the whole action &amp; sentence of the
@@ -5801,7 +5798,7 @@
                   meane between these two extremities is the greatest happinesse. </p>
                 <p>Another: They which may do me good, wil not, and they whcih are willing, cannot,
                   therefore my distresse remaineth. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This exornation may be applied to diverse ends, but most specially to confirme,
@@ -5813,9 +5810,9 @@
                   true, wherupon a right conclusion may be inferred. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="7"><head><term>Intersepugnantia</term>.</head>
+            <div type="commentary" subtype="figure" n="Intersepugnantia"><head><term>Intersepugnantia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Intersepugnantia</term>, is a forme of speech by which the Orator reproveth
                   his adversarie, or some other person of manifest unconstancie, open hypocrisie, or
@@ -5837,7 +5834,7 @@
                     <bibl>Jac.3.10.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure pertaineth properly to reprehension, as to represse<note place="marg"
@@ -5852,9 +5849,9 @@
                   reprehension. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="8"><head><term>Antimetabole</term>.</head>
+            <div type="commentary" subtype="figure" n="Antimetabole"><head><term>Antimetabole</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Antimetabole</term>, is a forme of speech which inverteth a sentence by the
                   contrary, thus: It behoveth thee to eate that thou maist live, and not to live
@@ -5873,7 +5870,7 @@
                 </p>
                 <p>An example of Cicero: Of eloquent men Crassus is counted the most learned Lawyer,
                   and of Lawyers, Scaevola most eloquent. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">Sundry uses.</note>The use hereof serveth
@@ -5888,9 +5885,9 @@
                   through the fault of memorie. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="9"><head><term>Peristasis</term>.</head>
+            <div type="commentary" subtype="figure" n="Peristasis"><head><term>Peristasis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Peristasis</term>, a forme of speech by which the Orator amplifieth by
                   circumstance, and circumstances are either of a person or of a thing, a person
@@ -5944,7 +5941,7 @@
                   the greater is therefore the fame of his wisedome. </p>
                 <p>14. Name: Is thy name Salomon, and hast no more wisedome? doest thou feare to be
                   a souldier, and thy name Alexander? </p>
-              </div>
+              
               <div type="commentary" subtype="subsubpart" n="2"><head>Circumstances of things.</head>
 
                 <p>1 Cause: Judas was the cause of betraying Christ, therefore he had the more sin. </p>
@@ -5975,9 +5972,9 @@
                   oration barren. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="10"><head><term>Auxesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Auxesis"><head><term>Auxesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Auxesis</term> is a forme of speech by which the Orator amplifieth by
                   putting a greater word for a lesse, as to call a proude man Lucifer, a dronkard a
@@ -5989,7 +5986,7 @@
                   when we call a craftie fellow a Foxe, a favenous person a cormorant, a patient man
                   Job, but chieflie by <term>Hyperobole</term>, which maketh a large and most ample
                   comparison. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use hereof helpeth mightily to expresse a matter which requireth either great
@@ -6006,9 +6003,9 @@
                   Orator. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="11"><head><term>Meiosis</term>.</head>
+            <div type="commentary" subtype="figure" n="Meiosis"><head><term>Meiosis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Meiosis</term> contrary to <term>Auxesis</term> when a lesse word is put
                   for a greater, to make the thing appeare lesse then it is, or verie litle, as to
@@ -6025,7 +6022,7 @@
                   quickly quenched, whereby the Phisition doth much relieve and lighten the heavie
                   spirits of his feeble Patient, by decreasing the causes and diminishing the
                   danger. </p>
-              </div>
+              
               <div type="commentary"><head>The Caution.</head>
 
                 <p>He that regardeth his credite must take heede that aswell in<note place="marg"
@@ -6048,9 +6045,9 @@
                   maintenance of wickednesse useth to cover vices with the mantles of vertues. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="12"><head><term>Incrementum</term>.</head>
+            <div type="commentary" subtype="figure" n="Incrementum"><head><term>Incrementum</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Incrementum</term> is a form of speech, which by degrees ascendeth to the
                   top of some thing or rather above the top, that is, when we make our saying grow,
@@ -6065,7 +6062,7 @@
                 <p>There was never yet a noble Captaine, Prince, king or Emperour, whose honorable
                   fame and renoune hath spred far &amp; wide, and also long continued, that may over
                   match this worthie man in vertue or honour. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -6084,9 +6081,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="13"><head><term>Anthypophora</term>.</head>
+            <div type="commentary" subtype="figure" n="Anthypophora"><head><term>Anthypophora</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Anthypophora</term>, when we grant to an objection, bringing in another
                   thing which maketh the same objection tollerable, Cicero: I confesse i tooke that
@@ -6101,7 +6098,7 @@
                   beside stops, and many other kindes of discouragements: yet by labour and
                   constancie o nce attained, it bringeth with it a plentiful harvest, I meane both
                   of profit and pleasure. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To moderate.</note>The propertie of this
@@ -6116,9 +6113,9 @@
                   remaineth single in it selfe, and the oration is made verie weake and feeble. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="14"><head><term>Synaeceosis</term>.</head>
+            <div type="commentary" subtype="figure" n="Synaeceosis"><head><term>Synaeceosis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Synaeceosis</term> is a figure which teacheth to conjoine diverse things or
                   contraries, and to repugne common opinion with reason, thus: The covetous &amp;
@@ -6127,7 +6124,7 @@
 
                 <p>Fluttonous feasting, and starving famine are all one, for both weaken the bodie,
                   procure sicknesse, and cause death. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The proper use hereof serveth to couple contrarie evils together<note
@@ -6142,9 +6139,9 @@
                   that one and the same reason may condemne them both. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="15"><head><term>Dirimens copulatio</term>.</head>
+            <div type="commentary" subtype="figure" n="Dirimens copulatio"><head><term>Dirimens copulatio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Dirimens copulatio</term>, when we bring forth one sentence with an
                   exception before it, and immediately joyne another after it that seemeth greater:
@@ -6163,7 +6160,7 @@
                     <bibl>Eccle.24.39.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This exornation hath some affinitie with <term>incrementum</term>, for<note
@@ -6185,9 +6182,9 @@
                   say nothing. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="16"><head><term>Correctio</term>.</head>
+            <div type="commentary" subtype="figure" n="Correctio"><head><term>Correctio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Correctio</term>, is a figure which taketh away that that is said, and
                   putteth a more meet word in the place, whereof there be two kindes, the one is
@@ -6215,7 +6212,7 @@
                   a beast, a beast, nay a poisonnous serpent, yet none of these are fit enough for
                   thee, a devil, thou art both in respect of thy malice which thou doest possesse,
                   and of the sundry mischiefes which thou doest daily commit. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">1. To amplify.</note>This figure also doth
@@ -6236,9 +6233,9 @@
                   to be corrected is a signe of follie. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="17"><head><term>Metania</term>.</head>
+            <div type="commentary" subtype="figure" n="Metania"><head><term>Metania</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Metania</term> is comprehended under <term>Correction</term>, and it is
                   saith <term>Rufinianus</term> a description of things by reprehension, thus: He
@@ -6252,7 +6249,7 @@
                 <p>Sometime the Orator blameth himselfe, as doth Cicero in his Oration for Milo: We
                   are fooles that do presume to compare Drusus Africanus, Pompeius, and our selves
                   with Clodius. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use of this figure serveth the Orator, when either through, <note
@@ -6270,9 +6267,9 @@
                   escaped thy hand and cannot be called againe. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="18"><head><term>Paramologia</term>.</head>
+            <div type="commentary" subtype="figure" n="Paramologia"><head><term>Paramologia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paramologia</term>, of some called <term>Paralogia</term>, it is when the
                   speaker granteth many things to his adversary worthie of commendation, and at the
@@ -6296,7 +6293,7 @@
                 <p>The like example of this manner of speaking is in the 21. of Job, where he first
                   describeth the prosperitie of the wicked, and then concludeth that suddenly they
                   go downe to the grave. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The utilitie of this figure, consiseth chiefly in confuting and removing the
@@ -6318,9 +6315,9 @@
                   which we desire to confute. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="19"><head><term>Metabasis</term>.</head>
+            <div type="commentary" subtype="figure" n="Metabasis"><head><term>Metabasis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Metabasis</term>, is a forme of speech by which the Orator in a few words
                   sheweth what hath been alreadie said, and also what shalbe said next, and that
@@ -6341,7 +6338,7 @@
                 <p>7 From consequents: You have bene tolde how he promised, and now I will tell you
                   how he performed: you have heard how greevously those cities offended, and it
                   resteth now to heare how justly they were punished. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This exornation is profitable in two respects it both putteth in<note
@@ -6363,9 +6360,9 @@
                   pleasant quencheth attention and turneth away expectation. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="20"><head><term>Medela</term>.</head>
+            <div type="commentary" subtype="figure" n="Medela"><head><term>Medela</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Medela</term>, when seeing the offences of our friends, or of them whom we
                   defend, to be so great that we cannot honestly defend them, or so manifest that we
@@ -6386,7 +6383,7 @@
                   very good president for the use for this figure, both in respect of the forme, and
                   also of the equitie &amp; lawfulnesse of the effect, which are two points
                   necessarie to be observed in all formes of speech. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
@@ -6404,9 +6401,9 @@
                   indes take in hand, and either subtilly worke, or audaciously performe. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="21"><head><term>Exuscitatio</term>.</head>
+            <div type="commentary" subtype="figure" n="Exuscitatio"><head><term>Exuscitatio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Exuscitatio</term>, is when the speaker being much moved with some vehement
                   affection in himselfe, doth shew it by the utterance of his speech, and thereby
@@ -6425,7 +6422,7 @@
                   condemned men, you thrust me out of mine owne house by violence, you possessed my
                   patrimony, what will you more? came you not to the seate of judgement as you do
                   now, to put to death or at least to condemne Sextus Roscius? </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is verie generall, and may serve to manie and<note place="marg"
@@ -6444,7 +6441,7 @@
             </div>
           </div>
           
-          <div type="commentary" subtype="order" n="4">            <head><term>Collectio</term>.</head>
+          <div type="commentary" subtype="order" n="4"><head><term>Collectio</term>.</head>
 
             <p>Under the name of <term>Collectio</term>, I do place all those figures, which because
               of thier forme may be called <term>Collectives</term>. In respect that either they
@@ -6452,9 +6449,9 @@
               and conclusions, by their formes expressed: of which the one part do expresse the
               Antecedent, leaving the Consequent to be collected The other by shewing reasons do
               expresse both. </p>
-            <div type="commentary" subtype="subsubpart" n="1"><head><term>Emphasis</term>.</head>
+            <div type="commentary" subtype="figure" n="Emphasis"><head><term>Emphasis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Emphasis</term>, is a forme of speech which signifieth that which it doth
                   not expresse, the signification whereof, is understood either by the maner of the
@@ -6493,7 +6490,7 @@
                     <bibl>Eccle.10.19.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is very pleasant &amp; apt to amplifie, for under an<note
@@ -6515,9 +6512,9 @@
                   application. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="2"><head><term>Syllogismus</term>.</head>
+            <div type="commentary" subtype="figure" n="Syllogismus"><head><term>Syllogismus</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Syllogismus</term>, is a forme of speech by which the Orator amplifieth a
                   matter by conjecture, that is, by expressing some signes or circumstances of a
@@ -6555,7 +6552,7 @@
                 <p>Circumstances following after: David is described sorrowfully bewailing the death
                   of his sonne Absolon, by which is collected how dearly he loved him,
                   notwithstanding his evil inclination. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is a verie commendable ornament of eloquence, and is a meet forme of
@@ -6570,9 +6567,9 @@
                   meaning: otherwise we shall speake in the clowdes without profit. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="3"><head><term>Noema</term>.</head>
+            <div type="commentary" subtype="figure" n="Noema"><head><term>Noema</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Noema</term> is a forme of speech by which the speaker signifieth something
                   so primly that the hearer must be faine to seeke out the meaning, either by
@@ -6589,7 +6586,7 @@
                   thus signfied her minde. O brother (saith she) thou art well worthie of a perfect
                   hand without maime, understanding that it were not amisse, that such a one should
                   meet with his own destruction, that did so oft seeke it with his owne will. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>The use hereof onely to conceale the sense from the common capacitie of the
@@ -6603,9 +6600,9 @@
                   principall vertue of an Orator. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="4"><head><term>Metastasis</term>.</head>
+            <div type="commentary" subtype="figure" n="Metastasis"><head><term>Metastasis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Metastasis</term> is a forme of speech by which we turne back those thinges
                   that are objected against us, to them which laid them to us: When Antony charged
@@ -6616,7 +6613,7 @@
                 <p>When Ahab likewise charged Eha, that it was he which troubled all Israel, nay
                   saith Eha it is not I that trouble Israel, but thou and thy fathers house, in that
                   you have forsaken the commandements of the Lord, and thou hast followed Baal. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p><note place="marg" anchored="false">To confute.</note>The use of this figure
@@ -6634,9 +6631,9 @@
                   meete for children and fooles then for men of understanding and wisedome. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="5"><head><term>Brachiepia</term>.</head>
+            <div type="commentary" subtype="figure" n="Brachiepia"><head><term>Brachiepia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Brachiepia</term> is a forme of speech, by which the matter is brieflie
                   told with no more words then those that be necessaarie: or when the Orator by
@@ -6650,7 +6647,7 @@
                   thence came with his Navie into Sardinia. The like brevitie Simo useth in Terence:
                   The corps (saith he) goeth before, we follow after, we come to the grave, it is
                   put into the fire, a lamentation is made. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>Brevitie comprehended in few words maketh a quick dispatch of many thinges,
@@ -6665,9 +6662,9 @@
                 </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="6"><head><term>Procatalepsis</term>.</head>
+            <div type="commentary" subtype="figure" n="Procatalepsis"><head><term>Procatalepsis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Procatalepsis</term> is a forme of speech by which the Orator perceiving
                   aforehand what might be objected against him, and hurt him, doth confute it before
@@ -6697,7 +6694,7 @@
                     <bibl>1.Cor.15.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This forme of speech doth properlie belong to confutation, &amp; is <note
@@ -6720,9 +6717,9 @@
                   strength, and his owne weaknesse. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="7"><head><term>Aetiologia</term>.</head>
+            <div type="commentary" subtype="figure" n="Aetiologia"><head><term>Aetiologia</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Aetiologia</term> is a forme of speech by which the Orator joineth reason
                   or cause to a proposition uttered, Cicero: There be no wiles more privie then
@@ -6751,7 +6748,7 @@
                     <bibl>Rom.1.</bibl>
                   </cit>
                 </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is usuall in all good Authors, and is of great<note place="marg"
@@ -6769,9 +6766,9 @@
               </div>
             </div>
 
-            <div type="commentary" subtype="subsubpart" n="8"><head><term>Apodioxis</term>.</head>
+            <div type="commentary" subtype="figure" n="Apodioxis"><head><term>Apodioxis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Apodioxis</term>, when the Orator rejecteth the objection or argument of
                   his adversaries as thinges needlesse, absurde, false, or impertinent to the
@@ -6783,7 +6780,7 @@
                   in the resurrection, he answered: you do erre, not knowing the Scriptures, neither
                   the power of God: by which answere he rejecteth their captious objection, by
                   noting their ignorance. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This forme of speech is proper to reject vaine and fond arguments<note
@@ -6799,9 +6796,9 @@
                     truth.</note> evermore to be shunned. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="9"><head><term>Expeditio</term>.</head>
+            <div type="commentary" subtype="figure" n="Expeditio"><head><term>Expeditio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Expeditio</term>, when many reasons being reckoned by which som thing may
                   be doen or not done, one reason is left which the Orator standeth unto &amp;
@@ -6819,7 +6816,7 @@
                   and provident: if we challenge any thing of him by law, he will prove that he
                   oweth us nothing, wherefore it followeth that either he must give them, or else we
                   must go without them. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure serveth onely to prove some thing by a band of manie reasons. </p>
@@ -6831,9 +6828,9 @@
                   consequent, and that he omit no reason which may reprove his conclusion. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="10"><head><term>Paradigma</term>.</head>
+            <div type="commentary" subtype="figure" n="Paradigma"><head><term>Paradigma</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Paradigma</term> is the same which the Latines called
                   <term>Exemplum</term>, and we in English an example, and in Rhetoricke it is
@@ -6872,7 +6869,7 @@
                   natures and severall properties apt to enrich, garnish, confirme and amplifie any
                   matter or cause be it never so great, so grave, or so excellent. Thus much for the
                   use and commendation of examples. </p>
-              </div>
+              
 
               <div type="commentary"><head>The Caution.</head>
 
@@ -6916,9 +6913,9 @@
                   vertue to be avoided. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="11"><head><term>Gnome</term>.</head>
+            <div type="commentary" subtype="figure" n="Gnome"><head><term>Gnome</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Gnome</term>, otherwise called <term>Sententia</term>, is a saying
                   pertaining to the maners and common practises of men, which declareth by an apt
@@ -6966,7 +6963,7 @@
                 <p>The eleventh is a figured sentence, whereof there be as many kindes, as there by
                   figures: If it be figured, it beareth the name of the figure wherewith it is
                   joyned. </p>
-              </div>
+              
               <div type="commentary"><head>The Caution.</head>
 
                 <p>Now in a sentence heede must be taken, that it be not false, strange, too long,
@@ -6987,9 +6984,9 @@
                   nature. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="12"><head><term>Epexegesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Epexegesis"><head><term>Epexegesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Epexegesis</term>, is an added interpretation: that is, when the Orator
                   doth interprete a word or sentence going before by another word or sentence
@@ -7004,7 +7001,7 @@
                     <quote>I know that in me</quote>
                     <bibl>Rom.</bibl>
                   </cit>, that is to say, in my flesh dwelleth no good thing. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure is evermore used when the speaker is desirous to make his meaning
@@ -7026,9 +7023,9 @@
                   other also to become dimme and halfe blinde. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="13"><head><term>Propositio</term>.</head>
+            <div type="commentary" subtype="figure" n="Propositio"><head><term>Propositio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Propositio</term>, which comprehendeth in few words, the summe of the
                   matter whereof we presently entend to speake. </p>
@@ -7040,7 +7037,7 @@
                   yet written, I will shew you as much thereof as I can call to remembrance. Also,
                   before I begin to speake of the common wealth, I will complaine a litle of the
                   injuries yesterday done by Anthony. </p>
-              </div>
+              
               <div type="commentary"><head>The use of this figure.</head>
 
                 <p>This figure doth much beautifie the Oration, so that it it be apt and well
@@ -7058,9 +7055,9 @@
                 <p>The Caution of this figure is sufficiently exprest in the use. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="14"><head><term>Expolitio</term>.</head>
+            <div type="commentary" subtype="figure" n="Expolitio"><head><term>Expolitio</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Expolitio</term>, when we abide still in one place, and yet seeme to speake
                   divese things, many times repeating one sentence but yet with other words,
@@ -7100,7 +7097,7 @@
                   thou hast vexed and robbed thy fellowes, and nothing said unto thee: thou hast not
                   only bene able to neglect lawes and statutes, but also to overthrow them and
                   breake them in peeces, with much more following. </p>
-              </div>
+              
               <div type="commentary" subtype="subsubpart" n="2"><head>The second kinde of expolition.</head>
 
                 <p>The second kinde of expolition is, when we speake one thing with many changes,
@@ -7162,9 +7159,9 @@
                   wildernesse God knoweth where. </p>
               </div>
             </div>
-            <div type="commentary" subtype="subsubpart" n="15"><head><term>Scemaismus</term>.</head>
+            <div type="commentary" subtype="figure" n="Scemaismus"><head><term>Scemaismus</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Scemaismus</term>, when the Orator propoundeth his meaning by a circuite of
                   speech, wherin he would have ye understoode by a certaine suspicion which he doth
@@ -7219,11 +7216,11 @@
                   pleasant wittes and apt conceites: and therefore I judge it needlesse to
                   exemplifie this part. Concerning the use and caution of this figure there is
                   alreadie sufficiently said. </p>
-              </div>
+              
             </div>
-            <div type="commentary" subtype="subsubpart" n="16"><head><term>Parenthesis</term>.</head>
+            <div type="commentary" subtype="figure" n="Parenthesis"><head><term>Parenthesis</term>.</head>
 
-              <div type="commentary" subtype="subsubpart" n="1">
+              
 
                 <p><term>Parenthesis</term> is a form of speec which setteth a sentence a sunder by
                   the interposition of another, or thus: When a sentence is cast betweene the speech
@@ -7235,7 +7232,7 @@
 
                 <p>Another of the Apostle Paul: They are the ministers of Christ (I speake as a
                   foole) I am more, &amp; c. </p>
-              </div>
+              
 
               <div type="commentary"><head>The use of this figure.</head>
 
