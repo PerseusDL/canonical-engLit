@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:bacon"
+  urn="urn:cts:engLit:bacon.newatlantis"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+        New Atlantis
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:bacon.newatlantis.perseus-eng1" workUrn="urn:cts:engLit:bacon.newatlantis" xml:lang="eng">
+    <ti:label xml:lang="eng">The New Atlantis</ti:label>
+    <ti:description xml:lang="eng">Bacon, Sir Francis. The New Atlantis.</ti:description>
+  </ti:edition>
+</ti:work>

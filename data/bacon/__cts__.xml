@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:engLit:bacon">
+    <ti:groupname xml:lang="eng">Francis Bacon</ti:groupname>
+</ti:textgroup>
