@@ -121,8 +121,11 @@ if __name__ == "__main__":
             if re.match(r'^.*<TEI.2>', line):
                 start = True
                 logger.debug('found TEI.2 element')
+                
                 print("""<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../schemas/perseus_holinshed.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>""")
+                <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+                <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+                """)
                 print("<TEI xmlns=\"http://www.tei-c.org/ns/1.0\">")
 
         elif re.match(r'^.*</TEI.2>', line):
