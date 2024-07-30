@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+   <titleStmt>
+    <title>The Description of Cooke-ham</title>
+    <author>Aemelia Lanyer</author>
+
+
+   </titleStmt>
+   <extent/>
+   <publicationStmt>
+    <publisher>Trustees of Tufts University</publisher>
+    <pubPlace>Medford, MA</pubPlace>
+    <authority>Perseus Project</authority>
+    <date type="release" when="2001" cert="high">Perseus 3.0</date>
+    <idno type="filename">lanyer.cookeham.perseus-eng1.xml</idno>
+    <availability>
+     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative
+      Commons Attribution-ShareAlike 4.0 International License</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct>
+     <monogr>
+      <title>The Description of Cooke-ham</title>
+      <author>Aemelia Lanyer</author>
+      <imprint>
+       <pubPlace/>
+       <publisher/>
+       <date/>
+      </imprint>
+     </monogr>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <refsDecl n="CTS">
+    <cRefPattern n="section" matchPattern="(\w+)" replacementPattern="#xpath(//tei:l[@n='$1')">
+     <p>This pointer pattern extracts line.</p>
+    </cRefPattern>
+   </refsDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="eng">English</language>
+    <language ident="grc">Greek</language>
+    <language ident="lat">Latin</language>
+    <language ident="deu">German</language>
+    <language ident="fra">French</language>
+    <language ident="ita">Italian</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change><ab>converted to EpiDoc</ab></change>
+  </revisionDesc>
+ </teiHeader>
+
+ <text xml:lang="eng">
+  <body>
+   <div type="edition" xml:lang="eng" n="urn:cts:engLit:lanyer.cookeham.perseus-eng1">
+
+    <div type="textpart" subtype="poem">
+     <head>The Description of Cooke-ham.</head>
+     <lg>
+      <l n="1">Farewell (sweet <hi rend="italic">Cooke-ham</hi>) where I first obtain'd</l>
+      <l n="2">Grace from that Grace where perfit Grace remain'd;</l>
+      <l n="3">And where the Muses gaue their full consent,</l>
+      <l n="4">I should haue powre the virtuous to content:</l>
+      <l n="5">Where princely Palace will'd me to indite,</l>
+      <l n="6">The sacred Storie of the Soules delight,</l>
+      <l n="7">Farewell (sweet Place) where Virtue then did rest,</l>
+      <l n="8">And all delights did harbour in her breast:</l>
+      <l n="9">Never shall my sad eies againe behold</l>
+      <l n="10">Those pleasures which my thoughts did then vnfold:</l>
+      <l n="11">Yet you (great Lady) Mistris of that Place,</l>
+      <l n="12">From whose desires did spring this worke of Grace;</l>
+      <l n="13">Vouchsafe to think vpon those pleasures past</l>
+      <l n="14">As fleeting worldly Ioyes that could not last:</l>
+      <l n="15">Or, as dimme shadowes of celestiall pleasures,</l>
+      <l n="16">Which are desir'd aboue all earthly treasures.</l>
+      <l n="17">Oh how (me thought) against you thither came,</l>
+      <l n="18">Each part did seeme some new delight to frame!</l>
+      <l n="19">The House receiu'd all ornaments to grace it,</l>
+      <l n="20">And would indure no foulenesse to deface it.</l>
+      <l n="21">The Walkes put on their summer Liueries,</l>
+      <l n="22">And all things else did hold like similies:</l>
+      <l n="23">The Trees with leaues, with fruits, with flowers clad,</l>
+      <l n="24">Embrac'd each other, seeming to be glad,</l>
+      <l n="25">Turning themselues to beauteous Canopies,</l>
+      <l n="26">To shade the bright Sunne from your brighter eies:</l>
+      <l n="27">The cristall Streames with siluer spangles graced,</l>
+      <l n="28">While by the glorious Sunne they were embraced:</l>
+      <l n="29">The little Birds in chirping notes did sing,</l>
+      <l n="30">To entertaine both You and that sweet Spring.</l>
+      <l n="31">And <hi rend="italic">Philomela</hi> with her sundry layes,</l>
+      <l n="32">Both You and that delightfull Place did praise.</l>
+      <l n="33">Oh how me thought each plant, each floure, each tree</l>
+      <l n="34">Set forth their beauties then to welcome thee!</l>
+      <l n="35">The very Hills right humbly did descend,</l>
+      <l n="36">When you to tread vpon them did intend,</l>
+      <l n="37">And as you set your feete, they still did rise,</l>
+      <l n="38">Glad that they could receiue so rich a prise.</l>
+      <l n="39">The gentle Windes did take delight to bee</l>
+      <l n="40">Among those woods that were so grac'd by thee.</l>
+      <l n="41">And in sad murmure vtterd pleasing sound,</l>
+      <l n="42">That Pleasure in that place might more abound:</l>
+      <l n="43">The swelling Bankes deliuer'd all their pride,</l>
+      <l n="44">When such a <hi rend="italic">Phoenix</hi> once they had espide.</l>
+      <l n="45">Each Arbor, Banke, each Seate, each stately Tree,</l>
+      <l n="46">Thought themselues honor'd in supporting thee.</l>
+      <l n="47">The pretty Birds would oft come to attend thee,</l>
+      <l n="48">Yet flie away for feare they should offend thee:</l>
+      <l n="49">The little creatures in the Burrough by</l>
+      <l n="50">Would come abraod to sport them in your eye;</l>
+      <l n="51">Yet fearefull of the Bowe in your faire Hand</l>
+      <l n="52">Would runne away when you did make a stand. </l>
+      <l n="53">Now let me come vnto that stately Tree,</l>
+      <l n="54">Wherein such goodly Prospects you did see;</l>
+      <l n="55">That Oake that did in height his fellowes passe,</l>
+      <l n="56">As much as lofty trees, low growing grasse:</l>
+      <l n="57">Much like a comely Cedar streight and tall,</l>
+      <l n="58">Whose beauteous stature farre exceeded all:</l>
+      <l n="59">How often did you visite this faire tree,</l>
+      <l n="60">Which seeming joyfull in receiuing thee,</l>
+      <l n="61">Would like a Palme tree spread his armes abroad,</l>
+      <l n="62">Desirous that you there should make abode:</l>
+      <l n="63">Whose faire greene leaues much like a comely vaile,</l>
+      <l n="64">Defended <hi rend="italic">Phebus</hi> when he would assaile:</l>
+      <l n="65">Whose pleasing boughes did yeeld a coole fresh ayre,</l>
+      <l n="66">Ioying his happinesse when you were there.</l>
+      <l n="67">Where beeing seated, you might plainely see,</l>
+      <l n="68">Hills, vales, and woods, as if on bended knee</l>
+      <l n="69">They had appeard, your honour to salute,</l>
+      <l n="70">Or to preferre some strange vnlook'd for sute:</l>
+      <l n="71">All interlac'd with brookes and christall springs,</l>
+      <l n="72">A Prospect fit to please the eyes of Kings:</l>
+      <l n="73">And thirteene shires appear'd all in your sight,</l>
+      <l n="74">Europe could not affoard much more delight.</l>
+      <l n="75">What was there then but gaue you all content,</l>
+      <l n="76">While you the time in meditation spent,</l>
+      <l n="77">Of their Creators powre, which there you saw,</l>
+      <l n="78">In all his Creatures held a perfit Law;</l>
+      <l n="79">And in their beauties did you plaine descrie,</l>
+      <l n="80">His beauty, wisdome, grace, loue, maiestie.</l>
+      <l n="81">In these sweet woods how often did you walke,</l>
+      <l n="82">With Christ and his Apostles there to talke;</l>
+      <l n="83">Placing his holy Writ in some faire tree,</l>
+      <l n="84">To meditate what you therein did see:</l>
+      <l n="85">With <hi rend="italic">Moyses</hi> you did mount his holy Hill,</l>
+      <l n="86">To know his pleasure, and performe his Will.</l>
+      <l n="87">With louely <hi rend="italic">Dauid</hi> did you often sing,</l>
+      <l n="88">His holy Hymnes to Heauens Eternall King.</l>
+      <l n="89">And in sweet musicke did your soule delight,</l>
+      <l n="90">To sound his prayses, morning, noone, and night.</l>
+      <l n="91">With blessed <hi rend="italic">Ioseph</hi> you did often feed</l>
+      <l n="92">Your pined brethren, when they stood in need.</l>
+      <l n="93">And that sweet Lady sprung from <hi rend="italic">Cliffords</hi> race,</l>
+      <l n="94">Of noble <hi rend="italic">Bedfords</hi> blood, faire steame [sic] of Grace;</l>
+      <l n="95">To honourable <hi rend="italic">Dorset</hi> now espows'd,</l>
+      <l n="96">In whose faire breast true virtue then was hous'd:</l>
+      <l n="97">Oh what delight did my weake spirits find,</l>
+      <l n="98">In those pure parts of her well framed mind:</l>
+      <l n="99">And yet it grieues me that I cannot be</l>
+      <l n="100">Neere vnto her, whose virtues did agree</l>
+      <l n="101">With those faire ornaments of outward beauty,</l>
+      <l n="102">Which did enforce from all both loue and dutie.</l>
+      <l n="103">Vnconstant Fortune, thou art most too blame,</l>
+      <l n="104">Who casts vs downe into so lowe a frame:</l>
+      <l n="105">Where our great friends wee cannot dayly see,</l>
+      <l n="106">So great a diffrence is there in degree.</l>
+      <l n="107">Many are placed in those Orbes of state,</l>
+      <l n="108">Parters in honour, so ordain'd by Fate;</l>
+      <l n="109">Neerer in show, yet farther off in loue,</l>
+      <l n="110">In which, the lowest alwayes are aboue. </l>
+      <l n="111">But whither am I carried in conceit?</l>
+      <l n="112">My Wit too weake to conster of the great.</l>
+      <l n="113">Why not? although we are but borne of earth,</l>
+      <l n="114">We may behold the Heauens, despising death;</l>
+      <l n="115">And louing heauen that is so farre aboue,</l>
+      <l n="116">May in the end vouchsafe vs entire loue.</l>
+      <l n="117">Therefore sweet Memorie doe thou retaine</l>
+      <l n="118">Those pleasures past, which will not turne againe:</l>
+      <l n="119">Remember beauteous <hi rend="italic">Dorsets</hi> former sports,</l>
+      <l n="120">So farre from beeing toucht by ill reports;</l>
+      <l n="121">Wherein my selfe did alwaies beare a part,</l>
+      <l n="122">While reuerend Loue presented my true heart:</l>
+      <l n="123">Those recreations let me beare in mind,</l>
+      <l n="124">Which her sweet youth and noble thoughts did finde:</l>
+      <l n="125">Whereof depriu'd, I euermore must grieue,</l>
+      <l n="126">Hating blind Fortune, carelesse to relieue.</l>
+      <l n="127">And you sweet Cooke-ham, whom these Ladies leaue,</l>
+      <l n="128">I now must tell the griefe you did conceaue</l>
+      <l n="129">At their departure; when they went away,</l>
+      <l n="130">How euery thing retaind a sad dismay:</l>
+      <l n="131">Nay long before, when once an inkeling came,</l>
+      <l n="132">Me thought each thing did vnto sorrow frame:</l>
+      <l n="133">The trees that were so glorious in our view,</l>
+      <l n="134">Forsooke both flowres and fruit, when once they knew,</l>
+      <l n="135">Of your depart, their very leaues did wither,</l>
+      <l n="136">Changing their colours as they grewe together.</l>
+      <l n="137">But when they saw this had no powre to stay you,</l>
+      <l n="138">They often wept, though speechlesse, could not pray you;</l>
+      <l n="139">Letting their teares in your faire bosoms fall,</l>
+      <l n="140">As if they said, Why will ye leaue vs all?</l>
+      <l n="141">This beeing vaine, they cast their leaues away,</l>
+      <l n="142">Hoping that pitie would haue made you stay:</l>
+      <l n="143">Their frozen tops, like Ages hoarie haires,</l>
+      <l n="144">Showes their disaster, languishing in feares:</l>
+      <l n="145">A swarthy riueld ryne all ouer spread,</l>
+      <l n="146">Their dying bodies half aliue, halfe dead.</l>
+
+      <l n="147">But your occasions call'd you so away,</l>
+      <l n="148">That nothing there had power to make you stay:</l>
+      <l n="149">Yet did I see a noble gratefull minde,</l>
+      <l n="150">Requiting each according to their kind,</l>
+      <l n="151">Forgetting not to turne and take your leaue</l>
+      <l n="152">Of these sad creatures, powrelesse to receiue</l>
+      <l n="153">Your fauour, when with griefe you did depart,</l>
+      <l n="154">Placing their former pleasures in your heart;</l>
+      <l n="155">Giuing great charge to noble Memory,</l>
+      <l n="156">There to preserue their loue continually:</l>
+      <l n="157">But specially the loue of that faire tree,</l>
+      <l n="158">That first and last you did vouchsafe to see:</l>
+      <l n="159">In which it pleas'd you oft to take the ayre,</l>
+      <l n="160">With noble <hi rend="italic">Dorset</hi>, then a virgin faire:</l>
+      <l n="161">Where many a learned Booke was read and skand</l>
+      <l n="162">To this faire tree, taking me by the hand,</l>
+      <l n="163">You did repeat the pleasures which had past,</l>
+      <l n="164">Seeming to grieue they could no longer last.</l>
+      <l n="165">And with a chaste, yet louing kisse tooke leaue,</l>
+      <l n="166">Of which sweet kisse I did it soone bereaue:</l>
+      <l n="167">Scorning a sencelesse creature should possesse</l>
+      <l n="168">So rare a fauour, so great happinesse.</l>
+      <l n="169">No other kisse it could receiue from me,</l>
+      <l n="170">For feare to giue backe what it tooke of thee:</l>
+      <l n="171">So I ingratefull Creature did deceiue it,</l>
+      <l n="172">Of that which you vouchsaft in loue to leaue it.</l>
+      <l n="173">And though it oft had giu'n me much content,</l>
+      <l n="174">Yet this great wrong I neuer could repent:</l>
+      <l n="175">But of the happiest made it most forlorne,</l>
+      <l n="176">To shew that nothing's free from Fortunes scorne,</l>
+      <l n="177">While all the rest with this most beauteous tree,</l>
+      <l n="178">Made their sad consort Sorrowes harmony.</l>
+      <l n="179">The Floures that on the banks and walkes did grow,</l>
+      <l n="180">Crept in the ground, the Grasse did wee'e for woe.</l>
+      <l n="181">The Windes and Waters seem'd to chide together,</l>
+      <l n="182">Because you went away they knew not whither:</l>
+      <l n="183">And those sweet Brookes that ranne so faire and cleare,</l>
+      <l n="184">With griefe and trouble wrinckled did appeare.</l>
+      <l n="185">Those preety Birds that wonted were to sing,</l>
+      <l n="186">Now neither sing, nor chirp, nor vse their wing;</l>
+      <l n="187">But with their tender feet on some bare spray,</l>
+      <l n="188">Warble forth sorrow, and their owne dismay.</l>
+      <l n="189">Faire <hi rend="italic">Philomela</hi> leaues her mournefull Ditty,</l>
+      <l n="190">Drownd in dead sleepe, yet can procure no pittie:</l>
+      <l n="191">Each arbour, banke, each seate, each stately tree,</l>
+      <l n="192">Lookes bare and desolate now for want of thee;</l>
+      <l n="193">Turning greene tresses into frostie gray,</l>
+      <l n="194">While in cold griefe they wither all away.</l>
+      <l n="195">The Sunne grew weake, his beames no comfort gaue,</l>
+      <l n="196">While all greene things did make the earth their graue:</l>
+      <l n="197">Each brier, each bramble, when you went away,</l>
+      <l n="198">Caught fast your clothes, thinking to make you stay:</l>
+      <l n="199">Delightfull Eccho wonted to reply</l>
+      <l n="200">To our last words, did now for sorrow die:</l>
+      <l n="201">The house cast off each garment that might grace it,</l>
+      <l n="202">Putting on Dust and Cobwebs to deface it.</l>
+      <l n="203">All desolation then there did appeare,</l>
+      <l n="204">When you were going whom they held so deare.</l>
+      <l n="205">This last farewell to <hi rend="italic">Cooke-ham</hi> here I giue,</l>
+      <l n="206">When I am dead thy name in this may liue</l>
+      <l n="207">Wherein I haue perform'd her noble hest,</l>
+      <l n="208">Whose virtues lodge in my vnworthy breast,</l>
+      <l n="209">And euer shall, so long as life remaines,</l>
+      <l n="210">Tying my heart to her by those rich chaines.</l>
+     </lg>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:lanyer"
+  urn="urn:cts:engLit:lanyer.cookeham"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+       Description of Cooke-ham
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:lanyer.cookeham.perseus-eng1" workUrn="urn:cts:engLit:lanyer.cookeham" xml:lang="eng">
+    <ti:label xml:lang="eng">Description of Cooke-ham</ti:label>
+    <ti:description xml:lang="eng">Lanyer, Amelia. The Description of Cooke-ham.</ti:description>
+  </ti:edition>
+</ti:work>
