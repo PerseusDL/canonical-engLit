@@ -35,6 +35,7 @@ def convert_entities(line):
     line = re.sub('&euml;', u"\u00EB", line)
     line = re.sub('&iuml;', u"\u00EF", line)
     line = re.sub('&ouml;', u"\u00F6", line)
+    line = re.sub('&Uuml;', u"\u00DC", line)
     line = re.sub('&uuml;', u"\u00FC", line)
     line = re.sub('&yuml;', u"\u00FF", line)
 
@@ -95,6 +96,7 @@ def convert_entities(line):
     line = re.sub('&Holinshed.publicationStmt;', '<p>later</p>', line)
     line = re.sub('&Ellis.sourceDesc;', '<p>later</p>', line)
     line = re.sub('&Perseus.DE;', '<p>later</p>', line)
+    line = re.sub('&Perseus.OCR;', '<p>later</p>', line)
 
 
     # fractions
