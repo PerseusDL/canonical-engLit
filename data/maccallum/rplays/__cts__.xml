@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:maccallum"
+  urn="urn:cts:engLit:maccallum.rplays"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+      Shakespeare's Roman Plays and their Background
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:maccallum.rplays.perseus-eng1" workUrn="urn:cts:engLit:maccallum.rplays" xml:lang="eng">
+    <ti:label xml:lang="eng">Shakespeare's Roman Plays and their Background</ti:label>
+    <ti:description xml:lang="eng">maccallum, Amelia. Shakespeare's Roman Plays and their Background.</ti:description>
+  </ti:edition>
+</ti:work>
