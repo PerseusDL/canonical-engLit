@@ -10,6 +10,7 @@ def convert_entities(line):
     line = re.sub('&ograve;', u"\u00F2", line)
     line = re.sub('&ugrave;', u"\u00F9", line)
 
+    line = line.replace('&Aacute;', u"\u00C1")
     line = line.replace('&aacute;', u"\u00E1")
     line = line.replace('&cacute;', u"\u0107")
     line = line.replace('&Eacute;', u"\u00C9")
@@ -47,6 +48,7 @@ def convert_entities(line):
 
     line = re.sub('&Amacr;', u"\u0100", line)
     line = re.sub('&ccedil;', u"\u1DD7", line)
+    line = re.sub('&ecedil;', u"\u0229", line)
     line = re.sub('&pound;', u"\u00A3", line)
     line = re.sub('&aelig;', u"\u00E6", line)
     line = re.sub('&oelig;', u"\u0153", line)
@@ -88,6 +90,11 @@ def convert_entities(line):
     line = line.replace('&ibreve;', u"\u012D")
     line = line.replace('&obreve;', u"\u014F")
     line = line.replace('&ubreve;', u"\u016D")
+
+    line = line.replace('&prime;', u"\u2032")
+    line = line.replace('&ndot;', u"\u1E45")
+
+    
     
 
     line = re.sub('&responsibility;', '', line)
