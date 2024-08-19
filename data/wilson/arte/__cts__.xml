@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:wilson"
+  urn="urn:cts:engLit:wilson.arte"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">Wilson's Arte of Rhetorique</ti:title>
+  <ti:edition urn="urn:cts:engLit:wilson.arte.perseus-eng1" workUrn="urn:cts:engLit:wilson.arte" xml:lang="eng">
+    <ti:label xml:lang="eng">Wilson's Arte of Rhetorique</ti:label>
+    <ti:description xml:lang="eng">
+     Wilson, Thomas.  Arte of Rhetorique.  1909.
+    </ti:description>
+  </ti:edition>
+</ti:work>
