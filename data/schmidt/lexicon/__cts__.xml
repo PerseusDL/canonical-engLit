@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:schmidt"
+  urn="urn:cts:engLit:schmidt.lexicon"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">Shakespeare Lexicon and Quotation Dictionary</ti:title>
+  <ti:edition urn="urn:cts:engLit:schmidt.lexicon.perseus-eng1" workUrn="urn:cts:engLit:schmidt.lexicon" xml:lang="eng">
+    <ti:label xml:lang="eng">Shakespeare Lexicon and Quotation Dictionary</ti:label>
+    <ti:description xml:lang="eng">
+      Schmidt, Alexander. Shakespeare Lexicon and Quotation Dictionary. 1902.
+    </ti:description>
+  </ti:edition>
+</ti:work>
