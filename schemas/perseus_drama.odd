@@ -22,7 +22,7 @@
         <p>No source; this was originally written from scratch in digital
         form.</p>
       </sourceDesc>
-    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.1.0" when="2024-06-22T17:41:46.298Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.1.0" when="2024-06-22T17:41:46.298Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.1.1" when="2024-08-27T14:51:17.530Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -84,7 +84,7 @@
             <attDef ident="xml:base" usage="opt" mode="delete"/>
           </attList>
         </classSpec>
-      </schemaSpec>
+      <moduleRef key="textcrit" include="listWit witness lem app rdg wit lacunaEnd lacunaStart"/><moduleRef key="tagdocs" include="tag"/><elementSpec ident="hi" mode="change"><attList><attDef ident="rend" usage="opt"><datatype><dataRef key="teidata.word"/></datatype></attDef><attDef ident="rendition" mode="delete"/><attDef ident="style" mode="delete"/></attList></elementSpec><elementSpec ident="p" mode="change"><attList><attDef ident="rend" usage="opt"><datatype><dataRef key="teidata.word"/></datatype></attDef><attDef ident="style" mode="delete"/><attDef ident="rendition" mode="delete"/></attList></elementSpec><classRef key="att.global.rendition"/></schemaSpec>
     </body>
   </text>
 </TEI>
