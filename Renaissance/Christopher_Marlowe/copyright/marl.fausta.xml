@@ -185,12 +185,14 @@ Added to the repository.
 	</castItem>
 </castList>
 </div>
-
+</front>
 <body>
       <milestone unit="page"/>
       <div1 type="scene" n="prologue">
             <head>The <orig reg="Tragical">Tragicall</orig> History of <name type="char">D. Faustus</name> (1604)</head>
-            <lb id="l1"/><!-- Don't know why the numbering starts with 1 here as opposed to below. LMC--></div1><stage type="entrance">Enter <name type="char">Chorus</name>.</stage>
+            <lb id="l1"/><!-- Don't know why the numbering starts with 1 here as opposed to below. LMC-->
+            <stage type="entrance">Enter 
+                  <name type="char">Chorus</name>.</stage>
             <sp who="ch">
                   <l id="l2" n="2">Not marching now in fields of <name type="char" rend="ital"><orig reg="Thrasimene">Thracimene</orig></name>,</l>
                   <l id="l3" n="3">Where <name type="char" rend="ital">Mars</name> did mate the <name type="char" rend="ital">Carthaginians</name>,</l>
@@ -222,7 +224,8 @@ Added to the repository.
                   <l id="l29" n="29">And this the man that in his study sits.	<stage type="exit">Exit.</stage></l>
             </sp>
             <join scope="root" targOrder="U" targets="l1 l2 l3 l4 l5 l6 l7 l8 l9 l10 l11 l12 l13 l14 l15 l16 l17 l18 l19 l20 l21 l22 l23 l24 l25 l26 l27 l28 l29" id="a0"/>
-      </div1prologue></front>
+      </div1>
+      
       <milestone unit="page"/>
 <div1 type="scene" n="1">
 <stage type="entrance">Enter <name type="char">Faustus</name> in his Study.</stage>

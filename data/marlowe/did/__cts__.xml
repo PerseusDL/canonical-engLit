@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:marlowe"
+  urn="urn:cts:engLit:marlowe.did"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+      Dido, Queen of Carthage
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:marlowe.did.perseus-eng1" workUrn="urn:cts:engLit:marlowe.did" xml:lang="eng">
+    <ti:label xml:lang="eng">Dido</ti:label>
+    <ti:description xml:lang="eng">Christopher Marlowe. Dido, Queen of Carthage.</ti:description>
+  </ti:edition>
+</ti:work>

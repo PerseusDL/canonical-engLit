@@ -99,6 +99,7 @@ def convert_entities(line):
 
     line = re.sub('&responsibility;', '', line)
     line = re.sub('&fund.DLI2;', '', line)
+    line = re.sub('&fund.Tufts;', '', line)
     line = re.sub('&Perseus.publish;', '<publicationStmt><p>later</p></publicationStmt>', line)
     line = re.sub('&Holinshed.publicationStmt;', '<p>later</p>', line)
     line = re.sub('&Ellis.sourceDesc;', '<p>later</p>', line)

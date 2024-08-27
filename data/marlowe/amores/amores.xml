@@ -1,0 +1,2892 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../schemas/perseus_marlowe.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title>Amores</title>
+<title type="sub">Machine readable text</title>
+<author>P. Ovidius Naso</author>
+<editor role="translator">Christopher Marlowe</editor>
+
+
+</titleStmt>
+
+<publicationStmt><p>later</p></publicationStmt>
+<sourceDesc><bibl/></sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<refsDecl n="CTS"><cRefPattern n="book_poem" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='book' and @n='$1']/div[@subtype='poem' and @n='$2']"/><cRefPattern n="book_poem_line" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='book' and @n='$1']/div[@subtype='poem' and @n='$2']/l[@n='$3']"/></refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="eng">English</language>
+<language ident="lat">Latin</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc><list><item>converted to perseus_marlowe.rng</item></list></revisionDesc>
+</teiHeader>
+
+<text xml:lang="eng">
+<front>
+<div type="apparatus">
+<listWit>
+<witness xml:id="Bow"><bibl><title>Complete Works</title>, ed. Bowers, 1973</bibl></witness>
+<witness xml:id="O1"><bibl><title>Certaine of Ovid's Elegies</title>, date unknown, Octavo1</bibl></witness>
+<witness xml:id="O2"><bibl><title>Certaine of Ovid's Elegies</title>, date unknown, Octavo2</bibl></witness>
+<witness xml:id="O3"><bibl><title>All Ovid's Elegies</title>, date unknown, Octavo3</bibl></witness>
+<witness xml:id="O4"><bibl><title>Ovid's Elegies</title>, date unknown, Octavo4</bibl></witness>
+<witness xml:id="O5"><bibl><title>All Ovid's Elegies</title>, date unknown, Octavo5</bibl></witness>
+<witness xml:id="O6"><bibl><title>All Ovid's Elegies</title>, date unknown, Octavo6</bibl></witness>
+<witness xml:id="R"><bibl><title>Works</title>, ed. Robinson, 1826</bibl></witness>
+<witness xml:id="D1"><bibl><title>Works</title>, ed. Dyce 1, 1850</bibl></witness>
+<witness xml:id="D2"><bibl><title>Works</title>, ed. Dyce 2, 1858</bibl></witness>
+<witness xml:id="C"><bibl><title>Works</title>, Cunningham, 1878</bibl></witness>
+<witness xml:id="B"><bibl><title>Works</title>, Bullen, 1885</bibl></witness>
+<witness xml:id="TB"><bibl><title>Works</title>, Tucker Brooke, 1910</bibl></witness>
+<witness xml:id="M"><bibl><title>Poems</title>, Methuen, ed. Martin, 1931</bibl></witness>
+<witness xml:id="Rv"><bibl><title>Poems</title>, Revel's, ed. MacLure, 1968</bibl></witness>
+<witness xml:id="Mal">MS notes by Malone in Bodleian O2</witness>
+<witness xml:id="Br">MS notes by Broughton in BM copy of Robinson
+</witness>
+<witness xml:id="D"/>
+</listWit>
+</div>
+</front>
+<body>
+<head>P. Ovidii Nasonis Amorum</head>
+<div type="textpart" subtype="book" n="1">
+<head>Liber Primus</head>
+<div type="textpart" subtype="poem" n="1">
+<head>ELEGIA 1</head>
+<argument xml:lang="la"><p>Quemadmodum a Cupidine, pro bellis
+amores scribere coactus sit</p></argument>
+
+<l n="1">We which were <name>Ovids</name> five books, now are three,</l>
+<l n="2">For these before the rest preferreth he:</l>
+<l n="3">If reading five thou plainst of tediousnesse,</l>
+<l n="4">Two tane away, thy labor will be lesse:</l>
+<l n="5">With Muse upreard I meant to sing of armes,</l>
+<l n="6">Choosing a subject fit for feirse alarmes:</l>
+<l n="7">Both verses were alike till Love (men say)</l>
+<l n="8">Began to smile and tooke one foote away.</l>
+<l n="9">Rash boy, who gave thee power to change a line?</l>
+<l n="10">We are the Muses prophets, none of thine.</l>
+<l n="11">What if thy Mother take <name>Dianas</name> bowe,</l>
+<l n="12">Shall <name>Dian</name> fanne when love begins to glowe?</l>
+<l n="13">In wooddie groves ist meete that <name>Ceres</name> Raigne,</l>
+<l n="14">And quiver bearing <name>Dian</name> till the plaine:</l>
+<l n="15">Who'le set the faire treste sunne in battell ray,</l>
+<l n="16">While <name>Mars</name> doth take the <name>Aonian</name> harpe to play?</l>
+<l n="17">Great are thy kingdomes, over strong and large,</l>
+<l n="18">Ambitious Imp, why seekst thou further charge?</l>
+<l n="19">Are all things thine? the Muses <name>Tempe</name> thine?</l>
+<l n="20">Then scarse can <name>Phoebus</name> say, this harpe is mine.</l>
+<l n="21">When in this workes first verse I trod aloft,</l>
+<l n="22">Love slackt my Muse, and made my numbers soft.</l>
+<l n="23">I have no mistris, nor no favorit,</l>
+<l n="24">Being fittest matter for a wanton wit,</l>
+<l n="25">Thus I complaind, but Love unlockt his quiver,</l>
+<l n="26">Tooke out the shaft, ordaind my hart to shiver:</l>
+<l n="27">And bent his sinewy bow upon his knee,</l>
+<l n="28">Saying, Poet heers a worke beseeming thee.</l>
+<l n="29">Oh woe is me, he never shootes but hits,</l>
+<l n="30">I burne, love in my idle bosome sits.</l>
+<l n="31">Let my first verse be sixe, my last five feete,</l>
+<l n="32">Fare well sterne warre, for blunter Poets meete.</l>
+<l n="33"><name>Elegian Muse</name>, that warblest amorous laies,</l>
+<l n="34">Girt my shine browe with sea banke mirtle praise.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="2">
+<head>ELEGIA 2</head>
+<argument xml:lang="la"><p>Quodprimo Amore correptus,
+in triumphum duci se a Cupidine patiatur</p></argument>
+
+<l n="1">What makes my bed seem hard seeing it is soft?</l>
+<l n="2">Or why slips downe the Coverlet so oft?</l>
+<l n="3">Although the nights be long, I sleepe not tho,</l>
+<l n="4">My sides are sore with tumbling to and fro.</l>
+<l n="5">Were Love the cause, it's like I shoulde descry him,</l>
+<l n="6">Or lies he close, and shoots where none can spie him?</l>
+<l n="7">T'was so, he stroke me with a slender dart,</l>
+<l n="8">Tis cruell love turmoyles my captive hart.</l>
+<l n="9">Yeelding or striving doe we give him might,</l>
+<l n="10">Lets yeeld, a burden easly borne is light.</l>
+<l n="11">I saw a brandisht fire increase in strength,</l>
+<l n="12">Which being not shakt, I saw it die at length.</l>
+<l n="13">Yong oxen newly yokt are beaten more,</l>
+<l n="14">Then oxen which have drawne the plow before.</l>
+<l n="15">And rough jades mouths with stubburn bits are tome,</l>
+<l n="16">But managde horses heads are lightly borne,</l>
+<l n="17">Unwilling Lovers, love doth more torment,</l>
+<l n="18">Then such as in their bondage feele content.</l>
+<l n="19">Loe I confesse, I am thy captive I,</l>
+<l n="20">And hold my conquered hands for thee to tie.</l>
+<l n="21">What needes thou warre, I sue to thee for grace,</l>
+<l n="22">With armes to conquer armlesse men is base,</l>
+<l n="23">Yoke <name>Venus</name>Doves, put Mirtle on thy haire,</l>
+<l n="24"><name>Vulcan</name> will give thee Chariots rich and faire.</l>
+<l n="25">The people thee applauding thou shalte stand,</l>
+<l n="26">Guiding the harmelesse Pigeons with thy hand.</l>
+<l n="27">Yong men and women, shalt thou lead as thrall,</l>
+<l n="28">So will thy triumph seeme magnificall.</l>
+<l n="29">I lately cought, will have a new made wound,</l>
+<l n="30">And captive like be manacled and bound.</l>
+<l n="31">Good meaning, shame, and such as seeke loves wrack</l>
+<l n="32">Shall follow thee, their hands tied at their backe.</l>
+<l n="33">Thee all shall feare and worship as a King,</l>
+<l n="34"><name>Jo</name>, triumphing shall thy people sing.</l>
+<l n="35">Smooth speeches, feare and rage shall by thee ride,</l>
+<l n="36">Which troopes hath alwayes bin on <name>Cupids</name> side:</l>
+<l n="37">Thou with these souldiers conquerest gods and men,</l>
+<l n="38">Take these away, where is thy honor then?</l>
+<l n="39">Thy mother shall from heaven applaud this show,</l>
+<l n="40">And on their faces heapes of Roses strow.</l>
+<l n="41">With beautie of thy wings, thy faire haire guilded,</l>
+<l n="42">Ride golden Love in Chariots richly builded.</l>
+<l n="43">Unlesse I erre, full many shalt thou burne,</l>
+<l n="44">And give woundes infinite at everie turne.</l>
+<l n="45">In spite of thee, forth will thy arrowes flie,</l>
+<l n="46">A scorching flame burnes all the standers by.</l>
+<l n="47">So having conquerd <name>Inde</name>, was <name>Bacchus</name> hew,</l>
+<l n="48">Thee Pompous birds and him two tygres drew.</l>
+<l n="49">Then seeing I grace thy show in following thee,</l>
+<l n="50">Forbeare to hurt thy selfe in spoyling mee.</l>
+<l n="51">Beholde thy kinsmans <name>Caesars</name> prosperous bandes,</l>
+<l n="52">Who gardes the conquered with his conquering hands.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="3">
+<head>ELEGIA 3</head>
+<argument xml:lang="la"><p>Ad amicam</p></argument>
+
+<l n="1">I aske but right: let hir that cought me late,</l>
+<l n="2">Either love, or cause that I may never hate:</l>
+<l n="3">I aske too much, would she but let me love hir,</l>
+<l n="4">Love knowes with such like praiers, I dayly move hir:</l>
+<l n="5">Accept him that will serve thee all his youth,</l>
+<l n="6">Accept him that will love with spotlesse truth:</l>
+<l n="7">If loftie titles cannot make me thine,</l>
+<l n="8">That am descended but of knightly line,</l>
+<l n="9">Soone may you plow the little lands I have,</l>
+<l n="10">I gladly graunt my parents given to save,</l>
+<l n="11"><name>Apollo</name>, <name>Bacchus</name>, and the Muses may,</l>
+<l n="12">And <name>Cupide</name> who hath markt me for thy pray,</l>
+<l n="13">My spotlesse life, which but to Gods gives place,</l>
+<l n="14">Naked simplicitie, and modest grace.</l>
+<l n="15">I love but one, and hir I love change never,</l>
+<l n="16">If men have Faith, lie live with thee for ever.</l>
+<l n="17">The yeares that fatall destenie shall give,</l>
+<l n="18">lie live with thee, and die, or thou shalt grieve.</l>
+<l n="19">Be thou the happie subject of my Bookes,</l>
+<l n="20">That I may write things worthy thy faire lookes:</l>
+<l n="21">By verses horned <name>Jo</name> got hir name,</l>
+<l n="22">And she to whom in shape of Swanne <name>Jove</name> came.</l>
+<l n="23">And she that on a faind Bull swamme to land,</l>
+<l n="24">Griping his false homes with hir virgin hand:</l>
+<l n="25">So likewise we will through the world be rung,</l>
+<l n="26">And with my name shall thine be alwaies sung.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="4">
+<head>ELEGIA 4</head>
+
+<argument xml:lang="la"><p>Amicam, qua arte, quibusve nutibus in coena, proesente
+viro uti debeat, admonet</p></argument>
+
+<l n="1">Thy husband to a banquet goes with me,</l>
+<l n="2">Pray God it may his latest supper be,</l>
+<l n="3">Shall I sit gazing as a bashfull guest,</l>
+<l n="4">While others touch the damsell I love best?</l>
+<l n="5">Wilt lying under him his bosome clippe?</l>
+<l n="6">About thy neck shall he at pleasure skippe?</l>
+<l n="7">Marveile not though the faire Bride did incite</l>
+<l n="8">The drunken <name>Centaures</name> to a sodaine fight.</l>
+<l n="9">I am no halfe horse, nor in woods I dwell,</l>
+<l n="10">Yet scarse my hands from thee containe I well.</l>
+<l n="11">But how thou shouldst behave thy selfe now know;</l>
+<l n="12">Nor let the windes away my warnings blowe.</l>
+<l n="13">Before thy husband come, though I not see</l>
+<l n="14">What may be done, yet there before him bee.</l>
+<l n="15">Lie with him gently, when his limbes he spread</l>
+<l n="16">Upon the bed, but on my foote first tread.</l>
+<l n="17">View me, my becks, and speaking countenance:</l>
+<l n="18">Take, and receive each secret amorous glaunce.</l>
+<l n="19">Words without voyce shall on my eye browes sit,</l>
+<l n="20">Lines thou shalt read in wine by my hand writ.</l>
+<l n="21">When our lascivious toyes come in thy minde,</l>
+<l n="22">Thy Rosie cheekes be to thy thombe inclinde.</l>
+<l n="23">If ought of me thou speak'st in inward thought,</l>
+<l n="24">Let thy soft finger to thy eare be brought.</l>
+<l n="25">When I (my light) do or say ought that please thee,</l>
+<l n="26">Turne round thy gold-ring, ass it were to ease thee.</l>
+<l n="27">Strike on the boord like them that pray for evill,</l>
+<l n="28">When thou doest wish thy husband at the devill.</l>
+<l n="29">What wine he fills thee, wisely will him drinke,</l>
+<l n="30">Aske thou the boy, what thou enough doest thinke.</l>
+<l n="31">When thou hast tasted, I will take the cup,</l>
+<l n="32">And where thou drinkst, on that part I will sup.</l>
+<l n="33">If hee gives thee what first himselfe did tast,</l>
+<l n="34">Even in his face his offered Gobbets cast.</l>
+<l n="35">Let not thy necke by his vile armes be prest,</l>
+<l n="36">Nor leane thy soft head on his boistrous brest.</l>
+<l n="37">Thy bosomes Roseat buds let him not finger,</l>
+<l n="38">Chiefely on thy lips let not his lips linger.</l>
+<l n="39">If thou givest kisses, I shall all disclose,</l>
+<l n="40">Say they are mine, and hands on thee impose.</l>
+<l n="41">Yet this Ile see, but if thy gowne ought cover,</l>
+<l n="42">Suspitious feare in all my veines will hover,</l>
+<l n="43">Mingle not thighes, nor to his legge joyne thine,</l>
+<l n="44">Nor thy soft foote with his hard foote combine.</l>
+<l n="45">I have beene wanton, therefore am perplext,</l>
+<l n="46">And with mistrust of the like measure vext.</l>
+<l n="47">I and my wench oft under clothes did lurke,</l>
+<l n="48">When pleasure mov'd us to our sweetest worke.</l>
+<l n="49">Do not thou so, but throw thy mantle hence,</l>
+<l n="50">Least I should thinke thee guilty of offence.</l>
+<l n="51">Entreat thy husband drinke, but do not kisse,</l>
+<l n="52">And while he drinkes, to adde more do not misse,</l>
+<l n="53">If hee lyes downe with Wine and sleepe opprest,</l>
+<l n="54">The thing and place shall counsell us the rest.</l>
+<l n="55">When to go homewards we rise all along,</l>
+<l n="56">Have care to walke in middle of the throng.</l>
+<l n="57">There will I finde thee, or be found by thee,</l>
+<l n="58">There touch what ever thou canst touch of mee.</l>
+<l n="59">Aye me I warne what profits some few howers,</l>
+<l n="60">But we must part, when heav'n with black night lowers.</l>
+<l n="61">At night thy husband clippes thee, I will weepe</l>
+<l n="62">And to the dores sight of thy selfe will keepe:</l>
+<l n="63">Then will he kisse thee, and not onely kisse</l>
+<l n="64">But force thee give him my stolne honey blisse.</l>
+<l n="65">Constrain'd against thy will give it the pezant,</l>
+<l n="66">Forbeare sweet wordes, and be your sport unpleasant.</l>
+<l n="67">To him I pray it no delight may bring,</l>
+<l n="68">Or if it do, to thee no joy thence spring:</l>
+<l n="69">But though this night thy fortune be to trie it,</l>
+<l n="70">To me to morrow constantly deny it.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="5">
+<head>ELEGIA 5</head>
+
+<argument xml:lang="la"><p>Corinnae concubitus</p></argument>
+
+<l n="1">In summers heate, and midtime of the day,</l>
+<l n="2">To rest my limbes, uppon a bedde I lay,</l>
+<l n="3">One window shut, the other open stood,</l>
+<l n="4">Which gave such light, as twincles in a wood,</l>
+<l n="5">Like twilight glimps at setting of the sunne,</l>
+<l n="6">Or night being past, and yet not day begunne.</l>
+<l n="7">Such light to shamefaste maidens must be showne,</l>
+<l n="8">Where they may sport, and seeme to be unknowne.</l>
+<l n="9">Then came <name>Corinna</name> in a long loose gowne,</l>
+<l n="10">Her white necke hid with tresses hanging downe,</l>
+<l n="11">Resembling faire <name>Semiramis</name> going to bed,</l>
+<l n="12">Or <name>Layis</name> of a thousand lovers sped.</l>
+<l n="13">I snatcht her gowne: being thin, the harme was small,</l>
+<l n="14">Yet strivde she to be covered therewithall,</l>
+<l n="15">And striving thus as one that would be cast,</l>
+<l n="16">Betrayde her selfe, and yeelded at the last.</l>
+<l n="17">Starke naked as she stood before mine eie,</l>
+<l n="18">Not one wen in her bodie could I spie,</l>
+<l n="19">What armes and shoulders did I touch and see,</l>
+<l n="20">How apt her breasts were to be prest by me,</l>
+<l n="21">How smoothe a bellie, under her waste sawe I,</l>
+<l n="22">How large a legge, and what a lustie thigh?</l>
+<l n="23">To leave the rest, all likt me passing well,</l>
+<l n="24">I clinged her naked bodie, downe she fell,</l>
+<l n="25">Judge you the rest, being tyrde she bad me kisse.</l>
+<l n="26"><name>Jove</name> send me more such afternoones as this.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="6">
+<head>ELEGIA 6</head>
+
+<argument xml:lang="la"><p>Ad Janitorem, ut fores sibi aperiat</p></argument>
+
+<l n="1">Unworthy porter, bound in chaines full sore,</l>
+<l n="2">On mooved hookes set ope the churlish dore.</l>
+<l n="3">Little I aske, a little entrance make,</l>
+<l n="4">The gate halfe ope my bent side in will take.</l>
+<l n="5">Long Love my body to such use makes slender</l>
+<l n="6">And to get out doth like apt members render.</l>
+<l n="7">He shewes me how unheard to passe the watch,</l>
+<l n="8">And guides my feete least stumbling falles they catch.</l>
+<l n="9">But in times past I fear'd vaine shades, and night,</l>
+<l n="10">Wondring if any walked without light.</l>
+<l n="11">Love hearing it laugh'd with his tender mother</l>
+<l n="12">And smiling sayed, be thou as bold as other.</l>
+<l n="13">Forth-with Love came, no darke night-flying spright</l>
+<l n="14">Nor hands prepar'd to slaughter, me affright.</l>
+<l n="15">Thee feare I too much: only thee I flatter,</l>
+<l n="16">Thy lightning can my life in pieces batter.</l>
+<l n="17">Why enviest me, this hostile denne unbarre,</l>
+<l n="18">See how the gates with my teares wat'red are.</l>
+<l n="19">When thou stood'st naked ready to be beate,</l>
+<l n="20">For thee I did thy mistris faire entreate.</l>
+<l n="21">But what entreates for thee some-times tooke place,</l>
+<l n="22">(O mischiefe) now for me obtaine small grace.</l>
+<l n="23"><name>Gratis</name> thou maiest be free, give like for like,</l>
+<l n="24">Night goes away: the dores barre backeward strike.</l>
+<l n="25">Strike, so againe hard chaines shall binde thee never,</l>
+<l n="26">Nor servile water shalt thou drinke for ever.</l>
+<l n="27">Hard-hearted <name>Porter</name> doest and wilt not heare?</l>
+<l n="28">With stiffe oake propt the gate doth still appeare.</l>
+<l n="29">Such rampierd gates beseiged Cittyes ayde,</l>
+<l n="30">In midst of peace why art of armes afraide?</l>
+<l n="31">Excludst a lover, how wouldst use a foe?</l>
+<l n="32">Strike backe the barre, night fast away doth goe.</l>
+<l n="33">With armes or armed men I come not guarded,</l>
+<l n="34">I am alone, were furious Love discarded.</l>
+<l n="35">Although I would, I cannot him cashiere</l>
+<l n="36">Before I be divided from my geere.</l>
+<l n="37">See Love with me, wine moderate in my braine,</l>
+<l n="38">And on my haires a crowne of flowers remaine.</l>
+<l n="39">Who feares these armes? who wil not go to meete them?</l>
+<l n="40">Night runnes away; with open entrance greete them.</l>
+<l n="41">Art carelesse? or ist sleepe forbids thee heare,</l>
+<l n="42">Giving the windes my words running in thine eare?</l>
+<l n="43">Well I remember when I first did hire thee,</l>
+<l n="44">Watching till after mid-night did not tire thee.</l>
+<l n="45">But now perchaunce thy wench with thee doth rest,</l>
+<l n="46">Ah howe thy lot is above my lot blest:</l>
+<l n="47">Though it be so, shut me not out therefore,</l>
+<l n="48">Night goes away: I pray thee ope the dore.</l>
+<l n="49">Erre we? or do the turned hinges sound,</l>
+<l n="50">And opening dores with creaking noyse abound?</l>
+<l n="51">We erre: a strong blast seem'd the gates to ope:</l>
+<l n="52">Aie me how high that gale did lift my hope!</l>
+<l n="53">If <name>Boreas</name> beares <name>Orithyas</name> rape in minde,</l>
+<l n="54">Come breake these deafe dores with thy boysterous wind.</l>
+<l n="55">Silent the Cittie is: nights deawie hoast</l>
+<l n="56">March fast away: the barre strike from the poast.</l>
+<l n="57">Or I more sterne then fire or sword will turne,</l>
+<l n="58">And with my brand these gorgeous houses burne.</l>
+<l n="59">Night, Love, and wine to all extreames perswade:</l>
+<l n="60">Night shamelesse, wine and Love are fearelesse made.</l>
+<l n="61">All have I spent: no threats or prayers move thee,</l>
+<l n="62">O harder then the dores thou gardest I prove thee.</l>
+<l n="63">No pritty wenches keeper maist thou bee:</l>
+<l n="64">The carefull prison is more meete for thee.</l>
+<l n="65">Now frosty night her flight beginnes to take,</l>
+<l n="66">And crowing Cocks poore soules to worke awake.</l>
+<l n="67">But thou my crowne, from sad haires tane away,</l>
+<l n="68">On this hard threshold till the morning lay.</l>
+<l n="69">That when my mistresse there beholds thee cast,</l>
+<l n="70">She may perceive how we the time did wast:</l>
+<l n="71">What ere thou art, farewell, be like me paind,</l>
+<l n="72">Carelesse, farewell, with my falt not distaind.</l>
+<l n="73">And farewell cruell posts, rough thresholds block,</l>
+<l n="74">And dores conjoynd with an hard iron lock.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="7">
+<head>ELEGIA 7</head>
+
+<argument xml:lang="la"><p>Ad pacandam amicam, quam verberaverat</p></argument>
+
+<l n="1">Binde fast my hands, they have deserved chaines,</l>
+<l n="2">While rage is absent, take some friend the paynes.</l>
+<l n="3">For rage against my wench mov'd my rash arrne,</l>
+<l n="4">My Mistresse weepes whom my mad hand did harme.</l>
+<l n="5">I might have then my parents deare misus'd,</l>
+<l n="6">Or holy gods with cruell strokes abus'd.</l>
+<l n="7">Why? <name>Ajax</name>, maister of the seven-fould shield,</l>
+<l n="8">Butcherd the flocks he found in spatious field,</l>
+<l n="9">And he who on his mother veng'd his sire,</l>
+<l n="10">Against the destinies durst sharpe darts require.</l>
+<l n="11">Could I therefore her comely tresses teare?</l>
+<l n="12">Yet was she graced with her ruffled hayre.</l>
+<l n="13">So fayre she was, <name/> she resembled,</l>
+<l n="14">Before whose bow th'<name>Arcadian</name> wild beasts trembled.</l>
+<l n="15">Such <name>Ariadne</name> was, when she bewayles</l>
+<l n="16">Her perjur'd <name>Theseus</name> flying vowes and sayles,</l>
+<l n="17">So chast <name>Minerva</name> did <name>Cassandra</name> fall,</l>
+<l n="18">Deflowr'd except, within thy Temple wall.</l>
+<l n="19">That I was mad, and barbarous all men cried,</l>
+<l n="20">She nothing said, pale feare her tongue had tyed.</l>
+<l n="21">But secretlie her lookes with checks did trounce mee,</l>
+<l n="22">Her teares, she silent, guilty did pronounce me.</l>
+<l n="23">Would of mine armes, my shoulders had beene scanted,</l>
+<l n="24">Better I could part of my selfe have wanted.</l>
+<l n="25">To mine owne selfe have I had strength so furious?</l>
+<l n="26">And to my selfe could I be so injurious?</l>
+<l n="27">Slaughter and mischiefs instruments, no better,</l>
+<l n="28">Deserved chaines these cursed hands shall fetter,</l>
+<l n="29">Punisht I am, if I a <name>Romaine</name> beat,</l>
+<l n="30">Over my Mistris is my right more great?</l>
+<l n="31"><name>Tydides</name> left worst signes of villanie,</l>
+<l n="32">He first a Goddesse strooke; an other I.</l>
+<l n="33">Yet he harrn'd lesse, whom I profess'd to love,</l>
+<l n="34">I harm'd: a foe did <name>Diomedes</name> anger move.</l>
+<l n="35">Go now thou Conqueror, glorious triumphs raise,</l>
+<l n="36">Pay vowes to <name>Jove</name>, engirt thy hayres with baies,</l>
+<l n="37">And let the troupes which shall thy Chariot follow,</l>
+<l n="38"><name>Jo</name>, a strong man conquerd this Wench, hollow.</l>
+<l n="39">Let the sad captive formost with lockes spred</l>
+<l n="40">On her white necke but for hurt cheekes be led.</l>
+<l n="41">Meeter it were her lips were blewe with kissing</l>
+<l n="42">And on her necke a wantons marke not missing.</l>
+<l n="43">But though I like a swelling floud was driven,</l>
+<l n="44">And as a pray unto blinde anger given,</l>
+<l n="45">Wa'st not enough the fearefull Wench to chide?</l>
+<l n="46">Nor thunder in rough threatings haughty pride?</l>
+<l n="47">Nor shamefully her coate pull ore her crowne,</l>
+<l n="48">Which to her wast her girdle still kept downe.</l>
+<l n="49">But cruelly her tresses having rent,</l>
+<l n="50">My nayles to scratch her lovely cheekes I bent.</l>
+<l n="51">Sighing she stood, her bloodlesse white lookes shewed</l>
+<l n="52">Like marble from the <name>Parian</name>Mountaines hewed.</l>
+<l n="53">Her halfe dead joynts, and trembling limmes I sawe,</l>
+<l n="54">Like <name>Popler</name> leaves blowne with a stormy flawe,</l>
+<l n="55">Or slender eares, with gentle <name>Zephire</name> shaken,</l>
+<l n="56">Or waters tops with the warme south-winde taken.</l>
+<l n="57">And downe her cheekes, the trickling teares did flow,</l>
+<l n="58">Like water gushing from consuming snowe.</l>
+<l n="59">Then first I did perceive I had offended,</l>
+<l n="60">My bloud, the teares were that from her descended.</l>
+<l n="61">Before her feete thrice prostrate downe I fell,</l>
+<l n="62">My feared hands thrice back she did repell.</l>
+<l n="63">But doubt thou not (revenge doth griefe appease)</l>
+<l n="64">With thy sharpe nayles upon my face to seaze.</l>
+<l n="65">Bescratch mine eyes, spare not my lockes to breake,</l>
+<l n="66">(Anger will helpe thy hands though nere so weake.)</l>
+<l n="67">And least the sad signes of my crime remaine,</l>
+<l n="68">Put in their place thy keembed haires againe.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="8">
+<head>ELEGIA 8</head>
+
+<argument xml:lang="la"><p>Exoecratur lenam, quae puellam suam meretricia
+arte instituebat</p></argument>
+
+
+
+<l n="1">There is, who ere will knowe a bawde aright</l>
+<l n="2">Give eare, there is an old trot <name>Dipsas</name> hight.</l>
+<l n="3">Her name comes from the thing: she being wise,</l>
+<l n="4">Sees not the morne on rosie horses rise.</l>
+<l n="5">She magick arts and <name>Thessale</name> charmes doth know,</l>
+<l n="6">And makes large streams back to their fountaines flow,</l>
+<l n="7">She knows with gras, with thrids on wrong wheeles spun</l>
+<l n="8">And what with Mares ranck humour may be done.</l>
+<l n="9">When she will, cloudes the darckned heav'n obscure,</l>
+<l n="10">When she will, day shines every where most pure.</l>
+<l n="11">(If I have faith) I sawe the starres drop bloud,</l>
+<l n="12">The purple moone with sanguine visage stood.</l>
+<l n="13">Her I suspect among nights spirits to fly,</l>
+<l n="14">And her old body in birdes plumes to lie.</l>
+<l n="15">Fame saith as I suspect, and in her eyes</l>
+<l n="16">Two eye-balles shine, and double light thence flies.</l>
+<l n="17">Great grand-sires from their antient graves she chides</l>
+<l n="18">And with long charmes the solide earth divides.</l>
+<l n="19">She drawes chast women to incontinence,</l>
+<l n="20">Nor doth her tongue want harmefull eloquence.</l>
+<l n="21">By chaunce I heard her talke, these words she sayd</l>
+<l n="22">While closely hid betwixt two dores I layed.</l>
+<l n="23">Mistris thou knowest, thou hast a blest youth pleas'd,</l>
+<l n="24">He staide, and on thy lookes his gazes seaz'd.</l>
+<l n="25">And why shouldst not please? none thy face exceedes,</l>
+<l n="26">Aye me, thy body hath no worthy weedes.</l>
+<l n="27">As thou art faire, would thou wert fortunate,</l>
+<l n="28">Wert thou rich, poore should not be my state.</l>
+<l n="29">Th'opposed starre of <name>Mars</name> hath done thee harme,</l>
+<l n="30">Now <name>Mars</name> is gone: <name>Venus</name> thy side doth warme,</l>
+<l n="31">And brings good fortune, a rich lover plants</l>
+<l n="32">His love on thee, and can supply thy wants.</l>
+<l n="33">Such is his forme as may with thine compare,</l>
+<l n="34">Would he not buy thee thou for him shouldst care.</l>
+<l n="35">She blusht: red shame becomes white cheekes, but this</l>
+<l n="36">If feigned, doth well; if true it doth amisse.</l>
+<l n="37">When on thy lappe thine eyes thou dost deject,</l>
+<l n="38">Each one according to his gifts respect.</l>
+<l n="39">Perhaps the<name>Sabines</name> rude, when <name>Tatius</name> raignde,</l>
+<l n="40">To yeeld their love to more then one disdainde.</l>
+<l n="41">Now<name>Mars</name> doth rage abroad without all pitty,</l>
+<l n="42">And<name>Venus</name> rules in her <name>Aeneas</name>Citty.</l>
+<l n="43">Faire women play, shee's chast whom none will have,</l>
+<l n="44">Or, but for bashfulnesse her selfe would crave.</l>
+<l n="45">Shake off these wrinckles that thy front assault,</l>
+<l n="46">Wrinckles in beauty is a grievous fault.</l>
+<l n="47"><name>Penelope</name> in bowes her youths strength tride,</l>
+<l n="48">Of horne the bowe was uthat approv'd their side.</l>
+<l n="49">Time flying slides hence closely, and deceaves us,</l>
+<l n="50">And with swift horses the swift yeare soone leaves us.</l>
+<l n="51">Brasse shines with use; good garments would be worne,</l>
+<l n="52">Houses not dwelt in, are with filth forlorne.</l>
+<l n="53">Beauty not exercisde with age is spent,</l>
+<l n="54">Nor one or two men are sufficient.</l>
+<l n="55">Many to rob is more sure, and lesse hateflill,</l>
+<l n="56">From dog-kept flocks come preys to woolves most gratefull.</l>
+<l n="57">Behold what gives the Poet but new verses?</l>
+<l n="58">And thereof many thousand he rehearses.</l>
+<l n="59">The Poets God arayed in robes of gold,</l>
+<l n="60">Of his gilt Harpe the well tun'd strings doth hold.</l>
+<l n="61">Let<name>Homer</name> yeeld to such as presents bring,</l>
+<l n="62">(Trust me) to give, it is a witty thing.</l>
+<l n="63">Nor, so thou maist obtaine a wealthy prize,</l>
+<l n="64">The vaine name of inferiour slaves despize.</l>
+<l n="65">Nor let the arrnes of antient lines beguile thee,</l>
+<l n="66">Poore lover with thy gransires I exile thee.</l>
+<l n="67">Who seekes, for being faire, a night to have,</l>
+<l n="68">What he will give, with greater instance crave.</l>
+<l n="69">Make a small price, while thou thy nets doest lay,</l>
+<l n="70">Least they should fly, being tane, the tirant play.</l>
+<l n="71">Dissemble so, as lov'd he may be thought,</l>
+<l n="72">And take heed least he gets that love for nought.</l>
+<l n="73">Deny him oft, feigne now thy head doth ake:</l>
+<l n="74">And<name>Isis</name> now will shew what scuse to make.</l>
+<l n="75">Receive him soone, least patient use he gaine,</l>
+<l n="76">Or least his love oft beaten backe should waine.</l>
+<l n="77">To beggers shut, to bringers ope thy gate,</l>
+<l n="78">Let him within heare bard out lovers prate.</l>
+<l n="79">And as first wrongd the wronged some-times banish,</l>
+<l n="80">Thy fault with his fault so repuls'd will vanish.</l>
+<l n="81">But never give a spatious time to ire,</l>
+<l n="82">Anger delaide doth oft to hate retire.</l>
+<l n="83">And let thine eyes constrained learne to weepe,</l>
+<l n="84">That this, or that man may thy cheekes moist keepe.</l>
+<l n="85">Nor, if thou couzenst one, dread to for-sweare,</l>
+<l n="86">,, <name>Venus</name> to mockt men lendes a sencelesse eare.</l>
+<l n="87">Servants fit for thy purpose thou must hire</l>
+<l n="88">To teach thy lover, what thy thoughts desire.</l>
+<l n="89">Let them aske some-what, many asking little,</l>
+<l n="90">Within a while great heapes grow of a tittle.</l>
+<l n="91">And sister, Nurse, and mother spare him not,</l>
+<l n="92">By many hands great wealth is quickly got.</l>
+<l n="93">When causes fale thee to require a gift,</l>
+<l n="94">By keeping of thy birth make but a shift.</l>
+<l n="95">Beware least he unrival'd loves secure,</l>
+<l n="96">Take strife away, love doth not well endure.</l>
+<l n="97">On all the bed mens tumbling let him viewe</l>
+<l n="98">And thy neck with lascivious markes made blew.</l>
+<l n="99">Chiefely shew him the gifts, which others send:</l>
+<l n="100">If he gives nothing, let him from thee wend.</l>
+<l n="101">When thou hast so much as he gives no more,</l>
+<l n="102">Pray him to lend what thou maist nere restore.</l>
+<l n="103">Let thy tongue flatter, while thy minde harme-workes:</l>
+<l n="104">Under sweete hony deadly poison lurkes.</l>
+<l n="105">If this thou doest, to me by long use knowne,</l>
+<l n="106">Nor let my words be with the windes hence blowne,</l>
+<l n="107">Oft thou wilt say, live well, thou wilt pray oft,</l>
+<l n="108">That my dead bones may in their grave lie soft.</l>
+<l n="109">As thus she spake, my shadow me betraide,</l>
+<l n="110">With much a do my hands I scarsely staide.</l>
+<l n="111">But her bleare eyes, balde scalpes thin hoary flieces</l>
+<l n="112">And riveld cheekes I would have puld a pieces.</l>
+<l n="113">The gods send thee no house, a poore old age,</l>
+<l n="114">Perpetuall thirst, and winters lasting rage.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="9">
+<head>ELEGIA 9</head>
+<argument xml:lang="la"><p>Ad Atticum, amantem non oportere desidiosum
+esse, sicuti nec militem</p></argument>
+
+<l n="1">All Lovers warre, and <name>Cupid</name> hath his tent,</l>
+<l n="2"><name>Atticke</name> all lovers are to warre farre sent.</l>
+<l n="3">What age fits <name>Mars</name>, with <name>Venus</name> doth agree,</l>
+<l n="4">Tis shame for eld in waive or love to be.</l>
+<l n="5">What yeares in souldiours Captaines do require,</l>
+<l n="6">Those in their lovers, pretty maydes desire.</l>
+<l n="7">Both of them watch: each on the hard earth sleepes:</l>
+<l n="8">His Mistris dores this; that his Captaines keepes.</l>
+<l n="9">Souldiers must travaile farre: the wench forth send,</l>
+<l n="10">Her valiant lover followes without end.</l>
+<l n="11">Mounts, and raine-doubled flouds he passeth over,</l>
+<l n="12">And treades the deserts snowy heapes do cover.</l>
+<l n="13">Going to sea, <name>East</name> windes he doth not chide</l>
+<l n="14">Nor to hoist saile attends fit time and tyde.</l>
+<l n="15">Who but a souldiour or a lover is bould</l>
+<l n="16">To suffer storlne mixt snowes with nights sharpe cold?</l>
+<l n="17">One as a spy doth to his enemies goe,</l>
+<l n="18">The other eyes his rivall as his foe.</l>
+<l n="19">He Citties greate, this thresholds lies before:</l>
+<l n="20">This breakes Towne gates, but he his Mistris dore.</l>
+<l n="21">oft to invade the sleeping foe tis good</l>
+<l n="22">And arm'd to shed unarmed peoples bloud.</l>
+<l n="23">So the fierce troupes of <name>ThracianRhesus </name> fell</l>
+<l n="24">And Captive horses bad their Lord fare-well.</l>
+<l n="25">Sooth Lovers watch till sleepe the hus-band charmes,</l>
+<l n="26">Who slumbring, they rise up in swelling armes.</l>
+<l n="27">The keepers hands and corps-dugard to passe</l>
+<l n="28">The souldiours, and poore lovers worke ere was.</l>
+<l n="29">Doubtfull is warre and love, the vanquisht rise</l>
+<l n="30">And who thou never think'st should fall downe lies.</l>
+<l n="31">Therefore who ere love sloathfiilnesse doth call,</l>
+<l n="32">Let him surcease: love tries wit best of all.</l>
+<l n="33"><name>Achilles</name> burnd <name>Briseis</name> being tane away:</l>
+<l n="34"><name>Trojanes</name> destroy the <name>Greeke</name> wealth, while you may.</l>
+<l n="35"><name>Hector</name> to armes went from his wives embraces,</l>
+<l n="36">And on <name>Andromache</name> his helmet laces.</l>
+<l n="37">Great <name>Agamemnon</name> was, men say, amazed,</l>
+<l n="38">On <name>Priams</name> loose-trest daughter when he gazed.</l>
+<l n="39"><name>Mars</name> in the deed the black-smithes net did stable,</l>
+<l n="40">In heaven was never more notorious fable.</l>
+<l n="41">My selfe was dull, and faint, to sloth inclinde,</l>
+<l n="42">Pleasure, and ease had mollifide my minde.</l>
+<l n="43">A faire maides care expeld this sluggishnesse,</l>
+<l n="44">And to her tentes wild me my selfe addresse.</l>
+<l n="45">Since maist thou see me watch and night warres move:</l>
+<l n="46">He that will not growe slothfull let him love.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="10">
+<head>ELEGIA 10</head>
+
+<argument xml:lang="la"><p>Ad puellam, ne pro amore proemia poscat</p></argument>
+
+<l n="1">Such as the cause was of two husbands warre,</l>
+<l n="2">Whom <name>Trojane</name> ships fecht from <name>Europa</name> farre.</l>
+<l n="3">Such as was <name>Leda</name>, whom the God deluded</l>
+<l n="4">In snowe-white plumes of a false swanne included.</l>
+<l n="5">Such as <name>Amimone</name> through the drie fields strayed</l>
+<l n="6">When on her head a water pitcher lajed.</l>
+<l n="7">Such wert thou, and I fear'd the Bull and Eagle</l>
+<l n="8">And what ere love made <name>Jove</name> should thee invegle.</l>
+<l n="9">Now all feare with my mindes hot love abates,</l>
+<l n="10">No more this beauty mine eyes captivates.</l>
+<l n="11">Ask'st why I chaunge? because thou crav'st reward:</l>
+<l n="12">This cause hath thee from pleasing me debard.</l>
+<l n="13">While thou wert plaine, I lov'd thy minde and face:</l>
+<l n="14">Now inward faults thy outward forme disgrace.</l>
+<l n="15">Love is a naked boy, his yeares saunce staine,</l>
+<l n="16">And hath no cloathes, but open doth remaine.</l>
+<l n="17">Will you for gaine have <name>Cupid</name> sell himselfe?</l>
+<l n="18">He hath no bosome, where to hide base pelfe.</l>
+<l n="19">Love and Loves sonne are with fierce armes to oddes;</l>
+<l n="20">To serve for pay beseemes not wanton gods.</l>
+<l n="21">The whore stands to be bought for each mans mony</l>
+<l n="22">And seekes vild wealth by selling of her Cony,</l>
+<l n="23">Yet greedy Bauds command she curseth still,</l>
+<l n="24">And doth constraind, what you do of good will.</l>
+<l n="25">Take from irrationall beasts a president,</l>
+<l n="26">Tis shame their wits should be more excelent.</l>
+<l n="27">The Mare askes not the Horse, the Cowe the Bull,</l>
+<l n="28">Nor the milde Ewe gifts from the Ramme doth pull.</l>
+<l n="29">Only a Woman gets spoiles from a Man,</l>
+<l n="30">Farmes out her-self on nights for what she can.</l>
+<l n="31">And lets what both delight, what both desire,</l>
+<l n="32">Making her joy according to her hire.</l>
+<l n="33">The sport being such, as both alike sweete try it,</l>
+<l n="34">Why should one sell it, and the other buy it?</l>
+<l n="35">Why should I loose, and thou gaine by the pleasure</l>
+<l n="36">Which man and woman reape in equall measure?</l>
+<l n="37">Knights of the post of perjuries make saile,</l>
+<l n="38">The unjust Judge for bribes becomes a stale.</l>
+<l n="39">Tis shame sould tongues the guilty should defend</l>
+<l n="40">Or great wealth from a judgement seate ascend.</l>
+<l n="41">Tis shame to grow rich by bed merchandize,</l>
+<l n="42">Or prostitute thy beauty for bad prize.</l>
+<l n="43">Thankes worthely are due for things unbought,</l>
+<l n="44">For beds ill hyr'd we are indebted nought.</l>
+<l n="45">The hirer payeth al, his rent discharg'd</l>
+<l n="46">From firther duty he rests then inlarg'd.</l>
+<l n="47">Faire Dames for-beare rewards for nights to crave,</l>
+<l n="48">Ill gotten goods good end will never have.</l>
+<l n="49">The Sabine gauntlets were too dearely wunne</l>
+<l n="50">That unto death did presse the holy Nunne.</l>
+<l n="51">The sonne slew her, that forth to meete him went,</l>
+<l n="52">And a rich neck-lace caus'd that punnishment.</l>
+<l n="53">Yet thinke no scorne to aske a wealthy churle,</l>
+<l n="54">He wants no gifts into thy lap to hurle.</l>
+<l n="55">Take clustred grapes from an ore-laden vine,</l>
+<l n="56">May bounteous lome <name>Alcinous</name> fruite resigne.</l>
+<l n="57">Let poore men show their service, faith, and care;</l>
+<l n="58">All for their Mistrisse, what they have, prepare.</l>
+<l n="59">In verse to praise kinde Wenches tis my part,</l>
+<l n="60">And whom I like eternize by mine art.</l>
+<l n="61">Garments do weare, jewells and gold do wast,</l>
+<l n="62">The fame that verse gives doth for ever last.</l>
+<l n="63">To give I love, but to be ask't disdayne,</l>
+<l n="64">Leave asking, and lie give what I refraine.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="11">
+<head>ELEGIA 11</head>
+
+<argument xml:lang="la"><p>Napen alloquitur, ut paratas tabellas ad
+Corinnam perferat</p></argument>
+
+<l n="1">In skilfull gathering ruffled haires in order,</l>
+<l n="2"><name>Nape</name> free-borne, whose cunning hath no border,</l>
+<l n="3">Thy service for nights scapes is knowne commodious</l>
+<l n="4">And to give signes dull wit to thee is odious.</l>
+<l n="5"><name>Corinna</name> clips me oft by thy perswasion,</l>
+<l n="6">Never to harme me made thy faith evasion.</l>
+<l n="7">Receive these lines, them to my Mistrisse carry,</l>
+<l n="8">Be sedulous, let no stay cause thee tarry.</l>
+<l n="9">Nor flint, nor iron, are in thy soft brest</l>
+<l n="10">But pure simplicity in thee doth rest.</l>
+<l n="11">And tis suppos'd Loves bowe hath wounded thee,</l>
+<l n="12">Defend the ensignes of thy warre in mee.</l>
+<l n="13">If, what I do, she askes, say hope for night,</l>
+<l n="14">The rest my hand doth in my letters write.</l>
+<l n="15">Time passeth while I speake, give her my writ</l>
+<l n="16">But see that forth-with shee peruseth it.</l>
+<l n="17">I charge thee marke her eyes and front in reading,</l>
+<l n="18">By speechiesse lookes we guesse at things succeeding.</l>
+<l n="19">Straight being read, will her to write much backe,</l>
+<l n="20">I hate faire <name>Paper</name> should writte matter lacke.</l>
+<l n="21">Let her make verses, and some blotted letter</l>
+<l n="22">On the last edge to stay mine eyes the better.</l>
+<l n="23">What neede she tyre her hand to hold the quill,</l>
+<l n="24">Let this word, come, alone the tables fill.</l>
+<l n="25">Then with triumphant laurell will I grace them</l>
+<l n="26">And in the midst of <name>Venus</name> temple place them.</l>
+<l n="27">Subscribing that to her I consecrate</l>
+<l n="28">My faithfull tables being vile maple late.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="12">
+<head>ELEGIA 12</head>
+
+<argument xml:lang="la"><p>Tabllas quas miserat execratur, quod amica
+noctem negabat</p></argument>
+
+<l n="1">Bewaile my chaunce, the sad booke is returned,</l>
+<l n="2">This day denyall hath my sport adjourned.</l>
+<l n="3">Presages are not vaine, when she departed</l>
+<l n="4"><name>Nape</name> by stumbling on the thre-shold started.</l>
+<l n="5">Going out againe passe forth the dore more wisely</l>
+<l n="6">And som-what higher beare thy foote precisely.</l>
+<l n="7">Hence luck-lesse tables, funerall wood be flying</l>
+<l n="8">And thou the waxe stuft full with notes denying,</l>
+<l n="9">Which I thinke gather'd from cold hemlocks flower</l>
+<l n="10">Wherein bad hony <name>Corsicke</name>Bees did power.</l>
+<l n="11">Yet as if mixt with red leade thou wert ruddy,</l>
+<l n="12">That colour rightly did appeare so bloudy.</l>
+<l n="13">As evill wood throwne in the high-waies lie,</l>
+<l n="14">Be broake with wheeles of chariots passing by.</l>
+<l n="15">And him that hew'd you out for needfull uses</l>
+<l n="16">Ile prove had hands impure with all abuses.</l>
+<l n="17">Poore wretches on the tree themselves did strangle,</l>
+<l n="18">There sat the hang-man for mens neckes to angle.</l>
+<l n="19">To hoarse scrich-owles foule shadowes it allowes,</l>
+<l n="20">Vultures and furies nestled in the boughes.</l>
+<l n="21">To these my love I foolishly committed</l>
+<l n="22">And then with sweete words to my Mistrisse fitted.</l>
+<l n="23">More fitly had they wrangling bondes contained</l>
+<l n="24">From barbarous lips of some Atturney strained.</l>
+<l n="25">Among day bookes and billes they had lame better</l>
+<l n="26">In which the Merchant wayles his banquerout debter.</l>
+<l n="27">Your name approves you made for such like things,</l>
+<l n="28">The number two no good divining bringes.</l>
+<l n="29">Angry, I pray that rotten age you wrackes</l>
+<l n="30">And sluttish white-mould overgrowe the waxe.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="13">
+<head>ELEGIA 13</head>
+
+<argument xml:lang="la"><p>Ad Auroram ne properet</p></argument>
+
+<l n="1">Now on the sea from her old love comes shee,</l>
+<l n="2">That drawes the day from heavens cold axletree.</l>
+<l n="3"><name>Aurora</name> whither slidest thou? downe againe,</l>
+<l n="4">And birds for <name>Memnon</name> yearly shall be slaine.</l>
+<l n="5">Now in her tender armes I sweetly bide,</l>
+<l n="6">If ever, now well lies she by my side.</l>
+<l n="7">The aire is colde, and sleepe is sweetest now,</l>
+<l n="8">And birdes send forth shrill notes from everie bow.</l>
+<l n="9">Whither runst thou, that men, and women, love not?</l>
+<l n="10">Hold in thy rosie horses that they move not.</l>
+<l n="11">Ere thou rise starres teach seamen where to saile,</l>
+<l n="12">But when thou comest they of their courses faile.</l>
+<l n="13">Poore travailers though tierd, rise at thy sight,</l>
+<l n="14">And souldiours make them ready to the fight,</l>
+<l n="15">The painfull Hinde by thee to field is sent,</l>
+<l n="16">Slow oxen early in the yoake are pent.</l>
+<l n="17">Thou coosnest boyes of sleepe, and dost betray them</l>
+<l n="18">To Pedants, that with cruell lashes pay them.</l>
+<l n="19">Thou makste the suretie to the lawyer runne,</l>
+<l n="20">That with one worde hath nigh himselfe undone,</l>
+<l n="21">The lawier and the client hate thy view,</l>
+<l n="22">Both whom thou raisest up to toyle anew.</l>
+<l n="23">By thy meanes women of their rest are bard,</l>
+<l n="24">Thou setst their labouring hands to spin and card.</l>
+<l n="25">All could I beare, but that the wench should rise,</l>
+<l n="26">Who can indure, save him with whom none lies?</l>
+<l n="27">How oft wisht I night would not give thee place,</l>
+<l n="28">Nor morning starres shunne thy uprising face.</l>
+<l n="29">How oft, that either wind would breake thy coche,</l>
+<l n="30">Or steeds might fal forcd with thick clouds approch.</l>
+<l n="31">Whither gost thou hateflil nimph? <name>Memnon</name> the elfe</l>
+<l n="32">Received his cole-blacke colour from thy selfe.</l>
+<l n="33">Say that thy love with <name>Coephalus</name> were not knowne,</l>
+<l n="34">Then thinkest thou thy loose life is not showne?</l>
+<l n="35">Would <name>Tithon</name> might but talke of thee a while,</l>
+<l n="36">Not one in heaven should be more base and vile.</l>
+<l n="37">Thou leav'st his bed, because hees faint through age,</l>
+<l n="38">And early mountest thy hatefull carriage:</l>
+<l n="39">But heldst thou in thine armes some <name>Coephalus</name>,</l>
+<l n="40">Then wouldst thou cry, stay night and runne not thus.</l>
+<l n="41">Punish ye, because yeares make him waine?</l>
+<l n="42">I did not bid thee wed an aged swaine.</l>
+<l n="43">The Moone sleepes with <name>Endemion</name> everie day,</l>
+<l n="44">Thou art as faire as shee, then kisse and play.</l>
+<l n="45"><name>Jove</name> that thou shouldst not hast but wait his leasure,</l>
+<l n="46">Made two nights one to finish up his pleasure.</l>
+<l n="47">I chid no more, she blusht, and therefore heard me,</l>
+<l n="48">Yet lingered not the day, but morning scard me.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="14">
+<head>ELEGIA 14</head>
+
+<argument xml:lang="la"><p>Puellamconsolatur cui proe nimia cura
+comoe deciderant</p></argument>
+
+<l n="1">Leave colouring thy tresses I did cry,</l>
+<l n="2">Now hast thou left no haires at all to die.</l>
+<l n="3">But what had beene more faire had they beene kept?</l>
+<l n="4">Beyond thy robes thy dangling lockes had sweept.</l>
+<l n="5">Feardst thou to dresse them? being fine and thinne</l>
+<l n="6">Like to the silke the curious <name>Seres</name> spinne,</l>
+<l n="7">Or thrids which spiders slender foote drawes out</l>
+<l n="8">Fastning her light web some old beame about.</l>
+<l n="9">Not black, nor golden were they to our viewe,</l>
+<l n="10">Yet although neither, mixt of eithers hue,</l>
+<l n="11">Such as in hilly <name>Idas</name> watry plaines,</l>
+<l n="12">The Cedar tall spoyld of his barke retaines.</l>
+<l n="13">Ad they were apt to curle an hundred waies,</l>
+<l n="14">And did to thee no cause of dolour raise.</l>
+<l n="15">Nor hath the needle, or the combes teeth reft them,</l>
+<l n="16">The maide that kembd them ever safely left them.</l>
+<l n="17">Oft was she drest before mine eyes, yet never,</l>
+<l n="18">Snatching the combe, to beate the wench out drave her.</l>
+<l n="19">Oft in the morne her haires not yet digested,</l>
+<l n="20">Halfe sleeping on a purple bed she rested,</l>
+<l n="21">Yet seemely like a <name>ThracianBacchinall</name></l>
+<l n="22">That tyr'd doth rashly on the greene grasse fall.</l>
+<l n="23">When they were slender, and like downy mosse,</l>
+<l n="24">Thy troubled haires, alas, endur'd great losse.</l>
+<l n="25">How patiently hot irons they did take</l>
+<l n="26">In crooked tramells crispy curles to make.</l>
+<l n="27">I cryed, tis sinne, tis sinne, these haires to burne,</l>
+<l n="28">They well become thee, then to spare them turne.</l>
+<l n="29">Farre off be force, no fire to them may reach,</l>
+<l n="30">Thy very haires will the hot bodkin teach.</l>
+<l n="31">Lost are the goodly lockes, which from their crowne</l>
+<l n="32"><name>Phoebus</name> and <name>Bacchus</name> wisht were hanging downe.</l>
+<l n="33">Such were they as <name>Diana</name> painted stands</l>
+<l n="34">All naked holding in her wave-moist hands.</l>
+<l n="35">Why doest thy ill kembd tresses losse lament?</l>
+<l n="36">Why in thy glasse doest looke being discontent?</l>
+<l n="37">Bee not to see with wonted eyes inclinde,</l>
+<l n="38">To please thy selfe, thy selfe put out of minde.</l>
+<l n="39">No charmed herbes of any harlot skathd thee,</l>
+<l n="40">No faithlesse witch in <name>Thessale</name> waters bath'd thee.</l>
+<l n="41">No sicknesse harm'd thee, farre be that a way,</l>
+<l n="42">No envious tongue wrought thy thicke lockes decay.</l>
+<l n="43">By thine owne hand and fault thy hurt doth growe,</l>
+<l n="44">Thou mad'st thy head with compound poyson flow.</l>
+<l n="45">Now <name>Germany</name> shall captive haire-tyers send thee,</l>
+<l n="46">And vanquisht people curious dressings lend thee,</l>
+<l n="47">Which some admiring, O thou oft wilt blush</l>
+<l n="48">And say he likes me for my borrowed bush,</l>
+<l n="49">Praysing for me some unknowne <name>Guelder</name> dame,</l>
+<l n="50">But I remember when it was my fame.</l>
+<l n="51">Alas she almost weepes, and her white cheekes,</l>
+<l n="52">Died red with shame, to hide from shame she seekes.</l>
+<l n="53">She holds, and viewes her old lockes in her lappe,</l>
+<l n="54">Aye me rare gifts unworthy such a happe.</l>
+<l n="55">Cheere up thy selfe, thy losse thou maiest repaire,</l>
+<l n="56">And be heereafter seene with native haire.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="15">
+<head>ELEGIA 15</head>
+
+<argument xml:lang="la"><p>Ad invidos, quod fama poetarum sit perennis</p></argument>
+
+<l n="1">Envie, why carpest thou my time is spent so ill,</l>
+<l n="2">And tearmes my works fruits of an idle quill?</l>
+<l n="3">Or that unlike the line from whence I sprong,</l>
+<l n="4">Wars dustie honors are refused being yong,</l>
+<l n="5">Nor that I studie not the brawling lawes,</l>
+<l n="6">Nor set my voyce to sale in everie cause?</l>
+<l n="7">Thy scope is mortall, mine eternall fame,</l>
+<l n="8">That all the world may ever chaunt my name.</l>
+<l n="9"><name>Homer</name> shall live while <name>Tenedos</name> stands and <name>Ide</name>,</l>
+<l n="10">Or into sea swift <name>Symois</name> doth slide.</l>
+<l n="11"><name>Ascreus</name> lives, while grapes with new wine swell,</l>
+<l n="12">Or men with crooked sickles come downe fell.</l>
+<l n="13">The world shall of <name>Callimachus</name> ever speake,</l>
+<l n="14">His Arte excelld, although his witte was weake.</l>
+<l n="15">For ever lasts high <name>Sophocles</name> proud vaine,</l>
+<l n="16">With sunne and moone <name>Aratus</name> shall remaine.</l>
+<l n="17">While bond-men cheat, fathers be hard, bawds hoorish,</l>
+<l n="18">And strumpets flatter, shall <name>Menander</name> flourish.</l>
+<l n="19">Rude <name>Ennius</name>, and <name>Plautus</name> full of wit,</l>
+<l n="20">Are both in Fames etemall legend writ.</l>
+<l n="21">What age of <name>Varroes</name> name shall not be tolde,</l>
+<l n="22">And <name>fasons Argos</name>, and the fleece of golde?</l>
+<l n="23">Loftie <name>Lucretius</name> shall live that houre,</l>
+<l n="24">That Nature shall dissolve this earthly bowre.</l>
+<l n="25"><name>Aeneas</name> warre, and <name>Titerus</name> shall be read,</l>
+<l n="26">While <name>Rome</name> of all the conquered world is head.</l>
+<l n="27">Till <name>Cupids</name> bow, and flerie shafts be broken,</l>
+<l n="28">Thy verses sweet <name>Tibullus</name> shall be spoken.</l>
+<l n="29">And <name>Gallus</name> shall be knowne from East to West,</l>
+<l n="30">So shall <name>Licoris</name> whom he loved best:</l>
+<l n="31">Therefore when flint and yron weare away,</l>
+<l n="32">Verse is immortall, and shall nere decay.</l>
+<l n="33">Let Kings give place to verse, and kingly showes,</l>
+<l n="34">And banks ore which gold bearing <name>Tagus</name> flowes.</l>
+<l n="35">Let base conceited wits admire vilde things,</l>
+<l n="36">Faire <name>Phoebus</name> leade me to the Muses springs.</l>
+<l n="37">About my head be quivering Mirtle wound,</l>
+<l n="38">And in sad lovers heads let me be found.</l>
+<l n="39">The living, not the dead can envie bite,</l>
+<l n="40">For after death all men receive their right:</l>
+<l n="41">Then though death rackes my bones in funerall fler,</l>
+<l n="42">lie live, and as he puls me downe, mount higher</l>
+</div>
+<div type="textpart" subtype="poem" n="15bis">
+<head>The same by B.J.</head>
+
+<l n="1">Envie, why twitst thou me, my Time's spent ill?</l>
+<l n="2">And call'st my verse fruites of an idle quill?</l>
+<l n="3">Or that (unlike the line from whence I sprong)</l>
+<l n="4">Wars dustie honors I pursue not young?</l>
+<l n="5">Or that I studie not the tedious lawes;</l>
+<l n="6">And prostitute my voyce in every cause?</l>
+<l n="7">Thy scope is mortall; mine eternall Fame,</l>
+<l n="8">Which through the world shall ever chaunt my name.</l>
+<l n="9"><name>Homer</name> will live, whil'st <name>Tenedos</name> stands, and <name>Ide</name>,</l>
+<l n="10">Or to the sea, fleete <name>Simois</name> doth slide:</l>
+<l n="11">And so shall <name>Hesiod</name> too, while vines doe beare,</l>
+<l n="12">Or crooked sickles crop the ripened eare.</l>
+<l n="13"><name>Callimachus</name>, though in Invention lowe,</l>
+<l n="14">Shall still be sung, since he in Arte doth flowe.</l>
+<l n="15">No losse shall come to <name>Sophocles</name> proud vaine,</l>
+<l n="16">With Sunne and Moone <name>Aratus</name> shall remaine.</l>
+<l n="17">Whil'st Slaves be false, Fathers hard, and Bauds be whorish,</l>
+<l n="18">Whilst Harlots flatter, shall <name>Menander</name> florish.</l>
+<l n="19"><name>Ennius</name>, though rude, and <name>Accius</name> high-reard straine,</l>
+<l n="20">A fresh applause in every age shall gaine.</l>
+<l n="21">Of <name>Varro's</name> name, what eare shall not be tolde?</l>
+<l n="22">Of <name>Jasons</name>Argo? and the <name>Fleece of golde</name>?</l>
+<l n="23">Then, shall <name>Lucretius</name> loftie numbers die,</l>
+<l n="24">When Earth, and Seas in fire and flames shall frie.</l>
+<l n="25"><name>Titirus</name>, <name>Tillage</name>, <name>Aeney</name> shall be read,</l>
+<l n="26">Whil'st <name>Rome</name> of all the conquer'd world is head.</l>
+<l n="27">Till <name>Cupids</name> fires be out, and his bowe broken,</l>
+<l n="28">Thy verses (neate <name>Tibullus</name>) shall be spoken.</l>
+<l n="29">Our <name>Gallus</name> shall be knowne from East to west:</l>
+<l n="30">So shall <name>Licoris</name>, whom he now loves best.</l>
+<l n="31">The suffering Plough-share or the flint may weare:</l>
+<l n="32">But heavenly <name>Poesie</name> no death can feare.</l>
+<l n="33">Kings shall give place to it, and Kingly showes,</l>
+<l n="34">The bankes ore which gold-bearing <name>Tagus</name> flowes.</l>
+<l n="35">Kneele hindes to trash: me let bright <name>Phoebus</name> swell,</l>
+<l n="36">With cups full flowing from the <name>Muses</name> well.</l>
+<l n="37">The frost-drad myrtle shall impale my head,</l>
+<l n="38">And of sad lovers Ile be often read.</l>
+<l n="39">,,Enuy the living, not the dead, doth bite.</l>
+<l n="40">,,For after death all men receive their right.</l>
+<l n="41">Then when this body falls in flineral fire,</l>
+<l n="42">My name shall live, and my best part aspire.</l>
+</div></div>
+<div type="textpart" subtype="book" n="2">
+<head>P. Ovidii Nasonis Amorum Liber Secundus</head>
+<div type="textpart" subtype="poem" n="1">
+<head>ELEGIA 1</head>
+<argument xml:lang="la"><p>Quodpro gigantomochia amores scribere
+sit coactus</p></argument>
+
+<l n="1">I <name>Ovid</name> Poet of my wantonnesse,</l>
+<l n="2">Borne at <name>Peligny</name>, to write more addresse.</l>
+<l n="3">So <name>Cupid</name> wills, farre hence be the severe,</l>
+<l n="4">You are unapt my looser lines to heare.</l>
+<l n="5">Let Maydes whom hot desire to husbands leade,</l>
+<l n="6">And rude boyes toucht with unknowne love me reade,</l>
+<l n="7">That some youth hurt as I am with loves bowe</l>
+<l n="8">His owne flames best acquainted signes may knowe,</l>
+<l n="9">And long admiring say by what meanes learnd</l>
+<l n="10">Hath this same Poet my sad chaunce discernd?</l>
+<l n="11">I durst the great celestiall battells tell,</l>
+<l n="12">Hundred-hand <name>Gyges</name>, and had done it well,</l>
+<l n="13">With earthes revenge and how <name>Olimpus</name> toppe</l>
+<l n="14">High <name>Ossa</name> bore, mount <name>Pelion</name> up to proppe.</l>
+<l n="15"><name>Jove</name> and <name>Joves</name> thunderbolts I had in hand</l>
+<l n="16">Which for his heaven fell on the Gyants band.</l>
+<l n="17">My wench her dore shut, <name>Joves</name> affares I left,</l>
+<l n="18">Even <name>Jove</name> himselfe out off my wit was reft.</l>
+<l n="19">Pardon me <name>Jove</name>, thy weapons ayde me nought,</l>
+<l n="20">Her shut gates greater lightning then thyne brought.</l>
+<l n="21">Toyes, and light Elegies my darts I tooke,</l>
+<l n="22">Quickly soft words hard dores wide open strooke.</l>
+<l n="23">Verses deduce the horned bloudy moone</l>
+<l n="24">And call the sunnes white horses backe at noone.</l>
+<l n="25">Snakes leape by verse from caves of broken mountaines</l>
+<l n="26">And turned streames run back-ward to their fountaines.</l>
+<l n="27">Verses ope dores, and lockes put in the poast</l>
+<l n="28">Although of oake, to yeeld to verses boast.</l>
+<l n="29">What helpes it me of fierce <name>Achill</name> to sing?</l>
+<l n="30">What good to me wil either <name>Ajax</name> bring?</l>
+<l n="31">Or he who war'd and wand'red twenty yeare?</l>
+<l n="32">Or wofull <name>Hector</name> whom wilde jades did teare?</l>
+<l n="33">But when I praise a pretty wenches face</l>
+<l n="34">Shee in requitall doth me oft imbrace.</l>
+<l n="35">A great reward: <name>Heroes</name> of famous names</l>
+<l n="36">Farewel, your favour nought my minde inflames.</l>
+<l n="37">Wenches apply your faire lookes to my verse</l>
+<l n="38">Which golden love doth unto me rehearse.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="2">
+<head>ELEGIA 2</head>
+
+<argument xml:lang="la"><p>Ad Bagoum, ut custodiam puelloe sibi commissoe
+laxiorem habeat</p></argument>
+
+
+<l n="1"><name>Bagous</name> whose care doth thy Mistrisse bridle,</l>
+<l n="2">While I speake some fewe, yet fit words be idle.</l>
+<l n="3">I sawe the damsell walking yesterday</l>
+<l n="4">There where the porch doth <name>Danaus</name> fact display.</l>
+<l n="5">Shee pleas'd me, soone I sent, and did her woo,</l>
+<l n="6">Her trembling hand writ back she might not doo.</l>
+<l n="7">And asking why, this answeare she redoubled,</l>
+<l n="8">Because thy care too much thy Mistresse troubled.</l>
+<l n="9">Keeper if thou be wise cease hate to cherish,</l>
+<l n="10">Beleeve me, whom we feare, we wish to perish.</l>
+<l n="11">Nor is her husband wise, what needes defence</l>
+<l n="12">When un-protected ther is no expence?</l>
+<l n="13">But fliriously he follow his loves fire</l>
+<l n="14">And thinke her chast whom many doe desire.</l>
+<l n="15">Stolne liberty she may by thee obtaine,</l>
+<l n="16">Which giving her, she may give thee againe.</l>
+<l n="17">Wilt thou her fault leame, she may make thee tremble,</l>
+<l n="18">Feare to be guilty, then thou maiest desemble.</l>
+<l n="19">Thinke when she reades, her mother letters sent her,</l>
+<l n="20">Let him goe forth knowne, that unknowne did enter,</l>
+<l n="21">Let him goe see her though she doe not languish</l>
+<l n="22">And then report her sicke and full of anguish.</l>
+<l n="23">If long she stayes, to thinke the time more short</l>
+<l n="24">Lay downe thy forehead in thy lap to snort.</l>
+<l n="25">Enquire not what with <name>Isis</name> may be done</l>
+<l n="26">Nor feare least she to th' theater's runne.</l>
+<l n="27">Knowing her scapes thine honour shall encrease,</l>
+<l n="28">And what lesse labour then to hold thy peace?</l>
+<l n="29">Let him please, haunt the house, be kindly usd,</l>
+<l n="30">Enjoy the wench, let all else be refusd.</l>
+<l n="31">Vaine causes fame of him the true to hide,</l>
+<l n="32">And what she likes, let both hold ratifide.</l>
+<l n="33">When most her husband bends the browes and frownes,</l>
+<l n="34">His fauning wench with her desire he crownes.</l>
+<l n="35">But yet sometimes to chide thee let her fall</l>
+<l n="36">Counterfet teares: and thee lewd hangman call.</l>
+<l n="37">Object thou then what she may well excuse,</l>
+<l n="38">To staine all faith in truth, by false crimes use.</l>
+<l n="39">Of wealth and honour so shall grow thy heape,</l>
+<l n="40">Do this and soone thou shalt thy freedome reape.</l>
+<l n="41">On tell-tales neckes thou seest the linke-knitt chaines,</l>
+<l n="42">The filthy prison faithlesse breasts restraines.</l>
+<l n="43">Water in waters, and fruite flying touch</l>
+<l n="44"><name>Tantalus</name> seekes, his long tongues game is such.</l>
+<l n="45">While <name>Junos</name> watch-man <name>Io</name> too much eyde,</l>
+<l n="46">Him timelesse death tooke, she was deifide.</l>
+<l n="47">I sawe ones legges with fetters blacke and blewe,</l>
+<l n="48">By whom the husband his wives incest knewe.</l>
+<l n="49">More he deserv'd, to both great harme he fram'd,</l>
+<l n="50">The man did grieve, the woman was defam'd.</l>
+<l n="51">Trust me all husbands for such faults are sad</l>
+<l n="52">Nor make they any man that heare them glad.</l>
+<l n="53">If he loves not, deafe eares thou doest importune,</l>
+<l n="54">Or if he loves, thy tale breedes his misfortune.</l>
+<l n="55">Nor is it easily prov'd though manifest,</l>
+<l n="56">She safe by favour of her judge doth rest.</l>
+<l n="57">Though himselfe see; heele credit her denyall,</l>
+<l n="58">Condemne his eyes, and say there is no tryall.</l>
+<l n="59">Spying his mistrisse teares, he will lament</l>
+<l n="60">And say this blabbe shall suffer punnishment.</l>
+<l n="61">Why fightst galust oddes? to thee being cast do happe</l>
+<l n="62">Sharpe stripes, she sitteth in the judges lappe.</l>
+<l n="63">To meete for poyson or vilde facts we crave not,</l>
+<l n="64">My hands an unsheath'd shyning weapon have not.</l>
+<l n="65">Wee seeke that through thee safely love we may,</l>
+<l n="66">What can be easier then the thing we pray?</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="3">
+<head>ELEGIA 3</head>
+
+<argument><p>Ad Eunuchum servantem dominam</p></argument>
+
+<l n="1">Aye me an <name>Eunuch</name> keepes my mistrisse chaste,</l>
+<l n="2">That cannot <name>Venus</name> mutuall pleasure taste.</l>
+<l n="3">Who first depriv'd yong boyes of their best part,</l>
+<l n="4">With selfe same woundes he gave, he ought to smart.</l>
+<l n="5">To kinde requests thou wouldst more gentle prove,</l>
+<l n="6">If ever wench had made luke-warme thy love:</l>
+<l n="7">Thou wert not borne to ride, or armes to beare,</l>
+<l n="8">Thy hands agree not with the warlike speare.</l>
+<l n="9">Men handle those, all manly hopes resigne,</l>
+<l n="10">Thy mistrisse enseignes must be likewise thine.</l>
+<l n="11">Please her, her hate makes others thee abhorre,</l>
+<l n="12">If she discardes thee, what use servest thou for?</l>
+<l n="13">Good forme there is, yeares apt to play togither,</l>
+<l n="14">Unmeete is beauty without use to wither.</l>
+<l n="15">Shee may deceive thee, though thou her protect,</l>
+<l n="16">What two determine never wants effect.</l>
+<l n="17">Our prayers move thee to assist our drift,</l>
+<l n="18">While thou hast time yet to bestowe that gift.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="4">
+<head>ELEGIA 4</head>
+
+<argument xml:lang="la"><p>Quod amet mulieres, cuiuscunque formoe sint</p></argument>
+
+<l n="1">I meane not to defend the scapes of any,</l>
+<l n="2">Or justifie my vices being many,</l>
+<l n="3">For I confesse, if that might merite favour,</l>
+<l n="4">Heere I display my lewd and loose behaviour.</l>
+<l n="5">I loathe, yet after that I loathe, I runne:</l>
+<l n="6">Oh how the burthen irkes, that we should shun.</l>
+<l n="7">I cannot rule my selfe, but where love please</l>
+<l n="8">Am driven like a ship upon rough seas,</l>
+<l n="9">No one face likes me best, all faces moove,</l>
+<l n="10">A hundred reasons makes me ever love.</l>
+<l n="11">If any eie mee with a modest looke,</l>
+<l n="12">I burne, and by that blushfiill glance am tooke:</l>
+<l n="13">And she thats coy I like for being no clowne,</l>
+<l n="14">Me thinkes she should be nimble when shees downe.</l>
+<l n="15">Though her sowre looks a <name>Sabines</name> browe resemble,</l>
+<l n="16">I thinke sheele doe, but deepely can dissemble.</l>
+<l n="17">If she be learned, then for her skill I crave her,</l>
+<l n="18">If not, because shees simple I would have her.</l>
+<l n="19">Before <name>Callimachus</name> one preferres me farre,</l>
+<l n="20">Seeing she likes my bookes, why should we jarre?</l>
+<l n="21">Another railes at me, and that I write,</l>
+<l n="22">Yet would I lie with her if that I might.</l>
+<l n="23">Trips she, it likes me well, plods she, what than?</l>
+<l n="24">She would be nimbler, lying with a man.</l>
+<l n="25">And when one sweetely sings, then straight I long,</l>
+<l n="26">To quaver on her lippes even in her song,</l>
+<l n="27">Or if one touch the lute with art and cunning,</l>
+<l n="28">Who would not love those hands for their swift running?</l>
+<l n="29">And she I like that with a majestie,</l>
+<l n="30">Foldes up her armes, and makes low curtesie.</l>
+<l n="31">To leave my selfe, that am in love with all,</l>
+<l n="32">Some one of these might make the chastest fall.</l>
+<l n="33">If she be tall, shees like an <name>Amazon</name>,</l>
+<l n="34">And therefore filles the bed she lies uppon:</l>
+<l n="35">If short, she lies the rounder: to speake troth,</l>
+<l n="36">Both short and long please me, for I love both:</l>
+<l n="37">I thinke what one undeckt would be, being drest;</l>
+<l n="38">Is she attired, then shew her graces best.</l>
+<l n="39">A white wench thralles me, so doth golden yellowe,</l>
+<l n="40">And nut-browne girles in doing have no fellowe.</l>
+<l n="41">If her white necke be shadowde with blacke haire,</l>
+<l n="42">Why so was <name>Ledas</name>, yet was <name>Leda</name> faire.</l>
+<l n="43">Amber trest is shee, then on the morne thinke I,</l>
+<l n="44">My love alludes to everie historie:</l>
+<l n="45">A yong wench pleaseth, and an old is good,</l>
+<l n="46">This for her looks, that for her woman-hood:</l>
+<l n="47">Nay what is she that any <name>Romane</name> loves,</l>
+<l n="48">But my ambitious ranging mind approoves?</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="5">
+<head>ELEGIA 5</head>
+
+<argument xml:lang="la"><p>Ad amicam corruptam</p></argument>
+
+<l n="1">No love is so dere (quiverd <name>Cupid</name> flie)</l>
+<l n="2">That my chiefe wish should be so oft to die.</l>
+<l n="3">Minding thy fault, with death I wish to revill,</l>
+<l n="4">Alas a wench is a perpetuall evill.</l>
+<l n="5">No intercepted lines thy deedes display,</l>
+<l n="6">No gifts given secretly thy crime bewray.</l>
+<l n="7">O would my proofes as vaine might be withstood,</l>
+<l n="8">Aye me poore soule, why is my cause so good.</l>
+<l n="9">He's happy, that his love dares boldly credit,</l>
+<l n="10">To whom his wench can say, I never did it.</l>
+<l n="11">He's cruell, and too much his griefe doth favour</l>
+<l n="12">That seekes the conquest by her loose behaviour.</l>
+<l n="13">Poore wretch I sawe when thou didst thinke I slumbred,</l>
+<l n="14">Not drunke, your faults in the spilt wine I numbred.</l>
+<l n="15">I sawe your nodding eye-browes much to speake,</l>
+<l n="16">Even from your cheekes parte of a voice did breake.</l>
+<l n="17">Not silent were thine eyes, the boord with wine</l>
+<l n="18">Was scribled, and thy fingers writ a line.</l>
+<l n="19">I knew your speech (what do not lovers see?)</l>
+<l n="20">And words that seem'd for certaine markes to be.</l>
+<l n="21">Now many guests were gone, the feast being done,</l>
+<l n="22">The youthfull sort to divers pastimes runne.</l>
+<l n="23">I sawe you then unlawfull kisses joyne,</l>
+<l n="24">(Such with my tongue it likes me to purloyne).</l>
+<l n="25">None such the sister gives her brother grave,</l>
+<l n="26">But such kinde wenches let their lovers have.</l>
+<l n="27"><name>Phoebus</name> gave not <name>Diana</name> such tis thought,</l>
+<l n="28">But <name>Venus</name> often to her <name>Mars</name> such brought.</l>
+<l n="29">What doest, I cryed, transportst thou my delight?</l>
+<l n="30">My lordly hands ile throwe upon my right.</l>
+<l n="31">Such blisse is onely common to us two,</l>
+<l n="32">In this sweete good, why hath a third to do?</l>
+<l n="33">This, and what grife inforc'd me say I say'd,</l>
+<l n="34">A scarlet blush her guilty face arayed.</l>
+<l n="35">Even such as by <name>Aurora</name> hath the skie,</l>
+<l n="36">Or maides that their betrothed husbands spie.</l>
+<l n="37">Such as a rose mixt with a lilly breedes,</l>
+<l n="38">Or when the Moone travailes with charmed steedes.</l>
+<l n="39">Or such, as least long yeares should turne the die,</l>
+<l n="40"><name>Arackne</name> staynes <name>Assyrian</name> ivory.</l>
+<l n="41">To these, or some of these like was her colour,</l>
+<l n="42">By chaunce her beauty never shined fuller.</l>
+<l n="43">She viewed the earth: the earth to viewe, beseem'd her.</l>
+<l n="44">She looked sad: sad, comely I esteem'd her.</l>
+<l n="45">Even kembed as they were, her lockes to rend,</l>
+<l n="46">And scratch her faire soft cheekes I did intend.</l>
+<l n="47">Seeing her face, mine upreard armes discended,</l>
+<l n="48">With her owne armor was my wench defended.</l>
+<l n="49">I that ere-while was fierce, now humbly sue,</l>
+<l n="50">Least with worse kisses she should me indue.</l>
+<l n="51">She laught, and kissed so sweetely as might make</l>
+<l n="52">Wrath-kindled <name>Jove</name> away his thunder shake.</l>
+<l n="53">I grieve least others should such good perceive,</l>
+<l n="54">And wish hereby them all unknowne to leave.</l>
+<l n="55">Also much better were they then I tell,</l>
+<l n="56">And ever seemed as some new sweete befell.</l>
+<l n="57">Tis ill they pleas'd so much, for in my lips,</l>
+<l n="58">Lay her whole tongue hid, mine in hers she dips.</l>
+<l n="59">This grieves me not, no joyned kisses spent,</l>
+<l n="60">Bewaile I onely, though I them lament.</l>
+<l n="61">No where can they be taught but in the bed,</l>
+<l n="62">I know no maister of so great hire sped.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="6">
+<head>ELEGIA 6</head>
+<argument xml:lang="la"><p>In mortem psittaci</p></argument>
+
+<l n="1">The parrat from east <name>India</name> to me sent,</l>
+<l n="2">Is dead, al-fowles her exequies frequent.</l>
+<l n="3">Go goodly birdes, striking your breasts bewaile,</l>
+<l n="4">And with rough clawes your tender cheekes assaile.</l>
+<l n="5">For wofull haires let piece-torne plumes abound,</l>
+<l n="6">For long shrild trumpets let your notes resound.</l>
+<l n="7">Why <name>Philomele</name> doest <name>Tereus</name> leudnesse mourne?</l>
+<l n="8">All wasting years have that complaint out worne.</l>
+<l n="9">Thy tunes let this rare birdes sad funerall borrowe,</l>
+<l n="10"><name>Itis</name> is great, but auntient cause of sorrowe.</l>
+<l n="11">All you whose pineons in the cleare aire sore,</l>
+<l n="12">But most thou friendly turtle-dove, deplore.</l>
+<l n="13">Full concord all your lives was you betwixt,</l>
+<l n="14">And to the end your constant faith stood fixt.</l>
+<l n="15">What <name>Pylades</name> did to <name>Orestes</name> prove,</l>
+<l n="16">Such to the parrat was the turtle dove.</l>
+<l n="17">But what availde this faith? her rarest hue?</l>
+<l n="18">Or voice that howe to change the wilde notes knew?</l>
+<l n="19">What helpes it thou wert given to please my wench,</l>
+<l n="20">Birdes haples glory, death thy life doth quench.</l>
+<l n="21">Thou with thy quilles mightst make greene <name>Emeralds</name> darke,</l>
+<l n="22">And passe our scarlet of red saifrons marke.</l>
+<l n="23">No such voice-feigning bird was on the ground,</l>
+<l n="24">Thou spokest thy words so well with stammering sound.</l>
+<l n="25">Envy hath rapt thee, no fierce warres thou movedst,</l>
+<l n="26">Vaine babling speech, and pleasant peace thou lovedst.</l>
+<l n="27">Behould how quailes among their battailes live,</l>
+<l n="28">Which do perchance old age unto them give.</l>
+<l n="29">A little fild thee, and for love of talke,</l>
+<l n="30">Thy mouth to taste of many meates did balke.</l>
+<l n="31">Nuts were thy food, and Poppie causde thee sleepe,</l>
+<l n="32">Pure waters moisture thirst away did keepe.</l>
+<l n="33">The ravenous vulture lives, the Puttock hovers</l>
+<l n="34">Around the aire, the Cadesse raine discovers,</l>
+<l n="35">And Crowes survive armes-bearing <name>Pallas</name> hate,</l>
+<l n="36">Whose life nine ages scarce bring out of date.</l>
+<l n="37">Dead is that speaking image of mans voice,</l>
+<l n="38">The Parrat given me, the farre worlds best choice.</l>
+<l n="39">The greedy spirits take the best things first,</l>
+<l n="40">Supplying their voide places with the worst.</l>
+<l n="41"><name>Thersites</name> did <name>Protesilaus</name> survive,</l>
+<l n="42">And <name>Hector</name> dyed his brothers yet alive.</l>
+<l n="43">My wenches vowes for thee what should I show,</l>
+<l n="44">Which storrnie South-windes into sea did blowe?</l>
+<l n="45">The seventh day came, none following mightst thou see,</l>
+<l n="46">And the fates distaffe emptie stood to thee,</l>
+<l n="47">Yet words in thy benummed palate rung,</l>
+<l n="48">Farewell <name>Corinna</name> cryed thy dying tongue.</l>
+<l n="49"><name>Elisium</name> hath a wood of holme trees black,</l>
+<l n="50">Whose earth doth not perpetuall greene-grasse lacke,</l>
+<l n="51">There good birds rest (if we beleeve things hidden)</l>
+<l n="52">Whence uncleane fowles are said to be forbidden.</l>
+<l n="53">There harrnelesse Swans feed all abroad the river,</l>
+<l n="54">There lives the <name>Phoenix</name> one alone bird ever.</l>
+<l n="55">There <name>Junoes</name> bird displayes his gorgious feather,</l>
+<l n="56">And loving Doves kisse eagerly together.</l>
+<l n="57">The Parrat into wood receiv'd with these,</l>
+<l n="58">Turnes all the goodly birdes to what she please.</l>
+<l n="59">A grave her bones hides, on her corps great grave,</l>
+<l n="60">The little stones these little verses have.</l>
+<l n="61">This tombe approoves, I pleasde my mistresse well,</l>
+<l n="62">My mouth in speaking did all birds excell.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="7">
+<head>ELEGIA 7</head>
+
+<argument xml:lang="la"><p>Amica se purgat, quod ancillam non amet</p></argument>
+
+<l n="1">Doost me of new crimes aiwayes guilty frame?</l>
+<l n="2">To over-come, so oft to fight I shame.</l>
+<l n="3">If on the Marble Theater I looke,</l>
+<l n="4">One among many is to grieve thee tooke.</l>
+<l n="5">If some faire wench me secretly behold,</l>
+<l n="6">Thou arguest she doth secret markes unfold.</l>
+<l n="7">If I praise any, thy poore haires thou tearest,</l>
+<l n="8">If blame, dissembling of my fault thou fearest.</l>
+<l n="9">If I looke well, thou thinkest thou doest not move,</l>
+<l n="10">If ill, thou saiest I die for others love.</l>
+<l n="11">Would I were culpable of some offence,</l>
+<l n="12">They that deserve paine, beare't with patience.</l>
+<l n="13">Now rash accusing, and thy vaine beliefe,</l>
+<l n="14">Forbid thine anger to procure my griefe.</l>
+<l n="15">Loe how the miserable great eared <name>Asse</name>,</l>
+<l n="16">Duld with much beating slowly forth doth passe.</l>
+<l n="17">Behold <name>Cypassis</name> wont to dresse thy head,</l>
+<l n="18">Is charg'd to violate her mistresse bed.</l>
+<l n="19">The Gods from this sinne rid me of suspition,</l>
+<l n="20">To like a base wench of despisd condition.</l>
+<l n="21">With <name>Venus</name> game who will a servant grace?</l>
+<l n="22">Or any back made rough with stripes imbrace?</l>
+<l n="23">Adde she was diligent thy locks to braide,</l>
+<l n="24">And for her skill to thee a grateflill maide.</l>
+<l n="25">Should I sollicit her that is so just:</l>
+<l n="26">To take repulse, and cause her shew my lust?</l>
+<l n="27">I sweare by <name>Venus</name>, and the wingd boyes bowe,</l>
+<l n="28">My selfe unguilty of this crime I know.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="8">
+<head>ELEGIA 8</head>
+
+<argument xml:lang="la"><p>Ad Cypassim ancillam Corinnoe</p></argument>
+
+<l n="1"><name>Cypassis</name> that a thousand wayes trimst haire,</l>
+<l n="2">Worthy to keembe none but a Goddesse faire,</l>
+<l n="3">Our pleasant scapes shew thee no clowne to be,</l>
+<l n="4">Apt to thy mistrisse, but more apt to me.</l>
+<l n="5">Who that our bodies were comprest bewrayde?</l>
+<l n="6">Whence knowes <name>Corinna</name> that with thee I playde?</l>
+<l n="7">Yet blusht I not, nor usde I any saying,</l>
+<l n="8">That might be urg'd to witnesse our false playing.</l>
+<l n="9">What if a man with bond-women offend,</l>
+<l n="10">To prove him foolish did I ere contend?</l>
+<l n="11"><name>Achilles</name> burnt with face of captive <name>Briseis</name>,</l>
+<l n="12">Great <name>Agamemnon</name> lov'd his servant <name>Chriseis</name>.</l>
+<l n="13">Greater then these my selfe I not esteeme,</l>
+<l n="14">What graced Kings, in me no shame I deeme.</l>
+<l n="15">But when on thee her angry eyes did rush,</l>
+<l n="16">In both thy cheekes she did perceive thee blush,</l>
+<l n="17">But being present, might that worke the best,</l>
+<l n="18">By <name>Venus</name>Deity how did I protest.</l>
+<l n="19">Thou Goddesse doest command a warme South-blast,</l>
+<l n="20">My false oathes in <name>Carpathian</name> seas to cast.</l>
+<l n="21">For which good turne my sweete reward repay,</l>
+<l n="22">Let me lie with thee browne <name>Cypasse</name> to day.</l>
+<l n="23">Ungrate why feignest new feares? and doest refuse;</l>
+<l n="24">Well majest thou one thing for thy Mistresse use.</l>
+<l n="25">If thou deniest foole, lie our deeds expresse,</l>
+<l n="26">And as a traitour mine owne fault confesse.</l>
+<l n="27">Telling thy mistresse, where I was with thee,</l>
+<l n="28">How oft, and by what meanes we did agree.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="9">
+<head>ELEGIA 9</head>
+
+<argument xml:lang="la"><p>Ad Cupidinem</p></argument>
+
+<l n="1">O <name>Cupid</name> that doest never cease my smart,</l>
+<l n="2">O boy that lyest so slothfull in my heart.</l>
+<l n="3">Why me that alwayes was thy souldiour found,</l>
+<l n="4">Doest harme, and in thy tents why doest me wound?</l>
+<l n="5">Why burnes thy brand, why strikes thy bow thy friends?</l>
+<l n="6">More glory by thy vanquisht foes assends.</l>
+<l n="7">Did not <name>Pelides</name> whom his Speare did grieve,</l>
+<l n="8">Being requirde, with speedy helpe relieve?</l>
+<l n="9">Hunters leave taken beasts, pursue the chase,</l>
+<l n="10">And then things found do ever flirther pace.</l>
+<l n="11">We people wholy given thee, feele thine armes,</l>
+<l n="12">Thy dull hand stayes thy striving enemies harmes.</l>
+<l n="13">Doest joy to have thy hooked Arrowes shaked,</l>
+<l n="14">In naked bones? love hath my bones left naked.</l>
+<l n="15">So many men and maidens without love,</l>
+<l n="16">Hence with great laude thou maiest a triumph move.</l>
+<l n="17"><name>Rome</name> if her strength the huge world had not fild,</l>
+<l n="18">With strawie cabins now her courts should build.</l>
+<l n="19">The weary souldiour hath the conquerd fields,</l>
+<l n="20">His sword layed by, safe, though rude places yeelds.</l>
+<l n="21">The Docke in harbours ships drawne from the flouds,</l>
+<l n="22">Horse freed from service range abroad the woods.</l>
+<l n="23">And time it was for me to live in quiet,</l>
+<l n="24">That have so oft serv'd pretty wenches dyet.</l>
+<l n="25">Yet should I curse a God, if he but said,</l>
+<l n="26">Live without love, so sweete ill is a maide.</l>
+<l n="27">For when my loathing it of heate deprives me,</l>
+<l n="28">I know not whether my mindes whirle-wind drives me.</l>
+<l n="29">Even as a head-strong courser beares away,</l>
+<l n="30">His rider vainely striving him to stay,</l>
+<l n="31">Or as a sodaine gale thrustes into sea,</l>
+<l n="32">The haven touching barcke now nere the lea,</l>
+<l n="33">So wavering <name>Cupid</name> bringes me backe amaine,</l>
+<l n="34">And purple Love resumes his dartes againe.</l>
+<l n="35">Strike boy, I offer thee my naked brest,</l>
+<l n="36">Heere thou hast strength, here thy right hand doth rest.</l>
+<l n="37">Here of themselves thy shafts come, as if shot,</l>
+<l n="38">Better then I their quiver knowes them not.</l>
+<l n="39">Haples is he that all the night lies quiet</l>
+<l n="40">And slumbring, thinkes himselfe much blessed by it.</l>
+<l n="41">Foole, what is sleepe but image of cold death,</l>
+<l n="42">Long shalt thou rest when Fates expire thy breath.</l>
+<l n="43">But me let crafty damsells words deceive,</l>
+<l n="44">Great joyes by hope I inly shall conceive.</l>
+<l n="45">Now let her flatter me, now chide me hard,</l>
+<l n="46">Let me enjoy her oft, oft be debard.</l>
+<l n="47"><name>Cupid</name> by thee, <name>Mars</name> in great doubt doth trample,</l>
+<l n="48">And thy step-father fights by thy example.</l>
+<l n="49">Light art thou, and more windie then thy winges,</l>
+<l n="50">Joyes with uncertaine faith thou takest and brings.</l>
+<l n="51">Yet Love, if thou with thy faire mother heare,</l>
+<l n="52">Within my brest no desert empire beare.</l>
+<l n="53">Subdue the wandring wenches to thy raigne,</l>
+<l n="54">So of both people shalt thou homage gaine.</l>
+</div>
+<div type="textpart" subtype="poem" n="10">
+<head>ELEGIA 10</head>
+
+<argument xml:lang="la"><p>Ad Groecinium quod eodem tempore duas amet</p></argument>
+
+<l n="1"><name>Groecinus</name>(well I wot) thou touldst me once,</l>
+<l n="2">I could not be in love with twoo at once,</l>
+<l n="3">By thee deceived, by thee surprisde am I,</l>
+<l n="4">For now I love two women equallie:</l>
+<l n="5">Both are wel favoured, both rich in array,</l>
+<l n="6">Which is the loveliest it is hard to say:</l>
+<l n="7">This seemes the fairest, so doth that to mee,</l>
+<l n="8">And this doth please me most, and so doth she.</l>
+<l n="9">Even as a boate, tost by contrarie winde,</l>
+<l n="10">So with this love and that, wavers my minde.</l>
+<l n="11"><name>Venus</name>, why doublest thou my endlesse smart?</l>
+<l n="12">Was not one wench inough to greeve my heart?</l>
+<l n="13">Why addst thou starres to heaven, leaves to greene woods,</l>
+<l n="14">And to the vast deep sea fresh water flouds?</l>
+<l n="15">Yet this is better farre then lie alone,</l>
+<l n="16">Let such as be mine enemies have none,</l>
+<l n="17">Yea, let my foes sleepe in an emptie bed,</l>
+<l n="18">And in the midst their bodies largely spread:</l>
+<l n="19">But may soft love rowse up my drowsie eies,</l>
+<l n="20">And from my mistris bosome let me rise:</l>
+<l n="21">Let one wench cloy me with sweete loves delight,</l>
+<l n="22">If one can doote, if not, two everie night,</l>
+<l n="23">Though I am slender, I have store of pith,</l>
+<l n="24">Nor want I strength, but weight to presse her with:</l>
+<l n="25">Pleasure addes fuell to my lustfull fire,</l>
+<l n="26">I pay them home with that they most desire:</l>
+<l n="27">Oft have I spent the night in wantonnesse,</l>
+<l n="28">And in the morne beene lively nerethelesse.</l>
+<l n="29">Hees happie who loves mutuall skirmish slayes,</l>
+<l n="30">And to the Gods for that death <name>Ovid</name> prayes.</l>
+<l n="31">Let souldiour chase his enemies amaine,</l>
+<l n="32">And with his bloud etemall honour gaine,</l>
+<l n="33">Let marchants seeke wealth, and with perjured lips,</l>
+<l n="34">Being wrackt, carowse the sea tir'd by their ships:</l>
+<l n="35">But when I die, would I might droope with doing,</l>
+<l n="36">And in the midst thereof, set my soule going,</l>
+<l n="37">That at my filneralles some may weeping crie,</l>
+<l n="38">Even as he led his life, so did he die.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="11">
+<head>ELEGIA 11</head>
+
+<argument xml:lang="la"><p>Ad amicam navigantem</p></argument>
+
+<l n="1">The lofty Pine from high mount <name>Pelion</name> raught</l>
+<l n="2">Ill waies by rough seas wondring waves first taught,</l>
+<l n="3">Which rashly twixt the sharpe rocks in the deepe,</l>
+<l n="4">Caried the famous golden-fleeced sheepe.</l>
+<l n="5">O would that no Oares might in seas have suncke,</l>
+<l n="6">The <name>Argos</name> wrackt had deadly waters drunke.</l>
+<l n="7">Loe country Gods, and known bed to forsake,</l>
+<l n="8"><name>Corinna</name> meanes, and dangerous wayes to take.</l>
+<l n="9">For thee the East and West winds make me pale,</l>
+<l n="10">With Icy <name>Boreas</name>, and the Southerne gale:</l>
+<l n="11">Thou shalt admire no woods or Citties there,</l>
+<l n="12">The unjust seas all blewish do appeare.</l>
+<l n="13">The Ocean hath no painted stones or shelles,</l>
+<l n="14">The sucking shore with their aboundance swels.</l>
+<l n="15">Maides on the shore, with marble white feete tread,</l>
+<l n="16">So farre 'tis safe, but to go farther dread.</l>
+<l n="17">Let others tell how winds fierce battailes wage,</l>
+<l n="18">How <name>Scyllaes</name> and <name>Caribdis</name> waters rage.</l>
+<l n="19">And with what rockes the feard <name>Cerannia</name> threat,</l>
+<l n="20">In what gulfe either <name>Syrtes</name> have their seate.</l>
+<l n="21">Beleeve, no tempest the beleever wreakes.</l>
+<l n="22">Too late you looke back, when with anchors weighd,</l>
+<l n="23">The crooked Barque hath her swift sailes displayd.</l>
+<l n="24">The careflill ship-man now feares angry gusts,</l>
+<l n="25">And with the waters sees death neere him thrusts,</l>
+<l n="26">But if that <name>Triton</name> tosse the troubled floud,</l>
+<l n="27">In all thy face will be no crimsen bloud.</l>
+<l n="28">Then wilt thou <name>Loedas</name> noble twinne-starres pray,</l>
+<l n="29">And he is happy whom the earth holds, say.</l>
+<l n="30">It is more safe to sleepe, to read a booke,</l>
+<l n="31">The <name>Thracian</name>Harpe with cunning to have strooke,</l>
+<l n="32">But if my words with winged stormes hence slip,</l>
+<l n="33">Yet <name>Galatea</name> favour thou her ship.</l>
+<l n="34">The losse of such a wench much blame will gather,</l>
+<l n="35">Both to the Sea-nimphes, and the Sea-nimphes father.</l>
+<l n="36">Go, minding to returne with prosperous winde,</l>
+<l n="37">Whose blast may hether strongly be inclinde,</l>
+<l n="38">Let <name>Nereus</name> bend the waves unto this shore,</l>
+<l n="39">Hether the windes blowe, here the spring-tide rore.</l>
+<l n="40">Request milde <name>Zephires</name> helpe for thy availe,</l>
+<l n="41">And with thy hand assist the swelling saile.</l>
+<l n="42">I from the shore thy knowne ship first will see,</l>
+<l n="43">And say it brings her that preserveth me;</l>
+<l n="44">lIe clip and kisse thee with all contentation,</l>
+<l n="45">For thy returne shall fall the vowd oblation,</l>
+<l n="46">And in the forme of beds weele strowe soft sand,</l>
+<l n="47">Each little hill shall for a table stand:</l>
+<l n="48">There wine being fild, thou many things shalt tell,</l>
+<l n="49">How almost wrackt thy ship in maine seas fell.</l>
+<l n="50">And hasting to me, neither darkesome night,</l>
+<l n="51">Nor violent South-windes did thee ought aifright.</l>
+<l n="52">lIe thinke all true, though it be feigned matter.</l>
+<l n="53">Mine owne desires why should my selfe not flatter?</l>
+<l n="54">Let the bright day-starre cause in heaven this day be,</l>
+<l n="55">To bring that happy time so soone as may be.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="12">
+<head>ELEGIA 12</head>
+
+<argument xml:lang="la"><p>Exultat, quod amica potitus sit</p></argument>
+
+<l n="1">About my temples go triumphant bayes,</l>
+<l n="2">Conquer'd <name>Corinna</name> in my bosome layes.</l>
+<l n="3">She whom her husband, guard, and gate as foes,</l>
+<l n="4">Least Arte should winne her, firmely did inclose.</l>
+<l n="5">That victory doth chiefely triumph merit,</l>
+<l n="6">Which without bloud-shed doth the pray inherit.</l>
+<l n="7">No little ditched townes, no lowlie walles,</l>
+<l n="8">But to my share a captive damsell falles.</l>
+<l n="9">When <name>Troy</name> by ten yeares battle tumbled downe,</l>
+<l n="10">With the <name>Atrides</name> many gainde renowne.</l>
+<l n="11">But I no partner of my glory brooke,</l>
+<l n="12">Nor can an other say his helpe I tooke.</l>
+<l n="13">I guide and souldiour wunne the field and weare her,</l>
+<l n="14">I was both horse-man, foote-man, standard bearer.</l>
+<l n="15">Nor in my act hath fortune mingled chance,</l>
+<l n="16">O care-got triumph hetherwards advance.</l>
+<l n="17">Nor is my warres cause new, but for a Queene</l>
+<l n="18"><name>Europe</name>, and <name>Asia</name> in firme peace had beene.</l>
+<l n="19">The <name>Laphithes</name>,  and the <name>Centaures</name> for a woman,</l>
+<l n="20">To cruell armes their drunken selves did summon.</l>
+<l n="21">A woman forc'd the <name>Troyanes</name> new to enter</l>
+<l n="22">Warres, just <name>Latinus</name>, in thy kingdomes center:</l>
+<l n="23">A woman against late-built <name>Rome</name> did send</l>
+<l n="24">The <name>Sabine</name>Fathers, who sharpe warres intend.</l>
+<l n="25">I saw how Bulls for a white Heifer strive,</l>
+<l n="26">Shee looking on them did more courage give.</l>
+<l n="27">And me with many, but yet me without murther,</l>
+<l n="28"><name>Cupid</name> commands to move his ensignes flirther.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="13">
+<head>ELEGIA 13</head>
+
+<argument xml:lang="la"><p>Ad Isidem, ut parientem Corinnam iuvet</p></argument>
+
+<l n="1">While rashly her wombes burthen she casts out,</l>
+<l n="2">Wearie <name>Corinna</name> hath her life in doubt.</l>
+<l n="3">She secretly with me such harme attempted,</l>
+<l n="4">Angry I was, but feare my wrath exempted.</l>
+<l n="5">But she conceiv'd of me, or I amsure</l>
+<l n="6">I oft have done, what might as much procure.</l>
+<l n="7">Thou that frequents <name>Canopus</name> pleasant fields,</l>
+<l n="8"><name>Memphis</name>, and <name>Pharos</name> that sweete date trees yeelds,</l>
+<l n="9">And where swift <name>Nile</name> in his large channell slipping,</l>
+<l n="10">By seaven huge mouthes into the sea is skipping,</l>
+<l n="11">By fear'd <name>Anubis</name> visage I thee pray,</l>
+<l n="12">So in thy Temples shall <name>Osiris</name> stay,</l>
+<l n="13">And the dull snake about thy offrings creepe,</l>
+<l n="14">And in thy pompe hornd <name>Apis</name> with thee keepe,</l>
+<l n="15">Turne thy lookes hether, and in one spare twaine,</l>
+<l n="16">Thou givest my mistris life, she mine againe.</l>
+<l n="17">Shee oft hath serv'd thee upon certaine dayes,</l>
+<l n="18">Where the <name>French</name> rout engirt themselves with Bayes.</l>
+<l n="19">On labouring women thou doest pitty take,</l>
+<l n="20">Whose bodies with their heavy burthens ake.</l>
+<l n="21">My wench, <name>Lucina</name>, I intreat thee favour,</l>
+<l n="22">Worthy she is, thou shouldst in mercy save her.</l>
+<l n="23">In white, with incense Ile thine Altars greete,</l>
+<l n="24">My selfe will bring vowed gifts before thy feete,</l>
+<l n="25">Subscribing, <name>Naso</name> with <name>Corinna</name> sav'd:</l>
+<l n="26">Do but deserve gifts with this title grav'd.</l>
+<l n="27">But if in so great feare I may advize thee,</l>
+<l n="28">To have this skirmish fought, let it suffice thee.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="14">
+<head>ELEGIA 14</head>
+
+<argument xml:lang="la"><p>In amicam, quod abortivum ipsa fecerit</p></argument>
+
+<l n="1">What helpes it Woman to be free from warre?</l>
+<l n="2">Nor being arrn'd fierce troupes to follow farre?</l>
+<l n="3">If without battell selfe-wrought wounds annoy them,</l>
+<l n="4">And their owne privie weapon'd hands destroy them.</l>
+<l n="5">Who unborne infants first to slay invented,</l>
+<l n="6">Deserv'd thereby with death to be tormented.</l>
+<l n="7">Because thy belly should rough wrinckles lacke,</l>
+<l n="8">Wilt thou thy wombe-inclosed off-spring wracke?</l>
+<l n="9">Had ancient Mothers this vile custome cherisht,</l>
+<l n="10">All humaine kinde by their default had perisht.</l>
+<l n="11">Or stones, our stockes originall, should be hurld,</l>
+<l n="12">Againe by some in this unpeopled world.</l>
+<l n="13">Who should have <name>Priams</name> wealthy substance wonne,</l>
+<l n="14">If watry <name>Thetis</name> had her childe fordone?</l>
+<l n="15">In swelling wombe her twinnes had <name>Ilia</name> kilde?</l>
+<l n="16">He had not beene that conquering <name>Rome</name> did build.</l>
+<l n="17">Had <name>Venus</name> spoilde her bellies <name>Troyane</name> fruite,</l>
+<l n="18">The earth of <name>Caesars</name> had beene destitute.</l>
+<l n="19">Thou also, that wert borne faire, hadst decayed,</l>
+<l n="20">If such a worke thy mother had assayed.</l>
+<l n="21">My selfe that better dye with loving may</l>
+<l n="22">Had seene, my mother killing me, no day.</l>
+<l n="23">Why takest increasing grapes from Vine-trees full?</l>
+<l n="24">With cruell hand why doest greene Apples pull?</l>
+<l n="25">Fruites ripe will fall, let springing things increase,</l>
+<l n="26">Life is no light price of a small surcease.</l>
+<l n="27">Why with hid irons are your bowels tome?</l>
+<l n="28">And why dire poison give you babes unborne?</l>
+<l n="29">At <name>Cholcis</name> stain'd with childrens bloud men raile,</l>
+<l n="30">And mother-murtherd <name>Itis</name> they bewaile,</l>
+<l n="31">Both unkinde parents, but for causes sad,</l>
+<l n="32">Their wedlocks pledges veng'd their husbands bad.</l>
+<l n="33">What <name>Tereus</name>, what <name>Jason</name> you provokes,</l>
+<l n="34">To plague your bodies with such harmeflill strokes?</l>
+<l n="35"><name>Armenian</name>Tygers never did so ill,</l>
+<l n="36">Nor dares the Lyonesse her young whelpes kill.</l>
+<l n="37">But tender Damsels do it, though with paine,</l>
+<l n="38">Oft dyes she that her paunch-wrapt child hath slaine.</l>
+<l n="39">Shee dyes, and with loose haires to grave is sent,</l>
+<l n="40">And who ere see her, worthily lament.</l>
+<l n="41">But in the ayre let these words come to nought,</l>
+<l n="42">And my presages of no weight be thought.</l>
+<l n="43">Forgive her gratious Gods this one delict,</l>
+<l n="44">And on the next fault punishment inflict.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="15">
+<head>ELEGIA 15</head>
+<argument xml:lang="la"><p>Ad annulum, quem dono amicae dedit</p></argument>
+
+<l n="1">Thou ring that shalt my faire girles finger binde,</l>
+<l n="2">Wherein is seene the givers loving minde:</l>
+<l n="3">Be welcome to her, gladly let her take thee,</l>
+<l n="4">And her small joynts incircling round hoope make thee.</l>
+<l n="5">Fit her so well, as she is fit for me:</l>
+<l n="6">And of just compasse for her knuckles bee.</l>
+<l n="7">Blest ring thou in my mistris hand shalt lye,</l>
+<l n="8">My selfe poore wretch mine owne gifts now envie.</l>
+<l n="9">O would that sodainly into my gift,</l>
+<l n="10">I could my selfe by secret Magicke shift.</l>
+<l n="11">Then would I wish thee touch my mistris pappe,</l>
+<l n="12">And hide thy left hand underneath her lappe.</l>
+<l n="13">I would get off though straight, and sticking fast,</l>
+<l n="14">And in her bosome strangely fall at last.</l>
+<l n="15">Then I, that I may seale her privy leaves,</l>
+<l n="16">Least to the waxe the hold-fast drye gemme cleaves,</l>
+<l n="17">Would first my beautious wenches moist lips touch,</l>
+<l n="18">Onely Ile signe nought, that may grieve me much.</l>
+<l n="19">I would not out, might I in one place hit,</l>
+<l n="20">But in lesse compasse her small fingers knit.</l>
+<l n="21">My life, that I will shame thee never feare,</l>
+<l n="22">Or be a bade thou shouldst refuse to beare.</l>
+<l n="23">Weare me, when warlnest showers thy members wash,</l>
+<l n="24">And through the gemme let thy lost waters pash.</l>
+<l n="25">But seeing thee, I thinke my thing will swell,</l>
+<l n="26">And even the ring performe a mans part well.</l>
+<l n="27">Vaine things why wish I? go small gift from hand,</l>
+<l n="28">Let her my faith with thee given understand.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="16">
+<head>ELEGIA 16</head>
+<argument xml:lang="la"><p>Ad amicam, ut ad rura sua veniat</p></argument>
+
+<l n="1"><name>Sulmo</name>, <name>Pelignies</name> third part me containes,</l>
+<l n="2">A small, but wholesome soyle with watrie veynes.</l>
+<l n="3">Although the sunne to rive the earth incline,</l>
+<l n="4">And the <name>Icarian</name> froward Dog-starre shine,</l>
+<l n="5"><name>Pelignian</name> fields with liqued rivers flowe,</l>
+<l n="6">And on the soft ground fertile greene grasse growe.</l>
+<l n="7">With corne the earth abounds, with vines much more,</l>
+<l n="8">And some few pastures <name>Pallas</name>Olives bore.</l>
+<l n="9">And by the rising herbes, where cleare springs slide,</l>
+<l n="10">A grassie turffe the moistened earth doth hide.</l>
+<l n="11">But absent is my fire, lyes ile tell none,</l>
+<l n="12">My heate is heere, what moves my heate is gone.</l>
+<l n="13"><name>Pollux</name> and <name>Castor</name>, might I stand betwixt,</l>
+<l n="14">In heaven without thee would I not be fi,tt.</l>
+<l n="15">Upon the cold earth pensive let them lay,</l>
+<l n="16">That meane to travaile some long irkesome way.</l>
+<l n="17">Or els will maidens, yong-mens mates, to go</l>
+<l n="18">If they determine to persever so.</l>
+<l n="19">Then on the rough <name>Alpes</name> should I tread aloft,</l>
+<l n="20">My hard way with my mistrisse would seeme soft.</l>
+<l n="21">With her I durst the <name>LybianSyrtes </name> breake through,</l>
+<l n="22">And raging Seas in boistrous South-winds plough.</l>
+<l n="23">No barking Dogs that <name>Syllaes</name> intrailes beare,</l>
+<l n="24">Nor thy gulfes crooked <name>Malea</name>, would I feare.</l>
+<l n="25">No flowing waves with drowned ships forth poured,</l>
+<l n="26">Bycloyed <name>Charibdis</name>, and againe devoured.</l>
+<l n="27">But if sterne <name>Neptunes</name> windie powre prevaile,</l>
+<l n="28">And waters force, force helping Gods to faile,</l>
+<l n="29">With thy white armes upon my shoulders seaze,</l>
+<l n="30">So sweete a burthen I will beare with eaze.</l>
+<l n="31">The youth oft swimming to his <name>Hero</name> kinde,</l>
+<l n="32">Had then swum over, but the way was blinde.</l>
+<l n="33">But without thee, although vine-planted ground</l>
+<l n="34">Conteines me, though the streames in fields surround,</l>
+<l n="35">Though <name>Hindes</name> in brookes the running waters bring,</l>
+<l n="36">And coole gales shake the tall trees leavy spring,</l>
+<l n="37">Healthfi'll <name>Peligny</name>I esteeme nought worth,</l>
+<l n="38">Nor do I like the country of my birth.</l>
+<l n="39"><name>Sythia</name>, <name>Cilicia</name>, <name>Brittaine</name> are as good,</l>
+<l n="40">And rockes dyed crimson with <name>Prometheus</name> bloud.</l>
+<l n="41">Elmes love the Vines, the Vines with Elmes abide,</l>
+<l n="42">Why doth my mistresse from me oft devide?</l>
+<l n="43">Thou swearest, devision should not twixt us rise,</l>
+<l n="44">By me, and by my starres, thyradiant eyes.</l>
+<l n="45">Maides words more vaine and light then falling leaves,</l>
+<l n="46">Which as it seemes, hence winde and sea bereaves.</l>
+<l n="47">If any godly care of me thou hast,</l>
+<l n="48">Adde deeds unto thy promises at last.</l>
+<l n="49">And with swift Naggs drawing thy little Coach,</l>
+<l n="50">(Their reines let loose) right soone my house approach.</l>
+<l n="51">But when she comes, you swelling mounts sinck downe,</l>
+<l n="52">And falling vallies be the smooth-wayes crowne.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="17">
+<head>ELEGIA 17</head>
+
+<l n="1"><name>Quod Corinnae soli sit serviturus</name></l>
+
+<l n="2">To serve a wench if any thinke it shame,</l>
+<l n="3">He being Judge, I am convinc'd of blame.</l>
+<l n="4">Let me be slandered, while my fire she hides,</l>
+<l n="5">That <name>Paphos</name>, and the floud-beate <name>Cithera</name> guides.</l>
+<l n="6">Would I had beene my mistresse gentle prey,</l>
+<l n="7">Since some faire one I should of force obey.</l>
+<l n="8">Beauty gives heart, <name>Corinnas</name> lookes excell,</l>
+<l n="9">Aye me why is it knowne to her so well?</l>
+<l n="10">But by her glasse disdainefull pride she learnes,</l>
+<l n="11">Nor she her selfe but first trim'd up discernes.</l>
+<l n="12">Not though thy face in all things make thee raigne,</l>
+<l n="13">(O face most cunning mine eyes to detaine)</l>
+<l n="14">Thou oughtst therefore to scorne me for thy mate,</l>
+<l n="15">Small things with greater may be copulate.</l>
+<l n="16">Love-snarde <name>Calypso</name> is supposde to pray,</l>
+<l n="17">A mortall nimphes refusing Lord to stay.</l>
+<l n="18">Who doubts, with <name>Pelius, Thetis</name> did consort,</l>
+<l n="19"><name>Egeria</name> with just <name>Numa</name> had good sport,</l>
+<l n="20"><name>Venus</name> with <name>Vulcan</name>, though smiths tooles laide by,</l>
+<l n="21">With his stumpe-foote he halts ill-favouredly.</l>
+<l n="22">This kinde of verse is not alike, yet fit,</l>
+<l n="23">With shorter numbers the heroicke sit.</l>
+<l n="24">And thou my light accept me how so ever,</l>
+<l n="25">Lay in the mid bed, there be my law giver.</l>
+<l n="26">My stay no crime, my flight no joy shall breede,</l>
+<l n="27">Nor of our love to be asham'd we need,</l>
+<l n="28">For great revenews I good verses have,</l>
+<l n="29">And many by me to get glory crave.</l>
+<l n="30">I know a wench reports her selfe <name>Corinne</name>,</l>
+<l n="31">What would not she give that faire name to winne?</l>
+<l n="32">But sundry flouds in one banke never go,</l>
+<l n="33"><name>Eurotas</name> cold, and poplar-bearing <name>Po</name>.</l>
+<l n="34">Nor in my bookes shall one but thou be writ,</l>
+<l n="35">Thou doest alone give matter to my wit.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="18">
+<head>ELEGIA 18</head>
+<argument xml:lang="la"><p>Ad Macrum, quod de amoribus scribat</p></argument>
+
+<l n="1">To tragick verse while thou <name>Achilles</name> trainst,</l>
+<l n="2">And new sworne souldiours maiden armes retainst,</l>
+<l n="3">Wee <name>Macer</name> sit in <name>Venus</name> slothfull shade,</l>
+<l n="4">And tender love hath great things hatefull made.</l>
+<l n="5">Often at length, my wench depart, I bid,</l>
+<l n="6">Shee in my lap sits still as earst she did.</l>
+<l n="7">I sayd it irkes me: halfe to weping framed,</l>
+<l n="8">Aye me she cries, to love, why art a shamed?</l>
+<l n="9">Then wreathes about my necke her winding armes,</l>
+<l n="10">And thousand kisses gives, that worke my harmes:</l>
+<l n="11">I yeeld, and back my wit from battells bring,</l>
+<l n="12">Domesticke acts, and mine owne warres to sing.</l>
+<l n="13">Yet tragedies, and scepters fild my lines,</l>
+<l n="14">But though I apt were for such high deseignes,</l>
+<l n="15">Love laughed at my cloak, and buskines painted,</l>
+<l n="16">And rule so soone with private hands acquainted.</l>
+<l n="17">My Mistris deity also drewe me fro it,</l>
+<l n="18">And Love triumpheth ore his buskind Poet.</l>
+<l n="19">What lawfull is, or we professe Loves art,</l>
+<l n="20">(Alas my precepts turne my selfe to smart)</l>
+<l n="21">We write, or what <name>Penelope</name> sends <name>Ulysses</name>,</l>
+<l n="22">Or <name>Phillis</name> teares that her <name>Demophoon</name> misses,</l>
+<l n="23">What thanklesse <name>Jason</name>, <name>Macareus</name>, and <name>Paris</name>,</l>
+<l n="24"><name>Phedra</name>, and <name>Hipolite</name> may read, my care is,</l>
+<l n="25">And what poore <name>Dido</name> with her drawne sword sharpe,</l>
+<l n="26">Doth say, with her that lov'd the <name>Aonian</name> harpe.</l>
+<l n="27">As soone as from strange lands <name>Salinus</name> came,</l>
+<l n="28">And writings did from diverse places frame,</l>
+<l n="29">White-cheekt <name>Penelope</name> knewe <name>Ulisses</name> signe,</l>
+<l n="30">The stepdame read <name>Hyppolitus</name> lustlesse line.</l>
+<l n="31"><name>Eneas</name> to <name>Elisa</name> answere gives,</l>
+<l n="32">And <name>Phillis</name> hath to reade; if now she lives.</l>
+<l n="33"><name>Jasons</name> sad letter doth <name>Hipsipile</name> greete,</l>
+<l n="34"><name>Sappho</name> her vowed harpe laies at <name>Phoebus</name> feete.</l>
+<l n="35">Nor of thee <name>Macer</name> that resoundst forth armes,</l>
+<l n="36">Is golden love hid in <name>Mars</name> mid alarmes.</l>
+<l n="37">There <name>Paris</name> is, and <name>Helens</name> crymes record,</l>
+<l n="38">With <name>Laodameia</name> mate to her dead Lord.</l>
+<l n="39">Unlesse I erre to these thou more incline,</l>
+<l n="40">Then warres, and from thy tents wilt come to mine.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="19">
+<head>ELEGIA 19</head>
+
+<argument xml:lang="la"><p>Ad rivalem, cui uxor curae non erat</p></argument>
+
+<l n="1">Foole if to keepe thy wife thou hast no neede,</l>
+<l n="2">Keepe her for me, my more desire to breede.</l>
+<l n="3">Wee skorne things lawfiill, stolne sweetes we affect,</l>
+<l n="4">Cruell is he, that loves whom none protect.</l>
+<l n="5">Let us both lovers hope, and feare a like,</l>
+<l n="6">And may repulse place for our wishes strike.</l>
+<l n="7">What should I do with fortune that nere failes me?</l>
+<l n="8">Nothing I love, that at all times availes me.</l>
+<l n="9">Wily <name>Corinna</name> sawe this blemish in me,</l>
+<l n="10">And craftily knowes by what meanes to winne me.</l>
+<l n="11">Ah often, that her hale head aked, she lying,</l>
+<l n="12">Wild me, whose slowe feete sought delay, be flying.</l>
+<l n="13">Ah oft how much she might she feignd offence;</l>
+<l n="14">And doing wrong made shew of innocence.</l>
+<l n="15">So having vext she nourisht my warme fire,</l>
+<l n="16">And was againe most apt to my desire.</l>
+<l n="17">To please me, what faire termes and sweet words ha's shee,</l>
+<l n="18">Great gods what kisses, and how many gave she?</l>
+<l n="19">Thou also that late tookest mine eyes away,</l>
+<l n="20">Oft couzen me, oft being wooed say nay.</l>
+<l n="21">And on thy thre-shold let me lie dispred,</l>
+<l n="22">Suffring much cold by hoary nights frost bred.</l>
+<l n="23">So shall my love continue many yeares,</l>
+<l n="24">This doth delight me, this my courage cheares.</l>
+<l n="25">Fat love, and too much fulsome me annoyes,</l>
+<l n="26">Even as sweete meate a glutted stomacke cloyes.</l>
+<l n="27">In brazen tower had not <name>Danae</name> dwelt,</l>
+<l n="28">A mothers joy by <name>Jove</name> she had not felt.</l>
+<l n="29">While <name>JunoJo </name> keepes when hornes she wore,</l>
+<l n="30"><name>Jove</name> liked her better then he did before.</l>
+<l n="31">Who covets lawfull things takes leaves from woods,</l>
+<l n="32">And drinkes stolne waters in surrownding floudes.</l>
+<l n="33">Her lover let her mocke, that long will raigne,</l>
+<l n="34">Aye me, let not my warnings cause my paine.</l>
+<l n="35">What ever haps, by suifrance harme is done,</l>
+<l n="36">What flies, I followe, what followes me I shunne.</l>
+<l n="37">But thou of thy faire damsell too secure,</l>
+<l n="38">Beginne to shut thy house at evening sure.</l>
+<l n="39">Search at the dore who knocks oft in the darke,</l>
+<l n="40">In nights deepe silence why the ban-dogges barke.</l>
+<l n="41">Whether the subtile maide lines bringes and carries,</l>
+<l n="42">Why she alone in empty bed oft tarries.</l>
+<l n="43">Let this care some-times bite thee to the quick,</l>
+<l n="44">That to deceits it may me forward pricke.</l>
+<l n="45">To steale sands from the shore he loves alife,</l>
+<l n="46">That can effect a foolish wittalls wife.</l>
+<l n="47">Now I forewarne, unlesse to keepe her stronger,</l>
+<l n="48">Thou doest beginne, she shall be mine no longer.</l>
+<l n="49">Long have I borne much, hoping time would beate thee</l>
+<l n="50">To guard her well, that well I might entreate thee.</l>
+<l n="51">Thou suifrest what no husband can endure,</l>
+<l n="52">But of my love it will an end procure.</l>
+<l n="53">Shall I poore soule be never interdicted?</l>
+<l n="54">Nor never with nights sharpe revenge afflicted?</l>
+<l n="55">In sleeping shall I fearelesse drawe my breath?</l>
+<l n="56">Wilt nothing do, why I should wish thy death?</l>
+<l n="57">Can I but loath a husband growne a baude?</l>
+<l n="58">By thy default thou doest our joyes defraude.</l>
+<l n="59">Some other seeke that may in patience strive with thee,</l>
+<l n="60">To pleasure me, for-bid me to corive with thee.</l>
+</div></div>
+<div type="textpart" subtype="book" n="3">
+<head>P. Ovidii Nasonis Amorum Liber tertius</head>
+<div type="textpart" subtype="poem" n="1">
+<head>ELEGIA 1</head>
+
+<argument xml:lang="la"><p>Deliberatio poetae, utrum elegos pergat scribere
+an potius tragedias</p></argument>
+
+<l n="1">An old wood, stands uncut of long yeares space,</l>
+<l n="2">Tis credible some god-head haunts the place.</l>
+<l n="3">In midst thereof a stone-pav'd sacred spring,</l>
+<l n="4">Where round about small birdes most sweetely sing.</l>
+<l n="5">Heere while I walke hid close in shadie grove,</l>
+<l n="6">To finde, what worke my muse might move, I strove.</l>
+<l n="7"><name>Elegia</name> came with haires perfumed sweete,</l>
+<l n="8">And one, I thinke, was longer, of her feete.</l>
+<l n="9">A decent forme, thinne robe, a lovers looke,</l>
+<l n="10">By her footes blemish greater grace she tooke.</l>
+<l n="11">Then with huge steps came violent <name>Tragedie</name>,</l>
+<l n="12">Sterne was her front, her cloake on ground did lie.</l>
+<l n="13">Her left hand held abroad a regal scepter,</l>
+<l n="14">The <name>Lydian</name> buskin in fit paces kept her.</l>
+<l n="15">And first she sayd, when will thy love be spent,</l>
+<l n="16">O Poet carelesse of thy argument?</l>
+<l n="17">Wine-bibbing banquets tell thy naughtinesse,</l>
+<l n="18">Each crosse waies corner doth as much expresse.</l>
+<l n="19">Oft some points at the prophet passing by,</l>
+<l n="20">And this is he whom fierce love burnes, they cry.</l>
+<l n="21">A laughing stocke thou art to all the citty,</l>
+<l n="22">While without shame thou singst thy lewdnesse ditty.</l>
+<l n="23">Tis time to move grave things in lofty stile,</l>
+<l n="24">Long hast thou loyterd, greater workes compile.</l>
+<l n="25">The subject hides thy wit, mens acts resound,</l>
+<l n="26">This thou wilt say to be a worthy ground.</l>
+<l n="27">Thy muse hath played what may milde girles content,</l>
+<l n="28">And by those numbers is thy first youth spent.</l>
+<l n="29">Now give the <name>Roman</name>Tragedie a name,</l>
+<l n="30">To fill my lawes thy wanton spirit frame.</l>
+<l n="31">This saied, she mov'd her buskins gaily varnisht,</l>
+<l n="32">And seaven times shooke her head with thicke locks garnisht.</l>
+<l n="33">The other smilde, (I wot) with wanton eyes,</l>
+<l n="34">Erre I? or mirtle in her right hand lies.</l>
+<l n="35">With lofty wordes stout <name>Tragedie</name>(she sayd)</l>
+<l n="36">Why treadst me downe? art thou aye gravely plaied?</l>
+<l n="37">Thou deignst unequall lines should thee rehearse,</l>
+<l n="38">Thou fightst against me using mine owne verse.</l>
+<l n="39">Thy lofty stile with mine I not compare,</l>
+<l n="40">Small doores unfitting for large houses are.</l>
+<l n="41">Light am I, and with me, my care, light love,</l>
+<l n="42">Not stronger am I, then the thing I move.</l>
+<l n="43"><name>Venus</name> without me should be rusticall,</l>
+<l n="44">This goddesse company doth to me befall.</l>
+<l n="45">What gate thy stately words cannot unlocke,</l>
+<l n="46">My flatt'rihg speeches soone wide open knocke.</l>
+<l n="47">And I deserve more then thou canst in verity,</l>
+<l n="48">By suifring much not borne by thy severity.</l>
+<l n="49">By me <name>Corinna</name> learnes, cousening her guard,</l>
+<l n="50">To get the dore with little noise unbard.</l>
+<l n="51">And slipt from bed cloth'd in a loose night-gowne,</l>
+<l n="52">To move her feete unheard in setting downe.</l>
+<l n="53">Ah howe oft on hard doores hung I engrav'd,</l>
+<l n="54">From no mans reading fearing to be sav'd.</l>
+<l n="55">But till the keeper went forth, I forget not,</l>
+<l n="56">The maide to hide me in her bosome let not.</l>
+<l n="57">What gift with me was on her birth day sent,</l>
+<l n="58">But cruelly by her was drown'd and rent.</l>
+<l n="59">First of thy minde the happy seedes I knewe,</l>
+<l n="60">Thou hast my gift, which she would from thee sue.</l>
+<l n="61">She left; I say'd, you both I must beseech,</l>
+<l n="62">To empty aire may go my fearefull speech.</l>
+<l n="63">With scepters, and high buskins th'one would dresse me,</l>
+<l n="64">So through the world shold bright renown expresse me.</l>
+<l n="65">The other gives my love a conquering name,</l>
+<l n="66">Come therefore, and to long verse shorter frame.</l>
+<l n="67">Graunt <name>Tragedie</name> thy Poet times least tittle,</l>
+<l n="68">Thy labour ever lasts, she askes but little.</l>
+<l n="69">She gave me leave, soft loves in time make hast,</l>
+<l n="70">Some greater worke will urge me on at last.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="2">
+<head>ELEGIA 2</head>
+
+<argument xml:lang="la"><p>Ad amicam cursum equorum spectantem</p></argument>
+
+<l n="1">I sit not here the noble horse to see,</l>
+<l n="2">Yet whom thou favourst, pray may conquerour be.</l>
+<l n="3">To sit, and talke with thee I hether came,</l>
+<l n="4">That thou maiest know with love thou mak'st me flame.</l>
+<l n="5">Thou viewst the course, I thee: let either heed</l>
+<l n="6">What please them, and their eyes let either feede.</l>
+<l n="7">What horse-driver thou favourst most is best,</l>
+<l n="8">Because on him thy care doth hap to rest.</l>
+<l n="9">Such chaunce let me have: I would bravely runne,</l>
+<l n="10">On swift steedes mounted till the race were done.</l>
+<l n="11">Now would I slacke the reines, now lash their hide,</l>
+<l n="12">With wheeles bent inward now the ring-turne ride.</l>
+<l n="13">In running if I see thee, I shall stay,</l>
+<l n="14">And from my hands the reines will slip away.</l>
+<l n="15">Ah <name>Pelops</name> from his coach was almost feld,</l>
+<l n="16"><name>Hippodameias</name> lookes while he beheld.</l>
+<l n="17">Yet he attain'd by her support to have her,</l>
+<l n="18">Let us all conquer by our mistris favour.</l>
+<l n="19">In vaine why flyest backe? force conjoynes us now:</l>
+<l n="20">The places lawes this benefit allowe.</l>
+<l n="21">But spare my wench thou at her right hand seated,</l>
+<l n="22">By thy sides touching ill she is entreated.</l>
+<l n="23">And sit thou rounder, that behind us see,</l>
+<l n="24">For shame presse not her backe with thy hard knee.</l>
+<l n="25">But on the ground thy cloathes too loosely lie,</l>
+<l n="26">Gather them up, or lift them be will I.</l>
+<l n="27">Envious garments so good legges to hide,</l>
+<l n="28">The more thou look'st, the more the gowne envide.</l>
+<l n="29">Swift <name>Atalantas</name> flying legges like these,</l>
+<l n="30">Wish in his hands graspt did <name>Hippomenes</name>.</l>
+<l n="31">Coate-tuckt <name>Dianas</name> legges are painted like them,</l>
+<l n="32">When strong wilde beasts, she stronger hunts to strike them.</l>
+<l n="33">Ere these were seene, I burnt: what will these do?</l>
+<l n="34">Flames into flame, flouds thou powrest seas into.</l>
+<l n="35">By these I judge, delight me may the rest,</l>
+<l n="36">Which lie hid under her thinne veile supprest.</l>
+<l n="37">Yet in the meane time wilt small windes bestowe,</l>
+<l n="38">That from thy fanne, mov'd by my hand may blow?</l>
+<l n="39">Or is my heate, of minde, not of the skie?</l>
+<l n="40">1st womens love my captive brest doth frie?</l>
+<l n="41">While thus I speake, blacke dust her white robes ray:</l>
+<l n="42">Foule dust, from her faire body, go away.</l>
+<l n="43">Now comes the pompe; themselves let all men cheere:</l>
+<l n="44">The shout is nigh; the golden pompe comes heere.</l>
+<l n="45">First Victory is brought with large spred wing,</l>
+<l n="46">Goddesse come here, make my love conquering.</l>
+<l n="47">Applaud you <name>Neptune</name>, that dare trust his wave,</l>
+<l n="48">The sea I use not: me my earth must have.</l>
+<l n="49">Souldiour applaud thy <name>Mars</name>: no warres we move,</l>
+<l n="50">Peace pleaseth me, and in mid peace is love.</l>
+<l n="51">With <name>Augures Phoebus, Phoebe</name> with hunters standes,</l>
+<l n="52">To thee <name>Minerva</name> turne the craftes-mens hands.</l>
+<l n="53"><name>Ceres</name> and <name>Bacchus</name>Country-men adore,</l>
+<l n="54">Champions pleace <name>Pollux, Castor</name> love horsemen more</l>
+<l n="55">Thee gentle <name>Venus</name>, and the boy that flies,</l>
+<l n="56">We praise: great goddesse ayde my enterprize.</l>
+<l n="57">Let my new mistris graunt to be beloved:</l>
+<l n="58">She beckt, and prosperous signes gave as she moved.</l>
+<l n="59">What <name>Venus</name> promisd, promise thou we pray,</l>
+<l n="60">Greater then her, by her leave th'art, Ile say.</l>
+<l n="61">The Gods, and their rich pompe witnesse with me,</l>
+<l n="62">For evermore thou shalt my mistris be.</l>
+<l n="63">Thy legges hang-downe: thou maiest, if that be best,</l>
+<l n="64">A while thy tiptoes on the foote-stoole rest.</l>
+<l n="65">Now greatest spectacles the <name>Prator</name> sends,</l>
+<l n="66">Fower chariot-horses from the lists even ends.</l>
+<l n="67">I see whom thou affectest: he shall subdue,</l>
+<l n="68">The horses seeme, as thy desire they knewe.</l>
+<l n="69">Alas he runnes too farre about the ring,</l>
+<l n="70">What doest? thy wagon in lesse compasse bring.</l>
+<l n="71">What doest, unhappy? her good wishes fade,</l>
+<l n="72">Let with strong hand the reine to bend be made.</l>
+<l n="73">One slowe we favour, <name>Romans</name> him revoke:</l>
+<l n="74">And each give signes by casting up his cloake.</l>
+<l n="75">They call him backe: least their gownes tosse thy haire,</l>
+<l n="76">To hide thee in my bosome straight repaire.</l>
+<l n="77">But now againe the barriers open lye;</l>
+<l n="78">And forth the gay troupes on swift horses flie.</l>
+<l n="79">At least now conquer, and out-runne the rest:</l>
+<l n="80">My mistris wish confirme with my request.</l>
+<l n="81">My mistris hath her wish, my wish remaine:</l>
+<l n="82">He holdes the palme: my palme is yet to game.</l>
+<l n="83">She smilde, and with quicke eyes behight some grace:</l>
+<l n="84">Pay it not heere, but in an other place.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="3">
+<head>ELEGIA 3</head>
+
+<argument xml:lang="la"><p>De amica, quoe periuraverat</p></argument>
+
+<l n="1">What, are there Gods? her selfe she hath forswore,</l>
+<l n="2">And yet remaines the face she had before.</l>
+<l n="3">How long her lockes were, ere her oath she tooke:</l>
+<l n="4">So long they be, since she her faith forsooke.</l>
+<l n="5">Faire white with rose red was before commixt:</l>
+<l n="6">Now shine her lookes pure white and red betwixt.</l>
+<l n="7">Her foote was small: her footes forme is most fit:</l>
+<l n="8">Comely tall was she, comely tall shee's yet.</l>
+<l n="9">Sharpe eyes she had: radiant like starres they be,</l>
+<l n="10">By which she perjurd oft hath lyed to me.</l>
+<l n="11">Insooth th'eternall powers graunt maides society</l>
+<l n="12">Falsely to sweare, their beauty hath some deity.</l>
+<l n="13">By her eyes I remember late she swore,</l>
+<l n="14">And by mine eyes, and mine were pained sore.</l>
+<l n="15">Say gods: if she unpunisht you deceive,</l>
+<l n="16">For others faults, why do I losse receive?</l>
+<l n="17">But did you not so envy <name>Cepheus</name>Daughter,</l>
+<l n="18">For her ill-beautious Mother judgd to slaughter?</l>
+<l n="19">Tis not enough, she shakes your record off;</l>
+<l n="20">And unrevengd mockt Gods with me doth scoffe.</l>
+<l n="21">But by my paine to purge her perjuries,</l>
+<l n="22">Couzend, I am the couzeners sacrifice.</l>
+<l n="23">God is a name, no substance, feard in vaine,</l>
+<l n="24">And doth the world in fond beliefe deteine.</l>
+<l n="25">Or if there be a God, he loves fine wenches,</l>
+<l n="26">And all things too much in their sole power drenches.</l>
+<l n="27"><name>Mars</name> girts his deadly sword on for my harme:</l>
+<l n="28"><name>Pallas</name> launce strikes me with unconquerd arme.</l>
+<l n="29">At me <name>Apollo</name> bends his pliant bowe:</l>
+<l n="30">At me <name>Joves</name> right-hand lightning hath to throwe.</l>
+<l n="31">The wronged Gods dread faire ones to offend,</l>
+<l n="32">And feare those, that to feare them least intend.</l>
+<l n="33">Who now will care the Altars to perfilme?</l>
+<l n="34">Tut, men should not their courage so consume.</l>
+<l n="35"><name>Jove</name> throwes downe woods, and Castles with his fire:</l>
+<l n="36">But bids his darts from perjurd girles retire.</l>
+<l n="37">Poore <name>Semele</name>, among so many burn'd;</l>
+<l n="38">Her owne request to her owne torment turnd.</l>
+<l n="39">But when her lover came, had she drawne backe,</l>
+<l n="40">The fathers thigh should unborne <name>Bacchus</name> lacke.</l>
+<l n="41">Why grieve I? and of heaven reproches pen?</l>
+<l n="42">The Gods have eyes, and brests as well as men.</l>
+<l n="43">Were I a God, I should give women leave,</l>
+<l n="44">With lying lips my God-head to deceave,</l>
+<l n="45">My selfe would sweare, the wenches true did sweare,</l>
+<l n="46">And I would be none of the Gods severe.</l>
+<l n="47">But yet their gift more moderately use,</l>
+<l n="48">Or in mine eyes good wench no paine transfuse.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="4">
+<head>ELEGIA 4</head>
+
+<argument xml:lang="la"><p>Advirum servantem conjugem</p></argument>
+
+<l n="1">Rude man, 'tis vaine, thy damsell to commend</l>
+<l n="2">To keepers frust: their wits should them defend.</l>
+<l n="3">Who, without feare, is chaste, is chast in sooth:</l>
+<l n="4">Who, because meanes want, doeth not, she doth.</l>
+<l n="5">Though thou her body guard, her minde is staind:</l>
+<l n="6">Nor, least she will, can any be restrainde.</l>
+<l n="7">Nor canst by watching keepe her minde from sinne.</l>
+<l n="8">All being shut out, th'adulterer is within.</l>
+<l n="9">Who may offend, sinnes least; power to do ill,</l>
+<l n="10">The fainting seedes of naughtinesse doth kill.</l>
+<l n="11">Forbeare to kindle vice by prohibition,</l>
+<l n="12">Sooner shall kindnesse game thy wills fruition.</l>
+<l n="13">I saw a horse against the bitte stiffe-neckt,</l>
+<l n="14">Like lightning go, his strugling mouth being checkt.</l>
+<l n="15">When he perceivd the reines let slacke, he stayde,</l>
+<l n="16">And on his loose mane the loose bridle laide.</l>
+<l n="17">How to attaine, what is denyed, we thinke,</l>
+<l n="18">Even as the sicke desire forbidden drinke.</l>
+<l n="19"><name>Argus</name> had either way an hundred eyes,</l>
+<l n="20">Yet by deceit Love did them all surprize.</l>
+<l n="21">In stone, and Yron walles <name>Danae</name> shut,</l>
+<l n="22">Came forth a mother, though a maide there put.</l>
+<l n="23"><name>Penelope</name>, though no watch look'd unto her,</l>
+<l n="24">Was not defilde by any gallant wooer.</l>
+<l n="25">What's kept, we covet more: the care makes theft:</l>
+<l n="26">Few love, what others have unguarded left.</l>
+<l n="27">Nor doth her face please, but her husbands love;</l>
+<l n="28">I know not, what men thinke should thee so move.</l>
+<l n="29">She is not chaste, that's kept, but a deare whore:</l>
+<l n="30">Thy feare is, then her body, valued more.</l>
+<l n="31">Although thou chafe, stolne pleasure is sweet play,</l>
+<l n="32">She pleaseth best, I feare, if any say.</l>
+<l n="33">A free-borne wench, no right 'tis up to locke:</l>
+<l n="34">So use we women of strange nations stocke.</l>
+<l n="35">Because the keeper may come say, I did it,</l>
+<l n="36">She must be honest to thy servants credit.</l>
+<l n="37">He is too clownish, whom a lewd wife grieves,</l>
+<l n="38">And this townes well knowne customes not beleeves,</l>
+<l n="39">Where <name>Mars</name> his sonnes not without fault did breed,</l>
+<l n="40"><name>Remus</name> and <name>Romulus, Ilias</name> twinne-borne seed.</l>
+<l n="41">Cannot a faire one, if not chast, please thee?</l>
+<l n="42">Never can these by any meanes agree.</l>
+<l n="43">Kindly thy mistris use, if thou be wise.</l>
+<l n="44">Looke gently, and rough husbands lawes despise.</l>
+<l n="45">Honour what friends thy wife gives, sheele give many:</l>
+<l n="46">Least labour so shall winne great grace of any.</l>
+<l n="47">So shalt thou go with youths to feasts together,</l>
+<l n="48">And see at home much, that thou nere broughtst thether.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="5">
+<head>ELEGIA 5</head>
+
+<argument xml:lang="la"><p>Ad amnem, dum iter faceret ad amicam</p></argument>
+
+<l n="1">Floud with reede-growne slime bankes, till I be past</l>
+<l n="2">Thy waters stay: I to my mistris hast.</l>
+<l n="3">Thou hast no bridge, nor boate with ropes to throw,</l>
+<l n="4">That may transport me without oares to rowe.</l>
+<l n="5">Thee I have pass'd, and knew thy streame none such,</l>
+<l n="6">When thy waves brim did scarse my anckles touch.</l>
+<l n="7">With snow thaw'd from the next hill now thou rushest,</l>
+<l n="8">And in thy foule deepe waters thicke thou gushest.</l>
+<l n="9">What helpes my hast: what to have tane small rest?</l>
+<l n="10">What day and night to travaile in her quest?</l>
+<l n="11">If standing here I can by no meanes get,</l>
+<l n="12">My foote upon the further banke to set.</l>
+<l n="13">Now wish I those wings noble <name>Perseus</name> had,</l>
+<l n="14">Bearing the head with dreadfull Adders clad,</l>
+<l n="15">Now wish the chariot, whence corne seedes were found,</l>
+<l n="16">First to be throwne upon the untill'd ground.</l>
+<l n="17">I speake old Poets wonderfull inventions,</l>
+<l n="18">Nere was, nor shall be, what my verse mentions.</l>
+<l n="19">Rather thou large banke over-flowing river,</l>
+<l n="20">Slide in thy bounds, so shalt thou runne for ever.</l>
+<l n="21">(Trust me) land-streame thou shalt no envie lack,</l>
+<l n="22">If I a lover bee by thee held back.</l>
+<l n="23">Great flouds ought to assist young men in love,</l>
+<l n="24">Great flouds the force of it do often prove.</l>
+<l n="25">In mid <name>Bithynia</name>'tis said <name>Inachus</name>,</l>
+<l n="26">Grew pale, and in cold foords hot lecherous.</l>
+<l n="27"><name>Troy</name> had not yet beene ten yeares siege out-stander,</l>
+<l n="28">Whem nimph-Necera rapt thy lookes <name>Scamander</name>.</l>
+<l n="29">What? not <name>Alpheus</name> in strange lands to runne,</l>
+<l n="30">Th'<name>Arcadian</name>Virgins constant love hath wunne?</l>
+<l n="31">And <name>Crusa</name> unto <name>Zanthus</name> first affide,</l>
+<l n="32">They say <name>Peneus</name> neere <name>Phthias</name> towne did hide.</l>
+<l n="33">What should I name <name>Aesope</name>, that <name>Thebe</name> lov'd,</l>
+<l n="34"><name>Thebe</name> who Mother of five Daughters prov'd?</l>
+<l n="35">If <name>Achelous</name>, I aske where thy hornes stand,</l>
+<l n="36">Thou saiest broke with <name>Alcides</name> angry hand.</l>
+<l n="37">Not <name>Calydon</name>, nor <name>Aetolia</name> did please:</l>
+<l n="38">One <name>Dejanira</name> was more worth then these.</l>
+<l n="39">Rich <name>Nile</name> by seaven mouthes to the vast sea flowing,</l>
+<l n="40">Who so well keepes his waters head from knowing,</l>
+<l n="41">Is by <name>Evadne</name> thought to take such flame,</l>
+<l n="42">As his deepe whirle-pooles could not quench the same.</l>
+<l n="43">Drye <name>Enipeus, Tyro</name> to embrace,</l>
+<l n="44">Flye backe his streame chargd, the streame chargd, gave place.</l>
+<l n="45">Nor passe I thee, who hollow rocks downe tumbling,</l>
+<l n="46">In <name>Tiburs</name> field with watry fome art rumbling,</l>
+<l n="47">Whom <name>Ilia</name> pleasd, though in her lookes griefe reveld,</l>
+<l n="48">Her cheekes were scratcht, her goodly haires discheveld.</l>
+<l n="49">She wailing <name>Mars</name> sinne, and her uncles crime,</l>
+<l n="50">Strayd bare-foote through sole places on a time.</l>
+<l n="51">Her, from his swift waves, the bold floud perceav'd,</l>
+<l n="52">And from the mid foord his hoarse voice upheav'd,</l>
+<l n="53">Saying, why sadly treadst my banckes upon,</l>
+<l n="54"><name>Iija</name>, sprung from <name>Idaen Laomedon</name>?</l>
+<l n="55">Where's thy attire? why wand'rest heere alone?</l>
+<l n="56">To stay thy tresses white veyle hast thou none?</l>
+<l n="57">Why weepst? and spoilst with teares thy watry eyes?</l>
+<l n="58">And fiercely knockst thy brest that open lyes?</l>
+<l n="59">His heart consists of flint, and hardest steele,</l>
+<l n="60">That seeing thy teares can any joy then feele.</l>
+<l n="61">Feare not: to thee our Court stands open wide,</l>
+<l n="62">There shalt be lov'd: <name>Ilia</name> lay feare aside.</l>
+<l n="63">Thou ore a hundreth Nimphes, or more shalt raigne:</l>
+<l n="64">For five score Nimphes, or more our flouds conteine.</l>
+<l n="65">Nor <name>Romane</name> stocke scorne me so much (I crave)</l>
+<l n="66">Gifts then my promise greater thou shalt have.</l>
+<l n="67">This said he: shee her modest eyes held downe,</l>
+<l n="68">Her wofull bosome a warme shower did drowne.</l>
+<l n="69">Thrice she prepar'd to flie, thrice she did stay,</l>
+<l n="70">By feare depriv'd of strength to runne away.</l>
+<l n="71">Yet rending with enraged thumbe her tresses,</l>
+<l n="72">Her trembling mouth these unmeete sounds expresses.</l>
+<l n="73">O would in my fore-fathers tombe deepe layde,</l>
+<l n="74">My bones had beene, while yet I was a maide.</l>
+<l n="75">Why being a vestall am I wooed to wed,</l>
+<l n="76">Deflowr'd and stained in unlawfull bed?</l>
+<l n="77">Why stay I? men point at me for a whore,</l>
+<l n="78">Shame, that should make me blush, I have no more.</l>
+<l n="79">This said: her coate hood-winckt her fearefull eyes,</l>
+<l n="80">And into water desperately she flies.</l>
+<l n="81">Tis said the slippery streame held up her brest,</l>
+<l n="82">And kindly gave her, what she liked best.</l>
+<l n="83">And I beleeve some wench thou hast affected:</l>
+<l n="84">But woods and groves keepe your faults undetected.</l>
+<l n="85">While thus I speake, the waters more abounded:</l>
+<l n="86">And from the channell all abroad surrounded.</l>
+<l n="87">Mad streame, why doest our mutuall joyes deferre?</l>
+<l n="88">Clowne, from my journey why doest me deterre?</l>
+<l n="89">How wouldst thou flowe wert thou a noble floud,</l>
+<l n="90">If thy great fame in every region stood?</l>
+<l n="91">Thou hast no name, but com'st from snowy mountaines;</l>
+<l n="92">No certaine house thou hast, nor any fountaines.</l>
+<l n="93">Thy springs are nought but raine and melted snowe:</l>
+<l n="94">Which wealth, cold winter doth on thee bestowe.</l>
+<l n="95">Either th'art muddy in mid winter tide:</l>
+<l n="96">Or full of dust doest on the drye earth slide.</l>
+<l n="97">What thirstie traveller ever drunke of thee?</l>
+<l n="98">Who sayd with gratefull voyce perpetuall bee?</l>
+<l n="99">Harmefull to beasts, and to the fields thou proves:</l>
+<l n="100">Perchance these, others, me mine owne losse mooves.</l>
+<l n="101">To this I fondly loves of flouds told plainly:</l>
+<l n="102">I shame so great names to have usde so vainly:</l>
+<l n="103">I know not what expecting, I ere while</l>
+<l n="104">Nam'd <name>Achelaus</name>, <name>Inachus</name>, and <name>Nile</name>,</l>
+<l n="105">But for thy merits I wish thee, white streame,</l>
+<l n="106">Drye winters aye, and sunnes in heate extreame.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="6">
+<head>ELEGIA 6</head>
+
+<argument xml:lang="la"><p>Quod ab amica receptus, cum ea coire non
+potuit, conqueritur</p></argument>
+
+<l n="1">Either she was foule, or her attire was bad,</l>
+<l n="2">Or she was not the wench I wisht t'have had.</l>
+<l n="3">Idly I lay with her, as if I lovde not,</l>
+<l n="4">And like a burthen greevde the bed that mooved not.</l>
+<l n="5">Though both of us performd our true intent,</l>
+<l n="6">Yet could I not cast ancor where I meant,</l>
+<l n="7">She on my necke her Ivorie armes did throw,</l>
+<l n="8">That were as white as is the <name>Scithean</name> snow,</l>
+<l n="9">And eagerlie she kist me with her tongue,</l>
+<l n="10">And under mine her wanton thigh she fiong,</l>
+<l n="11">Yea, and she soothde me up, and calde me sir,</l>
+<l n="12">And usde all speech that might provoke and stirre.</l>
+<l n="13">Yet like as if cold hemlocke I had drunke,</l>
+<l n="14">It mocked me, hung down the head and suncke,</l>
+<l n="15">Like a dull Cipher, or rude blocke I lay,</l>
+<l n="16">Or shade, or body was I, who can say?</l>
+<l n="17">What will my age do, age I cannot shunne,</l>
+<l n="18">Seeing in my prime my force is spent and done?</l>
+<l n="19">I blush, that being youthfull, hot, and lustie,</l>
+<l n="20">I prove neither youth nor man, but old and rustie.</l>
+<l n="21">Pure rose shee, like a Nun to sacrifice,</l>
+<l n="22">Or one that with her tender brother lies,</l>
+<l n="23">Yet boorded I the golden <name>Chie</name> twise,</l>
+<l n="24">And <name>Libas</name>, and the white cheek'de <name>Pitho</name> thrise,</l>
+<l n="25"><name>Corinna</name> cravde it in a summers night,</l>
+<l n="26">And nine sweete bouts had we before day light.</l>
+<l n="27">What, wast my limbs through some <name>Thesalian</name> charms,</l>
+<l n="28">May spelles and droughs do sillie soules such harmes?</l>
+<l n="29">With virgin waxe hath some imbast my joynts,</l>
+<l n="30">And pierst my liver with sharpe needle poynts?</l>
+<l n="31">Charmes change corne to grasse, and makes it dye,</l>
+<l n="32">By charmes are running springs and fountaines drie,</l>
+<l n="33">By charmes maste drops from okes, from vines grapes fall,</l>
+<l n="34">And fruit from trees, when ther's no wind at al.</l>
+<l n="35">Why might not then my sinews be inchanted,</l>
+<l n="36">And I grow faint, as with some spirit haunted?	</l>
+<l n="37">To this ad shame, shame to performe it quaild mee,</l>
+<l n="38">And was the second cause why vigor failde mee:</l>
+<l n="39">My idle thoughts delighted her no more,</l>
+<l n="40">Then did the robe or garment which she wore,</l>
+<l n="41">Yet might her touch make youthfull <name>Pilius</name> fire,</l>
+<l n="42">And <name>Tithon</name> livelier then his yeeres require.</l>
+<l n="43">Even her I had, and she had me in vaine,</l>
+<l n="44">What might I crave more if I aske againe?</l>
+<l n="45">I thinke the great Gods greeved they had bestowde</l>
+<l n="46">This benefite, which lewdly I forslowd:</l>
+<l n="47">I wisht to be received in, in I get me,</l>
+<l n="48">To kisse, I kisse, to lie with her shee let me.</l>
+<l n="49">Why was I blest? why made king to refuse it?</l>
+<l n="50">Chuf-like had I not gold, and could not use it?</l>
+<l n="51">So in a spring thrives he that told so much,</l>
+<l n="52">And lookes uppon the fruits he cannot touch.</l>
+<l n="53">Hath any rose so from a fresh yong maide,</l>
+<l n="54">As she might straight have gone to church and praide:</l>
+<l n="55">Well, I beleeve she kist not as she should,</l>
+<l n="56">Nor usde the slight nor cunning which she could,</l>
+<l n="57">Huge okes, hard Adamantes might she have moved,</l>
+<l n="58">And with sweete words cause deafe rockes to have loved,</l>
+<l n="59">Worthy she was to move both Gods and men,</l>
+<l n="60">But neither was I man, nor lived then.</l>
+<l n="61">Can deafe eares take delight when <name>Phemius</name> sings,</l>
+<l n="62">Or <name>Thamiras</name> in curious painted things?</l>
+<l n="63">What sweete thought is there but I had the same?</l>
+<l n="64">And one gave place still as another came.</l>
+<l n="65">Yet notwithstanding, like one dead it lay,</l>
+<l n="66">Drouping more then a Rose puld yesterday:</l>
+<l n="67">Now when he should not jette, he boults upright,</l>
+<l n="68">And craves his taske, and seekes to be at fight.</l>
+<l n="69">Lie downe with shame, and see thou stirre no more,</l>
+<l n="70">Seeing now thou wouldst deceive me as before:</l>
+<l n="71">Thou cousenst mee, by thee surprizde am I,</l>
+<l n="72">And bide sore losse, with endlesse infamie.</l>
+<l n="73">Nay more, the wench did not disdaine a whit,</l>
+<l n="74">To take it in her hand and play with it.</l>
+<l n="75">But when she saw it would by no meanes stand,</l>
+<l n="76">But still droupt downe, regarding not her hand,</l>
+<l n="77">Why mockst thou me she cried, or being ill,</l>
+<l n="78">Who bad thee lie downe here against thy will?</l>
+<l n="79">Either th'art witcht with blood of frogs new dead,</l>
+<l n="80">Or jaded camst thou from some others bed.</l>
+<l n="81">With that her loose gowne on, from me she cast her,</l>
+<l n="82">In skipping out her naked feete much grac'd her.</l>
+<l n="83">And least her maide should know of this disgrace,</l>
+<l n="84">To cover it, spilt water in the place.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="7">
+<head>ELEGIA 7</head>
+
+<argument xml:lang="la"><p>Quod ab amica non recipiatur, dolet</p></argument>
+
+<l n="1">What man will now take liberall arts in hand,</l>
+<l n="2">Or thinke soft verse in any stead to stand?</l>
+<l n="3">Wit was some-times more pretious then gold,</l>
+<l n="4">Now poverty great barbarisme we hold.</l>
+<l n="5">When our bookes did my mistris faire content,</l>
+<l n="6">I might not go, whether my papers went.</l>
+<l n="7">She prais'd me, yet the gate shutt fast upon her,</l>
+<l n="8">I heere and there go witty with dishonour.</l>
+<l n="9">See a rich chuffe whose wounds great wealth inferr'd,</l>
+<l n="10">For bloudshed knighted, before me preferr'd.</l>
+<l n="11">Foole canst thou him in thy white armes embrace?</l>
+<l n="12">Foole canst thou lie in his enfolding space?</l>
+<l n="13">Knowest not this head a helme was wont to beare,</l>
+<l n="14">This side that serves thee, a sharpe sword did weare.</l>
+<l n="15">His left hand whereon gold doth ill alight,</l>
+<l n="16">A target bore: bloud sprinckled was his right.</l>
+<l n="17">Canst touch that hand wherewith some one lie dead?</l>
+<l n="18">Ah whether is thy brests soft nature fled?</l>
+<l n="19">Behold the signes of antient fight, his skarres,</l>
+<l n="20">What ere he hath his body gaind in warres.</l>
+<l n="21">Perhaps he'ele tell howe oft he slewe a man,</l>
+<l n="22">Confessing this, why doest thou touch him than?</l>
+<l n="23">I the pure priest of <name>Phoebus</name> and the muses,</l>
+<l n="24">At thy deafe dores in verse sing my abuses.</l>
+<l n="25">Not what we slouthfull knowe, let wise men learne,</l>
+<l n="26">But follow trembling campes, and battailes steme,</l>
+<l n="27">And foru a good verse drawe the first dart forth,</l>
+<l n="28"><name>Homer</name> without this shall be nothing worth.</l>
+<l n="29"><name>Jove</name> being admonisht gold had soveraigne power,</l>
+<l n="30">To winne the maide came in a golden shewer.</l>
+<l n="31">Till then, rough was her father, she severe,</l>
+<l n="32">The posts of brasse, the walles of iron were.</l>
+<l n="33">But when in gifts the wise adulterer came,</l>
+<l n="34">She held her lap ope to receive the same.</l>
+<l n="35">Yet when old <name>Saturne</name> heavens rule possest,</l>
+<l n="36">All game in darknesse the deepe earth supprest.</l>
+<l n="37">Gold, silver, irons heavy weight, and hrasse,</l>
+<l n="38">In hell were harbourd, here was found no masse.</l>
+<l n="39">But better things it gave, corne without ploughes,</l>
+<l n="40">Apples, and hony in oakes hollow boughes.</l>
+<l n="41">With strong plough shares no man the earth did cleave,</l>
+<l n="42">The ditcher no markes on the ground did leave.</l>
+<l n="43">Nor hanging oares the troubled seas did sweepe,</l>
+<l n="44">Men kept the shoare, and sailde not into deepe.</l>
+<l n="45">Against thy selfe, mans nature, thou wert cunning,</l>
+<l n="46">And to thine owne losse was thy wit swift running.</l>
+<l n="47">Why gird'st thy citties with a towred wall?</l>
+<l n="48">Why letst discordant hands to armour fall?</l>
+<l n="49">What doest with seas? with th'earth thou wert content,</l>
+<l n="50">Why seek'st not heav'n the third realme to frequent?</l>
+<l n="51">Heaven thou affects, with <name>Romulus</name>, temples brave</l>
+<l n="52"><name>Bacchus</name>, <name>Alcides</name>, and now <name>Caesar</name> have.</l>
+<l n="53">Gold from the earth in steade of fruits we pluck,</l>
+<l n="54">Souldiours by bloud to be inricht have lucke.</l>
+<l n="55">Courts shut the poore out; wealth gives estimation,</l>
+<l n="56">Thence growes the Judge, and knight of reputation.</l>
+<l n="57">All, they possesse: they governe fieldes, and lawes,</l>
+<l n="58">They manadge peace, and rawe waives bloudy jawes,</l>
+<l n="59">Onely our loves let not such rich churles gaine,</l>
+<l n="60">Tis well, if some wench for the poore remaine.</l>
+<l n="61">Now, <name>Sabine</name>-like, though chast she seemes to live,</l>
+<l n="62">One her commands, who many things can give.</l>
+<l n="63">For me, she doth keeper, and husband feare,</l>
+<l n="64">If I should give, both would the house forbeare.</l>
+<l n="65">If of scornd lovers god be venger just,</l>
+<l n="66">O let him change goods so ill got to dust.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="8">
+<head>ELEGIA 8</head>
+
+<argument xml:lang="la"><p>Tibulli mortem deflet</p></argument>
+
+<l n="1">If <name>Thetis</name>, and the morne their sonnes did waile, </l>
+<l n="2">And envious fates great goddesses assaile, </l>
+<l n="3">Sad <name>Elegia</name> thy wofull haires unbinde:</l>
+<l n="4">Ah now a name too true thou hast, I finde.</l>
+<l n="5"><name>Tibullus</name>, thy workes Poet, and thy fame,</l>
+<l n="6">Burnes his dead body in the funerall flame.</l>
+<l n="7">Loe <name>Cupid</name> brings his quiver spoyled quite,</l>
+<l n="8">His broken bowe, his fire-brand without light.</l>
+<l n="9">How piteously with drouping wings he stands,</l>
+<l n="10">And knocks his bare brest with selfe-angry hands.</l>
+<l n="11">The locks spred on his necke receive his teares,</l>
+<l n="12">And shaking sobbes his mouth for speeches beares.</l>
+<l n="13">So at <name>Aeneas</name> buriall men report,</l>
+<l n="14">Faire-fac'd <name>Iulus</name>, he went forth thy court.</l>
+<l n="15">And <name>Venus</name> grieves, <name>Tibullus</name> life being spent,</l>
+<l n="16">As when the wilde boare <name>Adons</name> groine had rent.</l>
+<l n="17">The gods care we are cald, and men of piety,</l>
+<l n="18">And some there be that thinke we have a deity.</l>
+<l n="19">Outrageous death profanes all holy things</l>
+<l n="20">And on all creatures obscure darcknesse brings.</l>
+<l n="21">To <name>ThracianOrpheus </name> what did parents good?</l>
+<l n="22">Or songs amazing wilde beasts of the wood?</l>
+<l n="23">Where <name>Linus</name> by his father <name>Phoebus</name> layed</l>
+<l n="24">To sing with his unequald harpe is sayed.</l>
+<l n="25">See <name>Homer</name> from whose fountaine ever fild,</l>
+<l n="26"><name>Pierian</name> deawe to Poets is distild.</l>
+<l n="27">Him the last day in black <name>Averne</name> hath drownd,</l>
+<l n="28">Verses alone are with continuance crown'd.</l>
+<l n="29">The worke of Poets lasts <name>Troyes</name> labours fame,</l>
+<l n="30">And that slowe webbe nights fals-hood did unframe.</l>
+<l n="31">So <name>Nemesis</name>, so <name>Delia</name> famous are,</l>
+<l n="32">The one his first love, th'other his new care.</l>
+<l n="33">What profit to us hath our pure life bred?</l>
+<l n="34">What to have lame alone in empty bed?</l>
+<l n="35">When bad fates take good men, I am forbod,</l>
+<l n="36">By secreat thoughts to thinke there is a god.</l>
+<l n="37">Live godly, thou shalt die, though honour heaven,</l>
+<l n="38">Yet shall thy life be forcibly bereaven.</l>
+<l n="39">Trust in good verse, <name>Tibullus</name> feeles deaths paines,</l>
+<l n="40">Scarse rests of all what a small urne conteines.</l>
+<l n="41">Thee sacred Poet could sad flames destroy?</l>
+<l n="42">Nor feared they thy body to annoy?</l>
+<l n="43">The holy gods gilt temples they might fire,</l>
+<l n="44">That durst to so great wickednesse aspire.</l>
+<l n="45"><name>Eryx</name> bright <name>Empresse</name> turud her lookes aside,</l>
+<l n="46">And some, that she refrain'd teares, have deni'd.</l>
+<l n="47">Yet better ist, then if <name>Corcyras</name>Ile</l>
+<l n="48">Had thee unknowne interr'd in ground most vile.</l>
+<l n="49">Thy dying eyes here did thy mother close,</l>
+<l n="50">Nor did thy ashes her last offrings lose.</l>
+<l n="51">Part of her sorrowe heere thy sister bearing,</l>
+<l n="52">Comes forth her unkeembd locks a sunder tearing.</l>
+<l n="53"><name>Nemesis</name> and thy first wench joyne their kisses,</l>
+<l n="54">With thine, nor this last fire their presence misses.</l>
+<l n="55"><name>Delia</name> departing, happier lov'd, she saith,</l>
+<l n="56">Was I: thou liv'dst, while thou esteemdst my faith.</l>
+<l n="57"><name>Nemesis</name> answeares, what's my losse to thee?</l>
+<l n="58">His fainting hand in death engrasped mee.</l>
+<l n="59">If ought remaines of us but name, and spirit,</l>
+<l n="60"><name>Tibullus</name> doth <name>Elysiums</name> joy inherit.</l>
+<l n="61">Their youthfull browes with Ivie girt to meete him,</l>
+<l n="62">With <name>Calvus</name> learnd <name>Catullus</name> comes and greete him.</l>
+<l n="63">And thou, if falsely charged to wrong thy friend,</l>
+<l n="64"><name>Gallus</name> that car'dst not bloud, and life to spend.</l>
+<l n="65">With these thy soule walkes, soules if death release,</l>
+<l n="66">The godly, sweete <name>Tibullus</name> doth increase.</l>
+<l n="67">Thy bones I pray may in the urne safe rest,</l>
+<l n="68">And may th'earths weight thy ashes nought molest.</l>
+
+</div>
+<div type="textpart" subtype="poem" n="9">
+<head>ELEGIA 9</head>
+
+<argument xml:lang="la"><p>Ad Cererem, conquerens quod eius sacris cum amica
+concumbere non permittatur</p></argument>
+
+<l n="1">Come were the times of <name>Ceres</name> sacrifize,</l>
+<l n="2">In emptie bed alone my mistris lies.</l>
+<l n="3">Golden-hair'd <name>Ceres</name> crownd with eares of come,</l>
+<l n="4">Why are our pleasures by thy meanes forborne?</l>
+<l n="5">Thee, goddesse, bountifull all nations judge,</l>
+<l n="6">Nor lesse at mans prosperity any grudge.</l>
+<l n="7">Rude husband-men bak'd not their come before,</l>
+<l n="8">Nor on the earth was knowne the name of floore.</l>
+<l n="9">On mast of oakes, first oracles, men fed,</l>
+<l n="10">This was their meate, the soft grasse was their bed.</l>
+<l n="11">First <name>Ceres</name> taught the seede in fields to swell,</l>
+<l n="12">And ripe-earde come with sharpe-edg'd sithes to fell.</l>
+<l n="13">She first constraind bulles necks to beare the yoake,</l>
+<l n="14">And untild ground with crooked plough-shares broake.</l>
+<l n="15">Who thinkes her to be glad at lovers smart,</l>
+<l n="16">And worshipt by their paine, and lying apart?</l>
+<l n="17">Nor is she, though she loves the fertile fields,</l>
+<l n="18">A clowne, nor no love from her warme brest yeelds.</l>
+<l n="19">Be witnesse <name>Crete</name>(nor <name>Crete</name> doth all things feigne)</l>
+<l n="20"><name>Crete</name> proud that <name>Jove</name> her nourcery maintaine.</l>
+<l n="21">There, he who rules the worlds starre-spangled towers,</l>
+<l n="22">A little boy druncke teate-distilling showers.</l>
+<l n="23">Faith to the witnesse <name>Joves</name> praise doth apply,</l>
+<l n="24"><name>Ceres</name>, I thinke, no knowne fault will deny.</l>
+<l n="25">The goddesse sawe <name>Iasion</name> on <name>Candyan Ide</name>,</l>
+<l n="26">With strong hand striking wild-beasts brist'led hyde.</l>
+<l n="27">She sawe, and as her marrowe tooke the flame,</l>
+<l n="28">Was divers waies distract with love, and shame.</l>
+<l n="29">Love conquer'd shame, the furrowes dry were bumd,</l>
+<l n="30">And come with least part of it selfe retumd.</l>
+<l n="31">When well-toss'd mattocks did the ground prepare,</l>
+<l n="32">Being fit broken with the crooked share,</l>
+<l n="33">And seedes were equally in large fields cast,</l>
+<l n="34">The plough-mans hopes were frustrate at the last.</l>
+<l n="35">The graine-rich goddesse in high woods did stray,</l>
+<l n="36">Her long haires eare-wrought garland fell away.</l>
+<l n="37">Onely was <name>Crete</name> fruitfull that plenteous yeare,</l>
+<l n="38">Where <name>Ceres</name> went each place was harvest there.</l>
+<l n="39"><name>Ida</name> the seate of groves did sing with corne,</l>
+<l n="40">Which by the wild boare in the woods was shorne.</l>
+<l n="41">Law-giving <name>Minos</name> did such yeares desire;</l>
+<l n="42">And wisht the goddesse long might feele loves fire.</l>
+<l n="43"><name>Ceres</name> what sports to thee so grievous were,</l>
+<l n="44">As in thy sacrifize we them forbeare?</l>
+<l n="45">Why am I sad, when <name>Proserpine</name> is found,</l>
+<l n="46">And <name>Juno</name> like with <name>Dis</name> raignes under ground?</l>
+<l n="47">Festivall dayes aske <name>Venus</name>, songs, and wine,</l>
+<l n="48">These gifts are meete to please the powers divine.</l>
+</div>
+<div type="textpart" subtype="poem" n="10">
+<head>ELEGIA 10</head>
+
+<argument xml:lang="la"><p>Ad amicam, a cuius amore discedere non potest</p></argument>
+
+<l n="1">Long have I borne much, mad thy faults me make:</l>
+<l n="2">Dishonest love my wearied brest forsake,</l>
+<l n="3">Now have I freed my selfe, and fled the chaine,</l>
+<l n="4">And what I have borne, shame to beare againe.</l>
+<l n="5">We vanquish, and tread tam'd love under feete,</l>
+<l n="6">Victorious wreathes at length my Temples greete.</l>
+<l n="7">Suffer, and harden: good growes by this griefe,</l>
+<l n="8">Oft bitter juice brings to the sicke reliefe.</l>
+<l n="9">I have sustainde so oft thrust from the dore,</l>
+<l n="10">To lay my body on the hard moist floore.</l>
+<l n="11">I know not whom thou lewdly didst imbrace,</l>
+<l n="12">When I to watch supplyed a servants place.</l>
+<l n="13">I saw when forth a tyred lover went,</l>
+<l n="14">His side past service, and his courage spent.</l>
+<l n="15">Yet this is lesse, then if he had seene me,</l>
+<l n="16">May that shame fall mine enemies chance to be.</l>
+<l n="17">When have not I fixt to thy side close layed?</l>
+<l n="18">I have thy husband, guard, and fellow plaied.</l>
+<l n="19">The people by my company she pleasd,</l>
+<l n="20">My love was cause that more mens love she seazd.</l>
+<l n="21">What should I tell her vaine tongues filthy lyes,</l>
+<l n="22">And to my losse God-wronging perjuries?</l>
+<l n="23">What secret becks in banquets with her youths,</l>
+<l n="24">With privy signes, and talke dissembling truths?</l>
+<l n="25">Hearing her to be sicke, I thether ranne,</l>
+<l n="26">But with my rivall sicke she was not than.</l>
+<l n="27">These hardned me, with what I keepe obscure,</l>
+<l n="28">Some other seeke, who will these things endure.</l>
+<l n="29">Now my ship in the wished haven crownd,</l>
+<l n="30">With joy heares <name>Neptunes</name> swelling waters sound.</l>
+<l n="31">Leave thy once powerfull words, and flatteries,</l>
+<l n="32">I am not as I was before, unwise.</l>
+<l n="33">Now love, and hate my light brest each way move;</l>
+<l n="34">But victory, I thinke, will hap to love.</l>
+<l n="35">Ile hate, if I can; if not, love gainst my will:</l>
+<l n="36">Bulles hate the yoake, yet what they hate have still.</l>
+<l n="37">I flie her lust, but follow beauties creature;</l>
+<l n="38">I loath her manners, love her bodies feature.</l>
+<l n="39">Nor with thee, nor without thee can I live,</l>
+<l n="40">And doubt to which desire the palme to give.</l>
+<l n="41">Or lesse faire, or lesse lewd would thou mightst bee,</l>
+<l n="42">Beauty with lewdnesse doth right ill agree.</l>
+<l n="43">Her deeds game hate, her face entreateth love:</l>
+<l n="44">Ah, she doth more worth then her vices prove.</l>
+<l n="45">Spare me, O by our fellow bed, by all</l>
+<l n="46">The Gods who by thee to be perjurde fall,</l>
+<l n="47">And by thy face to me a powre divine,</l>
+<l n="48">And by thine eyes whose radiance burnes out mine.</l>
+<l n="49">What ere thou art mine art thou: choose this course,</l>
+<l n="50">Wilt have me willing, or to love by force?</l>
+<l n="51">Rather lie hoist up saile, and use the winde,</l>
+<l n="52">That I may love yet, though against my minde.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="11">
+<head>ELEGIA 11</head>
+
+<argument xml:lang="la"><p>Doletamicam suam ita suis carminibus innotuisse
+ut rivales multos sibi pararit</p></argument>
+
+<l n="1">What day was that, which all sad haps to bring,</l>
+<l n="2">White birdes to lovers did not aiwayes sing.</l>
+<l n="3">Or is I thinke my wish against the starres?</l>
+<l n="4">Or shall I plaine some God against me warres?</l>
+<l n="5">Who mine was cald, whom I lov'd more then any,</l>
+<l n="6">I feare with me is common now to many.</l>
+<l n="7">Erre I? or by my bookes is she so knowne?</l>
+<l n="8">'Tis so: by my witte her abuse is growne.</l>
+<l n="9">And justly: for her praise why did I tell?</l>
+<l n="10">The wench by my fault is set forth to sell.</l>
+<l n="11">The bawde I play, lovers tp her I guide:</l>
+<l n="12">Her gate by my hands is set open wide.</l>
+<l n="13">'Tis doubtfiill whether verse availe, or harme,</l>
+<l n="14">Against my good they were an envious charme.</l>
+<l n="15">When <name>Thebes</name>, when <name>Troy</name>, when <name>Caesar</name> should be writ,</l>
+<l n="16">Alone <name>Corinna</name> moves my wanton wit.</l>
+<l n="17">With Muse oppos'd would I my lines had done,</l>
+<l n="18">And <name>Phcebus</name> had forsooke my worke begun.</l>
+<l n="19">Nor, as use will not Poets record heare,</l>
+<l n="20">Would I my words would any credit beare.</l>
+<l n="21"><name>Scylla</name> by us her fathers rich haire steales,</l>
+<l n="22">And <name>Scyllaes</name> wombe mad raging dogs conceales.</l>
+<l n="23">Wee cause feete flie, wee mingle haires with snakes,</l>
+<l n="24">Victorious <name>Perseus</name> a wingd steedes back takes.</l>
+<l n="25">Our verse great <name>Titys</name> a huge space out-spreads,</l>
+<l n="26">And gives the viper curled Dogge three heads.</l>
+<l n="27">We make <name>Enceladus</name> use a thousand armes,</l>
+<l n="28">And men inthraild by Mermaids singing charmes.</l>
+<l n="29">The East winds in <name>Ulisses</name> baggs we shut,</l>
+<l n="30">And blabbing <name>Tantalus</name> in mid-waters put.</l>
+<l n="31"><name>Niobe</name> flint, <name>Callist</name> we make a Beare,</l>
+<l n="32">Bird-changed <name>Progne</name> doth her <name>Itys</name> teare.</l>
+<l n="33"><name>Jove</name> turnes himselfe into a Swanne, or gold,</l>
+<l n="34">Or his Bulles hornes <name>Europas</name> hand doth hold.</l>
+<l n="35"><name>Proteus</name> what should I name? teeth, <name>Thebes</name> first seed?</l>
+<l n="36">Oxen in whose mouthes burning flames did breede?</l>
+<l n="37">Heav'n starre <name>Electra</name> that bewaild her sisters?</l>
+<l n="38">The ships, whose God-head in the sea now glisters?</l>
+<l n="39">The Sunne turnd backe from <name>Atreus</name> cursed table?</l>
+<l n="40">And sweet toucht harpe that to move stones was able?</l>
+<l n="41">Poets large power is boundlesse, and immense,</l>
+<l n="42">Nor have their words true histories pretence,</l>
+<l n="43">And my wench ought to have seem'd falsely praisd,</l>
+<l n="44">Now your credulity harme to me hath raisd.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="12">
+<head>ELEGIA 12</head>
+
+<argument xml:lang="la"><p>DeJunonis festo</p></argument>
+
+<l n="1">When fruite fild <name>Tuscia</name> should a wife give me,</l>
+<l n="2">We toucht the walles, <name>Camillus</name> wonne by thee.</l>
+<l n="3">The Priests to Juno did prepare chaste feasts,</l>
+<l n="4">With famous pageants, and their home-bred beasts.</l>
+<l n="5">To know their rites, well recompenc'd my stay,</l>
+<l n="6">Though thether leades a rough steepe hilly way.</l>
+<l n="7">There stands an old wood with thick trees darke clouded,</l>
+<l n="8">Who sees it, graunts some deity there is shrowded.</l>
+<l n="9">An Altar takes mens incense, and oblation,</l>
+<l n="10">An Altar made after the ancient fashion.</l>
+<l n="11">Here when the Pipe with solemne tunes doth sound,</l>
+<l n="12">The annuall pompe goes on the covered ground.</l>
+<l n="13">White Heifers by glad people forth are led,</l>
+<l n="14">Which with the grasse of <name>Tuscane</name> fields are fed.</l>
+<l n="15">And calves from whose feard front no threatning fiyes,</l>
+<l n="16">And little Piggs, base Hog-sties sacrifice,</l>
+<l n="17">And Rams with hornes their hard heads wreathed back.</l>
+<l n="18">Onely the Goddesse hated Goate did lack,</l>
+<l n="19">By whom disclosd, she in the high woods tooke,</l>
+<l n="20">Is said to have attempted flight forsooke.</l>
+<l n="21">Now is the goat brought through the boyes with darts,</l>
+<l n="22">And give to him that the first wound imparts.</l>
+<l n="23">Where <name>Juno</name> comes, each youth, and pretty maide,</l>
+<l n="24">Shew large wayes with their garments there displayed.</l>
+<l n="25">Jewels, and gold their Virgin tresses crowne,</l>
+<l n="26">And stately robes to their gilt feete hang downe.</l>
+<l n="27">As is the use, the Nunnes in white veyles clad,</l>
+<l n="28">Upon their heads the holy mysteries had.</l>
+<l n="29">When the chiefe pompe comes, lowd the people hollow,</l>
+<l n="30">And she her vestall virgin Priests doth follow.</l>
+<l n="31">Such was the <name>Greeke</name> pompe, <name>Agamemnon</name> dead,</l>
+<l n="32">Which fact, and country wealth <name>Halesus</name> fled.</l>
+<l n="33">And having wandred now through sea and land,</l>
+<l n="34">Built walles high towred with a prosperous hand.</l>
+<l n="35">He to th'<name>HetruriansJunoes </name> feast commended,</l>
+<l n="36">Let me, and them by it be aye be-friended.</l>
+
+
+</div>
+<div type="textpart" subtype="poem" n="13">
+<head>ELEGIA 13</head>
+
+<argument xml:lang="la"><p>Ad amicam si peccatura est, ut occulte peccet</p></argument>
+
+<l n="1">Seeing thou art faire, I barre not thy false playing,</l>
+<l n="2">But let not mee poore soule know of thy straying.</l>
+<l n="3">Nor do I give thee counsaile to live chaste,</l>
+<l n="4">But that thou wouldst dissemble when tis paste.</l>
+<l n="5">She hath not trode awne that doth denie it,</l>
+<l n="6">Such as confesse, have lost their good names by it.</l>
+<l n="7">What madnesse ist to tell night prankes by day,</l>
+<l n="8">And hidden secrets openlie to bewray?</l>
+<l n="9">The strumpet with the stranger will not do,</l>
+<l n="10">Before the roome be deere, and doore put too.</l>
+<l n="11">Will you make shipwracke of your honest name,</l>
+<l n="12">And let the world be witnesse of the same?</l>
+<l n="13">Be more advisde, walke as a puritane,</l>
+<l n="14">And I shall thinke you chaste, do what you can.</l>
+<l n="15">Slippe still, onely denie it when tis done,</l>
+<l n="16">And before folke immodest speeches shunne,</l>
+<l n="17">The bed is for lascivious toyings meete,</l>
+<l n="18">There use all tricks, and tread shame under feete.</l>
+<l n="19">When you are up and drest, be sage and grave,</l>
+<l n="20">And in the bed hide all the faults you have,</l>
+<l n="21">Be not ashamed to strippe you being there,</l>
+<l n="22">And mingle thighs, yours ever mine to beare.</l>
+<l n="23">There in your rosie lippes my tongue intombe,</l>
+<l n="24">Practise a thousand sports when there you come,</l>
+<l n="25">Forbare no wanton words you there would speake,</l>
+<l n="26">And with your pastime let the bedsted creake,</l>
+<l n="27">But with your robes, put on an honest face,</l>
+<l n="28">And blush, and seeme as you were full of grace.</l>
+<l n="29">Deceive all, let me erre, and thinke I am right,</l>
+<l n="30">And like a wittall thinke thee voyde of slight.</l>
+<l n="31">Why see I lines so oft receivde and given,</l>
+<l n="32">This bed, and that by tumbling made uneven,</l>
+<l n="33">Like one start up your haire tost and displast,</l>
+<l n="34">And with a wantons tooth, your necke new raste?</l>
+<l n="35">Graunt this, that what you do I may not see,</l>
+<l n="36">If you wey not ill speeches, yet wey mee:</l>
+<l n="37">My soule fleetes when I thinke what you have done,</l>
+<l n="38">And thorough everie vaine doth cold bloud runne,</l>
+<l n="39">Then thee whom I must love I hate in vaine,</l>
+<l n="40">And would be dead, but dying with thee remaine.</l>
+<l n="41">Ile not sift much, but hold thee soone excusde,</l>
+<l n="42">Say but thou wert injurously accusde.</l>
+<l n="43">Though while the deede be doing you be tooke,</l>
+<l n="44">And I see when you ope the two leavde booke:</l>
+<l n="45">Sweare I was blinde, yeeld not, if you be wise,</l>
+<l n="46">And I will trust your words more then mine eses.</l>
+<l n="47">From him that yeelds the garland is quickly got,</l>
+<l n="48">Teach but your tongue to say, I did it not,</l>
+<l n="49">And being justified by two words, thinke</l>
+<l n="50">The cause acquits you not, but I that winke.</l>
+</div>
+<div type="textpart" subtype="poem" n="14">
+<head>ELEGIA 14</head>
+
+<argument xml:lang="la"><p>Ad Venerem, quod elegis finem imponat</p></argument>
+
+<l n="1">Tender loves Mother a new Poet get,</l>
+<l n="2">This last end to my <name>Elegies</name> is set,</l>
+<l n="3">Which I <name>Pelignis</name> foster-child have framde,</l>
+<l n="4">(Nor am I by such wanton toyes defamde)</l>
+<l n="5">Heire of an antient house, if helpe that can,</l>
+<l n="6">Not onely by warres rage made Gentleman.</l>
+<l n="7">In <name>Virgil</name> <name>Mantua</name> joyes: in <name>Catul</name> <name>Verone</name>,</l>
+<l n="8">of me <name>Pelignis</name> nation boasts alone,</l>
+<l n="9">Whom liberty to honest armes compeld,</l>
+<l n="10">When carefull <name>Rome</name> in doubt their prowesse held.</l>
+<l n="11">And some guest viewing watry <name>Sulmoes</name> walles,</l>
+<l n="12">Where little ground to be inclosd befalles,</l>
+<l n="13">How such a Poet could you bring forth, sayes,</l>
+<l n="14">How small so ere, lie you for greatest praise.</l>
+<l n="15">Both loves to whom my heart long time did yeeld,</l>
+<l n="16">Your golden ensignes plucke out of my field,</l>
+<l n="17">Homed <name>Bacchus</name> graver furie doth distill,</l>
+<l n="18">A greater ground with great horse is to till.</l>
+<l n="19">Weake Elegies, delightfull Muse farewell;</l>
+<l n="20">A worke, that after my death, heere shall dwell</l>
+</div>
+</div>
+<!--trailer omitted-->
+</body>
+</text>
+</TEI>
