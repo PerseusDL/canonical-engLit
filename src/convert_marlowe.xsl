@@ -85,6 +85,12 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    
+    <xsl:template match="tei:div[@type = 'versions']">
+        <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
 
     <xsl:template match="tei:unclear">
         <unclear xmlns="http://www.tei-c.org/ns/1.0">
