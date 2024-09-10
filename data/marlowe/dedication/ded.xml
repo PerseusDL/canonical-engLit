@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
                 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-                
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -31,11 +31,11 @@
 </profileDesc>
 
 <revisionDesc>
-      
+
       <change when="1996-03-14" who="Hilary Binda">
 Mark up scanned text
       </change>
-      
+
 <change when="1997-09-01" who="David Smith">
 $Log: marl.dedication.xml,v $
 Revision 1.1  2009-12-09 18:48:03  rsingh04
@@ -76,38 +76,38 @@ Added to repository. Passed SGML parse.
       <div type="textpart">
             <p>
                   TO THE MOST ILLUSTRIOUS NOBLE LADY,
-                  <lb/>ADORNED WITH ALL GIFTS BOTH OF MIND
-                  <lb/>AND BODY, MARY COUNTESS OF PEMBROKE
+                  <lb n='1'/>ADORNED WITH ALL GIFTS BOTH OF MIND
+                  <lb n='2'/>AND BODY, MARY COUNTESS OF PEMBROKE
             </p>
 
 
 <p>Delia born of a laurel-crowned race, true sister of Sidney the bard of
-<lb/>Apollo, fostering parent of letters, to whose immaculate embrace
-<lb/>virtue, outraged by the assault of barbarism and ignorance, flieth for
-<lb/>refuge, as once Philomela from the Thracian tyrant; Muse of the
-<lb/>Poets of our time, and of all most happily burgeoning wits; descen-
-<lb/>dant of the gods, who impartest now to my rude pen breathings of a
-<lb/>lofty rage, whereby my poor self hath, methinks, power to surpass
-<lb/>what my unripe talent is wont to bring forth: Deign to be patron to
-<lb/>this posthumous Amyntas, as to thine adoptive son: the rather that
-<lb/>his dying father had most humbly bequeathed to thee his keeping.
-<lb/>And though thy glorious name is spread abroad not only among us
-<lb/>but even among foreign nations, too far ever to be destroyed by the
-<lb/>rusty antiquity of Time, or added to by the praise of mortals (for
-<lb/>how can anything be greater than what is infinite?), yet, crowned as
-<lb/>thou art by the songs of many as by a starry diadem Ariadne, scorn
-<lb/>not this pure priest of Phoebus bestowing another star upon thy
-<lb/>crown: but with that sincerity of mind which Jove the father of men
-<lb/>and of gods hath linked as hereditary to thy noble family, receive
-<lb/>and watch over him. So shall I, whose slender wealth is but the sea-
-<lb/>shore myrtle of Venus, and Daphne's evergreen laurel, on the fore-
-<lb/>most page of every poem invoke thee as Mistress of the Muses to my
-<lb/>aid: to sum up all, thy virtue, which shall overcome virtue herself,
-<lb/>shall likewise overcome even eternity.</p>
- 
+<lb n='3'/>Apollo, fostering parent of letters, to whose immaculate embrace
+<lb n='4'/>virtue, outraged by the assault of barbarism and ignorance, flieth for
+<lb n='5'/>refuge, as once Philomela from the Thracian tyrant; Muse of the
+<lb n='6'/>Poets of our time, and of all most happily burgeoning wits; descen-
+<lb n='7'/>dant of the gods, who impartest now to my rude pen breathings of a
+<lb n='8'/>lofty rage, whereby my poor self hath, methinks, power to surpass
+<lb n='9'/>what my unripe talent is wont to bring forth: Deign to be patron to
+<lb n='10'/>this posthumous Amyntas, as to thine adoptive son: the rather that
+<lb n='11'/>his dying father had most humbly bequeathed to thee his keeping.
+<lb n='12'/>And though thy glorious name is spread abroad not only among us
+<lb n='13'/>but even among foreign nations, too far ever to be destroyed by the
+<lb n='14'/>rusty antiquity of Time, or added to by the praise of mortals (for
+<lb n='15'/>how can anything be greater than what is infinite?), yet, crowned as
+<lb n='16'/>thou art by the songs of many as by a starry diadem Ariadne, scorn
+<lb n='17'/>not this pure priest of Phoebus bestowing another star upon thy
+<lb n='18'/>crown: but with that sincerity of mind which Jove the father of men
+<lb n='19'/>and of gods hath linked as hereditary to thy noble family, receive
+<lb n='20'/>and watch over him. So shall I, whose slender wealth is but the sea-
+<lb n='21'/>shore myrtle of Venus, and Daphne's evergreen laurel, on the fore-
+<lb n='22'/>most page of every poem invoke thee as Mistress of the Muses to my
+<lb n='23'/>aid: to sum up all, thy virtue, which shall overcome virtue herself,
+<lb n='24'/>shall likewise overcome even eternity.</p>
+
  <div type="textpart" subtype="closer">
        <p>Most desirous to do thee honor,
-             <lb/>C.M.</p>
+             <lb n='25'/>C.M.</p>
  </div>
       </div>
 </body>

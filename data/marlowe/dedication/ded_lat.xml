@@ -38,8 +38,8 @@
       <div type="textpart">
             <p>
                   ILLUSTRISSIMAE HEROINAE OMNIBUS ET
-                  <lb/>ANIMI ET CORPORIS DOTIBUS ORNATIS
-                  <lb/>SIMAE, MARIAE PENBROKIAE COMITISSAE
+                  <lb n='1'/>ANIMI ET CORPORIS DOTIBUS ORNATIS
+                  <lb n='2'/>SIMAE, MARIAE PENBROKIAE COMITISSAE
             </p>
       </div>
       <div type="textpart">
@@ -51,44 +51,44 @@
 <lem>genuina</lem>
 <rdg wit="AG">genuuia</rdg>
 </app>
-<lb/>soror; Alma <app>
+<lb n='3'/>soror; Alma <app>
 <lem>literatum</lem>
 <rdg wit="AG">literarũ</rdg>
 </app> parens, ad cuius <app>
 <lem>immaculates</lem>
 <rdg wit="AG">immaculatos</rdg>
 </app> amplexus, con-
-<lb/>fugit virtus, <app>
+<lb n='4'/>fugit virtus, <app>
 <lem>barbarici</lem>
 <rdg wit="AG">barbariei</rdg>
 </app> et ignorantiae impetu violata, ut olim a Threi-
-<lb/>cio Tyranno Philomela; Poetarum nostri temporis, ingeniorumque
-<lb/>omnium foelicissime <app>
+<lb n='5'/>cio Tyranno Philomela; Poetarum nostri temporis, ingeniorumque
+<lb n='6'/>omnium foelicissime <app>
 <lem>pullulantium</lem>
 <rdg wit="AG">pullutantium</rdg>
 </app>, Musa; Dia proles, quae iam rudi
-<lb/>calamo, spiritus infundis elati furoris, quibus ipse misellus, plus
-<lb/>mihi videor praestare posse, quam cruda nostra indoles proferre
-<lb/>solet: Dignare Posthumo huic Amyntae, ut tuo adoptivo filio
-<lb/>patrocinari: Eoque magis quod moribundus pater, illius tutelam
-<lb/>humillime tibi legaverat. Et licet illustre nomen tuum non solum
-<lb/>apud nos, sed exteras etiam nationes, latius propagatum est, quam
-<lb/>aut unquam possit aeruginosa Temporis vetustate aboleri, aut mor-
-<lb/>talium encomus augeri, (quomodo enim quicquam possit esse in-
-<lb/>finito plus?) multorum tamen camaenis, quasi siderum diademate
-<lb/>redimita Ariadne, noli hunc purum Phoebi sacerdotem, stellam
-<lb/>alteram coronae tuae largientem, aspernari: sed animi candore, quem
-<lb/>sator hominum, atque deorum, Iupiter, praenobili familae tuae quasi
-<lb/>haereditarium alligavit, accipe, et tuere. Sic nos, quorum opes tenuis-
-<lb/>simae, littorea sunt Myrtus Veneris, Nymphaeque Peneiae semper
-<lb/>virens coma, prima quaque poematis pagina, Te Musarum dominam,
-<lb/>in auxilium invocabimus: tua denique virtus, quae virtutem ipsam,
-<lb/>ipsam quoque aeternitatem superabit.</p>
+<lb n='7'/>calamo, spiritus infundis elati furoris, quibus ipse misellus, plus
+<lb n='8'/>mihi videor praestare posse, quam cruda nostra indoles proferre
+<lb n='9'/>solet: Dignare Posthumo huic Amyntae, ut tuo adoptivo filio
+<lb n='10'/>patrocinari: Eoque magis quod moribundus pater, illius tutelam
+<lb n='11'/>humillime tibi legaverat. Et licet illustre nomen tuum non solum
+<lb n='12'/>apud nos, sed exteras etiam nationes, latius propagatum est, quam
+<lb n='13'/>aut unquam possit aeruginosa Temporis vetustate aboleri, aut mor-
+<lb n='14'/>talium encomus augeri, (quomodo enim quicquam possit esse in-
+<lb n='15'/>finito plus?) multorum tamen camaenis, quasi siderum diademate
+<lb n='16'/>redimita Ariadne, noli hunc purum Phoebi sacerdotem, stellam
+<lb n='17'/>alteram coronae tuae largientem, aspernari: sed animi candore, quem
+<lb n='18'/>sator hominum, atque deorum, Iupiter, praenobili familae tuae quasi
+<lb n='19'/>haereditarium alligavit, accipe, et tuere. Sic nos, quorum opes tenuis-
+<lb n='20'/>simae, littorea sunt Myrtus Veneris, Nymphaeque Peneiae semper
+<lb n='21'/>virens coma, prima quaque poematis pagina, Te Musarum dominam,
+<lb n='22'/>in auxilium invocabimus: tua denique virtus, quae virtutem ipsam,
+<lb n='23'/>ipsam quoque aeternitatem superabit.</p>
       </div>
       <div type="textpart">
             <p>
                   Honoris tui studiosissimus,
-                  <lb/>C. M.
+                  <lb n='24'/>C. M.
             </p>
       </div>
 
