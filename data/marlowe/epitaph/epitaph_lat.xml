@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title>On the Death of Sir Roger Manwood</title>
+<title type="sub">Machine readable text</title>
+<author>Christopher Marlowe</author>
+
+
+</titleStmt>
+<extent>about 700Kb</extent>
+<publicationStmt><p>later</p></publicationStmt>
+<sourceDesc><bibl/></sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<refsDecl n="CTS">
+      <cRefPattern n="asl" matchPattern="(\w)" replacementPattern="#xpath((//l[@n='$1'])"><p>This pointer pattern extracts line.</p></cRefPattern>
+      
+     </refsDecl>
+ 
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="lat">Latin</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc><change><ab>converted to EpiDoc</ab></change></revisionDesc>
+</teiHeader>
+<text xml:lang="eng">
+<body>
+      <div n="1" type="textpart">
+<head>IN OBITUM HONORATISSIMI VIRI ROGERI
+<lb/>MANWOOD MILITIS, QUAESTORII REGINALIS
+<lb/>CAPITALIS BARONIS</head>
+      <lg>
+<l>Noctivagi terror, ganeonis triste flagellum,</l>
+<l>Et Jovis Alcides, rigido vulturque latroni,</l>
+<l>Urna subtegitur. Scelerum gaudete Nepotes.</l>
+<l>Insons luctifica sparsis cervice capillis</l>
+<l>Plange, fori lumen, venerandae gloria legis</l>
+<l>Occidit. Heu secum effoetas Acherontis ad oras</l>
+<l>Multa abiit virtus. Pro tot virtutibus uni</l>
+<l>Livor parce viro: non audacissimus esto</l>
+<l>Illius in cineres, cuius tot milia vultus</l>
+<l>Mortalium attonuit; sic cum te nuncia Ditis</l>
+<l>Vulneret exsanguis, foeliciter ossa quiescant</l>
+<l>Famaque marmorei superet monumenta sepulchri.</l>
+</lg>
+      </div>
+</body>
+</text>
+</TEI>

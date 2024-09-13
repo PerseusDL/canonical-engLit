@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title>On the Death of Sir Roger Manwood</title>
+<title type="sub">Machine readable text</title>
+<author>Christopher Marlowe</author>
+<editor role="translator">Arthur F. Stocker</editor>
+
+
+</titleStmt>
+<extent>about 700Kb</extent>
+<publicationStmt><p>later</p></publicationStmt>
+<sourceDesc><bibl/></sourceDesc>
+</fileDesc>
+
+    <encodingDesc>
+        <refsDecl n="CTS">
+            <cRefPattern n="asl" matchPattern="(\w)" replacementPattern="#xpath((//l[@n='$1'])"><p>This pointer pattern extracts line.</p></cRefPattern>
+        </refsDecl>
+    </encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="eng">English</language>
+</langUsage>
+</profileDesc>
+
+<revisionDesc><change><ab>converted to epidoc</ab></change></revisionDesc>
+</teiHeader>
+<text xml:lang="eng">
+<body>
+      <div n="1" type="textpart">
+<head>ON THE DEATH OF A MOST DISTINGUISHED
+<lb />MAN, SIR ROGER MANWOOD, LORD CHIEF
+<lb />BARON OF THE EXCHEQUER</head>
+
+<lg>
+<l n='1'>The terror of him who prowls by night, the stern scourge of one</l>
+<l n='2'>who is profligate, both a Hercules, son of Jove, and a bird of prey</l>
+<l n='3'>upon the rough brigand, is encased in an urn. Rejoice, ye sons of</l>
+<l n='4'>wickedness; mourn, unoffending one, with hair in disorder over</l>
+<l n='5'>your pitiable neck. The light of officialdom, the glory of the wor-</l>
+<l n='6'>shipful law, lies dead. Alas, much virtue has passed with him to the</l>
+<l n='7'>barren shores of Acheron. In view of his so numerous virtues, spare,</l>
+<l n='8'>O Envy, this one man; be not overly presumptuous toward the</l>
+<l n='9'>ashes of one whose glance has held thunderstruck so many thousands</l>
+<l n='10'>of mortals. On these terms, when Death's pale messenger wounds</l>
+<l n='11'>you, may your bones rest happily, and may your fame survive the</l>
+<l n='12'>memorials of your marble tomb.</l>
+
+</lg>
+</div>
+</body>
+</text>
+</TEI>

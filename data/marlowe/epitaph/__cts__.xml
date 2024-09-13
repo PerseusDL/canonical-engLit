@@ -1,0 +1,19 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+         urn="urn:cts:engLit:marlowe.epitaph"
+         xml:lang="eng" groupUrn="urn:cts:engLit:marlowe">
+  <ti:title xml:lang="eng">On The Death of Sir Roger Manwood</ti:title>
+  
+  <ti:translation xml:lang="eng"
+                  urn="urn:cts:engLit:marlowe.epitaph.perseus-eng"
+                  workUrn="urn:cts:engLit:marlowe.epitaph">
+    <ti:label xml:lang="eng">On The Death of Sir Roger Manwood</ti:label>
+    <ti:description xml:lang="eng">On The Death of Sir Roger Manwood</ti:description>
+  </ti:translation>
+  
+  <ti:edition
+      urn="urn:cts:engLit:marlowe.epitaph.perseus-lat1"
+      workUrn="urn:cts:engLit:marlowe.epitaph">
+    <ti:label xml:lang="eng">On The Death of Sir Roger Manwood</ti:label>
+    <ti:description xml:lang="eng">On The Death of Sir Roger Manwood</ti:description>
+  </ti:edition>
+</ti:work>
