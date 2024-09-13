@@ -1,0 +1,12 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:marlowe"
+  urn="urn:cts:engLit:marlowe.ed"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">
+      Edward II
+    </ti:title>
+  <ti:edition urn="urn:cts:engLit:marlowe.ed.perseus-eng1" workUrn="urn:cts:engLit:marlowe.ed" xml:lang="eng">
+    <ti:label xml:lang="eng">Edward II</ti:label>
+    <ti:description xml:lang="eng">Edward II.</ti:description>
+  </ti:edition>
+</ti:work>
