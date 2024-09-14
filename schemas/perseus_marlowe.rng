@@ -5,12 +5,21 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-09-03T20:48:54Z. . 
+Schema generated from ODD source 2024-09-14T20:31:48Z. . 
 TEI Edition: P5 Version 4.8.0. Last updated on 8th July 2024, revision 1f9891a87 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.0/ 
   
 --><!--This material is dual-licensed.
 [http://creativecommons.org/licenses/by-sa/3.0/] Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License  [http://www.opensource.org/licenses/BSD-2-Clause] Copyright 2013 TEI Consortium. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright holder or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage. TEI material can be licensed differently depending on the use you intend to make of it. Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is generally appropriate for usages which treat TEI content as data or documentation. The BSD-2 licence is generally appropriate for usage of TEI content in a software environment. For further information or clarification, please contact the  TEI Consortium .-->
+   <define name="tei_macro.abContent">
+      <zeroOrMore>
+         <choice>
+            <text/>
+            <ref name="tei_model.paraPart"/>
+            <ref name="tei_ab"/>
+         </choice>
+      </zeroOrMore>
+   </define>
    <define name="tei_macro.paraContent">
       <zeroOrMore>
          <choice>
@@ -2086,29 +2095,41 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.pLike">
       <choice>
          <ref name="tei_p"/>
+         <ref name="tei_ab"/>
       </choice>
    </define>
    <define name="tei_model.pLike_alternation">
       <choice>
          <ref name="tei_p"/>
+         <ref name="tei_ab"/>
       </choice>
    </define>
    <define name="tei_model.pLike_sequence">
       <ref name="tei_p"/>
+      <ref name="tei_ab"/>
    </define>
    <define name="tei_model.pLike_sequenceOptional">
       <optional>
          <ref name="tei_p"/>
+      </optional>
+      <optional>
+         <ref name="tei_ab"/>
       </optional>
    </define>
    <define name="tei_model.pLike_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_p"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_ab"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.pLike_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_p"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_ab"/>
       </oneOrMore>
    </define>
    <define name="tei_model.stageLike">
@@ -5076,6 +5097,31 @@ Elements]</a:documentation>
             </list>
          </attribute>
       </optional>
+   </define>
+   <define name="tei_ab">
+      <element name="ab">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anonymous block) contains any component-level unit of text, acting as a container for phrase or inter level elements analogous to, but without the same constraints as, a paragraph. [17.3. Blocks, Segments, and Anchors]</a:documentation>
+         <ref name="tei_macro.abContent"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  id="perseus_marlowe-ab-abstractModel-structure-ab-in-l-or-lg-constraint-rule-27">
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:ab">
+               <sch:report test="(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )">
+          Abstract model violation: Lines may not contain higher-level divisions such as p or ab, unless ab is a child of figure or note, or is a descendant of floatingText.
+        </sch:report>
+            </sch:rule>
+         </pattern>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.declaring.attributes"/>
+         <ref name="tei_att.fragmentable.attributes"/>
+         <ref name="tei_att.written.attributes"/>
+         <ref name="tei_att.cmc.attributes"/>
+         <empty/>
+      </element>
    </define>
    <define name="tei_anchor">
       <element name="anchor">
