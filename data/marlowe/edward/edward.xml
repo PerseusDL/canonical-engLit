@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../schemas/perseus_drama.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../schemas/perseus_marlowe.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader xml:lang="eng">
 <fileDesc>
 <titleStmt>
@@ -22,7 +22,7 @@
 </langUsage>
 </profileDesc>
 
-<revisionDesc><change><ab>converted to Perseus Drama</ab></change></revisionDesc>
+
 </teiHeader>
 <text xml:lang="eng">
 <front>
