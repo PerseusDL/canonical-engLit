@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../schemas/perseus_marlowe.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader xml:lang="eng">
+            <fileDesc>
+                  <titleStmt>
+                        <title>The Passionate Shepherd to His Love</title>
+                        <author>Christopher Marlowe</author>
+
+
+                  </titleStmt>
+                  <publicationStmt>
+                        <p>later</p>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl/>
+                  </sourceDesc>
+            </fileDesc>
+
+            <encodingDesc>
+                  
+                  <refsDecl n="CTS"><cRefPattern n="line" matchPattern="(\w+)" replacementPattern="#xpath(//l[@n='$1']"/></refsDecl>
+            </encodingDesc>
+
+            <profileDesc>
+                  <langUsage>
+                        <language ident="eng">English</language>
+                  </langUsage>
+            </profileDesc>
+
+            <revisionDesc><list><item>converted to perseus_marlowe.rng</item></list></revisionDesc>
+      </teiHeader>
+      <text xml:lang="eng">
+            <front>
+
+                  <div type="apparatus">
+                        <listWit>
+                              <witness xml:id="Bow"><bibl><title>Complete Works</title>, ed. Bowers,
+                                          1973</bibl></witness>
+                              <witness xml:id="EH"><bibl><title>Englands Helicon</title>,
+                                    1600</bibl></witness>
+                              <witness xml:id="PP"><bibl><title>Passionate Pilgrim</title>,
+                                          1599</bibl></witness>
+                              <witness xml:id="Rx"><bibl><title>"Live with me and be my
+                                          love"</title>, in <title>Roxburghe Ballads</title>,
+                                          1603</bibl></witness>
+                              <witness xml:id="Rw_u">MS uncorrected, Rawl. Poet. 148, fol. 96,
+                                    1600</witness>
+                              <witness xml:id="Rw_c">MS corrected, Rawl. Poet. 148, fol. 96,
+                                    1600</witness>
+                              <witness xml:id="A">MS Ashmole 1486, fol. 6v</witness>
+                              <witness xml:id="T"><bibl><title>Thornborough Commonplace
+                                          Book</title></bibl></witness>
+                              <witness xml:id="W1"><bibl><title>Compleat Angler</title>, Walton,
+                                          1653</bibl></witness>
+                              <witness xml:id="W2"><bibl><title>Compleat Angler</title>, Walton,
+                                          1655</bibl></witness>
+                              <witness xml:id="Rs">MS Rodenbach</witness>
+                              <witness xml:id="Bd"><bibl><title>Poems of Sir Walter Raleigh</title>,
+                                          ed. Sir Egerton Brydges, 1813</bibl></witness>
+                              <witness xml:id="F">MS Folger V.a.169, 1670 </witness>
+                              <witness xml:id="W"/>
+                        </listWit>
+                  </div>
+
+
+            </front>
+            <body>
+                  <div n="1" type="section">
+                        <head>THE PASSIONATE SHEPHERD TO HIS LOVE</head>
+
+                        <l n="1"><app>
+                                    <lem>Come</lem>
+                                    <rdg wit="#PP #Rx #Rs"/>
+                              </app>
+                              <app>
+                                    <lem>live with mee</lem>
+                                    <rdg wit="#Rs">If thou wilt live</rdg>
+                              </app>, and be my love,</l>
+                        <l n="2"><app>
+                                    <lem>And</lem>
+                                    <rdg wit="#Rs">Then</rdg>
+                              </app> we will <app>
+                                    <lem>all the pleasures</lem>
+                                    <rdg wit="#Rs">every pleasure</rdg>
+                              </app> prove,</l>
+                        <l n="3">That <app>
+                                    <lem>Vallies, groves, hills and fieldes</lem>
+                                    <rdg wit="#PP">hilles and vallies, dales and fields</rdg>
+                                    <rdg wit="#Rw_c">valleis, groves, the hills and filds</rdg>
+                                    <rdg wit="#Rw_u">hills and valleis, groves and filds</rdg>
+                                    <rdg wit="#T">vallyes groves and woodds or feildes</rdg>
+                                    <rdg wit="#W, #F">vallies, Groves, or hils, or fields</rdg>
+                                    <rdg wit="#Rs">hill or dales woodds or fieldes</rdg>
+                                    <rdg wit="#Bd">grove or valley, hill or field</rdg>
+                              </app>,</l>
+                        <l n="4"><app>
+                                    <lem>Woods, or steepie mountaine yeeldes</lem>
+                                    <rdg wit="#PP">And all the craggy mountaines yeeld</rdg>
+                                    <rdg wit="#Rx">Woods, or steepy Mountaines yeelds</rdg>
+                                    <rdg wit="#Rw">Woods and steepest mountaynes yeelds</rdg>
+                                    <rdg wit="#A">Woods or craggi mountaines yieldes</rdg>
+                                    <rdg wit="#T">And craggie rockes or mountaines yieldes</rdg>
+                                    <rdg wit="#W #F">Or woods and steepie mountains yeelds</rdg>
+                                    <rdg wit="#Rs">Rivers or steepy mountaines yieldes</rdg>
+                                    <rdg wit="#Bd">Or wood and steepy mountain yield</rdg>
+                              </app>.</l>
+
+                        <l n="5"><app>
+                                    <lem>And</lem>
+                                    <rdg wit="#PP">There</rdg>
+                                    <rdg wit="#Rw #A #T #W #F #Bd">Where</rdg>
+                                    <rdg wit="#Rs">Then</rdg>
+                              </app>
+                              <app>
+                                    <lem>wee will</lem>
+                                    <rdg wit="#PP #Rs">will we</rdg>
+                              </app>
+                              <app>
+                                    <lem>sit</lem>
+                                    <rdg wit="#Rs">sett</rdg>
+                              </app>
+                              <app>
+                                    <lem>upon the</lem>
+                                    <rdg wit="#Bd">on rising</rdg>
+                              </app> Rocks,</l>
+                        <l n="6">Seeing the Sheepheards feede <app>
+                                    <lem>theyr</lem>
+                                    <rdg wit="#W #F">our</rdg>
+                              </app> flocks,</l>
+                        <l n="7">By shallow Rivers, <app>
+                                    <lem>to</lem>
+                                    <rdg wit="#PP">by</rdg>
+                              </app> whose falls,</l>
+                        <l n="8">Melodious byrds <app>
+                                    <lem>sing</lem>
+                                    <rdg wit="#EH #T">sings</rdg>
+                              </app> Madrigalls.</l>
+
+                        <l n="9"><app>
+                                    <lem>And</lem>
+                                    <rdg wit="#PP #A #Rs">There</rdg>
+                                    <rdg wit="#Rw #T">Where</rdg>
+                                    <rdg wit="#Bd">Pleas'd</rdg>
+                              </app>
+                              <app>
+                                    <lem>I will</lem>
+                                    <rdg wit="#PP #A #Bd">will I</rdg>
+                                    <rdg wit="#T">wee will</rdg>
+                              </app>
+                              <app>
+                                    <lem>make</lem>
+                                    <rdg wit="#Rs">lye on</rdg>
+                              </app>
+                              <app>
+                                    <lem>thee</lem>
+                                    <rdg wit="#T"/>
+                              </app>
+                              <app>
+                                    <lem>beds</lem>
+                                    <rdg wit="#PP #T">a bedd</rdg>
+                              </app> of Roses,</l>
+                        <l n="10"><app>
+                                    <lem>And</lem>
+                                    <rdg wit="#PP">With</rdg>
+                                    <rdg wit="#A">Drest with</rdg>
+                                    <rdg wit="#W #F">And then</rdg>
+                                    <rdg wit="#Rs">And make</rdg>
+                                    <rdg wit="#Bd">And twine</rdg>
+                              </app>
+                              <app>
+                                    <lem>a thousand</lem>
+                                    <rdg wit="#T">thowsande other</rdg>
+                              </app>
+                              <app>
+                                    <lem>fragrant</lem>
+                                    <rdg wit="#Rs">flagrant</rdg>
+                              </app>
+                              <app>
+                                    <lem>posies</lem>
+                                    <rdg wit="#EH">poesies</rdg>
+                                    <rdg wit="#PP #Rx #Rw #A #T #Rs">poses</rdg>
+                              </app>,</l>
+                        <l n="11">A cap of flowers, and <app>
+                                    <lem>a</lem>
+                                    <rdg wit="#Bd">rural</rdg>
+                              </app> kirtle,</l>
+                        <l n="12">Imbroydred all with leaves of Mirtle.</l>
+
+                        <!--<BAD - LINE EXCHANGE + OMIT - overlapping tags - BELOW-SEE B.-->
+                        <l n="13">A <app>
+                                    <lem>gowne made</lem>
+                                    <rdg wit="#Bd">jaunty gown</rdg>
+                              </app> of the finest wooll,</l>
+                        <l n="14">Which from <app>
+                                    <lem>our pretty</lem>
+                                    <rdg wit="#T">the little</rdg>
+                              </app> Lambes we pull,</l>
+                        <l n="15"><app>
+                                    <lem>Fayre lined slippers</lem>
+                                    <rdg wit="#W #F">Slippers lin'd choicely</rdg>
+                                    <rdg wit="#Bd">And shoes lin'd choicely</rdg>
+                              </app>for the cold:</l>
+                        <l n="16">With buckles of the purest gold.</l>
+
+                        <l n="17"><app>
+                                    <rdg wit="#Rx"><lacunaStart/></rdg>
+                              </app>A belt of straw, and Ivie buds,</l>
+                        <l n="18">With <app>
+                                    <lem>Corall</lem>
+                                    <rdg wit="#T">Amber</rdg>
+                              </app> clasps and Amber studs,</l>
+                        <l n="19"><app>
+                                    <lem>And if</lem>
+                                    <rdg wit="#Rw_c #T">If</rdg>
+                              </app> these <app>
+                                    <lem>pleasures may thee</lem>
+                                    <rdg wit="#Rw_u #A #Rs">things thy mind may</rdg>
+                                    <rdg wit="#Rw_c #T">delights thy mind may</rdg>
+                              </app> move,</l>
+                        <l n="20"><app>
+                                    <lem>Come</lem>
+                                    <rdg wit="#PP #A #T #Rs">Then</rdg>
+                                    <rdg wit="#Bd">To</rdg>
+                              </app> live with mee, and be my love.<app>
+                                    <rdg wit="#Rx"><lacunaEnd/></rdg>
+                              </app></l>
+                        <!--
+<L N="20.1"><app>
+<rdg wit="Rx"><L>Thy silver dishes fil'd with meate,</L>
+<L>As precious as the Gods do eate,</L>
+<L>Shall on an Ivory Table be</L>
+<L>Prepar'd each day for thee and me.</L></rdg>
+<rdg wit="W2"><L>Thy silver dishes for thy meat,</L>
+<L>As precious as the Gods do eate,</L>
+<L>Shall on an Ivory Table be</L>
+<L>Prepar'd each day for thee and me.</L></rdg>
+<rdg wit="T"><L>Thy dyches shalbe fild with meate</L>
+<L>Such as the gods doe use to eate</L>
+<L>Shall one and everye table bee</L>
+<L>Preparde eache daye for thee and mee</L></rdg>
+</app></L>-->
+                        <l n="21"><app>
+                                    <rdg wit="#PP #Rw #A #Rs #Bd"><lacunaStart/></rdg>
+                              </app>The Sheepheards Swaines shall daunce and sing,</l>
+                        <l n="22">For thy delight each May-morning.</l>
+                        <l n="23">If these delights thy minde may move;</l>
+                        <l n="24">Then live with mee, and be my love.<app>
+                                    <rdg wit="#PP #Rw #A #Rs #Bd"><lacunaEnd/></rdg>
+                              </app></l>
+                        <closer>
+                              <signed><name rend="ital">Chr. Marlow</name></signed>
+                        </closer>
+                  </div>
+            </body>
+      </text>
+</TEI>
