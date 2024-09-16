@@ -52,7 +52,7 @@
           <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
         </application>
       </appInfo>
-    <appInfo><application ident="RomaJS" version="1.1.1" when="2024-09-03T20:48:49.053Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.1.1" when="2024-09-14T20:31:44.272Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+    <appInfo><application ident="RomaJS" version="1.1.1" when="2024-09-03T20:48:49.053Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.1.1" when="2024-09-14T20:31:44.272Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.1.1" when="2024-09-16T14:56:12.048Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -82,7 +82,7 @@
         <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc encodingDesc profileDesc refsDecl cRefPattern language langUsage revisionDesc"/>
         
         <!-- required core elements (p and title for use in titleStmt) -->
-        <moduleRef key="core" include="p title milestone pb rs foreign head note date ref quote q list headLabel item emph bibl lg unclear cit mentioned gloss label l hi name reg author num term gap lb cb editor"/>
+        <moduleRef key="core" include="p title milestone pb rs foreign head note date ref quote q list headLabel item emph bibl lg unclear cit mentioned gloss label l hi name reg author num term gap lb cb editor stage sp speaker"/>
 
         <!-- required textstructure elements (TEI, text, and body) -->
         <moduleRef key="textstructure" include="TEI text body front back div opener closer argument salute signed floatingText dateline trailer byline epigraph titlePage docTitle docAuthor docEdition titlePart"/>
@@ -94,7 +94,7 @@
         <moduleRef key="namesdates" include="persName forename surname placeName orgName addName geogName roleName"/>
         <moduleRef key="linking" include="anchor seg ab"/>
         <moduleRef key="figures" include="table row cell"/>
-      <moduleRef key="textcrit" include="listWit witness wit rdg app lem"/></schemaSpec>
+      <moduleRef key="textcrit" include="listWit witness wit rdg app lem lacunaEnd lacunaStart"/><moduleRef key="drama" include="castList castItem castGroup role roleDesc"/><moduleRef key="tagdocs" include="tag"/></schemaSpec>
     </body>
   </text>
 </TEI>

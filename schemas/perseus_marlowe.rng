@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-09-14T20:31:48Z. . 
+Schema generated from ODD source 2024-09-16T14:56:16Z. . 
 TEI Edition: P5 Version 4.8.0. Last updated on 8th July 2024, revision 1f9891a87 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.8.0/ 
   
@@ -1865,22 +1865,32 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <notAllowed/>
    </define>
    <define name="tei_model.phrase.xml">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_tag"/>
+      </choice>
    </define>
    <define name="tei_model.phrase.xml_alternation">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_tag"/>
+      </choice>
    </define>
    <define name="tei_model.phrase.xml_sequence">
-      <empty/>
+      <ref name="tei_tag"/>
    </define>
    <define name="tei_model.phrase.xml_sequenceOptional">
-      <empty/>
+      <optional>
+         <ref name="tei_tag"/>
+      </optional>
    </define>
    <define name="tei_model.phrase.xml_sequenceOptionalRepeatable">
-      <empty/>
+      <zeroOrMore>
+         <ref name="tei_tag"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.phrase.xml_sequenceRepeatable">
-      <notAllowed/>
+      <oneOrMore>
+         <ref name="tei_tag"/>
+      </oneOrMore>
    </define>
    <define name="tei_model.specDescLike">
       <notAllowed/>
@@ -2133,22 +2143,32 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </oneOrMore>
    </define>
    <define name="tei_model.stageLike">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_stage"/>
+      </choice>
    </define>
    <define name="tei_model.stageLike_alternation">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_stage"/>
+      </choice>
    </define>
    <define name="tei_model.stageLike_sequence">
-      <empty/>
+      <ref name="tei_stage"/>
    </define>
    <define name="tei_model.stageLike_sequenceOptional">
-      <empty/>
+      <optional>
+         <ref name="tei_stage"/>
+      </optional>
    </define>
    <define name="tei_model.stageLike_sequenceOptionalRepeatable">
-      <empty/>
+      <zeroOrMore>
+         <ref name="tei_stage"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.stageLike_sequenceRepeatable">
-      <notAllowed/>
+      <oneOrMore>
+         <ref name="tei_stage"/>
+      </oneOrMore>
    </define>
    <define name="tei_model.entryPart">
       <notAllowed/>
@@ -2198,6 +2218,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_model.lLike"/>
          <ref name="tei_model.pLike"/>
          <ref name="tei_lg"/>
+         <ref name="tei_sp"/>
       </choice>
    </define>
    <define name="tei_model.placeNamePart">
@@ -2393,7 +2414,9 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       </choice>
    </define>
    <define name="tei_model.frontPart.drama">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_castList"/>
+      </choice>
    </define>
    <define name="tei_model.pLike.front">
       <choice>
@@ -2434,6 +2457,12 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    </define>
    <define name="tei_model.imprintPart">
       <notAllowed/>
+   </define>
+   <define name="tei_model.castItemPart">
+      <choice>
+         <ref name="tei_role"/>
+         <ref name="tei_roleDesc"/>
+      </choice>
    </define>
    <define name="tei_model.addressLike">
       <notAllowed/>
@@ -2624,6 +2653,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_model.listLike"/>
          <ref name="tei_model.stageLike"/>
          <ref name="tei_model.attributable"/>
+         <ref name="tei_castList"/>
       </choice>
    </define>
    <define name="tei_model.cmc">
@@ -2957,6 +2987,7 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
          <ref name="tei_macro.phraseSeq"/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
+         <ref name="tei_att.translatable.attributes"/>
          <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.pointing.attributes"/>
          <ref name="tei_att.cReferencing.attributes"/>
@@ -3639,6 +3670,96 @@ Elements]</a:documentation>
          <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
          <ref name="tei_att.cmc.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_sp">
+      <element name="sp">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech) contains an individual speech in a performance text, or a passage presented as such in a prose or verse text. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.2. Speeches and Speakers]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="tei_model.global"/>
+            </zeroOrMore>
+            <rng:optional xmlns:rng="http://relaxng.org/ns/structure/1.0">
+               <rng:group>
+                  <rng:ref name="tei_speaker"/>
+                  <rng:zeroOrMore>
+                     <rng:ref name="tei_model.global"/>
+                  </rng:zeroOrMore>
+               </rng:group>
+            </rng:optional>
+            <oneOrMore>
+               <choice>
+                  <ref name="tei_lg"/>
+                  <ref name="tei_model.lLike"/>
+                  <ref name="tei_model.pLike"/>
+                  <ref name="tei_model.listLike"/>
+                  <ref name="tei_model.stageLike"/>
+                  <ref name="tei_model.attributable"/>
+               </choice>
+               <choice>
+                  <zeroOrMore>
+                     <ref name="tei_model.global"/>
+                  </zeroOrMore>
+                  <ref name="tei_q"/>
+               </choice>
+            </oneOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.ascribed.directed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_speaker">
+      <element name="speaker">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a specialized form of heading or label, giving the name of one or more speakers in a dramatic text or fragment. [3.13.2. Core Tags for Drama]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_stage">
+      <element name="stage">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.4. Stage Directions]</a:documentation>
+         <ref name="tei_macro.specialPara"/>
+         <ref name="tei_att.ascribed.directed.attributes"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.placement.attributes"/>
+         <ref name="tei_att.written.attributes"/>
+         <ref name="tei_att.cmc.attributes"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the kind of stage direction.
+Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] novelistic; 6] delivery; 7] modifier; 8] location; 9] mixed</a:documentation>
+               <list>
+                  <zeroOrMore>
+                     <choice>
+                        <value>setting</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes a setting.</a:documentation>
+                        <value>entrance</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes an entrance.</a:documentation>
+                        <value>exit</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes an exit.</a:documentation>
+                        <value>business</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes stage business.</a:documentation>
+                        <value>novelistic</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">is a narrative, motivating stage direction.</a:documentation>
+                        <value>delivery</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes how a character speaks.</a:documentation>
+                        <value>modifier</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives some detail about a character.</a:documentation>
+                        <value>location</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes a location.</a:documentation>
+                        <value>mixed</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">more than one of the above</a:documentation>
+                        <data type="token">
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
+                        </data>
+                     </choice>
+                  </zeroOrMore>
+               </list>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -5267,6 +5388,8 @@ Suggested values include: 1] label; 2] data</a:documentation>
    <define name="tei_model.rdgPart">
       <choice>
          <ref name="tei_wit"/>
+         <ref name="tei_lacunaStart"/>
+         <ref name="tei_lacunaEnd"/>
       </choice>
    </define>
    <define name="tei_att.rdgPart.attributes">
@@ -5536,6 +5659,197 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
          </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.sortable.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_lacunaStart">
+      <element name="lacunaStart">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(lacuna start) indicates the beginning of a lacuna in the text of a mostly complete textual witness. [13.1.5. Fragmentary Witnesses]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.rdgPart.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_lacunaEnd">
+      <element name="lacunaEnd">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(lacuna end) indicates the end of a lacuna in a mostly complete textual witness. [13.1.5. Fragmentary Witnesses]</a:documentation>
+         <empty/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.rdgPart.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_castList">
+      <element name="castList">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cast list) contains a single cast list or dramatis personae. [7.1.4. Cast Lists 7.1. Front and Back Matter
+ ]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.divTop"/>
+                  <ref name="tei_model.global"/>
+               </choice>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="tei_model.common"/>
+               <zeroOrMore>
+                  <ref name="tei_model.global"/>
+               </zeroOrMore>
+            </zeroOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="tei_castItem"/>
+                  <ref name="tei_castGroup"/>
+               </choice>
+               <zeroOrMore>
+                  <ref name="tei_model.global"/>
+               </zeroOrMore>
+            </oneOrMore>
+            <zeroOrMore>
+               <ref name="tei_model.common"/>
+               <zeroOrMore>
+                  <ref name="tei_model.global"/>
+               </zeroOrMore>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_castGroup">
+      <element name="castGroup">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cast list grouping) groups one or more individual <code xmlns="http://www.w3.org/1999/xhtml"
+                  xmlns:rng="http://relaxng.org/ns/structure/1.0">&lt;castItem&gt;</code> elements within a cast list. [7.1.4. Cast Lists]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="tei_model.global"/>
+                  <ref name="tei_model.headLike"/>
+               </choice>
+            </zeroOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="tei_castItem"/>
+                  <ref name="tei_castGroup"/>
+                  <ref name="tei_roleDesc"/>
+               </choice>
+               <zeroOrMore>
+                  <ref name="tei_model.global"/>
+               </zeroOrMore>
+            </oneOrMore>
+            <rng:optional xmlns:rng="http://relaxng.org/ns/structure/1.0">
+               <rng:group>
+                  <rng:ref name="tei_trailer"/>
+                  <rng:zeroOrMore>
+                     <rng:ref name="tei_model.global"/>
+                  </rng:zeroOrMore>
+               </rng:group>
+            </rng:optional>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_castItem">
+      <element name="castItem">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cast list item) contains a single entry within a cast list, describing either a single role or a list of non-speaking roles. [7.1.4. Cast Lists]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="tei_model.gLike"/>
+               <ref name="tei_model.castItemPart"/>
+               <ref name="tei_model.phrase"/>
+               <ref name="tei_model.global"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="type"
+                       a:defaultValue="role">
+               <a:documentation>characterizes the cast item.</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_role">
+      <element name="role">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(role) contains the name of a dramatic role, as given in a cast list. [7.1.4. Cast Lists]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <optional>
+            <attribute name="gender">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the gender of the role.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_roleDesc">
+      <element name="roleDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(role description) describes a character's role in a drama. [7.1.4. Cast Lists]</a:documentation>
+         <ref name="tei_macro.phraseSeq"/>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_att.translatable.attributes">
+      <ref name="tei_att.translatable.attribute.versionDate"/>
+   </define>
+   <define name="tei_att.translatable.attribute.versionDate">
+      <optional>
+         <attribute name="versionDate">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the date on which the source text was extracted and sent to the translator</a:documentation>
+            <choice>
+               <data type="date">
+                  <param name="pattern">(19[789][0-9]|[2-9][0-9]{3}).*</param>
+               </data>
+               <data type="dateTime">
+                  <param name="pattern">(19[789][0-9]|[2-9][0-9]{3}).*</param>
+               </data>
+      
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_tag">
+      <element name="tag">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(tag) contains text of a complete start- or end-tag, possibly including attribute specifications, but excluding the opening and closing markup delimiter characters. [23. Documentation Elements]</a:documentation>
+         <text/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of XML tag intended</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="scheme"
+                       a:defaultValue="TEI">
+               <a:documentation>supplies the name of the schema in which this tag is defined.
+Sample values include: 1] TEI (text encoding initiative); 2] DBK (docbook); 3] XX (unknown); 4] Schematron; 5] HTML</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
