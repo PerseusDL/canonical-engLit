@@ -1,0 +1,4518 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../../schemas/perseus_marlowe.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="eng">
+<fileDesc>
+<titleStmt>
+<title>The Massacre at Paris</title>
+<author>Christopher Marlowe</author>
+
+
+</titleStmt>
+<publicationStmt><p>later</p></publicationStmt>
+<sourceDesc><bibl/></sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<refsDecl n="CTS"><cRefPattern n="sceneline" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='scene' and @n='$1']"/></refsDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="eng">English</language>
+<language ident="lat">Latin</language>
+<language ident="fra">French</language>
+</langUsage>
+</profileDesc>
+
+
+<revisionDesc><list><item>converted to perseus_marlowe.rng</item></list></revisionDesc>
+</teiHeader>
+<text xml:lang="eng">
+<front>
+
+<div type="apparatus">
+<listWit>
+<witness xml:id="Bow"><bibl><title>Complete Works</title>, ed. Bowers, 1973</bibl></witness>
+<witness xml:id="O1">Octavo, date uncertain</witness>
+<witness xml:id="Ch">pub. Chappell, 1818</witness>
+<witness xml:id="Ox">ed. Oxberry, 1818</witness>
+<witness xml:id="R"><bibl><title>Works</title>, ed. Robinson, 1826</bibl></witness>
+<witness xml:id="D1"><bibl><title>Works</title>, ed. Dyce, 1850</bibl></witness>
+<witness xml:id="D2"><bibl><title>Works</title>, rev. 1858</bibl></witness>
+<witness xml:id="C"><bibl><title>Works</title>, ed. Cunningham,
+1870</bibl></witness>
+<witness xml:id="B"><bibl><title>Works</title>, ed. Bullen, 1884-5</bibl></witness>
+<witness xml:id="TB"><bibl><title>Works</title>, ed.Tucker Brooke,
+1910</bibl></witness>
+<witness xml:id="M"><bibl>Methuen, ed. H. S. Bennett, 1931</bibl></witness>
+<witness xml:id="Ri"><bibl><title>Plays</title> ed. Ribner, 1963</bibl></witness>
+<witness xml:id="Rv"><bibl>Revels, ed. Oliver, 1968</bibl></witness>
+<witness xml:id="EP"><bibl><title>England's Parnassus</title>,
+1600</bibl></witness>
+<witness xml:id="Mal">MS notes by Malone in Bodleian octavo</witness>
+<witness xml:id="Br">MS notes by Broughton in BM copy of Robinson</witness>
+<witness xml:id="Coll">MS notes by Collier in BM copy of 1850 Dyce
+</witness>
+<witness xml:id="D"/>
+</listWit>
+</div>
+<div type="textpart">
+<castList><head>[DRAMATIS PERSONAE</head>
+<castItem type="role"><role xml:id="king">CHARLES THE NINTH</role><roleDesc>King of
+France</roleDesc></castItem>
+<castItem type="role"><role xml:id="anjo">Duke of Anjou</role><roleDesc>his brother,
+afterwards KNIG HENRY THE THIRD</roleDesc></castItem>
+<castItem type="role"><role xml:id="nava">King of Navarre</role></castItem>
+<castItem type="role"><role xml:id="cond">PRINCE OF CONDE</role><roleDesc>his
+brother</roleDesc></castItem>
+<castGroup><head>brothers</head>
+<castItem type="role"><role xml:id="guis">DUKE OF GUISE</role></castItem>
+<castItem type="role"><role xml:id="card">CARDINAL OF LORRAINE</role></castItem>
+<castItem type="role"><role xml:id="duma">DUKE DUMAINE</role></castItem>
+</castGroup>
+
+<castItem type="role"><role xml:id="yong">SON TO THE DUKE OF
+GUISE</role><roleDesc>a boy</roleDesc></castItem>
+<castItem type="role"><role xml:id="admi">THE LORD HIGH
+ADMIRAL</role></castItem>
+<castItem type="role"><role xml:id="joye">DUKE OF JOYEUX</role></castItem>
+<castItem type="role"><role xml:id="eper">EPERNOUN</role></castItem>
+<castItem type="role"><role xml:id="ples">PLESHE</role></castItem>
+<castItem type="role"><role xml:id="bart">BARTUS</role></castItem>
+<castItem type="role"><role>TWO LORDS OF POLAND</role></castItem>
+<castItem type="role"><role xml:id="lor1"/></castItem>
+<castItem type="role"><role xml:id="lor2"/></castItem>
+<castItem type="role"><role xml:id="gonz">GONZAGO</role></castItem>
+<castItem type="role"><role xml:id="rete">RETES</role></castItem>
+<castItem type="role"><role xml:id="moun">MOUNTSORRELL</role></castItem>
+<castItem type="role"><role xml:id="coss">COSSINS</role>,<roleDesc>Captain of the
+King's Guard</roleDesc></castItem>
+<castItem type="role"><role xml:id="muge">MUGEROUN</role></castItem>
+<castItem type="role"><role xml:id="cutp">THE CUTPURSE</role></castItem>
+<castItem type="role"><role xml:id="lore">LOREINE</role>,<roleDesc>a
+preacher</roleDesc></castItem>
+<castItem type="role"><role xml:id="sero">SEROUNE</role></castItem>
+<castItem type="role"><role xml:id="ramu">RAMUS</role></castItem>
+<castItem type="role"><role xml:id="tale">TALEUS</role></castItem>
+<castItem type="role"><role xml:id="frie">FRIAR</role></castItem>
+<castItem type="role"><role xml:id="surg">SURGEON</role></castItem>
+<castItem type="role">ENGLISH AGENT</castItem>
+<castItem type="role"><role xml:id="poth">APOTHECARY</role></castItem>
+<castItem type="list">Captain of the Guard, Protestants, Schoolmasters,
+Soldiers,
+Murderers, Attendants, &amp;c.</castItem>
+<castItem type="role"><role xml:id="murd1"/></castItem>
+<castItem type="role"><role xml:id="murd2"/></castItem>
+<castItem type="role"><role xml:id="murd3"/></castItem>
+<castItem type="role"><role xml:id="adman"/></castItem>
+<castItem type="role"><role xml:id="capt"/></castItem>
+<castItem type="role"><role xml:id="sold"/></castItem>
+<castItem type="role"><role xml:id="prot"/></castItem>
+<castItem type="role"><role xml:id="maid"/></castItem>
+<castItem type="role"><role xml:id="mess"/></castItem>
+<castItem type="role"><role xml:id="quee">CATHERINE</role>,<roleDesc>the Queen
+Mother of France</roleDesc></castItem>
+<castItem type="role"><role xml:id="marg">MARGARET</role>,<roleDesc>her daughter,
+wife to the KING OF NAVARRE</roleDesc></castItem>
+<castItem type="role"><role xml:id="old">THE OLD QUEEN OF
+NAVARRE</role></castItem>
+<castItem type="role"><role xml:id="duch">DUCHESS OF GUISE</role></castItem>
+<castItem type="role"><role>WIFE TO SEROUNE</role></castItem>
+<castItem type="role"><role>Maid to the Duchess of Guise</role></castItem>
+</castList>
+</div>
+</front>
+<body>
+
+<head>The Massacre at Paris.  With the Death of the Duke of
+<name>Guise</name>.</head>
+<div type="textpart" subtype="scene" n="1"><head>[Scene i]</head>
+
+<stage type="entrance">Enter <name>Charles</name> the French King,
+[<name>Catherine</name>] the <name>Queene
+Mother</name>, the King of <name>Navarre</name>, the Prince of
+<name>Condye, </name>the Lord high
+<name>Admirall</name>, and [<name>Margaret</name>] the Queene
+of <name>Navarre</name>, with others.</stage>
+
+<sp who="king"><speaker>Charles</speaker>
+<l n='1'>Prince of <name>Navarre</name> my honourable brother,</l>
+<l n='2'>Prince <name>Condy</name>, and my good Lord Admirall,</l>
+<l n='3'>I wishe this union and religious league,</l>
+<l n='4'>Knit in these hands, thus joyn'd in nuptiall rites,</l>
+<l n='5'>May not desolve, till death desolve our lives,</l>
+<l n='6'>And that the native sparkes of princely love,</l>
+<!--var:#hearts,] ~ :#-->
+<l n='7'>That kindled first this motion in our hearts<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='8'>May still be feweld in our progenye.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<!--var:#hath] has Ch, Ox, R#-->
+<l n='9'>The many favours which your grace <app>
+<lem>hath</lem>
+<rdg wit="Ch Ox R">has</rdg>
+</app> showne,</l>
+<!--var:#this,] ~ :#-->
+<l n='10'>From time to time, but specially in this<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='11'>Shall binde me ever to your highnes will,</l>
+<l n='12'>In what Queen Mother or your grace commands.</l>
+</sp>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Old Qu.</rdg>
+</app></speaker><!--var:#<I>Queene Mother</I>.] O1 <I>speech-prefix in this scene</I>
+is Old Qu.#-->
+<l n='13'>Thanks sonne <name>Navarre</name>, you see we love you
+well,</l>
+<l n='14'>That linke you in mariage with our daughter heer:</l>
+<!--var:#know,...Religion^] ~ ^...~,#-->
+<l n='15'>And as you know<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> our difference in Religion<app>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='16'>Might be a meanes to crosse you in your love.</l>
+</sp>
+
+<sp who="king"><speaker>Charles</speaker>
+<l n='17'>Well Madam, let that rest:</l>
+<l n='18'>And now my Lords the mariage rites perfourm'd,</l>
+<l n='19'>We think it good to goe and consumate</l>
+<!--var:#a] an Ch, Ox, R, C#-->
+<l n='20'>The rest, with hearing of <app>
+<lem>a</lem>
+<rdg wit="Ch Ox R C">an</rdg>
+</app> holy Masse:</l>
+<l n='21'>Sister, I think your selfe will beare us company.</l></sp>
+
+<sp who="marg"><speaker>Queene Margaret</speaker>
+<l n='22'>I will my good Lord.</l>
+</sp>
+
+<sp who="king"><speaker>Charles</speaker>
+<l n='23'>The rest that will not goe (my Lords) may stay:</l>
+<!--var:#Mother,] ~ ^#-->
+<l n='24'>Come Mother<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app></l>
+<l n='25'>Let us goe to honor this solemnitie.</l>
+</sp>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Old Qu.</rdg>
+</app></speaker>
+<l n='26'>Which Ile desolve with bloud and crueltie.</l>
+</sp>
+
+<stage type="delivery">[Aside.]</stage>
+
+<stage type="exit">Exit [<name>Charles</name>] the
+<name>King</name>, <name>Queene Mother</name>, and
+<name>[Margaret]</name> the Queene of <name>Navar</name> [with
+others], and manet <name>Navar</name>, the Prince of
+<name>Condy</name>, and the Lord high
+<name>Admirall</name>.</stage>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='27'>Prince <name>Condy</name> and my good Lord Admiral,</l>
+<!--var:#doe] does Ch, Ox, R#-->
+<l n='28'>Now <name>Guise</name> may storme but <app>
+<lem>doe</lem>
+<rdg wit="Ch Ox R">does</rdg>
+</app> us little hurt:</l>
+<!--var:#sides] side Ch, Ox, R#-->
+<l n='29'>Having the King, Queene Mother on our <app>
+<lem>sides</lem>
+<rdg wit="Ch Ox R">side</rdg>
+</app>,</l>
+<l n='30'>To stop the mallice of his envious heart,</l>
+<l n='31'>That seekes to murder all the Protestants:</l>
+<l n='32'>Have you not heard of late how he decreed,</l>
+<l n='33'>If that the King had given consent thereto,</l>
+<l n='34'>That all the protestants that are in Paris,</l>
+<l n='35'>Should have been murdered the other night?</l>
+</sp>
+
+<sp who="admi"><speaker>Admirall</speaker>
+<!--var:#Guise^] ~ ,#-->
+<l n='36'>My Lord I mervaile that th'aspiring <name><app>
+<lem>Guise</lem>
+<rdg wit="O1">,</rdg>
+</app></name></l>
+<!--var:#consent] assent Ch, Ox, R, C#-->
+<l n='37'>Dares once adventure without the Kings <app>
+<lem>consent</lem>
+<rdg wit="Ch Ox R C">assent</rdg>
+</app>,</l>
+<l n='38'>To meddle or attempt such dangerous things.</l>
+</sp>
+
+<sp who="cond"><speaker>Condy</speaker>
+<l n='39'>My Lord you need not mervaile at the <name>Guise</name>,</l>
+<l n='40'>For what he doth the Pope will ratifie:</l>
+<l n='41'>In murder, mischeefe, or in tiranny.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='42'>But he that sits and rules above the clowdes,</l>
+<l n='43'>Doth heare and see the praiers of the just:</l>
+<l n='44'>And will revenge the bloud of innocents,</l>
+<l n='45'>That <name>Guise</name> hath slaine by treason of his heart,</l>
+<l n='46'>And brought by murder to their timeles ends.</l>
+</sp>
+
+<sp who="admi"><speaker>Admirall</speaker>
+<l n='47'>My Lord, but did you mark the Cardinall</l>
+<l n='48'>The <name>Guises</name> brother, and the Duke
+<name>Dumain</name>:</l>
+<l n='49'>How they did storme at these your nuptiall rites,</l>
+<l n='50'>Because the house of <name>Burbon</name> now comes in,</l>
+<!--var:#<I>et seq.</I> <I>France</I>] France#-->
+<!-- BAD desc="No match at ,1,51"I didn't get all the France's -->
+<l n='51'>And joynes your lineage to the crowne of<app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>France<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>?</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='52'>And thats the cause that <name>Guise</name> so frowns at us,</l>
+<!--var:#trap,] ~ :#-->
+<l n='53'>And beates his braines to catch us in his trap<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='54'>Which he hath pitcht within his deadly toyle.</l>
+<l n='55'>Come my Lords lets go to the Church and pray,</l>
+<l n='56'>That God may still defend the right of <name>France</name>:</l>
+<l n='57'>And make his Gospel flourish in this land.</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="2"><head>[Scene ii]</head>
+<stage type="entrance">Enter the Duke of
+<name>Guise</name>.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='1'>If ever <name>Hymen</name> lowr'd at marriage rites,</l>
+<l n='2'>And had his alters decks with duskie lightes:</l>
+<l n='3'>If ever sunne stainde heaven with bloudy clowdes,</l>
+<l n='4'>And made it look with terrour on the worlde:</l>
+<l n='5'>If ever day were turnde to ugly night,</l>
+<l n='6'>And night made semblance of the hue of hell,</l>
+<!--var:#houre,] hour and D (<I>qy</I>), C, B#-->
+<l n='7'>This day, this houre<app>
+<lem>,</lem>
+<rdg wit="C B">hour and</rdg>
+<rdg wit="D" type="qy">hour and</rdg>
+</app> this fatall night,</l>
+<!--var:#all.] ~ ,#-->
+<l n='8'>Shall fully shew the fury of them all<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<!--var:#Apothecarie.-] ~ . ^#-->
+<l n='9'>Apothecarie.<app>
+<lem>—</lem>
+<rdg wit="O1"/>
+</app></l>
+</sp>
+
+<stage type="entrance">Enter the Pothecarie.</stage>
+
+<sp who="poth"><speaker>Pothecarie</speaker>
+<l n='10'>My Lord.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='11'>Now shall I prove and guerdon to the ful,</l>
+<l n='12'>The love thou bear'st unto the house of <name>Guise</name>:</l>
+<!--var:#which] which late Ch, Ox, R, C, B#-->
+<l n='13'>Where are those perfumed gloves <app>
+<lem>which</lem>
+<rdg wit="Ch Ox R C B">which late</rdg>
+</app> I sent</l>
+<l n='14'>To be poysoned, hast thou done them? speake,</l>
+<!--var:#every] very Coll MS#-->
+<l n='15'>Will <app>
+<lem>every</lem>
+<rdg wit="Coll">very</rdg>
+</app> savour breed a pangue of death?</l>
+</sp>
+
+<!--var:#good] <I>omit</I>  Ch, Ox, R, C#-->
+<sp who="poth"><lb/><speaker>Pothecarie</speaker>
+<p>See where they be my <app>
+<lem>good</lem>
+<rdg wit="Ch Ox R C"/>
+</app> Lord, and he that smelles
+<lb/>but to them, dyes.</p>
+</sp>
+
+<sp who="guis"><lb/><speaker>Guise</speaker>
+<p>Then thou remainest resolute.</p>
+</sp>
+
+<sp who="poth"><lb/><speaker>Pothecarie</speaker>
+<p>I am my Lord, in what your grace commaundes till
+<lb/>death.</p>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#love.] ~ ,#-->
+<l n='16'>Thankes my good freend, I wil requite thy love<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='17'>Goe then, present them to the Queene <name>Navarre</name>:</l>
+<l n='18'>For she is that huge blemish in our eye,</l>
+<l n='19'>That makes these upstart heresies in <name>Fraunce</name>:</l>
+<l n='20'>Be gone my freend, present them to her straite.</l>
+<!--var:#Souldyer.-] ~ . ^#-->
+<l n='21'>Souldyer.<app>
+<lem>—</lem>
+<rdg wit="O1"/>
+</app></l>
+</sp>
+
+<stage type="exit">Exit <name>Pothecaier</name>.</stage>
+<stage type="entrance">Enter a Souldier.</stage>
+
+<sp who="sold"><speaker>Souldier</speaker>
+<l n='22'>My Lord.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--BAD -var:#part,] <I>point uncertain</I>#-->
+<l n='23'>Now come thou forth and play thy tragick part,</l>
+<l n='24'>Stand in some window opening neere the street,</l>
+<l n='25'>And when thou seest the Admirall ride by,</l>
+<l n='26'>Discharge thy musket and perfourme his death:</l>
+<l n='27'>And then Ile guerdon thee with store of crownes.</l>
+</sp>
+<sp who="sold"><speaker>Souldier</speaker>
+<l n='28'>I will my Lord.</l>
+</sp>		<stage type="exit">Exit <name>Souldier</name>.</stage>
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#<I>Guise</I>,... thoughts^] ~ ^... ~ ,#-->
+<!--var:#begins] begin Ch, Ox, R, D, C, B#-->
+<l n='29'>Now <name>Guise</name><app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> <app>
+<lem>begins</lem>
+<rdg wit="Ch Ox R D C B">begin</rdg>
+</app> those deepe ingendred thoughts<app>
+<rdg wit="O1">,</rdg>
+</app></l>
+<!--var:#abroad,] ~ ^#-->
+<l n='30'>To burst abroad<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> those never dying flames,</l>
+<l n='31'>Which cannot be extinguisht but by bloud.</l>
+<l n='32'>Oft have I leveld, and at last have learnd,</l>
+<!--var:#That perill...way] Daunger's...joy EP#-->
+<l n='33'><app>
+<lem>That perill</lem>
+<rdg wit="EP">Danger's</rdg>
+</app> is the cheefest way to <app>
+<lem>happines</lem>
+<rdg wit="EP">joy</rdg>
+</app>,</l>
+<l n='34'>And resolution honors fairest aime.</l>
+<l n='35'>What glory is there in a common good,</l>
+<l n='36'>That hanges for every peasant to atchive?</l>
+<!--var:#reach.] ~ ,#-->
+<l n='37'>That like I best that flyes beyond my reach<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='38'>Set me to scale the high Peramides,</l>
+<l n='39'>And thereon set the Diadem of <name>Fraunce</name>,</l>
+<l n='40'>Ile either rend it with my nayles to naught,</l>
+<l n='41'>Or mount the top with my aspiring winges,</l>
+<l n='42'>Although my downfall be the deepest hell.</l>
+<l n='43'>For this, I wake, when others think I sleepe,</l>
+<!--var:#scornes] scorn Ch, Ox, R, D, C, B#-->
+<l n='44'>For this, I waite, that <app>
+<lem>scornes</lem>
+<rdg wit="Ch Ox R D C B">scorn</rdg>
+</app> attendance else:</l>
+<l n='45'>For this, my quenchles thirst whereon I builde,</l>
+<l n='46'>Hath often pleaded kindred to the King.</l>
+<l n='47'>For this, this head, this heart, this hand and sworde,</l>
+<!--var:#executes^] ~ ,#--><!--var:#Contrives, imagines...executes] Contrive, imagine...execute
+R#--><!--var:#and] <I>omit</I>  C#-->
+<l n='48'><app>
+<lem>Contrives</lem>
+<rdg wit="R">Contrive</rdg>
+</app>, <app><lem>imagines</lem>
+<rdg wit="R">imagine</rdg>
+</app> <app>
+<lem>and</lem>
+<rdg wit="C"/>
+</app> fully <app>
+<lem>executes</lem>
+<rdg wit="R">execute</rdg>
+</app><app>
+<rdg wit="O1">,</rdg>
+</app></l>
+<!--var:#aimed] aimde#-->
+<l n='49'>Matters of importe, <app>
+<lem>aimed</lem>
+<rdg wit="O1">aimde</rdg>
+</app> at by many,</l>
+<l n='50'>Yet understoode by none.</l>
+<l n='51'>For this, hath heaven engendred me of earth,</l>
+<!--var:#this earth] the earth Ch, Ox, R,C#-->
+<l n='52'>For this, <app>
+<lem>this earth</lem>
+<rdg wit="Ch Ox R C">the earth</rdg>
+</app> sustaines my bodies weight,</l>
+<l n='53'>And with this wait Ile counterpoise a Crowne,</l>
+<l n='54'>Or with seditions weary all the worlde:</l>
+<!--var:#Catholickes^] ~ ,#-->
+<!--var:#Catholickes] Catholic Ch, Ox, R, C#-->
+<l n='55'>For this, from Spaine the stately <app>
+<lem>Catholickes</lem>
+<rdg wit="Ch Ox R C">Catholic</rdg>
+</app><app>
+<rdg wit="O1">,</rdg>
+</app></l>
+<!--var:#Sends] Send D, B#-->
+<l n='56'><app>
+<lem>Sends</lem>
+<rdg wit="D B">Send</rdg>
+</app> Indian golde to coyne me French ecues:</l>
+<l n='57'>For this have I a largesse from the Pope,</l>
+<l n='58'>A pension and a dispensation too:</l>
+<l n='59'>And by that priviledge to worke upon,</l>
+<!--var:#religion.] ~ ,#-->
+<l n='60'>My policye hath framde religion<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='61'>Religion: O <name>Diabole</name>.</l>
+<!--var:#ashamde,] ~ ^#-->
+<l n='62'>Fye, I am ashamde<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> how ever that I seeme,</l>
+<l n='63'>To think a word of such a simple sound,</l>
+<l n='64'>Of so great matter should be made the ground.</l>
+<l n='65'>The gentle King whose pleasure uncontrolde,</l>
+<l n='66'>Weakneth his body, and will waste his Realme,</l>
+<l n='67'>If I repaire not what he ruinates:</l>
+<l n='68'>Him as a childe I dayly winne with words,</l>
+<l n='69'>So that for proofe, he barely beares the name:</l>
+<l n='70'>I execute, and he sustaines the blame.</l>
+<l n='71'>The Mother Queene workes wonders for my sake,</l>
+<l n='72'>And in my love entombes the hope of <name>Fraunce</name>:</l>
+<l n='73'>Rifling the bowels of her treasurie,</l>
+<l n='74'>To supply my wants and necessitie.</l>
+<l n='75'>Paris hath full five hundred Colledges,</l>
+<l n='76'>As Monestaries, Priories, Abbyes and halles,</l>
+<l n='77'>Wherein are thirtie thousand able men,</l>
+<l n='78'>Besides a thousand sturdy student Catholicks,</l>
+<!--var:#more:] ~ ^#-->
+<!--var:#keeps] keep Ch, Ox, R, D, C, B#-->
+<l n='79'>And more<app>
+<lem>:</lem>
+<rdg wit="O1"/>
+</app> of my knowledge in one cloyster <app>
+<lem>keeps</lem>
+<rdg wit="Ch Ox R D C B">keep</rdg>
+</app>,</l>
+<l n='80'>Five hundred fatte Franciscan Fryers and priestes.</l>
+<l n='81'>All this and more, if more may be comprisde,</l>
+<!--var:#To] Do C#-->
+<!--var:#will] whole Coll MS#-->
+<l n='82'><app>
+<lem>To</lem>
+<rdg wit="C">Do</rdg>
+</app> bring the <app>
+<lem>will</lem>
+<rdg wit="Coll">whole</rdg>
+</app> of our desires to end.</l>
+<!--var:#<I>Guise</I>,] ~ ^#-->
+<l n='83'>Then <name>Guise</name><app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app></l>
+<!--var:#Cardes^] ~ ,#-->
+<l n='84'>Since thou hast all the
+Cardes<app>
+<rdg wit="O1">,</rdg>
+</app> within thy hands</l>
+<!--var:#cut] to cut Ch, Ox, R#-->
+<l n='85'>To shuffle or <app>
+<lem>cut</lem>
+<rdg wit="Ch Ox R">to cut</rdg>
+</app>, take this as surest thing:</l>
+<!--var:#deale] deal'st] Ch, Ox, R, C#-->
+<l n='86'>That right or wrong, thou <app>
+<lem>deale</lem>
+<rdg wit="Ch Ox R C">deal'st</rdg>
+</app> thy selfe a King.</l>
+<!--var:#<I>Navarre</I>. Tis] <I>Navarre</I>, tis#-->
+<!--var:#<I>Navarre</I>, <I>Navarre</I>] Navarre Ch, Ox, R, D, C, B, M#-->
+<l n='87'>I but,<app>
+<lem><name>Navarre</name>, <name>Navarre</name></lem>
+<rdg wit="Ch Ox R D C B M">Navarre</rdg>
+</app>
+<!--BAD above I have removed name tags to deitaliciz-->
+<app>
+<lem>. Tis</lem>
+<rdg wit="O1">, tis</rdg>
+</app> but a nook of <name>France</name>.</l>
+<l n='88'>Sufficient yet for such a pettie King:</l>
+<l n='89'>That with a rablement of his hereticks,</l>
+<l n='90'>Blindes Europs eyes and troubleth our estate:</l>
+<!--var:#we-]  ~ ^#-->
+<l n='91'>Him will
+we<app>
+<lem>—</lem>
+<rdg wit="O1"/>
+</app></l> <stage type="business">Pointing to his Sworde.</stage>
+
+
+<l n='92'>But first lets follow those in France.</l>
+<!--var:#possession] procession Br MS#-->
+<l n='93'>That hinder our <app>
+<lem>possession</lem>
+<rdg wit="Br">procession</rdg>
+</app> to the crowne:</l>
+<l n='94'>As Caesar to his souldiers, so say I:</l>
+<l n='95'>Those that hate me, will I learn to loath.</l>
+<l n='96'>Give me a look, that when I bend the browes,</l>
+<l n='97'>Pale death may walke in furrowes of my face:</l>
+<l n='98'>A hand, that with a graspe may gripe the world,</l>
+<l n='99'>An eare, to heare what my detractors say,</l>
+<l n='100'>A royall seate, a scepter and a crowne:</l>
+<!--var:#beholde, they] behold them Ch, Ox, R, D, C#-->
+<l n='101'>That those which doe <app>
+<lem>beholde, they</lem>
+<rdg wit="Ch Ox R D C">behold them</rdg>
+</app> may become</l>
+<l n='102'>As men that stand and gase against the Sunne.</l>
+<!--var:#passe,] ~ :#-->
+<l n='103'>The plot is laide, and things shall come to passe<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='104'>Where resolution strives for victory.</l>
+</sp>
+
+<stage type="exit">Exit.</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="3"><head>[Scene iii]</head>
+<stage type="entrance">Enter the King of <name>Navar</name> and
+Queen [<name>Margaret</name>], and his [olde] Mother Queen [of
+<name>Navarre</name>], the Prince of <name>Condy</name>, the
+<name>Admirall</name>, and the <name>Pothecary</name> with the
+gloves, and gives them to the olde Queene.</stage>
+
+<sp who="poth"><lb/><speaker>Pothecarie</speaker>
+<p>Maddame, I beseech your grace to except this simple
+<lb/>gift.</p>
+</sp>
+
+<sp who="old"><speaker>Old Queene</speaker>
+<!--var:#holde,] ~ ^#-->
+<l n='1'>Thanks my good freend, holde<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> take thou this reward.</l>
+</sp>
+
+<sp who="poth"><speaker>Pothecarie</speaker>
+<l n='2'>I humbly thank your Majestie.</l>
+</sp>	 <stage type="exit">Exit <name>Pothecary</name>.</stage>
+
+<sp who="old"><speaker>Old Queene</speaker>
+<l n='3'>Me thinkes the gloves have a very strong perfume,</l>
+<l n='4'>The sent whereof doth make my head to ake.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='5'>Doth not your grace know the man that gave them you?</l>
+</sp>
+
+<sp who="old"><speaker>Old Queene</speaker>
+<l n='6'>Not wel, but do remember such a man.</l>
+</sp>
+
+<sp who="admi"><speaker>Admirall</speaker>
+<l n='7'>Your grace was ill advisde to take them then,</l>
+<l n='8'>Considering of these dangerous times.</l>
+</sp>
+
+<sp who="old"><speaker>Old Queene</speaker>
+<!--var:#<I>Navarre,</I>] ~ ^#-->
+<l n='9'>Help sonne <name>Navarre</name><app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> I am poysoned.</l>
+</sp>
+
+<sp who="marg"><speaker>Queene Margaret</speaker>
+<l n='10'>The heavens forbid your highnes such mishap.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='11'>The late suspition of the Duke of <name>Guise</name>,</l>
+<!--var:#beware^] ~ :#-->
+<l n='12'>Might well have moved your highnes to <app>
+<lem>beware</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='13'>How you did meddle with such dangerous giftes.</l>
+</sp>
+
+<sp who="marg"><speaker>Queene Margaret</speaker>
+<l n='14'>Too late it is my Lord if that be true</l>
+<l n='15'>To blame her highnes, but I hope it be</l>
+<l n='16'>Only some naturall passion makes her sicke.</l>
+</sp>
+
+<sp who="old"><speaker>Old Queene</speaker>
+<!--var:#<I>Margaret</I>] <I>Margret</I>#-->
+<l n='17'>O no, sweet <app>
+<lem>Margaret</lem>
+<rdg wit="O1">Margret</rdg>
+</app>, the fatall poyson</l>
+<!--var:#Workes] Doth work Ch, Ox, R; Worketh D (<I>qy</I>), C#-->
+<!--var:#head] heart Ch, Ox, R, C#-->
+<l n='18'><app>
+<lem>Workes</lem>
+<rdg wit="Ch Ox R">Doth work</rdg>
+<rdg wit="D" type="qy">Worketh</rdg>
+<rdg wit="C">Worketh</rdg>
+</app> within my <app>
+<lem>head</lem>
+<rdg wit="Ch Ox R C">heart</rdg>
+</app>, my brain pan breakes,</l>
+<l n='19'>My heart doth faint, I dye.</l>
+</sp>					<stage type="business">She dyes.</stage>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='20'>My Mother poysoned heere before my face:</l>
+<l n='21'>O gracious God, what times are these?</l>
+<l n='22'>O graunt sweet God my daies may end with hers,</l>
+<l n='23'>That I with her may dye and live againe.</l>
+</sp>
+
+<sp who="marg"><speaker>Queene Margaret</speaker>
+<l n='24'>Let not this heavy chaunce my dearest Lord,</l>
+<l n='25'>(For whose effects my soule is massacred)</l>
+<l n='26'>Infect thy gracious brest with fresh supply,</l>
+<l n='27'>To agravate our sodaine miserie.</l>
+</sp>
+
+<sp who="admi"><speaker>Admirall</speaker>
+<l n='28'>Come my Lords let us beare her body hence,</l>
+<l n='29'>And see it honoured with just solemnitie.</l></sp>
+
+<stage type="mixed">As they are going, [enter] the
+<name>Souldier</name> [above, who] dischargeth his Musket at the
+Lord <name>Admirall</name> [and exit].</stage>
+
+<sp who="cond"><speaker>Condy</speaker>
+<l n='30'>What are you hurt my Lord high Admiral?</l>
+</sp>
+
+<sp who="admi"><speaker>Admirall</speaker>
+<!--var:#Lord,] ~ ^#-->
+<l n='31'>I my good Lord<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> shot through the arme.</l>
+</sp>
+
+<sp who="nava"><lb/><speaker>Navarre</speaker>
+<p>We are betraide, come my Lords, and let us goe tell
+<lb/>the King of this.</p>
+</sp>
+
+<sp who="admi"><speaker>Admirall</speaker>
+<l n='32'>These are the cursed <name>Guisians</name> that doe seeke our
+death.</l>
+<l n='33'>Oh fatall was this mariage to us all.</l>
+</sp>
+
+<stage type="mixed">They beare away the [olde]
+<name>Queene</name> [of <name>Navarre</name>] and goe
+out.</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="4"><head>[Scene iv]</head>
+<stage type="entrance">Enter [<name>Charles</name>] the
+<name>King</name>, [<name>Catherine</name>the] <name>Queene
+Mother</name>, Duke of <name>Guise</name>, Duke
+<name>Anjoy</name>,  Duke <name>Demayne</name> [and
+<name>Cossin</name>, Captain of the Kings Guard].</stage>
+
+<sp who="quee"><speaker>Queene Mother</speaker>
+<l n='1'>My noble sonne, and princely Duke of <name>Guise</name>,</l>
+<!--var:#deere,] ~ :#-->
+<l n='2'>Now have we got the fatall stragling deere<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='3'>Within the compasse of a deadly toyle,</l>
+<l n='4'>And as we late decreed we may perfourme.</l>
+</sp>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker><!--var:#<I>Charles</I>.] O1 <I>speech-prefix in this scene is
+King</I>.#-->
+<l n='5'>Madam, it wilbe noted through the world,</l>
+<l n='6'>An action bloudy and tirannicall:</l>
+<l n='7'>Cheefely since under safetie of our word,</l>
+<l n='8'>They justly challenge their protection:</l>
+<l n='9'>Besides my heart relentes that noble men,</l>
+<l n='10'>Onely corrupted in religion,</l>
+<l n='11'>Ladies of honor, Knightes and Gentlemen,</l>
+<l n='12'>Should for their conscience taste such rutheles ends.</l>
+</sp>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!--var:#paines] pain B#-->
+<l n='13'>Though gentle minces should pittie others <app>
+<lem>paines</lem>
+<rdg wit="B">pain</rdg>
+</app>,</l>
+<l n='14'>Yet will the wisest note their proper greefes:</l>
+<l n='15'>And rather seeke to scourge their enemies,</l>
+<l n='16'>Then be themselves base subjects to the whip.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#advisde^] ~ ,#-->
+<l n='17'>Me thinkes my Lord, <name>Anjoy</name> hath well <app>
+<lem>advisde</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='18'>Your highnes to consider of the thing,</l>
+<l n='19'>And rather chuse to seek your countries good,</l>
+<l n='20'>Then pittie or releeve these upstart hereticks.</l>
+</sp>
+
+<sp who="quee"><speaker>Queene Mother</speaker>
+<l n='21'>I hope these reasons mayserve my princely, Sonne,</l>
+<l n='22'>To have some care for feare of enemies.</l>
+</sp>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker>
+<l n='23'>Well Madam, I referre it to your Majestie,</l>
+<l n='24'>And to my Nephew heere the Duke of <name>Guise</name>:</l>
+<l n='25'>What you determine, I will ratifie.</l>
+</sp>
+
+<sp who="quee"><speaker>Queene Mother</speaker>
+<l n='26'>Thankes to my princely sonne, then tell me
+<name>Guise</name>,</l>
+<l n='27'>What order wil you set downe for the Massacre?</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='28'>Thus Madame.</l>
+<l n='29'>They that shalbe actors in this Massacre,</l>
+<!--var:#Burgonets,] ~ :#-->
+<l n='30'>Shall weare white crosses on their Burgonets<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='31'>And tye white linnen scarfes about their armes.</l>
+<!--var:#suspected] suspect Ox, R, D, C, M, Ri#-->
+<l n='32'>He that wantes these, and is <app>
+<lem>suspected</lem>
+<rdg wit="Ox R D C M Ri">suspect</rdg>
+</app> of heresie,</l>
+<!--var:#be] or be Ox, R#-->
+<l n='33'>Shall dye, <app>
+<lem>be</lem>
+<rdg wit="Ox R">or be</rdg>
+</app> he King or Emperour.</l>
+<l n='34'>Then Ile have a peale of ordinance shot from the tower,</l>
+<l n='35'>At which they all shall issue out and set the streetes.</l>
+<l n='36'>And then the watchword being given, a bell shall ring,</l>
+<l n='37'>Which when they heare, they shall begin to kill:</l>
+<l n='38'>And never cease untill that bell shall cease,</l>
+<l n='39'>Then breath a while.</l>
+</sp>
+
+<stage type="entrance">Enter the <name>Admirals</name>
+man.</stage>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker>
+<l n='40'>How now fellow, what newes?</l>
+</sp>
+
+<sp who="adman"><speaker>Man</speaker>
+<l n='41'>And it please your grace the Lord high Admirall,</l>
+<l n='42'>Riding the streetes was traiterously shot,</l>
+<!--var:#humbly] humble O1, Rv#-->
+<l n='43'>And most <app>
+<lem>humbly</lem>
+<rdg wit="O1 Rv">humble</rdg>
+</app> intreates your Majestie</l>
+<l n='44'>To visite him sick in his bed.</l>
+</sp>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker>
+<l n='45'>Messenger, tell him I will see him straite.</l>
+<stage type="exit">Exit Messenger.</stage>
+<l n='46'>What shall we doe now with the Admirall?</l>
+</sp>
+
+
+
+<sp who="quee"><speaker>Queene Mother</speaker>
+<!--var:#were] had R, C#-->
+<l n='47'>Your Majesty <app>
+<lem>were</lem>
+<rdg wit="R C">had</rdg>
+</app> best goe visite him,</l>
+<l n='48'>And make a shew as if all were well.</l>
+</sp>
+
+<sp who="king"><speaker>Charles</speaker>
+<l n='49'>Content, I will goe visite the Admirall.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='50'>And I will goe take order for his death. </l>
+</sp>	<stage type="exit">Exit <name>Guise</name>.</stage>
+
+<stage type="entrance">Enter the <name>Admirall</name> in his
+bed.</stage>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker>
+<l n='51'>How fares it with my Lord high Admiral,</l>
+<l n='52'>Hath he been hurt with villaines in the street?</l>
+<l n='53'>I vow and sweare as I am King of <name>France</name>,</l>
+<l n='54'>To finde and to repay the man with death:</l>
+<l n='55'>With death delay'd and torments never usde,</l>
+<l n='56'>That durst presume for hope of any gaine,</l>
+<!--var:#their] his Ch, Ox, R, D, C#-->
+<l n='57'>To hurt the noble man <app>
+<lem>their</lem>
+<rdg wit="Ch Ox R D C">his</rdg>
+</app> sovereign loves.</l>
+</sp>
+
+<sp who="admi"><speaker>Admirall</speaker>
+<l n='58'>Ah my good Lord, these are the <name>Guisians</name>,</l>
+<l n='59'>That seeke to massacre our guiltles lives.</l>
+</sp>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker>
+<l n='60'>Assure your selfe my good Lord Admirall,</l>
+<l n='61'>I deepely sorrow for your trecherous wrong:</l>
+<l n='62'>And that I am not more secure my selfe,</l>
+<l n='63'>Then I am carefull you should be preserved.</l>
+<l n='64'><name>Cossin</name>, take twenty of our strongest guarde,</l>
+<!--var:#keep^] ~ ,#-->
+<l n='65'>And under your direction see they keep<app>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='66'>All trecherous violence from our noble freend,</l>
+<l n='67'>Repaying all attempts with present death,</l>
+<l n='68'>Upon the cursed breakers of our peace.</l>
+<l n='69'>And so be pacient good Lord Admirall,</l>
+<l n='70'>And every hower I will visite you.<app>
+<rdg wit="Ch Ox R"><lacunaStart/></rdg>
+</app></l>
+</sp>
+<sp who="admi"><speaker>Admirall</speaker>
+<!--var:#<I>Admirall.</I> I...Majestie.] <I>omit</I>  Ch, Ox, R#-->
+<l n='71'>I humbly thank your royall Majestie.</l>
+</sp>
+
+<stage type="exit"><app>
+<rdg wit="Ch Ox R"><lacunaEnd/></rdg>
+</app>Exeunt omnes.</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="5"><head>[Scene v]</head>
+<stage type="entrance">Enter <name>Guise</name>,
+<name>Anjoy</name>, <name>Dumaine</name>,
+<name>Gonzago</name>, <name>Retes</name>,
+<name>Montsorrell</name>, and Souldiers to the massacre.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='1'><name>Anjoy</name>, <name>Dumaine</name>,
+<name>Gonzago</name>, <name>Retes</name>, sweare by</l>
+<!--var:#In] on Ch, Ox, R, C#-->
+<l n='2'>The argent crosses <app>
+<lem>in</lem>
+<rdg wit="Ch Ox R C">on</rdg>
+</app> your burgonets,</l>
+<l n='3'>To kill all that you suspect of heresie.</l>
+</sp>
+
+
+<sp who="duma"><speaker>Dumaine</speaker>
+<l n='4'>I sweare by this to be unmercifull.</l>
+</sp>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!--var:#am,] ~ .#-->
+<l n='5'>I am disguisde and none nows who I am<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='6'>And therfore meane to murder all I meet.</l>
+</sp>
+
+<sp who="gonz"><speaker>Gonzago</speaker>
+<l n='7'>And so will I.</l>
+</sp>
+
+<sp who="rete"><speaker>Retes</speaker>
+<l n='8'>And I.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='9'>Away then, break into the Admirals house.</l>
+</sp>
+
+<sp who="rete"><speaker>Getes</speaker>
+<l n='10'>I let the Admirall be first dispatcht.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#Admirall,] ~ ^#-->
+<l n='11'>The Admirall<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app></l>
+<l n='12'>Cheefe standard bearer to the Lutheranes,</l>
+<l n='13'>Shall in the entrance of this Massacre,</l>
+<l n='14'>Be murdered in his bed.</l>
+<!--var:#thither] hither Ox, R#-->
+<l n='15'>Gonzago conduct them <app>
+<lem>thither</lem>
+<rdg wit="Ox R">hither</rdg>
+</app>, and then</l>
+<l n='16'>Beset his house that not a man may live.</l>
+</sp>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!--var:#mine.] ~ ,#-->
+<l n='17'>That charge is mine<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app> Swizers keepe you the streetes,	</l>
+<l n='18'>And at ech corner shall the Kings garde stand.</l>
+</sp>
+
+<sp who="gonz"><speaker>Gonzago</speaker>
+<l n='19'>Come sirs follow me.</l>
+</sp>
+
+<stage type="exit">Exit <name>Gonzago</name> and others with
+him.</stage>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='20'><name>Cossin</name>, the Captaine of the Admirals guarde,</l>
+<l n='21'>Plac'd by my brother, will betray his Lord:</l>
+<l n='22'>Now <name>Guise</name> shall catholiques flourish once
+againe,</l>
+<l n='23'>The head being of, the members cannot stand.</l>
+</sp>
+
+<sp who="rete"><speaker>Retes</speaker>
+<l n='24'>But look my Lord, ther's some in the Admirals house.</l>
+</sp>
+
+<stage type="entrance">Enter [above <name>Gonzago</name> and
+others] into the <name>Admirals</name> house, and he in his
+bed.</stage>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='25'>In lucky time, come let us keep this lane,</l>
+<l n='26'>And slay his servants that shall issue out.</l>
+</sp>
+
+<sp who="gonz"><speaker>Gonzago</speaker>
+<l n='27'>Where is the Admirall?</l>
+</sp>
+
+<sp who="admi"><speaker>Admirall</speaker>
+<l n='28'>O let me pray before I dye.</l>
+</sp>
+
+<sp who="gonz"><speaker>Gonzago</speaker>
+<l n='29'>Then pray unto our Ladye, kisse this crosse.</l>
+</sp>
+<stage type="business">Stab him.</stage>
+
+
+<sp who="admi"><speaker>Admirall</speaker>
+<l n='30'>O God forgive my sins.</l>
+</sp>
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#Gonzago...dead?] What, is he dead, Gonzago? Ch, Ox, R, C#-->
+<l n='31'><app>
+<lem><name>Gonzago</name>,</lem>
+<rdg wit="Ch Ox R C"/>
+</app> <app>
+<lem>what</lem>
+<rdg wit="Ch Ox R C">What</rdg>
+</app>, is he dead<app>
+<rdg wit="Ch Ox R C"> Gonzago</rdg>
+</app>?</l>
+</sp>
+
+<sp who="gonz"><speaker>Gonzago</speaker>
+<l n='32'>I my Lord.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='33'>Then throw him down.</l>
+</sp>
+
+
+<stage type="mixed">[The body is thrown down. Exeunt
+<name>Gonzago</name> and rest above.]</stage>
+
+
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='34'>Now cosin view him well,</l>
+<l n='35'>It may be it is some other, and he escapte.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='36'>Cosin tis he, I know him by his look.</l>
+<l n='37'>See where my Souldier shot him through the arm.</l>
+<l n='38'>He mist him neer, but we have strook him now.</l>
+<!--var:#<I>Shatillian</I>] Shatillian#-->
+<l n='39'>Ah base <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Shatillian<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> and degenerate,</l>
+<l n='40'>Cheef standard bearer to the Lutheranes,</l>
+<l n='41'>Thus in despite of thy Religion,</l>
+<l n='42'>The Duke of Guise stampes on thy liveles bulke.</l>
+</sp>
+
+<sp who="anjo"><speaker><app>
+<lem>Anjoy</lem>
+<rdg wit="Ox R"/>
+</app></speaker>
+<!--var:#handes,] ~ .#-->
+<!--var:#Anjoy.] <I>omit</I>  Ox, R#-->
+<!-- BAD above is it a speaker reassignment?? desc="No match at ,5,316">-->
+<l n='43'>Away with him, cut of his head and handes<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='44'>And send them for a present to the Pope:</l>
+<l n='45'>And when this just revenge is finished,</l>
+<l n='46'>Unto mount Faucon will we dragge his coarse:</l>
+<l n='47'>And he that living hated so the crosse,</l>
+<l n='48'>Shall being dead, be hangd thereon in chaines.</l></sp>
+<sp who="guis"><speaker>Guise</speaker>
+<l n='49'><name>Anjoy</name>, <name>Gonzago</name>,
+<name>Retes</name>, if that you three,</l>
+<l n='50'>Will be as resolute as I and <name>Dumaine</name>:</l>
+<!--var:#not] not be M#-->
+<l n='51'>There shall <app>
+<lem>not</lem>
+<rdg wit="M">not be</rdg>
+</app> a Hugonet breath in <name>France</name>.</l>
+</sp>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='52'>I sweare by this crosse, wee'l not be partiall,</l>
+<l n='53'>But slay as many as we can come neer.</l></sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#goe] go and Ch, Ox, R#-->
+<l n='54'><name>Mountsorrett</name>, <app>
+<lem>goe</lem>
+<rdg wit="Ch Ox R">go and</rdg>
+</app> shoote the ordinance of,</l>
+<l n='55'>That they which have already set the street</l>
+<!--var:#then] and then Ch, Ox, R; then go C#-->
+<l n='56'>May know their watchword, <app>
+<lem>then</lem>
+<rdg wit="Ch Ox R">and then</rdg>
+<rdg wit="C">then go</rdg>
+</app> tole the bell,</l>
+<l n='57'>And so lets forward to the Massacre.</l>
+</sp>
+
+<sp who="moun"><speaker>Mountsorrell</speaker>
+<!--var:#Exit^] ~ .#-->
+<l n='58'>I will my Lord.</l>
+</sp>	<stage type="exit">Exit<app>
+<rdg wit="O1">.</rdg>
+</app> <name>Mountsorrell</name>.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#Lords] lord C#-->
+<l n='59'>And now my <app>
+<lem>Lords</lem>
+<rdg wit="C">lord</rdg>
+</app> let us closely to our busines.</l>
+</sp>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='60'><name>Anjoy</name> will follow thee.</l>
+</sp>
+
+<sp who="duma"><speaker>Dumaine</speaker>
+<l n='61'>And so will <name>Dumaine</name>.</l>
+</sp>
+
+<stage type="business">The ordinance being shot of, the bell
+tolles.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='62'>Come then, lets away.</l>
+</sp>	<stage type="exit">Exeunt.</stage>
+
+
+
+<stage type="mixed">The <name>Guise</name> enters againe, with all
+the rest, with their Swords drawne, chasing the Protestants.</stage>
+
+<!--var:#Tue,] <I>comma doubtful in</I>  O1#-->
+<!--BAD desc="No match at ,5,336" comma doubtful-->
+<sp who="guis"><lb/><speaker>Guise</speaker>
+<p><foreign xml:lang="fr">Tue<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> tue, tue,</foreign></p>
+<l n='63'>Let none escape, murder the Hugonets.</l>
+</sp>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='64'>Kill them, kill them.</l>
+</sp>	<stage type="exit">Exeunt.</stage>
+
+
+<stage type="entrance">Enter <name>Loreine</name> running, the
+<name>Guise</name> and the rest pursuing him.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#<I>Loreine</I>.] ~ ,#-->
+<l n='65'><name>Loreine</name>, <name>Loreine</name>, follow
+<name>Loreine<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></name>. Sirra,</l>
+<l n='66'>Are you a preacher of these heresies?</l>
+</sp>
+
+<sp who="lore"><speaker>Loreine</speaker>
+<l n='67'>I am a preacher of the word of God,</l>
+<l n='68'>And thou a traitor to thy soule and him.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='69'>Dearely beloved brother, thus tis written.</l>
+</sp>
+
+<stage type="business">He stabs him.</stage>
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='70'>Stay my Lord, let me begin the psalme.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='71'>Come dragge him away and throw him in a ditch.</l>
+</sp>
+
+<stage type="exit">Exeunt [omnes].</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="6"><head>[Scene vi]</head>
+<stage type="entrance">Enter <name>Mountsorrell</name> and knocks
+at <name>Serouns</name> doore.</stage>
+
+<sp who="sero"><speaker>Serouns wife</speaker>
+<!--var:#is that which] is't that Ch, Ox<I>,</I> R#-->
+<l n='1'>Who <app>
+<lem>is that which</lem>
+<rdg wit="Ch Ox R">is't that</rdg>
+</app> knocks there?</l>
+</sp>	 <stage type="delivery">[Within.]</stage>
+<sp who="moun"><speaker>Mountsorrell</speaker>
+<l n='2'>Mountsorrett from the Duke of <name>Guise</name>.</l>
+</sp>
+
+<sp who="sero"><lb/><speaker>Serouns wife</speaker>
+<p>Husband come down, heer's one would speak with
+<lb/>you from the Duke of <name>Guise</name>.</p>
+</sp>
+
+<stage type="entrance">Enter Seroune.</stage>
+
+<sp who="sero"><speaker>Seroune</speaker>
+<l n='3'>To speek with me from such a man as he?</l>
+</sp>
+
+<sp who="moun"><speaker>Mountsorrell</speaker>
+<!--var:#ha't] hate O1, TB#-->
+<l n='4'>I, I, for this <name>Seroune</name>, and thou shalt <app>
+<lem>ha't</lem>
+<rdg wit="O1 TB">hate</rdg>
+</app>.</l>
+</sp>
+<stage type="delivery">Shewing his dagger.</stage>
+
+<sp who="sero"><speaker>Seroune</speaker>
+<l n='5'>O let me pray before I take my death.</l>
+</sp>
+
+<sp who="moun"><speaker>Mountsorrell</speaker>
+<l n='6'>Despatch then quickly.</l>
+</sp>
+
+<sp who="sero"><speaker>Seroune</speaker>
+<!--var:#Saviour-] ~ .#-->
+<l n='7'>O Christ my <app>
+<lem>Saviour--</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+</sp>
+
+<sp who="moun"><speaker>Mountsorrell</speaker>
+<l n='8'>Christ, villaine?</l>
+<!--var:#Why,] ~ ^#-->
+<l n='9'>Why<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> darst thou presume to call on Christ,</l>
+<l n='10'>Without the intercession of some Saint?</l>
+<!--var:#<I>Sanctus</I>] <I>Sancta</I>  O1#-->
+<!--var:#hee was] he is D1 (<I>qy</I>); he's D2, B, M, Ri#-->
+<l n='11'><app>
+<lem>Sanctus</lem>
+<rdg wit="O1">Sancta</rdg>
+</app> Jacobus <app>
+<lem>hee was</lem>
+<rdg wit="D1" type="qy">he is</rdg>
+<rdg wit="D2 B M Ri">he's</rdg>
+</app> my Saint, pray to him.</l>
+</sp>
+
+
+<sp who="sero"><speaker><app>
+<lem>Seroune</lem>
+<rdg wit="O1">Seronne</rdg>
+</app></speaker>
+<!--var:#<I>Seroune.</I>] <I>Seronne.</I>#-->
+<l n='12'>O let me pray unto my God.</l>
+</sp>
+
+
+<sp who="moun"><speaker>Mountsorrell</speaker>
+<l n='13'>Then take this with you.</l>
+</sp>
+
+
+
+<stage type="business">Stab him [and he falls within and
+dies].</stage>
+<stage type="exit">Exit.</stage>
+
+
+
+
+</div>
+<div type="textpart" subtype="scene" n="7"><head>[Scene vii]</head>
+<stage type="entrance">Enter <name>Ramus</name> in his
+studie.</stage>
+
+<sp who="ramu"><speaker>Ramus</speaker>
+<!--var:#comes] come Ch, Ox, R, C, B#-->
+<l n='1'>What fearfull cries <app>
+<lem>comes</lem>
+<rdg wit="Ch Ox R C B">come</rdg>
+</app> from the river Sene,</l>
+<!--var:#frightes] fright Ch, Ox, R, D, C, B#-->
+<l n='2'>That <app>
+<lem>frightes</lem>
+<rdg wit="Ch Ox R D C B">fright</rdg>
+</app> poore <name>Ramus</name> sitting at his book?</l>
+<l n='3'>I feare the <name>Guisians</name> have past the bridge,</l>
+<l n='4'>And meane once more to menace me.</l>
+</sp>
+
+
+
+<stage type="entrance">Enter <name>Taleus</name>.</stage>
+
+<sp who="tale"><speaker>Taleus</speaker>
+<l n='5'>Flye <name>Ramus</name> flye, if thou wilt save thy life.</l>
+</sp>
+
+
+<sp who="ramu"><speaker>Ramus</speaker>
+<l n='6'>Tell me <name>Taleus</name>, wherfore should I flye?</l>
+</sp>
+
+
+<sp who="tale"><speaker>Taleus</speaker>
+<l n='7'>The <name>Guisians</name> are hard at thy doore,</l>
+<l n='8'>And meane to murder us:</l>
+<l n='9'>Harke, harke they come, Ile leap out at the window.</l>
+</sp>
+
+
+<stage type="business">[Runs out from studie.]</stage>
+<sp who="ramu"><speaker>Ramus</speaker>
+<l n='10'>Sweet <name>Taleus</name> stay.</l>
+</sp>
+
+
+
+<stage type="entrance">Enter <name>Gonzago</name> and
+<name>Retes</name>.</stage>
+
+<sp who="gonz"><speaker>Gonzago</speaker>
+<l n='11'>Who goes there?</l>
+</sp>
+
+
+<sp who="rete"><speaker>Retes</speaker>
+<l n='12'>Tis <name>Taleus</name>, <name>Ramus</name> bedfellow.</l>
+</sp>
+
+
+<sp who="gonz"><speaker>Gonzago</speaker>
+<l n='13'>What art thou?</l>
+</sp>
+
+
+<sp who="tale"><speaker>Taleus</speaker>
+<l n='14'>I am as <name>Ramus</name> is, a Christian.</l>
+</sp>
+
+
+<sp who="rete"><speaker>Retes</speaker>
+<l n='15'>O let him goe, he is a catholick.</l>
+</sp>
+
+
+<stage type="exit">Exit <name>Taleus</name>.</stage>
+<stage type="entrance">Enter <name>Ramus</name> [out of his
+studie].</stage>
+
+<sp who="gonz"><speaker>Gonzago</speaker>
+<l n='16'>Come <name>Ramus</name>, more golde, or thou shalt have the
+stabbe.</l>
+</sp>
+
+
+<sp who="ramu"><speaker>Ramus</speaker>
+<l n='17'>Alas I am a scholler, how should I have golde?</l>
+<l n='18'>All that I have is but my stipend from the King,</l>
+<l n='19'>Which is no sooner receiv'd but it is spent.</l>
+</sp>
+
+
+
+<stage type="entrance">Enter the <name>Guise</name> and
+<name>Anjoy</name> [, <name>Dumaine</name>,
+<name>Mountsorrell</name>, with soldiers].</stage>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!--var:#Who] Whom Ch, Ox, R, C,#-->
+<l n='20'><app>
+<lem>Who</lem>
+<rdg wit="Ch Ox R C ">Whom</rdg>
+</app> have you there?</l>
+</sp>
+
+
+<sp who="rete"><speaker>Retes</speaker>
+<l n='21'>Tis Ramus, the Kings professor of Logick.</l>
+</sp>
+
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='22'>Stab him.</l>
+</sp>
+
+
+<sp who="ramu"><speaker>Ramus</speaker>
+<l n='23'>O good my Lord,</l>
+<!--var:#offencious?] ~ .#-->
+<l n='24'>Wherein hath <name>Ramus</name> been so offencious<app>
+<lem>?</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+</sp>
+
+
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='25'>Marry sir, in having a smack in all,</l>
+<l n='26'>And yet didst never sound any thing to the depth.</l>
+<!--var:#scoftes] scoff'dst Ch, Ox, R, D, C, B, M, Ri, Rv#-->
+<l n='27'>Was it not thou that <app>
+<lem>scoftes</lem>
+<rdg wit="Ch Ox R D C B M Ri Rv">scoff'dst</rdg>
+</app> the Organon,</l>
+<l n='28'>And said it was a heape of vanities?</l>
+<l n='29'>He that will be a flat decotamest,</l>
+<!--var:#Epitomies] Epetomies#-->
+<l n='30'>And seen in nothing but <app>
+<lem>Epitomies</lem>
+<rdg wit="O1">Epetomies</rdg>
+</app>:</l>
+<l n='31'>Is in your judgment thought a learned man.</l>
+<!--var:#<I>Germany</I>] Germany#-->
+<l n='32'>And he forsooth must goe and preach in <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Germany
+<app><lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>:</l>
+<!--var:#axioms] actions Ch, Ox, R, D1, C#-->
+<l n='33'>Excepting against Doctors <app>
+<lem>axioms</lem>
+<rdg wit="Ch Ox R D1 C">actions</rdg>
+</app>,</l>
+<!--var:#<I>ipse</I>] <I>ipsi</I>#-->
+<l n='34'>And <foreign xml:lang="la"><app>
+<lem>ipse</lem>
+<rdg wit="O1">ipsi</rdg>
+</app> dixi</foreign> with this quidditie,</l>
+<!--var:#<I>testimonii</I>] <I>testimonis</I>  O1, Ch, Ox, R#--><!--var:#<I>inartificiale</I>] <I>in arte fetiales</I>  O1, Ch, Ox; <I>in arte
+partialis</I>  R#-->
+<l n='35'><foreign xml:lang="la">Argumentum <app>
+<lem>testimonii</lem>
+<rdg wit="O1 Ch Ox R">testimonis</rdg>
+</app> est <app>
+<lem>inartificiale</lem>
+<rdg wit="O1 Ch Ox">in arte fetiales</rdg>
+<rdg wit="R">in arte partialis</rdg>
+</app>.</foreign></l>
+<l n='36'>To contradict which, I say <name>Ramus</name> shall dye:</l>
+<l n='37'>How answere you that? your <foreign xml:lang="la">nego
+argumentum</foreign></l>
+<!--var:#sirra:] ~ ,#-->
+<!--var:#sirra: kill] Sirrah, kill Ch, Ox, R#-->
+<l n='38'>Cannot serve, <app>
+<lem>sirra</lem>
+<rdg wit="Ch Ox R">Sirrah</rdg>
+</app><app>
+<lem>:</lem>
+<rdg wit="O1 Ch Ox R">,</rdg>
+</app> kill him.</l>
+</sp>
+
+
+
+<sp who="ramu"><speaker>Ramus</speaker>
+<l n='39'>O good my Lord, let me but speak a word.</l>
+</sp>
+
+
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='40'>Well, say on.</l>
+</sp>
+
+
+
+<sp who="ramu"><speaker>Ramus</speaker>
+<l n='41'>Not for my life doe I desire this pause,</l>
+<l n='42'>But in my latter houre to purge my selfe,</l>
+<l n='43'>In that I know the things that I have wrote,</l>
+<!--var:#ill,] ~ :#-->
+<!--var:#<I>Shekius</I>] <I>Shekins</I>  O1, Ch, Ox, R#-->
+<l n='44'>Which as I heare one <name><app>
+<lem>Shekius</lem>
+<rdg wit="O1 Ch Ox R">Shekins</rdg>
+</app></name> takes it ill<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<!--var:#contains] contain Ch, Ox, R, D, C, B, Ri#-->
+<l n='45'>Because my places being but three, <app>
+<lem>contains</lem>
+<rdg wit="Ch Ox R D C B Ri">contain</rdg>
+</app> all his:</l>
+<l n='46'>I knew the Organon to be confusde,</l>
+<l n='47'>And I reduc'd it into better forme.</l>
+<l n='48'>And this for Aristotle will I say,</l>
+<l n='49'>That he that despiseth him, can nere</l>
+<l n='50'>Be good in Logick or Philosophie.</l>
+<!--var:#Sorbonests] thorbonest O1#-->
+<l n='51'>And thats because the blockish <app>
+<lem>Sorbonests</lem>
+<rdg wit="O1">thorbonest</rdg>
+</app></l>
+<!--var:#their] their own D, C, B, M#-->
+<l n='52'>Attribute as much unto <app>
+<lem>their</lem>
+<rdg wit="D C B M">their own</rdg>
+</app> workes,</l>
+<l n='53'>As to the service of the eternall God.</l>
+</sp>
+
+
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='54'>Why suffer you that peasant to declaime?</l>
+<l n='55'>Stab him I say and send him to his freends in hell.</l>
+</sp>
+
+
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='56'>Nere was there Colliars sonne so full of pride.</l>
+</sp>
+
+
+
+<stage type="business">Kill him. [Close the studie.]</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#Protestants,] ~ .#-->
+<!--var:#of] <I>omit</I>  Ch, Ox, R, C#-->
+<l n='57'>My Lord <app>
+<lem>of</lem>
+<rdg wit="Ch Ox R C"/>
+</app><name>Anjoy</name>, there are a hundred Protestants<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='58'>Which we have chaste into the river Sene,</l>
+<l n='59'>That swim about and so preserve their lives:</l>
+<l n='60'>How may we doe? I feare me they will live.</l>
+</sp>
+
+
+
+<sp who="duma"><speaker>Dumaine</speaker>
+<l n='61'>Goe place some men upon the bridge,</l>
+<l n='62'>With bowes and cartes to shoot at them they see,</l>
+<l n='63'>And sinke them in the river as they swim.</l>
+</sp>
+
+
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#<I>Dumain</I>] <I>omit</I>  C#-->
+<!--var:#strait be] <I>omit</I>  Ch, Ox, R#-->
+<l n='64'>Tis well advisde <name><app>
+<lem>Dumain</lem>
+<rdg wit="C"/>
+</app></name>, goe see it <app>
+<lem>strait be</lem>
+<rdg wit="Ch Ox R"/>
+</app> done.</l>
+<stage type="exit">Exit <name><app>
+<lem>Dumaine</lem>
+<rdg wit="C"/>
+</app></name>.</stage>
+<!--var:#And] <I>omit</I>  C#-->
+<l n='65'><app>
+<lem>And</lem>
+<rdg wit="C"/>
+</app> in the mean time my Lord, could we devise,</l>
+<l n='66'>To get those pedantes from the King <name>Navarre</name>,</l>
+<!--var:#That] that#-->
+<!--var:#Condy-] ~ .#-->
+
+<l n='67'><app>
+<lem>That</lem>
+<rdg wit="O1">that</rdg>
+</app> are tutors to him and the prince of <name>Condy</name><app>
+<lem>—</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+</sp>
+
+
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!--var:#you] <I>omit</I>  Ch, Ox, R, C#-->
+<l n='68'>For that let me alone, Cousin stay <app>
+<lem>you</lem>
+<rdg wit="Ch Ox R C"/>
+</app> heer,</l>
+<l n='69'>And when you see me in, then follow hard.</l>
+
+<stage type="entrance">He knocketh, and enter the King of
+<name>Navarre</name> and Prince of <name>Condy</name>, with
+their scholmaisters.</stage>
+
+<l n='70'>How now my Lords, how fare you?</l>
+</sp>
+
+
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='71'>My Lord, they say</l>
+<l n='72'>That all the protestants are massacred.</l>
+</sp>
+
+
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<l n='73'>I, so they are, but yet what remedy:</l>
+<!--var:#what] all Ch, Ox, R, C#-->
+<l n='74'>I have done <app>
+<lem>what</lem>
+<rdg wit="Ch Ox R C">all</rdg>
+</app> I could to stay this broile.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='75'>But yet my Lord the report doth run,</l>
+<l n='76'>That you were one that made this Massacre.</l>
+</sp>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!--var:#I?] ~ ,#-->
+<l n='77'>Who I<app>
+<lem>?</lem>
+<rdg wit="O1">,</rdg>
+</app> you are deceived, I rose but now</l>
+</sp>
+
+<stage type="entrance">Enter [to them] <name>Guise</name>.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='78'>Murder the Hugonets, take those pedantes hence.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='79'>Thou traitor <name>Guise</name>, lay of thy bloudy hands.</l>
+</sp>
+
+<sp who="cond"><speaker>Condy</speaker>
+<l n='80'>Come let us goe tell the King.</l>
+</sp>
+
+<stage type="exit">Exeunt [<name>Condy</name> and
+<name>Navarre</name>].</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='81'>Come sirs, Ile whip you to death with my punniards point.</l>
+</sp>
+
+<stage type="business">He kils them.</stage>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!-- BAD var:#Away] <I>just possibly</I>  A way#-->
+<l n='82'><app>
+<lem>Away</lem>
+<rdg wit="O1">A way</rdg>
+</app> with them both.</l>
+</sp>
+<stage type="exit">Exit <name>Anjoy</name> [and soldiers with
+bodies].</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#sirs] <I>omit</I>  C#-->
+<l n='83'>And now <app>
+<lem>sirs</lem>
+<rdg wit="C"/>
+</app> for this night let our fury stay.</l>
+<!--var:#end:] ~ ,#-->
+<!--var:#that] <I>omit</I>  Ch, Ox, R, C#-->
+<l n='84'>Yet will we not <app>
+<lem>that</lem>
+<rdg wit="Ch Ox R C"/>
+</app> the Massacre shall end<app>
+<lem>:</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='85'><name>Gonzago</name> posse you to Orleance,
+<name>Retes</name> to Deep,</l>
+<l n='86'><name>Mountsorrell</name> unto Roan, and spare not one</l>
+<l n='87'>That you suspect of heresy. And now stay</l>
+<!--var:#rings.] ~ ^#-->
+<!--var:#mattins] midnight matins C#-->
+<l n='88'>That bel that to the devils <app>
+<lem>mattins</lem>
+<rdg wit="C">midnight matins</rdg>
+</app> rings<app>
+<lem>.</lem>
+<rdg wit="O1"/>
+</app></l>
+<!--var:#Now^] O1 <I>text</I> ; Now. O1 <I>cw</I>#-->
+<l n='89'>Now<app>
+<lem wit="O1"/>
+<rdg wit="O1" type="cw">.</rdg>
+</app> every man put of his burgonet,</l>
+<l n='90'>And so convey him closely to his bed.</l>
+</sp>
+<stage type="exit">Exeunt.</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="8"><head>[Scene viii]</head>
+<stage type="entrance">Enter <name>Anjoy</name>, with two Lords of
+<name>Poland</name>.</stage>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!--var:#<I>et seq. Poland</I>] Poland#-->
+
+<l n='1'>My Lords of
+<app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Poland<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> I must needs confesse,</l>
+<!--var:#Electors] Elector's Ch, Ox, R, D, C, B; Electors' M#-->
+<l n='2'>The offer of your Prince <app>
+<lem>Electors</lem>
+<rdg wit="Ch Ox R D C B">Elector's</rdg>
+<rdg wit="M">Electors'</rdg>
+</app>, farre</l>
+<l n='3'>Beyond the reach of my desertes:</l>
+<l n='4'>For <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Poland<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> is as I have been enformde,</l>
+<l n='5'>A martiall people, worthy such a King,</l>
+<l n='6'>As hath sufficient counsaile in himselfe,</l>
+<l n='7'>To lighten doubts and frustrate subtile foes.</l>
+<l n='8'>And such a King whom practice long hath taught,</l>
+<!--var:#warres,] ~ .#-->
+<l n='9'>To please himselfe with mannage of the warres<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='10'>The greatest warres within our Christian bounds,</l>
+<!--var:#Muscovites] Muscovite C#-->
+<l n='11'>I meane our warres against the <app>
+<lem>Muscovites</lem>
+<rdg wit="C">Muscovite</rdg>
+</app>:</l>
+<l n='12'>And on the other side against the Turke,</l>
+<l n='13'>Rich Princes both, and mighty Emperours:</l>
+<l n='14'>Yet by my brother <name>Charles</name> our <name>King of
+France</name>,</l>
+<l n='15'>And by his graces councell it is thought,</l>
+<!--var:#That] that#-->
+<l n='16'><app>
+<lem>That</lem>
+<rdg wit="O1">that</rdg>
+</app> if I undertake to weare the crowne</l>
+<l n='17'>Of <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Poland<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>, it may prejudice their hope</l>
+<l n='18'>Of my inheritance to the crowne of <name>France</name>:</l>
+<l n='19'>For if th'almighty take my brother hence,</l>
+<l n='20'>By due discent the Regall seat is mine.</l>
+<l n='21'>With <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Poland<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> therfore must I covenant thus,</l>
+<l n='22'>That if by death of <name>Charles</name>, the diadem</l>
+<l n='23'>Of <name>France</name> be cast on me, then with your leaves</l>
+<l n='24'>I may retire me to my native home.</l>
+<l n='25'>If your commission serve to warrant this,</l>
+<l n='26'>I thankfully shall undertake the charge</l>
+<l n='27'>Of you and yours, and carefully maintaine</l>
+<!--var:#The] the#-->
+<l n='28'><app>
+<lem>The</lem>
+<rdg wit="O1">the</rdg>
+</app> wealth and safety of your kingdomes right.</l>
+</sp>
+
+<sp who="lor1"><speaker>Lord</speaker>
+<l n='29'>All this and more your highnes shall commaund,</l>
+<l n='30'>For <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Poland<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>s crowne and kingly diadem.</l>
+</sp>
+
+<sp who="anjo"><speaker>Anjoy</speaker>
+<!--var:#Lords] lord C#-->
+<l n='31'>Then come my <app>
+<lem>Lords</lem>
+<rdg wit="C">lord</rdg>
+</app>, lets goe.</l>
+</sp>
+<stage type="exit">Exeunt.</stage>
+</div>
+<div type="textpart" subtype="scene" n="9"><head>[Scene ix]</head>
+<stage type="entrance">Enter two with the <name>Admirals</name>
+body.</stage>
+
+
+<sp who="lor1"><lb/><speaker>1.</speaker>
+<p>Now sirra, what shall we doe with the Admirall?</p>
+</sp>
+
+
+<!--var:#an] a R, C#-->
+<sp who="lor2"><lb/><speaker>2.</speaker>
+<p>Why let us burne him for <app>
+<lem>an</lem>
+<rdg wit="R C">a</rdg>
+</app> heretick.&gt;</p></sp>
+
+<sp who="lor1"><lb/><speaker>1.</speaker>
+<p>O no, his bodye will infect the fire, and the fire the aire, and
+<lb/>so we shall be poysoned with him.</p>
+</sp>
+
+
+<sp who="lor2"><lb/><speaker>2.</speaker>
+<p>What shall we doe then?</p>
+</sp>
+
+
+<sp who="lor1"><lb/><speaker>1.</speaker>
+<p>Lets throw him into the river.</p>
+</sp>
+
+
+<!--var:#by] <I>omit</I>  Ch, Ox, R, D, C, B#-->
+<sp who="lor2"><lb/><speaker>2.</speaker>
+<p>Oh twill corrupt the water, and the water the fish, and <app>
+<lem>by</lem>
+<rdg wit="Ch Ox R D C B"/>
+</app> the
+<!--var:#eate] cate (<I>doubful</I>)#-->
+<lb/>fish our selves when we <app>
+<lem>eate</lem>
+<rdg wit="O1" type="doubtful">cate</rdg>
+</app> them.</p>
+</sp>
+
+
+<sp who="lor1"><lb/><speaker>1.</speaker>
+<p>Then throw him into the ditch.</p>
+</sp>
+
+
+<sp who="lor2"><lb/><speaker>2.</speaker>
+<p>No, no, to decide all doubts, be rulde by me, lets hang him
+<!--var:#heere] <I>omit</I>  Ch, Ox, R#-->
+<lb/><app>
+<lem>heere</lem>
+<rdg wit="Ch Ox R"/>
+</app> upon this tree.</p>
+</sp>
+
+
+<sp who="lor1"><lb/><speaker>1.</speaker>
+<p>Agreede.</p>
+</sp>
+<stage type="business">They hang him.</stage>
+
+<stage type="entrance">Enter the Duke of <name>Guise</name>, and
+<name>Queene</name> <name>Mother</name>, and the
+<name>Cardinall</name> [of <name>Loraine</name>].</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#like you] do you like C#-->
+<l n='1'>Now Madame, how <app>
+<lem>like you</lem>
+<rdg wit="C">do you like</rdg>
+</app> our lusty Admirall?</l>
+</sp>
+
+<sp who="quee"><speaker>Queene Mother</speaker>
+<l n='2'>Beleeve me <name>Guise</name> he becomes the place so well,</l>
+<!--var:#As] That Ox, R, C#-->
+<l n='3'><app>
+<lem>As</lem>
+<rdg wit="Ox R C">That</rdg>
+</app> I could long ere this have wisht him there.</l>
+<!--var:#th'airs] thair's#-->
+
+<!--var:#very] <I>omit</I>  C#-->
+<l n='4'>But come lets walke aside, <app>
+<lem>th'airs</lem>
+<rdg wit="O1">thair's</rdg>
+</app> not <app>
+<lem>very</lem>
+<rdg wit="C"/>
+</app> sweet.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='5'>No by my faith Madam.</l>
+<l n='6'>Sirs, take him away and throw him in some ditch.</l>
+
+<stage type="business">Carry away the dead body.</stage>
+
+<l n='7'>And now Madam as I understand,</l>
+<!--var:#a] an Ch, Ox, R, C#-->
+<l n='8'>There <app>
+<lem>a</lem>
+<rdg wit="Ch Ox R C">an</rdg>
+</app>re a hundred Hugonets and more,</l>
+<l n='9'>Which in the woods doe horde their synagogue:</l>
+<l n='10'>And dayly meet about this time of day,</l>
+<!--var:#And] <I>omit</I>  Ch, Ox, R, C#-->
+<l n='11'><app>
+<lem>And</lem>
+<rdg wit="Ch Ox R C"/>
+</app> thither will I to put them to the sword.</l>
+</sp>
+
+<sp who="quee"><speaker>Queene Mother</speaker>
+<l n='12'>Doe so sweet <name>Guise</name>, let us delay no time,</l>
+<l n='13'>For if these straglers gather head againe,</l>
+<l n='14'>And disperse themselves throughout the Realme of
+<name>France</name>,</l>
+<l n='15'>It will be hard for us to worke their deaths.</l>
+<!--var:#Be...<I>Guise</I>.] <I>omit</I>  R, C#-->
+<l n='16'><app>
+<rdg wit="R C"><lacunaStart/></rdg>
+</app>Be gone, delay no time sweet <name>Guise</name>.<app>
+<rdg wit="R C"><lacunaEnd/></rdg>
+</app></l>
+
+
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='17'>Madam,</l>
+<l n='18'>I goe as whirl-winces rage before a storme.</l>
+</sp> <stage type="exit">Exit <name>Guise</name>.</stage>
+
+<sp who="quee"><speaker>Queene Mother</speaker>
+<!--var:#<I>Loraine]</I> Loraine#-->
+<l n='19'>My Lord of <name>
+
+<app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Loraine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>
+
+</name> have you marks of late,</l>
+<!--var:#lament^] ~ :#-->
+<l n='20'>How Charles our sonne begins for to lament<app>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='21'>For the late nights worke which my Lord of Guise</l>
+<!--var:#amongst] among B#-->
+<l n='22'>Did make in <name>Paris</name> <app>
+<lem>amongst</lem>
+<rdg wit="B">among</rdg>
+</app> the Hugonites?</l>
+</sp>
+
+<sp who="card"><speaker>Cardinall</speaker>
+<l n='23'>Madam, I have heard him solemnly vow,</l>
+<l n='24'>With the rebellious King of <name>Navarre</name>,</l>
+<!--var:#For] <I>omit</I>  B#-->
+<l n='25'><app>
+<lem>For</lem>
+<rdg wit="B"/>
+</app> to revenge their deaths upon us all.</l>
+</sp>
+
+<sp who="quee"><speaker>Queene Mother</speaker>
+<l n='26'>I, but my Lord, let me alone for that,</l>
+<l n='27'>For <name>Katherine</name> must have her will in
+<name>France</name>:</l>
+<!--var:#dye,] ~ .#-->
+<l n='28'>As I doe live, so surely shall he dye<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='29'>And <name>Henry</name> then shall weare the diadem.</l>
+<l n='30'>And if he grudge or crosse his Mothers will,</l>
+<l n='31'>Ile disinherite him and all the rest:</l>
+<l n='32'>For Ile rule <name>France</name>, but they shall weare the
+crowne:</l>
+<l n='33'>And if they storme, I then may pull them downe.</l>
+<!--var:#let us] lets us O1; let's Ch, Ox, R#-->
+<l n='34'>Come my Lord <app>
+<lem>let us</lem>
+<rdg wit="O1">lets us</rdg>
+<rdg wit="Ch Ox R">let's</rdg>
+</app> goe.</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="10"><head>[Scene x]</head>
+<stage type="mixed">Enter five or sixe Protestants with bookes, and
+kneele together.</stage>
+<stage type="entrance">Enter also the <name>Guise</name> [and
+others].</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='1'>Downe with the Hugonites, murder them.</l>
+</sp>
+
+<sp who="prot"><speaker>Protestant</speaker>
+<l n='2'>O <name>Mounser de Guise</name>, heare me but speake.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#villain,] villain, no Ch, Ox, R, C#-->
+<l n='3'>No villain, <app>
+<rdg wit="Ch Ox R C">no</rdg>
+</app> that toung of thine,</l>
+<l n='4'>That hath blasphemde the holy Church of Rome,</l>
+<l n='5'>Shall drive no plaintes into the <name>Guises</name> eares,</l>
+<l n='6'>To make the justice of my heart relent:</l>
+<l n='7'><foreign xml:lang="fr">Tue, tue, tue,</foreign> let none escape:
+	<stage type="business">Kill them.</stage></l>
+<l n='8'>So, dragge them away.</l>
+</sp>
+
+
+
+<stage type="exit">Exeunt.</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="11"><head>[Scene xi]</head>
+<stage type="entrance">Enter [<name>Charles</name>] the King of
+<name>France</name>, <name>Navar</name> and
+<name>Epernoune</name> staying him: enter <name>Queene</name>
+<name>Mother</name>, and the <name>Cardinall</name> [of
+<name>Loraine</name>, and <name>Pleshe</name>].</stage>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker><!--var:#<I>Charles</I>.] O1 <I>speech-prefix in this scene is</I>
+King.#-->
+<l n='1'>O let me stay and rest me heer a while,</l>
+<l n='2'>A griping paine hath ceasde upon my heart:</l>
+<l n='3'>A sodaine pang, the messenger of death.</l>
+</sp>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker><!--var:#<I>Queene Mother.</I>] O1 <I>speech-prefix in this scene
+is</I>  Queene.#-->
+<l n='4'>O say not so, thou kill'st thy mothers heart.</l>
+</sp>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker>
+<!--var:#complaine] to complain Ch, Ox, R#-->
+<l n='5'>I must say so, paine forceth me <app>
+<lem>complaine</lem>
+<rdg wit="Ch Ox R">to complain</rdg>
+</app>.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<!--var:#and] I Ch, Ox, R#-->
+<l n='6'>Comfort your selfe my Lord <app>
+<lem>and</lem>
+<rdg wit="Ch Ox R">I</rdg>
+</app> have no doubt,</l>
+<l n='7'>But God will sure restore you to your health.</l>
+</sp>
+
+<sp who="king"><speaker><app>
+<lem>Charles</lem>
+<rdg wit="O1">King</rdg>
+</app></speaker>
+<l n='8'>O no, my loving brother of <name>Navarre</name>.</l>
+<l n='9'>I have deserv'd a scourge I must confesse,</l>
+<!--var:#their] there O1, Ch, Ox, R, D, TB, Rv#-->
+<l n='10'>Yet is <app>
+<lem>their</lem>
+<rdg wit="O1 Ch Ox R D TB Rv">there</rdg>
+</app> pacience of another sort,</l>
+<l n='11'>Then to misdoe the welfare of their King:</l>
+<l n='12'>God graunt my neerest freends may prove no worse.</l>
+<l n='13'>O horde me up, my sight begins to faire,</l>
+<!--var:#braines turne] brain turns Ch, Ox, R, C#-->
+<l n='14'>My sinnewes shrinke, my <app>
+<lem>braines turne</lem>
+<rdg wit="Ch Ox R C">brain turns</rdg>
+</app> upside downe,</l>
+<l n='15'>My heart doth break, I faint and dye.</l>
+</sp>	<stage type="business">He dies.</stage>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker>
+<!--var:#Mother.] ~ ,#-->
+<!--var:#sonne^] ~ ? Ch, Ox, R, D, C, TB, M, Ri#-->
+<l n='16'>What art thou dead, sweet sonne<app>
+<rdg wit="Ch Ox R D C TB M Ri">?</rdg>
+</app> speak to thy Mother<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='17'>O no, his soule is fled from out his breast,</l>
+<l n='18'>And he nor heares, nor sees us what we doe:</l>
+<!--var:#there] <I>omit</I>  Ch, Ox, R, C#-->
+<!--var:#for] <I>omit</I>  B#-->
+<l n='19'>My Lords, what resteth <app>
+<lem>there</lem>
+<rdg wit="Ch Ox R C"/>
+</app> now <app>
+<lem>for</lem>
+<rdg wit="B"/>
+</app> to be done?</l>
+<l n='20'>But that we presently despatch Embassadours</l>
+<l n='21'>To <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Poland<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>, to call <name>Henry</name> back againe,</l>
+<l n='22'>To weare his brothers crowne and dignity.</l>
+<l n='23'><name>Epernoune</name>, goe see it presently be done,</l>
+<l n='24'>And bid him come without delay to us.</l>
+</sp>
+
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='25'>Madam, I will.</l>
+</sp> <stage type="exit">Exit <name>Epernoune</name>.</stage>
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker>
+<!--var:#be] <I>omit</I>  TB (<I>qy</I>)#-->
+<l n='26'>And now my Lords after these funerals <app>
+<lem>be</lem>
+<rdg wit="TB" type="qy"/>
+</app> done,</l>
+<!--var:#can, provide^] ~ ^ ~ ,#-->
+<l n='27'>We will with all the speed we can<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> provide<app>
+<rdg wit="O1">,</rdg>
+</app></l>
+<!--var:#<I>Polonie</I>] Polonia R, C#-->
+<l n='28'>For <name>Henries</name> coronation from <name><app>
+<lem>Polonie</lem>
+<rdg wit="R C">Polonia</rdg>
+</app></name>:</l>
+<l n='29'>Come let us take his body hence.</l>
+</sp>
+
+<stage type="exit">All goe out, but <name>Navarre</name> and
+<name>Pleshe</name>.</stage>
+
+<sp who="nava"><speaker>Navarre</speaker><!--var:#now <I>Navarre</I>] now Pleshé D1 (<I>qy</I>), D2, C,
+TB, M#-->
+<l n='30'>And now <name><app>
+<lem>Navarre</lem>
+<rdg wit="D1" type="qy">Pleshé</rdg>
+<rdg wit="TB M D2 C">Pleshé</rdg>
+</app></name>
+ whilste that these broiles doe last,</l>
+<!--var:#me] it B#-->
+<l n='31'>My opportunity may serve <app>
+<lem>me</lem>
+<rdg wit="B">it</rdg>
+</app> fit,</l>
+<l n='32'>To steale from <name>France</name>, and hye me to my
+home.</l>
+<!--var:#heers] there's B#-->
+<l n='33'>For <app>
+<lem>heers</lem>
+<rdg wit="B">there's</rdg>
+</app> no saftie in the Realme for me,</l>
+<l n='34'>And now that <name>Henry</name> is cal'd from
+<name>Polland</name>,</l>
+<l n='35'>It is my due by just succession:</l>
+<l n='36'>And therefore as speedily as I can perfourme,</l>
+<l n='37'>Ile muster up an army secretdy,</l>
+<!--var:#<I>et seq. Spaine</I>] Spaine#-->
+<l n='38'>For feare that <name>Guise</name> joyn'd with the King of <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>,</l>
+<!--var:#seeme] seek Ch, Ox, R, D, C, B,TB#-->
+<l n='39'>Might <app>
+<lem>seeme</lem>
+<rdg wit="Ch Ox R D C B TB">seek</rdg>
+</app> to crosse me in mine enterprise.</l>
+<l n='40'>But God that alwaies doth defend the right,</l>
+<l n='41'>Will shew his mercy and preserve us still.</l>
+</sp>
+
+<sp who="ples"><speaker>Pleshe</speaker>
+<!--var:#true] poor R#-->
+<l n='42'>The vertues of our <app>
+<lem>true</lem>
+<rdg wit="R">poor</rdg>
+</app> Religion,</l>
+<l n='43'>Cannot but march with many graces more:</l>
+<l n='44'>Whose army shall discomfort all your foes,</l>
+<l n='45'>And at the length in Pampelonia crowne,</l>
+<l n='46'>In spite of <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> and all the popish power,</l>
+<l n='47'>That hordes it from your highnesse wrongfully:</l>
+<l n='48'>Your Majestie her rightfull Lord and Soveraigne.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='49'>Truth <name>Pleshe</name>, and God so prosper me in all,</l>
+<l n='50'>As I entend to labour for the truth,</l>
+<l n='51'>And true profession of his holy word:</l>
+<!--var:#whilste] while Ox, R, C#-->
+<l n='52'>Come <name>Pleshe</name>, lets away <app>
+<lem>whilste</lem>
+<rdg wit="Ox R C">while</rdg>
+</app> time doth serve.</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+
+
+</div>
+<div type="textpart" subtype="scene" n="12"><head>[Scene xii]</head>
+<stage type="business">Sound Trumpets within, and then all crye
+<foreign xml:lang="fr">vive le Roy</foreign> two or three
+times.</stage>
+
+
+<stage type="entrance">Enter <name>Henry</name> crowned:
+<name>Queene [Mother]</name>, <name>Cardinall</name> [of
+<name>Loraine</name>],
+Duke of <name>Guise</name>, <name>Epernoone</name>,
+[<name>Mugeroun</name>,] the kings Minions, with others, and the
+Cutpurse.</stage>
+
+<sp><speaker>All</speaker>
+<l n='1'><foreign xml:lang="fr">Vive le Roy, vive le Roy.</foreign>
+	<stage type="business">Sound Trumpets.</stage></l>
+</sp>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker><!--var:#<I>Queene Mother.</I>] O1 <I>speech-prefix in this scene
+is</I>  Queene.#-->
+<l n='2'>Welcome from <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Poland<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> <name>Henry</name> once agayne,</l>
+<l n='3'>Welcome to <name>France</name> thy fathers royall seate,</l>
+<!--var:#feares] foes Coll MS#-->
+<l n='4'>Heere hast thou a country voice of <app>
+<lem>feares</lem>
+<rdg wit="Coll">foes</rdg>
+</app>,</l>
+<l n='5'>A warlike people to maintaine thy right,</l>
+<l n='6'>A watchfull Senate for ordaining lawes,</l>
+<l n='7'>A loving mother to preserve thy state,</l>
+<l n='8'>And all things that a King may wish besides:</l>
+<l n='9'>All this and more hath <name>Henry</name> with his crowne.</l>
+</sp>
+
+<sp who="card"><speaker>Cardinall</speaker>
+<l n='10'>And long may <name>Henry</name> enjoy all this and more.</l>
+</sp>
+
+
+<sp><speaker>All</speaker>
+<l n='11'><foreign xml:lang="fr">Vive le Roy, vive le Roy.</foreign>
+	<stage type="business">Sound trumpets.</stage></l></sp>
+
+<sp who="king"><speaker><app>
+<lem>King</lem>
+<rdg wit="O1">Henry</rdg>
+</app></speaker>
+<!--var:#King.] O1 <I>speech~prefix in this scene is</I>  Henry.#-->
+<l n='12'>Thanks to you al. The guider of all crownes,</l>
+<l n='13'>Graunt that our deeds may wel deserve your loves:</l>
+<l n='14'>And so they shall, if fortune speed my will,</l>
+<!--var:#your] our R#-->
+<l n='15'>And yeeld <app>
+<lem>your</lem>
+<rdg wit="R">our</rdg>
+</app> thoughts to height of my desertes.</l>
+<!--var:#saies] say Ch, Ox, R, D, C, B#-->
+<l n='16'>What <app>
+<lem>saies</lem>
+<rdg wit="Ch Ox R D C B">say</rdg>
+</app> our Minions, think they <name>Henries</name> heart</l>
+<l n='17'>Will not both harbour love and Majestie?</l>
+<l n='18'>Put of that feare, they are already joynde,</l>
+<l n='19'>No person, place, or time, or circumstance,</l>
+<!--var:#bent.] ~ ,#-->
+<!--var:#affection] affections M#-->
+<l n='20'>Shall slacke my loves <app>
+<lem>affection</lem>
+<rdg wit="M">affections</rdg>
+</app> from his bent<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<!--BAD var:#persist,] <I>point doubtful</I>#-->
+<l n='21'>As now you are, so shall you still persist<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app></l>
+<l n='22'>Remooveles from the favours of your King.</l>
+</sp>
+
+<sp who="muge"><speaker>Mugeroun</speaker>
+<l n='23'>We know that noble minces change not their thoughts</l>
+<l n='24'>For wearing of a crowne: in that your grace,</l>
+<l n='25'>Hath worne the <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Poland<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> diadem, before</l>
+<!--var:#You] you#-->
+<!--var:#in] with Ch, Ox, R#-->
+<l n='26'><app>
+<lem>You</lem>
+<rdg wit="O1">you</rdg>
+</app> were <app>
+<lem>in</lem>
+<rdg wit="Ch Ox R">with</rdg>
+</app>vested in the crowne of <name>France</name>.</l>
+</sp>
+
+<sp who="king"><speaker><app>
+<lem>King</lem>
+<rdg wit="O1">Henry</rdg>
+</app></speaker>
+<l n='27'>I tell thee <name>Mugeroun</name> we will be freends,</l>
+<l n='28'>And fellowes to, what ever stormes arise.</l>
+</sp>
+
+
+<sp who="muge"><speaker>Mugeroun</speaker>
+<l n='29'>Then may it please your Majestie to give me leave,</l>
+<!--var:#doe] dare B#-->
+<l n='30'>To punish those that <app>
+<lem>doe</lem>
+<rdg wit="B">dare</rdg>
+</app> prophane this holy feast.</l>
+</sp>
+
+<stage type="business">He cuts of the Cutpurse eare, for cutting of the
+golde buttons off his cloake.</stage>
+
+<sp who="king"><speaker><app>
+<lem>King</lem>
+<rdg wit="O1">Henry</rdg>
+</app></speaker>
+<l n='31'>How meanst thou that?</l>
+</sp>
+
+<sp who="cutp"><speaker>Cutpurse</speaker>
+<l n='32'>O Lord, mine eare.</l>
+</sp>
+
+<sp who="muge"><speaker>Mugeroun</speaker>
+<l n='33'>Come sir, give me my buttons and heers your eare. </l>
+</sp>
+
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='34'>Sirra, take him away.</l>
+</sp>
+
+
+<sp who="king"><speaker><app>
+<lem>King</lem>
+<rdg wit="O1">Henry</rdg>
+</app></speaker>
+<l n='35'>Hands of good fellow, I will be his baile</l>
+<l n='36'>For this offence: goe sirra, worke no more,</l>
+<l n='37'>Till this our Coronation day be past:</l>
+<!--var:#now,] ~ ^#-->
+<l n='38'>And now<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app></l>
+<!--var:#solemne] <I>omit</I>  Ch, Ox, R#-->
+<l n='39'>Our <app>
+<lem>solemne</lem>
+<rdg wit="Ch Ox R"/>
+</app> rites of Coronation done,</l>
+<l n='40'>What now remaines, but for a while to feast,</l>
+<l n='41'>And spend some daies in barriers, tourny, tylte,</l>
+<!--var:#And] and#-->
+<l n='42'><app>
+<lem>And</lem>
+<rdg wit="O1">and</rdg>
+</app> like disportes, such as doe fit the Coutr?</l>
+<l n='43'>Lets goe my Lords, our dinner staies for us.</l>
+</sp>
+
+
+
+<stage type="exit">Goe out all, but the <name>Queene [Mother]</name>
+and the <name>Cardinall</name>.</stage>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker>
+<l n='44'>My Lord Cardinall of <name>Loraine</name>, tell me,</l>
+<l n='45'>How likes your grace my sonnes pleasantnes?</l>
+<l n='46'>His mince you see runnes on his minions,</l>
+<l n='47'>And all his heaven is to delight himselfe:</l>
+<l n='48'>And whilste he sleepes securely thus in ease,</l>
+<l n='49'>Thy brother <name>Guise</name> and we may now provide,</l>
+<l n='50'>To plant our selves with such authoritie,</l>
+<!--var:#As] as#-->
+<!--var:#As] That Ch, Ox, R, C#-->
+<l n='51'><app>
+<lem>As</lem>
+<rdg wit="Ch Ox R C">That</rdg>
+<rdg wit="O1">as</rdg>
+</app> not a man may live without our leaves.</l>
+<l n='52'>Then shall the Catholick faith of <name>Rome</name>,</l>
+<l n='53'>Flourish in <name>France</name>, and none deny the same.</l></sp>
+<sp who="card"><speaker>Cardinall</speaker>
+<!--var:#as in secrecy I] as I in secresy Ch, Ox, R, C#-->
+<l n='54'>Madam, <app>
+<lem>as in secrecy I</lem>
+<rdg wit="Ch Ox R C">as I in secresy</rdg>
+</app> was tolde,</l>
+<l n='55'>My brother <name>Guise</name> hath gathered a power of
+men,</l>
+<!--var:#are] as O1#-->
+<l n='56'>Which <app>
+<lem>are</lem>
+<rdg wit="O1">as</rdg>
+</app> he saith, to kill the Puritans,</l>
+<l n='57'>But tis the house of <name>Burbon</name> that he meanest</l>
+<l n='58'>Now Madam must you insinuate with the King,</l>
+<l n='59'>And tell him that tis for his Countries good,</l>
+<l n='60'>And common profit of Religion.</l>
+</sp>
+
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker>
+<l n='61'>Tush man, let me alone with him,</l>
+<l n='62'>To work the way to bring this thing to passe:</l>
+<l n='63'>And if he doe deny what I doe say,</l>
+<!--var:#presently,] ~ ,#-->
+<l n='64'>Ile dispatch him with his brother presently<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='65'>And then shall <name>Mounser</name> weare the diadem.</l>
+<l n='66'>Tush, all shall dye unles I have my will:</l>
+<l n='67'>For while she lives <name>Katherine</name> will be Queene.</l>
+<!--var:#Lord] Lords O1#-->
+<!--var:#seek] to seek R, C#-->
+<l n='68'>Come my <app>
+<lem>Lord</lem>
+<rdg wit="O1">Lords</rdg>
+</app>, let us goe <app>
+<lem>seek</lem>
+<rdg wit="R C">to seek</rdg>
+</app> the <name>Guise</name>,</l>
+<l n='69'>And then determine of this enterprise.</l>
+</sp>
+
+
+
+<stage type="exit">Exeunt.</stage>
+</div>
+<div type="textpart" subtype="scene" n="13"><head>[Scene xiii]</head>
+<stage type="entrance">Enter the Duchesse of <name>Guise</name>,
+and her <name>Maide</name>.</stage>
+
+<sp who="duch"><speaker>Duchesse</speaker>
+<l n='1'>Goe fetch me pen and inke.</l>
+</sp>
+
+
+<sp who="maid"><speaker>Maid</speaker>
+<l n='2'>I will Madam.</l>
+</sp>		<stage type="exit">Exit <name>Maid</name>.</stage>
+
+<sp who="duch"><speaker>Duchesse</speaker>
+<l n='3'>That I may write unto my dearest Lord.</l>
+<l n='4'>Sweet <name>Mugeroune</name>, tis he that hath my heart,</l>
+<l n='5'>And <name>Guise</name> usurpes it, cause I am his wife:</l>
+<l n='6'>Faine would I finde some means to speak with him</l>
+<l n='7'>But cannot, and therfore am enforst to write,</l>
+<l n='8'>That he may come and meet me in some place,</l>
+<l n='9'>Where we may one injoy the others sight.</l>
+
+
+
+<stage type="entrance">Enter the <name>Maid</name> with Inke and
+Paper.</stage>
+
+<l n='10'>So, set it down and leave me to my selfe.</l>
+<!--var:#O1 <I>places to left of line in margin</I>#-->
+<!-- BAD desc="No lemma/reading at ,13,667"-->
+<l n='11'>O would to God this quill that heere doth write,	<stage type="business">She writes.</stage></l>
+<l n='12'>Had late been plucks from out faire <name>Cupids</name>
+wing:</l>
+<l n='13'>That it might print these lines within his heart.</l>
+</sp>
+
+
+
+<stage type="entrance">Enter the <name>Guise</name>.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='14'>What, all alone my love, and writing too:</l>
+<l n='15'>I prethee say to whome thou writes?</l>
+</sp>
+
+
+
+<sp who="duch"><speaker>Duchesse</speaker>
+<!--var:#my Lord] <I>omit</I>  Ch, Ox, R, C#-->
+<l n='16'>To such a one <app>
+<lem>my Lord</lem>
+<rdg wit="Ch Ox R C"/>
+</app>, as when she reads my lines,</l>
+<l n='17'>Will laugh I feare me at their good aray.</l>
+</sp>
+
+
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='18'>I pray thee let me see.</l>
+</sp>
+
+
+
+<sp who="duch"><speaker>Duchesse</speaker>
+<l n='19'>O no my Lord, a woman only must</l>
+<l n='20'>Partake the secrets of my heart.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='21'>But Madam I must see.	<stage type="business">He takes
+it.</stage></l>
+<l n='22'>Are these your secrets that no man must know?</l>
+</sp>
+
+<sp who="duch"><speaker>Duchesse</speaker>
+<l n='23'>O pardon me my Lord.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='24'>Thou trothles and unjust, what lines are these?	</l>
+<l n='25'>Am I growne olde, or is thy lust growne yong,</l>
+<l n='26'>Or hath my love been so obscurde in thee,</l>
+<!--var:#needs] need Ch, Ox, R, D, C, B, Ri#-->
+<l n='27'>That others <app>
+<lem>needs</lem>
+<rdg wit="Ch Ox R D C B Ri">need</rdg>
+</app> to comment on my text?</l>
+<l n='28'>Is all my love forgot which helde thee deare?</l>
+<l n='29'>I, dearer then the apple of mine eye?</l>
+<l n='30'>Is <name>Guises</name> glory but a clowdy mist,</l>
+<l n='31'>In sight and judgement of thy lustfull eye?</l>
+<!--var:#wert] were Ch, Ox, R, D, C, B, TB#-->
+<l n='32'><foreign xml:lang="fr">Mor du</foreign>, <app>
+<lem>wert</lem>
+<rdg wit="Ch Ox R D C B TB">were</rdg>
+</app> not the fruit within thy wombe,</l>
+<!--var:#Of] On Ox, R#-->
+<l n='33'><app>
+<lem>Of</lem>
+<rdg wit="Ox R">On</rdg>
+</app> whose encrease I set some longing hope:</l>
+<l n='34'>This wrathfull hand should strike thee to the hart</l>
+<l n='35'>Hence strumpet, hide thy head for shame,</l>
+<!--var:#looke] look'st Ch, Ox, R,#-->
+<l n='36'>And fly my presence if thou <app>
+<lem>looke</lem>
+<rdg wit="Ch Ox R ">look'st</rdg>
+</app> to live.	<stage type="exit">Exit [Duchesse].</stage></l>
+<l n='37'>O wicked sexe, perjured and unjust,</l>
+<l n='38'>Now doe I see that from the very first,</l>
+<l n='39'>Her eyes and lookes sow'd seeds of perjury,</l>
+<l n='40'>But villaine he to whom these lines should goe,</l>
+<l n='41'>Shall buy her love even with his dearest bloud.</l>
+</sp>
+<stage type="exit">Exit.</stage>
+</div>
+<div type="textpart" subtype="scene" n="14"><head>[Scene xiv]</head>
+<stage type="entrance">Enter the King of <name>Navarre</name>,
+<name>Pleshe</name> and <name>Bartus</name>, and their train,
+with drums and trumpets.</stage>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<!--var:#My] Now Ch, Ox, R#-->
+<!--var:#sith] since Ch, Ox, R, C#-->
+<l n='1'><app>
+<lem>My</lem>
+<rdg wit="Ch Ox R">Now</rdg>
+</app> Lords, <app>
+<lem>sith</lem>
+<rdg wit="Ch Ox R C">since</rdg>
+</app> in a quarrell just and right,</l>
+<!--var:#warres^] ~ :#-->
+<l n='2'>We undertake to mannage these our warres<app>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='3'>Against the proud disturbers of the faith,</l>
+<l n='4'>I meane the <name>Guise</name>, the Pope, and King of <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>,</l>
+<l n='5'>Who set themselves to tread us under foot,</l>
+<!--var:#land:] ~ .#-->
+<!--var:#rent] rend Ch, Ox, R#-->
+<l n='6'>And <app>
+<lem>rent</lem>
+<rdg wit="Ch Ox R">rend</rdg>
+</app> our true religion from this land<app>
+<lem>:</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='7'>But for you know our quarrell is no more,</l>
+<l n='8'>But to defend their strange inventions,</l>
+<l n='9'>Which they will put us to with sword and fire:</l>
+<l n='10'>We must with resolute minces resolve to fight,</l>
+<l n='11'>In honor of our God and countries good.</l>
+<l n='12'><app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> is the counsell chamber of the pope,</l>
+<l n='13'><app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> is the place where he makes peace and warre,</l>
+<l n='14'>And <name>Guise</name> for <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> hath now incenst the King,</l>
+<l n='15'>To send his power to meet us in the field.</l>
+</sp>
+
+<sp who="bart"><speaker>Bartus</speaker>
+<l n='16'>Then in this bloudy brunt they may beholde,</l>
+<l n='17'>The sole endevour of your princely care,</l>
+<l n='18'>To plant the true succession of the faith,</l>
+<l n='19'>In spite of <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> and all his heresies.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<!--var:#incampes] implants Ch, Ox, R, C#-->
+<l n='20'>The power of vengeance now <app>
+<lem>incampes</lem>
+<rdg wit="Ch Ox R C">implants</rdg>
+</app> it selfe,</l>
+<l n='21'>Upon the hauty mountains of my brest:</l>
+<!--var:#Plaies] plaies#-->
+<l n='22'><app>
+<lem>Plaies</lem>
+<rdg wit="O1">plaies</rdg>
+</app> with her goary coulours of revenge,</l>
+<l n='23'>Whom I respect as leaves of boasting greene,</l>
+<l n='24'>That change their coulour when the winter comes,</l>
+<l n='25'>When I shall vaunt as victor in revenge.</l>
+
+<stage type="mess">Enter a <name>Messenger</name>.</stage>
+
+<l n='26'>How now sirra, what newes?</l>
+</sp>
+
+<sp who="mess"><speaker>Messenger</speaker>
+<l n='27'>My Lord, as by our scoutes we understande,</l>
+<l n='28'>A mighty army comes from <name>France</name> with speed:</l>
+<!--var:#are] is Ch, Ox, R#-->
+<l n='29'>Which <app>
+<lem>are</lem>
+<rdg wit="Ch Ox R">is</rdg>
+</app> already mustered in the land,</l>
+<!--var:#meanes] mean D, C, B#-->
+<l n='30'>And <app>
+<lem>meanes</lem>
+<rdg wit="D C B">mean</rdg>
+</app>to meet your highnes in the field.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='31'>In Gods name, let them come.</l>
+<l n='32'>This is the <name>Guise</name> that hath incenst the King,</l>
+<l n='33'>To leavy armes and make these civill broyles:</l>
+<!--var:#tell] tell me Ch, Ox, R, C#-->
+<l n='34'>But canst thou <app>
+<lem>tell</lem>
+<rdg wit="Ch Ox R C">tell me</rdg>
+</app> who is their generall?</l>
+</sp>
+
+<sp who="mess"><speaker>Messenger</speaker>
+<l n='35'>Not yet my Lord, for thereon doe they stay:</l>
+<l n='36'>But as report doth goe, the Duke of <name>Joyeux</name></l>
+<l n='37'>Hath made great sute unto the King therfore.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='38'>It will not countervaile his paines I hope,</l>
+<l n='39'>I would the <name>Guise</name> in his steed might have
+come,</l>
+<l n='40'>But he doth lurke within his drousie couch,</l>
+<l n='41'>And makes his footstoole on securitie:</l>
+<l n='42'>So he be safe he cares not what becomes,</l>
+<l n='43'>Of King or Country, no not for them both.</l>
+<l n='44'>But come my Lords, let us away with speed,</l>
+<l n='45'>And place our selves in order for the fight.</l>
+</sp>
+<stage type="exit">Exeunt.</stage>
+</div>
+<div type="textpart" subtype="scene" n="15"><head>[Scene xv]</head>
+
+<stage type="entrance">Enter [<name>Henry</name>] the King of
+<name>France</name>, Duke of <name>Guise</name>,
+<name>Epernoune</name>, and Duke <name>Joyeux</name>.</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='1'>My sweet <name>Joyeux</name>, I make thee Generall,</l>
+<l n='2'>Of all my army now in readines,</l>
+<l n='3'>To march against the rebellious King <name>Navarre</name>:</l>
+<!--var:#goe] go'st Ch, Ox, R#-->
+<l n='4'>At thy request I am content thou <app>
+<lem>goe</lem>
+<rdg wit="Ch Ox R">go'st</rdg>
+</app>,</l>
+<!--var:#suffer't] suffer O1, TB; suffer it C#-->
+<l n='5'>Although my love to thee can hardly <app>
+<lem>suffer't</lem>
+<rdg wit="O1 TB">suffer</rdg>
+<rdg wit="C">suffer it</rdg>
+</app>,</l>
+<l n='6'>Regarding still the danger of thy life.</l>
+</sp>
+
+<sp who="joye"><speaker>Joyeux</speaker>
+<l n='7'>Thanks to your Majestie, and so I take my leave.</l>
+<!--var:#to] <I>omit</I>  Ch, Ox, R, C#-->
+<l n='8'>Farwell <app>
+<lem>to</lem>
+<rdg wit="Ch Ox R C"/>
+</app> my Lord of <name>Guise</name> and
+<name>Epernoune</name>.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='9'>Health and harty farwell to my Lord
+<name>Joyeux</name>.</l></sp>
+<stage type="exit">Exit <name>Joyeux</name>.</stage>
+<sp who="king"><speaker>King</speaker>
+<!--var:#So] How Ch, Ox, R, C#-->
+<!--var:#of] <I>omit</I>  Ch, Ox, B, C#-->
+<l n='10'><app>
+<lem>So</lem>
+<rdg wit="Ch Ox R C">How</rdg>
+</app> kindely Cosin <app>
+<lem>of</lem>
+<rdg wit="Ch Ox B C"/>
+</app> <name>Guise</name> you and your wife</l>
+<l n='11'>Doe both salute our lovely Minions. </l>
+
+<stage type="business">He makes hornes at the
+<name>Guise</name>.</stage>
+
+<l n='12'>Remember you the letter gentle sir,</l>
+<l n='13'>Which your wife writ to my deare Minion,</l>
+<l n='14'>And her chosen freend?</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='15'>How now my Lord, faith this is more then need,</l>
+<!--var:#thus to be] to be thus Ch, Ox, R, C#-->
+<l n='16'>Am I <app>
+<lem>thus to be</lem>
+<rdg wit="Ch Ox R C">to be thus</rdg>
+</app> jested at and scornde?</l>
+<l n='17'>Tis more then kingly or Emperious.</l>
+<!--var:#Kings] kings beside Ch, Ox, R, C#-->
+<l n='18'>And sure if all the proudest <app>
+<lem>Kings</lem>
+<rdg wit="Ch Ox R C">kings beside</rdg>
+</app></l>
+<!--var:#derision,] ~ :#-->
+<l n='19'>In Christendome, should beare me such derision<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<!--var:#how] <I>omit</I>  R#-->
+<l n='20'>They should know <app>
+<lem>how</lem>
+<rdg wit="R"/>
+</app> I scornde them and their mockes.</l>
+<!--var:#Minions?] ~ ,#-->
+<l n='21'>I love your Minions<app>
+<lem>?</lem>
+<rdg wit="O1">,</rdg>
+</app> dote on them your selfe,</l>
+<!--var:#disgrace] disgust Coll MS#-->
+<l n='22'>I know none els but hordes them in <app>
+<lem>disgrace</lem>
+<rdg wit="Coll">disgust</rdg>
+</app>:</l>
+<l n='23'>And heer by all the Saints in heaven I sweare,</l>
+<!--var:#disgrace,] ~ :#-->
+<l n='24'>That villain for whom I beare this deep disgrace<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='25'>Even for your words that have incenst me so,</l>
+<!--var:#blood,] ~ .#-->
+<l n='26'>Shall buy that strumpets favour with his blood<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='27'>Whether he have dishonoured me or no.</l>
+<l n='28'><foreign xml:lang="fr">Par la mor du, Il mora.</foreign></l>
+</sp><stage type="exit">Exit.</stage>
+<sp who="king"><speaker>King</speaker>
+<!--var:#me] me, Epernoune Ch, Ox, R, C#-->
+<l n='29'>Beleeve me<app>
+<rdg wit="Ch Ox R C">, Epernoune</rdg>
+</app> this jest bites sore.</l>
+</sp>
+
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<!--var:#friends,] ~ ^#-->
+
+<l n='30'>My Lord, twere good to make them frends<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app></l>
+<l n='31'>For his othes are seldome spent in vaine.</l>
+</sp>
+
+<stage type="entrance">Enter <name>Mugeroun</name>.</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='32'>How now <name>Mugeroun</name>, metst thou not the
+<name>Guise</name> at the doore?</l>
+</sp>
+
+<sp who="muge"><speaker>Mugeroun</speaker>
+<l n='33'>Not I my Lord, what if I had?</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='34'>Marry if thou hadst, thou mightst have had the stab,</l>
+<l n='35'>For he hath solemnely sworne thy death.</l>
+</sp>
+
+<sp who="muge"><speaker>Mugeroun</speaker>
+<l n='36'>I may be stabd, and live till he be dead,</l>
+<l n='37'>But wherfore beares he me such deadly hate?</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='38'>Because his wife beares thee such kindely love.</l>
+</sp>
+
+<sp who="muge"><speaker>Mugeroun</speaker>
+<l n='39'>If that be all, the next time that I meet her,</l>
+<l n='40'>Ile make her shake off love with her heeles.</l>
+<!--var:#gone?] ~ ,#-->
+<!--var:#take] make O1, TB, Ri, Rv#-->
+<l n='41'>But which way is he gone<app>
+<lem>?</lem>
+<rdg wit="O1">,</rdg>
+</app> Ile goe <app>
+<lem>take</lem>
+<rdg wit="O1 TB Ri Rv">make</rdg>
+</app> a walk</l>
+<l n='42'>On purpose from the Court to meet with him.	</l>
+</sp>	<stage type="exit">Exit.</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='43'>I like not this, come <name>Epernoune</name></l>
+<l n='44'>Lets goe seek the Duke and make them freends.</l>
+</sp>
+<stage type="exit">Exeunt.</stage>
+</div>
+<div type="textpart" subtype="scene" n="16"><head>[Scene xvi]</head>
+<stage type="business">Alarums within. The Duke
+<name>Joyeux</name> slaine.</stage>
+
+<stage type="extrance">Enter the King of <name>Navarre</name> [,
+<name>Bartus</name>,] and his traine.</stage>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='1'>The Duke is slaine and all his power dispearst,</l>
+<l n='2'>And we are grac'd with wreathes of victory:</l>
+<l n='3'>Thus God we see doth ever guide the right,</l>
+<l n='4'>To make his glory great upon the earth.</l>
+</sp>
+
+<sp who="bart"><speaker>Bartus</speaker>
+<l n='5'>The terrour of this happy victory,</l>
+<l n='6'>I hope will make the King surcease his hate:</l>
+<l n='7'>And either never mannage army more,</l>
+<l n='8'>Or else employ them in some better cause.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='9'>How many noble men have lost their lives,</l>
+<l n='10'>In prosecution of these quell armes,</l>
+<l n='11'>Is ruth and almost death to call to mince:</l>
+<l n='12'>Put God we know will alwaies put them downe,</l>
+
+<l n='13'>That lift themselves against the perfect truth,</l>
+<!--var:#so] as Ch, Ox, R, C#-->
+<l n='14'>Which Ile maintaine <app>
+<lem>so</lem>
+<rdg wit="Ch Ox R C">as</rdg>
+</app> long as life doth last:</l>
+<l n='15'>And with the Queene of <name>England</name> joyne my
+force,</l>
+<l n='16'>To beat the papall Monarck from our lands,</l>
+<!--var:#relicks] prelates M (<I>qy</I>)#-->
+<l n='17'>And keep those <app>
+<lem>relicks</lem>
+<rdg wit="M (&lt;I&gt;qy&lt;/I&gt;)">prelates</rdg></app> from our countries coastes.</l><!--var:#Lords,] ~ ^#--><!--var:#that] <I>omit</I>  C#--><!--var:#this] the Ch, Ox, R#-->
+<l n='18'>Come my Lords<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> now <app>
+<lem>that</lem>
+<rdg wit="C"/>
+</app> <app>
+<lem>this</lem>
+<rdg wit="Ch Ox R">the</rdg>
+</app> storme is overpass,</l>
+<l n='19'>Let us away with triumph to our tents.</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+</div>
+<div type="textpart" subtype="scene" n="17"><head>[Scene xvii]</head>
+<stage type="entrance">Enter a <name>Souldier</name>.</stage>
+
+<sp who="sold"><speaker>Souldier</speaker><p>
+<!--var:#dares] dare Ch, Ox, R#-->
+<lb/>Sir, to you sir, that <app>
+<lem>dares</lem>
+<rdg wit="Ch Ox R">dare</rdg>
+</app> make the Duke a cuckolde,
+<lb/>and use a counterfeite key to his privie Chamber doore: And
+<lb/>although you take out nothing but your owne, yet you put in
+<lb/>that which displeaseth him, and so forestall his market, and set
+up
+<lb/>your standing where you should not: and whereas tree is your
+<!--var:#will] would Ch, Ox, R#-->
+<lb/>Landlord, you <app>
+<lem>will</lem>
+<rdg wit="Ch Ox R">would</rdg>
+</app> take upon you to be his, and tyll the ground
+<lb/>that he himself should occupy, which is his own free land. If it be
+<lb/>not too free there's the question: and though I come not to take
+<lb/>possession (as I would I might) yet I meane to keepe you out,
+<lb/>which I will if this geare horde: what are ye come so soone?
+<lb/>have at ye sir.</p>
+</sp>
+
+<stage type="entrance">Enter <name>Mugeroun</name>.</stage>
+<stage type="business">He shootes at him and killes him.</stage>
+
+<stage type="entrance">Enter the <name>Guise</name>
+[attended].</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#take thee] take thou Ch, Ox, R, C#-->
+<l n='1'>Holde thee tall Souldier, take <app>
+<lem>thee</lem>
+<rdg wit="Ch Ox R C">thou</rdg>
+</app> this and flye.</l>
+
+<stage type="exit">Exit <name>Souldier</name>.</stage>
+
+<l n='2'>Lye there the Kings delight, and <name>Guises</name> scorne.</l>
+<!--var:#list...dare] list'st...dar'st Ch, Ox, R#-->
+<l n='3'>Revenge it <name>Henry</name> as thou <app>
+<lem>list</lem>
+<rdg wit="Ch Ox R">list'st</rdg>
+</app> or <app>
+<lem>dare</lem>
+<rdg wit="Ch Ox R">dar'st</rdg>
+</app>,</l>
+<l n='4'>I did it only in despite of thee.</l>
+</sp>
+<stage type="business">Take him away.</stage>
+<stage type="entrance">Enter the <name>King</name> and
+<name>Epernoune</name>.</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='5'>My Lord of <name>Guise</name>, we understand that you</l>
+<!--var:#men.] ~ ,#-->
+<l n='6'>Have gathered a power of men<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='7'>What your intent is yet we cannot learn,</l>
+<l n='8'>But we presume it is not for our good.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='9'>Why I am no traitor to the crowne of <name>France</name>.</l>
+<!--var:#Gospell] Gospel's Ch, Ox, R, C, B, M, Ri#-->
+<l n='10'>What I have done tis for the <app>
+<lem>Gospell</lem>
+<rdg wit="Ch Ox R C B M Ri">Gospel's</rdg>
+</app> sake.</l>
+</sp>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='11'>Nay for the Popes sake, and shine owne benefite.</l>
+<l n='12'>What Peere in <name>France</name> but thou (aspiring
+<name>Guise</name>)</l>
+<l n='13'>Durst be in armes without the Kings consent?</l>
+<l n='14'>I challenge thee for treason in the cause.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#Ah] Oh Ch, Ox, R, C#-->
+<l n='15'><app>
+<lem>Ah</lem>
+<rdg wit="Ch Ox R C">Oh</rdg>
+</app> base <name>Epernoune</name>, were not his highnes
+heere,</l>
+<l n='16'>Thou shouldst perceive the Duke of <name>Guise</name> is
+mov'd.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='17'>Be patient <name>Guise</name> and threat not
+<name>Epernoune</name>,</l>
+<!--var:#King] Kiug#-->
+<l n='18'>Least thou perceive the <app>
+<lem wit="Kiug">King</lem>
+<rdg wit="O1">Kiug</rdg>
+</app> of <name>France</name> be mov'd.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--BAD  var:#<I>Valoyses</I>] Valois D2, B#-->
+<l n='19'>Why? I am a Prince of the <app>
+<lem><name>Valoyses</name></lem>
+<rdg wit="D2 B">Valois</rdg>
+</app> line,</l>
+<l n='20'>Therfore an enemy to the <name>Burbonites</name>.</l>
+<l n='21'>I am a juror in the holy league,</l>
+<l n='22'>And therfore hated of the Protestants.</l>
+<l n='23'>What should I doe but stand upon my guarde?</l>
+<l n='24'>And being able, Ile keep an hoast in pay.</l>
+</sp>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='25'>Thou able to maintaine an hoast in pay,</l>
+<!--var:#exhibition?] ~ .#-->
+<l n='26'>That livest by forraine exhibition<app>
+<lem>?</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='27'>The Pope and King of <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> are thy good frends,</l>
+<l n='28'>Else all France knowes how poor a Duke thou art.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='29'>I, those are they that feed him with their golde,</l>
+<l n='30'>To countermaund our will and check our freends.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='31'>My Lord, to speak more plainely, thus it is:</l>
+<l n='32'>Being animated by Religious zeale,</l>
+<l n='33'>I meane to muster all the power I can,</l><!--var:#sectious] sexious O1, TB; factious Mal MS, Ch, Ox, R, Coll MS,
+D2, C, B, M, Ri#-->
+<l n='34'>To overthrow those <app>
+<lem>sectious</lem>
+<rdg wit="O1 TB">sexious</rdg>
+<rdg wit="Mal D2 C B M Ri Coll Ch Ox R">factious</rdg>
+</app> Puritans:</l>
+<!--BAD var:#crowne,] <I>point uncertain</I>#-->
+<!--var:#my Lord] <I>omit</I>  Ch, Ox, R#-->
+<l n='35'>And know <app>
+<lem>my Lord</lem>
+<rdg wit="Ch Ox R"/>
+</app>, the Pope will sell his triple crowne<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app></l>
+<l n='36'>I, and the catholick <name>Philip</name> King of <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaine<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>,</l>
+<l n='37'>Ere I shall want, will cause his Indians,</l>
+<l n='38'>To rip the golden bowels of America.</l>
+<!--var:#cloakes] clucks Coll MS#-->
+<l n='39'><name>Navarre</name> that <app>
+<lem>cloakes</lem>
+<rdg wit="Coll">clucks</rdg>
+</app> them underneath his wings,</l>
+<l n='40'>Shall feele the house of <name>Lorayne</name> is his foe:</l>
+<!--var:#needs] need Ch, Ox, R, C#-->
+<l n='41'>Your highnes <app>
+<lem>needs</lem>
+<rdg wit="Ch Ox R C">need</rdg>
+</app> not feare mine armies force,</l>
+<l n='42'>Tis for your safetie and your enemies wrack.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='43'><name>Guise</name>, weare our crowne, and be thou King of
+<name>France</name>,</l>
+<l n='44'>And as Dictator make or warre or peace,</l>
+<!--BAD var:#Senator.] ~ , (<I>probable</I>)#-->
+<l n='45'>Whilste I cry <foreign xml:lang="la">placet</foreign> like a
+Senator<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='46'>I cannot brook thy hauty insolence,</l>
+<l n='47'>Dismisse thy campe or else by our Edict,</l>
+<l n='48'>Be thou proclaimde a traitor throughout
+<name>France</name>.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='49'>The choyse is hard, I must dissemble.	<stage type="delivery">[Aside.]</stage></l>
+
+
+<l n='50'>My Lord, in token of my true humilitie,</l>
+<!--var:#Majestie,] ~ :#-->
+<l n='51'>And simple meaning to your Majestie<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='52'>I kisse your graces hand, and take my leave,</l>
+<l n='53'>Intending to dislodge my campe with speed.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<!--var:#are] art Ch, Ox, R#-->
+<l n='54'>Then farwell <name>Guise</name>, the King and thou <app>
+<lem>are</lem>
+<rdg wit="Ch Ox R">art</rdg>
+</app> freends.	</l>
+</sp>
+
+<stage type="exit">Exit <name>Guise</name>.</stage>
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='55'>But trust him not my Lord,</l>
+<!--var:#highnesse^] ~ ,#-->
+<!--var:#seene] but seen Br MS#-->
+<l n='56'>For had your highnesse<app>
+<rdg wit="O1">,</rdg>
+</app> <app>
+<lem>seene</lem>
+<rdg wit="Br">but seen</rdg>
+</app> with what a pompe</l>
+<l n='57'>He entred Paris, and how the Citizens</l>
+<l n='58'>With gifts and shewes did entertaine him</l>
+<l n='59'>And promised to be at his commaund:</l>
+<!--var:#in] it in B#-->
+<l n='60'>Nay, they fear'd not to speak <app>
+<lem>in</lem>
+<rdg wit="B">it in</rdg>
+</app> the streetes,</l>
+<!--var:#the <I>Guise</I>] Guise ch, Ox, R#-->
+<l n='61'>That <app>
+<lem>the <name>Guise</name></lem>
+<rdg wit="Ox R">Guise ch,</rdg>
+</app> durst stand in armes against the King,</l>
+<l n='62'>For not effecting of his holines will.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='63'>Did they of Paris entertaine him so?</l>
+<l n='64'>Then meanes he present treason to our state.</l>
+<l n='65'>Well, let me alone, whose within there?</l>
+
+<stage type="entrance">Enter one with e pen and inke.</stage>
+<l n='66'>Make a discharge of all my counsell straite,</l>
+<l n='67'>And Ile subscribe my name and seale it straight.</l>
+<l n='68'>My head shall be my counsell, they are false:</l>
+<l n='69'>And <name>Epernoune</name> I will be rulde by thee.</l>
+</sp>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='70'>My Lord,</l>
+<!--var:#royall <I>omit</I>  Ch, Ox, R, C#-->
+<l n='71'>I think for safety of your <app>
+<lem>royall</lem>
+<rdg wit="Ch Ox R C"/>
+</app> person,</l>
+<l n='72'>It would be good the <name>Guise</name> were made away,</l>
+<l n='73'>And so to quite your grace of all suspect.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='74'>First let us set our hand and seale to this,</l>
+<l n='75'>And then Ile tell thee what I meane to doe.		<stage type="business">He writes.</stage></l>
+<l n='76'>So, convey this to the counsell presently.		<stage type="exit">Exit one.</stage></l>
+<l n='77'>And <name>Epernoune</name> though I seeme milde and
+calme,</l>
+<l n='78'>Thinke not but I am tragicall within:</l>
+<l n='79'>Ile secretly convey me unto Bloyse,</l>
+<l n='80'>For now that Paris takes the <name>Guises</name> parse,</l>
+<!--var:#no] not R, C#-->
+<l n='81'>Heere is <app>
+<lem>no</lem>
+<rdg wit="R C">not</rdg>
+</app> staying for the King of <name>France</name>,</l>
+<!--var:#meane] means Ch, Ox, R, C#-->
+<l n='82'>Unles he <app>
+<lem>meane</lem>
+<rdg wit="Ch Ox R C">means</rdg>
+</app> to be betraide and dye:</l>
+<l n='83'>But as I live, so sure the <name>Guise</name> shall dye.</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+</div>
+<div type="textpart" subtype="scene" n="18"><head>[Scene xviii]</head>
+<stage type="entrance">Enter the King of <name>Navarre</name>
+reading of a letter, and <name>Bartus</name>.</stage>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='1'>My Lord, I am advertised from <name>France</name>,</l>
+<!--var:#the <I>Guise</I>] Guise Ch, Ox, R, C#-->
+<l n='2'>That the <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="Ch Ox R C"/>
+</app>Guise<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="Ch Ox R C"/>
+</app> hath taken armes against the King,</l>
+<l n='3'>And that Paris is revolted from his grace.</l></sp>
+<sp who="bart"><speaker>Bartus</speaker>
+<l n='4'>Then hath your grace fit oportunitie,</l>
+<l n='5'>To shew your love unto the King of <name>France</name>:</l>
+<l n='6'>Offering him aide against his enemies,</l>
+<l n='7'>Which cannot but be thankfully receiv'd.</l></sp>
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='8'><name>Bartus</name>, it shall be so, poast then to
+<name>Fraunce</name>,</l>
+<l n='9'>And there salute his highnesse in our name,</l>
+<l n='10'>Assure him all the aide we can provide,</l>
+<l n='11'>Against the <name>Guisians</name> and their complices.</l>
+<l n='12'>Bartus be gone, commend me to his grace,</l>
+<l n='13'>And tell him ere it be long, Ile visite him.</l>
+</sp>
+<sp who="bart"><speaker>Bartus</speaker>
+<l n='14'>I will my Lord.</l>
+</sp>		<stage type="exit">Exit.</stage>
+<sp who="nava"><speaker>Navarre</speaker>
+<!--var:#<I>Pleshe</I>] Pleshe#-->
+<l n='15'><app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>
+Pleshe<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app>.</l>
+</sp>
+
+<stage type="entrance">Enter <name>Pleshe</name>
+.</stage>
+
+<sp who="ples"><speaker>Pleshe</speaker>
+<l n='16'>My Lord.</l>
+</sp>
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='17'><name>Pleshe</name>, goe muster up our men with speed,</l>
+<l n='18'>And let them march away to <name>France</name> amaine:</l>
+<l n='19'>For we must aide the King against the <name>Guise</name>.</l>
+<l n='20'>Be gone I say, tis time that we were there.</l>
+</sp>
+<sp who="ples"><speaker>Pleshe</speaker>
+<l n='21'>I goe my Lord.</l>
+</sp>		<stage type="exit">[Exit.]</stage>
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='22'>That wicked <name>Guise</name> I feare me much will be,</l>
+<l n='23'>The wine of that famous Realme of <name>France</name>:</l>
+<l n='24'>For his aspiring thoughts aime at the crowne,</l>
+<!--var:#And] He R, C; 'A D#-->
+<l n='25'><app>
+<lem>And</lem>
+<rdg wit="R C">He</rdg>
+<rdg wit="D">'A</rdg>
+</app> takes his vantage on Religion,</l>
+<l n='26'>To plant the Pope and popelings in the Realme,</l>
+<l n='27'>And binde it wholy to the Sea of <name>Rome</name>:</l>
+<l n='28'>But if that God doe prosper mine attempts,</l>
+<l n='29'>And send us safely to arrive in <name>France</name>:</l>
+<l n='30'>Wee'l beat him back, and drive him to his death,</l>
+<l n='31'>That basely seekes the wine of his Realme.</l>
+</sp>
+
+<stage type="exit">Exit.</stage>
+</div>
+<div type="textpart" subtype="scene" n="19"><head>[Scene xix]</head>
+
+<stage type="entrance">Enter the <name>Captaine</name> of the
+guarde, and three murtherers.</stage>
+
+<sp who="capt"><speaker>Captaine</speaker>
+<l n='1'>Come on sirs, what, are you resolutely bent,</l>
+<l n='2'>Hating the life and honour of the <name>Guise</name>?</l>
+<l n='3'>What, will you not feare when you see him come?</l>
+</sp>
+
+<sp who="murd1"><lb/><speaker>1.</speaker>
+<p>Feare him said you? tush, were he heere, we would kill hin
+<lb/>presently.</p>
+</sp>
+
+<sp who="murd2"><lb/><speaker>2.</speaker>
+<p>O that his heart were leaping in my hand.</p>
+</sp>
+
+<!--var:#<I>3.</I>] <I>1.</I>  Ch, Ox, R, C#-->
+<sp who="murd3"><lb/><speaker>3<app>
+<lem>.</lem>
+<rdg wit="Ch Ox R C">1.</rdg>
+</app></speaker>
+<p>But when will he come that we may murther him?</p></sp>
+
+
+<!--var:#Well^ then,] ~ , ~ ^#-->
+<sp who="capt"><lb/><speaker>Captaine</speaker>
+<p>Well<app>
+<rdg wit="O1">,</rdg>
+</app> then<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> I see you are resolute.</p>
+</sp>
+
+<sp who="murd1"><lb/><speaker>1.</speaker>
+<p>Let us alone, I warrant you.</p></sp>
+<sp who="capt"><speaker>Captaine</speaker>
+<!--var:#Chamber,] ~ .#-->
+<l n='4'>Then sirs take your standings within this Chamber<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app> </l>
+<l n='5'>For anon the <name>Guise</name> will come.</l>
+</sp>
+
+<sp><speaker>All</speaker>
+<!--var:#money?] ~ .#-->
+<l n='6'>You will give us our money<app>
+<lem>?</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+</sp>
+<sp who="capt"><speaker>Captaine</speaker>
+<!--var:#not:] ~ ,#-->
+<!--var:#so,] ~ ^#-->
+<!--var:#so] <I>omit</I>  Ch, Ox, R, C#-->
+<l n='7'>I, I, feare not<app>
+<lem>:</lem>
+<rdg wit="O1">,</rdg>
+</app> stand close, <app>
+<lem>so</lem>
+<rdg wit="Ch Ox R C"/>
+</app><app>
+<lem>,</lem>
+<rdg wit="O1 Ch Ox R C"/>
+</app> be resolute:</l>
+
+<stage type="business">[The murtherers go aside as if in the next
+room.]</stage>
+<l n='8'>Now fals the star whose influence governes
+<name>France</name>,</l>
+<l n='9'>Whose light was deadly to the Protestants:</l>
+<l n='10'>Now must he fall and perish in his height.</l>
+</sp>
+
+<stage type="entrance">Enter the <name>King</name> and
+<name>Epernoune</name>.</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='11'>Now Captain of my guarde, are these murtherers ready?</l>
+</sp>
+<sp who="capt"><speaker>Captaine</speaker>
+<l n='12'>They be my good Lord.</l>
+</sp>
+<sp who="king"><speaker>King</speaker>
+<l n='13'>But are they resolute and armde to kill,</l>
+<l n='14'>Hating the life and honour of the <name>Guise</name>?</l>
+</sp>
+<sp who="capt"><speaker>Captaine</speaker>
+<!--var:#ye] you Ch, Ox, R, C#-->
+<l n='15'>I warrant <app>
+<lem>ye</lem>
+<rdg wit="Ch Ox R C">you</rdg>
+</app> my Lord. </l>
+</sp><stage type="exit">[Exit.]</stage>
+<sp who="king"><speaker>King</speaker>
+<l n='16'>Then come proud <name>Guise</name> and heere disgordge thy
+brest,</l>
+<l n='17'>Surchargde with surfet of ambitious thoughts:</l>
+<l n='18'>Breath out that life wherein my death was hid,</l>
+<l n='19'>And end thy endles treasons with thy death.</l>
+</sp>
+
+<stage type="entrance">Enter the <name>Guise</name> [within] and
+knocketh.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#<I>Holla</I>] <I>Halla</I>#-->
+<!--var:#<I>verlete</I>] varlet Ch, Ox, R, C, B, M#-->
+<l n='20'><foreign xml:lang="fr"><app>
+<lem>Holla</lem>
+<rdg wit="O1">Halla</rdg>
+</app> <app>
+<lem><hi rend="italics">verlete</hi></lem>
+<rdg wit="Ch Ox R C B M">varlet</rdg>
+</app>, hey: Epernoune,</foreign> where is the King?</l>
+</sp>
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='21'>Mounted his royall Cabonet.</l>
+</sp>
+<sp who="guis"><speaker>Guise</speaker>
+<l n='22'>I prethee tell him that the <name>Guise</name> is heere.</l>
+</sp>
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='23'>And please your grace the Duke of <name>Guise</name> doth
+crave</l>
+<l n='24'>Accesse unto your highnes.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='25'>Let him come in.</l>
+<l n='26'>Come <name>Guise</name> and see thy traiterous guile
+outreacht,</l>
+<l n='27'>And perish in the pit thou mad'st for me.</l>
+</sp>
+
+<stage type="entrance">The <name>Guise</name> comes to the
+King.</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='28'>Good morrow to your Majestie.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='29'>Good morrow to my loving Cousin of <name>Guise</name>.</l>
+<l n='30'>How fares it this morning with your excellence?</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='31'>I heard your Majestie was scarcely pleasde,</l>
+<!--var:#bare] bear Ch, Ox, R, C, B#-->
+<l n='32'>That in the Court I <app>
+<lem>bare</lem>
+<rdg wit="Ch Ox R C B">bear</rdg>
+</app> so great a traine.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='33'>They were to blame that said I was displeasde,</l>
+<l n='34'>And you good Cosin to imagine it.</l>
+<l n='35'>Twere hard with me if I should doubt my kinne,</l>
+<l n='36'>Or be suspicious of my deerest freends:</l>
+<l n='37'>Cousin, assure you I am resolute,</l>
+<!--var:#Whatsoever] Whatever Ch, Ox, R, C#-->
+<l n='38'><app>
+<lem>Whatsoever</lem>
+<rdg wit="Ch Ox R C">Whatever</rdg>
+</app> any whisper in mine eares,</l>
+<l n='39'>Not to suspect disloyaltye in thee,</l>
+<l n='40'>And so sweet Cuz farwell.</l>
+</sp>		<stage type="exit">Exit <name>King</name> [and
+<name>Epernoune</name>].</stage>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='41'>So,</l>
+<l n='42'>Now sues the King for favour to the <name>Guise</name>,</l>
+<l n='43'>And all his Minions stoup when I commaund:</l>
+<!--var:#fielde.] ~ ,#-->
+<l n='44'>Why this tis to have an army in the fielde<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='45'>Now by the holy sacrament I sweare,</l>
+<l n='46'>As ancient Romanes over their Captive Lords,</l>
+<l n='47'>So will I triumph over this wanton King,</l>
+<l n='48'>And he shall follow my proud Chariots wheeles.</l>
+<l n='49'>Now doe I but begin to look about,</l>
+<l n='50'>And all my former time was spent in vaine:</l>
+<l n='51'>Holde Sworde,</l>
+<!--var:#Duke of] <I>omit</I>  Ch, Ox, R, C#-->
+<l n='52'>For in thee is the <app>
+<lem>Duke of</lem>
+<rdg wit="Ch Ox R C"/>
+</app> <name>Guises</name> hope.</l>
+
+<stage type="entrance">Enter one of the Murtherers.</stage>
+
+<l n='53'>Villaine, why cost thou look so gastly? speake.</l>
+</sp>
+
+
+<sp who="murd3"><speaker>3.</speaker>
+<l n='54'>O pardon me my Lord of <name>Guise</name>.</l>
+</sp>
+
+<sp who="guis"><speaker>Guise</speaker>
+<l n='55'>Pardon thee, why what hast thou done?</l>
+</sp>
+
+
+<sp who="murd3"><speaker>3.</speaker>
+<l n='56'>O my Lord, I am one of them that is set to murder you.</l>
+</sp>
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#me, villaine?] ~ ^ ~ .#-->
+<l n='57'>To murder <app>
+<lem>me, villaine?</lem>
+<rdg wit="O1"> .</rdg>
+</app></l>
+</sp>
+
+<sp who="murd3"><lb/><speaker>3.</speaker>
+<p>I my Lord, the rest have taine their standings in the next
+<lb/>roome, therefore good my Lord goe not foorth.</p>
+</sp>
+<sp who="guis"><speaker>Guise</speaker>
+<l n='58'>Yet <name>Caesar</name> shall goe forth.</l>
+<l n='59'>Let mean consaits, and baser men feare death,</l>
+<!--var:#Tut] But TB#-->
+<l n='60'><app>
+<lem>Tut</lem>
+<rdg wit="TB">But</rdg>
+</app> they are pesants, I am Duke of <name>Guise</name>:</l>
+<!--var:#lookes^] ~ ,#-->
+<l n='61'>And princes with their lookes<app>
+<rdg wit="O1">,</rdg>
+</app> ingender feare.</l>
+</sp>
+
+<sp who="murd1"><speaker><app>
+<lem>1.</lem>
+<rdg wit="Ch Ox R C">2 Murd.</rdg>
+</app></speaker><!--BAD speaker reassignment - var:#<I>1.</I>] <I>2 Murd.</I>  Ch, Ox,
+R, C#-->
+<l n='62'>Stand close, he is comming, I know him by his voice.</l>
+</sp>
+<sp who="guis"><speaker>Guise</speaker>
+<l n='63'>As pale as ashes, nay then tis time to look about.</l>
+</sp>
+
+<sp><speaker>All</speaker>
+<!--BAD ?? stage dir.s var:#<I>him</I>] him#-->
+<l n='64'>Downe with him, downe with him. </l>
+</sp>	<stage type="business">They stabbe <app>
+<lem>him</lem>
+<rdg wit="O1">him</rdg>
+</app>.</stage>
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#deaths] death Ch, Ox, R, C#-->
+<l n='65'>Oh I have my <app>
+<lem>deaths</lem>
+<rdg wit="Ch Ox R C">death</rdg>
+</app> wound, give me leave to speak.</l>
+</sp>
+
+<sp who="murd2"><speaker>2.</speaker>
+<l n='66'>Then pray to God, and aske forgivenes of the King.</l>
+</sp>
+<sp who="guis"><speaker>Guise</speaker>
+<!--var:#him,] ~ .#-->
+<l n='67'>Trouble me not, I neare offended him<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='68'>Nor will I aske forgivenes of the King.</l>
+<l n='69'>Oh that I have not power to stay my life,</l>
+<l n='70'>Nor immortalitie to be reveng'd:</l>
+<l n='71'>To dye by Pesantes, what a greefe is this?</l>
+<l n='72'>Ah <name>Sextus</name>, be reveng'd upon the King,</l>
+<l n='73'><name>Philip</name> and <name>Parma</name>, I am slaine for
+you:</l>
+<l n='74'>Pope excommunicate, <name>Philip</name> depose,</l>
+<!--var:#<I>Valois</I>  his] Valois's Ch, Ox, R#-->
+<!--Bad the name function of Valios hasn't changed, but I've nixed the name tags for italics purposes--><l n='75'>The wicked branch of curst <app>
+<lem><name>Valois</name> his</lem>
+<rdg wit="Ch Ox R">Valois's</rdg>
+</app> line.</l>
+<!--var:#<I>messe</I>] <I>messa</I>#-->
+<l n='76'><foreign xml:lang="fr">Vive la <app>
+<lem>messe</lem>
+<rdg wit="O1">messa</rdg>
+</app></foreign>, perish Hugonets,</l>
+<!--var:#dyed] dies Ch, Ox, R, C#-->
+<l n='77'>Thus <name>Caesar</name> did goe foorth, and thus he <app>
+<lem>dyed</lem>
+<rdg wit="Ch Ox R C">dies</rdg>
+</app>.</l>
+</sp>	<stage type="business">He dyes.</stage>
+
+<stage type="entrance">Enter <name>Captaine</name> of the
+Guarde.</stage>
+
+<sp who="capt"><speaker>Captaine</speaker>
+<!--var:#What,] ~ ^#-->
+<l n='78'>What<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> have you done?</l>
+
+<l n='79'>Then stay a while and Ile goe call the King,</l>
+
+<stage type="entrance">[Enter <name>King</name> and
+<name>Epernoune</name> attended.]</stage>
+<l n='80'>But see where he comes.</l>
+<l n='81'>My Lord, see where the <name>Guise</name> is slaine.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<!--var:#Ah] Oh Ch, Ox, R#-->
+<l n='82'><app>
+<lem>Ah</lem>
+<rdg wit="Ch Ox R">Oh</rdg>
+</app> this sweet sight is phisick to my soule,</l>
+<l n='83'>Goe fetch his sonne for to beholde his death:</l>
+<stage type="exit">[Exit attendant.]</stage>
+<!--var:#massacres,] ~ :#-->
+<l n='84'>Surchargde with guilt of thousand massacres<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='85'>Mounser of <name>Loraine</name> sinke away to hell,</l>
+<!--var:#broyles,] ~ :#-->
+<!--var:#And in] In just Ch, Ox, R, C#-->
+<l n='86'><app>
+<lem>And in</lem>
+<rdg wit="Ch Ox R C">In just</rdg>
+</app> remembrance of those bloudy broyles<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='87'>To which thou didst alure me being alive:</l>
+<l n='88'>And heere in presence of you all I sweare,</l>
+<l n='89'>I nere was King of <name>France</name> untill this houre:</l>
+<l n='90'>This is the traitor that hath spent my golde,</l>
+<!--var:#civile] cruel Ch, Ox, R, C#-->
+<l n='91'>In making forraine warres and <app>
+<lem>civile</lem>
+<rdg wit="Ch Ox R C">cruel</rdg>
+</app> broiles.</l>
+<l n='92'>Did he not draw a sorte of English priestes</l>
+<l n='93'>From Doway to the Seminary at Remes,</l>
+<l n='94'>To hatch forth treason gainst their naturall Queene?</l>
+<l n='95'>Did he not cause the King of <app>
+<lem><tag type="start">name</tag></lem>
+<rdg wit="O1"/>
+</app>Spaines<app>
+<lem><tag type="end">name</tag></lem>
+<rdg wit="O1"/>
+</app> huge fleete,</l>
+<l n='96'>To threaten <name>England</name> and to menace me?</l>
+<l n='97'>Did he not injure <name>Mounser</name> thats deceast?</l>
+<l n='98'>Hath he not made me in the Popes defence,</l>
+<!--var:#land,] ~ :#-->
+<l n='99'>To spend the treasure that should strength my land<app>
+<lem>,</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+<l n='100'>In civill broiles between <name>Navarre</name> and me?</l>
+<l n='101'>Tush, to be short, he meant to make me Munke,</l>
+<l n='102'>Or else to murder me, and so be King.</l>
+<l n='103'>Let Christian princes that shall heare of this,</l>
+<l n='104'>(As all the world shall know our <name>Guise</name> is dead)</l>
+<l n='105'>Rest satisfed with this that heer I sweare,</l>
+<l n='106'>Nere was there King of <name>France</name> so yoakt as I.</l>
+</sp>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='107'>My Lord heer is his sonne.</l>
+</sp>
+
+<stage type="entrance">Enter the <name>Guises</name> sonne.</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='108'>Boy, look where your father lyes.</l>
+</sp>
+<sp who="yong"><speaker>Yong Guise</speaker>
+<l n='109'>My father slaine, who hath done this deed?</l>
+</sp>
+<sp who="king"><speaker>King</speaker>
+<l n='110'>Sirra twas I that slew him, and will slay</l>
+<!--var:#Thee] thee#-->
+<l n='111'><app>
+<lem>Thee</lem>
+<rdg wit="O1">thee</rdg>
+</app> too, and thou prove such a traitor.</l>
+</sp>
+<sp who="yong"><speaker>Yong Guise</speaker>
+<l n='112'>Art thou King, and hast done this bloudy deed?</l>
+<l n='113'>Ile be revengde. </l>
+</sp>		<stage type="business">He offereth to throwe his
+dagger.</stage>
+<sp who="king"><speaker>King</speaker>
+<!--var:#Away] A way#-->
+<l n='114'><app>
+<lem>Away</lem>
+<rdg wit="O1">A way</rdg>
+</app> to prison with him, Ile clippe his winges</l>
+
+<l n='115'>Or ere he passe my handes, away with him.	<stage type="exit">Exit <name>Boy</name>.</stage></l>
+<l n='116'>But what availeth that this traitors dead,</l>
+<l n='117'>When Duke <name>Dumaine</name> his brother is alive,</l>
+<l n='118'>And that young Cardinall that is growne so proud?</l>
+<l n='119'>Goe to the Governour of Orleance,</l>
+<l n='120'>And will him in my name to kill the Duke.</l>
+
+<stage type="exit">[Exit <name>Captaine</name> of the
+Guarde.]</stage>
+
+<l n='121'>Get you away and strangle the Cardinall. 	<stage type="exit">[Exit
+<name>murtherers</name>.]</stage></l>
+<l n='122'>These two will make one entire Duke of <name>Guise</name>,</l>
+<l n='123'>Especially with our olde mothers helpe.</l>
+</sp>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='124'>My Lord, see where she comes, as if she droupt</l>
+<l n='125'>To heare these newest</l>
+</sp>
+
+<stage type="entrance">Enter <name>Queene Mother</name>
+[attended].</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='126'>And let her croup, my heart is light enough.</l>
+<l n='127'>Mother, how like you this device of mine?</l>
+<l n='128'>I slew the <name>Guise</name>, because I would be King.</l>
+</sp>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker><!--var:#<I>Queene Mother</I>.] O1 <I>speech-prefix in this scene
+is</I>  Queene.#-->
+<l n='129'>King, why so thou wert before.</l>
+<l n='130'>Pray God thou be a King now this is done.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='131'>Nay he was King and countermanded me,</l>
+<l n='132'>But now I will be King and rule my selfe,</l>
+<l n='133'>And make the <name>Guisians</name> stoup that are alive.</l>
+</sp>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker>
+<!--var:#greefe:] ~ ,#-->
+<l n='134'>I cannot speak for greefe<app>
+<lem>:</lem>
+<rdg wit="O1">,</rdg>
+</app> when thou west bome,</l>
+<l n='135'>I would that I had murdered thee my sonne.</l>
+<l n='136'>My sonne: thou art a changeling, not my sonne.</l>
+<l n='137'>I curse thee and exclaime thee miscreant,</l>
+<l n='138'>Traitor to God, and to the realme of <name>France</name>.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='139'>Cry out, exclaime, houle till thy throat be hoarce,</l>
+<l n='140'>The <name>Guise</name> is slaine, and I rejoyce therefore:</l>
+<l n='141'>And now will I to armes, come <name>Epernoune</name>:</l>
+<l n='142'>And let her greeve her heart out if she will.</l>
+</sp>
+
+<stage type="exit">Exit the <name>King</name> and
+<name>Epernoune</name>.</stage>
+
+<sp who="quee"><speaker><app>
+<lem>Queene Mother</lem>
+<rdg wit="O1">Queene</rdg>
+</app></speaker>
+<!--var:#meditate.] ~ ,#-->
+<l n='143'>Away, leave me alone to meditate<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='144'>Sweet <name>Guise</name>, would he had died so thou wert
+heere:</l>
+<l n='145'>To whom shall I bewray my secrets now,</l>
+<l n='146'>Or who will helpe to builde Religion?</l>
+<l n='147'>The Protestants will glory and insulte,</l>
+<l n='148'>Wicked <name>Navarre</name> will get the crowne of
+<name>France</name>,</l>
+<l n='149'>The Popedome cannot stand, all goes to wrack,</l>
+<!--var:#<I>Guise</I> : ~ ,#-->
+<l n='150'>And all for thee my <name>Guise</name><app>
+<lem>:</lem>
+<rdg wit="O1">,</rdg>
+</app> what may I doe?</l>
+<l n='151'>But sorrow seaze upon my toyling soule,</l>
+<l n='152'>For since the <name>Guise</name> is dead, I will not live.</l>
+<stage type="exit">Exit [the attendants taking up body of the
+<name>Guise</name>].</stage></sp>
+</div>
+<div type="textpart" subtype="scene" n="20"><head>[Scene xx]</head>
+<stage type="entrance">Enter two [<name>Murtherers</name>]
+dragging in the <name>Cardenall</name> [of
+<name>Loraine</name>].</stage>
+
+<sp who="card"><speaker>Cardinall</speaker>
+<l n='1'>Murder me not, I am a Cardenall.</l>
+</sp>
+
+<sp who="murd1"><speaker>1.</speaker>
+<l n='2'>Wert thou the Pope thou mightst not scape from us.</l>
+</sp>
+
+<sp who="card"><speaker>Cardinall</speaker>
+<!--var:#what,] ~ ^#-->
+<l n='3'>What<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> will you fyle your handes with Churchmens
+bloud<app>
+<lem>?</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+</sp>
+
+<!--var:#bloud?] ~ ,#-->
+<sp who="murd2"><lb/><speaker>2.</speaker>
+<p>Shed your bloud,
+<lb/>O Lord no: for we entend to strangle you.</p>
+</sp>
+
+<sp who="card"><speaker>Cardinall</speaker>
+<!--var:#dye?] ~ .#-->
+<l n='4'>Then there is no remedye but I must dye<app>
+<lem>?</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+</sp>
+
+<sp who="murd1"><speaker>1.</speaker>
+<l n='5'>No remedye, therefore prepare your selfe.</l>
+</sp>
+
+<sp who="card"><speaker>Cardinall</speaker>
+<l n='6'>Yet lives</l>
+<l n='7'>My brother Duke <name>Dumaine</name>, and many moe:</l>
+<!--var:#King,] ~ .#-->
+<l n='8'>To revenge our deaths upon that cursed King<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='9'>Upon whose heart may all the furies gripe,</l>
+<l n='10'>And with their pawes drench his black soule in hell.</l>
+</sp>
+
+<sp who="murd1"><speaker>1.</speaker>
+<l n='11'>Yours my Lord Cardinall, you should have saide.</l>
+<stage type="business">Now they strangle him.</stage>
+<l n='12'>So, pluck amaine,</l>
+<l n='13'>He is hard hearted, therfore pull with violence.</l>
+<l n='14'>Come take him away.</l>
+</sp>
+<stage type="exit">Exeunt.</stage>
+</div>
+<div type="textpart" subtype="scene" n="21"><head>[Scene xxi]</head>
+<stage type="entrance">Enter Duke <name>Dumayn</name> reading of
+a letter, with others.</stage>
+
+<sp who="duma"><speaker>Dumaine</speaker>
+<l n='1'>My noble brother murthered by the King,</l>
+<!--var:#for] <I>omit</I>  Ch, Ox, R, Coll MS, C#-->
+<l n='2'>Oh what may I doe, <app>
+<lem>for</lem>
+<rdg wit="C Ch Ox R Coll"/>
+</app> to revenge thy death?</l>
+<l n='3'>The Kings alone, it cannot satisfie.</l>
+<l n='4'>Sweet Duke of <name>Guise</name> our prop to leane upon,</l>
+<l n='5'>Now thou art dead, heere is no stay for us:</l>
+<l n='6'>I am thy brother, and ile revenge thy death,</l>
+<!--var:#<I>Valoys</I>  his] Valois's Ch, Ox, R#-->
+<l n='7'>And roote <app>
+<lem><name>Valoys</name> his</lem>
+<rdg wit="Ch Ox R">Valois's</rdg>
+</app> line from forth of <name>France</name>,</l>
+<!--var:#home,] ~ .#-->
+<l n='8'>And beate proud <name>Burbon</name> to his native home<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<!--var:#King,] ~ .#-->
+<l n='9'>That basely seekes to joyne with such a King<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<l n='10'>Whose murderous thoughts will be his overthrow.</l>
+<l n='11'>Hee wild the Governour of Orleance in his name,</l>
+<l n='12'>That I with speed should have beene put to death.</l>
+<!--var:#life,] ~ .#-->
+<l n='13'>But thats prevented, for to end his life<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<!--var:#And] His life and O1, Rv#-->
+<l n='14'><app>
+<lem>And</lem>
+<rdg wit="O1 Rv">His life and</rdg>
+</app> all those traitors to the Church of <name>Rome</name>,</l>
+<l n='15'>That durst attempt to murder noble <name>Guise</name>.</l>
+</sp>
+
+<stage type="entrance">Enter the <name>Frier</name>.</stage>
+
+<sp who="frie"><lb/><speaker>Frier</speaker>
+<p>My Lord, I come to bring you newes, that your brother
+<lb/>the Cardinall of <name>Loraine</name> by the Kings consent is
+lately strangled
+<lb/>unto death.</p>
+</sp>
+
+<sp who="duma"><speaker>Dumaine</speaker>
+<!--var:#Cardenall] the Cardinal D, C#-->
+<l n='16'>My brother <app>
+<lem>Cardenall</lem>
+<rdg wit="D C">the Cardinal</rdg>
+</app> slaine and I alive?</l>
+<l n='17'>O wordes of power to kill a thousand men.</l>
+<!--var:#away] straight away C#-->
+<l n='18'>Come let us <app>
+<lem>away</lem>
+<rdg wit="C">straight away</rdg>
+</app> and leavy men,</l>
+<!--var:#this] the Ch, Ox, R#-->
+<l n='19'>Tis warre that must asswage <app>
+<lem>this</lem>
+<rdg wit="Ch Ox R">the</rdg>
+</app> tyrantes pride.</l>
+</sp>
+
+<!--var:#speak.] ~ ,#-->
+<sp who="frie"><lb/><speaker>Frier</speaker>
+<p>My Lord, heare me but speak<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app>
+<lb/>I am a Frier of the order of the Jacobyns, that for my conscience
+<lb/>sake will kill the King.</p>
+</sp>
+
+<sp who="duma"><speaker>Dumaine</speaker>
+<l n='20'>But what doth move thee above the rest to doe the deed?</l>
+</sp>
+
+<sp who="frie"><lb/><speaker>Frier</speaker>
+<p>O my Lord, I have beene a great sinner in my dayes, and
+<lb/>the deed is meritorious.</p>
+</sp>
+
+<sp who="duma"><speaker>Dumaine</speaker>
+<l n='21'>But how wilt thou get opportunitye?</l>
+</sp>
+
+<sp who="frie"><speaker>Frier</speaker>
+<l n='22'>Tush my Lord, let me alone for that.</l>
+</sp>
+
+<sp who="duma"><speaker>Dumaine</speaker>
+<l n='23'>Frier come with me,</l>
+<l n='24'>We will goe talke more of this within.</l>
+</sp>
+
+<stage type="exit">Exeunt.</stage>
+
+</div>
+<div type="textpart" subtype="scene" n="22"><head>[Scene xxii]</head>
+<stage type="mixed">Sound Drumme and Trumpets, and enter the
+King of <name>France</name>, and <name>Navarre</name>,
+<name>Epernoune</name>, <name>Bartus</name>,
+<name>Pleshe</name> and Souldiers.</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='1'>Brother of <name>Navarre</name>, I sorrow much,</l>
+<l n='2'>That ever I was prov'd your enemy,</l>
+<l n='3'>And that the sweet and princely minde you beare,</l>
+<l n='4'>Was ever troubled with injurious warres:</l>
+<l n='5'>I vow as I am lawfull King of <name>France</name>,</l>
+<l n='6'>To recompence your reconciled love,</l>
+<l n='7'>With all the honors and affections,</l>
+<l n='8'>That ever I vouchsafte my dearest freends.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<!--var:#be^] ~ ,#-->
+<l n='9'>It is enough if that <name>Navarre</name> may be<app>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='10'>Esteemed faithfull to the King of France:</l>
+<!--var:#till] to Ch, Ox, R, C#-->
+<l n='11'>Whose service he may still commaund <app>
+<lem>till</lem>
+<rdg wit="Ch Ox R C">to</rdg>
+</app> death.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='12'>Thankes to my Kingly Brother of <name>Navarre</name>.</l>
+<!--var:#heere] there Ch, Ox, R, C#-->
+<!--var:#Lutetia] Lucrecia O1; Lutetia's Ch, Ox, R, C#-->
+<l n='13'>Then <app>
+<lem>heere</lem>
+<rdg wit="Ch Ox R C">there</rdg>
+</app> wee'l lye before <app>
+<lem>Lutetia</lem>
+<rdg wit="O1">Lucrecia</rdg>
+<rdg wit="Ch Ox R C">Lutetia's</rdg>
+</app> walles,</l>
+<l n='14'>Girting this strumpet Cittie with our siege,</l>
+<l n='15'>Till surfeiting with our afflicting armes,</l>
+<l n='16'>She cast her hatefull stomack to the earth.</l>
+</sp>
+
+<stage type="entrance">Enter a <name>Messenger</name>.</stage>
+
+<sp who="mess"><lb/><speaker>Messenger</speaker>
+<p>And it please your Majestie heere is a Frier of the
+<lb/>order of the Jacobins, sent from the President of Paris, that
+<lb/>craves accesse unto your grace.</p>
+</sp>
+<sp who="king"><speaker>King</speaker>
+<l n='17'>Let him come in.</l>
+</sp>
+
+<stage type="entrance">Enter <name>Frier</name> with a
+Letter.</stage>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='18'>I like not this Friers look.</l>
+<l n='19'>Twere not amisse my Lord, if he were searcht.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='20'>Sweete <name>Epernoune</name>, our Friers are holy men,</l>
+<l n='21'>And will not offer violence to their King,</l>
+<l n='22'>For all the wealth and treasure of the world.</l>
+<!--var:#King?] ~ :#-->
+<l n='23'>Frier, thou dost acknowledge me thy King<app>
+<lem>?</lem>
+<rdg wit="O1">:</rdg>
+</app></l>
+</sp>
+
+<sp who="frie"><speaker>Frier</speaker>
+<l n='24'>I my good Lord, and will dye therein.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='25'>Then come thou neer, and tell what newes thou bringst.</l>
+</sp>
+
+<sp who="frie"><speaker>Frier</speaker>
+<l n='26'>My Lord,</l>
+<l n='27'>The President of <name>Paris</name> greetes your grace,</l>
+<!--var:#sends] send O1 (u)#-->
+<l n='28'>And <app>
+<lem>sends</lem>
+<rdg wit="O1" type="(u)">send</rdg>
+</app> his dutie by these speedye lines,</l>
+<l n='29'>Humblye craving your gracious reply.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='30'>Ile read them Frier, and then Ile answere thee.</l>
+</sp>
+
+<sp who="frie"><speaker>Frier</speaker>
+<!--var:#<I>Jacobe</I>] <I>Jacobus</I>  O1, Ch, Ox, R, TB#-->
+<!--var:#upon] on Ch, Ox, R#-->
+<l n='31'><hi rend="italics">Sancte</hi> <name><app>
+<lem>Jacobe</lem>
+<rdg wit="O1 Ch Ox R TB">Jacobus</rdg>
+</app></name>, now have mercye <app>
+<lem>upon</lem>
+<rdg wit="Ch Ox R">on</rdg>
+</app> me.</l>
+
+</sp>
+<stage type="business">He stabs the <name>King</name> with a knife
+as he readeth the letter, and then the <name>King</name> getteth the
+knife and killes him.</stage>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='32'>O my Lord, let him live a while.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='33'>No, let the villaine dye, and feele in hell,</l>
+<l n='34'>Just torments for his trechery.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='35'>What, is your highnes hurt?</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='36'>Yes Navarre, but not to death I hope.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='37'>God shield your grace from such a sodaine death:</l>
+<l n='38'>Goe call a surgeon hether strait.</l>
+</sp> <stage type="exit">[Exit attendant.]</stage>
+
+<sp who="king"><speaker>King</speaker>
+<l n='39'>What irreligeous Pagans partes be these,</l>
+<l n='40'>Of such as horde them of the holy church?</l>
+<l n='41'>Take hence that damned villaine from my sight.</l>
+</sp>
+
+<stage type="exit">[Exeunt attendants with body]</stage>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='42'>Ah, had your highnes let him live,</l>
+<!--var:#to] for Ch, Ox, R, C#-->
+<l n='43'>We might have punisht him <app>
+<lem>to</lem>
+<rdg wit="Ch Ox R C">for</rdg>
+</app> his deserts.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='44'>Sweet <name>Epernoune</name> all Rebels under heaven,</l>
+<!--var:#his] their O1#-->
+<l n='45'>Shall take example by <app>
+<lem>his</lem>
+<rdg wit="O1">their</rdg>
+</app> punishment,</l>
+<l n='46'>How they beare armes against their soveraigne.</l>
+<l n='47'>Goe call the English Agent hether strait,</l>
+<l n='48'>Ile send my sister <name>England</name> newes of this,</l>
+<l n='49'>And give her warning of her trecherous foes.</l>
+</sp>
+
+<stage type="entrance">[Enter <name>Surgeon</name>.]</stage>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='50'>Pleaseth your grace to let the Surgeon search your
+<!--var:#ye] you Ch, Ox, R, C#-->
+wound.</l><l/>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='51'>The wound I warrant <app>
+<lem>ye</lem>
+<rdg wit="Ch Ox R C">you</rdg>
+</app> is deepe my Lord,</l>
+<l n='52'>Search Surgeon and resolve me what thou seest.</l>
+<stage type="business">The <name>Surgeon</name> searcheth.</stage>
+<stage type="entrance">Enter the <name>English
+Agent</name>.</stage>
+<l n='53'>Agent for <name>England</name>, send thy mistres word,</l>
+<l n='54'>What this detested Jacobin hath done.</l>
+<l n='55'>Tell her for all this that I hope to live,</l>
+<!--var:#wrack,] ~ .#-->
+<!--var:#and] an Ch, Ox, R#-->
+
+<!--var:#his] <I>omit</I>  O1, Ch, Ox, R, TB, Ri, Rv; th' D, C, B, M#-->
+<l n='56'>Which if I doe, the Papall Monarck goes</l>
+<l n='57'>To wrack<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app> <app>
+<lem>and</lem>
+<rdg wit="Ch Ox R">an </rdg>
+</app> <app>
+<lem>his</lem>
+<rdg wit="O1 Ch Ox R TB Ri Rv"/>
+<rdg wit="D C B M">th'</rdg>
+</app> antechristian kingdome falles.</l>
+<l n='58'>These bloudy hands shall teare his triple Crowne,</l>
+<!--var:#inforse] incense O1, Ch, Ox, R, D1 (<I>qy enforce</I>)#-->
+<l n='59'>And fire accursed <name>Rome</name> about his eares.</l>
+<!--var:#lowly] holy O1, Ch, Ox, R, TB, Rv#-->
+<l n='60'>Ile fire his erased buildings and <app>
+<lem>inforse</lem>
+<rdg wit="O1 Ch Ox R D1">incense</rdg>
+<rdg wit="D1" type="qy">enforce</rdg>
+</app></l>
+<l n='61'>The papall towers to kisse the <app>
+<lem>lowly</lem>
+<rdg wit="O1 Ch Ox R TB Rv">holy</rdg>
+</app> earth.</l>
+<!--var:#that] this Ch, Ox, R, C#-->
+<l n='62'><name>Navarre</name>, give me thy hand, I heere do sweare,</l>
+<l n='63'>To ruinate <app>
+<lem>that</lem>
+<rdg wit="Ch Ox R C">this</rdg>
+</app> wicked Church of <name>Rome</name>,</l>
+<l n='64'>That hatcheth up such bloudy practices.</l>
+<!--var:#specially] especially Ch, Ox, R#-->
+<l n='65'>And heere protest eternall love to thee,</l>
+<!--var:#Papestry] Popery Ch, Ox, R, C#-->
+<l n='66'>And to the Queene of <name>England</name> <app>
+<lem>specially</lem>
+<rdg wit="Ch Ox R">especially</rdg>
+</app>,</l>
+<!--var:#comforts] comfort Ch, Ox, R, D, C, B, Ri#-->
+<l n='67'>Whom God hath blest for hating <app>
+<lem>Papestry</lem>
+<rdg wit="Ch Ox R C">Popery</rdg>
+</app>.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='68'>These words revive my thoughts and <app>
+<lem>comforts</lem>
+<rdg wit="Ch Ox R D C B Ri">comfort</rdg>
+</app> me,</l>
+<l n='69'>To see your highnes in this vertuous minde.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='70'>Tell me Surgeon, shall I live?</l>
+</sp>
+
+<sp who="surg"><speaker>Surgeon</speaker>
+<l n='71'>Alas my Lord, the wound is dangerous,</l>
+<!--var:#knife? what,] ~ , ~ ^#-->
+
+<l n='72'>For you are stricken with a poysoned knife.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='73'>A poysoned knife<app>
+<lem>?</lem>
+<rdg wit="O1">,</rdg>
+</app> what<app>
+<lem>,</lem>
+<rdg wit="O1"/>
+</app> shall the French king dye,</l>
+<l n='74'>Wounded and poysoned, both at once?</l>
+</sp>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='75'>O that that damned villaine were alive againe,</l>
+<l n='76'>That we might torture him with some new found death.</l>
+</sp>
+
+<sp who="bart"><speaker>Bartus</speaker>
+<l n='77'>He died a death too good, the devill of hell</l>
+<!--var:#Ah] Oh Ch, Ox, R, C#-->
+<!--var:#sith] since Ch, Ox, R#-->
+<l n='78'>Torture his wicked soule.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='79'><app>
+<lem>Ah</lem>
+<rdg wit="Ch Ox R C">Oh</rdg>
+</app> curse him not <app>
+<lem>sith</lem>
+<rdg wit="Ch Ox R">since</rdg>
+</app> he is dead.</l>
+<l n='80'>O the fatall poyson workes within my brest,</l>
+<l n='81'>Tell me Surgeon and flatter not, may I live?</l>
+</sp>
+
+<sp who="surg"><speaker>Surgeon</speaker>
+<l n='82'>Alas my Lord, your highnes cannot live.</l>
+</sp>
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='83'>Surgeon, why saist thou so? the King may live.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='84'>Oh no <name>Navarre</name>, thou must be King of
+<name>France</name>.</l>
+</sp>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='85'>Long may you live, and still be King of <name>France</name>.</l>
+</sp>
+
+<sp who="eper"><speaker>Epernoune</speaker>
+<l n='86'>Or else dye <name>Epernoune</name>.</l>
+</sp>
+
+<sp who="king"><speaker>King</speaker>
+<l n='87'>Sweet <name>Epernoune</name> thy King must dye. My Lords,</l>
+<l n='88'>Fight in the quarrell of this valiant Prince,</l>
+<l n='89'>For he is your lawfull King and my next heire:</l>
+<l n='90'><name>Valoyses</name> lyne ends in my tragedie.</l>
+<l n='91'>Now let the house of <name>Bourbon</name> weare the
+crowne,</l>
+<l n='92'>And may it never end in bloud as mine hath done.</l>
+<l n='93'>Weep not sweet <name>Navarre</name>, but revenge my
+death.</l>
+<l n='94'>Ah <name>Epernoune</name>, is this thy love to me?</l>
+<l n='95'><name>Henry</name> thy King wipes of these childish teares,</l>
+<l n='96'>And bids thee whet thy sword on <name>Sextus</name>
+bones,</l>
+<!--var:#not] not the best Ch, Ox, R, D1; not the most D2, C, M#-->
+<l n='97'>That it may keenly slice the Catholicks.</l>
+<l n='98'>He loves me not <app>
+<rdg wit="Ch Ox R D1">the best</rdg>
+<rdg wit="D2 C M">the most</rdg>
+</app> that sheds most teares,</l>
+<!--var:#lurke.] ~ ,#-->
+<l n='99'>But he that makes most lavish of his bloud.</l>
+<l n='100'>Fire Paris where these trecherous rebels lurke<app>
+<lem>.</lem>
+<rdg wit="O1">,</rdg>
+</app></l>
+<l n='101'>I dye <name>Navarre</name>, come beare me to my
+Sepulchre.</l>
+<l n='102'>Salute the Queene of <name>England</name> in my name,</l>
+<!--var:#King,] ~ .#-->
+<l n='103'>And tell her <name>Henry</name> dyes her faithfull freend.	</l>
+</sp>	<stage type="business">He dyes.</stage>
+
+<sp who="nava"><speaker>Navarre</speaker>
+<l n='104'>Come Lords, take up the body of the King<app>
+<lem>,</lem>
+<rdg wit="O1">.</rdg>
+</app></l>
+<!--var:#for] so Ch, Ox, R, D, C, B, M#-->
+<l n='105'>That we may see it honourably interde:</l>
+<!--var:#As] That Ch, Ox, R#-->
+<l n='106'>And then I vow <app>
+<lem>for</lem>
+<rdg wit="Ch Ox R D C B M">so</rdg>
+</app> to revenge his death,</l>
+<l n='107'><app>
+<lem>As</lem>
+<rdg wit="Ch Ox R">That</rdg>
+</app> <name>Rome</name> and all those popish Prelates there,</l>
+<l n='108'>Shall curse the time that ere <name>Navarre</name> was King,</l>
+<l n='109'>And rulde in <name>France</name> by <name>Henries</name>
+fatall death.</l>
+</sp>
+
+<stage type="mixed">They march out with the body of the
+<name>King</name>, lying on foure mens shoulders with a dead
+march, drawingg weapons on the ground.</stage>
+
+</div>
+<!--trailer omitted-->
+</body>
+</text>
+</TEI><!--var:,1,19-21:O1 <I>lines</I> : We...rest, With...company.--><!--var:,1,24-5:<I>One line in</I>  O1--><!--var:,1,47-8:Cardinall^...brother,] ~ ,...~ ^--><!--var:,11,587.1:<I>Exeunt. Ezeunt.</I>--><!--var:,12,587.1, 588, 598:le] la O1--><!--var:,12,587.4:<I>crownd</I>] crownd--><!--var:,12,625-6:<I>One line in</I>  O1--><!--var:,12,652-3:diadem. ...will:] ~ :...~ .--><!--var:,12,663:But] but--><!--var:,13,672-3:<I>Prose in</I>  O1<I>but lined</I>  reads | my--><!--var:,13,675-6:<I>Prose in</I>  O1<I>but lined</I>  must | partake--><!--var:,14,783:of] <I>omit</I>  Ch, Ox, R, C--><!--var:,15,744-5:readines,...<I>Navarre</I> :] ~:...~ ,--><!--var:,15,752-3, 754-6:<I>Prose in</I>  O1--><!--var:,15,760-1:O1 <I>lines</I> : And...in | Christendome...derision:--><!--var:,15,783-6:<I>Prose in</I>  O1--><!--var:,16,800-1:last:...force,] ~ ,...~ :--><!--var:,17,806-8:O1 <I>lines</I> : Sir...cuckolde, | And...although |--><!--var:,17,821-4:<I>Prose in</I>  O1--><!--var:,17,871-5:O1 <I>lines</I> : But...highnesse, | Seene... Paris, |
+And...shewes | Did...commaund:--><!--var:,17,886-7:<I>One line in</I>  O1--><!--var:,18,914.1:O1 <I>places after line</I>  913--><!--var:,18,930.1:<I>Exit.</I>] <I>Exeunt.</I>--><!--var:,19,1016-19:<I>Prose in</I>  O1--><!--var:,19,1052-3:<I>Prose in</I>  O1--><!--var:,19,1062-3:<I>Prose in</I>  O1--><!--var:,19,959-60:<I>One line in</I>  O1--><!--var:,19,977-8:<I>One line in</I>  O1--><!--var:,19,987-8:<I>One line in</I>  Ol--><!--var:,19,990, 992, 994:<I>3</I>.] <I>Mur</I>.#<I>3.</I>]
+<I>Murderer.</I> Ch, Ox, R, C, B--><!--var:,19,996-1000:<I>Prose in</I>  O1 <I>except</I>  I am
+Duke...<I>begins new separate line</I>--><!--var:,2,145-7:O1  <I>lines</I> : Then...Cardes, | Within...thing:--><!--var:,2,73-4:O1 <I>lines</I> : See...Lord, | And...dyes.--><!--var:,20,1098-9:<I>One line in</I>  O1--><!--var:,20,1105-6:<I>One line in</I>  Ol--><!--var:,21,1130-1:O1 <I>lines</I> : Jacobyns | That--><!--var:,22,1167-70:<I>Prose in</I>  O1--><!--var:,22,1174-5:<I>Prose in</I>  O1 <I>but lined</I>  hell, | just--><!--var:,22,1185-7:<I>Prose in</I>  O1--><!--var:,22,1197-8:O1  <I>lines</I> : Which...wrack. | And...falles.--><!--var:,22,1212-13:<I>Prose in</I>  O1--><!--var:,22,1218-22:<I>Prose in</I>  O1--><!--var:,22,1228-9:O1 <I>lines</I> : Sweet...dye. | My...Prince,--><!--var:,4,212-14:O1 <I>lines</I> : Onely...honor, | Knightes...ends.--><!--var:,4,266, 293:<I>Cossin</I>] Cosin O1, TB; Cousin Ch, Ox, R, D, C, B--><!--var:,5,274-5:O1  <I>lines</I>: <I>Anjoy..Retes,</I>  |
+Sweare...burgonets,--><!--var:,5,284-5:<I>One line in</I>  O1--><!--var:,5,287-9:O1 <I>lines</I> : Be...thither, | And...live.--><!--var:,5,307-8:<I>One line in</I>  O1--><!--var:,5,312-13:<I>One line in</I>  O1--><!--var:,5,336-7:<I>One line in</I>  O1--><!--var:,6,355-8:<I>Prose in</I>  O1--><!--var:,7,361,418:Sene] Rene O1--><!--var:,7,367-9, 383-4:<I>Prose in</I>  O1--><!--var:,7,397-8:<I>One line in</I>  O1--><!--var:,7,431-2:<I>One line in</I>  O1--><!--var:,7,434, 436:this] the R--><!--var:,7,445-8:O1 <I>lines</I> : Gonzago...Orleance, | Retes...Roan, |
+And...heresy. | and...rings--><!--var:,9,510-11:<I>One line in</I>  O1-->
