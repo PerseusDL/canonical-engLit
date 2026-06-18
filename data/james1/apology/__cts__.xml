@@ -1,7 +1,4 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
-  groupUrn="urn:cts:engLit:james1"
-  urn="urn:cts:engLit:james1.apology"
-  xml:lang="eng">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:engLit:james1" urn="urn:cts:engLit:james1.apology" xml:lang="eng">
     <ti:title xml:lang="eng">
       The Triplici Nodo, Triplex Cuneus. Or An Apologie For The Oath Of Allegiance.
     </ti:title>
